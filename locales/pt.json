@@ -112,7 +112,7 @@
                         "investors_list": "Lista de investidores adicionados",
                         "show_snipe": "Mostrar lugar/intruso",
                         "show_only_secured_places": "Mostrar apenas lugares seguros",
-                        "display_card": "Exibir a tabela no modo de exibição caixa? (na tela pequena)"
+                        "display_card": "Exibir a tabela no modo de exibição caixa? (em tela pequena)"
                     },
                     "table": {
                         "title": "$t({{gb_key}}) nível {{doNivel, numero}} → {{nível, numero}}",
@@ -320,7 +320,7 @@
                         "th3": "$t(components.trade.label.i_want)",
                         "th4": "Resultado",
                         "split": "Dividido",
-                        "ratio": "Racio"
+                        "ratio": "Rácio"
                     }
                 },
                 "slpit": "Dividir as ofertas?",
@@ -363,7 +363,7 @@
                     "select_gb_style": "Estilo do selector do GE",
                     "select_gb_style_mode": {
                         "datalist": "Auto completar",
-                        "select": "Selecione (legado)"
+                        "select": "Seleccione (legado)"
                     },
                     "day_night": "Tema",
                     "day_night_mode": {
@@ -399,7 +399,7 @@
                 "action": "Acção",
                 "actions": {
                     "create": "Crie um novo modelo",
-                    "update": "Actualizar para um  modelo existente",
+                    "update": "Actualizar para um modelo existente",
                     "delete": "Excluir um modelo existente"
                 },
                 "start_from_template": "Começar de um modelo?",
@@ -423,7 +423,7 @@
                 "place_preview": "Previsão do lugar ( 1º lugar)",
                 "message_builder": "Construtor de mensagem",
                 "message_preview": "Visualização da mensagem",
-                "place_builder_title": "Construtor do lugar ",
+                "place_builder_title": "Construtor do lugar",
                 "message_builder_title": "Construtor de mensagem",
                 "available_variables": "Variáveis disponíveis:",
                 "variables": {
@@ -433,20 +433,20 @@
                         "PP": "$t(components.gb_investment.gb_investment.table.thead.th3)"
                     },
                     "message": {
-                        "FLVL": "Do nível ",
+                        "FLVL": "Do nível",
                         "TLVL": "Para o nível",
-                        "GBN": "Nome do GE ",
+                        "GBN": "Nome do GE",
                         "P": "Lugares",
                         "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
                         "PPx": "Numero de PF's colocados pelo dono para o lugar \"x\"(sendo \"x\" de 1 a 5)",
-                        "LF": "Adicionar Linha, adicione uma nova linha "
+                        "LF": "Adicionar Linha, adicione uma nova linha"
                     }
                 },
                 "template_name": "Nome do modelo",
                 "errors": {
-                    "template_cannot_have_this_name": "O Modelo  não pode ter este nome. Por favor use outro nome.",
-                    "custom_name_empty": "Este campo não pode estar vazio",
-                    "custom_name_already_exists": "Este nome já existe "
+                    "template_cannot_have_this_name": "O Modelo não pode ter este nome. Por favor use outro nome.",
+                    "custom_name_empty": "Este campo não pode estar vazio.",
+                    "custom_name_already_exists": "Este nome já existe ."
                 },
                 "template_saved": "Modelo guardado",
                 "template_updated": "Modelo actualizado",
@@ -454,7 +454,7 @@
             },
             "import_promotion_message": {
                 "title": "Importar mensagem de promoção",
-                "config_placeholder": "Cole a  sua configuração aqui",
+                "config_placeholder": "Cole a sua configuração aqui",
                 "errors": {
                     "invalid_data": "Dados inválidos"
                 },
@@ -471,23 +471,23 @@
                     "title": "Informação geral",
                     "p1_html": "Forge of Empires, FOE e todas as marcas e conteúdos relacionados pertencem à InnoGames GmbH. <br/>$t(common:site_title) é um site de terceiros não oficial e não é afiliado à InnoGames.",
                     "p2_html": "$t(common:site_title) este site foi criado pelo jogador francês <strong class=\"has-text-weight-semibold\">Yoratheon </strong>.",
-                    "p3_html": "O site é OpenSource, o código está disponível gratuitamente em $t(common:links.github). <br/>Assim, todos com os conhecimentos  necessários podem participar da melhoria deste site."
+                    "p3_html": "O site é OpenSource, o código está disponível gratuitamente em $t(common:links.github). <br/>Assim, todos com os conhecimentos necessários podem participar da melhoria deste site."
                 },
                 "cookie": {
                     "title": "Cookies",
-                    "p1": "Para melhorar o seu  uso, o site usa cookies.",
+                    "p1": "Para melhorar o seu uso, o site usa cookies.",
                     "table_message": "A tabela abaixo mostra todos os cookies usados neste site.",
                     "info": {
                         "cookieDisclaimerDisplayed": "Mostra se você leu a mensagem informativa sobre o uso de cookies",
-                        "gbi_tab": "Parâmetro global para \"$t(routes.gb_investment_gb_chooser.hero.title)\" indica qual guia carregar por defeito (\n$t(routes.gb_investment.tab.owner_view.title)",
+                        "gbi_tab": "Parâmetro global para \"$t(routes.gb_investment_gb_chooser.hero.title)\" indica qual guia carregar por defeito (\n$t(routes.gb_investment.tab.owner_view.title).",
                         "gbPrefix": "Parâmetro global para \"$t(routes.gb_investment_gb_chooser.hero.title)\" que contém o prefixo da mensagem de promoção",
                         "gbSuffix": "Parâmetro global para \"$t(routes.gb_investment_gb_chooser.hero.title)\" que contém o sufixo da mensagem de promoção",
                         "locale": "Mostrar idioma",
                         "shortName": "Parâmetro global para \"$t(routes.gb_investment_gb_chooser.hero.title)\" que indica se é necessário exibir o nome abreviado do GE para a mensagem de promoção",
                         "showLevel": "Parâmetro global para \"$t(routes.gb_investment_gb_chooser.hero.title)\" que indica se é necessário exibir o nível de GE da mensagem de promoção",
                         "yourArcBonus": "Configuração global do bónus da Arca",
-                        "yourCfBoost": "Configuração global  do bónus do Château Frontenac",
-                        "haveReadTipAboutAddInvestor": "Indica se você leu a mensagem informativa sobre o modo para usar a entrada adicionar  contribuidores",
+                        "yourCfBoost": "Configuração global do bónus do Château Frontenac",
+                        "haveReadTipAboutAddInvestor": "Indica se você leu a mensagem informativa sobre o modo para usar a entrada adicionar contribuidores",
                         "dayNightMode": "Indica qual modo Dia / Noite que esta a usar",
                         "dayStart": "Hora usada para o início do dia (usada em \"$t(components.site_layout.day_night.Auto)\")",
                         "nightStart": "Hora usada para o início da noite (usada em \"$t(components.site_layout.day_night.Auto)\")",
@@ -508,10 +508,10 @@
                         "ownerInvestment": "$t(components.gb_investment.gb_investment.table.thead.th3)",
                         "showPx": "Indica se deseja mostrar o local na mensagem de promoção",
                         "takingPlaceInConsideration": "Na tabela \"$t(routes.gb_investment.tab.investors_view.title)\" de \"$t(routes.gb_investment_gb_chooser.hero.title)\", indica se os outros locais devem ser considerados no cálculo",
-                        "targetLevel": "Na tabela \"$t(routes.gb_investment.tab.investors_view.title)\" de \"$t(routes.gb_investment_gb_chooser.hero.title)\", indica em qual nível exibir as informações.",
+                        "targetLevel": "Na tabela \"$t(routes.gb_investment.tab.investors_view.title)\" de \"$t(routes.gb_investment_gb_chooser.hero.title)\", indica em qual nível exibir as informações",
                         "displayGbName": "Indica se deseja mostrar o nome do GE na mensagem de promoção",
-                        "investorParticipation": "Contém uma lista de todos os investidores ",
-                        "displayTableCard": "Indique se deseja mostrar a tabela em \"$t(routes.gb_investment_gb_chooser.hero.title)\" no modo simples (tabela) ou na exibição de cartão na tela pequena",
+                        "investorParticipation": "Contém uma lista de todos os investidores",
+                        "displayTableCard": "Indique se deseja mostrar a tabela em \"$t(routes.gb_investment_gb_chooser.hero.title)\" no modo simples (tabela) ou em tela pequena",
                         "from": "Nível por onde começar a matriz (usado na guia \"$t(routes.gb_investment.tab.investors_view.title)\" de \"$t(routes.gb_investment_gb_chooser.hero.title)\")",
                         "to": "Nível para finalizar a matriz (usado na guia \"$t(routes.gb_investment.tab.investors_view.title)\" de \"$t(routes.gb_investment_gb_chooser.hero.title)\")",
                         "showPlace": "Uma matriz que contém se deve mostrar um local ou não (usado na guia \"$t(routes.gb_investment.tab.investors_view.title)\" de \"$t(routes.gb_investment_gb_chooser.hero.title)\")",
@@ -523,14 +523,14 @@
                         "customPromotionMessagesTemplates": "Contém toda a sua mensagem de promoção personalizada",
                         "gbShowPrefix": "Indica se você deseja mostrar o prefixo em mensagens de promoção",
                         "gbShowSuffix": "Indica se você deseja mostrar o sufixo nas mensagens de promoção",
-                        "lastVisitVersion": "Contém a versão do site da sua última visita"
+                        "lastVisitVersion": "Contém a versão do site desde da  sua última visita"
                     }
                 },
                 "dev_info": {
                     "title": "Informação de desenvolvimento",
                     "p1": "O site é um site estático simples hospedado no GitHub.",
                     "p2_html": "O desenvolvimento é feito em Node.js usando $t(common:links.framework). O estilo é feito usando $t(common:links.style).",
-                    "p3_html": "An idea of functionality ? A problem ? Feel free to create an issue on $t(common:links.github) or send me an email (in English or in French) at $t(common:links.contact_foe_tools).",
+                    "p3_html": "Queres acrescentar uma funcionalidade ? Notas te algum problema?Podes criar um ticket em $t(common:links.github) or send me an email (in English or in French) at $t(common:links.contact_foe_tools).",
                     "message_info_github_issue": "<b>Nota: </b>Com relação a problemas no GitHub, certifique-se de escrevê-los em inglês para facilitar o entendimento para o maior número possível de pessoas."
                 }
             },
@@ -544,8 +544,8 @@
             "cf_calculator": {
                 "title": "$t(routes.cf_calculator.hero.title)| $t(common:site_title)",
                 "hero": {
-                    "title": "Calculadora do  Château Frontenac",
-                    "subtitle": "Uma ferramenta que ajuda a previsão de produtos e produções de FP ao  missões  recorrentes e missões de festa de aniversário (Rinbin)."
+                    "title": "Calculadora do Château Frontenac",
+                    "subtitle": "Uma ferramenta que ajuda a previsão de produtos e produções de pf das missões  recorrentes e missões de festa de aniversário (Rinbin)."
                 }
             },
             "changelog": {
@@ -554,7 +554,7 @@
             "contributors": {
                 "title": "$t(routes.contributors.hero.title) $t(common:site_title)",
                 "hero": {
-                    "title": "Contribuidores ",
+                    "title": "Contribuidores",
                     "subtitle": "Esta página tenta listar todos os contribuidores"
                 }
             },
@@ -575,31 +575,31 @@
             "gb_investment_gb_chooser": {
                 "title": "$t(routes.gb_investment_gb_chooser.hero.title)| $t(common:site_title)",
                 "hero": {
-                    "title": "Investimento do  GE",
+                    "title": "Investimento do GE",
                     "subtitle": "Esta ferramenta torna possível calcular o número de pontos que um jogador deve colocar no seu GE para garantir os 5 primeiros lugares com o bónus da arca."
                 },
                 "choose_gb": {
-                    "title": "Escolha um Grande Edifício "
+                    "title": "Escolha um Grande Edifício"
                 }
             },
             "gb_forecast_cost": {
                 "title": "$t(routes.gb_forecast_cost.hero.title)| $t(common:site_title)",
                 "hero": {
                     "title": "Previsão de custos do GE",
-                    "subtitle": "Esta ferramenta permite calcular  o número de PFs para ir de um nível para outro de um GE, com ou sem os bónus da Arca."
+                    "subtitle": "Esta ferramenta permite calcular o número de PFs para ir de um nível para outro de um GE, com ou sem os bónus da Arca."
                 }
             },
             "gb_statistics": {
                 "title": "$t(routes.gb_statistics.hero.title)| $t(common:site_title)",
                 "hero": {
-                    "title": "Estatísticas do GE ",
+                    "title": "Estatísticas do GE",
                     "subtitle": "Esta ferramenta permite visualizar gráficos sobre a evolução dos custos do GE pelas Eras ."
                 }
             },
             "secure_position": {
                 "title": "$t(routes.secure_position.hero.title)| $t(common:site_title)",
                 "hero": {
-                    "title": "Segurar o lugar ",
+                    "title": "Segurar o lugar",
                     "subtitle": "Esta ferramenta calcula o número de PFs que um jogador deve colocar em um GE para bloquear o lugar."
                 }
             },
@@ -624,11 +624,11 @@
                 "title": "$t(routes.help_to_translate_the_site.hero.title)| $t(common:site_title)",
                 "hero": {
                     "title": "Ajude a traduzir o site",
-                    "subtitle": "Junta te  à equipe de tradução"
+                    "subtitle": "Junta te à equipe de tradução"
                 },
-                "p1": "Sua língua  não está disponível, a tradução está incompleta ou contém erros? Sinta-se à vontade para participar na equipe de tradução do site.",
+                "p1": "Se a sua língua não está disponível, a tradução está incompleta ou contém erros? Sinta-se à vontade para participar na equipe de tradução do site.",
                 "how_to_join_the_team": "Como se juntar à equipe?",
-                "p2_html": "$t(common:site_title) é traduzido pelos jogadores. Usamos a plataforma $t(common:links.translation_platform) para facilitar o processo de tradução. Para participar da equipe, envie um e-mail (em inglês) para $t(common:links.contact_foe_tools) especificando o (s) idioma (s) para o qual você pode traduzir para que possamos enviar um convite.",
+                "p2_html": "$t(common:site_title) é traduzido pelos jogadores. Usamos a plataforma $t(common:links.translation_platform) para facilitar o processo de tradução. Para participar da equipe, envie um e-mail (em inglês) para $t(common:links.contact_foe_tools) especificando o (s) idioma (s) para o qual você pode traduzir para que possamos enviar um convite",
                 "state_of_translation": "Estado da tradução :"
             },
             "survey": {
@@ -649,8 +649,8 @@
                     "subtitle": "Entre em contacto com o administrador $t(common:site_title)"
                 },
                 "message_contact_html": "Tem uma ideia para uma nova funcionalidade? Um problema ? Sinta-se à vontade para  enviar um e-mail (em inglês ou francês) em $t(common:links.contact_foe_tools).",
-                "message_translate": "Você sabia que você também pode ajudar a traduzir o site? Siga o link  para mais informações:",
-                "message_other_info_html": "Se você é desenvolvedor, também pode criar uma situação  (e contribuir para o desenvolvimento do site) em $t(common:links.github)."
+                "message_translate": "Você sabia que você também pode ajudar a traduzir o site? Siga o link para mais informações:",
+                "message_other_info_html": "Se você é desenvolvedor, também pode criar uma situação (e contribuir para o desenvolvimento do site) em $t(common:links.github)."
             },
             "error": {
                 "404": {
@@ -672,20 +672,20 @@
         "foe_data": {
             "age": {
                 "Oracle": "$t(foe_data.age.NoAge) ($t(foe_data.gb.Oracle_of_Delphi))",
-                "NoAge": "Sem Era ",
+                "NoAge": "Sem Era",
                 "BronzeAge": "Idade do Bronze",
-                "IronAge": "Idade do Ferro ",
-                "EarlyMiddleAges": "Inicio da Idade Média ",
+                "IronAge": "Idade do Ferro",
+                "EarlyMiddleAges": "Inicio da Idade Média",
                 "HighMiddleAges": "Alta Idade Média",
-                "LateMiddleAges": "Finais da Idade Média ",
+                "LateMiddleAges": "Finais da Idade Média",
                 "ColonialAge": "Era Colonial",
-                "IndustrialAge": "Era Industrial ",
+                "IndustrialAge": "Era Industrial",
                 "ProgressiveEra": "Era Progressiva",
                 "ModernEra": "Era moderna",
                 "PostmodernEra": "Era Pós-Moderna",
                 "ContemporaryEra": "Era Contemporânea",
-                "Tomorrow": "O Amanha ",
-                "TheFuture": "O futuro",
+                "Tomorrow": "O Amanhã",
+                "TheFuture": "O Futuro",
                 "ArcticFuture": "O Futuro  Árctico",
                 "OceanicFuture": "Futuro Oceânico",
                 "VirtualFuture": "Futuro Virtual",
@@ -1288,11 +1288,11 @@
                 },
                 "population": {
                     "name": "População",
-                    "gb_description": "Bónus permanente de população "
+                    "gb_description": "Bónus permanente de população."
                 },
                 "happiness": {
                     "name": "Felicidade",
-                    "gb_description": "Bónus permanente de felicidade "
+                    "gb_description": "Bónus permanente de felicidade."
                 },
                 "quest_reward_boost": {
                     "name": "Reforço da Recompensa da Missão",
@@ -1308,7 +1308,7 @@
                 },
                 "support_pool_bonus": {
                     "name": "Bonificação da Pool de Apoio",
-                    "gb_description": "A guilda recebe pool de apoio.Aumenta a cada nível.\n"
+                    "gb_description": "A guilda recebe pool de apoio,aumenta a cada nível."
                 },
                 "aid_goods": {
                     "name": "Mercadorias de Auxílio",
@@ -1316,7 +1316,7 @@
                 },
                 "plunder_goods": {
                     "name": "Mercadorias de Saque ",
-                    "gb_description": "Nas primeiras vezes que saqueias um edifício, recebes uma mercadoria aleatória da era desse edifício"
+                    "gb_description": "Nas primeiras vezes que saqueias um edifício, recebes uma mercadoria aleatória da era desse edifício."
                 },
                 "contribution_boost": {
                     "name": "Reforço Contributivo",

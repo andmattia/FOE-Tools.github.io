@@ -180,7 +180,7 @@ export const getters = {
 
 export const actions = {
   ...make.actions(state),
-  nuxtServerInit: /* istanbul ignore next */ async function(elt) {
+  nuxtServerInit: /* istanbul ignore next */ async function(context) {
     let urlParam = "";
     if (
       this.$cookies.get("survey") &&
@@ -191,15 +191,7 @@ export const actions = {
     }
     const { data } = await this.$axios.get(`${process.env.surveyURL}${urlParam}`);
     if (data && data instanceof Array) {
-      elt.set("survey", data);
-    }
-
-    if (
-      this.$cookies.get("customPromotionMessagesTemplates") &&
-      this.$cookies.get("customPromotionMessagesTemplates") instanceof Array &&
-      this.$cookies.get("customPromotionMessagesTemplates").length
-    ) {
-      elt.set("promotionMessageTemplates@custom", this.$cookies.get("customPromotionMessagesTemplates"));
+      context.dispatch("setSurvey", data);
     }
   }
 };

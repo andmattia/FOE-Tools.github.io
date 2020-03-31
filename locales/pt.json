@@ -1,7 +1,7 @@
 {
     "translation": {
         "main_menu": {
-            "home": "Casa",
+            "home": "Home",
             "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
             "secure_position": "$t(routes.secure_position.hero.title)",
             "cf_calculator": "$t(routes.cf_calculator.hero.title)",
@@ -419,7 +419,7 @@
                 "use_short_name": "$t(components.gb_investment.gb_investment.use_short_name)",
                 "reverse_place_order": "Quer reverter a ordem dos lugares ?",
                 "place_separator": "Coloque o separador",
-                "place_builder": "Construtor do lugar ",
+                "place_builder": "Construtor do lugar",
                 "place_preview": "Previsão do lugar ( 1º lugar)",
                 "message_builder": "Construtor de mensagem",
                 "message_preview": "Visualização da mensagem",
@@ -439,7 +439,8 @@
                         "P": "Lugares",
                         "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
                         "PPx": "Numero de PF's colocados pelo dono para o lugar \"x\"(sendo \"x\" de 1 a 5)",
-                        "LF": "Adicionar Linha, adicione uma nova linha"
+                        "LF": "Adicionar Linha, adicione uma nova linha",
+                        "LC": "Custo do nível"
                     }
                 },
                 "template_name": "Nome do modelo",
@@ -714,7 +715,7 @@
             "gb": {
                 "Observatory": "Observatório",
                 "Temple_of_Relics": "Templo das relíquias",
-                "Oracle_of_Delphi": "Oráculo de  Delphi",
+                "Oracle_of_Delphi": "Oráculo de Delphi",
                 "Tower_of_Babel": "Torre de babel",
                 "Statue_of_Zeus": "Estátua de Zeus",
                 "Colosseum": "Coliseu",
@@ -725,13 +726,13 @@
                 "Notre_Dame": "Notre Dame",
                 "Saint_Basil_s_Cathedral": "Catedral de São Basílio",
                 "Castel_del_Monte": "Castelo del Monte",
-                "Deal_Castle": "Castelo de Deal ",
+                "Deal_Castle": "Castelo de Deal",
                 "Frauenkirche_of_Dresden": "Frauenkirche de Dresden",
                 "Capitol": "Capitólio",
                 "Royal_Albert_Hall": "Royal Albert Hall",
                 "Chateau_Frontenac": "Château Frontenac",
                 "Alcatraz": "Alcatraz",
-                "Space_Needle": "Obelisco Espacial ",
+                "Space_Needle": "Obelisco Espacial",
                 "Atomium": "Atomium",
                 "Cape_Canaveral": "Cabo Canaveral",
                 "The_Habitat": "O Habitat",
@@ -744,9 +745,9 @@
                 "Gaea_Statue": "Estátua de Gaia",
                 "Arctic_Orangery": "Laranjal Artico",
                 "Seed_Vault": "Silo Global de Sementes",
-                "Atlantis_Museum": "Museu Atlântida ",
+                "Atlantis_Museum": "Museu Atlântida",
                 "The_Kraken": "O Monstro Marinho",
-                "The_Blue_Galaxy": "Galáxia Azul ",
+                "The_Blue_Galaxy": "Galáxia Azul",
                 "Terracotta_Army": "Exército de Terracota",
                 "Himeji_Castle": "Castelo Himeji",
                 "The_Virgo_Project": "O Projeto Virgem",
@@ -780,7 +781,7 @@
                 "Innovation_Tower": "Ino",
                 "Dynamic_Tower": "TD",
                 "Voyager_V1": "Viajante",
-                "The_Arc": "Arca ",
+                "The_Arc": "Arca",
                 "Rain_Forest_Project": "PFT",
                 "Gaea_Statue": "Gaia",
                 "Arctic_Orangery": "LA",
@@ -832,7 +833,7 @@
                 "asbestos": "Amianto",
                 "explosives": "Explosivos",
                 "gasoline": "Gasolina",
-                "machine_parts": "Peças de  máquina",
+                "machine_parts": "Peças de máquina",
                 "tinplate": "Folha de Flandres",
                 "convenience_food": "Comida Industrializada",
                 "ferroconcrete": "Betão Armado",
@@ -861,11 +862,11 @@
                 "superconductors": "Supercondutores",
                 "ai_data": "Dados da I.A.",
                 "bioplastics": "Bioplásticos",
-                "nanowire": "Nanotubos de Carbono ",
-                "paper_batteries": "Baterias de Filme de Papel ",
+                "nanowire": "Nanotubos de Carbono",
+                "paper_batteries": "Baterias de Filme de Papel",
                 "transester_gas": "Gás Transesterificado",
-                "artificial_scales": "Escamas Artificiais ",
-                "biolight": "Bioluz ",
+                "artificial_scales": "Escamas Artificiais",
+                "biolight": "Bioluz",
                 "corals": "Corais",
                 "pearls": "Pérolas",
                 "plankton": "Plâncton",
@@ -1230,7 +1231,7 @@
                     "name": "Mercadoria"
                 },
                 "special_good": {
-                    "name": "Mercadorias Especiais "
+                    "name": "Mercadorias Especiais"
                 },
                 "good_bonus": {
                     "name": "Bónus de produção"
@@ -1248,7 +1249,7 @@
                     "name": "Torre PvP"
                 },
                 "blueprint": {
-                    "name": "Planta "
+                    "name": "Planta"
                 },
                 "military_boost": {
                     "name": "Reforço Militar",
@@ -1267,7 +1268,7 @@
                     "gb_description": "Aumenta o resultado de seus edifícios de produção, produtividade, a motivação e outros aumentos na oferta."
                 },
                 "good_production": {
-                    "name": "Produção de Mercadorias ",
+                    "name": "Produção de Mercadorias",
                     "gb_description": "Produz mercadorias aleatórias da era do jogador a cada 24 horas. A partir da Era Moderna passa a produzir o dobro, mas de mercadorias não refinadas."
                 },
                 "medal_production": {
@@ -1315,7 +1316,7 @@
                     "gb_description": "Nas primeiras vezes que auxilias um edifício, recebes uma mercadoria aleatória da era desse edifício."
                 },
                 "plunder_goods": {
-                    "name": "Mercadorias de Saque ",
+                    "name": "Mercadorias de Saque",
                     "gb_description": "Nas primeiras vezes que saqueias um edifício, recebes uma mercadoria aleatória da era desse edifício."
                 },
                 "contribution_boost": {
@@ -1352,7 +1353,7 @@
                 },
                 "exploration_site": {
                     "name": "Local de Exploração",
-                    "gb_description": "---"
+                    "gb_description": "\"---\""
                 }
             }
         },
@@ -1411,7 +1412,7 @@
                 "day_plural": "{{count}} dias"
             },
             "graph": {
-                "gb_level": "Nível ",
+                "gb_level": "Nível",
                 "gb_level_cost": "Custo do nível",
                 "gb_reward_1st_place": "Recompensa do nível (1º lugar)"
             },
@@ -1433,30 +1434,30 @@
             "eventOrganizing": "Organização de Eventos",
             "example": "Exemplos",
             "financial": "Financeiro",
-            "fundingFinding": "Financiamento ",
+            "fundingFinding": "Financiamento",
             "ideas": "Ideias, planeamento e feedback",
             "infra": "Infraestrutura (Hosting, Build-Tools, etc)",
             "platform": "Compactar,mover para nova plataforma",
             "plugin": "Bibliotecas de plugins / utilitários",
             "question": "Responder a Questões",
-            "review": "Revisão de Pedidos ",
+            "review": "Revisão de Pedidos",
             "talk": "Conversas",
             "test": "Testes",
             "tool": "Ferramentas",
             "translation": "Tradução",
             "tutorial": "Tutoriais",
             "video": "Vídeos",
-            "data": "Adicionar ou actualizar dados ",
+            "data": "Adicionar ou actualizar dados",
             "inspired_tool": "Ferramenta inspirada pelo seu trabalho",
             "creator": "Criador deste projecto"
         },
         "seo": {
             "keywords": {
                 "gb": "ge",
-                "great_building": "grande edifício ",
+                "great_building": "grande edifício",
                 "fp": "pf",
                 "forge_point": "pontos forge",
-                "medals": "Medalhas ",
+                "medals": "Medalhas",
                 "military_units": "unidades militares"
             }
         }

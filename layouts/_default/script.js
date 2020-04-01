@@ -343,7 +343,6 @@ export default {
       let currentProfile = {
         gbShowPrefix: true,
         gbShowSuffix: true,
-        displayTableCard: false,
         showOnlySecuredPlaces: false,
         displayGbName: true,
         promotionMessageList: defaultPromotionMessages,

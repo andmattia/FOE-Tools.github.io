@@ -159,6 +159,7 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
 export const defaultPromotionMessages = [
   {
     name: "Default 0",
+    id: "Default 0",
     config: {
       prefix: "",
       suffix: "",
@@ -173,6 +174,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 1",
+    id: "Default 1",
     config: {
       prefix: "",
       suffix: "",
@@ -187,6 +189,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 2",
+    id: "Default 2",
     config: {
       prefix: "",
       suffix: "",
@@ -201,6 +204,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 3",
+    id: "Default 3",
     config: {
       prefix: "",
       suffix: "",
@@ -215,6 +219,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 4",
+    id: "Default 4",
     config: {
       prefix: "",
       suffix: "",
@@ -229,6 +234,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 5",
+    id: "Default 5",
     config: {
       prefix: "",
       suffix: "",
@@ -243,6 +249,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 6",
+    id: "Default 6",
     config: {
       prefix: "",
       suffix: "",
@@ -257,6 +264,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 7",
+    id: "Default 7",
     config: {
       prefix: "",
       suffix: "",
@@ -271,6 +279,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 8",
+    id: "Default 8",
     config: {
       prefix: "",
       suffix: "",
@@ -285,6 +294,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 9",
+    id: "Default 9",
     config: {
       prefix: "",
       suffix: "",
@@ -299,6 +309,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 10",
+    id: "Default 10",
     config: {
       prefix: "",
       suffix: "",
@@ -313,6 +324,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 11",
+    id: "Default 11",
     config: {
       prefix: "",
       suffix: "",

@@ -2,6 +2,7 @@ import yesNo from "~/components/yes-no/YesNo";
 import numberinput from "~/components/number-input/NumberInput";
 import * as PMBuilder from "~/scripts/promotion-message-builder";
 import Observatory from "~/lib/foe-data/gbs-data/Observatory";
+import { v4 as uuidv4 } from "uuid";
 
 const i18nPrefix = "components.promotion_message_builder.";
 const defaultTemplateNameRegex = /Default\s\d+/;
@@ -58,7 +59,7 @@ export default {
       startFromTemplate: "",
       defaultTemplates,
       customTemplates,
-      oldTemplateName: "",
+      IdEditedTemplate: "",
       addFieldName: "",
       addFieldValue: "",
       result: {
@@ -142,14 +143,14 @@ export default {
         this.errors.templateName.message = "";
       }
     },
-    startFromTemplate(templateName) {
-      const tmp = defaultTemplateNameRegex.test(templateName)
-        ? this.defaultTemplates.find(elt => elt.name === templateName).config
-        : this.customTemplates.find(elt => elt.name === templateName).config;
-      this.result = { customFields: {}, ...JSON.parse(JSON.stringify(tmp)) };
-      this.$data.oldTemplateName = templateName;
+    startFromTemplate(templateID) {
+      const tmp = defaultTemplateNameRegex.test(templateID)
+        ? this.defaultTemplates.find(elt => elt.id === templateID)
+        : this.customTemplates.find(elt => elt.id === templateID);
+      this.result = { customFields: {}, ...this.$clone(tmp.config) };
+      this.$data.IdEditedTemplate = templateID;
       if (this.action === "update") {
-        this.$data.templateName = templateName;
+        this.$data.templateName = tmp.name;
       }
     },
     addFieldName(val) {
@@ -185,37 +186,30 @@ export default {
         this.errors.templateName.found = true;
         this.errors.templateName.message = this.$t("utils.errors.field_cannot_be_empty");
         return;
-      } else if (defaultTemplateNameRegex.test(this.templateName)) {
-        this.errors.templateName.found = true;
-        this.errors.templateName.message = this.$t(i18nPrefix + "errors.template_cannot_have_this_name");
-        return;
       } else {
         this.errors.templateName.found = false;
         this.errors.templateName.message = "";
       }
-      let result = this.$clone(
-        this.$store.get(
-          `profile/profiles@[${this.$store.get("global/currentProfile")}].customPromotionMessagesTemplates`
-        )
-      );
+      let result = this.$clone(this.$store.get(`global/customPromotionMessagesTemplates`));
       if (!result) {
         result = [];
       }
+      const ids = this.customTemplates.map(elt => elt.id);
       if (this.action === "update") {
-        let index = this.customTemplates.map(elt => elt.name).indexOf(this.oldTemplateName);
+        let index = ids.indexOf(this.IdEditedTemplate);
         if (index >= 0) {
           // Otherwise, the user try to edit an template that do not exists
-          result[index] = { name: this.templateName, config: this.result };
+          result[index] = { ...this.customTemplates[index], name: this.templateName, config: this.result };
         }
       } else {
-        result.push({ name: this.templateName, config: this.result });
+        let id;
+        do {
+          id = uuidv4();
+        } while (ids.indexOf(id) >= 0);
+        result.push({ id, name: this.templateName, config: this.result });
       }
-      this.$store.set(
-        `profile/profiles@${this.$store.get("global/currentProfile")}.customPromotionMessagesTemplates`,
-        this.$clone(result)
-      );
+      this.$store.set(`global/customPromotionMessagesTemplates`, this.$clone(result));
       this.customTemplates = result;
-      this.$store.set("promotionMessageTemplates@custom", this.$clone(this.customTemplates));
       this.$buefy.notification.open({
         message: this.$t(i18nPrefix + (this.action === "update" ? "template_updated" : "template_saved")),
         type: "is-success",
@@ -226,14 +220,10 @@ export default {
       if (!this.startFromTemplate || !this.startFromTemplate.length) {
         return;
       }
-      const index = this.customTemplates.map(elt => elt.name).indexOf(this.startFromTemplate);
+      const index = this.customTemplates.map(elt => elt.id).indexOf(this.startFromTemplate);
       this.customTemplates.splice(index, 1);
 
-      this.$store.set("promotionMessageTemplates@custom", this.$clone(this.customTemplates));
-      this.$store.set(
-        `profile/profiles@${this.$store.get("global.currentProfile")}.customPromotionMessagesTemplates`,
-        this.$clone(this.customTemplates)
-      );
+      this.$store.set(`global/customPromotionMessagesTemplates`, this.$clone(this.customTemplates));
       this.action = "create";
       this.$buefy.notification.open({
         message: this.$t(i18nPrefix + "template_deleted"),

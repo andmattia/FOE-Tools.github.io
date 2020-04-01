@@ -104,6 +104,7 @@ export function buildPlace(gbKey, data, interpolationValues) {
  * - P {string}: place (managed internally)
  * - OP {string}: total owner preparation
  * - PPx {string}: place preparation, by the owner for place "x" (number of FPs)
+ * - PVx {string}: place participation, by an investor for place "x" (number of FPs)
  * - LF {string}: line feed (managed internally)
  * - LC {number}: level cost
  * @param placeInterpolationValues {array} An array that must contains object value that have a key and a value.
@@ -126,14 +127,24 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
     : placeInterpolationValues;
   let places = "";
   goodPlaceInterpolationValues.forEach((placeInterpolation, index) => {
+    const placeData = {};
+    placeInterpolation.forEach(e => (placeData[e.key] = e.value));
     if (placeInterpolation[1].free) {
       places +=
         (places.length > 0 ? data.placeSeparator : "") +
         buildPlace.call(this, gbKey, { ...data, message: data.place }, placeInterpolation);
     }
-    goodInterpolationValues.push({ key: "PP" + (index + 1), value: placeInterpolation[2].value });
+    goodInterpolationValues.push({
+      key: "PV" + (data.reversePlacesOrder ? 4 - index : index + 1),
+      value: placeData.PV
+    });
+    goodInterpolationValues.push({
+      key: "PP" + (data.reversePlacesOrder ? 4 - index : index + 1),
+      value: placeData.PP
+    });
   });
   for (let i = goodPlaceInterpolationValues.length; i < 5; i++) {
+    goodInterpolationValues.push({ key: "PV" + (i + 1), value: "" });
     goodInterpolationValues.push({ key: "PP" + (i + 1), value: "" });
   }
   goodInterpolationValues.push({ key: "P", value: places });

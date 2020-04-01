@@ -17,14 +17,17 @@ for (let i = 0; i < rewards.length; i++) {
   placesInterpolationValues.push([
     { key: "PI", value: i + 1 },
     { key: "PV", value: rewards[i], free: true },
-    { key: "PP", value: preparation[i] }
+    { key: "PP", value: preparation[i] },
+    { key: "FLVL", value: 9 },
+    { key: "TLVL", value: 10 }
   ]);
 }
 
 const messageInterpolation = [
   { key: "FLVL", value: 9 },
   { key: "TLVL", value: 10 },
-  { key: "LC", value: 650 }
+  { key: "LC", value: 650 },
+  { key: "OP", value: 430 }
 ];
 
 const results = [
@@ -206,6 +209,23 @@ const results = [
           show: true
         }
       }
+    }
+  },
+  {
+    name: "All variables",
+    config: {
+      prefix: "Foo",
+      suffix: "Bar",
+      displayGbName: true,
+      showLevel: true,
+      useShortGbName: true,
+      reversePlacesOrder: true,
+      placeSeparator: ">>${LF}<<",
+      place: "${LF}${FLVL}—${TLVL} '${GBN}' ${PI}_${PV}(${PP})${LF}",
+      message:
+        "${GBN} from ${FLVL} to ${TLVL} (${OP}|${LC}):${LF}<<${P}>>${LF}And custom place P1(${PV1}|${PP1}), " +
+        "P2(${PV2}|${PP2}), P3(${PV3}|${PP3}), P4(${PV4}|${PP4}), P5(${PV5}|${PP5})",
+      customFields: {}
     }
   }
 ];

@@ -39,7 +39,9 @@ export default {
           placesInterpolationValues.push([
             { key: "PI", value: i + 1 },
             { key: "PV", value: RewardsAt90Percent[i], free: true },
-            { key: "PP", value: ownerPreparation[i] }
+            { key: "PP", value: ownerPreparation[i] },
+            { key: "FLVL", value: 9 },
+            { key: "TLVL", value: 10 }
           ]);
         }
         return placesInterpolationValues;
@@ -67,6 +69,7 @@ export default {
         suffix: "",
         useShortGbName: false,
         reversePlacesOrder: false,
+        showLevel: true,
         placeSeparator: "",
         place: "",
         message: "",
@@ -207,6 +210,8 @@ export default {
           id = uuidv4();
         } while (ids.indexOf(id) >= 0);
         result.push({ id, name: this.templateName, config: this.result });
+        this.action = "update";
+        this.startFromTemplate = id;
       }
       this.$store.set(`global/customPromotionMessagesTemplates`, this.$clone(result));
       this.customTemplates = result;

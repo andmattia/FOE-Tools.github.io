@@ -1,5 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Scripts Promotion Message Builder Valid value with "All variables" 1`] = `
+"Foo foe_data.gb_short.Observatory from 9 to 10 (430|650):
+<<
+9—10 'foe_data.gb_short.Observatory' 4_10(300)
+>>
+<<
+9—10 'foe_data.gb_short.Observatory' 3_30(240)
+>>
+<<
+9—10 'foe_data.gb_short.Observatory' 2_100(220)
+>>
+<<
+9—10 'foe_data.gb_short.Observatory' 1_185(200)
+>>
+And custom place P1(185|200), P2(100|220), P3(30|240), P4(10|300), P5(|) Bar"
+`;
+
 exports[`Scripts Promotion Message Builder Valid value with "Custom 0" 1`] = `"Yoratheon foe_data.gb.Observatory {650} 🆙 4 (10) 👈 3 (30) 👈 2 (100) 👈 1 (185)"`;
 
 exports[`Scripts Promotion Message Builder Valid value with "Custom 11" 1`] = `"foe_data.gb.Observatory 9 < 4,3,2,1 > 10"`;

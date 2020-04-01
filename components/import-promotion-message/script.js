@@ -3,6 +3,7 @@ import numberinput from "~/components/number-input/NumberInput";
 import * as PMBuilder from "~/scripts/promotion-message-builder";
 import Observatory from "~/lib/foe-data/gbs-data/Observatory";
 import { get } from "vuex-pathify";
+import { v4 as uuidv4 } from "uuid";
 
 const i18nPrefix = "components.import_promotion_message.";
 const defaultTemplateNameRegex = /Default\s\d+/;
@@ -39,7 +40,9 @@ export default {
           placesInterpolationValues.push([
             { key: "PI", value: i + 1 },
             { key: "PV", value: RewardsAt90Percent[i], free: true },
-            { key: "PP", value: ownerPreparation[i] }
+            { key: "PP", value: ownerPreparation[i] },
+            { key: "FLVL", value: 9 },
+            { key: "TLVL", value: 10 }
           ]);
         }
         return placesInterpolationValues;
@@ -166,10 +169,6 @@ export default {
         this.errors.templateName.found = true;
         this.errors.templateName.message = this.$t("utils.errors.field_cannot_be_empty");
         error = true;
-      } else if (defaultTemplateNameRegex.test(this.templateName)) {
-        this.errors.templateName.found = true;
-        this.errors.templateName.message = this.$t(i18nPrefix + "errors.template_cannot_have_this_name");
-        error = true;
       } else {
         this.errors.templateName.found = false;
         this.errors.templateName.message = "";
@@ -179,20 +178,14 @@ export default {
         return;
       }
 
-      let result = this.$clone(
-        this.$store.get(
-          `profile/profiles@[${this.$store.get("global/currentProfile")}].customPromotionMessagesTemplates`
-        )
-      );
-      if (!result) {
-        result = [];
-      }
-      result.push({ name: this.templateName, config: template });
-      this.$store.set(
-        `profile/profiles@${this.$store.get("global/currentProfile")}.customPromotionMessagesTemplates`,
-        this.$clone(result)
-      );
-      this.$store.set("promotionMessageTemplates@custom", JSON.parse(JSON.stringify(result)));
+      let result = this.$clone(this.$store.get(`global/customPromotionMessagesTemplates`));
+      const ids = result.map(e => e.id);
+      let id;
+      do {
+        id = uuidv4();
+      } while (ids.indexOf(id) >= 0);
+      result.push({ id, name: this.templateName, config: template });
+      this.$store.set(`global/customPromotionMessagesTemplates`, this.$clone(result));
       this.$buefy.notification.open({
         message: this.$t(i18nPrefix + "template_imported"),
         type: "is-success",

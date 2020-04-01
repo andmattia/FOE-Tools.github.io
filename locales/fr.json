@@ -440,6 +440,7 @@
             "P": "Places",
             "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
             "PPx": "Nombre de PFs à mettre par le propriétaire pour la place \"x\" (avec \"x\" allant de 1 à 5)",
+            "PVx": "Nombre de PFs à mettre par un investisseur pour la place \"x\" (avec \"x\" allant de 1 à 5)",
             "LF": "Saut de ligne, ajouter une nouvelle ligne",
             "LC": "Coût du niveau"
           }

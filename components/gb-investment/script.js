@@ -684,7 +684,9 @@ export default {
         placesInterpolationValues.push([
           { key: "PI", value: i + 1 },
           { key: "PV", value: this.result.investment[i].participation, free: this.placeFree[i].state },
-          { key: "PP", value: this.result.investment[i].preparation }
+          { key: "PP", value: this.result.investment[i].preparation },
+          { key: "FLVL", value: this.level - 1 },
+          { key: "TLVL", value: this.level }
         ]);
       }
 
@@ -934,7 +936,9 @@ export default {
       }
       const messageInterpolation = [
         { key: "FLVL", value: this.level - 1 },
-        { key: "TLVL", value: this.level }
+        { key: "TLVL", value: this.level },
+        { key: "OP", value: this.$data.result.totalPreparations },
+        { key: "LC", value: this.$data.result.cost }
       ];
       const placesInterpolationValues = [];
       for (let i = 0; i < this.result.investment.length; i++) {
@@ -944,7 +948,9 @@ export default {
         placesInterpolationValues.push([
           { key: "PI", value: i + 1 },
           { key: "PV", value: this.result.investment[i].participation, free: this.placeFree[i].state },
-          { key: "PP", value: this.result.investment[i].preparation }
+          { key: "PP", value: this.result.investment[i].preparation },
+          { key: "FLVL", value: this.level - 1 },
+          { key: "TLVL", value: this.level }
         ]);
       }
 

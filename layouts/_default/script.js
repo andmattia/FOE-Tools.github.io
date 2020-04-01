@@ -382,11 +382,9 @@ export default {
       const profileDefaultKeys = [
         { key: "gbShowPrefix", parentKey: "" },
         { key: "gbShowSuffix", parentKey: "" },
-        { key: "displayTableCard", parentKey: "" },
         { key: "showOnlySecuredPlaces", parentKey: "" },
         { key: "displayGbName", parentKey: "" },
         { key: "promotionMessageList", parentKey: "" },
-        { key: "gbi_tab", parentKey: "" },
         { key: "showSnipe", parentKey: "" },
         { key: "shortName", parentKey: "" },
         { key: "showLevel", parentKey: "" },

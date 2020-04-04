@@ -14,7 +14,7 @@ import sk from "../locales/sk.json";
 import tr from "../locales/tr.json";
 import it from "../locales/it.json";
 import cs from "../locales/cs.json";
-import da from "../locales/cs.json";
+import da from "../locales/da.json";
 
 // Requires al packages
 import hideI18next from "i18next";

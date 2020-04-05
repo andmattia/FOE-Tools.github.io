@@ -307,7 +307,6 @@ export default {
         "gbSelectMode",
         "fixedMainMenu",
         "haveReadLocaleInfoAvailable",
-        "customPromotionMessagesTemplates",
         "haveReadTipAboutAddInvestor",
         "dayNightMode",
         "dayStart",
@@ -326,10 +325,24 @@ export default {
         }
       }
 
+      if ("customPromotionMessagesTemplates" in cookies) {
+        const customPMT = this.$cookies.get("customPromotionMessagesTemplates");
+        const ids = [];
+        for (const elt of customPMT) {
+          let id;
+          do {
+            id = uuidv4();
+          } while (ids.indexOf(id) >= 0);
+          ids.push(id);
+          elt.id = id;
+        }
+        this.$store.set(`global/customPromotionMessagesTemplates`, customPMT);
+        this.$cookies.remove("customPromotionMessagesTemplates", { path: "/" });
+      }
+
       let currentProfile = {
         gbShowPrefix: true,
         gbShowSuffix: true,
-        displayTableCard: false,
         showOnlySecuredPlaces: false,
         displayGbName: true,
         promotionMessageList: defaultPromotionMessages,
@@ -368,11 +381,9 @@ export default {
       const profileDefaultKeys = [
         { key: "gbShowPrefix", parentKey: "" },
         { key: "gbShowSuffix", parentKey: "" },
-        { key: "displayTableCard", parentKey: "" },
         { key: "showOnlySecuredPlaces", parentKey: "" },
         { key: "displayGbName", parentKey: "" },
         { key: "promotionMessageList", parentKey: "" },
-        { key: "gbi_tab", parentKey: "" },
         { key: "showSnipe", parentKey: "" },
         { key: "shortName", parentKey: "" },
         { key: "showLevel", parentKey: "" },
@@ -482,6 +493,22 @@ export default {
       });
 
       this.$store.commit("profile/setProfile", { profileKey: currentProfileID, profile: { ...currentProfile } });
+      const profile = this.$store.get(`profile/profiles@[${this.$store.get("global/currentProfile")}]`);
+      if (!Utils.isNullOrUndef(profile.customPromotionMessagesTemplates)) {
+        let ids = this.$store.get(`global/customPromotionMessagesTemplates`).map(e => e.id);
+        const customPMT = this.$clone(profile.customPromotionMessagesTemplates);
+        for (const elt of customPMT) {
+          let id;
+          do {
+            id = uuidv4();
+          } while (ids.indexOf(id) >= 0);
+          ids.push(id);
+          elt.id = id;
+        }
+        this.$store.set(`global/customPromotionMessagesTemplates`, customPMT);
+        delete profile.customPromotionMessagesTemplates;
+        this.$store.set(`profile/profiles@${this.$store.get("global/currentProfile")}`, profile);
+      }
     }
   },
   mounted: /* istanbul ignore next */ function() {

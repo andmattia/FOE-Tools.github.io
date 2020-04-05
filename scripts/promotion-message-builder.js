@@ -104,6 +104,7 @@ export function buildPlace(gbKey, data, interpolationValues) {
  * - P {string}: place (managed internally)
  * - OP {string}: total owner preparation
  * - PPx {string}: place preparation, by the owner for place "x" (number of FPs)
+ * - PVx {string}: place participation, by an investor for place "x" (number of FPs)
  * - LF {string}: line feed (managed internally)
  * - LC {number}: level cost
  * @param placeInterpolationValues {array} An array that must contains object value that have a key and a value.
@@ -126,14 +127,24 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
     : placeInterpolationValues;
   let places = "";
   goodPlaceInterpolationValues.forEach((placeInterpolation, index) => {
+    const placeData = {};
+    placeInterpolation.forEach(e => (placeData[e.key] = e.value));
     if (placeInterpolation[1].free) {
       places +=
         (places.length > 0 ? data.placeSeparator : "") +
         buildPlace.call(this, gbKey, { ...data, message: data.place }, placeInterpolation);
     }
-    goodInterpolationValues.push({ key: "PP" + (index + 1), value: placeInterpolation[2].value });
+    goodInterpolationValues.push({
+      key: "PV" + (data.reversePlacesOrder ? 4 - index : index + 1),
+      value: placeData.PV
+    });
+    goodInterpolationValues.push({
+      key: "PP" + (data.reversePlacesOrder ? 4 - index : index + 1),
+      value: placeData.PP
+    });
   });
   for (let i = goodPlaceInterpolationValues.length; i < 5; i++) {
+    goodInterpolationValues.push({ key: "PV" + (i + 1), value: "" });
     goodInterpolationValues.push({ key: "PP" + (i + 1), value: "" });
   }
   goodInterpolationValues.push({ key: "P", value: places });
@@ -159,6 +170,7 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
 export const defaultPromotionMessages = [
   {
     name: "Default 0",
+    id: "Default 0",
     config: {
       prefix: "",
       suffix: "",
@@ -173,6 +185,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 1",
+    id: "Default 1",
     config: {
       prefix: "",
       suffix: "",
@@ -187,6 +200,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 2",
+    id: "Default 2",
     config: {
       prefix: "",
       suffix: "",
@@ -201,6 +215,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 3",
+    id: "Default 3",
     config: {
       prefix: "",
       suffix: "",
@@ -215,6 +230,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 4",
+    id: "Default 4",
     config: {
       prefix: "",
       suffix: "",
@@ -229,6 +245,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 5",
+    id: "Default 5",
     config: {
       prefix: "",
       suffix: "",
@@ -243,6 +260,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 6",
+    id: "Default 6",
     config: {
       prefix: "",
       suffix: "",
@@ -257,6 +275,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 7",
+    id: "Default 7",
     config: {
       prefix: "",
       suffix: "",
@@ -271,6 +290,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 8",
+    id: "Default 8",
     config: {
       prefix: "",
       suffix: "",
@@ -285,6 +305,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 9",
+    id: "Default 9",
     config: {
       prefix: "",
       suffix: "",
@@ -299,6 +320,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 10",
+    id: "Default 10",
     config: {
       prefix: "",
       suffix: "",
@@ -313,6 +335,7 @@ export const defaultPromotionMessages = [
   },
   {
     name: "Default 11",
+    id: "Default 11",
     config: {
       prefix: "",
       suffix: "",

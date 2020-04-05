@@ -1,7 +1,7 @@
 import { Enum } from "enumify";
 import PriorityQueue from "js-priority-queue";
 import ages from "~/lib/foe-data/ages";
-import goods from "~/lib/foe-data/goods";
+import * as goods from "~/lib/foe-data/goods";
 import * as Errors from "~/scripts/errors";
 
 class TradeArray extends Enum {}

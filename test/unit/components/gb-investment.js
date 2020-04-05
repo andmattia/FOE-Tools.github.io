@@ -12,6 +12,7 @@ const promotionMessageList = [
   ...defaultPromotionMessages,
   {
     name: "Custom 11",
+    id: "Custom 11",
     config: {
       prefix: "",
       suffix: "",
@@ -767,7 +768,10 @@ describe("GbInvestment", () => {
     const wrapper = factory();
     wrapper.vm.calculate();
     expect(wrapper.vm.promotion).toMatchSnapshot();
-    wrapper.vm.$store.set("promotionMessageTemplates@custom", [{ ...defaultPromotionMessages[0], name: "Custom 1" }]);
+    wrapper.vm.$store.set("global/customPromotionMessagesTemplates", [
+      ...defaultPromotionMessages[0],
+      { ...defaultPromotionMessages[0], name: "Custom 1", id: "Custom 1" }
+    ]);
     wrapper.vm.templateToAdd = "Custom 1";
     wrapper.vm.addPromotionMessageTemplate();
     expect(wrapper.vm.promotion).toMatchSnapshot();

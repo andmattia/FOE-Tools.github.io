@@ -7,7 +7,7 @@ import securePosition from "~/components/secure-position/SecurePosition";
 import PromotionMessageBuilder from "~/components/promotion-message-builder/PromotionMessageBuilder";
 import ImportPromotionMessage from "~/components/import-promotion-message/ImportPromotionMessage";
 import * as Errors from "../../scripts/errors";
-import { buildMessage } from "~/scripts/promotion-message-builder";
+import { defaultPromotionMessages, buildMessage } from "~/scripts/promotion-message-builder";
 import Shepherd from "shepherd.js";
 import { getVideoTag, formatTuto } from "~/scripts/tutorial";
 import { ContentLoader } from "vue-content-loader";
@@ -57,8 +57,6 @@ export default {
     }
   },
   data() {
-    this.$store.set("promotionMessageTemplates@custom", this.$store.get("global/customPromotionMessagesTemplates"));
-
     const data = {
       i18nPrefix,
       dataReady: true,
@@ -131,6 +129,7 @@ export default {
       ),
       displayTableCard: this.$clone(this.$store.get("global/displayTableCard")),
       result: null,
+      defaultPromotionMessagesTemplates: this.$clone(defaultPromotionMessages),
       errors: {
         level: false,
         ownerInvestment: false,
@@ -294,7 +293,7 @@ export default {
     getCustomArcBonus() {
       return Utils.normalizeNumberValue(this.$data.yourArcBonus);
     },
-    promotionMessageTemplates: get("promotionMessageTemplates"),
+    customPromotionMessagesTemplates: get("global/customPromotionMessagesTemplates"),
     vueCardClass() {
       return this.$data.tutoMode ? [] : ["is-hidden-desktop", "is-hidden-widescreen"];
     }
@@ -685,7 +684,9 @@ export default {
         placesInterpolationValues.push([
           { key: "PI", value: i + 1 },
           { key: "PV", value: this.result.investment[i].participation, free: this.placeFree[i].state },
-          { key: "PP", value: this.result.investment[i].preparation }
+          { key: "PP", value: this.result.investment[i].preparation },
+          { key: "FLVL", value: this.level - 1 },
+          { key: "TLVL", value: this.level }
         ]);
       }
 
@@ -935,7 +936,9 @@ export default {
       }
       const messageInterpolation = [
         { key: "FLVL", value: this.level - 1 },
-        { key: "TLVL", value: this.level }
+        { key: "TLVL", value: this.level },
+        { key: "OP", value: this.$data.result.totalPreparations },
+        { key: "LC", value: this.$data.result.cost }
       ];
       const placesInterpolationValues = [];
       for (let i = 0; i < this.result.investment.length; i++) {
@@ -945,7 +948,9 @@ export default {
         placesInterpolationValues.push([
           { key: "PI", value: i + 1 },
           { key: "PV", value: this.result.investment[i].participation, free: this.placeFree[i].state },
-          { key: "PP", value: this.result.investment[i].preparation }
+          { key: "PP", value: this.result.investment[i].preparation },
+          { key: "FLVL", value: this.level - 1 },
+          { key: "TLVL", value: this.level }
         ]);
       }
 
@@ -963,13 +968,13 @@ export default {
       }
       /* istanbul ignore next */
       const elt = defaultTemplateNameRegex.test(this.templateToAdd)
-        ? this.promotionMessageTemplates.default.find(elt => elt.name === this.templateToAdd)
-        : this.promotionMessageTemplates.custom.find(elt => elt.name === this.templateToAdd);
+        ? this.defaultPromotionMessagesTemplates.find(elt => elt.id === this.templateToAdd)
+        : this.customPromotionMessagesTemplates.find(elt => elt.id === this.templateToAdd);
       if (!elt) {
         return;
       }
 
-      this.promotionMessageList.push(JSON.parse(JSON.stringify(elt)));
+      this.promotionMessageList.push(this.$clone(elt));
 
       this.$store.set(
         `profile/profiles@["${this.$store.get("global/currentProfile")}"].promotionMessageList`,

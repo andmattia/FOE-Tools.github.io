@@ -39,7 +39,6 @@ Object {
         "suppliesGathered": 80,
       },
       "displayGbName": true,
-      "displayTableCard": true,
       "gb": Object {
         "Alcatraz": Object {
           "investorView": Object {
@@ -180,6 +179,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 0",
           "name": "Default 0",
         },
         Object {
@@ -194,6 +194,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 1",
           "name": "Default 1",
         },
         Object {
@@ -208,6 +209,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 2",
           "name": "Default 2",
         },
         Object {
@@ -222,6 +224,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 3",
           "name": "Default 3",
         },
         Object {
@@ -236,6 +239,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 4",
           "name": "Default 4",
         },
         Object {
@@ -250,6 +254,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 5",
           "name": "Default 5",
         },
         Object {
@@ -264,6 +269,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 6",
           "name": "Default 6",
         },
         Object {
@@ -278,6 +284,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 7",
           "name": "Default 7",
         },
         Object {
@@ -292,6 +299,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 8",
           "name": "Default 8",
         },
         Object {
@@ -306,6 +314,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 9",
           "name": "Default 9",
         },
         Object {
@@ -320,6 +329,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 10",
           "name": "Default 10",
         },
         Object {
@@ -341,6 +351,7 @@ Object {
             "suffix": "",
             "useShortGbName": false,
           },
+          "id": "Default 11",
           "name": "Default 11",
         },
       ],

@@ -35,6 +35,7 @@ const defaultHidden = () => [
   true,
   true,
   true,
+  true,
   true
 ];
 
@@ -51,7 +52,7 @@ describe("GbStatistics", () => {
           gbs_s: "reward_level",
           gbs_f: 10,
           gbs_t: 60,
-          gbs_h: "0111111111111111110"
+          gbs_h: `0${"1".repeat(defaultHidden().length - 2)}0`
         }
       }
     });

@@ -427,9 +427,9 @@ div.content#gbiContent
               b-field#pmAddMessage
                 b-select#pmbTemplateToAdd(v-model.trim="templateToAdd" name="templateToAdd" autocomplete="off" expanded)
                   optgroup(:label="$t('components.promotion_message_builder.templates.default')")
-                    option(v-for="template in promotionMessageTemplates.default" :key="template.name" :value="template.name") {{template.name}}: {{getTemplateSample(template.config)}}
-                  optgroup(v-if="promotionMessageTemplates.custom.length" :label="$t('components.promotion_message_builder.templates.custom')")
-                    option(v-for="template in promotionMessageTemplates.custom" :key="template.name" :value="template.name") {{template.name}}: {{getTemplateSample(template.config)}}
+                    option(v-for="template in defaultPromotionMessagesTemplates" :key="template.id" :value="template.id") {{template.name}}: {{getTemplateSample(template.config)}}
+                  optgroup(v-if="customPromotionMessagesTemplates.length" :label="$t('components.promotion_message_builder.templates.custom')")
+                    option(v-for="template in customPromotionMessagesTemplates" :key="template.id" :value="template.id") {{template.name}}: {{getTemplateSample(template.config)}}
 
                 p.control
                   button.button.is-info(:title="$t('utils.Add')" @click="addPromotionMessageTemplate" :disabled="maxInvestment <= 0")

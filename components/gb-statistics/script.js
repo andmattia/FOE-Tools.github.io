@@ -164,6 +164,10 @@ export default {
         SpaceAgeMars: {
           name: this.$t("foe_data.age.SpaceAgeMars"),
           color: "rgb(187,19,0)"
+        },
+        SpaceAgeAsteroidBelt: {
+          name: this.$t("foe_data.age.SpaceAgeAsteroidBelt"),
+          color: "rgb(9,78,189)"
         }
       },
       statSelector: "cost_level",
@@ -332,6 +336,10 @@ export default {
           SpaceAgeMars: {
             name: this.$t("foe_data.age.SpaceAgeMars"),
             color: "rgb(187,19,0)"
+          },
+          SpaceAgeAsteroidBelt: {
+            name: this.$t("foe_data.age.SpaceAgeAsteroidBelt"),
+            color: "rgb(9,78,189)"
           }
         }
       });

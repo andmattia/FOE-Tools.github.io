@@ -35,6 +35,7 @@ const defaultHidden = () => [
   true,
   true,
   true,
+  true,
   true
 ];
 

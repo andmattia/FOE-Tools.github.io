@@ -23,7 +23,8 @@ const ages = [
   "ArcticFuture",
   "OceanicFuture",
   "VirtualFuture",
-  "SpaceAgeMars"
+  "SpaceAgeMars",
+  "SpaceAgeAsteroidBelt"
 ];
 
 const promises = [];

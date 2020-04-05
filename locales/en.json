@@ -647,7 +647,8 @@
         "ArcticFuture": "Arctic Future",
         "OceanicFuture": "Oceanic Future",
         "VirtualFuture": "Virtual Future",
-        "SpaceAgeMars": "Space Age: Mars"
+        "SpaceAgeMars": "Space Age: Mars",
+        "SpaceAgeAsteroidBelt": "Space Age: Asteroid Belt"
       },
       "age_short": {
         "NoAge": "NA",
@@ -708,7 +709,8 @@
         "Terracotta_Army": "Terracotta Army",
         "Himeji_Castle": "Himeji Castle",
         "The_Virgo_Project": "The Virgo Project",
-        "Star_Gazer": "Star Gazer"
+        "Star_Gazer": "Star Gazer",
+        "Space_Carrier": "Space Carrier"
       },
       "gb_short": {
         "Observatory": "Obs",
@@ -749,7 +751,8 @@
         "Terracotta_Army": "TA",
         "Himeji_Castle": "HC",
         "The_Virgo_Project": "TVP",
-        "Star_Gazer": "SG"
+        "Star_Gazer": "SG",
+        "Space_Carrier": "Carrier"
       },
       "goods": {
         "dye": "Dye",

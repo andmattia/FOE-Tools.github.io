@@ -10,6 +10,7 @@ let campaignCost = {};
 
 const ages = clone(allAges);
 delete ages.NoAge;
+delete ages.SpaceAgeAsteroidBelt; // TODO: to be deleted when "SpaceAgeAsteroidBelt" campaign data are obtained
 
 export default {
   name: "CampaignCost",

@@ -170,7 +170,8 @@ $map: (
   "ArcticFuture": #e9f7f7,
   "OceanicFuture": #225a4b,
   "VirtualFuture": #551A8B,
-  "SpaceAgeMars": #BB653D
+  "SpaceAgeMars": #BB653D,
+  "SpaceAgeAsteroidBelt": #094ebd
 );
 
 @each $key, $color in $map {

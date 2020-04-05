@@ -1,4 +1,4 @@
-import gbs from "../../../../lib/foe-data/gbs";
+import * as gbs from "../../../../lib/foe-data/gbs";
 
 /**
  * Generate expected values for level costs (from level 10 to infinity)

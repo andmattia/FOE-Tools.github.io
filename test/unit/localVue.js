@@ -14,6 +14,8 @@ import { defaultLocale, supportedLocales } from "~/scripts/locales";
 import { i18next, initializeI18next } from "~/scripts/i18n";
 import VueNumeral from "~/plugins/numeral";
 import Buefy from "buefy";
+import * as gbs from "~/lib/foe-data/gbs.js";
+import * as goods from "~/lib/foe-data/goods.js";
 
 import moment from "moment";
 import momentDurationFormatSetup from "moment-duration-format";
@@ -45,8 +47,8 @@ export function getView(storeConf) {
         namespaced: true,
         state: {
           campaignCost: require("~/lib/foe-data/campaign-cost.js"),
-          gbs: require("~/lib/foe-data/gbs.js"),
-          goods: require("~/lib/foe-data/goods.js")
+          gbs: clone(gbs),
+          goods: clone(goods)
         }
       }
     }

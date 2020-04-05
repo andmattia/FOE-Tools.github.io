@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.65.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.64.0...v2.65.0) (2020-04-05)
+
+
+### Features
+
+* **foe-data:** add levels of several ages ([17c70fa](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/17c70fa679442c6759d13cb096a070c4674f81ef))
+* **promotion-message:** add PVx variable in promotion message ([f042008](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/f042008dcd86c5dbbe1c11a5d8e86dddc7e45d34))
+
+
+### Bug Fixes
+
+* **l10:** fix Danish ([4da8f7e](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/4da8f7eb6c1e37aef7dab8ddf4fef0374ab57a93)), closes [#321](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/321)
+* fix bad link in notifications ([4c727f7](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/4c727f74fafa4b3a80ae39ebed1bb1c6cc7c21fc))
+* fix issue related to custom promotion message ([7c3943b](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/7c3943b8dd4a74da202b5b242ddc18659e80b4e1))
+* fix issue related to get survey ([416f8f7](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/416f8f7409318ab43a82213369f556d07976858e))
+
 ## [2.64.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.63.0...v2.64.0) (2020-03-29)
 
 

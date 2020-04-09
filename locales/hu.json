@@ -257,7 +257,7 @@
                     "day_night_mode": {
                         "Day": "Nappali",
                         "Night": "Éjszakai",
-                        "Auto": "Autómatikus"
+                        "Auto": "Automatikus"
                     }
                 },
                 "switch_locale": "A $t(common:site_title) elérhető a nyelveden"
@@ -476,7 +476,8 @@
                 "ArcticFuture": "Távoli jégkorszak",
                 "OceanicFuture": "Mélytengeri jövő",
                 "VirtualFuture": "Virtuális jövő",
-                "SpaceAgeMars": "Űrkorszak: Mars"
+                "SpaceAgeMars": "Űrkorszak: Mars",
+                "SpaceAgeAsteroidBelt": "Űrkorszak - Aszteroidaöv"
             },
             "age_short": {
                 "NoAge": "NA",

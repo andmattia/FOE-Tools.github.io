@@ -1,7 +1,7 @@
 {
     "translation": {
         "main_menu": {
-            "home": "Home",
+            "home": "Casa",
             "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
             "secure_position": "$t(routes.secure_position.hero.title)",
             "cf_calculator": "$t(routes.cf_calculator.hero.title)",
@@ -440,7 +440,8 @@
                         "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
                         "PPx": "Numero de PF's colocados pelo dono para o lugar \"x\"(sendo \"x\" de 1 a 5)",
                         "LF": "Adicionar Linha, adicione uma nova linha",
-                        "LC": "Custo do nível"
+                        "LC": "Custo do nível",
+                        "PVx": "Numero de PFs colocados por um investidor para um lugar \"x\"(sendo \"x\" de 1 a 5)"
                     }
                 },
                 "template_name": "Nome do modelo",
@@ -690,7 +691,8 @@
                 "ArcticFuture": "O Futuro  Árctico",
                 "OceanicFuture": "Futuro Oceânico",
                 "VirtualFuture": "Futuro Virtual",
-                "SpaceAgeMars": "Era Espacial: Marte"
+                "SpaceAgeMars": "Era Espacial: Marte",
+                "SpaceAgeAsteroidBelt": "Idade Espacial: Cintura de Asteróides"
             },
             "age_short": {
                 "NoAge": "SE",
@@ -751,7 +753,8 @@
                 "Terracotta_Army": "Exército de Terracota",
                 "Himeji_Castle": "Castelo Himeji",
                 "The_Virgo_Project": "O Projeto Virgem",
-                "Star_Gazer": "Observatório Estelar"
+                "Star_Gazer": "Observatório Estelar",
+                "Space_Carrier": "Transportador Espacial"
             },
             "gb_short": {
                 "Observatory": "Obs",
@@ -792,7 +795,8 @@
                 "Terracotta_Army": "ET",
                 "Himeji_Castle": "CH",
                 "The_Virgo_Project": "PV",
-                "Star_Gazer": "OE"
+                "Star_Gazer": "OE",
+                "Space_Carrier": "Transportador"
             },
             "goods": {
                 "dye": "Tintura",

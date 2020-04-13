@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.66.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.65.0...v2.66.0) (2020-04-13)
+
+
+### Features
+
+* **campaign-cost:** add view by all Ages and all provinces of a Age ([b00692b](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/b00692bf716eec58bd5e4fd477b76f0cdf7ac55d))
+
+
+### Bug Fixes
+
+* **promotion-message:** fix custom fields always not shown ([726de22](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/726de22e27a9e7173adce2437a552330a6b53296))
+
+
+### Translation
+
+* Translated using Weblate (Hungarian) ([0d38929](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/0d38929bf05ed0cedc18af4179ddc27fa3146cec))
+* Translated using Weblate (Hungarian) ([b8fbc4f](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/b8fbc4f07ce9aa8ef760440556cc5d95d5955f42))
+* Translated using Weblate (Hungarian) ([8473e59](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/8473e592db488bf1a6877742cc95d2332b6d964f))
+* Translated using Weblate (Portuguese) ([6235791](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/6235791bbf7f911b9208196ae2a0689f8503e1b5))
+* Translated using Weblate (Portuguese) ([7edf514](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/7edf51420b4ca3df6cb235d718e4616acfe44bc6))
+* Translated using Weblate (Portuguese) ([eb10c8b](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/eb10c8be5d2c4c9dfda382f2c1470b1282d82b8b))
+* Translated using Weblate (Portuguese) ([5945d4e](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5945d4eec7cc92c68da1ce6f750a4edea3fc902e))
+
 ## [2.65.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.64.0...v2.65.0) (2020-04-05)
 
 

@@ -338,6 +338,7 @@ Object {
               "Your pseudo": Object {
                 "key": "Your pseudo",
                 "placeholder": "My pseudo",
+                "show": true,
                 "value": "My pseudo",
               },
             },

@@ -15,7 +15,11 @@ module.exports = async function () {
         mkdirSync(join(generateDir, dirPath));
       }
 
-      writeFileSync(generateFilePath, JSON.stringify(require(join(rootDir, "lib", dirPath, `${fileName}.js`))));
+      let obj = require(join(rootDir, "lib", dirPath, `${fileName}.js`));
+      if ("default" in obj) {
+        obj = obj.default;
+      }
+      writeFileSync(generateFilePath, JSON.stringify(obj));
     }
   });
 
@@ -26,7 +30,11 @@ module.exports = async function () {
         path: `${dirPath}/${fileName}.json`,
         async handler(req, res) {
           res.setHeader('Content-Type', 'application/json');
-          res.end(JSON.stringify(require(join(rootDir, "lib", dirPath, `${fileName}.js`))));
+          let obj = require(join(rootDir, "lib", dirPath, `${fileName}.js`));
+          if ("default" in obj) {
+            obj = obj.default;
+          }
+          res.end(JSON.stringify(obj));
         }
       })
     }

@@ -23,7 +23,10 @@
         "choose_province": "Choissisez une province",
         "message": {
           "haveUnknownCosts": "Cette province contient un ou plusieurs secteurs dont il manque des valeurs."
-        }
+        },
+        "all_ages": "Tous les âges",
+        "all_provinces": "Toutes les provinces",
+        "provinces": "Provinces"
       },
       "cf_calculator": {
         "block_cfc": {

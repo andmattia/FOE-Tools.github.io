@@ -509,6 +509,19 @@ export default {
         delete profile.customPromotionMessagesTemplates;
         this.$store.set(`profile/profiles@${this.$store.get("global/currentProfile")}`, profile);
       }
+
+      const customPromotionMessagesTemplates = this.$clone(this.$store.get(`global/customPromotionMessagesTemplates`));
+      customPromotionMessagesTemplates.forEach(elt => {
+        for (const customFieldName in elt.config.customFields) {
+          if (!("placeholder" in elt.config.customFields[customFieldName])) {
+            elt.config.customFields[customFieldName].placeholder = elt.config.customFields[customFieldName].value;
+          }
+          if (!("show" in elt.config.customFields[customFieldName])) {
+            elt.config.customFields[customFieldName].show = true;
+          }
+        }
+      });
+      this.$store.set(`global/customPromotionMessagesTemplates`, customPromotionMessagesTemplates);
     }
   },
   mounted: /* istanbul ignore next */ function() {

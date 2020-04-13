@@ -350,7 +350,8 @@ export const defaultPromotionMessages = [
         "Your pseudo": {
           key: "Your pseudo",
           value: "My pseudo",
-          placeholder: "My pseudo"
+          placeholder: "My pseudo",
+          show: true
         }
       }
     }

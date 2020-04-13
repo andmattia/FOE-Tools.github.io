@@ -1,11 +1,12 @@
 import Vue from "vue";
 import allAges from "~/lib/foe-data/ages";
-import { bonus } from "~/lib/foe-data/bonus";
 import clone from "lodash.clonedeep";
+import set from "lodash.set";
+import lodashValues from "lodash.values";
+import Utils from "~/scripts/utils";
 
 const i18nPrefix = "components.campaign_cost.";
 let agesGoods = {};
-let goods = {};
 let campaignCost = {};
 
 const ages = clone(allAges);
@@ -15,9 +16,12 @@ delete ages.SpaceAgeAsteroidBelt; // TODO: to be deleted when "SpaceAgeAsteroidB
 export default {
   name: "CampaignCost",
   data() {
-    campaignCost = this.$store.get("foe/campaignCost@campaignCost");
-    goods = this.$store.get("foe/goods@goods");
+    campaignCost = this.$clone(this.$store.get("foe/campaignCost@campaignCost"));
+    let campaignTotalCost = this.$clone(this.$store.get("foe/campaignCost@campaignTotalCost"));
     agesGoods = this.$store.get("foe/goods@agesGoods");
+    let campaignConquired = this.$clone(
+      this.$store.get(`profile/profiles@${this.$store.get("global/currentProfile")}.campaign`)
+    );
 
     const provinces = this.sortProvinceArray(campaignCost, ages.BronzeAge.key);
 
@@ -25,11 +29,12 @@ export default {
       i18nPrefix,
       ages,
       agesGoods,
+      campaignConquired,
       campaignCost,
+      campaignTotalCost,
       currentAge: ages.BronzeAge.key,
       province: provinces[Object.keys(provinces)[0]],
       result: null,
-      sectorConquired: [],
       haveUnknownCosts: false,
       errors: {
         currentAge: false,
@@ -37,25 +42,57 @@ export default {
       }
     };
   },
+  computed: {
+    nbColumns() {
+      if (this.$data.currentAge === "__all__") {
+        return (
+          (Object.keys(this.$data.campaignTotalCost._totalCost).length - 1) * 5 +
+          Object.keys(this.$data.campaignTotalCost._totalCost._specialGoods).length +
+          2
+        );
+      } else if (this.$data.province === "__all__") {
+        return (
+          (Object.keys(this.$data.campaignTotalCost[this.$data.currentAge]._totalCost).length - 1) * 5 +
+          Object.keys(this.$data.campaignTotalCost[this.$data.currentAge]._totalCost._specialGoods).length +
+          2
+        );
+      } else {
+        return (
+          (Object.keys(
+            this.$data.campaignTotalCost[this.$data.currentAge].provinces[this.$data.province.key]._totalCost
+          ).length -
+            1) *
+            5 +
+          Object.keys(
+            this.$data.campaignTotalCost[this.$data.currentAge].provinces[this.$data.province.key]._totalCost
+              ._specialGoods
+          ).length +
+          2
+        );
+      }
+    }
+  },
   watch: {
     currentAge(val) {
       if (Object.keys(this.$data.ages).indexOf(val) >= 0) {
         this.$data.errors.currentAge = false;
         this.$data.province = this.sortProvinceArray(campaignCost, val)[Object.keys(campaignCost[val])[0]];
-        this.compute();
-      } else {
-        this.$data.errors.currentAge = true;
-      }
+      } else this.$data.errors.currentAge = val !== "__all__";
     },
 
     province(val) {
       if (Object.keys(campaignCost[this.$data.currentAge]).indexOf(val.key) >= 0) {
         this.$data.errors.province = false;
-        Vue.set(this.$data, "sectorConquired", Array(val.sectors.length).fill(false));
-        this.compute();
-      } else {
-        this.$data.errors.province = true;
-      }
+      } else this.$data.errors.province = val !== "__all__";
+    },
+    campaignConquired: {
+      handler() {
+        this.$store.set(
+          `profile/profiles@${this.$store.get("global/currentProfile")}.campaign`,
+          this.$clone(this.campaignConquired)
+        );
+      },
+      deep: true
     }
   },
   methods: {
@@ -79,71 +116,172 @@ export default {
       return ordered;
     },
 
-    switchConquired(index, value) {
-      this.$data.sectorConquired[index] = !!value;
-      this.compute();
-    },
+    updateConquiredValue(campaignTotalCost, path, value) {
+      const update = (info, namespace) => {
+        // Update total cost of province
+        campaignTotalCost[path.age].provinces[path.province]._totalCost[namespace][info.key].value +=
+          info.value * (value ? -1 : 1);
+        // Update total cost of age
+        campaignTotalCost[path.age]._totalCost[namespace][info.key].value += info.value * (value ? -1 : 1);
+        // Update total cost of all
+        campaignTotalCost._totalCost[namespace][info.key].value += info.value * (value ? -1 : 1);
+      };
 
-    compute() {
-      if (this.$data.errors.currentAge || this.$data.errors.province) {
-        return;
-      }
-      this.$data.haveUnknownCosts = false;
-
-      let good = {};
-      let specialGoods = {};
-      let goodsColumnsData = [];
-      let specialGoodsColumnsData = [];
-      let index = 0;
-      let ages = {};
-      for (const sector of this.$data.province.sectors) {
-        /* istanbul ignore if */
-        if (Object.keys(sector).indexOf("cost") < 0) {
-          this.$data.haveUnknownCosts = true;
-          continue;
-        }
-        for (const need of sector.cost) {
-          if (need.type === bonus.special_good) {
-            if (!specialGoods[need.key]) {
-              specialGoods[need.key] = 0;
-              specialGoodsColumnsData.push({ key: need.key, displayName: this.$t("foe_data.goods." + need.key) });
-            }
-            specialGoods[need.key] += !this.$data.sectorConquired[index] ? need.value : 0;
-          } else {
-            if (!good[goods[need.key].age]) {
-              good[goods[need.key].age] = {};
-            }
-            if (!good[goods[need.key].age][need.key]) {
-              good[goods[need.key].age][need.key] = 0;
-              ages[goods[need.key].age] = true;
-            }
-            good[goods[need.key].age][need.key] += !this.$data.sectorConquired[index] ? need.value : 0;
+      for (const age in campaignTotalCost[path.age].provinces[path.province].sectors[path.sector]) {
+        let info;
+        if (age in ages) {
+          for (const good in campaignTotalCost[path.age].provinces[path.province].sectors[path.sector][age]) {
+            info = campaignTotalCost[path.age].provinces[path.province].sectors[path.sector][age][good];
+            update(info, info.age);
+          }
+        } else {
+          for (const specialGood in campaignTotalCost[path.age].provinces[path.province].sectors[path.sector]
+            ._specialGoods) {
+            info = campaignTotalCost[path.age].provinces[path.province].sectors[path.sector]._specialGoods[specialGood];
+            update(info, "_specialGoods");
           }
         }
-        index++;
       }
+    },
 
-      for (let age in ages) {
-        for (let good of agesGoods[age].goods) {
-          goodsColumnsData.push({
-            key: good.key,
-            age: good.age,
-            displayName: this.$t("foe_data.goods." + good.key)
-          });
+    switchConquired(path, value) {
+      const updateProgression = path => {
+        const ref = this.campaignConquired[path.age][path.province].sectors[0];
+        for (let i = 1; i < this.campaignConquired[path.age][path.province].sectors.length; i++) {
+          if (ref !== this.campaignConquired[path.age][path.province].sectors[i]) {
+            Vue.set(this.campaignConquired[path.age][path.province], "_state", -1);
+            Vue.set(this.campaignConquired[path.age], "_state", -1);
+            return;
+          }
+        }
+        Vue.set(this.campaignConquired[path.age][path.province], "_state", ref ? 1 : 0);
+
+        let previousState;
+        for (const province in this.campaignConquired[path.age]) {
+          if (this.campaignConquired[path.age][province]._state === -1) {
+            Vue.set(this.campaignConquired[path.age], "_state", -1);
+            return;
+          }
+
+          if (Utils.isNullOrUndef(previousState)) {
+            previousState = this.campaignConquired[path.age][province]._state;
+            continue;
+          }
+          if (previousState !== this.campaignConquired[path.age][province]._state) {
+            Vue.set(this.campaignConquired[path.age], "_state", -1);
+            return;
+          }
+        }
+
+        Vue.set(this.campaignConquired[path.age], "_state", previousState);
+      };
+
+      const updateProgressionProvince = path => {
+        Vue.set(
+          this.campaignConquired[path.age][path.province],
+          "sectors",
+          Array.from(new Array(this.campaignConquired[path.age][path.province].sectors.length), () => !!value)
+        );
+        Vue.set(this.campaignConquired[path.age][path.province], "_state", value ? 1 : 0);
+
+        // Update values
+        for (let i = 0; i < this.campaignTotalCost[path.age].provinces[path.province].sectors.length; i++) {
+          const previousConquiredState = this.campaignConquired[path.age][path.province].sectors[i];
+          if (previousConquiredState !== value) {
+            this.updateConquiredValue(this.$data.campaignTotalCost, { ...path, sector: i }, value);
+          }
+        }
+        updateProgression(path);
+      };
+
+      if ("sector" in path) {
+        Vue.set(this.campaignConquired[path.age][path.province].sectors, path.sector, !!value);
+
+        // Update values
+        this.updateConquiredValue(this.$data.campaignTotalCost, path, value);
+
+        // Update progression
+        updateProgression(path);
+      } else if ("province" in path) {
+        updateProgressionProvince(path);
+      } else {
+        for (const province in this.campaignTotalCost[path.age].provinces) {
+          updateProgressionProvince({ ...path, province });
         }
       }
 
-      let result = {
-        good,
-        specialGoods,
-        nbColumns: goodsColumnsData.length + specialGoodsColumnsData.length,
-        goodsColumnsData,
-        specialGoodsColumnsData
-      };
-      Vue.set(this.$data, "result", result);
+      this.$store.set(
+        `profile/profiles@${this.$store.get("global/currentProfile")}.campaign`,
+        this.$clone(this.campaignConquired)
+      );
+    },
+
+    getGoodsOrSpecialGoods(getGood) {
+      let obj;
+      if (this.$data.currentAge === "__all__") {
+        obj = this.$clone(this.$data.campaignTotalCost._totalCost);
+      } else if (this.$data.province === "__all__") {
+        obj = this.$clone(this.$data.campaignTotalCost[this.$data.currentAge]._totalCost);
+      } else {
+        obj = this.$clone(
+          this.$data.campaignTotalCost[this.$data.currentAge].provinces[this.$data.province.key]._totalCost
+        );
+      }
+
+      if (getGood) {
+        delete obj._specialGoods;
+        let result = [];
+        for (const age in obj) {
+          result = [...result, ...lodashValues(obj[age])];
+        }
+        return result;
+      } else {
+        return lodashValues(obj._specialGoods);
+      }
     }
   },
-  mounted() {
-    this.compute();
+  beforeMount() {
+    if (!this.campaignConquired) {
+      this.campaignConquired = {};
+    }
+    let campaignConquiredUpdated = false;
+    for (const age in campaignCost) {
+      if (!(age in this.campaignConquired)) {
+        set(this.campaignConquired, age, { _state: 0 });
+        campaignConquiredUpdated = true;
+      }
+
+      for (const province in campaignCost[age]) {
+        if (!(province in this.campaignConquired[age])) {
+          set(this.campaignConquired, `${age}.${province}`, { _state: 0, sectors: [] });
+          campaignConquiredUpdated = true;
+        }
+
+        for (let sectorIndex = 0; sectorIndex < campaignCost[age][province].sectors.length; sectorIndex++) {
+          if (this.campaignConquired[age][province].sectors.length <= sectorIndex) {
+            set(this.campaignConquired, `${age}.${province}.sectors[${sectorIndex}]`, false);
+            campaignConquiredUpdated = true;
+          }
+        }
+      }
+    }
+
+    if (campaignConquiredUpdated) {
+      this.$store.set(
+        `profile/profiles@${this.$store.get("global/currentProfile")}.campaign`,
+        this.$clone(this.campaignConquired)
+      );
+    }
+
+    for (const age in ages) {
+      for (const province in this.$data.campaignTotalCost[age].provinces) {
+        for (let i = 0; i < this.$data.campaignTotalCost[age].provinces[province].sectors.length; i++) {
+          if (!this.campaignConquired[age][province].sectors[i]) {
+            continue;
+          }
+          this.updateConquiredValue(this.$data.campaignTotalCost, { age: age, province: province, sector: i }, true);
+        }
+      }
+    }
   }
 };

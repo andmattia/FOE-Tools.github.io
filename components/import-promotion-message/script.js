@@ -110,6 +110,22 @@ export default {
         this.errors.template.message = this.$t(i18nPrefix + "errors.invalid_data");
         return;
       }
+      for (const customFieldName in template.customFields) {
+        if (!("placeholder" in template.customFields[customFieldName])) {
+          template.customFields[customFieldName].placeholder = template.customFields[customFieldName].value;
+        }
+        if (!("show" in template.customFields[customFieldName])) {
+          template.customFields[customFieldName].show = true;
+        }
+      }
+      for (const key in template.customFields) {
+        if (
+          (!template.customFields[key].value || !template.customFields[key].value.length) &&
+          template.customFields[key].placeholder
+        ) {
+          template.customFields[key].value = template.customFields[key].placeholder;
+        }
+      }
 
       this.errors.template.found = false;
       this.errors.template.message = "";
@@ -176,6 +192,15 @@ export default {
 
       if (error) {
         return;
+      }
+
+      for (const customFieldName in template.customFields) {
+        if (!("placeholder" in template.customFields[customFieldName])) {
+          template.customFields[customFieldName].placeholder = template.customFields[customFieldName].value;
+        }
+        if (!("show" in template.customFields[customFieldName])) {
+          template.customFields[customFieldName].show = true;
+        }
       }
 
       let result = this.$clone(this.$store.get(`global/customPromotionMessagesTemplates`));

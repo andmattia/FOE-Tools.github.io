@@ -24,6 +24,7 @@ export const mutations = {
         gbPrefix: "",
         gbSuffix: "",
         showOnlySecuredPlaces: false,
+        campaign: {},
         cf: {
           coins: 0,
           supplies: 0,

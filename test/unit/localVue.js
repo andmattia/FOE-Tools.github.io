@@ -24,10 +24,12 @@ momentDurationFormatSetup(moment);
 export function getView(storeConf) {
   let globalStore = {};
   let profileStore = {};
+  let campaignCost = {};
 
   if (storeConf) {
     globalStore = "globalStore" in storeConf ? storeConf.globalStore : {};
     profileStore = "profileStore" in storeConf ? storeConf.profileStore : {};
+    campaignCost = "campaignCost" in storeConf ? storeConf.campaignCost : {};
   }
 
   // create an extended `Vue` constructor
@@ -46,7 +48,7 @@ export function getView(storeConf) {
       foe: {
         namespaced: true,
         state: {
-          campaignCost: require("~/lib/foe-data/campaign-cost.js"),
+          campaignCost: campaignCost,
           gbs: clone(gbs),
           goods: clone(goods)
         }

@@ -39,6 +39,7 @@ module.exports = {
     "!**/*.config.js",
     "!**/components/**/script.js",
     "!**/components/number-input/**",
+    "!**/components/campaign-cost/**",
     "!**/layouts/**/script.js",
     "!**/scripts/tutorial.js",
     "!**/store/global.js",

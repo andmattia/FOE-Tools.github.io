@@ -71,7 +71,10 @@
                 "choose_province": "Velg en provins",
                 "message": {
                     "haveUnknownCosts": "Denne provinsen inneholder en eller flere sektorer som mangler verdier."
-                }
+                },
+                "provinces": "Provinser",
+                "all_provinces": "Alle provinser",
+                "all_ages": "Alle eraer"
             },
             "gb_investment": {
                 "tutorial": {
@@ -120,7 +123,7 @@
                             "is_sniper": "Er en potensiell sniper?",
                             "real_participation": "FP oppnådd med den % bonus % av din Arc",
                             "expected_participation": "FP oppnådd med den % bonus forventet av eier",
-                            "spot_snipe": "Spot/Snipe",
+                            "spot_snipe": "Plass/Kapre",
                             "fp_already_putin": "Antall FP allerede plassert",
                             "th6": "inkluder i kopieringsbokser",
                             "th5": "% av investors bonus (arc bonus)",

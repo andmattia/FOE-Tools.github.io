@@ -81,7 +81,18 @@
                     "rush_1_9": {
                         "title": "Fremskynde 1.9, 1.8 osv."
                     },
-                    "welcome": "Formålet med denne hjelperen er å forklare alle egenkapene ved dette verktøyet.\n\nDu kan trykke på lenkene under for å lære mer om dem.\nFor å fortsette med denne hjelperen vennligst trykk på \"$t(utils.Next)\" knappen."
+                    "welcome": "Formålet med denne hjelperen er å forklare alle egenkapene ved dette verktøyet.\n\nDu kan trykke på lenkene under for å lære mer om dem.\nFor å fortsette med denne hjelperen vennligst trykk på \"$t(utils.Next)\" knappen.",
+                    "promotion_message": {
+                        "suffix": "Tekst som vil bli lagt til bakerst i meldingen.",
+                        "prefix": "Tekst som vil bli lagt til i starten av meldingen."
+                    },
+                    "table": {
+                        "rewards_with_rate": "Dette er det antall FP som eieren forventer av en investor for plassen.",
+                        "fp_to_put_by_the_owner": "Som navnet indikerer korresponderer dette til det antall FP eieren må legge på SB'en for å sikre plassen.",
+                        "default_rewards": "Dette er standardbelønningen (uten $t(foe_data.gb.The_Arc) bonus) for plassen.",
+                        "message": "Denne tabellen viser deg all informasjonen du trenger."
+                    },
+                    "investor_percentage": "Velg raten du forventer deg av investorene dine.\nF.eks. skriv 90 for investeringer på 1,9 (190%)"
                 },
                 "gb_investment": {
                     "form": {

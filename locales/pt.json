@@ -23,7 +23,10 @@
                 "choose_province": "Escolhe uma província",
                 "message": {
                     "haveUnknownCosts": "Esta província contem um ou mais sectores sem valores."
-                }
+                },
+                "provinces": "Províncias",
+                "all_provinces": "Todas as províncias",
+                "all_ages": "Todas as Eras"
             },
             "cf_calculator": {
                 "block_cfc": {

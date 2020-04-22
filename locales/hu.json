@@ -20,7 +20,10 @@
         "components": {
             "campaign_cost": {
                 "title": "$t(routes.campaign_cost.hero.title)",
-                "choose_province": "Válassz egy tartományt"
+                "choose_province": "Válassz egy tartományt",
+                "provinces": "Provinciák",
+                "all_provinces": "Minden provincia",
+                "all_ages": "Minden kor"
             },
             "cf_calculator": {
                 "block_cfc": {

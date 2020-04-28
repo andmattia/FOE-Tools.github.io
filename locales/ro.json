@@ -1,1 +1,8 @@
-{ }
+{
+    "translation": {
+        "main_menu": {
+            "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
+            "home": "Acasă"
+        }
+    }
+}

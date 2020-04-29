@@ -23,7 +23,10 @@
                 "choose_province": "Kies een provincie",
                 "message": {
                     "haveUnknownCosts": "Deze provincie bevat één of meer sectoren met ontbrekende gegevens"
-                }
+                },
+                "provinces": "Provincies",
+                "all_provinces": "Alle provincies",
+                "all_ages": "Alle Tijdperken"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -679,7 +682,8 @@
                 "Terracotta_Army": "Terracotta Leger",
                 "Himeji_Castle": "Himeji Kasteel ",
                 "The_Virgo_Project": "Het Virgo Project",
-                "Star_Gazer": "Sterrenkijker"
+                "Star_Gazer": "Sterrenkijker",
+                "Space_Carrier": "Ruimtevrachtschip"
             },
             "gb_short": {
                 "Observatory": "SW",
@@ -720,7 +724,8 @@
                 "Terracotta_Army": "TL",
                 "Himeji_Castle": "Himeji",
                 "The_Virgo_Project": "Virgo",
-                "Star_Gazer": "Gazer"
+                "Star_Gazer": "Gazer",
+                "Space_Carrier": "Vrachtschip"
             },
             "goods": {
                 "dye": "verf",

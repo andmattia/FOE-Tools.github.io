@@ -23,7 +23,10 @@
                 "choose_province": "Vyberte provincii",
                 "message": {
                     "haveUnknownCosts": "Provincie obsahuje jeden nebo více sektorů, kterým chybí hodnoty."
-                }
+                },
+                "provinces": "Provincie",
+                "all_provinces": "Všechny provincie",
+                "all_ages": "Všechny doby"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -465,7 +468,9 @@
                         "P": "Pozice",
                         "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
                         "PPx": "Počet bodu k vložení majitele na pozici \"x\" (kde \"x\" je 1-5)",
-                        "LF": "Řádek, přidat řádek"
+                        "LF": "Řádek, přidat řádek",
+                        "LC": "Cena úrovně",
+                        "PVx": "Počet FB k vložení investora na pozici \"x\" (kde\"x\" je 1 až 5)"
                     }
                 },
                 "template_name": "Název šablony",
@@ -715,7 +720,8 @@
                 "ArcticFuture": "Ledová budoucnost",
                 "OceanicFuture": "Oceánská budoucnost",
                 "VirtualFuture": "Virtuální budoucnost",
-                "SpaceAgeMars": "Vesmírný věk: Mars"
+                "SpaceAgeMars": "Vesmírný věk: Mars",
+                "SpaceAgeAsteroidBelt": "Kolonizace pásu planetek"
             },
             "age_short": {
                 "NoAge": "BO",
@@ -776,7 +782,8 @@
                 "Terracotta_Army": "Terakotová armáda",
                 "Himeji_Castle": "Hrad Himeji",
                 "The_Virgo_Project": "Projekt Virgo",
-                "Star_Gazer": "Star Gazer"
+                "Star_Gazer": "Star Gazer",
+                "Space_Carrier": "Vesmírný transportér"
             },
             "gb_short": {
                 "Observatory": "Hvězd.",
@@ -817,7 +824,8 @@
                 "Terracotta_Army": "Terakota",
                 "Himeji_Castle": "HH",
                 "The_Virgo_Project": "Virgo",
-                "Star_Gazer": "SG"
+                "Star_Gazer": "SG",
+                "Space_Carrier": "Transportér"
             },
             "goods": {
                 "dye": "Barva",

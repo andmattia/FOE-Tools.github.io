@@ -757,7 +757,7 @@
                 "Himeji_Castle": "Castelo Himeji",
                 "The_Virgo_Project": "O Projeto Virgem",
                 "Star_Gazer": "Observatório Estelar",
-                "Space_Carrier": "Transportador Espacial"
+                "Space_Carrier": "Cargueiro Espacial"
             },
             "gb_short": {
                 "Observatory": "Obs",
@@ -799,7 +799,7 @@
                 "Himeji_Castle": "CH",
                 "The_Virgo_Project": "PV",
                 "Star_Gazer": "OE",
-                "Space_Carrier": "Transportador"
+                "Space_Carrier": "Cargueiro"
             },
             "goods": {
                 "dye": "Tintura",

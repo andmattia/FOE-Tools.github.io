@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.66.1](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.66.0...v2.66.1) (2020-05-10)
+
+
+### Translation
+
+* Translated using Weblate (Czech) ([1bd6017](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/1bd6017022e766a11e4080d161b78ec5f4951aea))
+* Translated using Weblate (Czech) ([94a206a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/94a206a196487a13642aa6fb6c3656f1a890b8c5))
+* Translated using Weblate (Dutch) ([1c18499](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/1c1849985ebd3ac41621977b725a883e2ab2abe9))
+* Translated using Weblate (Dutch) ([2ac473e](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/2ac473e6609621f88f3797b47061842bef812407))
+* Translated using Weblate (Hungarian) ([a880042](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/a8800427e07fd6a8fa5ccd83dcc32b44a29b500a))
+* Translated using Weblate (Hungarian) ([291ebf4](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/291ebf46055fc43eb1797edf3add227cb72c721f))
+* Translated using Weblate (Hungarian) ([6eca512](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/6eca5127311388ec04d0e8fac9805f5009bfa73d))
+* Translated using Weblate (Hungarian) ([2040d1d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/2040d1d60b464eaf44749444bde24ece8bd9fd86))
+* Translated using Weblate (Norwegian Bokmål) ([7c8fd15](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/7c8fd158b7ea845a8a23449dc989191ac46b1f1f))
+* Translated using Weblate (Norwegian Bokmål) ([809d47a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/809d47ac04b88fd7796a6589cab61794281e90be))
+* Translated using Weblate (Norwegian Bokmål) ([81867b6](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/81867b637e6ca4b3cacb1221edb55375cb6bfa26))
+* Translated using Weblate (Norwegian Bokmål) ([0b3eaa1](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/0b3eaa1aeb85ff8af0149d4ce034bd235eba8de0))
+* Translated using Weblate (Norwegian Bokmål) ([f8e253d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/f8e253daa79b04dd790b80dc452bbf8f445c3fa1))
+* Translated using Weblate (Norwegian Bokmål) ([5e00f09](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5e00f0948d0fc760e1e27b6773dab3dacab70f59))
+* Translated using Weblate (Portuguese) ([187659d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/187659d19624983843b7791e3cf91f34bbc22666))
+* Translated using Weblate (Portuguese) ([df853ec](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/df853ec566d05506cc47b5e6d2bf247847248fc7))
+* Translated using Weblate (Portuguese) ([655a2a4](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/655a2a4841bca0286b874f6e0ae56fee22d56aef))
+* Translated using Weblate (Portuguese) ([4a9f0fc](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/4a9f0fceb079c0904476ac7566a5a25e1c31b65c))
+* Translated using Weblate (Romanian) ([7f4ba0a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/7f4ba0ac7a92a6e4cf64fcbf70746114691269ac))
+* Translated using Weblate (Romanian) ([f16e96a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/f16e96a4eaffaf4d0ff3cbee1e3b3fc81d8d6b68))
+
 ## [2.66.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.65.0...v2.66.0) (2020-04-13)
 
 

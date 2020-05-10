@@ -118,7 +118,7 @@
                         "display_card": "Exibir a tabela no modo de exibição caixa? (em tela pequena)"
                     },
                     "table": {
-                        "title": "$t({{gb_key}}) nível {{doNivel, numero}} → {{nível, numero}}",
+                        "title": "$t({{gb_key}}) nível {{fromLevel, number}} → {{level, number}}",
                         "thead": {
                             "th1": "Lugares",
                             "th2": "Prémios padrão",
@@ -670,7 +670,7 @@
                 },
                 "donation_options": "Doa com $t(common:links.donorbox) or $t(common:links.paypal).",
                 "conversion": "Se aprecias o meu trabalho, por favor considera uma doação.",
-                "donation_message": "$t(common:site_title é um projecto grátis, de código fonte livre e sem fins lucrativos.Portanto o meu tempo a fazer isto é sem remuneração.Mas também aceito donativos de quem aprecia o meu trabalho e se sinta na obrigação de me compensar, não interessa o montante se é uma vez ou mensal.As doações são muito importantes para mim, porque ajuda com os custos com o servidor,domínios e etc , ajuda também em gastos individuais e serve como incentivo para mim para continuar a trabalhar neste projecto.",
+                "donation_message": "$t(common:site_title) é um projecto grátis, de código fonte livre e sem fins lucrativos.Portanto o meu tempo a fazer isto é sem remuneração.Mas também aceito donativos de quem aprecia o meu trabalho e se sinta na obrigação de me compensar, não interessa o montante se é uma vez ou mensal.As doações são muito importantes para mim, porque ajuda com os custos com o servidor,domínios e etc , ajuda também em gastos individuais e serve como incentivo para mim para continuar a trabalhar neste projecto.",
                 "title": "$t(routes.donate.hero.title) | $t(common:site_title)"
             }
         },

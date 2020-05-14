@@ -1,1 +1,100 @@
-{ }
+{
+    "translation": {
+        "components": {
+            "cf_calculator": {
+                "tutorial": {
+                    "dailyUbq": "Kuinka monta Syntymättömyyspäivä tehtävää saat suoritettua käyttämilläsi kolikoilla ja tarvikkeilla.",
+                    "totalRqCompleted": "Kuinka monta toistuvaa tehtävää saat (tilastollisesti) suoritettua.",
+                    "totalFp": "Kuinka paljon TP saat tehtävistä, HR:stä, jne.",
+                    "totalGoods": "Kuinka paljon tavaroita saat tehtävistä, HR:stä, jne.",
+                    "tableReward": "Tämä taulukko näyttää ansaitsemasi palkinnot. Muista että arvot pohjautuvat empiiriseen todennäköisyyteen.",
+                    "cumulativeQuest": "Siinä tapauksessa, aseta kuinka monta toistuvaa tehtävää haluat tehdä.",
+                    "infiniteGenerator": "Tämä osio näkyy vain kun sinun $t(foe_data.gb.Chateau_Frontenac) kerroin (aikakauden mukaan) antaa sinulle tilastollisesti enemmän kolikoita ja tarvikkeita kuin käytät.",
+                    "otherRq": "Aseta kuinka paljon muita toistuvia tehtäviä olet tehnyt.",
+                    "suppliesGathered": "Syötä kuinka paljon tarvikkeita haluat käyttää toiseen toistuvaan tehtävään.",
+                    "checkSecondQuest": "$t(foe_data.age.LateMiddleAges) alkaen voit tehdä toista toistuvaa tehtävää. Aseta \"$t(utils.Yes)\" jos haluat sen laskuihin mukaan.\n\n<i><b>HUOM</b>: Järjestelmä olettaa että toinen toistuva tehtävä on: kerää X tarvikkeita.</i>.",
+                    "fpBy24h": "Syötä kuinka paljon tulee TP 24 tunnissa.",
+                    "goods": "Syötä kuinka paljon saat tavaroita HR:stä ja ryöstöretkiltä.",
+                    "supplies": "Syötä kuinka paljon haluat käyttää tarvikkeita tehtäviin.",
+                    "coins": "Syötä kuinka paljon haluat käyttää kolikoita tehtäviin.",
+                    "yourCfBoost": "Syötä $t(foe_data.gb.Chateau_Frontenac) kerroin.\n\nEsim: CF kerroin 450%, laita 450.",
+                    "yourAge": "Valitse aikakausi.",
+                    "welcome": "Tämä työkalu on epävirallinen. Se vain kertoo mitä voit todennäköisesti saada $t(foe_data.gb.Chateau_Frontenac)."
+                },
+                "block_cfc": {
+                    "infinity_generator": {
+                        "label": "toistuvaa tehtävää",
+                        "message": "$t(foe_data.gb.Chateau_Frontenac) bonuksella tienaat enemmän kolikoita ja tarvikkeita kuin käytät. Ole hyvä ja valitse montako \"$t(components.cf_calculator.block_cfc.infinity_generator.label)\" haluat tehdä."
+                    },
+                    "table_return": {
+                        "thead": {
+                            "th_supply": "Tarvikkeita tehtävistä",
+                            "th_coin": "Kolikoita tehtävistä",
+                            "th_level": "Taso"
+                        }
+                    },
+                    "reward_message": {
+                        "total_rq_completed": "Rinbin-tehtäviä tehty: {{count, number}}",
+                        "total_fp": "TP yhteensä: {{count, number}}",
+                        "total_goods": "Tavaroita yhteensä: {{count, number}}",
+                        "second_rq_completed": "Toisia tehtäviä: {{count, number}}",
+                        "bonus_ubq": "Lisätehtäviä: {{count, number}}",
+                        "daily_ubq": "Rinbin-tehtäviä: {{count, number}}"
+                    },
+                    "table_reward": {
+                        "thead": {
+                            "th4": "TP",
+                            "th3": "Tavaroita",
+                            "th2": "Mitaleita",
+                            "th1": "Piirustuksia"
+                        },
+                        "title": "$t(utils.Rewards)"
+                    },
+                    "supplies_gathered": "Tarvikkeita saatu",
+                    "second_rq": "Toinen toistuva tehtävä ruutu?",
+                    "other_rq": "Muut toistuvat tehtävät",
+                    "fp_by_24h": "24h TP tuotanto",
+                    "gb_plunder_goods": "Tavaroita HR ja ryöstöistä",
+                    "supplies_to_use": "Paljonko käytetään tarvikkeita Rinbin-tehtäviin",
+                    "coins_supplies_info": "Tämän arvon pitäisi olla suurempi tai yhtäsuuri kuin {{min}} koska pienemmillä ei voi taata voittoa (tilastollisesti)",
+                    "coins_to_use": "Paljonko käytetään kolikoita Rinbin-tehtäviin",
+                    "your_cf_boost": "Sinun $t(foe_data.gb.Chateau_Frontenac) kerroin",
+                    "title": "$t(routes.cf_calculator.hero.title)",
+                    "your_age": "Aikakausi"
+                }
+            },
+            "campaign_cost": {
+                "title": "$t(routes.campaign_cost.hero.title)",
+                "provinces": "Provinssit",
+                "all_provinces": "Kaikki provinssit",
+                "all_ages": "Kaikki aikakaudet",
+                "message": {
+                    "haveUnknownCosts": "Tässä provinssissa yhdestä tai useammasta sektorista puuttuu arvoja."
+                },
+                "choose_province": "Valitse provinssi"
+            }
+        },
+        "main_menu": {
+            "campaign_cost": "$t(routes.campaign_cost.hero.title)",
+            "help_to_translate_the_site": "$t(routes.help_to_translate_the_site.hero.title)",
+            "gb_statistics": "$t(routes.gb_statistics.hero.title)",
+            "cf_calculator": "$t(routes.cf_calculator.hero.title)",
+            "secure_position": "$t(routes.secure_position.hero.title)",
+            "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
+            "trade": "$t(routes.trade.hero.title)",
+            "gb_forecast_cost": "$t(routes.gb_forecast_cost.hero.title)",
+            "home": "Koti"
+        },
+        "seo": {
+            "keywords": {
+                "military_units": "yksiköt"
+            }
+        },
+        "footer_menu": {
+            "contact": "Yhteystiedot",
+            "changelog": "Muutosloki",
+            "contributors": "Kirjoittajat",
+            "about": "Tietoja"
+        }
+    }
+}

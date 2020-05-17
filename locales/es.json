@@ -23,7 +23,10 @@
                 "choose_province": "Elije una Provincia",
                 "message": {
                     "haveUnknownCosts": "Esta provincia contiene uno o más sectores con valores faltantes."
-                }
+                },
+                "provinces": "Provincias",
+                "all_provinces": "Todas las provincias",
+                "all_ages": "Todas las Edades"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -86,7 +89,8 @@
                     "fpBy24h": "Ponga la cantidad de FP que obtiene en 24 horas.",
                     "goods": "Ponga la cantidad de bienes que recolecta de su GE y saqueos.",
                     "supplies": "Ponga la cantidad de suministros que desea usar para todas las misiones.",
-                    "coins": "Ponga la cantidad de monedas que desea usar para todas las misiones."
+                    "coins": "Ponga la cantidad de monedas que desea usar para todas las misiones.",
+                    "checkSecondQuest": "Desde $t(foe_data.age.LateMiddleAges), puedes hacer una segunda misión recurrente. Establecer\"$t(utils.Yes)\" si quieres hacer la segunda misión recurrente.\n\n<i><b>Note</b>: I Se supone que la segunda misión recurrente son: recoger X suministros .</i>."
                 }
             },
             "gb_investment": {
@@ -169,7 +173,9 @@
                         "fp_to_put_by_the_owner": "Como su nombre lo indica, corresponde a la cantidad de FP que el propietario debe poner en su GB para asegurar el lugar.",
                         "default_rewards": "Esta es la recompensa predeterminada (sin bonificación de Arca) del lugar.",
                         "place": "Corresponde al número del lugar.",
-                        "message": "Esta tabla le muestra toda la información que desea conocer."
+                        "message": "Esta tabla le muestra toda la información que desea conocer.",
+                        "include_in_copy_boxes": "Este campo le permite mostrar este lugar en el mensaje de promoción que puede copiar y pegar en el juego.",
+                        "is_sniper": "Esta columna se muestra cuando se ha definido al menos un inversor. Se utiliza para definir si un jugador es un intruso potencial o no. Esta información se utiliza para el cálculo de la seguridad del lugar."
                     },
                     "display_card": "Este campo le permite mostrar los datos de la tabla en una \"Vista de tarjeta\".\nEsto está \"optimizado\" para leer en un smartphone, por lo que no necesita desplazarse horizontalmente.\nEste campo solo se muestra en una pantalla pequeña.",
                     "show_snipe": "Este campo está destinado a inversores y se utiliza para mostrar una columna adicional en la tabla, denominada \"$ t (components.gb_investment.gb_investment.form.show_snipe)\".\nEsta columna le indica (en función del valor definido en \"$ t (components.secure_position.block_place.your_arc_bonus)\") cuántos FP necesita colocar en el GB para asegurar su lugar.\nTambién indica la ganancia o pérdida que obtendrá.",
@@ -184,12 +190,20 @@
                         "title": "Modos de visualización"
                     },
                     "snipe": {
-                        "content": "Snipe es cuando un jugador toma un lugar en un GB para obtener ganancias, generalmente no cumple con las expectativas del propietario.\n\nPor ejemplo, el nivel 49 → 50 del GB \"$ t (foe_data.gb.The_Virgo_Project)\" no requiere ningún FP del propietario para asegurar los dos primeros lugares. La inversión esperada en 1.9 es $ t (utils.FP, {'count': 1739}). Un francotirador (con un nivel de Arco 80) podría esperar hasta que el nivel se abra para tomar su lugar directamente y poner $ t (utils.FP, {'count': 1679}), lo que aseguraría su lugar y obtendría una ganancia de $ t (utils.FP, {'cuenta': 60})."
+                        "content": "Snipe es cuando un jugador toma un lugar en un GB para obtener ganancias, generalmente no cumple con las expectativas del propietario.\n\nPor ejemplo, el nivel 49 → 50 del GB \"$ t (foe_data.gb.The_Virgo_Project)\" no requiere ningún FP del propietario para asegurar los dos primeros lugares. La inversión esperada en 1.9 es $ t (utils.FP, {'count': 1739}). Un francotirador (con un nivel de Arco 80) podría esperar hasta que el nivel se abra para tomar su lugar directamente y poner $ t (utils.FP, {'count': 1679}), lo que aseguraría su lugar y obtendría una ganancia de $ t (utils.FP, {'cuenta': 60}).",
+                        "title": "Intruso"
                     },
                     "rush_1_9": {
-                        "content": "$ t (foe_data.gb.The_Arc) es un GB que otorga un bono que aumenta las recompensas que obtienes al ubicarte entre los 5 primeros en el GB de alguien. Cuanto más alto es el nivel del Arca, más importante es la recompensa.\n\nAsí es como comenzamos a hablar de 1.8, 1.9, etc. En realidad, esta es la bonificación de Arc.\nDe hecho, 1.0 representa la recompensa básica, 1.8 representa la recompensa con un nivel de Arco 70 (proporciona un 80% más de recompensa en ese nivel) y 1.9 representa la recompensa con un nivel de Arca 80 (90% más de recompensa).\n\nLos hilos reservados exclusivamente para este tipo de inversión se crearon en gremios y grupos de amigos. Esto se basa en el principio de \"doy lo que recibo\", lo que limita los conflictos entre los miembros del gremio o amigos al no obtener ganancias en sus GB. A diferencia de los hilos sin fin (10, 50, 100, etc.), la otra ventaja de los hilos 1.8, 1.9, etc. es que ahorra una cantidad considerable de tiempo para el propietario de GB. Esto se debe a que el propietario solo necesita poner la cantidad necesaria de FP para asegurar los lugares que ocuparán las Arcas de nivel 80 (en el caso del hilo 1.9).\n\nTomemos un ejemplo:\n\nImaginemos que desea aumentar su $ t (foe_data.gb.Observatory) del nivel 10 al 60 y que gana $ t (utils.FP, {'count': 50}) por día.\nEl costo total de los niveles es $ t (utils.FP, {'count': 64975}).\n\nSi está utilizando hilos sin fin, su inversión será 1: 1, es decir, $ t (utils.FP, {'count': 25}) invertido en un GB = $ t (utils.FP, {'count': 25} ) que otro jugador invertirá en tu GB. Por lo tanto, deberá <strong> invertir $ t (utils.FP, {'count': 37320}) </strong> para alcanzar el nivel 60. A $ t (utils.FP, {'count': 50}) por día, te llevará <strong> 2 años y 17 días </strong>.\n\nAhora, si usa un hilo 1.9, tendrá que <strong> solo invertir $ t (utils.FP, {'count': 12363}) </strong> para alcanzar el nivel 60, entonces <strong> un ahorro de $ t (utils.FP, {'count': 24957})! </strong>.\n¡Aún con $ t (utils.FP, {'count': 50}) por día, pasa de 2 años y 17 días a <strong> 8 meses y 5 días </strong>!"
+                        "content": "$ t (foe_data.gb.The_Arc) es un GB que otorga un bono que aumenta las recompensas que obtienes al ubicarte entre los 5 primeros en el GB de alguien. Cuanto más alto es el nivel del Arca, más importante es la recompensa.\n\nAsí es como comenzamos a hablar de 1.8, 1.9, etc. En realidad, esta es la bonificación de Arc.\nDe hecho, 1.0 representa la recompensa básica, 1.8 representa la recompensa con un nivel de Arco 70 (proporciona un 80% más de recompensa en ese nivel) y 1.9 representa la recompensa con un nivel de Arca 80 (90% más de recompensa).\n\nLos hilos reservados exclusivamente para este tipo de inversión se crearon en gremios y grupos de amigos. Esto se basa en el principio de \"doy lo que recibo\", lo que limita los conflictos entre los miembros del gremio o amigos al no obtener ganancias en sus GB. A diferencia de los hilos sin fin (10, 50, 100, etc.), la otra ventaja de los hilos 1.8, 1.9, etc. es que ahorra una cantidad considerable de tiempo para el propietario de GB. Esto se debe a que el propietario solo necesita poner la cantidad necesaria de FP para asegurar los lugares que ocuparán las Arcas de nivel 80 (en el caso del hilo 1.9).\n\nTomemos un ejemplo:\n\nImaginemos que desea aumentar su $ t (foe_data.gb.Observatory) del nivel 10 al 60 y que gana $ t (utils.FP, {'count': 50}) por día.\nEl costo total de los niveles es $ t (utils.FP, {'count': 64975}).\n\nSi está utilizando hilos sin fin, su inversión será 1: 1, es decir, $ t (utils.FP, {'count': 25}) invertido en un GB = $ t (utils.FP, {'count': 25} ) que otro jugador invertirá en tu GB. Por lo tanto, deberá <strong> invertir $ t (utils.FP, {'count': 37320}) </strong> para alcanzar el nivel 60. A $ t (utils.FP, {'count': 50}) por día, te llevará <strong> 2 años y 17 días </strong>.\n\nAhora, si usa un hilo 1.9, tendrá que <strong> solo invertir $ t (utils.FP, {'count': 12363}) </strong> para alcanzar el nivel 60, entonces <strong> un ahorro de $ t (utils.FP, {'count': 24957})! </strong>.\n¡Aún con $ t (utils.FP, {'count': 50}) por día, pasa de 2 años y 17 días a <strong> 8 meses y 5 días </strong>!",
+                        "title": "Presiona 1.9, 1.8, etc."
                     },
-                    "welcome": "El propósito de este tutorial es explicar todas las características de esta herramienta.\n\nPuede hacer clic en los enlaces a continuación para obtener más información sobre ellos.\nPara continuar con el tutorial, haga clic en el botón \"$ t (utils.Next)\"."
+                    "welcome": "El propósito de este tutorial es explicar todas las características de esta herramienta.\n\nPuede hacer clic en los enlaces a continuación para obtener más información sobre ellos.\nPara continuar con el tutorial, haga clic en el botón \"$ t (utils.Next)\".",
+                    "promotion_message": {
+                        "suffix": "Texto que se agregará al final del mensaje.",
+                        "prefix": "Texto que se agregará al principio del mensaje.",
+                        "tabs": "Los mensajes siguen una plantilla. Puede importar una plantilla desde la pestaña \"$t(components.import_promotion_message.title)\" o crear la suya propia desde la pestaña \"$t(components.promotion_message_builder.title)\".",
+                        "message": "Esta sección le permite tener mensajes que contienen información sobre el nivel de GE y los lugares actuales. Puedes copiar un mensaje y pegarlo directamente en el juego, por ejemplo en un hilo 1.9."
+                    }
                 }
             },
             "gb_investment_investors": {
@@ -1261,6 +1275,9 @@
                 "double_collection": {
                     "name": "Doble recolecta",
                     "gb_description": "Le da la oportunidad de obtener el doble de los recursos en los primeros edificios recolectados. Excluye militares y grandes edificios. Actualiza con cada recolección de este edificio."
+                },
+                "exploration_site": {
+                    "gb_description": "---"
                 }
             }
         },

@@ -23,7 +23,10 @@
                 "choose_province": "Vælg en provins",
                 "message": {
                     "haveUnknownCosts": "Denne provins indeholder én eller flere sektorer, der mangler værdier."
-                }
+                },
+                "provinces": "Provinser",
+                "all_provinces": "Alle provinser",
+                "all_ages": "Alle aldre"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -68,7 +71,22 @@
                     }
                 },
                 "tutorial": {
-                    "welcome": "This tool is purely informal. It gives you information about what you can statistically obtain with your $t(foe_data.gb.Chateau_Frontenac)."
+                    "welcome": "This tool is purely informal. It gives you information about what you can statistically obtain with your $t(foe_data.gb.Chateau_Frontenac).",
+                    "secondRqCompleted": "Antal sekundære gentagne opgaver, som du kan færdiggøre.",
+                    "totalRqCompleted": "Totalt antal gentagne opgaver du kan (statistisk) færdiggøre.",
+                    "totalFp": "Antal FP'er, du vil optjene med opgaver, SB'er, osv.",
+                    "totalGoods": "Antal varer, du vil optjene med opgaver, SB'er, osv.",
+                    "tableReward": "Denne tabel viser dig belønningerne, du gerne vil tjene. Husk at værdierne er baseret på empirisk sandsynlighed.",
+                    "cumulativeQuest": "I det tilfælde skal du sætte antal opgaver, du ønsker at lave.",
+                    "infiniteGenerator": "Denne sektion er kun vist, når $t(foe_data.gb.Chateau_Frontenac) boost (ift. din tidsalder) giver dig statistisk flere mønter og forsyninger, end du vil give.",
+                    "otherRq": "Vælg den sekundære gentagne opgave du nu har gennemført.",
+                    "suppliesGathered": "Angiv det antal forsyninger du ønsker at bruge for den sekundære opgave.",
+                    "checkSecondQuest": "Fra $t(foe_data.age.LateMiddleAges), kan du bruge en sekundær gentagen opgave. Vælg \"$t(utils.Yes)\" hvis du ønsker at bruge den sekundære gentagne opgave.\n\n<i><b>Bemærk</b>: Det antages at de sekundære gentagne opgaver er: samle X forsyninger.</i>.",
+                    "fpBy24h": "Angiv antal FP'er du får efter 24 timer.",
+                    "goods": "Angiv det antal varer du indsamler fra din SB og plyndring.",
+                    "supplies": "Angiv det antal af forsyninger du ønsker at brug for alle opgaver.",
+                    "coins": "Angiv det antal mønter, du ønsker at bruge for alle opgaver",
+                    "yourAge": "Vælg din tidsalder"
                 }
             },
             "gb_investment": {

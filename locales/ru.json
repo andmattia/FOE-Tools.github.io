@@ -15,7 +15,7 @@
             "about": "О сервисе",
             "contributors": "Авторы",
             "changelog": "Изменения",
-            "contact": "Контакт"
+            "contact": "Контакты"
         },
         "components": {
             "campaign_cost": {
@@ -74,7 +74,11 @@
                     "goods": "Укажите количество товаров, которые вы хотите использовать для всех квестов.",
                     "supplies": "Укажите количество ресурсов, которые вы хотите использовать для всех квестов.",
                     "coins": "Укажите количество монет, которые вы хотите использовать для всех квестов.",
-                    "yourAge": "Выберете свою эпоху."
+                    "yourAge": "Выберете свою эпоху.",
+                    "fpBy24h": "Укажите количество СО, которые вы получаете за 24 часа.",
+                    "suppliesGathered": "Укажите количество ресурсов, которые вы хотите использовать для второго повторяющегося квеста.",
+                    "yourCfBoost": "Введите \"квест-бонус\" вашего $t(foe_data.gb.Chateau_Frontenac).\n\nПример: для 450%, введите 450.",
+                    "welcome": "Этот инструмент носит информационный характер. Он показывает что Вы сможете теоретически получить с вашего $t(foe_data.gb.Chateau_Frontenac)."
                 }
             },
             "gb_investment": {
@@ -88,15 +92,16 @@
                         "p2_html": "<strong>Замечание</strong>: Если таблица не обновилась автоматически, сначала укажите уровень ВС, потом значение бонуса Арки и нажмите \"$t(components.gb_investment.gb_investment.form.submit_global)\". Если вы хотите указать значения вкладов для всех мест вручную, заполните правую колонку таблицы и нажмите \"$t(components.gb_investment.gb_investment.form.submit_custom)\"."
                     },
                     "form": {
-                        "level": "Уровень {{fromLevel, number}} → {{level, number}} ($t(utils.between_range, { 'min': '{{min}}', 'max': '{{max}}' }))",
+                        "level": "Уровень {{fromLevel, number}} → {{level, number}} ($t(utils.between_range, { 'min': '{{min, number}}', 'max': '{{max, number}}' }))",
                         "investor_percentage": "Бонус Арки, % (единый для всех мест)",
                         "submit_global": "Рассчитать",
                         "submit_custom": "Рассчитать индивидуально",
-                        "owner_investment": "Количество СО, на данный момент вложенных владельцем (не более {{max}})",
-                        "add_investors": "Добавить вкладчика (укажите количество СО, $t(utils.between_range, { 'min': '{{min}}', 'max': '{{max}}' }))",
+                        "owner_investment": "Количество СО, на данный момент вложенных владельцем (не более {{max, number}})",
+                        "add_investors": "Добавить вкладчика (укажите количество СО, $t(utils.between_range, { 'min': '{{min, number}}', 'max': '{{max, number}}' }))",
                         "tooltip_add_investors": "Нажмите кнопку «$t(utils.Add)» или нажмите клавишу «Ввод», чтобы добавить вкладчика",
                         "investors_list": "Список добавленных вкладчиков",
-                        "display_card": "Показать таблицу в виде карты? (на маленьком экране)"
+                        "display_card": "Показать таблицу в виде карты? (на маленьком экране)",
+                        "show_only_secured_places": "Показать все гарантированные места"
                     },
                     "table": {
                         "title": "$t({{gb_key}}) уровень {{fromLevel, number}} → {{level, number}}",
@@ -113,8 +118,14 @@
                         },
                         "tbody": {
                             "button_show_extra_investor_0": "Показать дополнительного вкладчика",
+                            "button_show_extra_investor_1": "Показать дополнительных вкладчиков",
+                            "button_show_extra_investor_2": "Показать дополнительных вкладчиков",
                             "button_hide_extra_investor_0": "Скрыть дополнительного вкладчика",
+                            "button_hide_extra_investor_1": "Скрыть дополнительных вкладчиков",
+                            "button_hide_extra_investor_2": "Скрыть дополнительных вкладчиков",
                             "loss_0": "Этот игрок потеряет СО",
+                            "loss_1": "Этот игрок потеряет СО",
+                            "loss_2": "Этот игрок потеряет СО",
                             "button_show_extra_investor_plural": "Показать дополнительных вкладчиков",
                             "button_hide_extra_investor_plural": "Скрыть дополнительных вкладчиков",
                             "tooltip_owner_investment": "СО, которые должен вложить владелец для гарантии места",
@@ -143,6 +154,15 @@
                         "P4 ({{investment}})",
                         "P5 ({{investment}})"
                     ]
+                },
+                "tutorial": {
+                    "table": {
+                        "default_rewards": "Это стандартная награда (без учёта бонуса Арки) за место."
+                    },
+                    "promotion_message": {
+                        "show_level": "Отобразить уровень ВС (Если добавлено в шаблон сообщения).",
+                        "display_gb_name": "Отобразить имя ВС (Если добавлено в шаблон сообщения)."
+                    }
                 }
             },
             "gb_investment_investors": {
@@ -161,7 +181,8 @@
                 },
                 "table": {
                     "thead": {
-                        "th_place": "{{count}} место"
+                        "th_place": "{{count}} место",
+                        "th_profit_loss": "Прибыль / Потеря"
                     }
                 }
             },
@@ -172,12 +193,14 @@
                 "estimated_time": "Примерное время на достижения уровня",
                 "message": {
                     "diff_0": "За счет бонуса вы сэкономите {{count}} СО",
+                    "diff_1": "За счет бонуса вы сэкономите  {{count, number}} СО",
+                    "diff_2": "За счет бонуса вы сэкономите  {{count, number}} СО",
                     "single": "Для достижения уровня {{level}} \"$t({{gb}})\", владелец должен вложить {{preparation, number}} СО. Общая стоимость уровней: {{cost, number}} СО.",
                     "multi": "Чтобы перейти с {{from}} уровня на {{to}} из \"$t({{gb}})\", владелец должен вложить {{preparation, number}} СО. Общая стоимость уровней: {{cost, number}} СО.",
                     "diff_plural": "За счет бонуса вы сэкономите {{count}} СО",
                     "estimated_time": "Примерное время на достижение уровня: {{time}}"
                 },
-                "prop_already_invested": "Уже вложено СО владельцем в текущий уровень:",
+                "prop_already_invested": "Уже вложено СО владельцем в текущий уровень",
                 "graph": {
                     "title": "Прогноз затрат СО для владельца для подготовки и прокачки \"$t({{gb}})\"",
                     "x_axes_label": "$t(utils.graph.gb_level)",
@@ -202,8 +225,12 @@
             },
             "secure_position": {
                 "block_place": {
-                    "fp_to_complete_level_0": "Количество СО, которые осталось вложить до закрытия уровня: {{count}}",
+                    "fp_to_complete_level_0": "Количество СО, которые осталось вложить до закрытия уровня:",
+                    "fp_to_complete_level_1": "Количество СО, которые осталось вложить до закрытия уровня:",
+                    "fp_to_complete_level_2": "Количество СО, которые осталось вложить до закрытия уровня:",
                     "place_0": "{{place}} ({{count, number}} СО)",
+                    "place_1": "{{place}} ({{count, number}} СО)",
+                    "place_2": "{{place}} ({{count, number}} СО)",
                     "title": "Обеспечение гарантии",
                     "level_cost": "Стоимость уровня",
                     "current_deposits": "Сумма вложений на данный момент",
@@ -216,12 +243,20 @@
                     "place_plural": "{{place}} ({{count, number}} СО)",
                     "result": {
                         "default_0": "Вы должны вложить всего {{count}} СО, чтобы занять место.",
+                        "default_1": "Вы должны вложить всего {{count, number}} СО, чтобы занять место.",
+                        "default_2": "Вы должны вложить всего {{count, number}} СО, чтобы занять место.",
                         "fp_to_secure_html_0": "Вам нужно добавить еще {{count}} СО.",
+                        "fp_to_secure_html_1": "Вам нужно добавить еще {{count, number}} СО.",
+                        "fp_to_secure_html_2": "Вам нужно добавить еще {{count, number}} СО.",
                         "default_plural": "Вы должны вложить всего {{count, number}} СО, чтобы занять место.",
                         "error": "Одно или несколько значений не верны.",
                         "roi": {
                             "profit_0": "Вы получите {{count}} СО",
+                            "profit_1": "Вы получите {{count, number}} СО",
+                            "profit_2": "Вы получите {{count, number}} СО",
                             "loss_0": "Вы потеряете {{count}} СО",
+                            "loss_1": "Вы потеряете {{count, number}} СО",
+                            "loss_2": "Вы потеряете {{count, number}} СО",
                             "profit_plural": "Вы получите {{count, number}} СО",
                             "loss_plural": "Вы потеряете {{count, number}} СО",
                             "neutral": "Вы не получите возврат с этого вложения"
@@ -239,9 +274,14 @@
                         "th1": "Эпоха",
                         "th2": "Товар",
                         "th4": "Результат",
-                        "split": "Разбить"
+                        "split": "Разбить",
+                        "ratio": "Отношение",
+                        "th3": "$t(components.trade.label.i_want)"
                     }
-                }
+                },
+                "slpit": "Разбить предложения?",
+                "show_ratio": "Показать отношение",
+                "title": "Табличная версия"
             },
             "site_layout": {
                 "hero": {
@@ -261,20 +301,36 @@
                     "Day": "День",
                     "start_day": "Начало дня",
                     "Night": "Ночь",
-                    "start_night": "Начало ночи"
+                    "start_night": "Начало ночи",
+                    "Auto": "Автоматически $t(components.site_layout.day_night.Day)/$t(components.site_layout.day_night.Night)"
                 },
                 "global_config": "Глобальные настройки",
                 "global_config_dialog": {
                     "fixed_main_menu": "Всегда отображать глобальное меню",
                     "select_gb_style_mode": {
-                        "datalist": "Автозавершение"
+                        "datalist": "Автозавершение",
+                        "select": "Выбор из списка(устаревший)"
                     },
                     "day_night": "Тема",
                     "day_night_mode": {
                         "Day": "День",
                         "Night": "Ночь",
                         "Auto": "Автоматически"
-                    }
+                    },
+                    "select_gb_style": "Стиль выбора ВС"
+                },
+                "new_year": {
+                    "message_0": "$t(common:site_title) отмечает {{count, number}} год",
+                    "message_1": "$t(common:site_title) отмечает {{count, number}} года",
+                    "message_2": "$t(common:site_title) отмечает {{count, number}} лет"
+                },
+                "update_0": "Произошло одно обновление с момента вашего последнего визита.",
+                "update_1": "Произошло {{count}} обновления с момента вашего последнего визита.",
+                "update_2": "Произошло {{count}} обновлений с момента вашего последнего визита.",
+                "switch_locale": "$t(common:site_title) доступен на вашем языке",
+                "whats_new": "Что нового?",
+                "survey": {
+                    "message": "Помогите нам улучшить $t(common:site_title), ответив на несколько вопросов"
                 }
             },
             "trade": {
@@ -282,7 +338,18 @@
                     "i_have": "У меня есть",
                     "i_want": "Я хочу",
                     "amount": "Количество"
-                }
+                },
+                "message": {
+                    "result": "Для получения {{to}} товаров {{ageTo}}, вам нужно {{from}} товаров(разбивка по {{count}}):",
+                    "total": "(всего: {{amount}} {{key}})"
+                },
+                "split_message": {
+                    "common": "{{count}} × ($t(components.trade.split_message.msg, { 'valueFrom': '{{valueFrom}}', 'ageFrom': '{{ageFrom}}', 'valueTo': '{{valueTo}}', 'ageTo': '{{ageTo}}' }))",
+                    "multi": "$t(components.trade.split_message.common, { 'valueFrom': '{{valueFrom}}', 'ageFrom': '{{ageFrom}}', 'valueTo': '{{valueTo}}', 'ageTo': '{{ageTo}}' }) и $t(components.trade.split_message.common, { 'count': 1, 'valueFrom': '{{valueFromSingle}}', 'ageFrom': '{{ageFrom}}', 'valueTo': '{{valueToSingle}}', 'ageTo': '{{ageTo}}' })",
+                    "msg": "{{valueFrom}} {{ageFrom}} на {{valueTo}} {{ageTo}}"
+                },
+                "split_value": "Максимальный размер предложения (max {{count}})",
+                "title": "Краткая версия"
             },
             "promotion_message_builder": {
                 "action": "Действие",
@@ -290,6 +357,30 @@
                     "message": {
                         "GBN": "Название ВС"
                     }
+                },
+                "note": "Внимание: Конструктор сообщений использует для примера прокачку уровня с 9 до 10 под коэффициент 1,9 у ВС $t(foe_data.gb.Observatory).",
+                "info": "Вы можете скопировать ваши настройки, например что бы поделится с членами вашей гильдии",
+                "title": "Конструктор сообщений для вкладчиков",
+                "reverse_place_order": "Отобразить места в обратном порядке?",
+                "use_short_name": "$t(components.gb_investment.gb_investment.use_short_name)",
+                "custom_field_title": "Ваши настраиваемые поля",
+                "add_field": {
+                    "value": "Значение поля",
+                    "name": "Наименование поля"
+                },
+                "add_field_title": "Добавить настраиваемые поля",
+                "config": "Конфигурация",
+                "templates": {
+                    "custom": "Пользовательские шаблоны",
+                    "default": "Шаблоны по умолчанию"
+                },
+                "delete_template": "Выберите шаблон для удаления",
+                "edit_template": "Выберите шаблон для редактирования",
+                "start_from_template": "Начать с шаблона ?",
+                "actions": {
+                    "delete": "Удалить существующий шаблон",
+                    "update": "Обновить существующий шаблон",
+                    "create": "Создать новый шаблон"
                 }
             }
         },
@@ -361,7 +452,7 @@
                 "title": "$t(routes.gb_statistics.hero.title) | $t(common:site_title)",
                 "hero": {
                     "title": "Статистика ВС",
-                    "subtitle": "Этот инструмент визуализирует рост стоимости  ВС относительно эпохи."
+                    "subtitle": "Этот инструмент визуализирует рост стоимости ВС относительно эпохи."
                 }
             },
             "secure_position": {
@@ -398,7 +489,8 @@
                 "ArcticFuture": "Арктическое будущее",
                 "OceanicFuture": "Океаническое будущее",
                 "VirtualFuture": "Виртуальное будущее",
-                "SpaceAgeMars": "Космическая эра: Марс"
+                "SpaceAgeMars": "Космическая эра: Марс",
+                "SpaceAgeAsteroidBelt": "Космическая Эра: Пояс Астероидов"
             },
             "age_short": {
                 "NoAge": "Не доступно"
@@ -441,14 +533,21 @@
                 "The_Blue_Galaxy": "Синяя галактика",
                 "Terracotta_Army": "Терракотовая армия",
                 "Himeji_Castle": "Замок Химедзи",
-                "The_Virgo_Project": "Проект Дева"
+                "The_Virgo_Project": "Проект Дева",
+                "Star_Gazer": "Звездочёт",
+                "Space_Carrier": "Космический авианосец"
             },
             "gb_short": {
                 "Statue_of_Zeus": "Зевс",
                 "Colosseum": "Колизей",
                 "The_Arc": "Арка",
                 "Atlantis_Museum": "Музей Атлантиды",
-                "The_Kraken": "Кракен"
+                "The_Kraken": "Кракен",
+                "Hagia_Sophia": "София",
+                "Lighthouse_of_Alexandria": "Маяк",
+                "Oracle_of_Delphi": "Оракл",
+                "Temple_of_Relics": "Храм",
+                "Space_Carrier": "Авианосец"
             },
             "goods": {
                 "marble": "Мрамор",
@@ -477,10 +576,121 @@
                 "packaging": "Упаковка",
                 "industrial_filters": "Промышленные фильтры",
                 "semiconductors": "Полупроводники",
-                "steel": "Сталь"
+                "steel": "Сталь",
+                "superalloys": "Суперсплавы",
+                "fusion_reactors": "Термоядерная энергия",
+                "mars_microbes": "Марсианские микробы",
+                "biotech_crops": "Биотехнологические урожаи",
+                "lubricants": "Смазки",
+                "tea_silk": "Чайный шелк",
+                "nanites": "Наниты",
+                "golden_rice": "Золотой рис",
+                "data_crystals": "Кристаллы с данными",
+                "cryptocash": "Криптовалюта",
+                "orichalcum": "Орихалк",
+                "promethium": "Прометий",
+                "plankton": "Планктон",
+                "pearls": "Жемчужина",
+                "corals": "Кораллы",
+                "biolight": "Биосвет",
+                "artificial_scales": "Искусственная чешуя",
+                "transester_gas": "Переэтерифицированный газ",
+                "paper_batteries": "Бумажная батарея",
+                "nanowire": "Нановолокно",
+                "bioplastics": "Биопластмасса",
+                "ai_data": "Данные ИИ",
+                "superconductors": "Сверхпроводник",
+                "purified_water": "Очищенная вода",
+                "nanoparticles": "Наночастица",
+                "biogeochemical_data": "Биогеохимические данные",
+                "algae": "Водоросли",
+                "translucent_concrete": "Прозрачный бетон",
+                "smart_materials": "Умные материалы",
+                "preservatives": "Консерванты",
+                "papercrete": "Арболит",
+                "nutrition_research": "Нутрициологические исследования",
+                "robots": "Робот",
+                "plastics": "Пластмасса",
+                "gas": "Газ",
+                "electromagnets": "Электромагнит",
+                "bionics_data": "Данные бионики",
+                "renewable_resources": "Возобновляемые ресурсы",
+                "genome_data": "Геномные данные",
+                "flavorants": "Ароматизаторы",
+                "ferroconcrete": "Железобетон",
+                "convenience_food": "Полуфабрикаты",
+                "tinplate": "Белая жесть",
+                "coke": "Каменноугольный кокс",
+                "wire": "Проволока",
+                "tar": "Смола",
+                "textiles": "Текстильные изделия",
+                "fertilizer": "Удобрения",
+                "rubber": "Резина",
+                "talc_powder": "Тальковый порошок",
+                "rope": "Веревка",
+                "dried_herbs": "Сушёные травы",
+                "brick": "Кирпич",
+                "granite": "Гранит",
+                "limestone": "Известняк",
+                "jewelry": "Ювелирные изделия",
+                "cloth": "Ткань",
+                "ebony": "Черное дерево",
+                "lumber": "Древесина",
+                "dye": "Краска"
             },
             "province": {
-                "Behemoth": "Бегемот"
+                "Behemoth": "Бегемот",
+                "Haulenois": "Улинуа",
+                "Varseille": "Варсаль",
+                "Pisterrac": "Пастерра",
+                "Lombardeaux": "Ломбардю",
+                "Deuxerres": "Дюксерр",
+                "Troulope": "Траулуп",
+                "Lavignon": "Лавиньон",
+                "Narcien": "Нарсиен",
+                "Ashcrook": "Пепельный рог",
+                "Queenshope": "Королевская лощина",
+                "Northcastle": "Северная цитадель",
+                "Grand_Cap": "Большой каньон",
+                "Zaldon_on_Sea": "Залдон-на-Море",
+                "Houndsmoor": "Серый Топи",
+                "RavensCreek": "Черная Бухта",
+                "Mount_Killmore": "Кровожадная Гора",
+                "FourGallows": "Четыре виселицы",
+                "Wolvhampton": "Вольфгамптон",
+                "Spearth": "Спеарф",
+                "Cuttingham": "Гуттингхэм",
+                "Eldenborough": "Элденборуг",
+                "Cragshire": "Грегшир",
+                "Moravaria": "Моравария",
+                "Jaims": "Джаимс",
+                "Mons_Suiry": "Монс Суири",
+                "Frathia": "Фратия",
+                "Veletrites": "Велетритес",
+                "Canturia": "Кантурия",
+                "Breturia": "Бретурия",
+                "Tarmelmann": "Тармелман",
+                "Steilsturz": "Чертов обрыв",
+                "Todepass": "Тоудспасс",
+                "Galgenschlucht": "Каньон виселиц",
+                "Felssenke": "Каменная низина",
+                "Teufelsfurt": "Чертов брод",
+                "Kaltenweiher": "Ледяной пруд",
+                "Sturmhohen": "Штормовые вершины",
+                "Greifental": "Долина грифов",
+                "Dunkelwald": "Темный лес",
+                "Pfefferberg": "Перцовая гора",
+                "Maktaba": "Мактаба",
+                "West_Nagach": "Западный Нагах",
+                "East_Nagach": "Восточный Нагах",
+                "Karchagu": "Каркагу",
+                "Ruug": "Рууг",
+                "Paruuch": "Паруух",
+                "Badakus": "Бадакус",
+                "Hymir": "Гумыр",
+                "Tyr": "Тюр",
+                "Fel_Dranghyr": "Фел Дрангыр",
+                "Dunarsund": "Дунарсунд"
             },
             "bonus": {
                 "double_collection": {
@@ -509,7 +719,7 @@
             "Copyed": "Скопировано!",
             "Information": "Информация",
             "From": "От",
-            "To": "До (максимум {{max}})",
+            "To": "До (максимум {{max, number}})",
             "Prefix": "Префикс",
             "Suffix": "Суффикс",
             "Rewards": "Награда",
@@ -525,7 +735,8 @@
                 "gb_level": "Уровень",
                 "gb_level_cost": "Стоимость уровня",
                 "gb_reward_1st_place": "Награда за уровень (1е место)"
-            }
+            },
+            "Secured": "Обеспечено"
         },
         "seo": {
             "keywords": {
@@ -536,6 +747,9 @@
                 "medals": "медали",
                 "military_units": "военные единицы"
             }
+        },
+        "contributions": {
+            "creator": "Создатель этого проекта"
         }
     }
 }

@@ -23,7 +23,10 @@
                 "choose_province": "Válassz egy tartományt",
                 "provinces": "Provinciák",
                 "all_provinces": "Minden provincia",
-                "all_ages": "Minden kor"
+                "all_ages": "Minden kor",
+                "message": {
+                    "haveUnknownCosts": "Ez a tartomány egy vagy több szektort tartalmaz, amelyeknél hiányoznak az értékek."
+                }
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -57,7 +60,13 @@
                             "th_coin": "Visszakapott pénz",
                             "th_supply": "Visszakapott alapanyag"
                         }
+                    },
+                    "infinity_generator": {
+                        "label": "Összesített küldetés"
                     }
+                },
+                "tutorial": {
+                    "yourAge": "Válaszd ki a korodat."
                 }
             },
             "gb_investment": {

@@ -263,9 +263,17 @@
                         },
                         "already_blocked": "Это место уже занято.",
                         "fp_to_secure_html_plural": "Вам нужно вложить еще {{count, number}} СО.",
-                        "cant_block": "Вы не можете занять это место."
+                        "cant_block": "Вы не можете занять это место.",
+                        "still_to_put": "Количество CО, оставшихся до завершения уровня",
+                        "fp_need_to_lock_0": "Количество СО, которое вам нужно внести для резервирования места:",
+                        "fp_need_to_lock_1": "Количество СО, которое вам нужно внести для резервирования места:",
+                        "fp_need_to_lock_2": "Количество СО, которое вам нужно внести для резервирования места:"
                     },
-                    "unknown": "неизвестно"
+                    "unknown": "неизвестно",
+                    "fp_to_lock": "Количество СО для резервирования места",
+                    "fp_according_rate": "Количество СО с учетом бонуса",
+                    "rate": "Бонус",
+                    "various_rate": "Различный бонус"
                 }
             },
             "simple_trade": {
@@ -355,7 +363,20 @@
                 "action": "Действие",
                 "variables": {
                     "message": {
-                        "GBN": "Название ВС"
+                        "GBN": "Название ВС",
+                        "PPx": "Количество СО которые должен вложить владелец для гарантии места \"х\" (где \"х\" значение от 1 до 5)",
+                        "LC": "Стоимость уровня",
+                        "LF": "Перевод строки, добавление новой строки",
+                        "PVx": "Колличество СО, которые должен вложить инвестор с учётом бонусов чтобы занять место \"х\" (где \"х\" значение от 1 до 5)",
+                        "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
+                        "P": "Места",
+                        "TLVL": "По уровень",
+                        "FLVL": "С уровня"
+                    },
+                    "place": {
+                        "PP": "$t(components.gb_investment.gb_investment.table.thead.th3)",
+                        "PV": "Стоимость места(в СО)",
+                        "PI": "Номер места"
                     }
                 },
                 "note": "Внимание: Конструктор сообщений использует для примера прокачку уровня с 9 до 10 под коэффициент 1,9 у ВС $t(foe_data.gb.Observatory).",
@@ -381,7 +402,28 @@
                     "delete": "Удалить существующий шаблон",
                     "update": "Обновить существующий шаблон",
                     "create": "Создать новый шаблон"
-                }
+                },
+                "place_separator": "Разделитель между местами",
+                "template_deleted": "Шаблон удалён",
+                "template_updated": "Шаблон обновлён",
+                "template_saved": "Шаблон сохранён",
+                "errors": {
+                    "custom_name_already_exists": "Данное имя шаблона уже существует.",
+                    "custom_name_empty": "Поле с именем шаблона не может быть пустым.",
+                    "template_cannot_have_this_name": "Некорректное имя шаблона, пожалуйста задайте другое имя."
+                },
+                "template_name": "Имя шаблона",
+                "available_variables": "Доступные переменные:",
+                "message_preview": "Предварительный просмотр сообщения",
+                "place_preview": "Предварительный просмотр (1 место)"
+            },
+            "import_promotion_message": {
+                "template_imported": "Шаблон импортирован",
+                "errors": {
+                    "invalid_data": "Данные не коректны"
+                },
+                "config_placeholder": "Вставьте свою конфигурацию сюда",
+                "title": "Импорт сообщения с предложением"
             }
         },
         "routes": {
@@ -398,7 +440,12 @@
                 },
                 "cookie": {
                     "title": "Cookies",
-                    "p1": "Для вашего удобства этот сайт использует cookies вашего браузера."
+                    "p1": "Для вашего удобства этот сайт использует cookies вашего браузера.",
+                    "info": {
+                        "locale": "Язык интерфейса",
+                        "cookieDisclaimerDisplayed": "Указывает, прочитали ли вы информационное сообщение об использовании файлов cookie"
+                    },
+                    "table_message": "В таблице ниже показаны все файлы cookie, используемые на данном сайте."
                 },
                 "dev_info": {
                     "title": "Информация для разработчиков",
@@ -429,6 +476,14 @@
                 "title": "$t(routes.gb_investment.hero.title, { 'gb_key': '{{gb_key}}' }) | $t(common:site_title)",
                 "hero": {
                     "title": "$t(routes.gb_investment_gb_chooser.hero.title) - $t({{gb_key}})"
+                },
+                "tab": {
+                    "investors_view": {
+                        "title": "Для инвестора"
+                    },
+                    "owner_view": {
+                        "title": "Для владельца"
+                    }
                 }
             },
             "gb_investment_gb_chooser": {
@@ -467,6 +522,19 @@
                     "title": "Страница не найдена | $t(common:site_title)",
                     "message": "Извините, страница не существует"
                 }
+            },
+            "trade": {
+                "hero": {
+                    "title": "Торговля"
+                },
+                "title": "$t(routes.trade.hero.title) | $t(common:site_title)"
+            },
+            "campaign_cost": {
+                "hero": {
+                    "subtitle": "Этот инструмент показывает стоимость захвата провинции или сектора путем переговоров.",
+                    "title": "Стоимость кампании"
+                },
+                "title": "$t(routes.campaign_cost.hero.title) | $t(common:site_title)"
             }
         },
         "foe_data": {
@@ -751,11 +819,128 @@
                 "Desperation": "Безнадежная провинция",
                 "Rantford": "Рантфорт",
                 "Okahe": "Огойе",
-                "NewCragshire": "Новый Грегшир"
+                "NewCragshire": "Новый Грегшир",
+                "Rocky_Domain": "Горная область",
+                "Upper_Grotto": "Верхний грот",
+                "Silver_Swarms": "Серебряные стаи",
+                "Lower_Grotto": "Нижний грот",
+                "Walled_Gulf": "Окруженный залив",
+                "Foam_Ceiling": "Потолок из пены",
+                "Wondering_Ocean": "Дивный океан",
+                "Red_Sea": "Красное море",
+                "Serene_Waves": "Безмятежные волны",
+                "Glimmering_Surf": "Мерцающий прибой",
+                "Tideless_Deep": "Неподвижная глубина",
+                "Fresh_Flow": "Свежий поток",
+                "Dark_Abyss": "Тёмная бездна",
+                "Strong_Tide": "Сильный прилив",
+                "Rough_Expanse": "Грубое расширение",
+                "Coral_Depths": "Коралловые глубины",
+                "Cursed_Current": "Проклятое течение",
+                "Murky_Waters": "Мутные воды",
+                "Spirit_Plane": "Долина духов",
+                "Temple_Floe": "Храм льда",
+                "The_Grotto": "Грот",
+                "Frozen_Steppe": "Замерзшая степь",
+                "Neural_Rites": "Нейрообряды",
+                "Unalaq": "Анлак",
+                "Precipice": "Пропасть",
+                "Nanuq": "Нанак",
+                "Nunataq": "Нанатак",
+                "Glacial_Peak": "Ледниковый пик",
+                "Anyu": "Энью",
+                "Pimniq": "Пимник",
+                "Atka": "Атка",
+                "Tattilgat": "Таттилгат",
+                "Chulyin": "Чульин",
+                "Nilak": "Нилак",
+                "Kilalurak": "Килалурак",
+                "Summit_Ice": "Ледяная вершина",
+                "Patuktuq": "Патуктук",
+                "Tundra_Rock": "Камень Тундры",
+                "Manirak": "Манирак",
+                "Avalanche": "Лавина",
+                "Northern_Passage": "Северный путь",
+                "Adlartok": "Адларток",
+                "Kesukavut": "Кесукавут",
+                "Chugiak": "Чугиак",
+                "Ilug": "Илуг",
+                "Southern_Valley": "Южная долина",
+                "Frosty_Mountain": "Замерзшие горы",
+                "Median_Waters": "Срединные воды",
+                "Snowdrifts": "Снежные наносы",
+                "White_Gate": "Белые врата",
+                "Qaniit": "Каниит",
+                "Ananevut": "Ананевут",
+                "Tuklavik": "Туклавик",
+                "Arctic_Horizon": "Арктический горизонт",
+                "Cold_Bay": "Колд Бэй",
+                "Aurora_s_Dale": "Автора Дэйл",
+                "Iluliaq": "Илулиак",
+                "Nutarniq": "Нутарник",
+                "Fort_Buntu": "Форт Бунту",
+                "Bisoraba": "Бисораба",
+                "Kalabuye": "Калабайя",
+                "Botuku": "Ботуку",
+                "Bontaville": "Бонта-таун",
+                "Kolabourg": "Колабург",
+                "Pala": "Пала",
+                "Owopele": "Овопеле",
+                "Omogba": "Омогба",
+                "Esan_Ewu": "Эсан-Эву",
+                "Agadar": "Агадар",
+                "Sao_Malvado": "Сан-Мальвадо",
+                "Desierto_de_la_Muerte": "Дезертио-де-ла-Муэрте",
+                "Falsa_Cruz": "Фальза-Крус",
+                "Jamenez": "Хаменес",
+                "La_Huega": "Ла Хуэга",
+                "Santa_Nerea": "Санта-Нерея",
+                "Sierra_Torrido": "Сьерра-Торридо",
+                "Rio_Roxo": "Рио-Роксо",
+                "Villariba": "Виллариба",
+                "Bajatai": "Бахатай",
+                "Itabarai": "Итабарай",
+                "Villabaja": "Виллабаха",
+                "Torrinhos": "Торриньос"
             },
             "bonus": {
                 "double_collection": {
-                    "gb_description": "Дает вам шанс получить удвоенные ресурсы при первых сборах зданий. Исключая военные и великие строения. Обновляется с каждым сбором этого здания."
+                    "gb_description": "Дает вам шанс получить удвоенные ресурсы при первых сборах зданий. Исключая военные и великие строения. Обновляется с каждым сбором этого здания.",
+                    "name": "Двойная коллекция"
+                },
+                "military_boost": {
+                    "gb_description": "Повышение атаки и защиты атакующей армии, суммируются с каждым зданием.",
+                    "name": "Неистовство"
+                },
+                "blueprint": {
+                    "name": "Чертеж"
+                },
+                "pvp_tower": {
+                    "name": "ПвП башня"
+                },
+                "diamond": {
+                    "name": "Брильянты"
+                },
+                "medal": {
+                    "name": "Медали"
+                },
+                "expansion": {
+                    "name": "Расширение"
+                },
+                "good_bonus": {
+                    "name": "Источник сырья"
+                },
+                "special_good": {
+                    "name": "Специальные товары"
+                },
+                "good": {
+                    "name": "Товар"
+                },
+                "supply": {
+                    "name": "Ресурсы"
+                },
+                "coin": {
+                    "name": "Монеты"
                 }
             }
         },

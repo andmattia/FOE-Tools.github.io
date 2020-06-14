@@ -1,7 +1,7 @@
 {
     "translation": {
         "main_menu": {
-            "home": "Casa",
+            "home": "Início",
             "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
             "secure_position": "$t(routes.secure_position.hero.title)",
             "cf_calculator": "$t(routes.cf_calculator.hero.title)",
@@ -15,14 +15,14 @@
             "about": "Sobre",
             "contributors": "Contribuidores",
             "changelog": "Changelog",
-            "contact": "Contacto"
+            "contact": "Contato"
         },
         "components": {
             "campaign_cost": {
                 "title": "$t(routes.campaign_cost.hero.title)",
-                "choose_province": "Escolhe uma província",
+                "choose_province": "Escolha uma província",
                 "message": {
-                    "haveUnknownCosts": "Esta província contem um ou mais sectores sem valores."
+                    "haveUnknownCosts": "Esta província contém um ou mais setores com valores faltando."
                 },
                 "provinces": "Províncias",
                 "all_provinces": "Todas as províncias",
@@ -31,15 +31,15 @@
             "cf_calculator": {
                 "block_cfc": {
                     "title": "$t(routes.cf_calculator.hero.title)",
-                    "your_age": "A tua ERA",
-                    "your_cf_boost": "O teu $t(foe_data.gb.Chateau_Frontenac) Bónus",
-                    "coins_to_use": "Total de moedas para UBQ",
-                    "coins_supplies_info": "Esse valor deve ser maior ou igual a {{min}} porque, não podemos garantir nenhum lucro",
-                    "supplies_to_use": "Mantimentos para UBQ",
-                    "gb_plunder_goods": "GE & Mercadorias Pilhadas",
-                    "fp_by_24h": "Produção de PF's durante 24h",
-                    "other_rq": "Os seus RQ's diários",
-                    "second_rq": "2º RQ ?",
+                    "your_age": "Sua era",
+                    "your_cf_boost": "O bônus do seu $t(foe_data.gb.Chateau_Frontenac)",
+                    "coins_to_use": "Moedas para usar na missão recorrente",
+                    "coins_supplies_info": "Esse valor deve ser maior ou igual a {{min}} porque abaixo disso não podemos garantir nenhum lucro (estatisticamente)",
+                    "supplies_to_use": "Mantimentos para usar na missão recorrente",
+                    "gb_plunder_goods": "Mercadorias de GEs e saques",
+                    "fp_by_24h": "Produção diária de Pontos Forge",
+                    "other_rq": "Outras missões recorrentes diárias",
+                    "second_rq": "Duas missões recorrentes?",
                     "supplies_gathered": "Mantimentos Recolhidos",
                     "table_reward": {
                         "title": "$t(utils.Rewards)",
@@ -51,12 +51,12 @@
                         }
                     },
                     "reward_message": {
-                        "daily_ubq": "UBQ's Diarios: {{contagem,numero}}",
-                        "bonus_ubq": "UBQ's Bonus: {{contagem,numero}}",
-                        "second_rq_completed": "2º RQ's Completada: {{contagem,numero}}",
-                        "total_goods": "Total de Mercadorias: {{contagem,numero}}",
-                        "total_fp": "Total de PF's: {{contagem,numero}}",
-                        "total_rq_completed": "Total de RQ's concluídas: {{contagem,numero}}"
+                        "daily_ubq": "Recorrentes Diárias: {{count, number}}",
+                        "bonus_ubq": "Recorrentes Bônus: {{count, number}}",
+                        "second_rq_completed": "2ª recorrente completadas: {{count, number}}",
+                        "total_goods": "Total de Mercadorias: {{count, number}}",
+                        "total_fp": "Total de PFs: {{count, number}}",
+                        "total_rq_completed": "Total de recorrentes concluídas: {{count, number}}"
                     },
                     "table_return": {
                         "thead": {
@@ -66,104 +66,104 @@
                         }
                     },
                     "infinity_generator": {
-                        "message": "Com este bónus de $t(foe_data.gb.Chateau_Frontenac),ganharas mais moedas e mantimentos,do que aqueles que usaste para concluíres a missão.Escolhe o numero de $t(components.cf_calculator.block_cfc.infinity_generator.label) que queres fazer.",
-                        "label": "Missão acumulativa"
+                        "message": "Com esse bônus de $t(foe_data.gb.Chateau_Frontenac), você ganhará mais moedas e mantimentos do que gasta para concluir as missões. Escolha um número de $t(components.cf_calculator.block_cfc.infinity_generator.label) que você deseja fazer.",
+                        "label": "Missões Recorrentes"
                     }
                 },
                 "tutorial": {
-                    "coinSupplyReturn": "Esta tabela mostra o numero de moedas e mantimentos que vais ganhar estatisticamente do teu investimento inicial (com aquilo que estas disposto a gastar em moedas e mantimentos).",
-                    "secondRqCompleted": "Numero de missões secundarias recorrentes que podes completar.",
-                    "bonusUbq": "Numero de missões por aparecer que podes acabar (estatisticamente) com as tuas moedas e mantimentos e com aquelas que vais ganhar.",
-                    "dailyUbq": "Numero de missões por aparecer que podes completar de acordo com aquilo que estejas disposto a gastar em moedas e mantimentos.",
-                    "totalRqCompleted": "Total de missões recorrentes que vais (estatisticamente) completar.",
-                    "totalFp": "Total de PFs que vais ganhar com missões,GEs, etc.",
-                    "totalGoods": "Total de mercadorias que vais ganhar com missões,GEs, etc.",
-                    "tableReward": "Esta tabela mostra os prémios que vais receber. Lembra te que estes valores são baseados numa probabilidade.",
-                    "cumulativeQuest": "Em nesse caso, precisas de dizer o numero de missões que queres fazer.",
-                    "infiniteGenerator": "Esta secção mostra apenas quando o $t(foe_data.gb.Chateau_Frontenac) ajuda (de acordo com a tua Era) da estatisticamente mais moedas e mantimentos do que vais gastar.",
-                    "otherRq": "Marca outra missão diária recorrente já concluída.",
-                    "checkSecondQuest": "De $t(foe_data.age.LateMiddleAges),consegues fazer uma segunda missão recorrente. Coloca \"$t(utils.Yes)\" se quiseres fazer uma segunda missão recorrente<i><b>Nota</b>: Supõe que a segunda missão recorrente é :juntar X mantimentos.</i>.",
-                    "suppliesGathered": "Coloca a quantidade de mantimentos que quer usar na segunda missão recorrente.",
-                    "fpBy24h": "Coloca o numero de PF's que recolhes após 24 horas.",
-                    "goods": "Coloca o numero de mercadorias que ganhas do teu GE e das pilhagens.",
-                    "supplies": "Coloca o numero de mantimentos que queres usar nas missões todas.",
-                    "coins": "Coloca o numero de moedas que queres usar nas missões todas.",
-                    "yourCfBoost": "Coloca o teu $t(foe_data.gb.Chateau_Frontenac) boost. Exemplo: para 450%, coloca 450.",
-                    "yourAge": "Selecciona a tua Era.",
-                    "welcome": "Esta ferramenta é puramente informativa, da apenas informação sobre a estatística que podes obter do teu $t(foe_data.gb.Chateau_Frontenac)."
+                    "coinSupplyReturn": "Esta tabela mostra o número de moedas e mantimentos que você (estatisticamente) ganhará com o seu investimento inicial (aquilo que está disposto a gastar em moedas e mantimentos).",
+                    "secondRqCompleted": "Quantidade de 2ª missão recorrente que você pode completar.",
+                    "bonusUbq": "Número de missões recorrentes Festa de Desaniversário que você pode completar (estatisticamente) de acordo com o que você está disposto a gastar (em moedas e mantimentos) junto com o que você ganhará.",
+                    "dailyUbq": "Número de missões recorrentes Festa de Desaniversário que você pode completar de acordo com o que você está disposto a gastar em moedas e mantimentos.",
+                    "totalRqCompleted": "Total de missões recorrentes que você (estatisticamente) completará.",
+                    "totalFp": "Número total de Pontos Forge que você ganhará com missões, GEs, etc.",
+                    "totalGoods": "Número total de mercadorias que você ganhará com missões, GEs, etc.",
+                    "tableReward": "Esta tabela mostra as recompensas que você ganhará. Lembre-se de que os valores são baseados em uma probabilidade empírica.",
+                    "cumulativeQuest": "Nesse caso, você precisa dizer quantas missões recorrentes deseja fazer.",
+                    "infiniteGenerator": "Esta seção é mostrada apenas quando o bônus do $t(foe_data.gb.Chateau_Frontenac) (de acordo com a sua Era), estatisticamente, dá mais moedas e mantimentos do que você gasta com as missões recorrentes.",
+                    "otherRq": "Coloque outras missões recorrentes diárias já concluídas.",
+                    "checkSecondQuest": "A partir dos $t(foe_data.age.LateMiddleAges), você consegue fazer uma segunda missão recorrente. Marque \"$t(utils.Yes)\" se quiser fazer uma segunda missão recorrente.\n\n<i><b>Observação:</b> A ferramente supõe que a segunda missão recorrente é: coletar X mantimentos.</i>",
+                    "suppliesGathered": "Coloque a quantidade de mantimentos que você deseja usar para a segunda missão recorrente.",
+                    "fpBy24h": "Coloque a quantidade de Pontos Forges que você produz diariamente.",
+                    "goods": "Coloque o número de mercadorias coletadas com seus GEs e saques.",
+                    "supplies": "Coloque o número de mantimentos que deseja usar para todas as missões.",
+                    "coins": "Coloque o número de moedas que deseja usar para todas as missões.",
+                    "yourCfBoost": "Coloque o bônus do seu $t(foe_data.gb.Chateau_Frontenac).\n\nExemplo: para 450%, coloque 450.",
+                    "yourAge": "Selecione sua era.",
+                    "welcome": "Esta ferramenta é puramente informativa. Ela te dá informação sobre o que você pode obter, estatisticamente, do seu $t(foe_data.gb.Chateau_Frontenac) ao concluir missões recorrentes."
                 }
             },
             "gb_investment": {
                 "gb_list_select": {
-                    "label": "Troca de Grande Edifício",
-                    "info": "Podes mudar o estilo do seleccionador (seleccionador manual ou de preenchimento automático) nas definições globais"
+                    "label": "Trocar de Grande Edifício",
+                    "info": "Você pode mudar o estilo do seletor (seletor legado ou auto-completar) nas configurações globais"
                 },
                 "gb_investment": {
                     "title": "$t(routes.gb_investment_gb_chooser.hero.title)",
                     "description": {
-                        "p1": "Insira o nível de % de bónus da Arca (90% para o nível 80 da Arca). Os valores na tabela são actualizados automaticamente.",
-                        "p2_html": "</strong>Nota<strong>:Se não for actualizado automaticamente,defina primeiro o nível do GE e o valor total do investimento e clica em $t(components.gb_investment.gb_investment.form.submit_global) \"Se quiseres ajustar os valores de cada lugar,clica em\"$t(components.gb_investment.gb_investment.form.submit_custom)\"."
+                        "p1": "Insira o nível (que o GE chegará) e a % do bônus do Arco (90% para Arco nível 80). Os valores na tabela são atualizados automaticamente.",
+                        "p2_html": "</strong>Observação:<strong> Se a atualização não acontecer automaticamente, primeiro coloque o nível do GE e o valor total do investimento e clique em \"$t(components.gb_investment.gb_investment.form.submit_global)\". Se você quiser ajustar os valores de cada lugar, ajuste como queira e clique em \"$t(components.gb_investment.gb_investment.form.submit_custom)\"."
                     },
                     "form": {
-                        "level": "Level {{fromLevel, number}} → {{level, number}} ($t(utils.between_range, { 'min': '{{min, number}}', 'max': '{{max, number}}' }))",
-                        "investor_percentage": "% do bónus dos investidores (bónus da arca)",
-                        "submit_global": "Calculo Global",
-                        "submit_custom": "Cálculo personalizado",
-                        "owner_investment": "Número de PFs actualmente colocados pelo proprietário (max {{max, number}})",
-                        "add_investors": "Adicione investidor,$t(utils.between_range, { 'min': '{{min, number}}', 'max': '{{max, number}}' }))",
-                        "tooltip_add_investors": "Clique no botão \"$t(utils.Add)\" ou pressione a tecla \"Enter\" para adicionar investidor",
+                        "level": "Nível {{fromLevel, number}} → {{level, number}} ($t(utils.between_range, { 'min': '{{min, number}}', 'max': '{{max, number}}' }))",
+                        "investor_percentage": "% geral de bônus do Arco dos investidores",
+                        "submit_global": "Cálculo Geral",
+                        "submit_custom": "Cálculo Personalizado",
+                        "owner_investment": "Número de PFs colocados pelo dono atualmente (no máximo {{max, number}})",
+                        "add_investors": "Adicione um investidor (coloque um valor de PFs $t(utils.between_range, { 'min': '{{min, number}}', 'max': '{{max, number}}' }))",
+                        "tooltip_add_investors": "Clique no botão \"$t(utils.Add)\" ou pressione a tecla \"Enter\" para adicionar um investidor",
                         "investors_list": "Lista de investidores adicionados",
-                        "show_snipe": "Mostrar lugar/intruso",
+                        "show_snipe": "Mostrar Intruso/Bote",
                         "show_only_secured_places": "Mostrar apenas lugares seguros",
-                        "display_card": "Exibir a tabela no modo de exibição caixa? (em tela pequena)"
+                        "display_card": "Exibir a tabela no modo de caixas? (para telas pequenas)"
                     },
                     "table": {
                         "title": "$t({{gb_key}}) nível {{fromLevel, number}} → {{level, number}}",
                         "thead": {
-                            "th1": "Lugares",
-                            "th2": "Prémios padrão",
-                            "th3": "PF's colocados pelo dono para segurar posições",
-                            "th4": "Taxa de Recompensas",
-                            "th5": "% de bónus dos investidores (bónus da arca)",
-                            "th6": "Incluir cópia nas caixas",
-                            "fp_already_putin": "Total de PF's já colocados",
-                            "spot_snipe": "Lugar/Intruso",
-                            "expected_participation": "PF's obtidos com a % de bónus esperado pelo dono",
-                            "real_participation": "PF's obtidos com a % de lucro da tua Arca",
+                            "th1": "Posições",
+                            "th2": "Recompensa padrão",
+                            "th3": "PFs colocados pelo dono para segurar as posições",
+                            "th4": "Recompensas com bônus",
+                            "th5": "% de bônus do Arco dos investidores",
+                            "th6": "Incluir nas mensagens abaixo",
+                            "fp_already_putin": "Número de PFs já colocados",
+                            "spot_snipe": "Intruso/Bote",
+                            "expected_participation": "PFs obtidos com a % de bônus esperado pelo dono",
+                            "real_participation": "PFs obtidos com a % de bônus do seu Arco",
                             "is_sniper": "É um potencial intruso ?"
                         },
                         "tbody": {
-                            "button_show_extra_investor": "Mostrar novo investidor",
+                            "button_show_extra_investor": "Mostrar investidor extra",
                             "button_show_extra_investor_plural": "Mostrar investidores extras",
-                            "button_hide_extra_investor": "Ocultar novo investidor",
+                            "button_hide_extra_investor": "Ocultar investidor extra",
                             "button_hide_extra_investor_plural": "Ocultar investidores extras",
-                            "loss": "Este jogador ira perder PFs",
-                            "loss_plural": "Este jogador vai perder PF's",
-                            "tooltip_owner_investment": "PF's restantes colocados pelo dono para segurar posições",
+                            "loss": "Este jogador perderá PF",
+                            "loss_plural": "Este jogador perderá PFs",
+                            "tooltip_owner_investment": "PFs restantes para o dono colocar para segurar a posição",
                             "tooltip_expected_investment": "Investimento esperado",
-                            "profit": "Jogador que vai ter lucro",
-                            "neutral": "Este jogador não terá lucro nem vai perder PF's"
+                            "profit": "Este jogador terá lucro",
+                            "neutral": "Este jogador não terá lucro nem vai perder PFs"
                         },
                         "tfoot": {
                             "total_preparation": "Investimento total do dono",
-                            "tooltip_owner_investment": "PF's restantes para ser colocados pelo dono para completar o nível",
+                            "tooltip_owner_investment": "PFs restantes para serem colocados pelo dono para completar o nível",
                             "level_cost": "Custo do nível"
                         }
                     },
-                    "display_gb_name": "Exibir nome do GE?",
-                    "use_short_name": "Usar nome curto?",
-                    "show_level": "Mostrar nível?"
+                    "display_gb_name": "Exibir nome do GE ?",
+                    "use_short_name": "Usar nome curto ?",
+                    "show_level": "Mostrar nível ?"
                 },
                 "promotion": {
                     "title": "Mensagem de promoção",
                     "prefix_placeholder": "texto antes da mensagem de promoção",
                     "suffix_placeholder": "texto depois da mensagem de promoção",
                     "promo": [
-                        "P1{{investment}}",
-                        "P2{{investment}}",
-                        "P3{{investment}}",
-                        "P4{{investment}}",
-                        "P5{{investment}}"
+                        "P1({{investment}})",
+                        "P2({{investment}})",
+                        "P3({{investment}})",
+                        "P4({{investment}})",
+                        "P5({{investment}})"
                     ]
                 },
                 "tutorial": {
@@ -180,9 +180,9 @@
                     },
                     "rush_1_9": {
                         "content": "$t(foe_data.gb.The_Arc) é um GE que da te bónus que aumenta te os prémios ao fazeres lugares no top 5 no GE de alguém.\nMais alto o nível da Arca,maior é os prémios\nÉ por isso que começamos a falar sobre 1.8,1.9,etc. Na realidade é o bónus da Arca.\nTópicos especialmente reservado para este tipo de investimento que criamos em guildas e grupos de amigos. Isto é baseado no principio do \"eu dou o que recebo\",limitamos os conflitos com os membros da guilda ou amigos em não ter lucros com os seus GEs. Ao contrario das cartas de (10,50,100,etc), a vantagem das cartas a 1.8,1.9,etc. é que reduz consideravelmente o tempo de up do GE. Isto porquê , porque o dono só necessita de segurar os lugares dos investidores com Arcas a nível 80 ( neste caso a 1.9).\nPor exemplo:\nImaginemos que queres elevar o teu $t(foe_data.gb.Observatory) do nível 10 ao 60 e que recolhes $t(utils.FP, {'count': 50 }) por dia.\nO custo total é de $t(utils.FP, {'count': 64975 }).\nSe usas cartas de trocas de PFs sem fim , o teu investimento será 1:1, i.e. $t(utils.FP, {'count': 25 }) investido num GE = $t(utils.FP, {'count': 25}) que outro jogador investira no teu GE. Assim terás de <strong> investir $t(utils.FP, {'count': 37320 })</strong> para alcançar o nível 60. A $t(utils.FP, {'count': 50 }) por dia,vais demorar <strong>2 anos e 17 dias </strong>.\nSe.usares uma carta a 1.9,apenas vais <strong> investir $t(utils.FP, {'count': 12363 })</strong> para alcançar o nivel 60,assim com \n$t(utils.FP, {'count': 50 }) por dia diminuis o tempo de 2 anos e 17 dias para <strong> 8 meses e 5 dias </strong>!",
-                        "title": "Pressiona 1.9, 1.8, etc."
+                        "title": "Bônus 90, 1.9, 1.8, etc."
                     },
-                    "welcome": "A função deste tutorial é explicar todas as funcionalidades desta ferramenta.\nPodes clicar nos links abaixo para aprenderes mais sobre eles.\nPara continuar com este tutorial clica neste \"$t(utils.Next)\"botão.",
+                    "welcome": "A função deste tutorial é explicar todas as funcionalidades desta ferramenta.\nVocê pode clicar nos links abaixo para aprender mais sobre eles.\nPara continuar com o tutorial clique no botão \"$t(utils.Next)\".",
                     "table": {
                         "fp_already_putin": "Esta coluna é mostrada quando colocas pelo menos um investidor.Mostra o lugar do investidor com a estratégia feita pelo dono (investimento esperado).",
                         "rewards_with_rate": "Este é o numero de PFs esperado pelo dono quando um investidor faz o lugar.",

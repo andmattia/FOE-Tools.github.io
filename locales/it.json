@@ -23,7 +23,10 @@
                 "choose_province": "Scegli una provincia",
                 "message": {
                     "haveUnknownCosts": "Questa provincia contiene uno o più settori in cui mancano i valori."
-                }
+                },
+                "provinces": "Province",
+                "all_provinces": "Tutte le province",
+                "all_ages": "Tutte le Ere"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -66,6 +69,13 @@
                         "message": "Con l'attuale bonus di $t(foe_data.gb.Chateau_Frontenac), guadagnerai più monete e materiali di quanti ne utilizzerai per completare le missioni. Scegli il numero di \"$t(components.cf_calculator.block_cfc.infinity_generator.label)\" che desideri eseguire.",
                         "label": "Ricerca cumulativa"
                     }
+                },
+                "tutorial": {
+                    "supplies": "Inserisci il numero di materiali che vuoi usare per tutte le missioni.",
+                    "coins": "Inserisci il numero di monete che vuoi usare per tutte le missioni.",
+                    "fpBy24h": "Inserisci il numero di PF che ottieni in 24 ore.",
+                    "goods": "Inserisci il numero di beni che raccogli dai tuoi GE e dai saccheggi.",
+                    "yourAge": "Seleziona la tua Era."
                 }
             },
             "gb_investment": {

@@ -23,7 +23,10 @@
                 "choose_province": "Välj en provins",
                 "message": {
                     "haveUnknownCosts": "Denna provins innehåller en eller flera sektorer som saknar värden."
-                }
+                },
+                "provinces": "Provinser",
+                "all_provinces": "Alla provinser",
+                "all_ages": "Alla tidsåldrar"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -439,7 +442,9 @@
                         "P": "Plats",
                         "OP": "$t(components.gb_investment.gb_investment.table.tfoot.total_preparation)",
                         "PPx": "Antal FP att läggas av ägaren för plats \"x\" (\"x\" avser 1 till 5)",
-                        "LF": "Fältmatning, lägg till ny rad"
+                        "LF": "Fältmatning, lägg till ny rad",
+                        "PVx": "Antal FP för investeraren att lägga för plats \"x\" (där \"x\" = till 15)",
+                        "LC": "Nivåkostnad"
                     }
                 },
                 "template_name": "Mallnamn",
@@ -689,7 +694,8 @@
                 "ArcticFuture": "Arktisk framtid",
                 "OceanicFuture": "Oceanisk framtid",
                 "VirtualFuture": "Virtuell framtid",
-                "SpaceAgeMars": "Rymdålder Mars"
+                "SpaceAgeMars": "Rymdålder Mars",
+                "SpaceAgeAsteroidBelt": "Rymdålder Asteroidbälte"
             },
             "age_short": {
                 "NoAge": "NA",
@@ -737,7 +743,7 @@
                 "The_Habitat": "Habitat 67",
                 "Lotus_Temple": "Lotustemplet",
                 "Innovation_Tower": "Innovationstornet",
-                "Dynamic_Tower": "Dynamic Tower",
+                "Dynamic_Tower": "Vapenvilans torn",
                 "Voyager_V1": "Voyager V1",
                 "The_Arc": "Arken",
                 "Rain_Forest_Project": "Regnskogsprojektet",
@@ -750,7 +756,8 @@
                 "Terracotta_Army": "Terracottaarmé",
                 "Himeji_Castle": "Himeji-slottet",
                 "The_Virgo_Project": "Jungfruprojektet",
-                "Star_Gazer": "Stjärnskådare"
+                "Star_Gazer": "Stjärnskådare",
+                "Space_Carrier": "Rymdtransportör"
             },
             "gb_short": {
                 "Observatory": "Obs",
@@ -778,7 +785,7 @@
                 "The_Habitat": "Hab",
                 "Lotus_Temple": "LT",
                 "Innovation_Tower": "IT",
-                "Dynamic_Tower": "DT",
+                "Dynamic_Tower": "VT",
                 "Voyager_V1": "Voy",
                 "The_Arc": "Ark",
                 "Rain_Forest_Project": "RSP",
@@ -791,7 +798,8 @@
                 "Terracotta_Army": "TA",
                 "Himeji_Castle": "HC",
                 "The_Virgo_Project": "JP",
-                "Star_Gazer": "SS"
+                "Star_Gazer": "SS",
+                "Space_Carrier": "Rym"
             },
             "goods": {
                 "dye": "Färgämne",

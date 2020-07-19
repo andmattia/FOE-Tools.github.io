@@ -1,7 +1,7 @@
 {
     "translation": {
         "main_menu": {
-            "home": "Casa",
+            "home": "Página Principal",
             "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
             "secure_position": "$t(routes.secure_position.hero.title)",
             "cf_calculator": "$t(routes.cf_calculator.hero.title)",
@@ -51,12 +51,12 @@
                         }
                     },
                     "reward_message": {
-                        "daily_ubq": "UBQ's Diarios: {{contagem,numero}}",
-                        "bonus_ubq": "UBQ's Bonus: {{contagem,numero}}",
-                        "second_rq_completed": "2º RQ's Completada: {{contagem,numero}}",
-                        "total_goods": "Total de Mercadorias: {{contagem,numero}}",
-                        "total_fp": "Total de PF's: {{contagem,numero}}",
-                        "total_rq_completed": "Total de RQ's concluídas: {{contagem,numero}}"
+                        "daily_ubq": "UBQ's Diarios: {{count, number}}",
+                        "bonus_ubq": "UBQ's Bonus: {{count, number}}",
+                        "second_rq_completed": "2º RQ's Completada: {{count, number}}",
+                        "total_goods": "Total de Mercadorias: {{count, number}}",
+                        "total_fp": "Total de PF's: {{count, number}}",
+                        "total_rq_completed": "Total de RQ's concluídas: {{count, number}}"
                     },
                     "table_return": {
                         "thead": {
@@ -179,7 +179,7 @@
                         "title": "Intruso"
                     },
                     "rush_1_9": {
-                        "content": "$t(foe_data.gb.The_Arc) é um GE que da te bónus que aumenta te os prémios ao fazeres lugares no top 5 no GE de alguém.\nMais alto o nível da Arca,maior é os prémios\nÉ por isso que começamos a falar sobre 1.8,1.9,etc. Na realidade é o bónus da Arca.\nTópicos especialmente reservado para este tipo de investimento que criamos em guildas e grupos de amigos. Isto é baseado no principio do \"eu dou o que recebo\",limitamos os conflitos com os membros da guilda ou amigos em não ter lucros com os seus GEs. Ao contrario das cartas de (10,50,100,etc), a vantagem das cartas a 1.8,1.9,etc. é que reduz consideravelmente o tempo de up do GE. Isto porquê , porque o dono só necessita de segurar os lugares dos investidores com Arcas a nível 80 ( neste caso a 1.9).\nPor exemplo:\nImaginemos que queres elevar o teu $t(foe_data.gb.Observatory) do nível 10 ao 60 e que recolhes $t(utils.FP, {'count': 50 }) por dia.\nO custo total é de $t(utils.FP, {'count': 64975 }).\nSe usas cartas de trocas de PFs sem fim , o teu investimento será 1:1, i.e. $t(utils.FP, {'count': 25 }) investido num GE = $t(utils.FP, {'count': 25}) que outro jogador investira no teu GE. Assim terás de <strong> investir $t(utils.FP, {'count': 37320 })</strong> para alcançar o nível 60. A $t(utils.FP, {'count': 50 }) por dia,vais demorar <strong>2 anos e 17 dias </strong>.\nSe.usares uma carta a 1.9,apenas vais <strong> investir $t(utils.FP, {'count': 12363 })</strong> para alcançar o nivel 60,assim com \n$t(utils.FP, {'count': 50 }) por dia diminuis o tempo de 2 anos e 17 dias para <strong> 8 meses e 5 dias </strong>!",
+                        "content": "$t(foe_data.gb.The_Arc) é um GE que da te bónus que aumenta te os prémios ao fazeres lugares no top 5 no GE de alguém.\nMais alto o nível da Arca,maior é os prémios\nÉ por isso que começamos a falar sobre 1.8,1.9,etc. Na realidade é o bónus da Arca.\nTópicos especialmente reservado para este tipo de investimento que criamos em guildas e grupos de amigos. Isto é baseado no principio do \"eu dou o que recebo\",limitamos os conflitos com os membros da guilda ou amigos em não ter lucros com os seus GEs. Ao contrario das cartas de (10,50,100,etc), a vantagem das cartas a 1.8,1.9,etc. é que reduz consideravelmente o tempo de up do GE. Isto porquê , porque o dono só necessita de segurar os lugares dos investidores com Arcas a nível 80 ( neste caso a 1.9).\nPor exemplo:\nImaginemos que queres elevar o teu $t(foe_data.gb.Observatory) do nível 10 ao 60 e que recolhes $t(utils.FP, {'count': 50 }) por dia.\nO custo total é de $t(utils.FP, {'count': 64975 }).\nSe usas cartas de trocas de PFs sem fim , o teu investimento será 1:1, i.e. $t(utils.FP, {'count': 25 }) investido num GE = $t(utils.FP, {'count': 25}) que outro jogador investira no teu GE. Assim terás de <strong> investir $t(utils.FP, {'count': 37320 })</strong> para alcançar o nível 60. A $t(utils.FP, {'count': 50 }) por dia,vais demorar <strong>2 anos e 17 dias </strong>.\nSe.usares uma carta a 1.9,apenas vais <strong> investir $t(utils.FP, {'count': 12363 })</strong> para alcançar o nivel 60,poupas $t(utils.FP, {'count': 24957 }) assim com \n$t(utils.FP, {'count': 50 }) por dia diminuis o tempo de 2 anos e 17 dias para <strong> 8 meses e 5 dias </strong>!",
                         "title": "Pressiona 1.9, 1.8, etc."
                     },
                     "welcome": "A função deste tutorial é explicar todas as funcionalidades desta ferramenta.\nPodes clicar nos links abaixo para aprenderes mais sobre eles.\nPara continuar com este tutorial clica neste \"$t(utils.Next)\"botão.",
@@ -197,7 +197,7 @@
                     },
                     "display_card": "Este campo permite que vejas a tabela em modo \" Card View\"\nIsto foi optimizado para telemóvel,por isso não necessita que vejas na horizontal.\nEste campo é apenas mostrado em ecrã pequeno.",
                     "show_snipe": "Este campo é para investidores e é usado para mostrar uma nova coluna,chamada\"$t(components.gb_investment.gb_investment.form.show_snipe)\". \nEsta coluna diz te ( baseada no valor definido em\"$t(components.secure_position.block_place.your_arc_bonus)\") quantos pfs precisas para colocares no GE para segurares o teu lugar\nTambém indica o lucro ou perda que vais ter.",
-                    "add_investors": "Tens vários investimentos no teu GE que são mais baixos ou mais altos que o rácio pedido ?\nColoca todos os investimentos separados neste campo\nA ferramenta vai calcular os teus novos lugares seguros e quais os lugares que que seguras te .",
+                    "add_investors": "Tens vários investimentos no teu GE que são mais baixos ou mais altos que o rácio pedido ?\nColoca todos os investimentos separados neste campo\nA ferramenta vai calcular os teus novos lugares seguros e quais os lugares que seguras te .",
                     "your_arc_bonus": "Este campo é para investidores e tem de ser usado com\"$t(components.gb_investment.gb_investment.form.show_snipe)\" posto em \"$t(utils.Yes)\".\nEle diz quantos PFs tens de colocar no nível para segurares o lugar, vai te dizer o teu lucro ou perda que vais ter.",
                     "owner_investment": "Ja tens alguns pfs no teu GE?\nSe sim, adiciona aqui quantos pfs tens no teu GE",
                     "promotion_message": {
@@ -247,7 +247,7 @@
                 "message": {
                     "diff": "Com o bónus do investimento,vais poupar {{count}} PF",
                     "diff_plural": "Com o bónus do investimento,vais poupar{{count, number}} PFs",
-                    "single": "Para completar o nível {{level}} de \"$t({{gb}})\", o proprietário deve investir {{preparação, numero}} PFs. Custo total do nível: {{custo, numero}} PFs.",
+                    "single": "Para completar o nível {{level}} de \"$t({{gb}})\", o proprietário deve investir {{preparation, number}} PFs. Custo total do nível: {{cost, number}} PFs.",
                     "multi": "Do nível {{from}} para {{to}} de \"$t({{gb}})\", o dono tem de investir {{preparation, number}} PF's. Custo total do nível: {{cost, number}} PFs.",
                     "estimated_time": "Tempo estimado para atingir o nível: {{time}}"
                 },
@@ -279,7 +279,7 @@
                     "fp_to_complete_level": "Número de PF restante para completar o nível:",
                     "fp_to_complete_level_plural": "Número de PF's restantes para completar o nível:",
                     "place": "{{place}} ({{count, number}} PF)",
-                    "place_plural": "{{place}} ({{contagem, numero}} FPs)",
+                    "place_plural": "{{place}} {{count, number}} FPs)",
                     "title": "Segurar o lugar",
                     "level_cost": "Custo do nível",
                     "current_deposits": "Soma dos investimentos actuais",
@@ -298,13 +298,13 @@
                         "fp_need_to_lock": "PF necessário para segurar o lugar:",
                         "fp_need_to_lock_plural": "PF's necessários para segurar o lugar:",
                         "fp_to_secure_html": "Ainda falta {{count}} PF'.",
-                        "fp_to_secure_html_plural": "Ainda faltam {{contagem, numero}} PF's.",
+                        "fp_to_secure_html_plural": "Ainda faltam {{count, number}} PF's.",
                         "error": "Um ou mais valores não são válidos.",
                         "roi": {
                             "profit": "Vais ganhar {{count}} PF",
                             "profit_plural": "O Ganho será {{count, number}} PFs",
                             "loss": "Ira perder {{count}} PF's",
-                            "loss_plural": "O prejuízo será de {{contagem, numero}} PF's",
+                            "loss_plural": "O prejuízo será de {{count, number}} PF's",
                             "neutral": "O investimento não terá retorno"
                         },
                         "already_blocked": "O teu lugar está bloqueado.",
@@ -342,7 +342,7 @@
                 },
                 "new_year": {
                     "message": "$t(common:site_title) comemora o teu {{count, number}} ano",
-                    "message_plural": "$t(common:site_title) celebra os seus {{contagem, numero}} anos"
+                    "message_plural": "$t(common:site_title) celebra os seus {{count, number}} anos"
                 },
                 "survey": {
                     "message": "Ajude-nos a melhorar $t(common:site_title) a responder a este inquérito"
@@ -665,7 +665,7 @@
             },
             "donate": {
                 "hero": {
-                    "subtitle": "Faz uma doação",
+                    "subtitle": "Faz uma doação $t(common:site_title)",
                     "title": "$t(utils.Donate)"
                 },
                 "donation_options": "Doa com $t(common:links.donorbox) or $t(common:links.paypal).",
@@ -743,7 +743,7 @@
                 "The_Habitat": "O Habitat",
                 "Lotus_Temple": "Templo de Lótus",
                 "Innovation_Tower": "Torre da Inovação",
-                "Dynamic_Tower": "Torre Dinâmica",
+                "Dynamic_Tower": "Torre do Armistício",
                 "Voyager_V1": "Viajante V1",
                 "The_Arc": "A Arca",
                 "Rain_Forest_Project": "Projecto Floresta Tropical",
@@ -785,7 +785,7 @@
                 "The_Habitat": "Hab",
                 "Lotus_Temple": "TdL",
                 "Innovation_Tower": "Ino",
-                "Dynamic_Tower": "TD",
+                "Dynamic_Tower": "TA",
                 "Voyager_V1": "Viajante",
                 "The_Arc": "Arca",
                 "Rain_Forest_Project": "PFT",

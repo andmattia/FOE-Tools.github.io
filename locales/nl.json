@@ -74,11 +74,13 @@
                     "welcome": "Dit programma Is enkel informatief. Het geeft je informatie wat je kan statistisch bereiken met je $t(foe_data.gb.Chateau_Frontenac).",
                     "checkSecondQuest": "From $t(foe_data.age.LateMiddleAges), you can do a second recurring quest. Set \"$t(utils.Yes)\" if you want to do the second recurring quest.\n\n<i><b>Note</b>: It suppose that the second reccuring quest are: gather X supplies.</i>.",
                     "fpBy24h": "Vul aantal FP's in die je per 24 uur verzamelt.",
-                    "goods": "Aantal goederen welke je uit plunderen en GG's verzamelt",
+                    "goods": "Hoeveelheid Goederen welke je krijgt bij Plunderen & Incasseren van GG's",
                     "supplies": "Vul het aantal voorraden in dat je voor alle missies wenst te gebruiken.",
                     "coins": "Vul het aantal munten in dat je voor alle missies wenst te gebruiken.",
                     "yourCfBoost": "Voer je $t(foe_data.gb.Chateau_Frontenac) boost in.\n\nBijv: bij 450%, voer in: 450.",
-                    "yourAge": "Kies uw Tijdperk."
+                    "yourAge": "Kies uw Tijdperk.",
+                    "cumulativeQuest": "In dat geval, moet je aangeven hoeveel Quests je wil doen.",
+                    "suppliesGathered": "Vul in hoeveel voorraden je wil gebruiken voor..."
                 }
             },
             "gb_investment": {

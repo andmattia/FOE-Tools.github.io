@@ -5,7 +5,7 @@ import clone from "lodash.clonedeep";
 
 const ages = clone(allAges);
 delete ages.NoAge;
-delete ages.SpaceAgeAsteroidBelt; // TODO: to be deleted when fair trade ratio found 
+delete ages.SpaceAgeAsteroidBelt; // TODO: to be deleted when fair trade ratio found
 
 describe("Trade", () => {
   describe("splitGoods", () => {

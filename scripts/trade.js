@@ -46,8 +46,7 @@ function getFairTradeArray() {
   for (let key1 in goods) {
     fairTradeObj[key1] = {};
     for (let key2 in goods) {
-      fairTradeObj[key1][key2] =
-        getTotalGoodCostFairTrade(goods[key1][0]) / getTotalGoodCostFairTrade(goods[key2][0]);
+      fairTradeObj[key1][key2] = getTotalGoodCostFairTrade(goods[key1][0]) / getTotalGoodCostFairTrade(goods[key2][0]);
     }
   }
 

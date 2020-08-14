@@ -4,6 +4,8 @@ import { fairTradeArray } from "~/scripts/trade";
 import { agesGoods } from "~/lib/foe-data/goods";
 import { getView } from "../localVue";
 
+delete agesGoods.SpaceAgeAsteroidBelt; // TODO: to be deleted when fair trade ratio found
+
 const factory = () => {
   const { localVue, store } = getView();
   return shallowMount(Component, {

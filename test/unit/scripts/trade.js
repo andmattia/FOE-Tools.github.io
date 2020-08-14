@@ -1,6 +1,11 @@
-import ages from "../../../lib/foe-data/ages";
+import allAges from "../../../lib/foe-data/ages";
 import * as Trade from "../../../scripts/trade";
 import * as Errors from "../../../scripts/errors";
+import clone from "lodash.clonedeep";
+
+const ages = clone(allAges);
+delete ages.NoAge;
+delete ages.SpaceAgeAsteroidBelt; // TODO: to be deleted when fair trade ratio found
 
 describe("Trade", () => {
   describe("splitGoods", () => {
@@ -126,7 +131,7 @@ describe("Trade", () => {
   });
 
   describe("getBestOffersSplitted", () => {
-    const validAges = Object.keys(ages).slice(1);
+    const validAges = Object.keys(ages);
     const funcName = "getBestOffersSplitted(tradeInput, iHave, iWant, amount, splitValue)";
 
     const errorValues = [

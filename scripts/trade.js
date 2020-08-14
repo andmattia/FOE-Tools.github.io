@@ -1,11 +1,18 @@
 import { Enum } from "enumify";
 import PriorityQueue from "js-priority-queue";
-import ages from "~/lib/foe-data/ages";
-import * as goods from "~/lib/foe-data/goods";
+import allAges from "~/lib/foe-data/ages";
+import clone from "lodash.clonedeep";
+import { agesCost } from "~/lib/foe-data/goods";
 import * as Errors from "~/scripts/errors";
 
 class TradeArray extends Enum {}
 TradeArray.initEnum(["SIMPLE", "FAIR"]);
+const ages = clone(allAges);
+delete ages.NoAge;
+delete ages.SpaceAgeAsteroidBelt; // TODO: to be deleted when fair trade ratio found
+
+const goods = clone(agesCost);
+delete goods.SpaceAgeAsteroidBelt; // TODO: to be deleted when fair trade ratio found
 
 /**
  * Compute total cost (coins plus supplies) for a good. From "Modern Era" it
@@ -19,7 +26,7 @@ function getTotalGoodCostFairTrade(good) {
   let currentGood;
 
   do {
-    currentGood = result === 0 ? good : goods.agesCost[currentGood.unrefined][0];
+    currentGood = result === 0 ? good : goods[currentGood.unrefined][0];
     result += (currentGood.coins + currentGood.supplies) / currentGood.quantity;
   } while (currentGood.unrefined !== null);
 
@@ -36,11 +43,10 @@ function getTotalGoodCostFairTrade(good) {
 function getFairTradeArray() {
   let fairTradeObj = {};
 
-  for (let key1 in goods.agesCost) {
+  for (let key1 in goods) {
     fairTradeObj[key1] = {};
-    for (let key2 in goods.agesCost) {
-      fairTradeObj[key1][key2] =
-        getTotalGoodCostFairTrade(goods.agesCost[key1][0]) / getTotalGoodCostFairTrade(goods.agesCost[key2][0]);
+    for (let key2 in goods) {
+      fairTradeObj[key1][key2] = getTotalGoodCostFairTrade(goods[key1][0]) / getTotalGoodCostFairTrade(goods[key2][0]);
     }
   }
 
@@ -55,11 +61,11 @@ function getFairTradeArray() {
 function getSimpleTradeArray() {
   let simpleTradeObj = {};
 
-  for (let key1 in goods.agesCost) {
+  for (let key1 in goods) {
     simpleTradeObj[key1] = {};
-    const currentIndex = Object.keys(goods.agesCost).indexOf(key1);
-    for (let key2 in goods.agesCost) {
-      let tmpIndex = Object.keys(goods.agesCost).indexOf(key2);
+    const currentIndex = Object.keys(goods).indexOf(key1);
+    for (let key2 in goods) {
+      let tmpIndex = Object.keys(goods).indexOf(key2);
       if (tmpIndex === currentIndex - 1) {
         simpleTradeObj[key1][key2] = 2;
       } else if (tmpIndex === currentIndex + 1) {
@@ -232,7 +238,7 @@ function checkValidNumberInputParameter(paramName, funcName, value) {
  * @param value Value of this parameter
  */
 function checkAge(paramName, funcName, value) {
-  const validAges = Object.keys(ages).slice(1);
+  const validAges = Object.keys(ages);
   if (validAges.indexOf(value) < 0) {
     throw new Errors.InvalidTypeError({
       expected: validAges,

@@ -7,7 +7,10 @@
                     "coins": "اكتب عدد القطع النقدية التي تريد استعمالها في جميع المهام.",
                     "yourCfBoost": "اختر تعزيز $t(foe_data.gb.Chateau_Frontenac) الخاص بك.\n\nمثلا: إذا كان 450% اكتب 450.",
                     "yourAge": "اختر حقبتك.",
-                    "welcome": "إن هذه الأداة هي معلومية بحتة، حيث تخبرك بما يمكنك اكتسابه احصائيا عن طريق $t(foe_data.gb.Chateau_Frontenac)."
+                    "welcome": "إن هذه الأداة هي معلومية بحتة، حيث تخبرك بما يمكنك اكتسابه احصائيا عن طريق $t(foe_data.gb.Chateau_Frontenac).",
+                    "suppliesGathered": "ضع كمية المؤن التي تود استخدامها من أجل المهمة الثانية التكرارية",
+                    "fpBy24h": "ضع عدد نقاط الصياغة التي تحصل عليها كل 24 ساعة",
+                    "goods": "ضع كمية البضائع التي تجمعها من مبناك العظيم والغنائم"
                 },
                 "block_cfc": {
                     "infinity_generator": {
@@ -56,7 +59,10 @@
                     "haveUnknownCosts": "هذه المقاطعة تحتوي على قطاع أو أكثر من دون قيم."
                 },
                 "choose_province": "اختر مقاطعة",
-                "title": "$t(routes.campaign_cost.hero.title)"
+                "title": "$t(routes.campaign_cost.hero.title)",
+                "all_provinces": "كل المقاطعات",
+                "all_ages": "كل الحقب الزمنية",
+                "provinces": "مقاطعات"
             }
         },
         "foe_data": {

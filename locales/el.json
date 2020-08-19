@@ -1,1 +1,62 @@
-{ }
+{
+    "translation": {
+        "components": {
+            "campaign_cost": {
+                "all_provinces": "Όλες οι επαρχίες",
+                "all_ages": "Όλες οι εποχές",
+                "message": {
+                    "haveUnknownCosts": "Αυτή η επαρχία περιέχει έναν ή περισσότερους τομείς χωρίς δεδομένα."
+                },
+                "choose_province": "Επιλέξτε μια επαρχία",
+                "title": "$t(routes.campaign_cost.hero.title)",
+                "provinces": "Επαρχίες"
+            },
+            "cf_calculator": {
+                "tutorial": {
+                    "yourAge": "Επίλεξε την Εποχή Σου."
+                },
+                "block_cfc": {
+                    "table_return": {
+                        "thead": {
+                            "th_supply": "Επιστροφή Προμηθειών",
+                            "th_coin": "Επιστροφή Νομισμάτων",
+                            "th_level": "Επίπεδο"
+                        }
+                    },
+                    "reward_message": {
+                        "total_fp": "Σύνολο Φορτζ Πόντων: {{count, number}}",
+                        "total_goods": "Σύνολο Αγαθών: {{count, number}}"
+                    },
+                    "table_reward": {
+                        "thead": {
+                            "th4": "Φορτζ Πόντοι",
+                            "th3": "Αγαθά",
+                            "th2": "Μετάλλια"
+                        }
+                    },
+                    "fp_by_24h": "24ωρη παραγωγή Φορτζ Πόντων",
+                    "coins_supplies_info": "Αυτή η τιμή θα πρέπει να είναι μεγαλύτερη ή ίση από {{min}} διότι, στατιστικώς, αν είναι μικρότερη δεν υπάρχει εγγυημένο κέρδος",
+                    "your_cf_boost": "Επιπλέον μπόνους από $t(foe_data.gb.Chateau_Frontenac)",
+                    "your_age": "Η εποχή σου",
+                    "title": "$t(routes.cf_calculator.hero.title)"
+                }
+            }
+        },
+        "footer_menu": {
+            "contact": "Επικοινωνία",
+            "changelog": "Αλλαγές",
+            "about": "Σχετικά"
+        },
+        "main_menu": {
+            "campaign_cost": "$t(routes.campaign_cost.hero.title)",
+            "help_to_translate_the_site": "$t(routes.help_to_translate_the_site.hero.title)",
+            "trade": "$t(routes.trade.hero.title)",
+            "gb_forecast_cost": "$t(routes.gb_forecast_cost.hero.title)",
+            "gb_statistics": "$t(routes.gb_statistics.hero.title)",
+            "cf_calculator": "$t(routes.cf_calculator.hero.title)",
+            "secure_position": "$t(routes.secure_position.hero.title)",
+            "gb_investment": "$t(routes.gb_investment_gb_chooser.hero.title)",
+            "home": "Αρχική"
+        }
+    }
+}

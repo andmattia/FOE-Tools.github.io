@@ -23,7 +23,10 @@
                 "choose_province": "Provinzauswahl",
                 "message": {
                     "haveUnknownCosts": "Diese Provinz enthält einen oder mehrere Sektoren, deren Werte fehlen."
-                }
+                },
+                "all_provinces": "Alle Provinzen",
+                "all_ages": "Alle Zeitalter",
+                "provinces": "Provinzen"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -609,7 +612,8 @@
                 "ArcticFuture": "Arktische Zukunft",
                 "OceanicFuture": "Ozeanische Zukunft",
                 "VirtualFuture": "Virtuelle Zukunft",
-                "SpaceAgeMars": "Raumfahrt: Mars"
+                "SpaceAgeMars": "Raumfahrt: Mars",
+                "SpaceAgeAsteroidBelt": "Raumfahrt: Asteroidengürtel"
             },
             "age_short": {
                 "NoAge": "ZL",
@@ -670,7 +674,8 @@
                 "Terracotta_Army": "Terrakotta-Armee",
                 "Himeji_Castle": "Burg Himeji",
                 "The_Virgo_Project": "Das Virgo-Projekt",
-                "Star_Gazer": "Star Gazer"
+                "Star_Gazer": "Star Gazer",
+                "Space_Carrier": "Weltraumfrachter"
             },
             "gb_short": {
                 "Observatory": "Obs",
@@ -711,7 +716,8 @@
                 "Terracotta_Army": "TA",
                 "Himeji_Castle": "Burg",
                 "The_Virgo_Project": "VP",
-                "Star_Gazer": "SG"
+                "Star_Gazer": "SG",
+                "Space_Carrier": "Frachter"
             },
             "goods": {
                 "dye": "Farbe",
@@ -1294,7 +1300,8 @@
                 "gb_level": "Stufe",
                 "gb_level_cost": "Stufenpreis",
                 "gb_reward_1st_place": "Stufenbelohnung (1. Platz)"
-            }
+            },
+            "Donate": "Spenden"
         },
         "contributions": {
             "blog": "Blogposts",

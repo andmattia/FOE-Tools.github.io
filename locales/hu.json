@@ -21,8 +21,8 @@
             "campaign_cost": {
                 "title": "$t(routes.campaign_cost.hero.title)",
                 "choose_province": "Válassz egy tartományt",
-                "provinces": "Provinciák",
-                "all_provinces": "Minden provincia",
+                "provinces": "Tartományok",
+                "all_provinces": "Minden tartomány",
                 "all_ages": "Minden kor",
                 "message": {
                     "haveUnknownCosts": "Ez a tartomány egy vagy több szektort tartalmaz, amelyeknél hiányoznak az értékek."
@@ -66,7 +66,8 @@
                     }
                 },
                 "tutorial": {
-                    "yourAge": "Válaszd ki a korodat."
+                    "yourAge": "Válaszd ki a korodat.",
+                    "fpBy24h": "Add meg, hogy 24 óra alatt hány darab FP-t szerzel"
                 }
             },
             "gb_investment": {

@@ -23,7 +23,10 @@
                 "choose_province": "Wybierz prowincję",
                 "message": {
                     "haveUnknownCosts": "Ta prowincja zawiera jeden lub więcej sektorów, w których brakuje wartości."
-                }
+                },
+                "all_ages": "Wszystkie Epoki",
+                "provinces": "Prowincje",
+                "all_provinces": "Wszystkie prowincje"
             },
             "cf_calculator": {
                 "block_cfc": {
@@ -66,6 +69,9 @@
                         "message": "Z obecnym bonusem z $t(foe_data.gb.Chateau_Frontenac), możesz zarobić więcej monet i zaopatrzenia niż musisz użyć by ukończyć zadanie. Proszę wybrać liczbę \"$t(components.cf_calculator.block_cfc.infinity_generator.label)\" jaką chcesz zrobić.",
                         "label": "Skumulowane zadanie"
                     }
+                },
+                "tutorial": {
+                    "yourAge": "Wybierz swoją epokę."
                 }
             },
             "gb_investment": {

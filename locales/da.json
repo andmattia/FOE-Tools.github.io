@@ -161,6 +161,9 @@
                         "P4({{investment}})",
                         "P5({{investment}})"
                     ]
+                },
+                "tutorial": {
+                    "level": "Vælg det niveau du vil arbejde på."
                 }
             },
             "gb_investment_investors": {
@@ -691,7 +694,8 @@
                 "Terracotta_Army": "Terrakottahær",
                 "Himeji_Castle": "Himeji-borgen",
                 "The_Virgo_Project": "Jomfruprojektet",
-                "Star_Gazer": "Stjernekigger"
+                "Star_Gazer": "Stjernekigger",
+                "Space_Carrier": "Rumtransportkskib"
             },
             "gb_short": {
                 "Observatory": "Observatoriet",
@@ -905,6 +909,11 @@
                 "exploration_site": {
                     "gb_description": "---"
                 }
+            }
+        },
+        "seo": {
+            "keywords": {
+                "military_units": "Militærenheder"
             }
         }
     }

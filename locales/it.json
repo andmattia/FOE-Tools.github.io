@@ -25,7 +25,7 @@
                     "haveUnknownCosts": "Questa provincia contiene uno o più settori in cui mancano i valori."
                 },
                 "provinces": "Province",
-                "all_provinces": "Tutte le province",
+                "all_provinces": "Tutte le provincie",
                 "all_ages": "Tutte le Ere"
             },
             "cf_calculator": {
@@ -74,8 +74,20 @@
                     "supplies": "Inserisci il numero di materiali che vuoi usare per tutte le missioni.",
                     "coins": "Inserisci il numero di monete che vuoi usare per tutte le missioni.",
                     "fpBy24h": "Inserisci il numero di PF che ottieni in 24 ore.",
-                    "goods": "Inserisci il numero di beni che raccogli dai tuoi GE e dai saccheggi.",
-                    "yourAge": "Seleziona la tua Era."
+                    "goods": "Inserisci il numero di beni che raccogli dai tuoi GE e saccheggiando.",
+                    "yourAge": "Seleziona la tua Era.",
+                    "secondRqCompleted": "Numero di missioni ricorrenti secondarie che puoi completare.",
+                    "bonusUbq": "Numero di missioni ricorrenti \"Festa di non compleanno\" che puoi (statisticamente) completare con la tua quantità iniziale di monete e materiali più quelli che guadagnerai.",
+                    "dailyUbq": "Numero di missioni ricorrenti \"Festa di non compleanno\" che puoi completare in base alle monete e ai materiali che sei disposto a spendere.",
+                    "totalRqCompleted": "Numero totale di missioni ricorrenti che puoi (statisticamente) completare.",
+                    "totalFp": "Numero di PF che guadagnerai con missioni, GE, etc.",
+                    "totalGoods": "Numero di beni che guadagnerai con missioni, GE, etc.",
+                    "tableReward": "Questa tabella ti mostra le ricompense che guadagnerai. Ricorda che i valori sono basati su una probabilità empirica.",
+                    "cumulativeQuest": "In questo caso, devi impostare il numero di Missioni che vuoi svolgere.",
+                    "infiniteGenerator": "Questa sezione è mostrata soltanto quando il potenziamento del tuo $t(foe_data.gb.Chateau_Frontenac) ti fornisce statisticamente più monete e materiali di quelli che spenderai (in base alla tua Era).",
+                    "suppliesGathered": "Inserisci il numero di materiali che vuoi usare per la seconda missione ricorrente.",
+                    "yourCfBoost": "Inserisci il potenziamento del tuo $t(foe_data.gb.Chateau_Frontenac).\n\nEsempio: per 450%, inserisci 450.",
+                    "welcome": "Questo strumento è puramente informale. Fornisce informazioni su cosa puoi statisticamente ottenere con il tuo $t(foe_data.gb.Chateau_Frontenac)."
                 }
             },
             "gb_investment": {

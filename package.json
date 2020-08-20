@@ -47,6 +47,11 @@
   },
   "homepage": "https://foe-tools.github.io/",
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
     "@nuxtjs/router-extras": "^1.1.0",
     "@nuxtjs/sitemap": "^2.0.1",
     "@vue/test-utils": "^1.0.0-beta.25",

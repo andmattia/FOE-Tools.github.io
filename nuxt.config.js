@@ -467,7 +467,8 @@ module.exports = {
     { src: "~/plugins/i18next.js" },
     { src: "~/plugins/clipboard.js" },
     { src: "~/plugins/numeral-plugin.js" },
-    { src: "~/plugins/moment.js" }
+    { src: "~/plugins/moment.js" },
+    { src: "~/plugins/fontawesome.js" }
   ],
   generate: {
     fallback: true,
@@ -531,19 +532,7 @@ module.exports = {
       { name: "msapplication-TileColor", content: "#2b5797" },
       { name: "theme-color", content: "#fdf8f0" }
     ],
-    script: [
-      {
-        defer: true,
-        src: "https://use.fontawesome.com/releases/v5.0.10/js/all.js",
-        integrity: "sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+",
-        crossorigin: "anonymous"
-      },
-      {
-        defer: true,
-        type: "text/javascript",
-        src: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c802f960d12380b"
-      }
-    ]
+    script: []
   },
 
   css: ["~assets/theme/light/theme.scss", "~assets/theme/dark/theme.scss", "~assets/style.scss"],

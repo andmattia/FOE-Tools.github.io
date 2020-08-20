@@ -15,7 +15,8 @@ div.content#gbiContent
         div.content
           a.is-text.has-text-white(@click.prevent="startTour")
             article.tutorial-button(style="display:inline-block;")
-              i.fas.fa-question.fa-2x
+              span.icon.is-icon-2rem
+                font-awesome-icon(icon="question")
               span.has-text-centered <br /> {{$t('utils.Tutorial')}}
 
   template(v-if="dataReady")

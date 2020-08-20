@@ -2,6 +2,7 @@
 <html {{ HTML_ATTRS }}>
   <head>
     {{ HEAD }}
+    <link rel="preconnect" href="https://static.addtoany.com">
     <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaInit&render=explicit" async defer></script>
   </head>
   <body {{ BODY_ATTRS }}>
@@ -21,5 +22,10 @@
       </section>
     </noscript>
     {{ APP }}
+    <noscript>
+      <p>
+        <img data-name="matomo" data-src="https://matomo.foe.tools/matomo.php?idsite=3&amp;rec=1" style="border:0;" alt=""/>
+      </p>
+    </noscript>
   </body>
 </html>

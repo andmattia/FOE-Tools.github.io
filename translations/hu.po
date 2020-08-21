@@ -1,0 +1,2640 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.372Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.372Z\n"
+"Language: hu\n"
+
+msgid "main_menu.home"
+msgstr "Kezdőlap"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "Rólunk"
+
+msgid "footer_menu.contributors"
+msgstr "Közreműködők"
+
+msgid "footer_menu.changelog"
+msgstr "Változás napló"
+
+msgid "footer_menu.contact"
+msgstr "Kapcsolat"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Válassz egy tartományt"
+
+msgid "components.campaign_cost.provinces"
+msgstr "Tartományok"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Minden tartomány"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Minden kor"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr ""
+"Ez a tartomány egy vagy több szektort tartalmaz, amelyeknél hiányoznak az "
+"értékek."
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Melyik korban vagy"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "A @:(foe_data.gb.Chateau_Frontenac) bónuszod"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "A \"Nem születésnapi buli\" küldetésben befizetendő pénz mennyiésge"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Ennek az értéknek nagyobbnak vagy egyenlőnek kell lennie, mint {min}, mivel "
+"az alatt nem garantálható profit (statisztikailag)"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "A \"Nem születésnapi buli\" küldetésben befizetendő alapanyag mennyiésge"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "Napi FP termelésed"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Begyűjtött alapanyag"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Tervrajzok"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Medál"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Áru"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "FP"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Napi \"Nem születésnapi buli\" küldetések száma: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Második visszatérő küldetések száma: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Összes áru: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Összes FP: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Az összes visszatérő küldetés száma: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Szint"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Visszakapott pénz"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Visszakapott alapanyag"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Összesített küldetés"
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Válaszd ki a korodat."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Add meg, hogy 24 óra alatt hány darab FP-t szerzel"
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Válassz nevezetes épületet"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Add meg a szintet és a bónusz százalék értékeit. A táblázatban szereplő "
+"értékek automatikusan frissülnek."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr ""
+"Szint {fromLevel} → {level} ($t(utils.between_range, { 'min': '{min}', "
+"'max': '{max}' }))"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "A befektetők bónuszának százléka (Bárka bónusz)"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Egyéni számítás"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Forge pontok száma, amit a tulajdonos már betett (max {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr "Befektető hozzáadása (FP  száma, {min} és {max} között)"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Kattints az \"@:(utils.Add)\" gombra vagy nyomd meg az \"Enter\" billentyűt "
+"befektető hozzáadásához"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Hozzáadott befektetők listája"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Helyezés/rablás (pont nyereség/veszteség) megjelenítése"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Csak biztosított helyek megjelenítése"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Táblázat megjelenítése kártyaként (kis képernyőhöz)"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} szint {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Hely"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Alap jutalom"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "A tulajdonos által beteendő FP a hely biztosításához"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Összes jutalom"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "befektetők bónuszának százléka (Bárka bónusz)"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Szabad a hely"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "A már betett FP mennyisége"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Helyezés/rablás"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "Bárka bónuszoddal megszerezhető FP"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Várható, hogy előzni fog?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Mutasd a többi befektetőt"
+msgstr[1] "Mutasd a többi befektetőt"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Rejtsd el a többi befektetőt"
+msgstr[1] "Rejtsd el a többi befektetőt"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Ez a játékos FP-t fog veszíteni"
+msgstr[1] "Ez a játékos FP-ket fog veszíteni"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "A tulajdonos által még beteendő FP-k a hely biztosításához"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Várható beruházás"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Ez a játékos nyereségre tesz szert"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Ez a játékos nem fog sem nyerni, sem veszíteni FP-t"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Tulajdonos költsége"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Szint költsége"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Nevi neve megjelenjen?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Rövid nevek használata?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Szint megjelenítése?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Promóciós üzenet"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "szöveg a promóciós üzenet előtt"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "szöveg a promóciós üzenet után"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P1{investment}\n"
+"P2{investment}\n"
+"P3{investment}\n"
+"P4{investment}\n"
+"P5{investment}"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Helyezés megjelenítése"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Normál"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Optimális"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "ne vegye figyelembe a többi helyezést"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"vegye figyelembe a többi helyezést a befektetők minimális befektetésével de "
+"a tulajdonos biztosítása nélkül"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.optimal"
+msgstr ""
+"vegye figyelembe a többi helyezést a befektetők minimális befektetésével és "
+"a tulajdonos biztosításával"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Helyezés: {count}"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Profit / veszteség"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Tervezés"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Megmutatja, hogy mennyi FP-re van szükséged az egyik szintről a másikra "
+"jutni, Bárka bónusszal vagy nélküle."
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Egyéni Bárka bónusz (minden helyhez)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "A szint eléréséhez szükséges becsült idő: {time}"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] "Bónuszbefektetésekkel megtakarítasz:  {count} FP-t"
+msgstr[1] "Bónuszbefektetésekkel megtakarítasz: {count} FP-t"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"A {gb} nevezetes {level} szintjének elérése a tulajdonosnak {preparation} "
+"FP-be kerül. A teljes költség: {cost} FP."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"A {gb} nevezetes épület {from} szintől {to} szintre való fejlesztésének "
+"költsége a tulajdonos számára {preparation}\n"
+"A szintlépések teljes összköltésge: {cost}"
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "A kívánt szint eléréséhez szükséges idő: {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "A tulajdonos által a jelenlegi szinten befektetett FP mennyisége"
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "A szint bruttó költsége"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Az előkészítés költésge bónusz nélkül"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Az előkészítés költésge bónusszal"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"A grafikonok a korszak szerint készülnek, mert egy adott korszakon belüli "
+"nevezetes épületek költsége / jutalma azonos, kivéve egy különleges esetben "
+"(@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Költségek alakulása szintek szerint"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Első hely nyereségének alakulása szintek szerint"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr "A szintek költségének alakulása az első helyezés jutalmának arányában"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr "Az első helyezés jutalmának alakulása a szintek költségének arányában"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] "A szint befejezéséhez szükséges FP-k száma"
+msgstr[1] "A szint befejezéséhez szükséges FP-k száma"
+
+msgid "components.secure_position.block_place.place"
+msgstr "{place}({count} FP)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Helyezés biztosítása"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Szint költsége"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Jelenleg betett összes FP-k száma"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Általad betett FP-k száma"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "A megelőzni kívánt játékos által betett FP-k száma"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Bárka bónuszod"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "Megszerezni kívánt helyezés költsége"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Megszerezni kívánt helyezés"
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] "Saját helyezés biztosításához szükséges FP mennyiség"
+msgstr[1] "Saját helyezés biztosításához szükséges FP mennyiség"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr "Még {count} FP-t kell betenned"
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Egy vagy több érték érvénytelen."
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgstr "A nyereséged {count} FP lesz"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] "A vesztesége {count} FP lesz"
+msgstr[1] "A veszteséged {count} FP lesz"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "A helyed védett."
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "Még ennyi FP-t kell betenned"
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Nem védheted a helyet."
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "ismeretlen"
+
+msgid "components.simple_trade.title"
+msgstr "Táblázatos verzió"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Kor"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Áru"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Eredmény"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Felosztás"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Hányados"
+
+msgid "components.simple_trade.slpit"
+msgstr "Ajánlat felosztása kisebb egységekre?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "Arány megjelenítése"
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "Néhány eszköz, mely egyszerűbbé teszi az életed a @:(common.links.foe)-ban"
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"A @:(common.site_title) használatának folytatásával elfogadod, hogy a "
+"felhasználói kényelem javítása érdekében a webhely cookie-kat használ."
+
+msgid "components.site_layout.cookie.link"
+msgstr "Több információ"
+
+msgid "components.site_layout.survey.message"
+msgstr "Segíts nekünk azzal, hogy kitöltöd a kérdőívünket: @:(common.site_title)"
+
+msgid "components.site_layout.footer.version"
+msgstr "Verzió {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "Nappali"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Nappal kezdete"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Éjszakai"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Éjszaka kezdete"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"Autómatikus@:(components.site_layout.day_night.Day)/@:(components.site_"
+"layout.day_night.Night)"
+
+msgid "components.site_layout.global_config"
+msgstr "Általános beállítások"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "A főmenü legyen mindig látható"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Automatikus kitöltés"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Téma"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Nappali"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Éjszakai"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Automatikus"
+
+msgid "components.site_layout.switch_locale"
+msgstr "A @:(common.site_title) elérhető a nyelveden"
+
+msgid "components.trade.label.i_have"
+msgstr "Van"
+
+msgid "components.trade.label.i_want"
+msgstr "Szeretnék"
+
+msgid "components.trade.label.amount"
+msgstr "Mennyiség"
+
+msgid "components.trade.split_value"
+msgstr "Egy ajánlat maximális mérete (max {count})"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) és {secondPart}"
+
+msgid "components.trade.message.total"
+msgstr "(összesen: {amount} {key})"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Promóciós üzenet készítő"
+
+msgid "components.promotion_message_builder.info"
+msgstr ""
+"Ez az üzenet másolható, hogy másokkal meg tudd osztani, például a "
+"céhtársaiddal."
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Új sablon létrehozása"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Létező sablon frissítése"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Létező sablon törlése"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Kezdjük sablonból?"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Válaszd ki a szerkeszteni kívánt sablont"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Válaszd ki a törölni kívánt sablont"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Alapértelmezett sablonok"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Egyéni sablonok"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Ettől a szinttől"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Eddig a szintig"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "Nevi neve"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Helyezések"
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Sablon neve"
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Ez a név nem használható. Kérjük, válassz másik nevet."
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.general_info.title"
+msgstr "Általános információ"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"A Forge of Empires, FOE, és az összes kapcsolódó védjegy és tartalom az "
+"InnoGames GmbH tulajdona. <br/> A @:(common.site_title) oldal egy nem "
+"hivatalos, harmadik személy által készített oldal, ami nem hozható "
+"összefüggésbe az InnoGames-zel."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"A @:(common.site_title) oldalt készítette a francia játékos <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.cookie.title"
+msgstr "Süti"
+
+msgid "routes.about.cookie.p1"
+msgstr "A használat kényelmének javítása érdekében a webhely cookie-kat használ."
+
+msgid "routes.about.cookie.table_message"
+msgstr "Az alábbi táblázat az ezen az oldalon használt összes cookie-t mutatja."
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr ""
+"Jelzi, hogy elolvastad-e a cookie-k használatával kapcsolatos tájékoztató "
+"üzenetet"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Megjelenítési nyelv"
+
+msgid "routes.about.cookie.info.yourCfBoost"
+msgstr "Globális beállítás, amely tartalmazza a Château Frontenac bónuszod"
+
+msgid "routes.about.cookie.info.coins"
+msgstr "@:(components.cf_calculator.block_cfc.coins_to_use)"
+
+msgid "routes.about.cookie.info.fpBy24h"
+msgstr "@:(components.cf_calculator.block_cfc.fp_by_24h)"
+
+msgid "routes.about.cookie.info.goods"
+msgstr "@:(components.cf_calculator.block_cfc.gb_plunder_goods)"
+
+msgid "routes.about.cookie.info.otherRq"
+msgstr "@:(components.cf_calculator.block_cfc.other_rq)"
+
+msgid "routes.about.cookie.info.secondRq"
+msgstr "@:(components.cf_calculator.block_cfc.second_rq)"
+
+msgid "routes.about.cookie.info.supplies"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_to_use)"
+
+msgid "routes.about.cookie.info.suppliesGathered"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_gathered)"
+
+msgid "routes.about.cookie.info.yourAge"
+msgstr "@:(components.cf_calculator.block_cfc.your_age)"
+
+msgid "routes.about.cookie.info.investorPercentageCustom_x"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th5)"
+
+msgid "routes.about.cookie.info.investorPercentageGlobal"
+msgstr "@:(components.gb_investment.gb_investment.form.investor_percentage)"
+
+msgid "routes.about.cookie.info.level"
+msgstr "Nevi szint"
+
+msgid "routes.about.cookie.info.ownerInvestment"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "routes.about.dev_info.title"
+msgstr "Fejlesztési információk"
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>Megjegyzés:</b> A GitHub-bal kapcsolatos problémákat, kérjük angol "
+"nyelven közölni, annak érdekében, hogy a bejelentés a többségünk számára "
+"érthető legyen."
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Hadjárat költsége"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr "Fair"
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Château Frontenac tervező"
+
+msgid "routes.changelog.title"
+msgstr "Változás napló | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Közreműködők"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.gb_investment.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Tulajdonos nézete"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Befektetők nézete"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "Nevezetes épület befektetés"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Ez az eszköz lehetővé teszi, hogy kiszámítsuk azt a pontszámot, amelyet egy "
+"játékosnak be kell helyeznie a nevezetes épületbe, hogy az első 5 helyet "
+"(Bárka bónusz) biztosítsa."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Válassz egy nevezetes épületet!"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "Nevezetes építés tervezése"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Ez az eszköz megmutatja, hogy mennyi FP-re van szükséged az egyik szintről "
+"a másikra jutni, Bárka bónusszal vagy nélküle."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "Nevi statisztika"
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Védett pozíció"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Ez az eszköz kiszámítja az FP-k számát, amivel egy játékos blokkolni tudja "
+"a helyét egy neviben."
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.trade.hero.title"
+msgstr "Kereskedés"
+
+msgid "routes.trade.tab.trade_2_1.title"
+msgstr "2:1"
+
+msgid "routes.trade.tab.trade_2_1.message"
+msgstr ""
+"Egyszerű kereskedelem, 1:1 arány azonos korú árucikkek esetében és 1:2 "
+"arány egyel alacsonyabb vagy magasabb korú árucikkek esetében"
+
+msgid "routes.trade.tab.fair_trade.title"
+msgstr "Tisztességes kereskedelem"
+
+msgid "routes.trade.tab.fair_trade.message"
+msgstr ""
+"Ez a fajta kereskedelem figyelembe veszi az áru gyártásának költségeit "
+"(pénz és alapanyagok) az áruk közötti árfolyam meghatározásához."
+
+msgid "routes.help_to_translate_the_site.title"
+msgstr "@:(routes.help_to_translate_the_site.hero.title) | @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.hero.title"
+msgstr "Segíts az oldal fordításában"
+
+msgid "routes.help_to_translate_the_site.hero.subtitle"
+msgstr "Belépés a fordító csapatba"
+
+msgid "routes.help_to_translate_the_site.p1"
+msgstr ""
+"A nyelveden még nem elérhető, a fordítás még hiányos vagy hibákat "
+"tartalmaz? Csatlakozz a fordító csapathoz!"
+
+msgid "routes.help_to_translate_the_site.how_to_join_the_team"
+msgstr "Hogy lehetek a csapat tagja?"
+
+msgid "routes.survey.hero.title"
+msgstr "Felmérés"
+
+msgid "routes.survey.hero.subtitle"
+msgstr "Segíts azzal, hogy kitöltöd a kérdőívünket: @:(common.site_title)"
+
+msgid "routes.survey.required_field"
+msgstr "Ez a mező kötelező"
+
+msgid "routes.survey.survey_complete"
+msgstr "Köszönjük a visszajelzést !"
+
+msgid "routes.survey.error"
+msgstr "Hiba történt, ellenőrizd az űrlapot és próbáld újra"
+
+msgid "routes.survey.unknown_error"
+msgstr "Ismeretlen hiba történt, kérjük fordulj a webhely adminisztrátorához"
+
+msgid "routes.contact.hero.title"
+msgstr "Kapcsolat"
+
+msgid "routes.error.404.title"
+msgstr "Oldal nem található | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Sajnáljuk, de a keresett oldal nem található"
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge) (@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "Nincs kor"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Bronzkorszak"
+
+msgid "foe_data.age.IronAge"
+msgstr "Vaskorszak"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Kora középkor"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Virágzó középkor"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Késő középkor"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "A gyarmatosítás kora"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Ipari kor"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "Progresszív kor"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Modern kor"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Posztmodern kor"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Jelenkor"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Holnap"
+
+msgid "foe_data.age.TheFuture"
+msgstr "A jövő"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Távoli jégkorszak"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Mélytengeri jövő"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Virtuális jövő"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Űrkorszak: Mars"
+
+msgid "foe_data.age.SpaceAgeAsteroidBelt"
+msgstr "Űrkorszak - Aszteroidaöv"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "NA"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "BA"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "IA"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "EMA"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "HMA"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "LMA"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "CA"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "InA"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "PE"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "ME"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "PME"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "CE"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "TE"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "TF"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "AF"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "OF"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "VF"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Obszervatórium"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Ereklyék temploma"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Delphoi józsda"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Bábel tornya"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Zeusz szobra"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Kolosszeum"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Alexandriai világitótorony"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Hagia Sophia"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Aacheni katedrális"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Szt. Márk bazilika"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Notre Dame"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Boldog Vazul-székesegyház"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel del Monte"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Deal kastély"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Drezdai Miasszonyunk templom"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Kapitólium"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Château Frontenac"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Alcatraz"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Space Needle"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Cape Canaveral"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "A Habitat"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Lótusz templom"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Innovácios torony"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Dinamikus torony"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "A Bárka"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Esőerdő Projekt"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Gaia-szobor"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Sarkköri üvegház"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Magbank"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Atlantiszi múzeum"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "A Kraken"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "A Kék galaxis"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Agyaghadsereg"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Himedzsi várkastély"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "A Szűz-csillagkép projekt"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Csillagvizsgáló"
+
+msgid "foe_data.gb.Space_Carrier"
+msgstr "Teherűrhajó"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Obs"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "ToR"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "OoD"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Babel"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Zeus"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Colosseum"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "Lighthouse"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "Hagia"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "Aachen"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "St. Mark's"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "Notre Dame"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "St. Basil's"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "Castel"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "Deal"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "Dresden"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Capitol"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "RAH"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "Frontenac"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Alca"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "SN"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Cape"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Habitat"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "Lotus"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Inno"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "Dynamic"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Voyager"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Arc"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "RFP"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.goods.dye"
+msgstr "Festőanyag"
+
+msgid "foe_data.goods.lumber"
+msgstr "Faanyag"
+
+msgid "foe_data.goods.marble"
+msgstr "Márvány"
+
+msgid "foe_data.goods.stone"
+msgstr "Kő"
+
+msgid "foe_data.goods.wine"
+msgstr "Bor"
+
+msgid "foe_data.goods.cloth"
+msgstr "Posztó"
+
+msgid "foe_data.goods.ebony"
+msgstr "Ében"
+
+msgid "foe_data.goods.iron"
+msgstr "Vas"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Ékszerek"
+
+msgid "foe_data.goods.limestone"
+msgstr "Mészkő"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Alabástrom"
+
+msgid "foe_data.goods.copper"
+msgstr "Réz"
+
+msgid "foe_data.goods.gold"
+msgstr "Arany"
+
+msgid "foe_data.goods.granite"
+msgstr "Gránit"
+
+msgid "foe_data.goods.honey"
+msgstr "Méz"
+
+msgid "foe_data.goods.brick"
+msgstr "Tégla"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Szárított gyógynövény"
+
+msgid "foe_data.goods.glass"
+msgstr "Üveg"
+
+msgid "foe_data.goods.rope"
+msgstr "Kötél"
+
+msgid "foe_data.goods.salt"
+msgstr "Só"
+
+msgid "foe_data.goods.basalt"
+msgstr "Bazalt"
+
+msgid "foe_data.goods.brass"
+msgstr "Sárgaréz"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Puskapor"
+
+msgid "foe_data.goods.silk"
+msgstr "Selyem"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Csillámpor"
+
+msgid "foe_data.goods.coffee"
+msgstr "Kávé"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Porcelán"
+
+msgid "foe_data.goods.paper"
+msgstr "Papír"
+
+msgid "foe_data.goods.tar"
+msgstr "Kátrány"
+
+msgid "foe_data.goods.wire"
+msgstr "Huzal"
+
+msgid "foe_data.goods.coke"
+msgstr "Szén"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Műtrágya"
+
+msgid "foe_data.goods.rubber"
+msgstr "Gumi"
+
+msgid "foe_data.goods.textiles"
+msgstr "Textil"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Bálnaolaj"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Azbeszt"
+
+msgid "foe_data.goods.explosives"
+msgstr "Robbanóanyagok"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Benzin"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Gépalkatrészek"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Ónlemez"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Készétel"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Vasbeton"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Ízesítőszer"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Luxusanyag"
+
+msgid "foe_data.goods.packaging"
+msgstr "Csomagolás"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Genetikai adat"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Ipari szűrő"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Megújuló erőforrás"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Félvezetők"
+
+msgid "foe_data.goods.steel"
+msgstr "Acél"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Biokémiai adatok"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Elektromágnes"
+
+msgid "foe_data.goods.gas"
+msgstr "Gáz"
+
+msgid "foe_data.goods.plastics"
+msgstr "Műanyag"
+
+msgid "foe_data.goods.robots"
+msgstr "Robot"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Élelmezés kutatás"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Papírbeton"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Tartósítószer"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Okosanyag"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Üvegbeton"
+
+msgid "foe_data.goods.algae"
+msgstr "Alga"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Biokémiai adatok"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Nanorészecske"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Tisztított víz"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Szupravezető"
+
+msgid "foe_data.goods.ai_data"
+msgstr "MI adatok"
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Bioműanyag"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Nanovezeték"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Papír akkumulátor"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Transzészter gáz"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Mesterséges pikkely"
+
+msgid "foe_data.goods.biolight"
+msgstr "Biolámpa"
+
+msgid "foe_data.goods.corals"
+msgstr "Korall"
+
+msgid "foe_data.goods.pearls"
+msgstr "Igazgyöngy"
+
+msgid "foe_data.goods.plankton"
+msgstr "Plankton"
+
+msgid "foe_data.goods.promethium"
+msgstr "Prométium"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Orichalcum"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Kriptovaluta"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Adatkristály"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Aranyrizs"
+
+msgid "foe_data.goods.nanites"
+msgstr "Nanit"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Teaselyem"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymir"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "Kelet-Nagach"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "Nyugat-Nagach"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todepass"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mons Suiry"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Cragshire"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Eldenborough"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Cuttingham"
+
+msgid "foe_data.province.Spearth"
+msgstr "Spearth"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Wolvhampton"
+
+msgid "foe_data.province.FourGallows"
+msgstr "FourGallows"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Mount Killmore"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "RavensCreek"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Kutya-mocsár"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Zaldon-on-Sea"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Óriási hézag"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Északi kastély"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Queenshope"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Ashcrook"
+
+msgid "foe_data.province.Narcien"
+msgstr "Narcien"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Lavignon"
+
+msgid "foe_data.province.Troulope"
+msgstr "Troulope"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Deuxerres"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Lombardeaux"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Pisterrac"
+
+msgid "foe_data.province.Varseille"
+msgstr "Varseille"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Haulenois"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "New Cragshire"
+
+msgid "foe_data.province.Okahe"
+msgstr "Okahe"
+
+msgid "foe_data.province.Rantford"
+msgstr "Rantford"
+
+msgid "foe_data.province.Desperation"
+msgstr "Desperation"
+
+msgid "foe_data.province.St_Marque"
+msgstr "St. Marque"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Las Penas"
+
+msgid "foe_data.province.DragonCity"
+msgstr "Dragon City"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Garrincton"
+
+msgid "foe_data.province.ElFuego"
+msgstr "El Fuego"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "Santa Catalina"
+
+msgid "foe_data.province.Dorango"
+msgstr "Dorango"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Nevarrone"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Embruniez"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Gabordeaux"
+
+msgid "foe_data.province.Ydine"
+msgstr "Ydine"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Wenoevre"
+
+msgid "foe_data.province.Havre"
+msgstr "Havre"
+
+msgid "foe_data.province.Omoien"
+msgstr "Omoien"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Uxrow"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Gaelford"
+
+msgid "foe_data.province.Sud"
+msgstr "Sud"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Kriegreich"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Ostrand"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Langenreich"
+
+msgid "foe_data.province.Uceria"
+msgstr "Uceria"
+
+msgid "foe_data.province.Gorski"
+msgstr "Gorski"
+
+msgid "foe_data.province.Inashu"
+msgstr "Inashu"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Natsuishu"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Chigikawa"
+
+msgid "foe_data.province.Igujima"
+msgstr "Igujima"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Kyushima"
+
+msgid "foe_data.province.Igioka"
+msgstr "Igioka"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Igamoto"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Higematsu"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Kibakuguchi"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Hiromaguchi"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Toimuro"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "Cai Chet Nui"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "Sot Dam Lay"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "Day Du Ao"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "Trung Doi"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "Khay Huyen Bay Gio"
+
+msgid "foe_data.province.RungTrai"
+msgstr "Rung Trai"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "Rung Chien Dau"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "Giai Cuu Binh Minh"
+
+msgid "foe_data.province.PhucKich"
+msgstr "Phuc Kich"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "Mau Mat Dat"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "Dong Bang Song"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "Ong Chu Cuoi Cung"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Amaryah City"
+
+msgid "foe_data.province.Khail"
+msgstr "Khail"
+
+msgid "foe_data.province.Batif"
+msgstr "Batif"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Hafar Al Karak"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Al-Shadyra"
+
+msgid "foe_data.province.Salfah"
+msgstr "Salfah"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Ain Al-Khansa"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Suqqah"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Shayhour"
+
+msgid "foe_data.province.Kardad"
+msgstr "Kardad"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Qumeira"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Jandahar"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Torrinhos"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Villabaja"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Itabarai"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Bajatai"
+
+msgid "foe_data.province.Villariba"
+msgstr "Villariba"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Rio Roxo"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Sierra Torrido"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Santa Nerea"
+
+msgid "foe_data.province.La_Huega"
+msgstr "La Huega"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Jamenez"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Falsa Cruz"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Desierto de la Muerte"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Sao Malvado"
+
+msgid "foe_data.province.Agadar"
+msgstr "Agadar"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Esan-Ewu"
+
+msgid "foe_data.province.Omogba"
+msgstr "Omogba"
+
+msgid "foe_data.province.Owopele"
+msgstr "Owopele"
+
+msgid "foe_data.province.Jak"
+msgstr "Jak"
+
+msgid "foe_data.province.Pala"
+msgstr "Pala"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Kolabourg"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Bonta Town"
+
+msgid "foe_data.province.Botuku"
+msgstr "Botuku"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Kalabuye"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Bisoraba"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Fort Buntu"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Nutarniq"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Iluliaq"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Aurora's Dale"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Cold Bay"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Sarkköri horizont"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Tuklavik"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ananevut"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Qaniit"
+
+msgid "foe_data.province.White_Gate"
+msgstr "Téli kapu"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Snowdrifts"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Median Waters"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Fagyos hegy"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Déli völgy"
+
+msgid "foe_data.province.Ilug"
+msgstr "Ilug"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Chugiak"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Kesukavut"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Adlartok"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Északi átjáró"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Avalanche"
+
+msgid "foe_data.province.Manirak"
+msgstr "Manirak"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Tundra Rock"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Patuktuq"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Summit Ice"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Kilalurak"
+
+msgid "foe_data.province.Nilak"
+msgstr "Nilak"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Chulyin"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Tattilgat"
+
+msgid "foe_data.province.Atka"
+msgstr "Atka"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Pimniq"
+
+msgid "foe_data.province.Anyu"
+msgstr "Anyu"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Glacial Peak"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Nanutaq"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Nanuq"
+
+msgid "foe_data.province.Precipice"
+msgstr "Precipice"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Unalaq"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Neural Rites"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Frozen Steppe"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "The Grotto"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Temple Floe"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Spirit Plane"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Coral Depths"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Murky Waters"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Cursed Current"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Dark Abyss"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Fresh Flow"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Strong Tide"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Rough Expanse"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Tideless Deep"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Serene Waves"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Glimmering Surf"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Red Sea"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Wondering Ocean"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Foam Ceiling"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Lower Grotto"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Lower Grotto"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Walled Gulf"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Silver Swarms"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Rocky Domain"
+
+msgid "foe_data.province.Nautical_Parlay"
+msgstr "Upper Grotto"
+
+msgid "foe_data.province.Restless_Buoy"
+msgstr "Nautical Parlay"
+
+msgid "foe_data.province.Ripped_Sails"
+msgstr "Restless Buoy"
+
+msgid "foe_data.province.Nautilus_Mirage"
+msgstr "Ripped Sails"
+
+msgid "foe_data.province.Ravenous_Tides"
+msgstr "Nautilus Mirage"
+
+msgid "foe_data.province.Deep_Dive"
+msgstr "Ravenous Tides"
+
+msgid "foe_data.province.Furious_Storm"
+msgstr "Deep Dive"
+
+msgid "foe_data.province.Silver_Crest"
+msgstr "Furious Storm"
+
+msgid "foe_data.province.Grey_Clouds"
+msgstr "Silver Crest"
+
+msgid "foe_data.province.Translucent_Algae"
+msgstr "Grey Clouds"
+
+msgid "foe_data.province.Treacherous_Surf"
+msgstr "Translucent Algae"
+
+msgid "foe_data.province.Single_Wave"
+msgstr "Treacherous Surf"
+
+msgid "foe_data.province.Cursed_Lip"
+msgstr "Single Wave"
+
+msgid "foe_data.province.Coral_Kingdom"
+msgstr "Cursed Lip"
+
+msgid "foe_data.province.Telescopic_Barrel"
+msgstr "Coral Kingdom"
+
+msgid "foe_data.province.Sponge_Sands"
+msgstr "Telescopic Barrel"
+
+msgid "foe_data.province.Seagull_Domain"
+msgstr "Sponge Sands"
+
+msgid "foe_data.province.Tangled_Fins"
+msgstr "Seagull Domain"
+
+msgid "foe_data.province.Scuba_Bay"
+msgstr "Scuba Bay"
+
+msgid "foe_data.province.Tide_Ascent"
+msgstr "Tide Ascent"
+
+msgid "foe_data.province.Breakwater_Wharf"
+msgstr "Breakwater Wharf"
+
+msgid "foe_data.province.Adrift_Liner"
+msgstr "Adrift Liner"
+
+msgid "foe_data.province.Bermuda_Quay"
+msgstr "Bermuda Quay"
+
+msgid "foe_data.province.Sextant_Mast"
+msgstr "Sextant Mast"
+
+msgid "foe_data.province.Grog_Wash"
+msgstr "Grog Wash"
+
+msgid "foe_data.province.R_lyeh_Reef"
+msgstr "R'lyeh Reef"
+
+msgid "foe_data.province.Capricorn_Waterway"
+msgstr "Capricorn Waterway"
+
+msgid "foe_data.province.Barnacle_Deck"
+msgstr "Barnacle Deck"
+
+msgid "foe_data.province.Ahab_s_Tomb"
+msgstr "Ahab's Tomb"
+
+msgid "foe_data.province.Galley_Commodore"
+msgstr "Galley Commodore"
+
+msgid "foe_data.province.Adamastor"
+msgstr "Adamastor"
+
+msgid "foe_data.province.Deadeye_Admiral"
+msgstr "Deadeye Admiral"
+
+msgid "foe_data.province.Monkey_s_Fist"
+msgstr "Monkey's Fist"
+
+msgid "foe_data.province.Dagon_s_Dagger"
+msgstr "Dagon's Dagger"
+
+msgid "foe_data.province.Sunken_Leviathan"
+msgstr "Sunken Leviathan"
+
+msgid "foe_data.province.Raging_Tides"
+msgstr "Dühös árapály"
+
+msgid "foe_data.province.Buccaneer_Plateau"
+msgstr "Kalózfennsík"
+
+msgid "foe_data.province.Craggy_Cay"
+msgstr "Sziklás zátony"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Behemót"
+
+msgid "foe_data.province.Privateer_Helm"
+msgstr "Partizánhajó-kormány"
+
+msgid "foe_data.province.Medusa_Cove"
+msgstr "Medúzaszoros"
+
+msgid "foe_data.province.Man_O_War"
+msgstr "Gálya"
+
+msgid "foe_data.province.Nemo_s_Dock"
+msgstr "Nemó dokkja"
+
+msgid "foe_data.province.Anchorage_Ruin"
+msgstr "Horgonyroncs"
+
+msgid "foe_data.province.Ahoy_Alee"
+msgstr "Szélmentes terület"
+
+msgid "foe_data.province.Ursula_s_Valley"
+msgstr "Ursula völgye"
+
+msgid "foe_data.province.Dungbie_Trough"
+msgstr "Tat-árok"
+
+msgid "foe_data.province.Idlers_Range"
+msgstr "Szakemberek területe"
+
+msgid "foe_data.province.Wherry_Gap"
+msgstr "Ladiklyuk"
+
+msgid "foe_data.province.Nock_s_Turn"
+msgstr "Csonka csúcsvitorla"
+
+msgid "foe_data.province.Scuttle_Ridge"
+msgstr "Szenes hegygerinc"
+
+msgid "foe_data.province.Ghost_Trench"
+msgstr "Szellemárok"
+
+msgid "foe_data.province.Scurvy_Atoll"
+msgstr "Aljas-zátony"
+
+msgid "foe_data.province.Capsize_Lagoon"
+msgstr "Felfordult lagúna"
+
+msgid "foe_data.province.Undertow_Bank"
+msgstr "Hullámpart"
+
+msgid "foe_data.province.Neptune_s_Galleon"
+msgstr "Naptunusz gályája"
+
+msgid "foe_data.province.Seafarer_s_Current"
+msgstr "Tengerészvaluta"
+
+msgid "foe_data.province.Blackwater_Cape"
+msgstr "Feketevíz-fok"
+
+msgid "foe_data.province.Leviathan_Wreck"
+msgstr "Leviatánroncs"
+
+msgid "foe_data.province.Typhoon_Peninsula"
+msgstr "Peninsula hurrikán"
+
+msgid "foe_data.province.Corsair_s_Skerry"
+msgstr "Corsair-szirt"
+
+msgid "foe_data.province.Mutiny_Canyon"
+msgstr "Mutiny-szurdok"
+
+msgid "foe_data.province.Bytedirt_Planes"
+msgstr "Bytedirt Planes"
+
+msgid "foe_data.province.End_of_the_Void"
+msgstr "End of the Void"
+
+msgid "foe_data.province.Banker_s_Heaven"
+msgstr "Banker's Heaven"
+
+msgid "foe_data.province.Shift_Land"
+msgstr "Shift/Land"
+
+msgid "foe_data.province.Black_Net_Market"
+msgstr "Black Net Market"
+
+msgid "foe_data.province.Pulse_City"
+msgstr "Pulse City"
+
+msgid "foe_data.province.Max_s_Shelter"
+msgstr "Max's Shelter"
+
+msgid "foe_data.province.The_Open_Zone"
+msgstr "The Open Zone"
+
+msgid "foe_data.province.The_Warring_Towers"
+msgstr "The Warring Towers"
+
+msgid "foe_data.province.Forgotten_Fragments"
+msgstr "Forgotten fragments"
+
+msgid "foe_data.province.Backup_NET"
+msgstr "Backup:NET"
+
+msgid "foe_data.province.Spoiled_Resort"
+msgstr "Spoiled Resort"
+
+msgid "foe_data.province.Fort_Duplex"
+msgstr "Fort Duplex"
+
+msgid "foe_data.province.LoneHub"
+msgstr "LoneHub"
+
+msgid "foe_data.province.Alpha_1_Omega_2"
+msgstr "Alpha 1 Omega 2"
+
+msgid "foe_data.province.Ray_s_Ray_s"
+msgstr "Ray's Rays"
+
+msgid "foe_data.province.Purple_Palace"
+msgstr "Purple Palace"
+
+msgid "foe_data.province.Three_Oc3ans"
+msgstr "Three Oc3ans"
+
+msgid "foe_data.province.Vortex"
+msgstr "Vortex"
+
+msgid "foe_data.province.Twisted_Alps"
+msgstr "Twisted Alps"
+
+msgid "foe_data.province.Archives_of_Junkman"
+msgstr "Archives of Junkman"
+
+msgid "foe_data.province.Frozen_RAM"
+msgstr "Frozen RAM"
+
+msgid "foe_data.province.Cas_Cade"
+msgstr "Cas.Cade"
+
+msgid "foe_data.province.The_Historical_Museum"
+msgstr "The Historical Museum"
+
+msgid "foe_data.province.Aerial_Boulevard"
+msgstr "Aerial Boulevard"
+
+msgid "foe_data.province.Slate_13"
+msgstr "Slate 13"
+
+msgid "foe_data.province.New_final_final_exe"
+msgstr "new_final_final.exe"
+
+msgid "foe_data.province.Bizarre_Plains"
+msgstr "Bizarre Plains"
+
+msgid "foe_data.province.Argus__Watch"
+msgstr "Argus' Watch"
+
+msgid "foe_data.province.Berta_s_Byte_Sauce"
+msgstr "Berta's Byte-Sauce"
+
+msgid "foe_data.province.Veil_of_Bits"
+msgstr "Veil of Bits"
+
+msgid "foe_data.province.Harvey_s_Low_Core"
+msgstr "Harvey's Low Core"
+
+msgid "foe_data.province.The_Byte_Parade"
+msgstr "The Byte Parade"
+
+msgid "foe_data.province.Reboot_Bay"
+msgstr "Reboot Bay"
+
+msgid "foe_data.province.Streaming_Forest"
+msgstr "Streaming Forest"
+
+msgid "foe_data.province.CMYK_Citadel"
+msgstr "CMYK Citadel"
+
+msgid "foe_data.province.Forgify"
+msgstr "Forgify"
+
+msgid "foe_data.province.Digital_Town_of_Hope"
+msgstr "Digital Town of Hope"
+
+msgid "foe_data.province.Cloud_One"
+msgstr "Cloud One"
+
+msgid "foe_data.province.Re_Birth"
+msgstr "Digital Town of Hope"
+
+msgid "foe_data.province.Castle_You_Es_Bee"
+msgstr "Castle You-Es-Bee"
+
+msgid "foe_data.province.NET_MASKerade"
+msgstr "NET MASKerade"
+
+msgid "foe_data.province.If_Then_Whatever"
+msgstr "If, Then, Whatever"
+
+msgid "foe_data.province.The_Virtual_Cliffs_of_G0r3"
+msgstr "The Virtual Cliffs of G0r3"
+
+msgid "foe_data.province.Game_Over"
+msgstr "Játék vége"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Pénz"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Alapanyag"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Termék"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Különleges termék"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Gazdasági épületek"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Terjeszkedés"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Medál"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "Gyémánt"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "PvP torony"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Tervrajz"
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Támadási bónusz"
+
+msgid "foe_data.bonus.coin_boost.name"
+msgstr "Pénz termelés bónusz"
+
+msgid "foe_data.bonus.supply_boost.name"
+msgstr "Alapanyag termelés bónusz"
+
+msgid "foe_data.bonus.good_production.name"
+msgstr "Termék termelés"
+
+msgid "foe_data.bonus.good_production.gb_description"
+msgstr ""
+"Bizonyos mennyiségű árut termel az aktuális korból 24 óránként. A Modern "
+"kortól finomítatlan árukból kétszer annyit termel."
+
+msgid "foe_data.bonus.medal_production.name"
+msgstr "Medál termelés"
+
+msgid "foe_data.bonus.medal_production.gb_description"
+msgstr "Bizonyos mennyiségű medált termel 24 óránként"
+
+msgid "foe_data.bonus.research.name"
+msgstr "Kutatás"
+
+msgid "foe_data.bonus.research.gb_description"
+msgstr "Bizonyos mennyiségű FP-t termel 24 óránként"
+
+msgid "foe_data.bonus.coin_production.name"
+msgstr "Pénz termelés"
+
+msgid "foe_data.bonus.coin_production.gb_description"
+msgstr "Bizonyos mennyiségű pénzt termel 24 óránként"
+
+msgid "foe_data.bonus.supply_production.name"
+msgstr "Alapanyag termelés"
+
+msgid "foe_data.bonus.supply_production.gb_description"
+msgstr "Bizonyos mennyiségű alapanyagot termel 24 óránként"
+
+msgid "foe_data.bonus.population.name"
+msgstr "Népesség"
+
+msgid "foe_data.bonus.population.gb_description"
+msgstr "Állandó lakosság bónusz."
+
+msgid "foe_data.bonus.happiness.name"
+msgstr "Boldogság"
+
+msgid "foe_data.bonus.happiness.gb_description"
+msgstr "Állandó boldogság bónusz."
+
+msgid "foe_data.bonus.guild_goods.gb_description"
+msgstr ""
+"A játékos korával megegyező termékeket gyárt, amelyek egyenesen a Céh "
+"kincstárába kerülnek."
+
+msgid "foe_data.bonus.helping_hands.gb_description"
+msgstr ""
+"Bizonyos esélyt ad arra, hogy véletlenszerű erőforrást kapj egy másik "
+"játékos városának támogatásakor (motiválás és takarítás is segítségnek "
+"számít). Aktuális korú árut, alapanyagot, pénzt, medált vagy akár gyémántot "
+"is adhat."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "Első csapás"
+
+msgid "foe_data.bonus.penal_unit.name"
+msgstr "Katonai egység"
+
+msgid "utils.content.tools"
+msgstr "Eszközök"
+
+msgid "utils.content.statistics"
+msgstr "Statisztikák"
+
+msgid "utils.btn_calculate"
+msgstr "Számol"
+
+msgid "utils.description.p1"
+msgstr "Ha módosítód az értékeket, akkor az eredmény automatikusan frissül."
+
+msgid "utils.choose_age"
+msgstr "Válassz egy kort"
+
+msgid "utils.permalink"
+msgstr "Link"
+
+msgid "utils.Add"
+msgstr "Hozzáadás"
+
+msgid "utils.Remove"
+msgstr "Távolítsuk"
+
+msgid "utils.Yes"
+msgstr "Igen"
+
+msgid "utils.No"
+msgstr "Nem"
+
+msgid "utils.Ok"
+msgstr "Ok"
+
+msgid "utils.Copy"
+msgstr "Másolás"
+
+msgid "utils.Copyed"
+msgstr "Másolva !"
+
+msgid "utils.Information"
+msgstr "Információ"
+
+msgid "utils.From"
+msgstr "tól"
+
+msgid "utils.To"
+msgstr "ig (max {max})"
+
+msgid "utils.Prefix"
+msgstr "Előtag"
+
+msgid "utils.Suffix"
+msgstr "Utótag"
+
+msgid "utils.Name"
+msgstr "Név"
+
+msgid "utils.Description"
+msgstr "Leírás"
+
+msgid "utils.Rewards"
+msgstr "Jutalmak"
+
+msgid "utils.Cost"
+msgstr "Költség"
+
+msgid "utils.Conquered"
+msgstr "Meghódított"
+
+msgid "utils.Total"
+msgstr "Összesen"
+
+msgid "utils.Secured"
+msgstr "Védett"
+
+msgid "utils.Reset"
+msgstr "Visszaállítás"
+
+msgid "utils.Confirm"
+msgstr "Jóváhagy"
+
+msgid "utils.Close"
+msgstr "Bezár"
+
+msgid "utils.Result"
+msgstr "Eredmény"
+
+msgid "utils.between_range"
+msgstr "{min} és {max} között"
+
+msgid "utils.Reset_values"
+msgstr "Értékek visszaállítása"
+
+msgid "utils.Save"
+msgstr "Mentés"
+
+msgid "utils.Show"
+msgstr "Mutat"
+
+msgid "utils.Hide"
+msgstr "Elrejt"
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] "{count} év"
+msgstr[1] "{count} év"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] "{count} hónap"
+msgstr[1] "{count} hónap"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] "{count} nap"
+msgstr[1] "{count} nap"
+
+msgid "utils.graph.gb_level"
+msgstr "Szint"
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Szint költsége"
+
+msgid "utils.Next"
+msgstr "Jobbra"
+
+msgid "utils.Previous"
+msgstr "Balra"
+
+msgid "utils.Exit"
+msgstr "Kilépés"
+
+msgid "utils.Done"
+msgstr "Rendben"
+
+msgid "utils.Donate"
+msgstr "Támogatás"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Ez a mező nem lehet üres"
+
+msgid "contributions.bug"
+msgstr "Hibajelentés"
+
+msgid "contributions.design"
+msgstr "Tervezés"
+
+msgid "contributions.doc"
+msgstr "Dokumentáció"
+
+msgid "contributions.example"
+msgstr "Példák"
+
+msgid "contributions.tool"
+msgstr "Eszközök"
+
+msgid "contributions.translation"
+msgstr "Fordítás"
+
+msgid "contributions.tutorial"
+msgstr "Oktatóanyagok"
+
+msgid "contributions.video"
+msgstr "Videó"
+
+msgid "contributions.data"
+msgstr "Adatok hozzáadása vagy frissítése"
+
+msgid "contributions.creator"
+msgstr "A projekt létrehozója"
+
+msgid "seo.keywords.gb"
+msgstr "nevi"
+
+msgid "seo.keywords.great_building"
+msgstr "nevezetes épület"
+
+msgid "seo.keywords.fp"
+msgstr "fp"
+
+msgid "seo.keywords.forge_point"
+msgstr "forge pont"
+
+msgid "seo.keywords.medals"
+msgstr "medál"
+
+msgid "seo.keywords.military_units"
+msgstr "katonai egység"

@@ -1,10 +1,15 @@
-import { i18next } from "../../../scripts/i18n";
 import Utils from "../../../scripts/utils";
 import * as Errors from "../../../scripts/errors";
 import * as moment from "moment";
 import momentDurationFormatSetup from "moment-duration-format";
+import { shallowMount } from "@vue/test-utils";
+import { getView } from "../localVue";
+import { getDefaultStore } from "../utils";
+import Component from "../../../layouts/_default/Default";
 
 momentDurationFormatSetup(moment);
+
+const { i18n } = getView(getDefaultStore());
 
 describe("Utils", () => {
   describe("getFormatedDuration", () => {
@@ -16,10 +21,10 @@ describe("Utils", () => {
         days: 4,
         weeks: 3,
         months: 2,
-        years: 1
+        years: 1,
       });
 
-      const result = Utils.getFormatedDuration(duration, i18next);
+      const result = Utils.getFormatedDuration(duration, i18n);
 
       expect(result).toBe("1 year 2 months 25 days");
     });
@@ -32,10 +37,10 @@ describe("Utils", () => {
         days: 1,
         weeks: 0,
         months: 1,
-        years: 2
+        years: 2,
       });
 
-      const result = Utils.getFormatedDuration(duration, i18next);
+      const result = Utils.getFormatedDuration(duration, i18n);
 
       expect(result).toBe("2 years 1 month 1 day");
     });
@@ -48,10 +53,10 @@ describe("Utils", () => {
         days: 2,
         weeks: 0,
         months: 0,
-        years: 3
+        years: 3,
       });
 
-      const result = Utils.getFormatedDuration(duration, i18next);
+      const result = Utils.getFormatedDuration(duration, i18n);
 
       expect(result).toBe("3 years 2 days");
     });
@@ -64,10 +69,10 @@ describe("Utils", () => {
         days: 0,
         weeks: 0,
         months: 1,
-        years: 0
+        years: 0,
       });
 
-      const result = Utils.getFormatedDuration(duration, i18next);
+      const result = Utils.getFormatedDuration(duration, i18n);
 
       expect(result).toBe("1 month");
     });
@@ -80,24 +85,24 @@ describe("Utils", () => {
         days: 21,
         weeks: 0,
         months: 0,
-        years: 0
+        years: 0,
       });
 
-      const result = Utils.getFormatedDuration(duration, i18next);
+      const result = Utils.getFormatedDuration(duration, i18n);
 
       expect(result).toBe("21 days");
     });
 
     test("Throw error when null duration", () => {
-      expect(() => Utils.getFormatedDuration(null, i18next)).toThrow(new Errors.NullOrEmptyArgError());
+      expect(() => Utils.getFormatedDuration(null, i18n)).toThrow(new Errors.NullOrEmptyArgError());
     });
 
     test("Throw error when empty duration string", () => {
-      expect(() => Utils.getFormatedDuration("", i18next)).toThrow(new Errors.NullOrEmptyArgError());
+      expect(() => Utils.getFormatedDuration("", i18n)).toThrow(new Errors.NullOrEmptyArgError());
     });
 
     test("Throw error when empty duration object", () => {
-      expect(() => Utils.getFormatedDuration({}, i18next)).toThrow(new Errors.NullOrEmptyArgError());
+      expect(() => Utils.getFormatedDuration({}, i18n)).toThrow(new Errors.NullOrEmptyArgError());
     });
 
     test("Throw error when duration is an invalid object", () => {
@@ -110,23 +115,23 @@ describe("Utils", () => {
             days: 4,
             weeks: 3,
             months: 2,
-            years: 1
+            years: 1,
           },
-          i18next
+          i18n
         )
       ).toThrow(new Errors.InvalidTypeError({ expected: "Duration", actual: "Object" }));
     });
 
-    test("Throw error when null i18next", () => {
-      expect(() => Utils.getFormatedDuration(null, i18next)).toThrow(new Errors.NullOrEmptyArgError());
+    test("Throw error when null i18n", () => {
+      expect(() => Utils.getFormatedDuration(null, i18n)).toThrow(new Errors.NullOrEmptyArgError());
     });
 
-    test("Throw error when empty i18next string", () => {
-      expect(() => Utils.getFormatedDuration("", i18next)).toThrow(new Errors.NullOrEmptyArgError());
+    test("Throw error when empty i18n string", () => {
+      expect(() => Utils.getFormatedDuration("", i18n)).toThrow(new Errors.NullOrEmptyArgError());
     });
 
-    test("Throw error when empty i18next object", () => {
-      expect(() => Utils.getFormatedDuration({}, i18next)).toThrow(new Errors.NullOrEmptyArgError());
+    test("Throw error when empty i18n object", () => {
+      expect(() => Utils.getFormatedDuration({}, i18n)).toThrow(new Errors.NullOrEmptyArgError());
     });
   });
 
@@ -150,8 +155,8 @@ describe("Utils", () => {
           actual: {
             value: "string",
             lowerBound: "number",
-            upperBound: "number"
-          }
+            upperBound: "number",
+          },
         })
       );
     });
@@ -163,8 +168,8 @@ describe("Utils", () => {
           actual: {
             value: "number",
             lowerBound: "object",
-            upperBound: "number"
-          }
+            upperBound: "number",
+          },
         })
       );
     });
@@ -176,8 +181,8 @@ describe("Utils", () => {
           actual: {
             value: "number",
             lowerBound: "number",
-            upperBound: "function"
-          }
+            upperBound: "function",
+          },
         })
       );
     });
@@ -190,7 +195,7 @@ describe("Utils", () => {
       [">", 4],
       [">=", 5],
       ["==", 5],
-      ["===", 5]
+      ["===", 5],
     ];
 
     for (const value of inputComparatorValues) {
@@ -199,7 +204,7 @@ describe("Utils", () => {
 
         expect(result).toMatchObject({
           value: 5,
-          state: Utils.FormCheck.VALID
+          state: Utils.FormCheck.VALID,
         });
       });
     }
@@ -209,7 +214,7 @@ describe("Utils", () => {
 
       expect(result).toMatchObject({
         value: 5.3,
-        state: Utils.FormCheck.VALID
+        state: Utils.FormCheck.VALID,
       });
     });
 
@@ -218,7 +223,7 @@ describe("Utils", () => {
 
       expect(result).toMatchObject({
         value: 5,
-        state: Utils.FormCheck.VALID
+        state: Utils.FormCheck.VALID,
       });
     });
 
@@ -227,7 +232,7 @@ describe("Utils", () => {
 
       expect(result).toMatchObject({
         value: 5,
-        state: Utils.FormCheck.VALID
+        state: Utils.FormCheck.VALID,
       });
     });
 
@@ -236,7 +241,7 @@ describe("Utils", () => {
 
       expect(result).toMatchObject({
         value: 5,
-        state: Utils.FormCheck.VALID
+        state: Utils.FormCheck.VALID,
       });
     });
 
@@ -244,7 +249,7 @@ describe("Utils", () => {
       const result = Utils.checkFormNumeric(5, 5, [">", 2]);
 
       expect(result).toMatchObject({
-        state: Utils.FormCheck.NO_CHANGE
+        state: Utils.FormCheck.NO_CHANGE,
       });
     });
 
@@ -252,7 +257,7 @@ describe("Utils", () => {
       const result = Utils.checkFormNumeric("a", 4, [">", 2]);
 
       expect(result).toMatchObject({
-        state: Utils.FormCheck.INVALID
+        state: Utils.FormCheck.INVALID,
       });
     });
 
@@ -260,7 +265,7 @@ describe("Utils", () => {
       const result = Utils.checkFormNumeric(5, "a", [">", 2]);
 
       expect(result).toMatchObject({
-        state: Utils.FormCheck.INVALID
+        state: Utils.FormCheck.INVALID,
       });
     });
 
@@ -292,7 +297,7 @@ describe("Utils", () => {
           expected: "Array",
           actual: "number",
           additionalMessage:
-            'for parameter "comparator" of checkFormNumeric(value, currentValue, comparator, type = "int" })'
+            'for parameter "comparator" of checkFormNumeric(value, currentValue, comparator, type = "int" })',
         })
       );
     });
@@ -310,7 +315,7 @@ describe("Utils", () => {
 
       expect(result).toEqual([
         [1, 2, 3],
-        [4, 5]
+        [4, 5],
       ]);
     });
 
@@ -321,7 +326,7 @@ describe("Utils", () => {
 
         expect(result).toEqual([
           [1, 2, 3],
-          [4, 5, null]
+          [4, 5, null],
         ]);
       }
     );
@@ -331,7 +336,7 @@ describe("Utils", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: 'for parameter "arrayList" of splitArray(arrayList, chunk, sameSize = false })'
+          additionalMessage: 'for parameter "arrayList" of splitArray(arrayList, chunk, sameSize = false })',
         })
       );
     });
@@ -341,7 +346,7 @@ describe("Utils", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: 'for parameter "chunk" of splitArray(arrayList, chunk, sameSize = false })'
+          additionalMessage: 'for parameter "chunk" of splitArray(arrayList, chunk, sameSize = false })',
         })
       );
     });
@@ -365,12 +370,12 @@ describe("Utils", () => {
       cookies = [];
       ctx = {
         $data: {
-          errors: []
+          errors: [],
         },
         $cookies: {
           set: jest.fn((key, value, param) => {
             cookies.push({ key, value, param });
-          })
+          }),
         },
         $store: {
           commit: jest.fn((key, value) => {
@@ -378,8 +383,8 @@ describe("Utils", () => {
           }),
           set: jest.fn((key, value) => {
             cookies.push({ key, value });
-          })
-        }
+          }),
+        },
       };
     });
 
@@ -438,7 +443,7 @@ describe("Utils", () => {
           actual: "number",
           additionalMessage:
             'for parameter "cookieKey" of handlerForm(ctx, key, value, currentValue, comparator, saveCookie = false, ' +
-            'cookieKey = "", type = "int" })'
+            'cookieKey = "", type = "int" })',
         })
       );
     });
@@ -461,7 +466,7 @@ describe("Utils", () => {
       expect(() => Utils.shadeRGBColor("rgb(0, 12, red)", 0.3)).toThrow(
         new Errors.InvalidRegexMatchError({
           value: "rgb(0, 12, red)",
-          regex: /rgb\s*\(\s*[0-9]+,\s*[0-9]+,\s*[0-9]+\s*\)/.toString()
+          regex: /rgb\s*\(\s*[0-9]+,\s*[0-9]+,\s*[0-9]+\s*\)/.toString(),
         })
       );
     });
@@ -472,7 +477,7 @@ describe("Utils", () => {
           value: 10.3,
           lowerBound: -1.0,
           upperBound: 1.0,
-          additionalMessage: 'for parameter "percent" of shadeRGBColor(color, percent)'
+          additionalMessage: 'for parameter "percent" of shadeRGBColor(color, percent)',
         })
       );
     });

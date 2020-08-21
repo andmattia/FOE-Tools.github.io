@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/gb-forecast-cost";
+import Page from "~/pages/gb-forecast-cost/GbForecastCost";
 export default Page;
 </script>
 

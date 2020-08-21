@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/trade";
+import Page from "~/pages/trade/Trade";
 export default Page;
 </script>
 

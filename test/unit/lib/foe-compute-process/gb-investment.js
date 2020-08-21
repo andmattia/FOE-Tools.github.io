@@ -23,7 +23,7 @@ describe("FoeGbInvestment", () => {
     test("Valid value with extra investors (2 snip for P1 and P2)", () => {
       const extraInvestors = [
         { value: 1069, isPotentialSniper: false },
-        { value: 537, isPotentialSniper: false }
+        { value: 537, isPotentialSniper: false },
       ];
       const result = GbProcess.ComputeLevelInvestment(42, [90, 90, 90, 90, 90], agesCost.TheFuture, extraInvestors);
 
@@ -34,7 +34,7 @@ describe("FoeGbInvestment", () => {
       const extraInvestors = [
         { value: 1, isPotentialSniper: false },
         { value: 75, isPotentialSniper: false },
-        { value: 1, isPotentialSniper: false }
+        { value: 1, isPotentialSniper: false },
       ];
       const result = GbProcess.ComputeLevelInvestment(56, [90, 90, 90, 90, 90], agesCost.PostmodernEra, extraInvestors);
 
@@ -51,7 +51,7 @@ describe("FoeGbInvestment", () => {
     test("Valid value with investor that secure place with P1 780 instead of 181 and P3 10 instead of 29", () => {
       const extraInvestors = [
         { value: 780, isPotentialSniper: false },
-        { value: 10, isPotentialSniper: false }
+        { value: 10, isPotentialSniper: false },
       ];
       const result = GbProcess.ComputeLevelInvestment(10, [90, 90, 90, 90, 90], agesCost.PostmodernEra, extraInvestors);
       expect(result).toMatchSnapshot();
@@ -64,7 +64,7 @@ describe("FoeGbInvestment", () => {
         const extraInvestors = [
           { value: 447, isPotentialSniper: false },
           { value: 228, isPotentialSniper: false },
-          { value: 63, isPotentialSniper: false }
+          { value: 63, isPotentialSniper: false },
         ];
         const result = GbProcess.ComputeLevelInvestment(
           21,
@@ -99,7 +99,7 @@ describe("FoeGbInvestment", () => {
         { value: 1, isPotentialSniper: false },
         { value: 1, isPotentialSniper: false },
         { value: 1, isPotentialSniper: false },
-        { value: 1, isPotentialSniper: false }
+        { value: 1, isPotentialSniper: false },
       ];
       const result = GbProcess.ComputeLevelInvestment(1, [90, 90, 90, 90, 90], agesCost.TheFuture, extraInvestors, 0);
 
@@ -114,7 +114,7 @@ describe("FoeGbInvestment", () => {
         { value: 2, isPotentialSniper: false },
         { value: 1, isPotentialSniper: false },
         { value: 1, isPotentialSniper: false },
-        { value: 1, isPotentialSniper: false }
+        { value: 1, isPotentialSniper: false },
       ];
       const result = GbProcess.ComputeLevelInvestment(
         10,
@@ -157,7 +157,7 @@ describe("FoeGbInvestment", () => {
     test("Valid value with Château Frontenac level 85 → 86, with two investor at 100 PFs", () => {
       const extraInvestors = [
         { value: 100, isPotentialSniper: false },
-        { value: 100, isPotentialSniper: false }
+        { value: 100, isPotentialSniper: false },
       ];
       const result = GbProcess.ComputeLevelInvestment(
         86,
@@ -179,7 +179,7 @@ describe("FoeGbInvestment", () => {
           { value: 779, isPotentialSniper: false },
           { value: 390, isPotentialSniper: false },
           { value: 57, isPotentialSniper: true },
-          { value: 1, isPotentialSniper: true }
+          { value: 1, isPotentialSniper: true },
         ];
         const result = GbProcess.ComputeLevelInvestment(
           33,
@@ -207,7 +207,7 @@ describe("FoeGbInvestment", () => {
           { value: 10, isPotentialSniper: true },
           { value: 10, isPotentialSniper: true },
           { value: 8, isPotentialSniper: true },
-          { value: 5, isPotentialSniper: true }
+          { value: 5, isPotentialSniper: true },
         ],
         0
       );
@@ -222,7 +222,7 @@ describe("FoeGbInvestment", () => {
         gbsData.Temple_of_Relics.levels,
         [
           { value: 600, isPotentialSniper: true },
-          { value: 30, isPotentialSniper: true }
+          { value: 30, isPotentialSniper: true },
         ],
         0
       );
@@ -237,8 +237,8 @@ describe("FoeGbInvestment", () => {
           actual: {
             value: "string",
             lowerBound: "number",
-            upperBound: "number"
-          }
+            upperBound: "number",
+          },
         })
       );
     });
@@ -249,7 +249,7 @@ describe("FoeGbInvestment", () => {
           value: 0,
           lowerBound: 1,
           upperBound: agesCost.BronzeAge.length,
-          additionalMessage: `for parameter "currentLevel" of ${funcName}`
+          additionalMessage: `for parameter "currentLevel" of ${funcName}`,
         })
       );
     });
@@ -259,7 +259,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: `for parameter "investorPercentage" of ${funcName}`
+          additionalMessage: `for parameter "investorPercentage" of ${funcName}`,
         })
       );
     });
@@ -269,7 +269,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: `for parameter "gb" of ${funcName}`
+          additionalMessage: `for parameter "gb" of ${funcName}`,
         })
       );
     });
@@ -279,7 +279,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: `for parameter "defaultParticipation" of ${funcName}`
+          additionalMessage: `for parameter "defaultParticipation" of ${funcName}`,
         })
       );
     });
@@ -291,7 +291,7 @@ describe("FoeGbInvestment", () => {
         new Errors.KeyNotFoundError({
           expected: "cost",
           actual: "gb[3]",
-          additionalMessage: `in "checkGbData" called by ${funcName}`
+          additionalMessage: `in "checkGbData" called by ${funcName}`,
         })
       );
     });
@@ -303,7 +303,7 @@ describe("FoeGbInvestment", () => {
         new Errors.KeyNotFoundError({
           expected: "reward",
           actual: "gb[3]",
-          additionalMessage: `in "checkGbData" called by ${funcName}`
+          additionalMessage: `in "checkGbData" called by ${funcName}`,
         })
       );
     });
@@ -315,7 +315,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "gb[3].cost" of ${funcName}`
+          additionalMessage: `for parameter "gb[3].cost" of ${funcName}`,
         })
       );
     });
@@ -328,7 +328,7 @@ describe("FoeGbInvestment", () => {
           type: Errors.AvailableBoundTypes["<"],
           value: -1,
           boundValue: 0,
-          additionalMessage: `for parameter "gb[3].cost" of ${funcName}`
+          additionalMessage: `for parameter "gb[3].cost" of ${funcName}`,
         })
       );
     });
@@ -340,7 +340,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: `for parameter "gb[3].reward" of ${funcName}`
+          additionalMessage: `for parameter "gb[3].reward" of ${funcName}`,
         })
       );
     });
@@ -352,7 +352,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "gb[3].reward[1]" of ${funcName}`
+          additionalMessage: `for parameter "gb[3].reward[1]" of ${funcName}`,
         })
       );
     });
@@ -363,14 +363,14 @@ describe("FoeGbInvestment", () => {
         GbProcess.ComputeLevelInvestment(10, [0, 0, 0, 0, 0], deepCopy, [
           { value: deepCopy[9].cost, isPotentialSniper: false },
           { value: 1, isPotentialSniper: false },
-          { value: 1, isPotentialSniper: false }
+          { value: 1, isPotentialSniper: false },
         ])
       ).toThrow(
         new Errors.BoundExceededError({
           type: Errors.AvailableBoundTypes[">"],
           value: deepCopy[9].cost + 2,
           boundValue: deepCopy[9].cost,
-          additionalMessage: 'for the sum of values of parameter "defaultParticipation" of ' + funcName
+          additionalMessage: 'for the sum of values of parameter "defaultParticipation" of ' + funcName,
         })
       );
     });
@@ -390,7 +390,7 @@ describe("FoeGbInvestment", () => {
           type: Errors.AvailableBoundTypes[">"],
           value: "participationSum + ownerPreparation",
           boundValue: deepCopy[9].cost,
-          additionalMessage: 'for parameters "participationSum" and "ownerPreparation" of ' + funcName
+          additionalMessage: 'for parameters "participationSum" and "ownerPreparation" of ' + funcName,
         })
       );
     });
@@ -417,7 +417,7 @@ describe("FoeGbInvestment", () => {
           value: 0,
           lowerBound: 1,
           upperBound: agesCost.BronzeAge.length,
-          additionalMessage: `for parameter "from" of ${funcName}`
+          additionalMessage: `for parameter "from" of ${funcName}`,
         })
       );
     });
@@ -428,7 +428,7 @@ describe("FoeGbInvestment", () => {
           value: 0,
           lowerBound: 1,
           upperBound: agesCost.BronzeAge.length,
-          additionalMessage: `for parameter "to" of ${funcName}`
+          additionalMessage: `for parameter "to" of ${funcName}`,
         })
       );
     });
@@ -438,7 +438,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: `for parameter "gb" of ${funcName}`
+          additionalMessage: `for parameter "gb" of ${funcName}`,
         })
       );
     });
@@ -448,7 +448,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "Array",
           actual: "string",
-          additionalMessage: `for parameter "investorPercentage" of ${funcName}`
+          additionalMessage: `for parameter "investorPercentage" of ${funcName}`,
         })
       );
     });
@@ -482,7 +482,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "levelCost" of ${funcName}`
+          additionalMessage: `for parameter "levelCost" of ${funcName}`,
         })
       );
     });
@@ -492,7 +492,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "currentDeposits" of ${funcName}`
+          additionalMessage: `for parameter "currentDeposits" of ${funcName}`,
         })
       );
     });
@@ -502,7 +502,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "yourParticipation" of ${funcName}`
+          additionalMessage: `for parameter "yourParticipation" of ${funcName}`,
         })
       );
     });
@@ -512,7 +512,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "otherParticipation" of ${funcName}`
+          additionalMessage: `for parameter "otherParticipation" of ${funcName}`,
         })
       );
     });
@@ -522,7 +522,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "yourArcBonus" of ${funcName}`
+          additionalMessage: `for parameter "yourArcBonus" of ${funcName}`,
         })
       );
     });
@@ -532,7 +532,7 @@ describe("FoeGbInvestment", () => {
         new Errors.InvalidTypeError({
           expected: "number",
           actual: "string",
-          additionalMessage: `for parameter "fpTargetReward" of ${funcName}`
+          additionalMessage: `for parameter "fpTargetReward" of ${funcName}`,
         })
       );
     });

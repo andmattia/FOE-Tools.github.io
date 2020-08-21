@@ -1,6 +1,6 @@
 import Utils from "~/scripts/utils";
 
-export default function({ isHMR, app, store, route, params, error, redirect }) {
+export default function ({ isHMR, app, store, route, params, error, redirect }) {
   const defaultLocale = app.defaultLocale;
 
   // If middleware is called from hot module replacement, ignore it
@@ -18,7 +18,7 @@ export default function({ isHMR, app, store, route, params, error, redirect }) {
   if (app.$cookies.get("locale") === null || store.get("supportedLocales").indexOf(app.$cookies.get("locale")) === -1) {
     app.$cookies.set("locale", app.defaultLocale, {
       path: "/",
-      expires: Utils.getDefaultCookieExpireTime()
+      expires: Utils.getDefaultCookieExpireTime(),
     });
   } else {
     locale = app.$cookies.get("locale");
@@ -26,7 +26,7 @@ export default function({ isHMR, app, store, route, params, error, redirect }) {
 
   // Set locale
   store.set("locale", locale);
-  app.i18n.i18next.changeLanguage(store.get("locale"), err => {
+  app.i18n.i18next.changeLanguage(store.get("locale"), (err) => {
     if (err) return console.error("something went wrong loading", err);
   });
 

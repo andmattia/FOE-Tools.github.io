@@ -5,7 +5,7 @@ div
         h3.title.is-3 {{$t($data.i18nPrefix + 'block_cfc.title')}}
     div.column.is-half(v-show="canPermalink")
       div.field
-        nuxt-link#permalink.level-right(:to="permaLink" exact)
+        nuxt-link#permalink.level-right(:to="localePath(permaLink)" exact)
           span.icon
             i.fas.fa-link
           | &nbsp;{{$t('utils.permalink')}}
@@ -82,24 +82,24 @@ div
           th.has-text-centered {{$t(i18nPrefix + 'block_cfc.table_reward.thead.th4')}}
       tbody
         tr
-          td.has-text-right {{$formatNumber(result.bp)}}
-          td.has-text-right {{$formatNumber(result.medals)}}
-          td.has-text-right {{$formatNumber(result.goods)}}
-          td.has-text-right {{$formatNumber(result.fp)}}
+          td.has-text-right {{$n(result.bp)}}
+          td.has-text-right {{$n(result.medals)}}
+          td.has-text-right {{$n(result.goods)}}
+          td.has-text-right {{$n(result.fp)}}
 
   div.columns
     div.column.is-one-third
       div.field
-        p#totalGoods {{$t(i18nPrefix + 'block_cfc.reward_message.total_goods', {count: result.totalGoods})}}
-        p#dailyUbq {{$t(i18nPrefix + 'block_cfc.reward_message.daily_ubq', {count: result.dailyUbq})}}
+        p#totalGoods {{$t(i18nPrefix + 'block_cfc.reward_message.total_goods', {count: $n(result.totalGoods)})}}
+        p#dailyUbq {{$t(i18nPrefix + 'block_cfc.reward_message.daily_ubq', {count: $n(result.dailyUbq)})}}
     div.column.is-one-third
       div.field
-        p#totalFp {{$t(i18nPrefix + 'block_cfc.reward_message.total_fp', {count: result.totalFp})}}
-        p#bonusUbq {{$t(i18nPrefix + 'block_cfc.reward_message.bonus_ubq', {count: result.bonusUbq})}}
+        p#totalFp {{$t(i18nPrefix + 'block_cfc.reward_message.total_fp', {count: $n(result.totalFp)})}}
+        p#bonusUbq {{$t(i18nPrefix + 'block_cfc.reward_message.bonus_ubq', {count: $n(result.bonusUbq)})}}
     div.column.is-one-third
       div.field
-        p#totalRqCompleted {{$t(i18nPrefix + 'block_cfc.reward_message.total_rq_completed', {count: infinityGenerator ? cumulativeQuest : result.totalRqCompleted})}}
-        p#secondRqCompleted(v-show="secondRq || tutoMode") {{$t(i18nPrefix + 'block_cfc.reward_message.second_rq_completed', {count: result.secondRqCompleted})}}
+        p#totalRqCompleted {{$t(i18nPrefix + 'block_cfc.reward_message.total_rq_completed', {count: $n(infinityGenerator ? cumulativeQuest : result.totalRqCompleted)})}}
+        p#secondRqCompleted(v-show="secondRq || tutoMode") {{$t(i18nPrefix + 'block_cfc.reward_message.second_rq_completed', {count: $n(result.secondRqCompleted)})}}
 
   div.table-wrapper(v-show="(!result.coinSupplyReturn.length <= 0) || tutoMode")
     table#coinSupplyReturn.table.is-bordered.is-striped.is-narrow.is-fullwidth
@@ -110,6 +110,6 @@ div
           th.has-text-centered {{$t(i18nPrefix + 'block_cfc.table_return.thead.th_supply')}}
       tbody
         tr(v-for="(data, index) in result.coinSupplyReturn")
-          td.has-text-right {{$formatNumber(index + 1)}}
-          td.has-text-right {{$formatNumber(data.coin)}}
-          td.has-text-right {{$formatNumber(data.supply)}}
+          td.has-text-right {{$n(index + 1)}}
+          td.has-text-right {{$n(data.coin)}}
+          td.has-text-right {{$n(data.supply)}}

@@ -6,24 +6,24 @@ export default {
   props: {
     gtype: {
       type: String,
-      required: true
+      required: true,
     },
     id: {
       type: String,
-      required: true
+      required: true,
     },
     labels: {
       type: Array,
-      required: true
+      required: true,
     },
     datasets: {
       type: Array,
-      required: true
+      required: true,
     },
     goptions: {
       type: Object,
-      default: () => {}
-    }
+      default: () => {},
+    },
   },
   watch: {
     labels: {
@@ -33,7 +33,7 @@ export default {
 
         this.updateCanvas();
       },
-      deep: true
+      deep: true,
     },
     datasets: {
       handler(val) {
@@ -42,17 +42,17 @@ export default {
 
         this.updateCanvas();
       },
-      deep: true
-    }
+      deep: true,
+    },
   },
   data() {
     return {
       type: this.$props.gtype,
       chart_data: {
         labels: this.$props.labels,
-        datasets: this.$props.datasets
+        datasets: this.$props.datasets,
       },
-      options: this.$props.goptions
+      options: this.$props.goptions,
     };
   },
   methods: {
@@ -61,14 +61,14 @@ export default {
       document.chart = this.$data.chart = new Chart(ctx, {
         type: this.$data.type,
         data: this.$data.chart_data,
-        options: this.$data.options
+        options: this.$data.options,
       });
-    }
+    },
   },
   mounted() {
     this.updateCanvas();
     let self = this;
-    document.getElementById(this.$props.id).onclick = function(evt) {
+    document.getElementById(this.$props.id).onclick = function (evt) {
       setTimeout(() => {
         const { layerX, layerY } = evt;
         let legendHitBoxes = JSON.parse(JSON.stringify(document.chart.legend.legendHitBoxes));
@@ -83,5 +83,5 @@ export default {
         }
       }, 50);
     };
-  }
+  },
 };

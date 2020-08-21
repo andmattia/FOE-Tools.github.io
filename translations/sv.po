@@ -1,0 +1,3761 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:52.129Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:52.129Z\n"
+"Language: sv\n"
+
+msgid "main_menu.home"
+msgstr "Hem"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "Om"
+
+msgid "footer_menu.contributors"
+msgstr "Bidragare"
+
+msgid "footer_menu.changelog"
+msgstr "Ändringslogg"
+
+msgid "footer_menu.contact"
+msgstr "Kontakt"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Välj en provins"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Denna provins innehåller en eller flera sektorer som saknar värden."
+
+msgid "components.campaign_cost.provinces"
+msgstr "Provinser"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Alla provinser"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Alla tidsåldrar"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Din era"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Din @:(foe_data.gb.Chateau_Frontenac) boost"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Mynt att använda på I.F.U"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Detta värde bör vara större eller lika med {min} eftersom det inte går att "
+"garantera någon vinst (statistiskt sett)"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Förnödenheter att använda på I.F.U"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "MB & plundring av varor"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "FP produktion per 24 timmar"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Övriga dagliga Å.U"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "2:a Å.U -givare ?"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Förnödenheter insamlade"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Ritningar"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Medaljer"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Varor"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "FP"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Dagliga I.F.U: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Bonus I.F.U: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "2:a Å.U gjorda: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Total mängd varor: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Total mängd FP: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Totalt antal Å.U gjorda: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Nivå"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Mynt returnerade"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Förnödenheter returnerade"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"Med den nuvarande bonusen från @:(foe_data.gb.Chateau_Frontenac), kommer du "
+"att tjäna mer mynt och förnödenheter än vad du kommer att förbruka för att "
+"genomföra uppdragen. Välj det antal "
+"@:(components.cf_calculator.block_cfc.infinity_generator.label) du vill "
+"genomföra."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Ytterligare uppdrag"
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr "Antal 2:a återkommande uppdrag du kan genomföra."
+
+msgid "components.cf_calculator.tutorial.bonusUbq"
+msgstr ""
+"Antal InteFödelsedagsFest du (statistiskt) kan genomföra med med de mynt "
+"och förnödenheter du initialt kommer att tjäna."
+
+msgid "components.cf_calculator.tutorial.dailyUbq"
+msgstr ""
+"Antal InteFödelsedagsFest du kan genomföra i enlighet med hur mycket mynt "
+"och förnödenheter du är villig att spendera."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr "Antal återkommande uppdrag du (statistiskt) kan genomföra."
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Antal FP du kommer att tjäna via uppdrag, MB's, etc."
+
+msgid "components.cf_calculator.tutorial.totalGoods"
+msgstr "Antalet gods du kommer att tjäna via uppdrag, MB's, etc."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"Denna tabell visar dig de belöningar du kommer att tjäna. Håll i minnet att "
+"värdena är baserade på empirisk probabilitet."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr "I så fall, ange antalet uppdrag du vill köra."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Denna sektion visas bara när @:(foe_data.gb.Chateau_Frontenac) boost "
+"(enligt din era) statistisk ger dig mer mynt och förnödenheter än du "
+"spenderar."
+
+msgid "components.cf_calculator.tutorial.otherRq"
+msgstr "Ange de övriga dagliga uppdragen du har gjort."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr ""
+"Ange antalet förnödenheter du ska använda för det 2:a återkommande "
+"uppdraget."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"From @:(foe_data.age.LateMiddleAges) kan du köra ett 2:a återkommande "
+"uppdrag. Ange \"@:(utils.Yes)\" om du ska köra det.\n"
+"\n"
+"<i><b>Notera</b>: Det antas att det 2:a uppdraget är: Samla X "
+"förnödenheter.</i>."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Ange antalet FP du får under 24 timmar."
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "Ange antalet gods du samlar in från MB och plundringar."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr "Ange antal förnödenheter du tänker använda för alla uppdrag."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "Ange antalet mynt du tänker använda för alla uppdrag."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Ange din @:(foe_data.gb.Chateau_Frontenac) boost.\n"
+"\n"
+"Exempel: för 450%, ange 450."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Välj din era."
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Detta verktyg ger bara information. Det talar om vad som är statistiskt "
+"möjligt att få ut av din @:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"Denna tabell visar mänged mynt och förnödenheter som du statistiskt kommer "
+"att tjäna på din initiala investering (bestående av mynt och förnödenheter, "
+"som du är villig att spendera)."
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Byt Mäktig Byggnad"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"Du kan ändra utseendet på väljaren (standard-väljare eller "
+"auto-kompletterande) i de globala inställningarna."
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Ange värdena på nivå och procentuell bonus. Tabellvärdena kommer att "
+"uppdateras automatiskt."
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Obs</strong>: Om uppdateringen inte görs automatiskt, ange först "
+"nivån på MB't och den generella investeringen, sedan klicka på "
+"[@:(components.gb_investment.gb_investment.form.submit_global)]. Om du vill "
+"justera värdet enskilt, gör så och klicka på "
+"[@:(components.gb_investment.gb_investment.form.submit_custom)]."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "Level {fromLevel} → {level} (@:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "% av globala investerares Ark-bonus"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Global uträkning"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Anpassad uträkning"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Antal FP f.n. investerat av ägaren (max {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr "Lägg till investerare (put FP value, @:(utils.between_range))"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Klicka på knappen [@:(utils.Add)] eller tryck på [Enter], för att lägga "
+"till investerare"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Lista över tillagda investerare"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Visa Plats/Kapare"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Visa endast säkra platser"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Visa tabellen i kort-vy (för liten skärm) ?"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} nivå {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Platser"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Standardbelöningar"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "FP att lägga av ägaren för att grunda platsen"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Belöningar med boost"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "% av investerares Ark-bonus"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Inkludera i annonser"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Antal FP redan lagda"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Plats/Kapare"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "FP anskaffade med % bonus förväntat av ägaren"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "FP anskaffade med % bonus från din Ark"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Är en potentiell kapare ?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Visa extra investerare"
+msgstr[1] "Visa extra investerare"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Dölj extra investerare"
+msgstr[1] "Dölj extra investerare"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Denna spelare kommer att förlora FP"
+msgstr[1] "Denna spelare kommer att förlora FP"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "FP som återstår för ägaren att lägga för att grunda platsen"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Förväntad investering"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Denna spelare kommer att profitera"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Denna spelare kommer att gå +/- 0 i FP"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Total investering av ägaren"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "FP som återstår för att fylla nivån"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Nivåkostnad"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Visa namn på MB ?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Använd förkortning ?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Visa nivå ?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Annons-text"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "text före annons-text"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "text efter annons-text"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"1({investment})\n"
+"4({investment})\n"
+"3({investment})\n"
+"2({investment})\n"
+"5({investment})"
+
+msgid "components.gb_investment.tutorial.welcome"
+msgstr ""
+"Avsikten med denna handledning är att förklara alla funktioner med detta "
+"verktyg.\n"
+"\n"
+"Du kan klicka på länkarna nedan för att lära dig mer om dem.\n"
+"För att forsätta, klicka på knappen \"@:(utils.Next)\"."
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "Påskynda 1.9, 1.8, etc."
+
+msgid "components.gb_investment.tutorial.rush_1_9.content"
+msgstr ""
+"@:(foe_data.gb.The_Arc) är ett MB som ökar belöningarna du får från topp-5 "
+"platserna i någon annans MB.  Ju högre nivå på @:(foe_data.gb.The_Arc), "
+"desto större nivå på belöningarna.\n"
+"\n"
+"Det var så uttrycken \"1.8\", \"1.9\", började.  I verkligheten är det  "
+"@:(foe_data.gb.The_Arc) bonus.\n"
+"1.0 representerar bas-belöningen (ingen @:(foe_data.gb.The_Arc)), 1.8 "
+"representerar en @:(foe_data.gb.The_Arc) på nivå 70 (då ökar belöningar med "
+"80%), och 1.9 representerar en @:(foe_data.gb.The_Arc) på nivå 80 (90% mer "
+"i belöning).\n"
+"\n"
+"Trådar skapades i gillen och/eller vänner emellan, avsedda att enbart "
+"hantera denna typ av investeringar.  Detta är baserat på principen \"jag "
+"ger vad jag får\", och på så sätt minimera konflikter gille-medlemmar / "
+"vänner, emellan genom att inte profitera på varandra. Olikt \"oändliga "
+"trådar\" (10, 50, 100, etc.),  är en ytterligare fördel med 1.8, 1.9, etc. "
+"-trådar att det sparar tid för MB-ägaren. Detta då ägaren bara behöver "
+"investera en viss mängd FP för att säkra upp platserna åt dem som med hjälp "
+"av sin @:(foe_data.gb.The_Arc) bonus tar platserna.\n"
+"\n"
+"Ett exempel:\n"
+"\n"
+"Tänk dig att du vill öka upp ditt @:(foe_data.gb.Observatory) från nivå 10 "
+"till 60 och att du tjänar {fp50} per dag.\n"
+"Den totala kostnaden för nivåerna blir då {fp64975}.\n"
+"\n"
+"Om du använder \"oändliga bytestrådar\" blir din investering 1:1, i.e. "
+"{fp25} investerat i ett MB = {fp25} som en annan spelare kommer att "
+"investera i ditt MB. Så du kommer att behöva <strong>investera "
+"{fp37320}</strong> för att nå nivå 60.  Med {fp50} per dag kommer det att "
+"ta dig <strong>2 år och 17 dagar</strong>.\n"
+"\n"
+"Om du istället använder dig av en 1.9 tråd, kommer du att <strong>endast "
+"investera {fp12363}</strong> för att nå nivå 60, så <strong>en besparing på "
+"{fp24957} !</strong>.\n"
+"Dock, med {fp50} per dag, går du från 2 år och 17 dagar, till <strong>8 "
+"månader och 5 dagar</strong> !"
+
+msgid "components.gb_investment.tutorial.snipe.title"
+msgstr "Kapa"
+
+msgid "components.gb_investment.tutorial.snipe.content"
+msgstr ""
+"\"Kapa\" är när en spelare tar en plats (1-5) i ett MB för att profitera "
+"och vanligen, inte möta upp till ägarens förväntningar.\n"
+"\n"
+"T.ex. nivå 49 → 50 på MB \"@:(foe_data.gb.The_Virgo_Project)\" kräver ingen "
+"grundning i form av FP av ägaren för att säkra de 2 första platserna.  Den "
+"förväntade investeringen med 1.9 (190%) för plats 1 är {fp1739}. En "
+"\"kapare\" (med en @:(foe_data.gb.The_Arc) på nivå 80) kan så fort "
+"tillfälle ges, ta platsen med en investering på endast {fp1679}, detta "
+"räcker för att säkra platsen och generera en profit på {fp60}."
+
+msgid "components.gb_investment.tutorial.gb_select"
+msgstr ""
+"Detta fält tillåter ett snabbt byte av MB.\n"
+"Det finns två typer selektorer.\n"
+"\n"
+"Den enkla selektorn (gamla versionen) som visar en \"drop-down\"-lista. "
+"Detta är standard-selektorn:\n"
+"\n"
+"{videoSelect}\n"
+"\n"
+"Den auto-kompletterande låter dig finna ett MB genom att skriva ett fåtal "
+"bokstäver från namnet på ett MB:\n"
+"\n"
+"{videoAutoComplete}"
+
+msgid "components.gb_investment.tutorial.display_modes.title"
+msgstr "Visnings lägen"
+
+msgid "components.gb_investment.tutorial.display_modes.content"
+msgstr ""
+"Detta verktyg ger all information ägaren och investeraren behöver veta för "
+"investeringar på en nivå i ett MB. Det har två lägen:\n"
+"\n"
+"\"@:(routes.gb_investment.tab.owner_view.title)\" (where you are) visar "
+"detaljerad information på den nuvarande nivån endast.\n"
+"\n"
+"\"@:(routes.gb_investment.tab.investors_view.title)\" visar värdena på "
+"flera nivåer i tabulär form. Du ser endast antal FP ägaren och investerarna "
+"behöver bidra med, med resulterande profit/förlust."
+
+msgid "components.gb_investment.tutorial.level"
+msgstr "Välj nivån du vill jobba med."
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Välj kursen du förväntar dig av investerarna\n"
+"Ex.  för investeringar på 190%, välj 90"
+
+msgid "components.gb_investment.tutorial.owner_investment"
+msgstr ""
+"Har du redan FP investerat i ditt MB?\n"
+"Om ja, ange hur många"
+
+msgid "components.gb_investment.tutorial.your_arc_bonus"
+msgstr ""
+"Detta fält är för investerarna och måsta användas med "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" satt till "
+"\"@:(utils.Yes)\".\n"
+"Det anger hur många FP du behöver lägga på en nivå för att säkra en plats; "
+"det anger också nivån på din profit/förlust."
+
+msgid "components.gb_investment.tutorial.display_card"
+msgstr ""
+"Detta fält visar tabell-datan i \"Kort Vy\".\n"
+"Detta är \"optimerat\" för smarttelefoner, så du slipper scroll "
+"horisontellt.\n"
+"Detta fält visas endast på små skärmar."
+
+msgid "components.gb_investment.tutorial.table.message"
+msgstr "Denna tabell visar all information du vill ha."
+
+msgid "components.gb_investment.tutorial.table.place"
+msgstr "Korresponderande till plats-index."
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr "Detta är standard-belöning (utan @:(foe_data.gb.The_Arc) bonus) för platsen."
+
+msgid "components.gb_investment.tutorial.table.fp_to_put_by_the_owner"
+msgstr ""
+"Som namnet indikerar, anger det mängden FP ägaren måste lägga i sitt MB för "
+"att grunda platsen."
+
+msgid "components.gb_investment.tutorial.table.rewards_with_rate"
+msgstr "Detta är mängden FP förväntat av ägaren när en investerare tar en plats."
+
+msgid "components.gb_investment.tutorial.table.fp_already_putin"
+msgstr ""
+"Denna kolumn visas när du har lagt till minst en investerare. Den visar "
+"vilken plats investeraren hamnar på med strategin (förväntad investering) "
+"av ägaren."
+
+msgid "components.gb_investment.tutorial.table.percentage_investors"
+msgstr ""
+"Likt "
+"\"@:(components.gb_investment.gb_investment.form.investor_percentage)\", "
+"tillåter denna kolumn ägaren att definiera de förväntade investeringarna, "
+"men då för varje plats enskilt."
+
+msgid "components.gb_investment.tutorial.table.is_sniper"
+msgstr ""
+"Denna kolumn visas när du har definierat minst en investerare. Den är "
+"avsedd för att ange om spelaren är en potentiell \"kapare\" eller inte. "
+"Denna information används vid kalkylering för grundning av platser."
+
+msgid "components.gb_investment.tutorial.table.include_in_copy_boxes"
+msgstr ""
+"Detta fält låter dig visa denna plats i annonstexten som du kan klistra in "
+"i spelet."
+
+msgid "components.gb_investment.tutorial.table.spot_snipe"
+msgstr ""
+"Denna kolumn visas endast om du har satt  "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" till "
+"\"@:(utils.Yes)\" och är till för investerare. Denna kolumn anger (baserat "
+"på värdena i \"@:(components.secure_position.block_place.your_arc_bonus)\") "
+"hur många FP du måste lägga för att säkra din plats.\n"
+"Den visar även din profit/förlust."
+
+msgid "components.gb_investment.tutorial.promotion_message.message"
+msgstr ""
+"Denna sektion låter dig ha meddelanden innehållandes information om det "
+"nuvarande MB's nivå och platser. Du kan kopiera informationen och klistra "
+"in den i spelet, t.ex. en 1.9 tråd."
+
+msgid "components.gb_investment.tutorial.promotion_message.prefix"
+msgstr "Text som läggs till i början på meddelandet."
+
+msgid "components.gb_investment.tutorial.promotion_message.suffix"
+msgstr "Text som läggs till i slutet på meddelandet."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.display_gb_"
+"name"
+msgstr "Visar namnet på MB't (om inkluderat i meddelande-mallen)."
+
+msgid "components.gb_investment.tutorial.promotion_message.show_level"
+msgstr "Visar nivån på MB't (om inkluderat i meddelande-mallen)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.show_only_"
+"secured_places"
+msgstr ""
+"Detta alternativ låter dig lägga till platser i annonstexten automatiskt om "
+"dessa platser är grundade och lediga. För att använda denna funktion måste "
+"du ange mängden FP lagda av både ägare och investerare."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.custom_"
+"fields"
+msgstr "Notera att vissa mallar har egna fält med egna namn."
+
+msgid "components.gb_investment.tutorial.promotion_message.add_message"
+msgstr "Detta fält låter dig lägga till meddelanden."
+
+msgid "components.gb_investment.tutorial.promotion_message.tabs"
+msgstr ""
+"Meddelandena följer en mall. Du kan importera en mall i fliken "
+"\"@:(components.import_promotion_message.title)\" eller skapa en egen i "
+"fliken \"@:(components.promotion_message_builder.title)\"."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.use_short_"
+"name"
+msgstr ""
+"Låter dig definiera om du vill visa förkortningen på MB't (Ex. "
+"\"@:(foe_data.gb.Observatory)\" visas som "
+"\"@:(foe_data.gb_short.Observatory)\")."
+
+msgid "components.gb_investment.tutorial.add_investors"
+msgstr ""
+"Har du slumpartade investeringar i dina MB som är lägre/högre än din "
+"designerade kurs?\n"
+"Ange alla nuvarande udda investeringar i detta fält, separat.\n"
+"Detta verktyg kalkylerar dina säkra FP och vilka platser du har säkrat."
+
+msgid "components.gb_investment.tutorial.show_snipe"
+msgstr ""
+"Detta fält är avsett för investerare och visar en ytterligare kolumn i "
+"tabellen named "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\".\n"
+"Denna kolumn anger (baserat på värdena definierade i "
+"\"@:(components.secure_position.block_place.your_arc_bonus)\") hur många FP "
+"du behöver lägga för att säkra din plats i ett MB.\n"
+"Det indikerar även din profit/förlust."
+
+msgid "components.gb_investment_investors.description.p1"
+msgstr ""
+"Denna vy visar förtjänsten som kan fås genom att ta en plats, med eller "
+"utan hänsyn till investeringar på övriga platser. Det finns {count} "
+"varianter att förhålla sig till de övriga platserna:"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"label"
+msgstr "Ta hänsyn till övriga platser ?"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Visa plats"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Normal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Optimal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "ta inte hänsyn till övriga platser"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"räkna med övriga platser, med en minimal investering, samt ingen grundning "
+"av ägaren"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.optimal"
+msgstr "räkna med övriga platser, utan förtjänst, samt grundning av ägaren"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Plats {count}"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Förtjänst / Förlust"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Prognos"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Fastställ mängden FP för att gå från en nivå till nästa, med eller utan "
+"hänsyn till Ark-bonus."
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Anpassad Ark-bonus (för varje plats)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Estimera tiden för att nå nästa nivå"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] "Med bonus investeringar sparar du {count} FP"
+msgstr[1] "Med bonus investeringar sparar du {count} FP"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"För att fullfölja nivå {level} av \"{gb}\", måste ägaren investera "
+"{preparation} FP. Total nivåkostnad: {cost} FP."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"För att gå från nivå {from} till {to} på {gb}, måste ägaren investera "
+"{preparation} FP. Totalkostnad för nivåer: {cost} FP."
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "Estimerad tid för att nå nivån: {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "FP redan investerade av ägaren på nuvarande nivå"
+
+msgid "components.gb_forecast_cost.graph.title"
+msgstr "Prognos på storleken av ägarens grundning för \"{gb}\""
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Bruttokostnad för nivån"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Storlek på grund utan bonus"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Storlek på grund med bonus"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"Graferna skapade med hänsyn till era. Kostnad / belöning för alla MB är "
+"densamma för repektive era (förutom i ett speciellt fall, "
+"@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_statistics.represent"
+msgstr "Representerar:"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Utveckling av kostnader baserat på nivåerna"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Utveckling av belöningar på 1:a platsen baserat på nivåerna"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr "Utveckling av kostnader på nivåerna baserat på belöning på 1:a platsen"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr "Utveckling av belöningar på 1:a platsen baserat på kostnad av nivåerna"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] "Återstående FP för att fylla nivån:"
+msgstr[1] "Återstående FP för att fylla nivån:"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] "{place} ({count} FP)"
+msgstr[1] "{place} ({count} FP)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Säkra din plats"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Nivåkostnad"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Summan av investeringar"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Ditt nuvarande bidrag"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "Bidrag att överträffa"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Din Ark-bonus"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "FP för önskad plats"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Önskad plats"
+
+msgid "components.secure_position.block_place.various_rate"
+msgstr "Diverse kurser"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Kurs"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "FP att lägga enligt kursen"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "FP att lägga för att låsa din plats"
+
+msgid "components.secure_position.block_place.result.default"
+msgid_plural "components.secure_position.block_place.result.default"
+msgstr[0] "Du måste lägga minst {count} FP för att säkra platsen."
+msgstr[1] "Du måste lägga minst {count} FP för att säkra platsen."
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] "FP du måste investera för att säkra din plats:"
+msgstr[1] "FP du måste investera för att säkra din plats:"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgid_plural "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr[0] "Du måste lägga {count} FP."
+msgstr[1] "Du måste lägga {count} FP."
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "En eller flera värden är ogiltiga."
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgid_plural "components.secure_position.block_place.result.roi.profit"
+msgstr[0] "Din förtjänst kommer att bli {count} FP"
+msgstr[1] "Din förtjänst kommer att bli {count} FP"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] "Din förlust kommer att bli {count} FP"
+msgstr[1] "Din förlust kommer att bli {count} FP"
+
+msgid "components.secure_position.block_place.result.roi.neutral"
+msgstr "Du kommer inte att få retur på din investering"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "Din plats är säkrad."
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "FP du måste investera ytterligare för att säkra din plats"
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Du kan inte säkra platsen."
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "okänd"
+
+msgid "components.simple_trade.title"
+msgstr "Tabellversion"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Era"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Vara"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Resultat"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Dela"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Förhållande"
+
+msgid "components.simple_trade.slpit"
+msgstr "Dela erbjudanden ?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "Visa förhållande"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] "En uppdatering sedan ditt senaste besök."
+msgstr[1] "{count} uppdaterinarg sedan ditt senaste besök."
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "Ett uppsättning verktyg att underlätta livet på @:(common.links.foe)"
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"Genom att fortsätta använda @:(common.site_title), accepterar du användande "
+"av kakor (avsedda att underlätta handhavandet)."
+
+msgid "components.site_layout.cookie.link"
+msgstr "Mer information"
+
+msgid "components.site_layout.new_year.message"
+msgid_plural "components.site_layout.new_year.message"
+msgstr[0] "@:(common.site_title) firar sitt {count} år"
+msgstr[1] "@:(common.site_title) firar sitt {count} år"
+
+msgid "components.site_layout.survey.message"
+msgstr "Hjälp oss att förbättra @:(common.site_title) genom att fylla i denna enkät"
+
+msgid "components.site_layout.whats_new"
+msgstr "Vad är nytt ?"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"You besöker via en \"permalänk\", följdaktligen kommer inga ändringar att "
+"sparas (i kakor)."
+
+msgid "components.site_layout.footer.license_html"
+msgstr "Källkod under @:(common.links.mit) -licens"
+
+msgid "components.site_layout.footer.version"
+msgstr "Version {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "Dag"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Start på dagen"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Natt"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Start på natten"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"Automatiskt "
+"@:(components.site_layout.day_night.Day)/@:(components.site_layout.day_"
+"night.Night)"
+
+msgid "components.site_layout.global_config"
+msgstr "Globala inställningar"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "Huvudmeny alltid synlig"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "Stil på MB-väljare"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Autokomplettera"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Välj (arv)"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Tema"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Dag"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Natt"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Automatiskt"
+
+msgid "components.site_layout.switch_locale"
+msgstr "@:(common.site_title) är tillgängligt på ditt språk"
+
+msgid "components.trade.title"
+msgstr "Formulär version"
+
+msgid "components.trade.label.i_have"
+msgstr "Jag har"
+
+msgid "components.trade.label.i_want"
+msgstr "Jag vill ha"
+
+msgid "components.trade.label.amount"
+msgstr "Mängd"
+
+msgid "components.trade.split_value"
+msgstr "Max storlek på ett erbjudande ({count})"
+
+msgid "components.trade.split_message.msg"
+msgstr "{valueFrom} {ageFrom} för {valueTo} {ageTo}"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) och {secondPart}"
+
+msgid "components.trade.message.result"
+msgstr ""
+"För {to} från {ageTo}, behöver du {from} från {ageFrom} med erbjudande upp "
+"till {count}:"
+
+msgid "components.trade.message.total"
+msgstr "(totalt: {amount} {key})"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Annons-text-byggare"
+
+msgid "components.promotion_message_builder.info"
+msgstr "Detta kan kopieras för att delas, till exempel med dina gille-medlemmar"
+
+msgid "components.promotion_message_builder.note"
+msgstr ""
+"Observera att annonsbyggaren använder nivå 9 → 10 på "
+"@:(foe_data.gb.Observatory) med en boost på 90% för förhandsgranskning."
+
+msgid "components.promotion_message_builder.action"
+msgstr "Handling"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Skapa en ny mall"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Uppdatera en befintlig mall"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Ta bort en befintlig mall"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Börja från en mall ?"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Välj mallen för att redigera"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Välj mallen som ska raderas"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Standardmallar"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Anpassade mallar"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Konfiguration"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Lägg till anpassade fält"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Fältnamn"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Fältvärde"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Dina anpassade fält"
+
+msgid "components.promotion_message_builder.use_short_name"
+msgstr "@:(components.gb_investment.gb_investment.use_short_name)"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Reversera ordning på platser?"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Plats separator"
+
+msgid "components.promotion_message_builder.place_builder"
+msgstr "Platsbyggare"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Plats förhandsgranskning (1:a plats)"
+
+msgid "components.promotion_message_builder.message_builder"
+msgstr "Annonsbyggare"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Förhandsgranskning av annons-text"
+
+msgid "components.promotion_message_builder.place_builder_title"
+msgstr "Platsbyggare"
+
+msgid "components.promotion_message_builder.message_builder_title"
+msgstr "Annonsbyggare"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Tillgängliga variabler:"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Platsindex"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Plats värde (i FP)"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Från nivå"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Till nivå"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "MB namn"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Plats"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr "Antal FP att läggas av ägaren för plats \"x\" (\"x\" avser 1 till 5)"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Fältmatning, lägg till ny rad"
+
+msgid "components.promotion_message_builder.variables.message.PVx"
+msgstr "Antal FP för investeraren att lägga för plats \"x\" (där \"x\" = till 15)"
+
+msgid "components.promotion_message_builder.variables.message.LC"
+msgstr "Nivåkostnad"
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Mallnamn"
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Mallen kan inte ha detta namn, använd ett annat namn."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "Namnet på fältet kan inte vara tomt."
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Fältnamnet finns redan."
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Mall sparad"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Mall uppdaterad"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Mall raderad"
+
+msgid "components.import_promotion_message.title"
+msgstr "Importera annonstexter"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Klistra in din konfiguration här"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Datan är ogiltig"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Mall importerad"
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.title"
+msgstr "Om @:(common.site_title)"
+
+msgid "routes.about.general_info.title"
+msgstr "Allmän information"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Forge of Empires, FoE och alla relaterade varumärken och innehåll, tillhör "
+"InnoGames GmbH.<br/>@:(common.site_title) är en inofficiell tredje parts "
+"plats och är inte affilierad med InnoGames."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"@:(common.site_title) skapades av den franske spelaren <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"Denna plats är \"OpenSource\" och koden är fritt tillgänglig på "
+"@:(common.links.github).<br/>Alla med erfoderliga färdigheter kan delta i "
+"denna plats förbättring."
+
+msgid "routes.about.cookie.title"
+msgstr "Kakor"
+
+msgid "routes.about.cookie.p1"
+msgstr "För att förbättra handhavandet används kakor på denna plats."
+
+msgid "routes.about.cookie.table_message"
+msgstr "Tabellen nedan visar alla kakor som används på denna plats."
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr "Indikerar att du har läst informationen angående kakor"
+
+msgid "routes.about.cookie.info.gbi_tab"
+msgstr ""
+"Global parameter för \"@:(routes.gb_investment_gb_chooser.hero.title)\" som "
+"indikerar vilken flik att ladda som standard "
+"(@:(routes.gb_investment.tab.owner_view.title), etc.)."
+
+msgid "routes.about.cookie.info.gbPrefix"
+msgstr ""
+"Global parameter for \"@:(routes.gb_investment_gb_chooser.hero.title)\" som "
+"innehåller prefixet för annons-texten"
+
+msgid "routes.about.cookie.info.gbSuffix"
+msgstr ""
+"Global parameter for \"@:(routes.gb_investment_gb_chooser.hero.title)\" som "
+"innehåller suffixet för annons-texten"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Visa språk"
+
+msgid "routes.about.cookie.info.shortName"
+msgstr ""
+"Global parameter för \"@:(routes.gb_investment_gb_chooser.hero.title)\" som "
+"indikerar om det förkortade namnet för MB skall användas i annons-texten"
+
+msgid "routes.about.cookie.info.showLevel"
+msgstr ""
+"Global parameter för \"@:(routes.gb_investment_gb_chooser.hero.title)\" som "
+"indikerar om nivån för MB skall användas i annons-texten"
+
+msgid "routes.about.cookie.info.yourArcBonus"
+msgstr "Global inställning innehållandes bonus från din Ark"
+
+msgid "routes.about.cookie.info.yourCfBoost"
+msgstr "Global inställning innehållandes bonus från din Château Frontenac"
+
+msgid "routes.about.cookie.info.haveReadTipAboutAddInvestor"
+msgstr ""
+"Indikerar om du läst informationen angående tips om att använda inmatning "
+"av bidragare"
+
+msgid "routes.about.cookie.info.dayNightMode"
+msgstr "Indikerar vilket Dag/Natt -läge du använder"
+
+msgid "routes.about.cookie.info.dayStart"
+msgstr ""
+"Tid använd för start av dag (använt av "
+"\"@:(components.site_layout.day_night.Auto)\")"
+
+msgid "routes.about.cookie.info.nightStart"
+msgstr ""
+"Tid använd för start av natt (använt av "
+"\"@:(components.site_layout.day_night.Auto)\")"
+
+msgid "routes.about.cookie.info.showSnipe"
+msgstr ""
+"Visa/dölj Plats/Kapare (använt av "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.coins"
+msgstr "@:(components.cf_calculator.block_cfc.coins_to_use)"
+
+msgid "routes.about.cookie.info.fpBy24h"
+msgstr "@:(components.cf_calculator.block_cfc.fp_by_24h)"
+
+msgid "routes.about.cookie.info.goods"
+msgstr "@:(components.cf_calculator.block_cfc.gb_plunder_goods)"
+
+msgid "routes.about.cookie.info.otherRq"
+msgstr "@:(components.cf_calculator.block_cfc.other_rq)"
+
+msgid "routes.about.cookie.info.cumulativeQuest"
+msgstr "Antal kumulativa uppdrag"
+
+msgid "routes.about.cookie.info.secondRq"
+msgstr "@:(components.cf_calculator.block_cfc.second_rq)"
+
+msgid "routes.about.cookie.info.supplies"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_to_use)"
+
+msgid "routes.about.cookie.info.suppliesGathered"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_gathered)"
+
+msgid "routes.about.cookie.info.yourAge"
+msgstr "@:(components.cf_calculator.block_cfc.your_age)"
+
+msgid "routes.about.cookie.info.investorPercentageCustom_x"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th5)"
+
+msgid "routes.about.cookie.info.investorPercentageGlobal"
+msgstr "@:(components.gb_investment.gb_investment.form.investor_percentage)"
+
+msgid "routes.about.cookie.info.investorParticipation_x"
+msgstr "Förväntat deltagande av investerare när platsen inte ger FP"
+
+msgid "routes.about.cookie.info.level"
+msgstr "MB nivå"
+
+msgid "routes.about.cookie.info.ownerInvestment"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "routes.about.cookie.info.showPx"
+msgstr "Indikerar om platsen ska visas i postningstexten"
+
+msgid "routes.about.cookie.info.takingPlaceInConsideration"
+msgstr ""
+"I fliken \"@:(routes.gb_investment.tab.investors_view.title)\" av "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\", indikerar om övriga "
+"platser ska tas hänsyn till i beräkningen"
+
+msgid "routes.about.cookie.info.targetLevel"
+msgstr ""
+"I fliken \"@:(routes.gb_investment.tab.investors_view.title)\" av "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\", indikerar fr.o.m vilken "
+"nivå att visa tabellinfo"
+
+msgid "routes.about.cookie.info.displayGbName"
+msgstr "Indikerar om namnet på MB ska visas i postningstexten"
+
+msgid "routes.about.cookie.info.investorParticipation"
+msgstr "Innehåller en lista på alla tillagda investerare"
+
+msgid "routes.about.cookie.info.displayTableCard"
+msgstr ""
+"Indikerar om tabell @:(routes.gb_investment_gb_chooser.hero.title) ska "
+"visas i enkelt läge (tabell) eller kort-vy (på liten skärm)"
+
+msgid "routes.about.cookie.info.from"
+msgstr ""
+"Vilken nivå att börja uppställningen (använt i tabell "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" från "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.to"
+msgstr ""
+"Vilken nivå att avsluta uppställningen (använt i tabell "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" från "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.showPlace"
+msgstr ""
+"En uppställning som indikerar om plats ska visas eller ej (använt i tabell "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" från "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.survey"
+msgstr "En uppställning som innehåller alla undersökningar du redan har genomfört"
+
+msgid "routes.about.cookie.info.fixedMainMenu"
+msgstr "Indikerar om huvud-menyn alltid är synlig"
+
+msgid "routes.about.cookie.info.gbSelectMode"
+msgstr "Indikerar vilket läge av MB-val du använder"
+
+msgid "routes.about.cookie.info.haveReadLocaleInfoAvailable"
+msgstr ""
+"Indikerar att du läst information om att platsen är tillgänglig på ditt "
+"språk"
+
+msgid "routes.about.cookie.info.promotionMessageList"
+msgstr "Innehåller listan över annonstexter som du vill visa"
+
+msgid "routes.about.cookie.info.customPromotionMessagesTemplates"
+msgstr "Innehåller alla dina anpassade annonstexter"
+
+msgid "routes.about.cookie.info.gbShowPrefix"
+msgstr "Anger om du vill visa prefix i annonstexter"
+
+msgid "routes.about.cookie.info.gbShowSuffix"
+msgstr "Anger om du vill visa suffix i annonstexter"
+
+msgid "routes.about.cookie.info.lastVisitVersion"
+msgstr "Innehåller versionen av platsen sedan ditt senaste besök"
+
+msgid "routes.about.dev_info.title"
+msgstr "Utvecklingsinformation"
+
+msgid "routes.about.dev_info.p1"
+msgstr "Platsen är enkel, statisk och härbärgerad hos GitHub."
+
+msgid "routes.about.dev_info.p2_html"
+msgstr ""
+"Utvecklingen är gjord med Node.js och @:(common.links.framework). Stilen "
+"med hjälp av @:(common.links.style)."
+
+msgid "routes.about.dev_info.p3_html"
+msgstr ""
+"Ideer kring funtionaliteten? Problem? Det är fritt fram att skapa ett "
+"ärende på @:(common.links.github) eller skicka mig e-post (på engelska "
+"eller franska) hit @:(common.links.contact_foe_tools)."
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>Obs:</b> Angående ärenden på GitHub, vänligen skriv dem på engelska då "
+"det gör dem tillgängliga för en större publik."
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Kampanjkostnad"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr "Detta verktyg ger en prognos på kostnaden för en sektor eller provins."
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Château Frontenac Kalkylator"
+
+msgid "routes.cf_calculator.hero.subtitle"
+msgstr ""
+"Ett verktyg som försöker räkna ut mängden av varor och fp från att göra Å.U "
+"(Återkommande Uppdrag), och I.F.U (InteFödelsedagsFest uppdrag)."
+
+msgid "routes.changelog.title"
+msgstr "Ändringslogg | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Bidragare"
+
+msgid "routes.contributors.hero.subtitle"
+msgstr "Den här sidan är ett försök att lista alla bidragare"
+
+msgid "routes.gb_investment.title"
+msgstr ""
+"$t(routes.gb_investment.hero.title, {'gb_key': '{gb_key}'}) | "
+"@:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Ägarens vy"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Investerarens vy"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "MB Investering"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Detta verktyg gör det möjligt att beräkna antalet FP som en spelare måste "
+"lägga på sitt MB för att säkra de 5 första platserna, beräknat på Ark-bonus."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Välj en Mäktig Byggnad"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "MB Kostnads-prognos"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Det här verktyget visar antalet FP för att gå från en nivå till nästa på "
+"ett MB, med eller utan hänsyn till Ark-bonus."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "MB Statistik"
+
+msgid "routes.gb_statistics.hero.subtitle"
+msgstr ""
+"Det här verktyget gör det möjligt att visualisera grafer på utvecklingen av "
+"kostnaderna för MB efter era."
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Säkra plats"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Detta verktyg beräknar antalet FP som en spelare måste lägga på ett MB för "
+"att säkra sin plats."
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.trade.hero.title"
+msgstr "Handel"
+
+msgid "routes.trade.hero.subtitle"
+msgstr ""
+"Det här verktyget kan underlätta dina affärer genom att räkna ut de bästa "
+"kurserna enligt ditt sätt att handla."
+
+msgid "routes.trade.tab.trade_2_1.title"
+msgstr "2:1"
+
+msgid "routes.trade.tab.trade_2_1.message"
+msgstr ""
+"Enkel handel: kurs 1 för 1, med varor från samma era; kurs 1 för 2, med "
+"varor från nästa era."
+
+msgid "routes.trade.tab.fair_trade.title"
+msgstr "Rättvis handel"
+
+msgid "routes.trade.tab.fair_trade.message"
+msgstr ""
+"Denna typ av handel tar hänsyn till kostnaden för att tillverka en vara "
+"(mynt och resurser) för att fastställa kursen mellan varorna."
+
+msgid "routes.help_to_translate_the_site.title"
+msgstr "@:(routes.help_to_translate_the_site.hero.title) | @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.hero.title"
+msgstr "Hjälp till att översätta webbplatsen"
+
+msgid "routes.help_to_translate_the_site.hero.subtitle"
+msgstr "Gå med i översättningsgruppen"
+
+msgid "routes.help_to_translate_the_site.p1"
+msgstr ""
+"Ditt språk är inte tillgängligt, översättningen är ofullständig eller "
+"innehåller fel? Känn dig fri att gå med i webbplatsens översättningsgrupp."
+
+msgid "routes.help_to_translate_the_site.how_to_join_the_team"
+msgstr "Hur går man med i gruppen?"
+
+msgid "routes.help_to_translate_the_site.p2_html"
+msgstr ""
+"@:(common.site_title) översätts av användare. Vi använder plattformen "
+"@:(common.links.translation_platform) för att underlätta "
+"översättningsprocessen. För att gå med i gruppen klicka på följande länk "
+"och registrera dig: @:(common.links.translation_platform)"
+
+msgid "routes.help_to_translate_the_site.state_of_translation"
+msgstr "Status på översättning :"
+
+msgid "routes.survey.title"
+msgstr "@:(routes.survey.hero.title) | @:(common.site_title)"
+
+msgid "routes.survey.hero.title"
+msgstr "Undersökning"
+
+msgid "routes.survey.hero.subtitle"
+msgstr "Hjälp att förbättra @:(common.site_title) genom att fylla i denna enkät"
+
+msgid "routes.survey.required_field"
+msgstr "Detta fält är obligatoriskt"
+
+msgid "routes.survey.survey_complete"
+msgstr "Tack för din återkoppling !"
+
+msgid "routes.survey.error"
+msgstr "Ett fel har inträffat.  Kontrollera formuläret och försök igen"
+
+msgid "routes.survey.unknown_error"
+msgstr "Ett okänt fel har uppstått.  Var vänlig kontakta webbplats-administratören"
+
+msgid "routes.contact.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.contact.hero.title"
+msgstr "Kontakt"
+
+msgid "routes.contact.hero.subtitle"
+msgstr "Kontakta underhållaren av @:(common.site_title)"
+
+msgid "routes.contact.message_contact_html"
+msgstr ""
+"En idé om funktionalitet? Ett problem? Skicka gärna e-post till mig (på "
+"engelska eller franska) hit @:(common.links.contact_foe_tools)."
+
+msgid "routes.contact.message_translate"
+msgstr ""
+"Visste du att du också kan hjälpa till att översätta webbplatsen? Följ "
+"följande länk för mer information:"
+
+msgid "routes.contact.message_other_info_html"
+msgstr ""
+"Om du är utvecklare kan du skapa ett ärende (och bidra till utvecklingen av "
+"webbplatsen) på @:(common.links.github)."
+
+msgid "routes.error.404.title"
+msgstr "Sidan hittades inte | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Tyvärr, sidan du söker fanns/finns inte (längre)"
+
+msgid "routes.donate.conversion"
+msgstr "Om du uppskattar mitt arbete, vänligen betänk en donation."
+
+msgid "routes.donate.donation_options"
+msgstr "Donera via @:(common.links.donorbox) eller @:(common.links.paypal)."
+
+msgid "routes.donate.hero.title"
+msgstr "@:(utils.Donate)"
+
+msgid "routes.donate.hero.subtitle"
+msgstr "Donera till @:(common.site_title)"
+
+msgid "routes.donate.title"
+msgstr "@:(routes.donate.hero.title) | @:(common.site_title)"
+
+msgid "routes.donate.donation_message"
+msgstr ""
+"@:(common.site_title) är en annons-fri, öppen källkod projekt, och jag gör "
+"inte detta för finansiell förtjänst. Således, min tid går åt till att göra "
+"detta oavlönat. Dock välkomnar jag donationer från alla och envar som "
+"uppskattar mitt arbete tillräckligt nog för att vilja göra så, oavsett "
+"storlek eller metod (en-gångs eller månadsvis). Donationer betyder mycket "
+"för mig då de hjälper till att hantera associerade kostnader; servrar, "
+"domäner, webb-hotell samt kostnader i allmänhet. Dessutom uppmuntrar det "
+"mig till att fortsätta med detta projekt."
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge) (@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "Ingen era"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Bronsålder"
+
+msgid "foe_data.age.IronAge"
+msgstr "Järnålder"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Tidig medeltid"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Högmedeltid"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Senmedeltid"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "Kolonialålder"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Industriålder"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "Progressiva eran"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Modern tid"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Postmodern tid"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Nutid"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Morgondagen"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Framtiden"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Arktisk framtid"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Oceanisk framtid"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Virtuell framtid"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Rymdålder Mars"
+
+msgid "foe_data.age.SpaceAgeAsteroidBelt"
+msgstr "Rymdålder Asteroidbälte"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "NA"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "BÅ"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "JÅ"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "TMT"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "HMT"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "SMT"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "KÅ"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "IÅ"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "PE"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "MT"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "PMT"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "NT"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "MD"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "FT"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "AF"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "OF"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "VF"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "RÅM"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Observatorium"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Reliktemplet"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Oraklet i Delfi"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Babels torn"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Zeusstatyn"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Colosseum"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Fyrtornet från Alexandria"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Hagia Sofia"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Aachens katedral"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Markuskyrkan i Venedig"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Notre Dame"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Vasilijkatedralen"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel del Monte"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Deal Castle"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Frukyrkan i Dresden"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Kapitolium"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Château Frontenac"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Alcatraz"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Space Needle"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Cape Canaveral"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "Habitat 67"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Lotustemplet"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Innovationstornet"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Vapenvilans torn"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "Arken"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Regnskogsprojektet"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Gaea-staty"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Arktiskt orangeri"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Frövalv"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Atlantismuseum"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "Den blå galaxen"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Terracottaarmé"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Himeji-slottet"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "Jungfruprojektet"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Stjärnskådare"
+
+msgid "foe_data.gb.Space_Carrier"
+msgstr "Rymdtransportör"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Obs"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "RT"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "OD"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Bab"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Ze"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Col"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "FT"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "HS"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "AK"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "Mark"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "ND"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "VK"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "CdM"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "DC"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "FKD"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Cap"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "RAH"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "CF"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Az"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "SN"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Atom"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "CC"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Hab"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "LT"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "IT"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "VT"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Voy"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Ark"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "RSP"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Gaea"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "AO"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "FV"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "Atl"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Kra"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "BG"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "TA"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "HC"
+
+msgid "foe_data.gb_short.The_Virgo_Project"
+msgstr "JP"
+
+msgid "foe_data.gb_short.Star_Gazer"
+msgstr "SS"
+
+msgid "foe_data.gb_short.Space_Carrier"
+msgstr "Rym"
+
+msgid "foe_data.goods.dye"
+msgstr "Färgämne"
+
+msgid "foe_data.goods.lumber"
+msgstr "Timmer"
+
+msgid "foe_data.goods.marble"
+msgstr "Marmor"
+
+msgid "foe_data.goods.stone"
+msgstr "Sten"
+
+msgid "foe_data.goods.wine"
+msgstr "Vin"
+
+msgid "foe_data.goods.cloth"
+msgstr "Tyg"
+
+msgid "foe_data.goods.ebony"
+msgstr "Ebenholts"
+
+msgid "foe_data.goods.iron"
+msgstr "Järn"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Smycken"
+
+msgid "foe_data.goods.limestone"
+msgstr "Kalksten"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Alabaster"
+
+msgid "foe_data.goods.copper"
+msgstr "Koppar"
+
+msgid "foe_data.goods.gold"
+msgstr "Guld"
+
+msgid "foe_data.goods.granite"
+msgstr "Granit"
+
+msgid "foe_data.goods.honey"
+msgstr "Honung"
+
+msgid "foe_data.goods.brick"
+msgstr "Tegelsten"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Torkade örter"
+
+msgid "foe_data.goods.glass"
+msgstr "Glas"
+
+msgid "foe_data.goods.rope"
+msgstr "Rep"
+
+msgid "foe_data.goods.salt"
+msgstr "Salt"
+
+msgid "foe_data.goods.basalt"
+msgstr "Basalt"
+
+msgid "foe_data.goods.brass"
+msgstr "Mässing"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Krut"
+
+msgid "foe_data.goods.silk"
+msgstr "Silke"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Talk"
+
+msgid "foe_data.goods.coffee"
+msgstr "Kaffe"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Porslin"
+
+msgid "foe_data.goods.paper"
+msgstr "Papper"
+
+msgid "foe_data.goods.tar"
+msgstr "Tjära"
+
+msgid "foe_data.goods.wire"
+msgstr "Tråd"
+
+msgid "foe_data.goods.coke"
+msgstr "Koks"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Gödsel"
+
+msgid "foe_data.goods.rubber"
+msgstr "Gummi"
+
+msgid "foe_data.goods.textiles"
+msgstr "Textilier"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Tran"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Asbest"
+
+msgid "foe_data.goods.explosives"
+msgstr "Sprängämnen"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Bensin"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Maskindelar"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Bleck"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Snabbmat"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Armerad betong"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Smakämnen"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Lyxmaterial"
+
+msgid "foe_data.goods.packaging"
+msgstr "Förpackning"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Genomdata"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Industrifilter"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Förnybara resurser"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Halvledare"
+
+msgid "foe_data.goods.steel"
+msgstr "Stål"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Bionikdata"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Elektromagneter"
+
+msgid "foe_data.goods.gas"
+msgstr "Naturgas"
+
+msgid "foe_data.goods.plastics"
+msgstr "Plast"
+
+msgid "foe_data.goods.robots"
+msgstr "Robotar"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Näringsdata"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Pappersbetong"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Konserveringsmedel"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Smarta Material"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Semitransparent betong"
+
+msgid "foe_data.goods.algae"
+msgstr "Alger"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Biogeokemisk data"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Nanopartiklar"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Renat vatten"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Supraledare"
+
+msgid "foe_data.goods.ai_data"
+msgstr "A.I.-data"
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Bioplast"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Nanotråd"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Pappersbatterier"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Transestergas"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Artificiellt fjäll"
+
+msgid "foe_data.goods.biolight"
+msgstr "Bioljus"
+
+msgid "foe_data.goods.corals"
+msgstr "Koraller"
+
+msgid "foe_data.goods.pearls"
+msgstr "Pärlor"
+
+msgid "foe_data.goods.plankton"
+msgstr "Plankton"
+
+msgid "foe_data.goods.promethium"
+msgstr "Prometium"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Orikalkum"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Kryptovaluta"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Datakristall"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Gyllene ris"
+
+msgid "foe_data.goods.nanites"
+msgstr "Naniter"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Te-siden"
+
+msgid "foe_data.goods.lubricants"
+msgstr "Smörjmedel"
+
+msgid "foe_data.goods.biotech_crops"
+msgstr "BioTech-grödor"
+
+msgid "foe_data.goods.mars_microbes"
+msgstr "Mars-microb"
+
+msgid "foe_data.goods.fusion_reactors"
+msgstr "Fusionskraft"
+
+msgid "foe_data.goods.superalloys"
+msgstr "Superlegeringar"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymer"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "East-Nagach"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "West-Nagach"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todepass"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mons Suiry"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Cragshire"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Eldenborough"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Cuttingham"
+
+msgid "foe_data.province.Spearth"
+msgstr "Spearth"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Wolvhampton"
+
+msgid "foe_data.province.FourGallows"
+msgstr "Four Gallows"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Mount Killmore"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "Ravens Creek"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Houndsmoor"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Zaldon-on-Sea"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Grand Cap"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Northcastle"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Queenshope"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Ashcrook"
+
+msgid "foe_data.province.Narcien"
+msgstr "Narcien"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Lavignon"
+
+msgid "foe_data.province.Troulope"
+msgstr "Troulope"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Deuxerres"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Lombardeaux"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Pisterrac"
+
+msgid "foe_data.province.Varseille"
+msgstr "Varseille"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Haulenois"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "New Cragshire"
+
+msgid "foe_data.province.Okahe"
+msgstr "Okahe"
+
+msgid "foe_data.province.Rantford"
+msgstr "Rantford"
+
+msgid "foe_data.province.Desperation"
+msgstr "Desperation"
+
+msgid "foe_data.province.St_Marque"
+msgstr "St. Marque"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Las Penas"
+
+msgid "foe_data.province.DragonCity"
+msgstr "Dragon City"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Garrincton"
+
+msgid "foe_data.province.ElFuego"
+msgstr "El Fuego"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "Santa Catalina"
+
+msgid "foe_data.province.Dorango"
+msgstr "Dorango"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Nevarrone"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Embruniez"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Gabordeaux"
+
+msgid "foe_data.province.Ydine"
+msgstr "Ydine"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Wenoevre"
+
+msgid "foe_data.province.Havre"
+msgstr "Havre"
+
+msgid "foe_data.province.Omoien"
+msgstr "Omoien"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Uxrow"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Gaelford"
+
+msgid "foe_data.province.Sud"
+msgstr "Sud"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Kriegreich"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Ostrand"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Langenreich"
+
+msgid "foe_data.province.Uceria"
+msgstr "Uceria"
+
+msgid "foe_data.province.Gorski"
+msgstr "Gorski"
+
+msgid "foe_data.province.Inashu"
+msgstr "Inashu"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Natsuishu"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Chigikawa"
+
+msgid "foe_data.province.Igujima"
+msgstr "Igujima"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Kyushima"
+
+msgid "foe_data.province.Igioka"
+msgstr "Igioka"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Igamoto"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Higematsu"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Kibakuguchi"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Hiromaguchi"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Toimuro"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "Cai Chet Nui"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "Sot Dam Lay"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "Day Du Ao"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "Trung Doi"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "Khay Huyen Bay Gio"
+
+msgid "foe_data.province.RungTrai"
+msgstr "Rung Trai"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "Rung Chien Dau"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "Giai Cuu Binh Minh"
+
+msgid "foe_data.province.PhucKich"
+msgstr "Phuc Kich"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "Mau Mat Dat"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "Dong Bang Song"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "Ong Chu Cuoi Cung"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Amaryah City"
+
+msgid "foe_data.province.Khail"
+msgstr "Khail"
+
+msgid "foe_data.province.Batif"
+msgstr "Batif"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Hafar Al Karak"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Al-Shadyra"
+
+msgid "foe_data.province.Salfah"
+msgstr "Salfah"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Ain Al-Khansa"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Suqqah"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Shayhour"
+
+msgid "foe_data.province.Kardad"
+msgstr "Kardad"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Qumeira"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Jandahar"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Torrinhos"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Villabaja"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Itabarai"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Bajatai"
+
+msgid "foe_data.province.Villariba"
+msgstr "Villariba"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Rio Roxo"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Sierra Torrido"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Santa Nerea"
+
+msgid "foe_data.province.La_Huega"
+msgstr "La Huega"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Jamenez"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Falsa Cruz"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Desierto de la Muerte"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Sao Malvado"
+
+msgid "foe_data.province.Agadar"
+msgstr "Agadar"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Esan-Ewu"
+
+msgid "foe_data.province.Omogba"
+msgstr "Omogba"
+
+msgid "foe_data.province.Owopele"
+msgstr "Owopele"
+
+msgid "foe_data.province.Jak"
+msgstr "Jak"
+
+msgid "foe_data.province.Pala"
+msgstr "Pala"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Kolabourg"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Bontaville"
+
+msgid "foe_data.province.Botuku"
+msgstr "Botuku"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Kalabuye"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Bisoraba"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Fort Buntu"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Nutarniq"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Iluliaq"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Auroras Dale"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Cold Bay"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Arctic Horizon"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Tuklavik"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ananevut"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Qaniit"
+
+msgid "foe_data.province.White_Gate"
+msgstr "White Gate"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Snowdrifts"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Median Waters"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Frosty Mountain"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Southern Valley"
+
+msgid "foe_data.province.Ilug"
+msgstr "Ilug"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Chugiak"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Kesukavut"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Adlartok"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Northern Passage"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Avalanche"
+
+msgid "foe_data.province.Manirak"
+msgstr "Manirak"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Tundra Rock"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Patuktuq"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Summit Ice"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Kilalurak"
+
+msgid "foe_data.province.Nilak"
+msgstr "Nilak"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Chulyin"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Tattilgat"
+
+msgid "foe_data.province.Atka"
+msgstr "Atka"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Pimniq"
+
+msgid "foe_data.province.Anyu"
+msgstr "Anyu"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Glacial Peak"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Nunataq"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Nanuq"
+
+msgid "foe_data.province.Precipice"
+msgstr "Precipice"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Unalaq"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Neural Rites"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Frozen Steppe"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "The Grotto"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Temple Floe"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Spirit Plane"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Murky Waters"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Cursed Current"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Coral Depths"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Rough Expanse"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Strong Tide"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Dark Abyss"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Fresh Flow"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Tideless Deep"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Glimmering Surf"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Serene Waves"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Red Sea"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Wondering Ocean"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Foam Ceiling"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Walled Gulf"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Lower Grotto"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Silver Swarms"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Upper Grotto"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Rocky Domain"
+
+msgid "foe_data.province.Nautical_Parlay"
+msgstr "Nautical Parlay"
+
+msgid "foe_data.province.Restless_Buoy"
+msgstr "Restless Buoy"
+
+msgid "foe_data.province.Ripped_Sails"
+msgstr "Ripped Sails"
+
+msgid "foe_data.province.Nautilus_Mirage"
+msgstr "Nautilus Mirage"
+
+msgid "foe_data.province.Ravenous_Tides"
+msgstr "Ravenous Tides"
+
+msgid "foe_data.province.Deep_Dive"
+msgstr "Deep Dive"
+
+msgid "foe_data.province.Furious_Storm"
+msgstr "Furious Storm"
+
+msgid "foe_data.province.Silver_Crest"
+msgstr "Silver Crest"
+
+msgid "foe_data.province.Grey_Clouds"
+msgstr "Grey Clouds"
+
+msgid "foe_data.province.Translucent_Algae"
+msgstr "Translucent Algae"
+
+msgid "foe_data.province.Treacherous_Surf"
+msgstr "Treacherous Surf"
+
+msgid "foe_data.province.Single_Wave"
+msgstr "Single Wave"
+
+msgid "foe_data.province.Cursed_Lip"
+msgstr "Cursed Lip"
+
+msgid "foe_data.province.Coral_Kingdom"
+msgstr "Coral Kingdom"
+
+msgid "foe_data.province.Telescopic_Barrel"
+msgstr "Telescopic Barrel"
+
+msgid "foe_data.province.Sponge_Sands"
+msgstr "Sponge Sands"
+
+msgid "foe_data.province.Seagull_Domain"
+msgstr "Seagull Domain"
+
+msgid "foe_data.province.Tangled_Fins"
+msgstr "Tangled Fins"
+
+msgid "foe_data.province.Scuba_Bay"
+msgstr "Scuba Bay"
+
+msgid "foe_data.province.Tide_Ascent"
+msgstr "Tide Ascent"
+
+msgid "foe_data.province.Breakwater_Wharf"
+msgstr "Breakwater Wharf"
+
+msgid "foe_data.province.Adrift_Liner"
+msgstr "Adrift Liner"
+
+msgid "foe_data.province.Bermuda_Quay"
+msgstr "Bermuda Quay"
+
+msgid "foe_data.province.Sextant_Mast"
+msgstr "Sextant Mast"
+
+msgid "foe_data.province.Grog_Wash"
+msgstr "Grog Wash"
+
+msgid "foe_data.province.R_lyeh_Reef"
+msgstr "R'lyeh Reef"
+
+msgid "foe_data.province.Capricorn_Waterway"
+msgstr "Capricorn Waterway"
+
+msgid "foe_data.province.Barnacle_Deck"
+msgstr "Barnacle Deck"
+
+msgid "foe_data.province.Ahab_s_Tomb"
+msgstr "Ahab's Tomb"
+
+msgid "foe_data.province.Galley_Commodore"
+msgstr "Galley Commodore"
+
+msgid "foe_data.province.Adamastor"
+msgstr "Adamastor"
+
+msgid "foe_data.province.Deadeye_Admiral"
+msgstr "Deadeye Admiral"
+
+msgid "foe_data.province.Monkey_s_Fist"
+msgstr "Monkey's Fist"
+
+msgid "foe_data.province.Dagon_s_Dagger"
+msgstr "Dagon's Dagger"
+
+msgid "foe_data.province.Sunken_Leviathan"
+msgstr "Sunken Leviathan"
+
+msgid "foe_data.province.Raging_Tides"
+msgstr "Raging Tides"
+
+msgid "foe_data.province.Buccaneer_Plateau"
+msgstr "Buccaneer Plateau"
+
+msgid "foe_data.province.Craggy_Cay"
+msgstr "Craggy Cay"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Behemoth"
+
+msgid "foe_data.province.Privateer_Helm"
+msgstr "Privateer Helm"
+
+msgid "foe_data.province.Medusa_Cove"
+msgstr "Medusa Cove"
+
+msgid "foe_data.province.Man_O_War"
+msgstr "Man-O-War"
+
+msgid "foe_data.province.Nemo_s_Dock"
+msgstr "Nemo's Dock"
+
+msgid "foe_data.province.Anchorage_Ruin"
+msgstr "Anchorage Ruin"
+
+msgid "foe_data.province.Ahoy_Alee"
+msgstr "Ahoy Alee"
+
+msgid "foe_data.province.Ursula_s_Valley"
+msgstr "Ursula's Valley"
+
+msgid "foe_data.province.Dungbie_Trough"
+msgstr "Dungbie Trough"
+
+msgid "foe_data.province.Idlers_Range"
+msgstr "Idlers Range"
+
+msgid "foe_data.province.Wherry_Gap"
+msgstr "Wherry Gap"
+
+msgid "foe_data.province.Nock_s_Turn"
+msgstr "Nock's Turn"
+
+msgid "foe_data.province.Scuttle_Ridge"
+msgstr "Scuttle Ridge"
+
+msgid "foe_data.province.Ghost_Trench"
+msgstr "Ghost Trench"
+
+msgid "foe_data.province.Scurvy_Atoll"
+msgstr "Scurvy Atoll"
+
+msgid "foe_data.province.Capsize_Lagoon"
+msgstr "Capsize Lagoon"
+
+msgid "foe_data.province.Undertow_Bank"
+msgstr "Undertow Bank"
+
+msgid "foe_data.province.Neptune_s_Galleon"
+msgstr "Neptune's Galleon"
+
+msgid "foe_data.province.Seafarer_s_Current"
+msgstr "Seafarer's Current"
+
+msgid "foe_data.province.Blackwater_Cape"
+msgstr "Blackwater Cape"
+
+msgid "foe_data.province.Leviathan_Wreck"
+msgstr "Leviathan Wreck"
+
+msgid "foe_data.province.Typhoon_Peninsula"
+msgstr "Typhoon Peninsula"
+
+msgid "foe_data.province.Corsair_s_Skerry"
+msgstr "Corsair's Skerry"
+
+msgid "foe_data.province.Mutiny_Canyon"
+msgstr "Mutiny Canyon"
+
+msgid "foe_data.province.Bytedirt_Planes"
+msgstr "Bytedirt Planes"
+
+msgid "foe_data.province.End_of_the_Void"
+msgstr "End of the Void"
+
+msgid "foe_data.province.Banker_s_Heaven"
+msgstr "Banker's Heaven"
+
+msgid "foe_data.province.Shift_Land"
+msgstr "Shift / Land"
+
+msgid "foe_data.province.Black_Net_Market"
+msgstr "Black Net Market"
+
+msgid "foe_data.province.Pulse_City"
+msgstr "Pulse City"
+
+msgid "foe_data.province.Max_s_Shelter"
+msgstr "Max's Shelter"
+
+msgid "foe_data.province.The_Open_Zone"
+msgstr "The Open Zone"
+
+msgid "foe_data.province.The_Warring_Towers"
+msgstr "The Warring Towers"
+
+msgid "foe_data.province.Forgotten_Fragments"
+msgstr "Forgotten Fragments"
+
+msgid "foe_data.province.Backup_NET"
+msgstr "Backup:NET"
+
+msgid "foe_data.province.Spoiled_Resort"
+msgstr "Spoiled Resort"
+
+msgid "foe_data.province.Fort_Duplex"
+msgstr "Fort Duplex"
+
+msgid "foe_data.province.LoneHub"
+msgstr "Lone Hub"
+
+msgid "foe_data.province.Alpha_1_Omega_2"
+msgstr "Alpha 1 Omega 2"
+
+msgid "foe_data.province.Ray_s_Ray_s"
+msgstr "Ray's Ray's"
+
+msgid "foe_data.province.Purple_Palace"
+msgstr "Purple Palace"
+
+msgid "foe_data.province.Three_Oc3ans"
+msgstr "Three Oc3ans"
+
+msgid "foe_data.province.Vortex"
+msgstr "Vortex"
+
+msgid "foe_data.province.Twisted_Alps"
+msgstr "Twisted Alps"
+
+msgid "foe_data.province.Archives_of_Junkman"
+msgstr "Archives of Junkman"
+
+msgid "foe_data.province.Frozen_RAM"
+msgstr "Frozen RAM"
+
+msgid "foe_data.province.Cas_Cade"
+msgstr "Cas.Cade"
+
+msgid "foe_data.province.The_Historical_Museum"
+msgstr "The Historical Museum"
+
+msgid "foe_data.province.Aerial_Boulevard"
+msgstr "Aerial Boulevard"
+
+msgid "foe_data.province.Slate_13"
+msgstr "Slate 13"
+
+msgid "foe_data.province.New_final_final_exe"
+msgstr "New_final_final.exe"
+
+msgid "foe_data.province.Bizarre_Plains"
+msgstr "Bizarre Plains"
+
+msgid "foe_data.province.Argus__Watch"
+msgstr "Argus' Watch"
+
+msgid "foe_data.province.Berta_s_Byte_Sauce"
+msgstr "Berta's Byte-Sauce"
+
+msgid "foe_data.province.Veil_of_Bits"
+msgstr "Veil of Bits"
+
+msgid "foe_data.province.Harvey_s_Low_Core"
+msgstr "Harvey's Low Core"
+
+msgid "foe_data.province.The_Byte_Parade"
+msgstr "The Byte Parade"
+
+msgid "foe_data.province.Reboot_Bay"
+msgstr "Reboot Bay"
+
+msgid "foe_data.province.Streaming_Forest"
+msgstr "Streaming Forest"
+
+msgid "foe_data.province.CMYK_Citadel"
+msgstr "CMYK Citadel"
+
+msgid "foe_data.province.Forgify"
+msgstr "Forgify"
+
+msgid "foe_data.province.Digital_Town_of_Hope"
+msgstr "Digital Town of Hope"
+
+msgid "foe_data.province.Cloud_One"
+msgstr "Cloud One"
+
+msgid "foe_data.province.Re_Birth"
+msgstr "Re: Birth"
+
+msgid "foe_data.province.Castle_You_Es_Bee"
+msgstr "Castle You-Es-Bee"
+
+msgid "foe_data.province.NET_MASKerade"
+msgstr "NET MASKerade"
+
+msgid "foe_data.province.If_Then_Whatever"
+msgstr "If, Then, Whatever"
+
+msgid "foe_data.province.The_Virtual_Cliffs_of_G0r3"
+msgstr "The Virtual Cliffs of G0r3"
+
+msgid "foe_data.province.The_Church_of_Games"
+msgstr "The Church of Games"
+
+msgid "foe_data.province.The_Sacred_Database"
+msgstr "The Sacred Database"
+
+msgid "foe_data.province.Game_Over"
+msgstr "Game Over"
+
+msgid "foe_data.province.Rustikauri"
+msgstr "Rustikauri"
+
+msgid "foe_data.province.Mathaben"
+msgstr "Mathaben"
+
+msgid "foe_data.province.Nobisia"
+msgstr "Nobisia"
+
+msgid "foe_data.province.Ghirken"
+msgstr "Ghirken"
+
+msgid "foe_data.province.Klaylach"
+msgstr "Klaylach"
+
+msgid "foe_data.province.Wrandasten_3"
+msgstr "Wrandasten 3"
+
+msgid "foe_data.province.Carva_Caska"
+msgstr "Carva Caska"
+
+msgid "foe_data.province.Fortrin"
+msgstr "Fortrin"
+
+msgid "foe_data.province.Oppeska"
+msgstr "Oppeska"
+
+msgid "foe_data.province.Enervein"
+msgstr "Enervein"
+
+msgid "foe_data.province.Akuppers"
+msgstr "Akuppers"
+
+msgid "foe_data.province.Xalvades"
+msgstr "Xalvades"
+
+msgid "foe_data.province.Ertannen_Belt"
+msgstr "Ertannen Belt"
+
+msgid "foe_data.province.New_Frozenstone"
+msgstr "New Frozenstone"
+
+msgid "foe_data.province.Zomantau"
+msgstr "Zomantau"
+
+msgid "foe_data.province.Verda_Dophria"
+msgstr "Verda Dophria"
+
+msgid "foe_data.province.Phovolken"
+msgstr "Phovolken"
+
+msgid "foe_data.province.Low_Hacoon_Valley"
+msgstr "Low Hacoon Valley"
+
+msgid "foe_data.province.High_Hacoon_Valley"
+msgstr "High Hacoon Valley"
+
+msgid "foe_data.province.Plateau_Firnane_2"
+msgstr "Plateau Firnane-2"
+
+msgid "foe_data.province.Jalcion_Crater"
+msgstr "Jalcion Crater"
+
+msgid "foe_data.province.Loakmolden"
+msgstr "Loakmolden"
+
+msgid "foe_data.province.Kardine_Haven"
+msgstr "Kardine Haven"
+
+msgid "foe_data.province.Vradeen"
+msgstr "Vradeen"
+
+msgid "foe_data.province.Vaanderbirch"
+msgstr "Vaanderbirch"
+
+msgid "foe_data.province.Astra_Prime"
+msgstr "Astra Prime"
+
+msgid "foe_data.province.Destallia"
+msgstr "Destallia"
+
+msgid "foe_data.province.Vyvalgis"
+msgstr "Vyvalgis"
+
+msgid "foe_data.province.Sharvice"
+msgstr "Sharvice"
+
+msgid "foe_data.province.Delta_Hills"
+msgstr "Delta Hills"
+
+msgid "foe_data.province.Everdoom"
+msgstr "Everdoom"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Mynt"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Förnödenhet"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Vara"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Specialvaror"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Produktionsbonus"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Expansion"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Medalj"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "Diamant"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "PvP Torn"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Ritning"
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Militärboost"
+
+msgid "foe_data.bonus.military_boost.gb_description"
+msgstr ""
+"Höjer attack / försvars -bonus för enheter i attackerande armé. Läggs till "
+"med varje byggnad."
+
+msgid "foe_data.bonus.fierce_resistance.name"
+msgstr "Hårt motstånd"
+
+msgid "foe_data.bonus.fierce_resistance.gb_description"
+msgstr ""
+"Höjer attack / försvars -bonus för enheter i försvarande armé samt ökar "
+"stödpools-bonus. Läggs till med varje byggnad."
+
+msgid "foe_data.bonus.coin_boost.name"
+msgstr "Myntboost"
+
+msgid "foe_data.bonus.coin_boost.gb_description"
+msgstr ""
+"Ökar resultatet från dina hus med upp till 90 gånger med varje skörd. Läggs "
+"till utöver motivation och övrig bonus."
+
+msgid "foe_data.bonus.supply_boost.name"
+msgstr "Förnödenhetsboost"
+
+msgid "foe_data.bonus.supply_boost.gb_description"
+msgstr ""
+"Ökar resultatet från dina förnödenhetsbyggnader. Läggs till utöver "
+"motivation och övrig bonus."
+
+msgid "foe_data.bonus.good_production.name"
+msgstr "Varuproduktion"
+
+msgid "foe_data.bonus.good_production.gb_description"
+msgstr ""
+"Producerar en viss mängd varor från din nuvarande era var 24:e timme. Från "
+"och med modern tid producerar den dubbla mängden i oraffinerade varor "
+"istället (varor från 8 eror bakåt)."
+
+msgid "foe_data.bonus.medal_production.name"
+msgstr "Medaljproduktion"
+
+msgid "foe_data.bonus.medal_production.gb_description"
+msgstr "Producerar en viss mängd medaljer var 24:e timme."
+
+msgid "foe_data.bonus.research.name"
+msgstr "Forskning"
+
+msgid "foe_data.bonus.research.gb_description"
+msgstr "Producerar en liten mängd FP var 24:e timme."
+
+msgid "foe_data.bonus.coin_production.name"
+msgstr "Myntproduktion"
+
+msgid "foe_data.bonus.coin_production.gb_description"
+msgstr "Producerar en viss mängd mynt var 24:e timme."
+
+msgid "foe_data.bonus.supply_production.name"
+msgstr "Förnödenhetsproduktion"
+
+msgid "foe_data.bonus.supply_production.gb_description"
+msgstr "Producerar en viss mängd förnödenhet var 24:e timme."
+
+msgid "foe_data.bonus.population.name"
+msgstr "Befolkning"
+
+msgid "foe_data.bonus.population.gb_description"
+msgstr "Permanent befolkningsbonus."
+
+msgid "foe_data.bonus.happiness.name"
+msgstr "Lycka"
+
+msgid "foe_data.bonus.happiness.gb_description"
+msgstr "Permanent lyckobonus."
+
+msgid "foe_data.bonus.quest_reward_boost.name"
+msgstr "Uppdragsbelönings-boost"
+
+msgid "foe_data.bonus.quest_reward_boost.gb_description"
+msgstr ""
+"Höjer dina mynt, förnödenheter, varor, medaljer eller diamanter från "
+"uppdragsbelöningar."
+
+msgid "foe_data.bonus.penal_unit.name"
+msgstr "Militär enhet"
+
+msgid "foe_data.bonus.penal_unit.gb_description"
+msgstr ""
+"Rekryterar oanslutna enheter var 24:e timme, slumpmässigt valt från "
+"någon/några militärbyggnad(er) i din stad."
+
+msgid "foe_data.bonus.guild_goods.name"
+msgstr "Gille-varor"
+
+msgid "foe_data.bonus.guild_goods.gb_description"
+msgstr ""
+"Producerar din nuvarande eras varor, som går direkt till imperiets "
+"skattkammare."
+
+msgid "foe_data.bonus.support_pool_bonus.name"
+msgstr "Stödpool bonus"
+
+msgid "foe_data.bonus.support_pool_bonus.gb_description"
+msgstr "Ökar ditt gilles stödpool-bonus. Läggs till med varje byggnad."
+
+msgid "foe_data.bonus.aid_goods.name"
+msgstr "Stödvaror"
+
+msgid "foe_data.bonus.aid_goods.gb_description"
+msgstr ""
+"Producerar 1 slumpmässig vara vid \"polivering\". Eran för varan motsvarar "
+"eran på den \"poliverarade\" byggnaden."
+
+msgid "foe_data.bonus.plunder_goods.name"
+msgstr "Plundra varor"
+
+msgid "foe_data.bonus.plunder_goods.gb_description"
+msgstr ""
+"Ger efter varje skördning, slumpmässiga varor vid de 3 första "
+"plundringarna. Eran för varorna motsvarar eran på den plundrade byggnaden."
+
+msgid "foe_data.bonus.contribution_boost.name"
+msgstr "Bidragsboost"
+
+msgid "foe_data.bonus.contribution_boost.gb_description"
+msgstr ""
+"Boostar FP, medaljer och ritningar du får från belöningar vid FP-donationer "
+"i MB."
+
+msgid "foe_data.bonus.aid_blueprints.name"
+msgstr "Stödritningar"
+
+msgid "foe_data.bonus.aid_blueprints.gb_description"
+msgstr ""
+"Ökar chansen att få en ritning vid \"polivering\". Ex. 100% bonus kommer "
+"att fördubbla din chans att få en ritning."
+
+msgid "foe_data.bonus.relic_hunt.name"
+msgstr "Relikjakt"
+
+msgid "foe_data.bonus.relic_hunt.gb_description"
+msgstr ""
+"Denna egenskap ger dig möjlighet att få en \"relik\" när du framgångsrikt "
+"löst ett möte i en Imperiumexpedition. Reliker är värdefulla och förekommer "
+"i 3 olika varianter. Varje nivå ökar chansen att hitta en relik, samtidigt "
+"ökar oddsen att det blir en sällsynt relik."
+
+msgid "foe_data.bonus.critical_hit.name"
+msgstr "Kritisk skada"
+
+msgid "foe_data.bonus.critical_hit.gb_description"
+msgstr ""
+"Ger alla enheter chansen att hantera 1,5 gång den förväntade skadan när de "
+"angriper enheter av samma era. Kritisk träff verkar också mot \"Reaktiv "
+"Sköld\" (om förväntad skada normalt är 4-4, kommer en kritisk träff att öka "
+"till 6-6). Skurkar (och andra \"ingen ålder\" -enheter) påverkas inte / kan "
+"inte använda denna förmåga förrän de omvandlas till en annan enhet. En "
+"kritisk träff med minst 11 skador kommer att döda varje enhet, även med "
+"moralbonus. Denna bonus gäller alla attackerande arméer plus din "
+"försvarande armé i PvP. \"Kritisk skada\" sker inte när en enhet retalierar."
+
+msgid "foe_data.bonus.helping_hands.name"
+msgstr "Hjälpande händer"
+
+msgid "foe_data.bonus.helping_hands.gb_description"
+msgstr ""
+"Ger dig en viss chans att få en slumpmässig resurs när du \"poliverar\". Du "
+"kan få varor (från din nuvarande era), förnödenheter, mynt, medaljer eller "
+"till och med diamanter."
+
+msgid "foe_data.bonus.plunder_and_pillage.name"
+msgstr "Plundra varor"
+
+msgid "foe_data.bonus.plunder_and_pillage.gb_description"
+msgstr ""
+"Ger dig en viss chans att få dubbelt upp när du plundrar. Fördubblingen "
+"inbegriper allt plundrat, inklusive ForgePoints och Imperiemakt."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "Första slaget"
+
+msgid "foe_data.bonus.first_strike.gb_description"
+msgstr ""
+"Ger en viss chans vid de första striderna, att en enhet från fienden dödas "
+"omedelbart vid början av strid. Detta gäller bara den första vågen. "
+"Uppdateras vid skördning."
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Dubbelinsamling"
+
+msgid "foe_data.bonus.double_collection.gb_description"
+msgstr ""
+"Ger en chans att få dubbla resurser i de första byggnaderna som samlats in. "
+"Utesluter militära och stora byggnader. Uppdateras vid skördning."
+
+msgid "foe_data.bonus.exploration_site.name"
+msgstr "Utforskningsställe"
+
+msgid "foe_data.bonus.exploration_site.gb_description"
+msgstr "---"
+
+msgid "utils.content.tools"
+msgstr "Verktyg"
+
+msgid "utils.content.statistics"
+msgstr "Statistik"
+
+msgid "utils.btn_calculate"
+msgstr "Beräkna"
+
+msgid "utils.description.p1"
+msgstr "Ange de olika värdena. Resultatet uppdateras automatiskt."
+
+msgid "utils.description.p2_html"
+msgstr ""
+"<strong>Obs! </strong>: Om uppdateringen inte blir klar automatiskt klickar "
+"du på [@:(utils.btn_calculate)]."
+
+msgid "utils.choose_age"
+msgstr "Välj en era"
+
+msgid "utils.permalink"
+msgstr "Permalänk"
+
+msgid "utils.Add"
+msgstr "Lägg till"
+
+msgid "utils.Remove"
+msgstr "Ta bort"
+
+msgid "utils.Yes"
+msgstr "Ja"
+
+msgid "utils.No"
+msgstr "Nej"
+
+msgid "utils.Ok"
+msgstr "Ok"
+
+msgid "utils.Copy"
+msgstr "Kopiera"
+
+msgid "utils.Copyed"
+msgstr "Kopierad !"
+
+msgid "utils.Information"
+msgstr "Information"
+
+msgid "utils.From"
+msgstr "Från"
+
+msgid "utils.To"
+msgstr "Till (max {max})"
+
+msgid "utils.Prefix"
+msgstr "Prefix"
+
+msgid "utils.Suffix"
+msgstr "Suffix"
+
+msgid "utils.Path"
+msgstr "Sökväg"
+
+msgid "utils.Name"
+msgstr "Namn"
+
+msgid "utils.Description"
+msgstr "Beskrivning"
+
+msgid "utils.Rewards"
+msgstr "Belöningar"
+
+msgid "utils.Cost"
+msgstr "Kostnad"
+
+msgid "utils.Conquered"
+msgstr "Erövrad"
+
+msgid "utils.Total"
+msgstr "Totalt"
+
+msgid "utils.Secured"
+msgstr "Säkrad"
+
+msgid "utils.Reset"
+msgstr "Återställ"
+
+msgid "utils.Confirm"
+msgstr "Bekräfta"
+
+msgid "utils.Close"
+msgstr "Stäng"
+
+msgid "utils.Result"
+msgstr "Resultat"
+
+msgid "utils.between_range"
+msgstr "mellan {min} och {max}"
+
+msgid "utils.Submit"
+msgstr "Skicka"
+
+msgid "utils.Reset_values"
+msgstr "Återställ värden"
+
+msgid "utils.Switch"
+msgstr "Växla"
+
+msgid "utils.Save"
+msgstr "Spara"
+
+msgid "utils.Show"
+msgstr "Visa"
+
+msgid "utils.Hide"
+msgstr "Göm"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Detta fält kan inte vara tomt"
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] "{count} år"
+msgstr[1] "{count} år"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] "{count} månad"
+msgstr[1] "{count} månader"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] "{count} dag"
+msgstr[1] "{count} dagar"
+
+msgid "utils.graph.gb_level"
+msgstr "Nivå"
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Nivåkostnad"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "Nivåbelöning (1:a plats)"
+
+msgid "utils.Next"
+msgstr "→"
+
+msgid "utils.Previous"
+msgstr "←"
+
+msgid "utils.Exit"
+msgstr "Avsluta"
+
+msgid "utils.Done"
+msgstr "Färdig"
+
+msgid "utils.Tutorial"
+msgstr "Handledning"
+
+msgid "utils.Donate"
+msgstr "Donera"
+
+msgid "utils.FP"
+msgid_plural "utils.FP"
+msgstr[0] "{count} FP"
+msgstr[1] "{count} FP"
+
+msgid "contributions.blog"
+msgstr "Blogginlägg"
+
+msgid "contributions.bug"
+msgstr "Felrapporter"
+
+msgid "contributions.code"
+msgstr "Kod"
+
+msgid "contributions.design"
+msgstr "Design"
+
+msgid "contributions.doc"
+msgstr "Dokumentation"
+
+msgid "contributions.eventOrganizing"
+msgstr "Händelsearrangemang"
+
+msgid "contributions.example"
+msgstr "Exempel"
+
+msgid "contributions.financial"
+msgstr "Finansiell"
+
+msgid "contributions.fundingFinding"
+msgstr "Söka Finansiering"
+
+msgid "contributions.ideas"
+msgstr "Idéer, Planering & Återkoppling"
+
+msgid "contributions.infra"
+msgstr "Infrastruktur (Inhysning, Bygg-verktyg, etc)"
+
+msgid "contributions.platform"
+msgstr "Packetering / portning till ny plattform"
+
+msgid "contributions.plugin"
+msgstr "Plugin / verktygsbibliotek"
+
+msgid "contributions.question"
+msgstr "Besvara frågor"
+
+msgid "contributions.review"
+msgstr "Recenserade kod-förfrågningar"
+
+msgid "contributions.talk"
+msgstr "Talks"
+
+msgid "contributions.test"
+msgstr "Tester"
+
+msgid "contributions.tool"
+msgstr "Verktyg"
+
+msgid "contributions.translation"
+msgstr "Översättning"
+
+msgid "contributions.tutorial"
+msgstr "Handledning"
+
+msgid "contributions.video"
+msgstr "Videor"
+
+msgid "contributions.data"
+msgstr "Lägga till eller uppdatera data"
+
+msgid "contributions.inspired_tool"
+msgstr "Verktyg inspirerat av hans arbete"
+
+msgid "contributions.creator"
+msgstr "Skapare av detta projekt"
+
+msgid "seo.keywords.gb"
+msgstr "mb"
+
+msgid "seo.keywords.great_building"
+msgstr "mäktig byggnad"
+
+msgid "seo.keywords.fp"
+msgstr "fp"
+
+msgid "seo.keywords.forge_point"
+msgstr "forge point"
+
+msgid "seo.keywords.medals"
+msgstr "medaljer"
+
+msgid "seo.keywords.military_units"
+msgstr "militära enheter"

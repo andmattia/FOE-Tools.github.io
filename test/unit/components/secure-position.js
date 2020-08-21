@@ -12,11 +12,12 @@ const factory = (propsData = {}, mocks = {}) => {
     localVue: localVue,
     store: store,
     mocks: {
+      name: "foo",
       $route: {
-        query: {}
+        query: {},
       },
-      ...mocks
-    }
+      ...mocks,
+    },
   });
 };
 
@@ -29,7 +30,9 @@ const invalidValueType = "foo";
 describe("SecurePosition", () => {
   test("Is a Vue instance", () => {
     const wrapper = factory();
-    expect(wrapper.isVueInstance()).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.isVueInstance()).toBeTruthy();
+    });
   });
 
   test('Change "levelCost" value', () => {
@@ -37,8 +40,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.levelCost).toBe(0);
     expect(wrapper.vm.errors.levelCost).toBeFalsy();
     wrapper.vm.levelCost = 123;
-    expect(wrapper.vm.levelCost).toBe(123);
-    expect(wrapper.vm.errors.levelCost).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.levelCost).toBe(123);
+      expect(wrapper.vm.errors.levelCost).toBeFalsy();
+    });
   });
 
   test('Change "levelCost" invalid value', () => {
@@ -46,8 +51,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.levelCost).toBe(0);
     expect(wrapper.vm.errors.levelCost).toBeFalsy();
     wrapper.vm.levelCost = -1;
-    expect(wrapper.vm.levelCost).toBe(-1);
-    expect(wrapper.vm.errors.levelCost).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.levelCost).toBe(-1);
+      expect(wrapper.vm.errors.levelCost).toBeTruthy();
+    });
   });
 
   test('Change "levelCost" invalid type', () => {
@@ -55,8 +62,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.levelCost).toBe(0);
     expect(wrapper.vm.errors.levelCost).toBeFalsy();
     wrapper.vm.levelCost = invalidValueType;
-    expect(wrapper.vm.levelCost).toBe(invalidValueType);
-    expect(wrapper.vm.errors.levelCost).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.levelCost).toBe(invalidValueType);
+      expect(wrapper.vm.errors.levelCost).toBeFalsy();
+    });
   });
 
   test('Change "currentDeposits" value', () => {
@@ -66,8 +75,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.currentDeposits).toBe(0);
     expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
     wrapper.vm.currentDeposits = 123;
-    expect(wrapper.vm.currentDeposits).toBe(123);
-    expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.currentDeposits).toBe(123);
+      expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
+    });
   });
 
   test('Change "currentDeposits" invalid value', () => {
@@ -75,8 +86,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.currentDeposits).toBe(0);
     expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
     wrapper.vm.currentDeposits = -1;
-    expect(wrapper.vm.currentDeposits).toBe(-1);
-    expect(wrapper.vm.errors.currentDeposits).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.currentDeposits).toBe(-1);
+      expect(wrapper.vm.errors.currentDeposits).toBeTruthy();
+    });
   });
 
   test('Change "currentDeposits" invalid type', () => {
@@ -84,8 +97,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.currentDeposits).toBe(0);
     expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
     wrapper.vm.currentDeposits = invalidValueType;
-    expect(wrapper.vm.currentDeposits).toBe(invalidValueType);
-    expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.currentDeposits).toBe(invalidValueType);
+      expect(wrapper.vm.errors.currentDeposits).toBeFalsy();
+    });
   });
 
   test('Change "yourParticipation" value', () => {
@@ -96,8 +111,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.yourParticipation).toBe(0);
     expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
     wrapper.vm.yourParticipation = 123;
-    expect(wrapper.vm.yourParticipation).toBe(123);
-    expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.yourParticipation).toBe(123);
+      expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
+    });
   });
 
   test('Change "yourParticipation" invalid value', () => {
@@ -108,8 +125,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.yourParticipation).toBe(0);
     expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
     wrapper.vm.yourParticipation = -1;
-    expect(wrapper.vm.yourParticipation).toBe(-1);
-    expect(wrapper.vm.errors.yourParticipation).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.yourParticipation).toBe(-1);
+      expect(wrapper.vm.errors.yourParticipation).toBeTruthy();
+    });
   });
 
   test('Change "yourParticipation" invalid type', () => {
@@ -120,8 +139,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.yourParticipation).toBe(0);
     expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
     wrapper.vm.yourParticipation = invalidValueType;
-    expect(wrapper.vm.yourParticipation).toBe(invalidValueType);
-    expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.yourParticipation).toBe(invalidValueType);
+      expect(wrapper.vm.errors.yourParticipation).toBeFalsy();
+    });
   });
 
   test('Change "otherParticipation" value', () => {
@@ -132,8 +153,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.otherParticipation).toBe(0);
     expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
     wrapper.vm.otherParticipation = 123;
-    expect(wrapper.vm.otherParticipation).toBe(123);
-    expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.otherParticipation).toBe(123);
+      expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
+    });
   });
 
   test('Change "otherParticipation" invalid value', () => {
@@ -144,8 +167,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.otherParticipation).toBe(0);
     expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
     wrapper.vm.otherParticipation = -1;
-    expect(wrapper.vm.otherParticipation).toBe(-1);
-    expect(wrapper.vm.errors.otherParticipation).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.otherParticipation).toBe(-1);
+      expect(wrapper.vm.errors.otherParticipation).toBeTruthy();
+    });
   });
 
   test('Change "otherParticipation" invalid type', () => {
@@ -156,8 +181,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.otherParticipation).toBe(0);
     expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
     wrapper.vm.otherParticipation = invalidValueType;
-    expect(wrapper.vm.otherParticipation).toBe(invalidValueType);
-    expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.otherParticipation).toBe(invalidValueType);
+      expect(wrapper.vm.errors.otherParticipation).toBeFalsy();
+    });
   });
 
   test('Change "yourArcBonus" value', () => {
@@ -165,8 +192,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.yourArcBonus).toBe(90.6);
     expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
     wrapper.vm.yourArcBonus = 123;
-    expect(wrapper.vm.yourArcBonus).toBe(123);
-    expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.yourArcBonus).toBe(123);
+      expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
+    });
   });
 
   test('Change "yourArcBonus" invalid value', () => {
@@ -174,8 +203,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.yourArcBonus).toBe(90.6);
     expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
     wrapper.vm.yourArcBonus = -1;
-    expect(wrapper.vm.yourArcBonus).toBe(-1);
-    expect(wrapper.vm.errors.yourArcBonus).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.yourArcBonus).toBe(-1);
+      expect(wrapper.vm.errors.yourArcBonus).toBeTruthy();
+    });
   });
 
   test('Change "yourArcBonus" invalid type', () => {
@@ -183,8 +214,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.yourArcBonus).toBe(90.6);
     expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
     wrapper.vm.yourArcBonus = invalidValueType;
-    expect(wrapper.vm.yourArcBonus).toBe(invalidValueType);
-    expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.yourArcBonus).toBe(invalidValueType);
+      expect(wrapper.vm.errors.yourArcBonus).toBeFalsy();
+    });
   });
 
   test('Change "fpTargetReward" value', () => {
@@ -192,8 +225,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.fpTargetReward).toBe(0);
     expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
     wrapper.vm.fpTargetReward = 123;
-    expect(wrapper.vm.fpTargetReward).toBe(123);
-    expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fpTargetReward).toBe(123);
+      expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
+    });
   });
 
   test('Change "fpTargetReward" invalid value', () => {
@@ -201,8 +236,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.fpTargetReward).toBe(0);
     expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
     wrapper.vm.fpTargetReward = -1;
-    expect(wrapper.vm.fpTargetReward).toBe(-1);
-    expect(wrapper.vm.errors.fpTargetReward).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fpTargetReward).toBe(-1);
+      expect(wrapper.vm.errors.fpTargetReward).toBeTruthy();
+    });
   });
 
   test('Change "fpTargetReward" invalid type', () => {
@@ -210,8 +247,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.fpTargetReward).toBe(0);
     expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
     wrapper.vm.fpTargetReward = invalidValueType;
-    expect(wrapper.vm.fpTargetReward).toBe(invalidValueType);
-    expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fpTargetReward).toBe(invalidValueType);
+      expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
+    });
   });
 
   test("Form with valid input", () => {
@@ -223,22 +262,28 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 245;
 
-    expect(wrapper.vm.fp).toBe(460);
-    expect(wrapper.vm.roi).toBe(6);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fp).toBe(460);
+      expect(wrapper.vm.roi).toBe(6);
+    });
   });
 
   test('Change "levelData" value', () => {
     const wrapper = factory();
     expect(wrapper.vm.$props.levelData).toBe(null);
     wrapper.setProps({ levelData: gbData });
-    expect(wrapper.vm.$props.levelData).toBe(gbData);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.$props.levelData).toBe(gbData);
+    });
   });
 
   test('Change "customYourArcBonus" value', () => {
     const wrapper = factory();
     expect(wrapper.vm.$props.customYourArcBonus).toBe(false);
     wrapper.setProps({ customYourArcBonus: 90 });
-    expect(wrapper.vm.$props.customYourArcBonus).toBe(90);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.$props.customYourArcBonus).toBe(90);
+    });
   });
 
   test('Change "yourArcBonus" value with "customYourArcBonus" set', () => {
@@ -247,14 +292,18 @@ describe("SecurePosition", () => {
     wrapper.setProps({ customYourArcBonus: 90 });
     const newValue = 42;
     wrapper.vm.yourArcBonus = newValue;
-    expect(wrapper.emitted().customYourArcBonus).toBeTruthy();
-    expect(wrapper.emitted().customYourArcBonus[0]).toEqual([newValue]);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.emitted().customYourArcBonus).toBeTruthy();
+      expect(wrapper.emitted().customYourArcBonus[0]).toEqual([newValue]);
+    });
   });
 
   test('Initialize with custom "levelData"', () => {
     const wrapper = factory({ levelData: gbData });
-    expect(wrapper.vm.$props.levelData).toBe(gbData);
-    expect(wrapper.vm.levelCost).toBe(gbData.cost);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.$props.levelData).toBe(gbData);
+      expect(wrapper.vm.levelCost).toBe(gbData.cost);
+    });
   });
 
   test('Change "fpTargetReward" value when initialize with custom "levelData"', () => {
@@ -262,8 +311,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.fpTargetReward).toBe(0);
     expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
     wrapper.vm.fpTargetReward = 5;
-    expect(wrapper.vm.fpTargetReward).toBe(5);
-    expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fpTargetReward).toBe(5);
+      expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
+    });
   });
 
   test('Change "fpTargetReward" invalid when initialize with custom "levelData"', () => {
@@ -271,8 +322,10 @@ describe("SecurePosition", () => {
     expect(wrapper.vm.fpTargetReward).toBe(0);
     expect(wrapper.vm.errors.fpTargetReward).toBeFalsy();
     wrapper.vm.fpTargetReward = -1;
-    expect(wrapper.vm.fpTargetReward).toBe(-1);
-    expect(wrapper.vm.errors.fpTargetReward).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fpTargetReward).toBe(-1);
+      expect(wrapper.vm.errors.fpTargetReward).toBeTruthy();
+    });
   });
 
   test('Call "checkFormValid" with invalid type', () => {
@@ -284,7 +337,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = invalidValueType;
 
-    expect(wrapper.vm.checkFormValid()).toBe(true);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(true);
+    });
   });
 
   test('Call "checkFormValid" with initial value', () => {
@@ -296,7 +351,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 5;
 
-    expect(wrapper.vm.checkFormValid()).toBe(true);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(true);
+    });
   });
 
   test('Call "checkFormValid" with invalid "levelCost"', () => {
@@ -308,7 +365,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 5;
 
-    expect(wrapper.vm.checkFormValid()).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(false);
+    });
   });
 
   test('Call "checkFormValid" with "currentDeposits" > "levelCost"', () => {
@@ -320,7 +379,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 5;
 
-    expect(wrapper.vm.checkFormValid()).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(false);
+    });
   });
 
   test('Call "checkFormValid" with "yourParticipation" > "levelCost"', () => {
@@ -332,7 +393,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 5;
 
-    expect(wrapper.vm.checkFormValid()).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(false);
+    });
   });
 
   test('Call "checkFormValid" with "otherParticipation" > "levelCost"', () => {
@@ -344,7 +407,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 5;
 
-    expect(wrapper.vm.checkFormValid()).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(false);
+    });
   });
 
   test('Call "checkFormValid" with "yourParticipation" + "otherParticipation" > "currentDeposits"', () => {
@@ -356,7 +421,9 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 5;
 
-    expect(wrapper.vm.checkFormValid()).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.checkFormValid()).toBe(false);
+    });
   });
 
   test('Call "checkQuery" with query parameters', () => {
@@ -364,24 +431,27 @@ describe("SecurePosition", () => {
       { levelData: gbData },
       {
         $route: {
+          name: "foo",
           query: {
             sp_lc: 1720,
             sp_cd: 860,
             sp_yp: 10,
             sp_op: 50,
             sp_yab: 90,
-            sp_ftr: 5
-          }
-        }
+            sp_ftr: 5,
+          },
+        },
       }
     );
 
-    expect(wrapper.vm.levelCost).toBe(1720);
-    expect(wrapper.vm.currentDeposits).toBe(860);
-    expect(wrapper.vm.yourParticipation).toBe(10);
-    expect(wrapper.vm.otherParticipation).toBe(50);
-    expect(wrapper.vm.yourArcBonus).toBe(90);
-    expect(wrapper.vm.fpTargetReward).toBe(5);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.levelCost).toBe(1720);
+      expect(wrapper.vm.currentDeposits).toBe(860);
+      expect(wrapper.vm.yourParticipation).toBe(10);
+      expect(wrapper.vm.otherParticipation).toBe(50);
+      expect(wrapper.vm.yourArcBonus).toBe(90);
+      expect(wrapper.vm.fpTargetReward).toBe(5);
+    });
   });
 
   test('Change values but with "yourParticipation" null and "otherParticipation" empty', () => {
@@ -393,9 +463,11 @@ describe("SecurePosition", () => {
     wrapper.vm.yourArcBonus = 90;
     wrapper.vm.fpTargetReward = 65;
 
-    expect(wrapper.vm.fp).toBe(90);
-    expect(wrapper.vm.roi).toBe(34);
-    expect(wrapper.vm.checkFormValid()).toBe(true);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.fp).toBe(90);
+      expect(wrapper.vm.roi).toBe(34);
+      expect(wrapper.vm.checkFormValid()).toBe(true);
+    });
   });
 
   test('call "resetValues"', () => {
@@ -409,11 +481,13 @@ describe("SecurePosition", () => {
 
     wrapper.vm.resetValues();
 
-    expect(wrapper.vm.levelCost).toBe(0);
-    expect(wrapper.vm.currentDeposits).toBe(0);
-    expect(wrapper.vm.yourParticipation).toBe(0);
-    expect(wrapper.vm.otherParticipation).toBe(0);
-    expect(wrapper.vm.yourArcBonus).toBe(90);
-    expect(wrapper.vm.fpTargetReward).toBe(0);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.levelCost).toBe(0);
+      expect(wrapper.vm.currentDeposits).toBe(0);
+      expect(wrapper.vm.yourParticipation).toBe(0);
+      expect(wrapper.vm.otherParticipation).toBe(0);
+      expect(wrapper.vm.yourArcBonus).toBe(90);
+      expect(wrapper.vm.fpTargetReward).toBe(0);
+    });
   });
 });

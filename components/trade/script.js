@@ -6,12 +6,12 @@ const i18nPrefix = "components.trade.";
 const MAX_SPLIT = 1000;
 
 export default {
-  name: "trade",
+  name: "ComplexTrade",
   props: {
     tradeInput: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     const firstElement = Object.keys(this.$props.tradeInput.value)[0];
@@ -31,14 +31,14 @@ export default {
         iHave: false,
         iWant: false,
         splitValue: false,
-        value: false
+        value: false,
       },
       warnings: {
         iHave: false,
         iWant: false,
         splitValue: false,
-        value: false
-      }
+        value: false,
+      },
     };
   },
   watch: {
@@ -91,7 +91,7 @@ export default {
       } else {
         this.$data.errors.value = true;
       }
-    }
+    },
   },
   methods: {
     haveError(key) {
@@ -117,6 +117,6 @@ export default {
           )
         );
       }
-    }
-  }
+    },
+  },
 };

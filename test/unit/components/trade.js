@@ -7,10 +7,10 @@ const factory = () => {
   const { localVue, store } = getView();
   return shallowMount(Component, {
     propsData: {
-      tradeInput: { age: true, value: fairTradeArray, type: TradeArrayType.FAIR }
+      tradeInput: { age: true, value: fairTradeArray, type: TradeArrayType.FAIR },
     },
     localVue,
-    store
+    store,
   });
 };
 
@@ -26,19 +26,19 @@ const dataCheckResult = [
         amount: 2000,
         split: [
           { from: 1000, to: 500, count: 2 },
-          { from: 0, to: 0 }
-        ]
+          { from: 0, to: 0 },
+        ],
       },
       {
         key: "EarlyMiddleAges",
         amount: 1000,
         split: [
           { from: 1000, to: 500, count: 1 },
-          { from: 0, to: 0 }
-        ]
+          { from: 0, to: 0 },
+        ],
       },
-      { key: "HighMiddleAges", amount: 500 }
-    ]
+      { key: "HighMiddleAges", amount: 500 },
+    ],
   },
   {
     iHave: Object.keys(fairTradeArray)[1],
@@ -51,19 +51,19 @@ const dataCheckResult = [
         key: "IronAge",
         split: [
           { count: 17, from: 100, to: 50 },
-          { from: 8, to: 4 }
-        ]
+          { from: 8, to: 4 },
+        ],
       },
       {
         amount: 854,
         key: "EarlyMiddleAges",
         split: [
           { count: 8, from: 100, to: 50 },
-          { from: 54, to: 27 }
-        ]
+          { from: 54, to: 27 },
+        ],
       },
-      { amount: 427, key: "HighMiddleAges" }
-    ]
+      { amount: 427, key: "HighMiddleAges" },
+    ],
   },
   {
     iHave: Object.keys(fairTradeArray)[3],
@@ -76,20 +76,20 @@ const dataCheckResult = [
         key: "HighMiddleAges",
         split: [
           { count: 6, from: 500, to: 1000 },
-          { from: 0, to: 0 }
-        ]
+          { from: 0, to: 0 },
+        ],
       },
       {
         amount: 6000,
         key: "EarlyMiddleAges",
         split: [
           { count: 12, from: 500, to: 1000 },
-          { from: 0, to: 0 }
-        ]
+          { from: 0, to: 0 },
+        ],
       },
-      { amount: 12000, key: "IronAge" }
-    ]
-  }
+      { amount: 12000, key: "IronAge" },
+    ],
+  },
 ];
 
 describe("Trade", () => {
@@ -97,7 +97,9 @@ describe("Trade", () => {
 
   test("Is a Vue instance", () => {
     const wrapper = factory();
-    expect(wrapper.isVueInstance()).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.isVueInstance()).toBeTruthy();
+    });
   });
 
   test('Change "I have" value', () => {
@@ -105,8 +107,10 @@ describe("Trade", () => {
     expect(wrapper.vm.iHave).toBe(Object.keys(fairTradeArray)[0]);
     expect(wrapper.vm.errors.iHave).toBeFalsy();
     wrapper.vm.iHave = Object.keys(fairTradeArray)[1];
-    expect(wrapper.vm.iHave).toBe(Object.keys(fairTradeArray)[1]);
-    expect(wrapper.vm.errors.iHave).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.iHave).toBe(Object.keys(fairTradeArray)[1]);
+      expect(wrapper.vm.errors.iHave).toBeFalsy();
+    });
   });
 
   test('Change "I want" value', () => {
@@ -114,8 +118,10 @@ describe("Trade", () => {
     expect(wrapper.vm.iWant).toBe(Object.keys(fairTradeArray)[0]);
     expect(wrapper.vm.errors.iWant).toBeFalsy();
     wrapper.vm.iWant = Object.keys(fairTradeArray)[1];
-    expect(wrapper.vm.iWant).toBe(Object.keys(fairTradeArray)[1]);
-    expect(wrapper.vm.errors.iWant).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.iWant).toBe(Object.keys(fairTradeArray)[1]);
+      expect(wrapper.vm.errors.iWant).toBeFalsy();
+    });
   });
 
   test('Change "Split" value', () => {
@@ -123,8 +129,10 @@ describe("Trade", () => {
     expect(wrapper.vm.splitValue).toBe(1000);
     expect(wrapper.vm.errors.splitValue).toBeFalsy();
     wrapper.vm.splitValue = 123;
-    expect(wrapper.vm.splitValue).toBe(123);
-    expect(wrapper.vm.errors.splitValue).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.splitValue).toBe(123);
+      expect(wrapper.vm.errors.splitValue).toBeFalsy();
+    });
   });
 
   test('Change "Value" with value 427', () => {
@@ -133,9 +141,11 @@ describe("Trade", () => {
     expect(wrapper.vm.errors.value).toBeFalsy();
     expect(wrapper.vm.warnings.value).toBeFalsy();
     wrapper.vm.value = 427;
-    expect(wrapper.vm.value).toBe(427);
-    expect(wrapper.vm.errors.value).toBeFalsy();
-    expect(wrapper.vm.warnings.value).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.value).toBe(427);
+      expect(wrapper.vm.errors.value).toBeFalsy();
+      expect(wrapper.vm.warnings.value).toBeFalsy();
+    });
   });
 
   test('Change "Value" with value 1001', () => {
@@ -144,9 +154,11 @@ describe("Trade", () => {
     expect(wrapper.vm.errors.value).toBeFalsy();
     expect(wrapper.vm.warnings.value).toBeFalsy();
     wrapper.vm.value = 1001;
-    expect(wrapper.vm.value).toBe(1001);
-    expect(wrapper.vm.errors.value).toBeFalsy();
-    expect(wrapper.vm.warnings.value).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.value).toBe(1001);
+      expect(wrapper.vm.errors.value).toBeFalsy();
+      expect(wrapper.vm.warnings.value).toBeTruthy();
+    });
   });
 
   // Invalid values
@@ -156,8 +168,10 @@ describe("Trade", () => {
     expect(wrapper.vm.iHave).toBe(Object.keys(fairTradeArray)[0]);
     expect(wrapper.vm.errors.iHave).toBeFalsy();
     wrapper.vm.iHave = "foo";
-    expect(wrapper.vm.iHave).toBe("foo");
-    expect(wrapper.vm.errors.iHave).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.iHave).toBe("foo");
+      expect(wrapper.vm.errors.iHave).toBeTruthy();
+    });
   });
 
   test('Change "I want" with invalid value', () => {
@@ -165,8 +179,10 @@ describe("Trade", () => {
     expect(wrapper.vm.iWant).toBe(Object.keys(fairTradeArray)[0]);
     expect(wrapper.vm.errors.iWant).toBeFalsy();
     wrapper.vm.iWant = "foo";
-    expect(wrapper.vm.iWant).toBe("foo");
-    expect(wrapper.vm.errors.iWant).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.iWant).toBe("foo");
+      expect(wrapper.vm.errors.iWant).toBeTruthy();
+    });
   });
 
   test('Change "Split" with invalid value', () => {
@@ -175,8 +191,10 @@ describe("Trade", () => {
     expect(wrapper.vm.splitValue).toBe(1000);
     expect(wrapper.vm.errors.splitValue).toBeFalsy();
     wrapper.vm.splitValue = value;
-    expect(wrapper.vm.splitValue).toBe(value);
-    expect(wrapper.vm.errors.splitValue).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.splitValue).toBe(value);
+      expect(wrapper.vm.errors.splitValue).toBeTruthy();
+    });
   });
 
   test('Change "Split" with invalid type', () => {
@@ -185,8 +203,10 @@ describe("Trade", () => {
     expect(wrapper.vm.splitValue).toBe(1000);
     expect(wrapper.vm.errors.splitValue).toBeFalsy();
     wrapper.vm.splitValue = value;
-    expect(wrapper.vm.splitValue).toBe(value);
-    expect(wrapper.vm.errors.splitValue).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.splitValue).toBe(value);
+      expect(wrapper.vm.errors.splitValue).toBeTruthy();
+    });
   });
 
   test('Change "Value" with invalid value', () => {
@@ -196,9 +216,11 @@ describe("Trade", () => {
     expect(wrapper.vm.errors.value).toBeFalsy();
     expect(wrapper.vm.warnings.value).toBeFalsy();
     wrapper.vm.value = value;
-    expect(wrapper.vm.value).toBe(value);
-    expect(wrapper.vm.errors.value).toBeTruthy();
-    expect(wrapper.vm.warnings.value).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.value).toBe(value);
+      expect(wrapper.vm.errors.value).toBeTruthy();
+      expect(wrapper.vm.warnings.value).toBeFalsy();
+    });
   });
 
   test('Change "Value" with invalid type', () => {
@@ -208,9 +230,11 @@ describe("Trade", () => {
     expect(wrapper.vm.errors.value).toBeFalsy();
     expect(wrapper.vm.warnings.value).toBeFalsy();
     wrapper.vm.value = value;
-    expect(wrapper.vm.value).toBe(value);
-    expect(wrapper.vm.errors.value).toBeTruthy();
-    expect(wrapper.vm.warnings.value).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.value).toBe(value);
+      expect(wrapper.vm.errors.value).toBeTruthy();
+      expect(wrapper.vm.warnings.value).toBeFalsy();
+    });
   });
 
   // Check result
@@ -223,7 +247,9 @@ describe("Trade", () => {
       wrapper.vm.value = elt.value;
       wrapper.vm.splitValue = elt.splitValue;
 
-      expect(wrapper.vm.result).toEqual(elt.result);
+      wrapper.vm.$nextTick(() => {
+        expect(wrapper.vm.result).toEqual(elt.result);
+      });
     });
   }
 });

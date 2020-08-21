@@ -1,3 +1,4 @@
+import { defaultLocale } from "~/scripts/locales";
 import { make } from "vuex-pathify";
 
 export const state = () => ({
@@ -12,17 +13,17 @@ export const state = () => ({
   dayNightMode: "day",
   dayStart: "07:00",
   nightStart: "18:30",
-  locale: "en",
+  locale: defaultLocale,
   lastVisitVersion: "",
   donationConversion: "",
   currentProfile: "",
-  profiles: []
+  profiles: [],
 });
 
 export const mutations = {
-  ...make.mutations(state)
+  ...make.mutations(state),
 };
 
 export const getters = {
-  ...make.getters(state)
+  ...make.getters(state),
 };

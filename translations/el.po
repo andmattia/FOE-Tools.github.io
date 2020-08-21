@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:50.998Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:50.998Z\n"
+"Language: el\n"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Όλες οι επαρχίες"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Όλες οι εποχές"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Αυτή η επαρχία περιέχει έναν ή περισσότερους τομείς χωρίς δεδομένα."
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Επιλέξτε μια επαρχία"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.provinces"
+msgstr "Επαρχίες"
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Επίλεξε την Εποχή Σου."
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Επιστροφή Προμηθειών"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Επιστροφή Νομισμάτων"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Επίπεδο"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Σύνολο Φορτζ Πόντων: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Σύνολο Αγαθών: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "Φορτζ Πόντοι"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Αγαθά"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Μετάλλια"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "24ωρη παραγωγή Φορτζ Πόντων"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Αυτή η τιμή θα πρέπει να είναι μεγαλύτερη ή ίση από {min} διότι, "
+"στατιστικώς, αν είναι μικρότερη δεν υπάρχει εγγυημένο κέρδος"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Επιπλέον μπόνους από @:(foe_data.gb.Chateau_Frontenac)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Η εποχή σου"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "footer_menu.contact"
+msgstr "Επικοινωνία"
+
+msgid "footer_menu.changelog"
+msgstr "Αλλαγές"
+
+msgid "footer_menu.about"
+msgstr "Σχετικά"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.home"
+msgstr "Αρχική"

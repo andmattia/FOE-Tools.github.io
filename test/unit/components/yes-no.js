@@ -8,17 +8,19 @@ const factory = () => {
   return shallowMount(Component, {
     propsData: {
       label: "Hello World",
-      value: value
+      value: value,
     },
     localVue,
-    store
+    store,
   });
 };
 
 describe("YesNo", () => {
   test("Is a Vue instance", () => {
     const wrapper = factory();
-    expect(wrapper.isVueInstance()).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.isVueInstance()).toBeTruthy();
+    });
   });
 
   test("Can select no", () => {
@@ -26,9 +28,11 @@ describe("YesNo", () => {
     expect(wrapper.vm.$data.newValue).toBe(true);
 
     wrapper.find("div div.control div.buttons.has-addons span.button:nth-child(2)").trigger("click");
-    expect(wrapper.emitted().input).toBeTruthy();
-    expect(wrapper.emitted().input[0]).toEqual([false]);
-    expect(wrapper.vm.$data.newValue).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.emitted().input).toBeTruthy();
+      expect(wrapper.emitted().input[0]).toEqual([false]);
+      expect(wrapper.vm.$data.newValue).toBe(false);
+    });
   });
 
   test("Update props affect newValue", () => {
@@ -36,6 +40,8 @@ describe("YesNo", () => {
     expect(wrapper.vm.$data.newValue).toBe(true);
 
     wrapper.setProps({ value: false });
-    expect(wrapper.vm.$data.newValue).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.$data.newValue).toBe(false);
+    });
   });
 });

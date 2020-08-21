@@ -9,7 +9,7 @@ import Vue from "vue";
 
 const hero = {
   title: "components.site_layout.hero.title",
-  subtitle: "components.site_layout.hero.slogan_html"
+  subtitle: "components.site_layout.hero.slogan_html",
 };
 
 export const plugins = [pathify.plugin];
@@ -32,7 +32,7 @@ export const state = () => ({
     campaign_cost: { key: "campaign_cost", link: "CampaignCost" },
     help_to_translate_the_site: { key: "help_to_translate_the_site", link: "HelpToTranslateTheSite" },
     survey: { key: "survey", link: "Survey" },
-    contact: { key: "contact", link: "Contact" }
+    contact: { key: "contact", link: "Contact" },
   },
 
   /**
@@ -80,8 +80,8 @@ export const state = () => ({
    */
   promotionMessageTemplates: {
     default: defaultPromotionMessages,
-    custom: []
-  }
+    custom: [],
+  },
 });
 
 export const mutations = {
@@ -165,22 +165,22 @@ export const mutations = {
 
   RESTORE_MUTATION: /* istanbul ignore next */ () => {
     this.$RESTORE_MUTATION(this);
-  }
+  },
 };
 
 export const getters = {
   ...make.getters(state),
-  getUrlQuery: state => (ns = "") => {
+  getUrlQuery: (state) => (ns = "") => {
     if (!ns || ns.length === 0) {
       return state.urlQuery;
     }
     return Object.assign(JSON.parse(JSON.stringify(state.urlQuery)), state.urlQueryNamespace[ns]);
-  }
+  },
 };
 
 export const actions = {
   ...make.actions(state),
-  nuxtServerInit: /* istanbul ignore next */ async function(context) {
+  nuxtServerInit: /* istanbul ignore next */ async function (context) {
     let urlParam = "";
     if (
       this.$cookies.get("survey") &&
@@ -193,5 +193,5 @@ export const actions = {
     if (data && data instanceof Array) {
       context.dispatch("setSurvey", data);
     }
-  }
+  },
 };

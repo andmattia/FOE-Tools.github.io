@@ -16,8 +16,8 @@ export default {
   props: {
     tradeArray: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     agesGoods = this.$store.get("foe/goods@agesGoods");
@@ -36,8 +36,8 @@ export default {
       maxSplitValue: MAX_TRADE,
       showRatio: false,
       errors: {
-        splitValue: false
-      }
+        splitValue: false,
+      },
     };
 
     for (let age in agesGoods) {
@@ -59,7 +59,7 @@ export default {
       } else {
         this.$data.errors.splitValue = true;
       }
-    }
+    },
   },
   methods: {
     /**
@@ -117,27 +117,32 @@ export default {
           );
           if (result[1].from === 0) {
             result = this.$t("components.trade.split_message.common", {
-              count: this.$formatNumber(result[0].count),
-              valueFrom: this.$formatNumber(result[0].from),
+              count: this.$n(result[0].count),
+              valueFrom: this.$n(result[0].from),
               ageFrom: this.$t("foe_data.age_short." + currentAge),
-              valueTo: this.$formatNumber(result[0].to),
-              ageTo: this.$t("foe_data.age_short." + age)
+              valueTo: this.$n(result[0].to),
+              ageTo: this.$t("foe_data.age_short." + age),
             });
           } else {
             result = this.$t("components.trade.split_message.multi", {
-              count: this.$formatNumber(result[0].count),
-              valueFrom: this.$formatNumber(result[0].from),
+              count: this.$n(result[0].count),
+              valueFrom: this.$n(result[0].from),
               ageFrom: this.$t("foe_data.age_short." + currentAge),
-              valueTo: this.$formatNumber(result[0].to),
+              valueTo: this.$n(result[0].to),
               ageTo: this.$t("foe_data.age_short." + age),
-              valueFromSingle: this.$formatNumber(result[1].from),
-              valueToSingle: this.$formatNumber(result[1].to)
+              secondPart: this.$t(i18nPrefix + "split_message.common", {
+                count: 1,
+                valueFrom: this.$n(result[1].from),
+                valueTo: this.$n(result[1].to),
+                ageFrom: this.$t("foe_data.age_short." + currentAge),
+                ageTo: this.$t("foe_data.age_short." + age),
+              }),
             });
           }
         }
 
         Vue.set(this.$data.results[age], "show", true);
-        this.$data.results[age].value = this.$formatNumber(value);
+        this.$data.results[age].value = this.$n(value);
         this.$data.results[age].split = result;
         this.$data.results[age].ratio = Utils.roundTo(this.$props.tradeArray[currentAge][age], 2);
       }
@@ -147,9 +152,9 @@ export default {
       this.resetForm(currentAge);
       this.$data.currentAge = currentAge;
       this.compute();
-    }
+    },
   },
   components: {
-    YesNo
-  }
+    YesNo,
+  },
 };

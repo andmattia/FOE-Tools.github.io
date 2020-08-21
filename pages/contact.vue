@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/contact";
+import Page from "~/pages/contact/Contact";
 export default Page;
 </script>
 

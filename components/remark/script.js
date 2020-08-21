@@ -7,18 +7,18 @@ export default {
   props: {
     markdown: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
-      value: ""
+      value: "",
     };
   },
   watch: {
     markdown() {
       this.updateMarkdown();
-    }
+    },
   },
   methods: {
     updateMarkdown() {
@@ -39,9 +39,9 @@ export default {
             this.$emit("md-update", file.contents);
           }
         });
-    }
+    },
   },
   mounted() {
     this.updateMarkdown();
-  }
+  },
 };

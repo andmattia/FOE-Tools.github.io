@@ -8,7 +8,7 @@ const VueNumeral = {
      * @param lng {string} (Optional) Code of the locale
      * @return {string} Return formatted string
      */
-    Vue.prototype.$formatNumber = (value, lng = undefined) => {
+    Vue.prototype.$n = (value, lng = undefined) => {
       if (lng) {
         if (numeralSpecialLocales[lng]) {
           numeral.locale(numeralSpecialLocales[lng]);
@@ -24,7 +24,7 @@ const VueNumeral = {
      * @param lng {string} (Optional, default null) If not null, this will set the current locale
      * @return {string} Return the current locale
      */
-    Vue.prototype.$formatNumberLocale = (lng = null) => {
+    Vue.prototype.$nLocale = (lng = null) => {
       if (lng === null) {
         return numeral.locale();
       }
@@ -34,7 +34,7 @@ const VueNumeral = {
         numeral.locale(lng);
       }
     };
-  }
+  },
 };
 
 export default VueNumeral;

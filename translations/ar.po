@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5)\n"
+"POT-Creation-Date: 2020-08-21T21:00:50.684Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:50.684Z\n"
+"Language: ar\n"
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr "اكتب عدد المعدات التي تريد استعمالها في جميع المهام."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "اكتب عدد القطع النقدية التي تريد استعمالها في جميع المهام."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"اختر تعزيز @:(foe_data.gb.Chateau_Frontenac) الخاص بك.\n"
+"\n"
+"مثلا: إذا كان 450% اكتب 450."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "اختر حقبتك."
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"إن هذه الأداة هي معلومية بحتة، حيث تخبرك بما يمكنك اكتسابه احصائيا عن طريق "
+"@:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr "ضع كمية المؤن التي تود استخدامها من أجل المهمة الثانية التكرارية"
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "ضع عدد نقاط الصياغة التي تحصل عليها كل 24 ساعة"
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "ضع كمية البضائع التي تجمعها من مبناك العظيم والغنائم"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "مهمة تكميلية"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"بالعلاوة الحالية ل @:(foe_data.gb.Chateau_Frontenac) ستكسب قطع نقدية ومعدات "
+"أكثر مما ستستعمل لإكمال المهمات، برجاء اختيار عدد "
+"\"@:(components.cf_calculator.block_cfc.infinity_generator.label)\" تريد "
+"القيام به."
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "معدات مسترجعة"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "قطع نقدية مسترجعة"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "المستوى"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "FP"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "مواد"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "ميداليات"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "مخططات"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "مجموع المهمات التكرارية المكملة: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "مجموع FP's الكلي: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "المجموع الكلي للمواد: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "مهمات تكرارية ثانية مكملة: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "UBQ's اضافي: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "UBQ's يومي: {count}"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "معدات تم انتاجها"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "مهمات تكرارية ثانية؟"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "مهمات يومية أخرى"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "FP المنتجة خلال 24 ساعة"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "مواد مكتسبة من المباني العظيمة أو عن طريق النهب"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "كمية معدات للاستعمال في UBQ"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"يجب اعطاء قيمة مساوية أو تزيد عن {min} لأن أي قيمة أقل لن تضمن الحصول على "
+"عائدات (احصائيا)"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "القطع النقدية المستعملة في UBQ"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "خاصتك @:(foe_data.gb.Chateau_Frontenac) التعزيز بواسطة"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "حقبتك الحالية"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "هذه المقاطعة تحتوي على قطاع أو أكثر من دون قيم."
+
+msgid "components.campaign_cost.choose_province"
+msgstr "اختر مقاطعة"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "كل المقاطعات"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "كل الحقب الزمنية"
+
+msgid "components.campaign_cost.provinces"
+msgstr "مقاطعات"
+
+msgid "foe_data.bonus.exploration_site.gb_description"
+msgstr ""
+
+msgid "footer_menu.changelog"
+msgstr "سجل التغييرات"
+
+msgid "footer_menu.contact"
+msgstr "للاتصال"
+
+msgid "footer_menu.contributors"
+msgstr "المساهمون"
+
+msgid "footer_menu.about"
+msgstr "حول"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.home"
+msgstr "الرئيسية"

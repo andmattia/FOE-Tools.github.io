@@ -8,13 +8,13 @@ const factory = (props = {}) => {
     propsData: {
       error: {
         statusCode: 404,
-        message: "Not found"
+        message: "Not found",
       },
-      ...props
+      ...props,
     },
     localVue: localVue,
     store: store,
-    stubs: ["nuxt"]
+    stubs: ["nuxt"],
   });
 };
 
@@ -28,15 +28,15 @@ describe("Error", () => {
     const wrapper = factory({
       error: {
         statusCode: 42,
-        message: "Answer to the Ultimate Question of Life, the Universe, and Everything"
-      }
+        message: "Answer to the Ultimate Question of Life, the Universe, and Everything",
+      },
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 
   test("Initialize with unknown error", () => {
     const wrapper = factory({
-      error: {}
+      error: {},
     });
     expect(wrapper.isVueInstance()).toBeTruthy();
   });

@@ -6,6 +6,7 @@ import {
   faLanguage,
   faCheck,
   faExclamationCircle,
+  faExclamationTriangle,
   faTimes,
   faPlus,
   faMinus,
@@ -23,7 +24,7 @@ import {
   faTrash,
   faQuestion,
   faAngleDoubleUp,
-  faCog
+  faCog,
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCopy, faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
@@ -38,6 +39,7 @@ library.add(
   faLanguage,
   faCheck,
   faExclamationCircle,
+  faExclamationTriangle,
   faTimes,
   faPlus,
   faMinus,

@@ -22,7 +22,7 @@ export default {
       dS.setUTCMinutes(dayStartMinutes);
       this.$cookies.set("dayStart", this.$moment(dS).format("HH:mm"), {
         path: "/",
-        expires: Utils.getDefaultCookieExpireTime()
+        expires: Utils.getDefaultCookieExpireTime(),
       });
     }
 
@@ -36,45 +36,39 @@ export default {
       nS.setUTCMinutes(nightStartMinutes);
       this.$cookies.set("nightStart", this.$moment(nS).format("HH:mm"), {
         path: "/",
-        expires: Utils.getDefaultCookieExpireTime()
+        expires: Utils.getDefaultCookieExpireTime(),
       });
     }
 
     return {
       i18nPrefix: i18nPrefix,
       dayStart: dS,
-      nightStart: nS
+      nightStart: nS,
     };
   },
   computed: {
-    defaultDayStart: /* istanbul ignore next */ function() {
-      return this.$moment()
-        .hour(8)
-        .minute(0)
-        .toDate();
+    defaultDayStart: /* istanbul ignore next */ function () {
+      return this.$moment().hour(8).minute(0).toDate();
     },
-    defaultNightStart: /* istanbul ignore next */ function() {
-      return this.$moment()
-        .hour(19)
-        .minute(30)
-        .toDate();
-    }
+    defaultNightStart: /* istanbul ignore next */ function () {
+      return this.$moment().hour(19).minute(30).toDate();
+    },
   },
   watch: {
     dayStart(val) {
       this.$cookies.set("dayStart", this.$moment(val || this.defaultDayStart).format("HH:mm"), {
         path: "/",
-        expires: Utils.getDefaultCookieExpireTime()
+        expires: Utils.getDefaultCookieExpireTime(),
       });
       this.$emit("dayStartChange");
     },
     nightStart(val) {
       this.$cookies.set("nightStart", this.$moment(val || this.defaultNightStart).format("HH:mm"), {
         path: "/",
-        expires: Utils.getDefaultCookieExpireTime()
+        expires: Utils.getDefaultCookieExpireTime(),
       });
       this.$emit("nightStartChange");
-    }
+    },
   },
   methods: {
     resetNightDay() {
@@ -86,6 +80,6 @@ export default {
       nS.setUTCMinutes(30);
       this.dayStart = dS;
       this.nightStart = nS;
-    }
-  }
+    },
+  },
 };

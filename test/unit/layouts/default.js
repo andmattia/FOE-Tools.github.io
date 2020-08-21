@@ -13,10 +13,11 @@ const factory = (mocks = {}) => {
     stubs: ["nuxt"],
     mocks: {
       $route: {
-        path: "foo"
+        name: "foo",
+        path: "foo",
       },
-      ...mocks
-    }
+      ...mocks,
+    },
   });
 };
 
@@ -30,7 +31,7 @@ describe("Default", () => {
     const wrapper = factory({
       $cookies: {
         ...config.mocks["$cookies"],
-        get: jest.fn().mockImplementation(key => {
+        get: jest.fn().mockImplementation((key) => {
           switch (key) {
             case "cookieDisclaimerDisplayed":
               return true;
@@ -38,22 +39,11 @@ describe("Default", () => {
               return "auto";
           }
           return config.mocks["$cookies"].get(key);
-        })
-      }
+        }),
+      },
     });
     expect(wrapper.vm.cookieDisclaimerUndisplayed).toBe(false);
     expect(wrapper.vm.dayNightMode).toBe("auto");
-  });
-
-  test('Change "lang" value', async () => {
-    const wrapper = factory();
-    const value = 1000;
-    expect(wrapper.vm.$formatNumber(value)).toBe("1,000");
-
-    await wrapper.vm.i18n.i18next.changeLanguage("fr");
-    wrapper.vm.$store.set("locale", "fr");
-
-    expect(wrapper.vm.$formatNumber(value)).toBe("1 000");
   });
 
   test("Change route", () => {
@@ -61,7 +51,10 @@ describe("Default", () => {
     wrapper.vm.burgerMenuVisible = true;
 
     wrapper.vm.$route.path = "bar";
-    expect(wrapper.vm.burgerMenuVisible).toBe(false);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.burgerMenuVisible).toBe(false);
+      done();
+    });
   });
 
   test('Call "confirmInfoCookie"', () => {
@@ -131,7 +124,7 @@ describe("Default", () => {
         Alcatraz_from: 10,
         Arctic_Orangery_investorParticipation: [
           { value: 1496, isPotentialSniper: true },
-          { value: 753, isPotentialSniper: true }
+          { value: 753, isPotentialSniper: true },
         ],
         Arctic_Orangery_level: 48,
 
@@ -142,7 +135,7 @@ describe("Default", () => {
         otherRq: 1,
         cumulativeQuest: 4,
         secondRq: true,
-        suppliesGathered: 80
+        suppliesGathered: 80,
       };
     };
 
@@ -150,15 +143,15 @@ describe("Default", () => {
       $cookies: {
         ...config.mocks["$cookies"],
         getAll: jest.fn().mockImplementation(getAllCookies),
-        get: jest.fn().mockImplementation(key => {
+        get: jest.fn().mockImplementation((key) => {
           const cookies = getAllCookies();
           if (key in cookies) {
             return cookies[key];
           }
 
           return undefined;
-        })
-      }
+        }),
+      },
     });
 
     const global = clone(wrapper.vm.$store.state.global);

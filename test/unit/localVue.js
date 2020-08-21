@@ -1,25 +1,60 @@
-import { config } from "@vue/test-utils";
-import { createLocalVue, RouterLinkStub } from "@vue/test-utils";
+import { config, createLocalVue, RouterLinkStub } from "@vue/test-utils";
 import { defaultPromotionMessages } from "~/scripts/promotion-message-builder";
 import clone from "lodash.clonedeep";
 import merge from "lodash.merge";
+import { make } from "vuex-pathify";
 
 import Vuex from "vuex";
 import * as storeStructure from "~/store/index";
 import * as storeGlobalStructure from "~/store/global";
 import * as storeProfilesStructure from "~/store/profile";
 import VueClipboards from "vue-clipboards";
-import VueI18Next from "@panter/vue-i18next";
 import { defaultLocale, supportedLocales } from "~/scripts/locales";
-import { i18next, initializeI18next } from "~/scripts/i18n";
-import VueNumeral from "~/plugins/numeral";
+import VueI18n from "vue-i18n";
 import Buefy from "buefy";
 import * as gbs from "~/lib/foe-data/gbs.js";
 import * as goods from "~/lib/foe-data/goods.js";
 
+import en from "../../lang/en.json";
+import fr from "../../lang/en.json";
+import common from "../../translations/common.json";
+
+// Fontawesome import
+import { library, config as fasConfig, dom } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import {
+  faChevronDown,
+  faLanguage,
+  faCheck,
+  faExclamationCircle,
+  faTimes,
+  faPlus,
+  faMinus,
+  faAngleLeft,
+  faAngleRight,
+  faInfoCircle,
+  faTimesCircle,
+  faLink,
+  faArrowUp,
+  faArrowDown,
+  faExchangeAlt,
+  faLock,
+  faEye,
+  faEyeSlash,
+  faTrash,
+  faQuestion,
+  faAngleDoubleUp,
+  faCog,
+} from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCopy, faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
+
 import moment from "moment";
 import momentDurationFormatSetup from "moment-duration-format";
+import { state } from "../../store/global";
 momentDurationFormatSetup(moment);
+
+const url = "https://test.foe-tools.github.io";
 
 export function getView(storeConf) {
   let globalStore = {};
@@ -38,7 +73,9 @@ export function getView(storeConf) {
   //////////
   // Vuex //
   //////////
-
+  let i18nStoreState = {
+    locale: "en",
+  };
   localVue.use(Vuex);
   const store = new Vuex.Store({
     ...storeStructure,
@@ -50,10 +87,20 @@ export function getView(storeConf) {
         state: {
           campaignCost: campaignCost,
           gbs: clone(gbs),
-          goods: clone(goods)
-        }
-      }
-    }
+          goods: clone(goods),
+        },
+      },
+      i18n: {
+        namespaced: true,
+        state: i18nStoreState,
+        mutations: {
+          ...make.mutations(i18nStoreState),
+        },
+        getters: {
+          ...make.getters(i18nStoreState),
+        },
+      },
+    },
   });
 
   ///////////////
@@ -69,34 +116,37 @@ export function getView(storeConf) {
   localVue.use({
     install(Vue) {
       Vue.prototype.$moment = moment;
-    }
+    },
   });
 
-  /////////////
-  // i18next //
-  /////////////
+  //////////
+  // i18n //
+  //////////
 
-  initializeI18next();
-  localVue.use(VueI18Next);
+  localVue.use(VueI18n);
 
-  const i18n = new VueI18Next(i18next);
+  const i18n = new VueI18n({
+    locale: "en",
+    fallbackLocale: "en",
+    messages: {
+      en: { ...clone(en), ...clone(common) },
+      fr: { ...clone(fr), ...clone(common) },
+    },
+    pluralizationRules: require("../../plugins/vue-i18n-plural.js"),
+  });
 
   localVue.use({
     install(Vue) {
       Vue.prototype.i18n = i18n;
-      Vue.prototype.$i18next = i18next;
-      Vue.prototype.$i18nExists = (...args) => i18n.i18next.exists(...args);
-      Vue.prototype.$t = (...args) => i18n.i18next.t(...args);
+      Vue.prototype.$t = (...args) => i18n.t(...args);
+      Vue.prototype.$tc = (...args) => i18n.tc(...args);
+      Vue.prototype.$te = (...args) => i18n.te(...args);
+      Vue.prototype.$n = (...args) => i18n.n(...args);
+      Vue.prototype.localePath = (path) => `${url}/${path}`;
       Vue.prototype.defaultLocale = defaultLocale;
       store.set("supportedLocales", supportedLocales);
-    }
+    },
   });
-
-  /////////////
-  // Numeral //
-  /////////////
-
-  localVue.use(VueNumeral);
 
   ///////////
   // Buefy //
@@ -110,10 +160,52 @@ export function getView(storeConf) {
 
   config.mocks.$cookies.set.mockClear();
 
+  /////////////////
+  // Fontawesome //
+  /////////////////
+
+  // This is important, we are going to let Nuxt.js worry about the CSS
+  fasConfig.autoAddCss = false;
+
+  // You can add your icons directly in this plugin. See other examples for how you
+  // can add other styles or just individual icons.
+  library.add(
+    faChevronDown,
+    faLanguage,
+    faCheck,
+    faExclamationCircle,
+    faTimes,
+    faPlus,
+    faMinus,
+    faAngleLeft,
+    faAngleRight,
+    faInfoCircle,
+    faTimesCircle,
+    faLink,
+    faQuestionCircle,
+    faArrowUp,
+    faArrowDown,
+    faExchangeAlt,
+    faLock,
+    faEye,
+    faEyeSlash,
+    faTrash,
+    faQuestion,
+    faCopy,
+    faAngleDoubleUp,
+    faCog,
+    faGithub
+  );
+
+  // Register the component globally
+  localVue.component("font-awesome-icon", FontAwesomeIcon);
+
+  dom.watch();
+
   return {
     localVue,
     store,
-    i18n
+    i18n,
   };
 }
 
@@ -123,7 +215,7 @@ export function getView(storeConf) {
 
 const getAllCookies = () => {
   return {
-    locale: i18next.language,
+    locale: "en",
     cookieDisclaimerDisplayed: false,
     survey: [],
     gbSelectMode: "select",
@@ -149,13 +241,13 @@ const getAllCookies = () => {
     gbPrefix: "",
     gbSuffix: "",
     showOnlySecuredPlaces: false,
-    promotionMessageList: defaultPromotionMessages
+    promotionMessageList: defaultPromotionMessages,
   };
 };
 
 config.mocks["$cookies"] = {
   getAll: jest.fn().mockImplementation(getAllCookies),
-  get: jest.fn().mockImplementation(key => {
+  get: jest.fn().mockImplementation((key) => {
     const cookies = getAllCookies();
     if (key in cookies) {
       return cookies[key];
@@ -164,24 +256,27 @@ config.mocks["$cookies"] = {
     return undefined;
   }),
   set: jest.fn(),
-  remove: jest.fn()
+  remove: jest.fn(),
 };
 
-const url = "https://test.foe-tools.github.io";
 config.mocks["$nuxt"] = {
   $route: {
-    path: url
-  }
+    name: "foo",
+    path: url,
+  },
+};
+config.mocks["$route"] = {
+  name: "Foo",
 };
 
-config.mocks["$clone"] = value => clone(value);
+config.mocks["$clone"] = (value) => clone(value);
 
 config.stubs["NuxtLink"] = RouterLinkStub;
 
 global.window = Object.create(window);
 Object.defineProperty(window, "location", {
   value: {
-    href: url
+    href: url,
   },
-  writable: true
+  writable: true,
 });

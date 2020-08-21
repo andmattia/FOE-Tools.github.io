@@ -16,13 +16,13 @@ describe("Trade", () => {
         isTypeError: true, // false for bound error
         value: { toValue: "a", splitValue: 10, ratioFromTo: 2, ratioToFrom: 0.5 },
         valueType: "string",
-        paramName: "toValue"
+        paramName: "toValue",
       },
       {
         isTypeError: false,
         value: { toValue: -1, splitValue: 10, ratioFromTo: 2, ratioToFrom: 0.5 },
         valueType: "number",
-        paramName: "toValue"
+        paramName: "toValue",
       },
 
       // splitValue
@@ -30,13 +30,13 @@ describe("Trade", () => {
         isTypeError: true,
         value: { toValue: 105, splitValue: {}, ratioFromTo: 2, ratioToFrom: 0.5 },
         valueType: "object",
-        paramName: "splitValue"
+        paramName: "splitValue",
       },
       {
         isTypeError: false,
         value: { toValue: 105, splitValue: 0, ratioFromTo: 2, ratioToFrom: 0.5 },
         valueType: "number",
-        paramName: "splitValue"
+        paramName: "splitValue",
       },
 
       // ratioFromTo
@@ -44,13 +44,13 @@ describe("Trade", () => {
         isTypeError: true,
         value: { toValue: 105, splitValue: 10, ratioFromTo: false, ratioToFrom: 0.5 },
         valueType: "boolean",
-        paramName: "ratioFromTo"
+        paramName: "ratioFromTo",
       },
       {
         isTypeError: false,
         value: { toValue: 105, splitValue: 10, ratioFromTo: -1, ratioToFrom: 0.5 },
         valueType: "number",
-        paramName: "ratioFromTo"
+        paramName: "ratioFromTo",
       },
 
       // ratioToFrom
@@ -58,21 +58,21 @@ describe("Trade", () => {
         isTypeError: true,
         value: { toValue: 105, splitValue: 10, ratioFromTo: 2, ratioToFrom: "a" },
         valueType: "string",
-        paramName: "ratioToFrom"
+        paramName: "ratioToFrom",
       },
       {
         isTypeError: false,
         value: { toValue: 105, splitValue: 10, ratioFromTo: 2, ratioToFrom: -1 },
         valueType: "number",
-        paramName: "ratioToFrom"
-      }
+        paramName: "ratioToFrom",
+      },
     ];
 
     test("Valid value with to > from", () => {
       const result = Trade.splitGoods(105, 10, 2, 0.5);
       expect(result).toEqual([
         { from: 5, to: 10, count: 10 },
-        { from: 3, to: 5 }
+        { from: 3, to: 5 },
       ]);
     });
 
@@ -80,7 +80,7 @@ describe("Trade", () => {
       const result = Trade.splitGoods(10, 10, 2, 0.5);
       expect(result).toEqual([
         { from: 5, to: 10, count: 1 },
-        { from: 0, to: 0 }
+        { from: 0, to: 0 },
       ]);
     });
 
@@ -88,7 +88,7 @@ describe("Trade", () => {
       const result = Trade.splitGoods(105, 10, 0.5, 2);
       expect(result).toEqual([
         { from: 10, to: 5, count: 21 },
-        { from: 0, to: 0 }
+        { from: 0, to: 0 },
       ]);
     });
 
@@ -106,7 +106,7 @@ describe("Trade", () => {
             new Errors.InvalidTypeError({
               expected: "number",
               actual: errorValue.valueType,
-              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`
+              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`,
             })
           );
         } else {
@@ -122,7 +122,7 @@ describe("Trade", () => {
               type: Errors.AvailableBoundTypes["<="],
               value: errorValue.value[errorValue.paramName],
               boundValue: 0,
-              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`
+              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`,
             })
           );
         }
@@ -143,10 +143,10 @@ describe("Trade", () => {
           iHave: ages.BronzeAge.key,
           iWant: ages.IronAge.key,
           amount: "a",
-          splitValue: 1000
+          splitValue: 1000,
         },
         valueType: "string",
-        paramName: "amount"
+        paramName: "amount",
       },
       {
         isTypeError: false,
@@ -155,10 +155,10 @@ describe("Trade", () => {
           iHave: ages.BronzeAge.key,
           iWant: ages.IronAge.key,
           amount: -1,
-          splitValue: 1000
+          splitValue: 1000,
         },
         valueType: "number",
-        paramName: "amount"
+        paramName: "amount",
       },
 
       // splitValue
@@ -169,10 +169,10 @@ describe("Trade", () => {
           iHave: ages.BronzeAge.key,
           iWant: ages.IronAge.key,
           amount: 100,
-          splitValue: "a"
+          splitValue: "a",
         },
         valueType: "string",
-        paramName: "splitValue"
+        paramName: "splitValue",
       },
       {
         isTypeError: false,
@@ -181,11 +181,11 @@ describe("Trade", () => {
           iHave: ages.BronzeAge.key,
           iWant: ages.IronAge.key,
           amount: 100,
-          splitValue: -1
+          splitValue: -1,
         },
         valueType: "number",
-        paramName: "splitValue"
-      }
+        paramName: "splitValue",
+      },
     ];
 
     test("Valid value", () => {
@@ -202,10 +202,10 @@ describe("Trade", () => {
           key: "BronzeAge",
           split: [
             { count: 1, from: 200, to: 100 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
-        { amount: 100, key: "IronAge" }
+        { amount: 100, key: "IronAge" },
       ]);
     });
 
@@ -223,9 +223,9 @@ describe("Trade", () => {
           key: "BronzeAge",
           split: [
             { count: 1, from: 1000, to: 1000 },
-            { from: 0, to: 0 }
-          ]
-        }
+            { from: 0, to: 0 },
+          ],
+        },
       ]);
     });
 
@@ -243,66 +243,66 @@ describe("Trade", () => {
           key: "BronzeAge",
           split: [
             { count: 16, from: 1000, to: 500 },
-            { from: 96, to: 48 }
-          ]
+            { from: 96, to: 48 },
+          ],
         },
         {
           amount: 8048,
           key: "IronAge",
           split: [
             { count: 8, from: 1000, to: 500 },
-            { from: 48, to: 24 }
-          ]
+            { from: 48, to: 24 },
+          ],
         },
         {
           amount: 4024,
           key: "EarlyMiddleAges",
           split: [
             { count: 4, from: 1000, to: 500 },
-            { from: 24, to: 12 }
-          ]
+            { from: 24, to: 12 },
+          ],
         },
         {
           amount: 2012,
           key: "HighMiddleAges",
           split: [
             { count: 2, from: 1000, to: 500 },
-            { from: 12, to: 6 }
-          ]
+            { from: 12, to: 6 },
+          ],
         },
         {
           amount: 1006,
           key: "LateMiddleAges",
           split: [
             { count: 1, from: 1000, to: 500 },
-            { from: 6, to: 3 }
-          ]
+            { from: 6, to: 3 },
+          ],
         },
         {
           amount: 503,
           key: "IndustrialAge",
           split: [
             { count: 1, from: 503, to: 268 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 268,
           key: "PostmodernEra",
           split: [
             { count: 1, from: 268, to: 137 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 137,
           key: "ArcticFuture",
           split: [
             { count: 1, from: 137, to: 100 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
-        { amount: 100, key: "VirtualFuture" }
+        { amount: 100, key: "VirtualFuture" },
       ]);
     });
 
@@ -320,66 +320,66 @@ describe("Trade", () => {
           key: "VirtualFuture",
           split: [
             { count: 1, from: 2, to: 2 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 2,
           key: "Tomorrow",
           split: [
             { count: 1, from: 2, to: 3 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 3,
           key: "ModernEra",
           split: [
             { count: 1, from: 3, to: 5 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 5,
           key: "ColonialAge",
           split: [
             { count: 1, from: 5, to: 7 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 7,
           key: "LateMiddleAges",
           split: [
             { count: 1, from: 7, to: 13 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 13,
           key: "HighMiddleAges",
           split: [
             { count: 1, from: 13, to: 25 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 25,
           key: "EarlyMiddleAges",
           split: [
             { count: 1, from: 25, to: 50 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
         {
           amount: 50,
           key: "IronAge",
           split: [
             { count: 1, from: 50, to: 100 },
-            { from: 0, to: 0 }
-          ]
+            { from: 0, to: 0 },
+          ],
         },
-        { amount: 100, key: "BronzeAge" }
+        { amount: 100, key: "BronzeAge" },
       ]);
     });
 
@@ -389,7 +389,7 @@ describe("Trade", () => {
           expected: "TradeArray",
           actual: "string",
           additionalMessage:
-            'for parameter "tradeInput" of getBestOffersSplitted(tradeInput, iHave, iWant, amount, splitValue)'
+            'for parameter "tradeInput" of getBestOffersSplitted(tradeInput, iHave, iWant, amount, splitValue)',
         })
       );
     });
@@ -399,7 +399,7 @@ describe("Trade", () => {
         new Errors.InvalidTypeError({
           expected: validAges,
           actual: "a",
-          additionalMessage: `for parameter "iHave" of ${funcName}`
+          additionalMessage: `for parameter "iHave" of ${funcName}`,
         })
       );
     });
@@ -409,7 +409,7 @@ describe("Trade", () => {
         new Errors.InvalidTypeError({
           expected: validAges,
           actual: "a",
-          additionalMessage: `for parameter "iWant" of ${funcName}`
+          additionalMessage: `for parameter "iWant" of ${funcName}`,
         })
       );
     });
@@ -429,7 +429,7 @@ describe("Trade", () => {
             new Errors.InvalidTypeError({
               expected: "number",
               actual: errorValue.valueType,
-              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`
+              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`,
             })
           );
         } else {
@@ -446,7 +446,7 @@ describe("Trade", () => {
               type: Errors.AvailableBoundTypes["<="],
               value: errorValue.value[errorValue.paramName],
               boundValue: 0,
-              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`
+              additionalMessage: `for parameter "${errorValue.paramName}" of ${funcName}`,
             })
           );
         }

@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/cf-calculator";
+import Page from "~/pages/cf-calculator/CfCalculator";
 export default Page;
 </script>
 

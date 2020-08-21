@@ -37,11 +37,11 @@ const queryKey = {
   showSuffix: urlPrefix + "ssx",
   showSnipe: urlPrefix + "ss",
   showOnlySecuredPlaces: urlPrefix + "sosp",
-  yourArcBonus: urlPrefix + "yab"
+  yourArcBonus: urlPrefix + "yab",
 };
 
 const inputComparator = {
-  yourArcBonus: { comparator: [">=", 0], type: "float" }
+  yourArcBonus: { comparator: [">=", 0], type: "float" },
 };
 
 export default {
@@ -49,12 +49,12 @@ export default {
   props: {
     gb: {
       type: Object,
-      required: true
+      required: true,
     },
     canPermalink: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   data() {
     const data = {
@@ -140,7 +140,7 @@ export default {
         investorPercentageCustom_3: false,
         investorPercentageCustom_4: false,
         addInvestors: false,
-        yourArcBonus: false
+        yourArcBonus: false,
       },
       promotionMessageTab: 0,
       promotion: [],
@@ -149,7 +149,7 @@ export default {
       ),
       childChange: false,
       templateToAdd: "",
-      tutoMode: false
+      tutoMode: false,
     };
 
     Object.assign(data, this.checkQuery(data.level, data.maxLevel));
@@ -159,29 +159,29 @@ export default {
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.level,
       value: data.level,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.ownerInvestment,
       value: data.ownerInvestment,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.investorPercentageGlobal,
       value: data.investorPercentageGlobal,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.investorParticipation,
       value: JSON.stringify(data.investorParticipation),
-      ns: "gbi"
+      ns: "gbi",
     });
 
     for (let index = 0; index < data.investorPercentageCustom.length; index++) {
       this.$store.commit("ADD_URL_QUERY", {
         key: queryKey.investorPercentageCustom + (index + 1),
         value: data.investorPercentageCustom[index],
-        ns: "gbi"
+        ns: "gbi",
       });
     }
 
@@ -189,59 +189,59 @@ export default {
       this.$store.commit("ADD_URL_QUERY", {
         key: queryKey.placeFree + (index + 1),
         value: data.placeFree[index].state ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
     }
 
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.prefix,
       value: data.prefix,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.suffix,
       value: data.suffix,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.shortName,
       value: data.shortName ? 1 : 0,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.displayGbName,
       value: data.displayGbName ? 1 : 0,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.showLevel,
       value: data.showLevel ? 1 : 0,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.showPrefix,
       value: data.showPrefix,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.showSuffix,
       value: data.showSuffix,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("UPDATE_URL_QUERY", {
       key: queryKey.showSnipe,
       value: data.showSnipe ? 1 : 0,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.yourArcBonus,
       value: data.yourArcBonus,
-      ns: "gbi"
+      ns: "gbi",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.showOnlySecuredPlaces,
       value: data.showOnlySecuredPlaces,
-      ns: "gbi"
+      ns: "gbi",
     });
 
     return data;
@@ -253,9 +253,9 @@ export default {
       return {
         name: "GbInvestment",
         params: {
-          gb: this.gb.key
+          gb: this.gb.key,
         },
-        query: this.$store.getters.getUrlQuery("gbi")
+        query: this.$store.getters.getUrlQuery("gbi"),
       };
     },
     maxInvestment() {
@@ -272,7 +272,7 @@ export default {
         throw new Errors.InvalidTypeError({ expected: "Array", actual: typeof this.$data.investorParticipation });
       }
 
-      return this.$data.investorParticipation.map(k => {
+      return this.$data.investorParticipation.map((k) => {
         k.value = Utils.normalizeNumberValue(k.value, 0);
         k.isPotentialSniper = !!k.isPotentialSniper;
         return k;
@@ -296,7 +296,7 @@ export default {
     customPromotionMessagesTemplates: get("global/customPromotionMessagesTemplates"),
     vueCardClass() {
       return this.$data.tutoMode ? [] : ["is-hidden-desktop", "is-hidden-widescreen"];
-    }
+    },
   },
   watch: {
     level(val, oldVal) {
@@ -319,7 +319,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.level,
           value: val,
-          ns: "gbi"
+          ns: "gbi",
         });
         this.$data.ownerInvestment = 0;
         this.$data.showExtraInvestors = false;
@@ -356,7 +356,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.ownerInvestment,
           value: val,
-          ns: "gbi"
+          ns: "gbi",
         });
         this.calculate();
       }
@@ -377,7 +377,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.addInvestors,
           value: val,
-          ns: "gbi"
+          ns: "gbi",
         });
       }
     },
@@ -406,7 +406,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.investorPercentageGlobal,
           value: val,
-          ns: "gbi"
+          ns: "gbi",
         });
 
         let investorPercentageCustom = [];
@@ -414,7 +414,7 @@ export default {
           this.$store.commit("UPDATE_URL_QUERY", {
             key: queryKey.investorPercentageCustom + (index + 1),
             value: Utils.normalizeNumberValue(val),
-            ns: "gbi"
+            ns: "gbi",
           });
           investorPercentageCustom.push(value);
         }
@@ -451,7 +451,7 @@ export default {
           this.$store.commit("UPDATE_URL_QUERY", {
             key: queryKey.investorPercentageCustom + (index + 1),
             value: val[index],
-            ns: "gbi"
+            ns: "gbi",
           });
         }
       }
@@ -464,7 +464,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.investorParticipation,
         value: JSON.stringify(val),
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -480,7 +480,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.prefix,
         value: val,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(`profile/profiles@["${this.$store.get("global/currentProfile")}"].gbPrefix`, this.$clone(val));
@@ -491,7 +491,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.suffix,
         value: val,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(`profile/profiles@["${this.$store.get("global/currentProfile")}"].gbSuffix`, this.$clone(val));
@@ -502,7 +502,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.displayGbName,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -516,7 +516,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.shortName,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(`profile/profiles@["${this.$store.get("global/currentProfile")}"].shortName`, this.$clone(val));
@@ -527,7 +527,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.showLevel,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(`profile/profiles@["${this.$store.get("global/currentProfile")}"].showLevel`, this.$clone(val));
@@ -538,7 +538,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.showPrefix,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -552,7 +552,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.showSuffix,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -566,7 +566,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.showOnlySecuredPlaces,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -586,7 +586,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.showSnipe,
         value: val ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
       if (!this.isPermalink) {
         this.$store.set(`profile/profiles@["${this.$store.get("global/currentProfile")}"].showSnipe`, this.$clone(val));
@@ -612,7 +612,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.yourArcBonus,
           value: val,
-          ns: "gbi"
+          ns: "gbi",
         });
         this.calculate();
       }
@@ -631,15 +631,15 @@ export default {
       }
     },
     promotionMessageList: {
-      handler: function(val) {
+      handler: function (val) {
         this.$store.set(
           `profile/profiles@["${this.$store.get("global/currentProfile")}"].promotionMessageList`,
           this.$clone(val)
         );
         this.updatePromotionMessage();
       },
-      deep: true
-    }
+      deep: true,
+    },
   },
   methods: {
     goTo(val) {
@@ -674,7 +674,7 @@ export default {
         { key: "FLVL", value: this.level - 1 },
         { key: "TLVL", value: this.level },
         { key: "OP", value: this.$data.result.totalPreparations },
-        { key: "LC", value: this.$data.result.cost }
+        { key: "LC", value: this.$data.result.cost },
       ];
       const placesInterpolationValues = [];
       for (let i = 0; i < this.result.investment.length; i++) {
@@ -686,7 +686,7 @@ export default {
           { key: "PV", value: this.result.investment[i].participation, free: this.placeFree[i].state },
           { key: "PP", value: this.result.investment[i].preparation },
           { key: "FLVL", value: this.level - 1 },
-          { key: "TLVL", value: this.level }
+          { key: "TLVL", value: this.level },
         ]);
       }
 
@@ -702,12 +702,12 @@ export default {
               suffix: this.showSuffix ? this.suffix : "",
               displayGbName: this.displayGbName,
               useShortGbName: this.shortName,
-              showLevel: this.showLevel
+              showLevel: this.showLevel,
             },
             messageInterpolation,
             placesInterpolationValues
           ),
-          active: false
+          active: false,
         });
       }
 
@@ -717,7 +717,7 @@ export default {
       this.promotion[index].active = true;
       let self = this;
       /* istanbul ignore next */
-      setTimeout(function() {
+      setTimeout(function () {
         self.promotion[index].active = false;
       }, 3000);
     },
@@ -727,7 +727,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.placeFree + (i + 1),
         value: value ? 1 : 0,
-        ns: "gbi"
+        ns: "gbi",
       });
 
       this.updatePromotionMessage();
@@ -738,7 +738,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.investorParticipation,
         value: JSON.stringify(this.$data.investorParticipation),
-        ns: "gbi"
+        ns: "gbi",
       });
 
       if (!this.isPermalink) {
@@ -938,7 +938,7 @@ export default {
         { key: "FLVL", value: this.level - 1 },
         { key: "TLVL", value: this.level },
         { key: "OP", value: this.$data.result.totalPreparations },
-        { key: "LC", value: this.$data.result.cost }
+        { key: "LC", value: this.$data.result.cost },
       ];
       const placesInterpolationValues = [];
       for (let i = 0; i < this.result.investment.length; i++) {
@@ -950,7 +950,7 @@ export default {
           { key: "PV", value: this.result.investment[i].participation, free: this.placeFree[i].state },
           { key: "PP", value: this.result.investment[i].preparation },
           { key: "FLVL", value: this.level - 1 },
-          { key: "TLVL", value: this.level }
+          { key: "TLVL", value: this.level },
         ]);
       }
 
@@ -968,8 +968,8 @@ export default {
       }
       /* istanbul ignore next */
       const elt = defaultTemplateNameRegex.test(this.templateToAdd)
-        ? this.defaultPromotionMessagesTemplates.find(elt => elt.id === this.templateToAdd)
-        : this.customPromotionMessagesTemplates.find(elt => elt.id === this.templateToAdd);
+        ? this.defaultPromotionMessagesTemplates.find((elt) => elt.id === this.templateToAdd)
+        : this.customPromotionMessagesTemplates.find((elt) => elt.id === this.templateToAdd);
       if (!elt) {
         return;
       }
@@ -992,7 +992,7 @@ export default {
       this.$data.investorParticipation.splice(index, 1);
       this.calculate();
     },
-    haveReadTipAboutAddInvestor: /* istanbul ignore next */ function() {
+    haveReadTipAboutAddInvestor: /* istanbul ignore next */ function () {
       if (!this.$store.get("global/haveReadTipAboutAddInvestor")) {
         let self = this;
         this.$buefy.snackbar.open({
@@ -1002,7 +1002,7 @@ export default {
           indefinite: true,
           onAction: () => {
             self.$store.set("global/haveReadTipAboutAddInvestor", true);
-          }
+          },
         });
       }
     },
@@ -1038,9 +1038,9 @@ export default {
       this.updatePromotionMessage();
     },
     getSplittedCustomFields(name) {
-      let fields = this.$data.promotionMessageList[this.$data.promotionMessageList.map(val => val.name).indexOf(name)]
+      let fields = this.$data.promotionMessageList[this.$data.promotionMessageList.map((val) => val.name).indexOf(name)]
         .config.customFields;
-      let result = Object.keys(fields).map(key => {
+      let result = Object.keys(fields).map((key) => {
         return fields[key];
       });
       return Utils.splitArray(result, 2, false);
@@ -1049,58 +1049,58 @@ export default {
       const nbLF = src.match(/\n/gi);
       return nbLF && nbLF.length > 0 ? nbLF.length + 1 : 0;
     },
-    startTour: /* istanbul ignore next */ function() {
+    startTour: /* istanbul ignore next */ function () {
       let tour = new Shepherd.Tour({
         defaultStepOptions: {
           classes: "buefy-theme",
           scrollTo: true,
           showCancelLink: true,
           shepherdElementMaxHeight: "100%",
-          shepherdElementMaxWidth: "100%"
+          shepherdElementMaxWidth: "100%",
         },
         classPrefix: "buefy-",
-        useModalOverlay: true
+        useModalOverlay: true,
       });
 
       const defaultOptions = {
         scrollTo: { behavior: "smooth", block: "center" },
         canClickTarget: false,
         cancelIcon: {
-          enabled: true
+          enabled: true,
         },
         buttons: [
           {
             action: tour.back,
             classes: "button is-info",
-            text: this.$t("utils.Previous")
+            text: this.$t("utils.Previous"),
           },
           {
             action: tour.next,
             classes: "button is-info is-margin-left-auto",
-            text: this.$t("utils.Next")
-          }
-        ]
+            text: this.$t("utils.Next"),
+          },
+        ],
       };
 
       const canShow = {
         rush_1_9: false,
-        snipe: false
+        snipe: false,
       };
 
       const tutoLinks = [
         {
           id: "rush_1_9",
-          stepId: "rush_1_9"
+          stepId: "rush_1_9",
         },
         {
           id: "snipe",
-          stepId: "snipe"
+          stepId: "snipe",
         },
         {
           id: "display_modes",
           stepId: "display_modes",
-          attachTo: { element: "#GBInvestmentVueMode nav", on: "bottom" }
-        }
+          attachTo: { element: "#GBInvestmentVueMode nav", on: "bottom" },
+        },
       ];
 
       const TableColumnData = [
@@ -1108,35 +1108,35 @@ export default {
         {
           i18nKey: "default_rewards",
           stepId: "thDefaultRewards",
-          attachTo: { element: ".tableDataDefaultRewards", on: "top" }
+          attachTo: { element: ".tableDataDefaultRewards", on: "top" },
         },
         {
           i18nKey: "fp_to_put_by_the_owner",
           stepId: "thFpToPutByTheOwner",
-          attachTo: { element: ".tableDataFpToPutByTheOwner", on: "top" }
+          attachTo: { element: ".tableDataFpToPutByTheOwner", on: "top" },
         },
         {
           i18nKey: "rewards_with_rate",
           stepId: "thRewardsWithRate",
-          attachTo: { element: ".tableDataRewardsWithRate", on: "top" }
+          attachTo: { element: ".tableDataRewardsWithRate", on: "top" },
         },
         {
           i18nKey: "fp_already_putin",
           stepId: "thNumberOfFPAlreadyIn",
-          attachTo: { element: ".tableDataNumberOfFPAlreadyIn", on: "top" }
+          attachTo: { element: ".tableDataNumberOfFPAlreadyIn", on: "top" },
         },
         { i18nKey: "spot_snipe", stepId: "thSpotSnipe", attachTo: { element: ".tableDataSpotSnipe", on: "top" } },
         {
           i18nKey: "percentage_investors",
           stepId: "thPercentageInvestors",
-          attachTo: { element: ".tableDataPercentageInvestors", on: "top" }
+          attachTo: { element: ".tableDataPercentageInvestors", on: "top" },
         },
         { i18nKey: "is_sniper", stepId: "thIsSniper", attachTo: { element: ".tableDataIsSniper", on: "top" } },
         {
           i18nKey: "include_in_copy_boxes",
           stepId: "thIncludeInCopyBoxes",
-          attachTo: { element: ".tableDataIncludeInCopyBoxes", on: "top" }
-        }
+          attachTo: { element: ".tableDataIncludeInCopyBoxes", on: "top" },
+        },
       ];
 
       const promotionMessage = [
@@ -1149,9 +1149,9 @@ export default {
         {
           i18nKey: "show_only_secured_places",
           stepId: "pmShowOnlySecuredPlaces",
-          attachTo: { element: "#pmShowOnlySecuredPlaces", on: "top" }
+          attachTo: { element: "#pmShowOnlySecuredPlaces", on: "top" },
         },
-        { i18nKey: "custom_fields", stepId: "pmCustomField", attachTo: { element: ".custom_field", on: "top" } }
+        { i18nKey: "custom_fields", stepId: "pmCustomField", attachTo: { element: ".custom_field", on: "top" } },
       ];
 
       const makeTutoLinks = () => {
@@ -1177,42 +1177,67 @@ export default {
           {
             action: tour.cancel,
             classes: "button is-link is-disabled",
-            text: this.$t("utils.Exit")
+            text: this.$t("utils.Exit"),
           },
           {
             action: tour.next,
             classes: "button is-info is-margin-left-auto",
-            text: this.$t("utils.Next")
-          }
+            text: this.$t("utils.Next"),
+          },
         ],
         when: {
           show() {
             let self = this;
             for (const elt of tutoLinks) {
-              document.getElementById(elt.id).addEventListener("click", e => {
+              document.getElementById(elt.id).addEventListener("click", (e) => {
                 e.preventDefault();
                 canShow[elt.stepId] = true;
                 self.tour.next(elt.stepId);
               });
             }
-          }
-        }
+          },
+        },
       });
+
+      console.log("this.$n(32820): ", this.$n(32820));
 
       // Add extra steps
       for (const elt of tutoLinks) {
+        let text;
+        if (elt.stepId === "rush_1_9") {
+          text = formatTuto(
+            this.$t("components.gb_investment.tutorial.rush_1_9.content", {
+              fp25: this.$tc("utils.FP", 25, { count: this.$n(25) }),
+              fp50: this.$tc("utils.FP", 50, { count: this.$n(50) }),
+              fp12363: this.$tc("utils.FP", 12363, { count: this.$n(12363) }),
+              fp24957: this.$tc("utils.FP", 24957, { count: this.$n(24957) }),
+              fp37320: this.$tc("utils.FP", 37320, { count: this.$n(37320) }),
+              fp64975: this.$tc("utils.FP", 64975, { count: this.$n(64975) }),
+            })
+          );
+        } else if (elt.stepId === "snipe") {
+          text = formatTuto(
+            this.$t("components.gb_investment.tutorial.snipe.content", {
+              fp60: this.$tc("utils.FP", 60, { count: this.$n(60) }),
+              fp1679: this.$tc("utils.FP", 1679, { count: this.$n(1679) }),
+              fp1739: this.$tc("utils.FP", 1739, { count: this.$n(1739) }),
+            })
+          );
+        } else {
+          text = formatTuto(this.$t("components.gb_investment.tutorial." + elt.stepId + ".content"));
+        }
         tour.addStep({
           id: elt.stepId,
-          text: formatTuto(this.$t("components.gb_investment.tutorial." + elt.stepId + ".content")),
+          text,
           title: this.$t("components.gb_investment.tutorial." + elt.stepId + ".title"),
           showOn: () => canShow[elt.stepId],
           ...defaultOptions,
           when: {
             hide() {
               canShow[elt.stepId] = false;
-            }
+            },
           },
-          attachTo: elt.attachTo
+          attachTo: elt.attachTo,
         });
       }
 
@@ -1221,67 +1246,67 @@ export default {
         text: formatTuto(
           this.$t("components.gb_investment.tutorial.gb_select", {
             videoSelect: getVideoTag("/video/select.mp4"),
-            videoAutoComplete: getVideoTag("/video/auto-complete.mp4")
+            videoAutoComplete: getVideoTag("/video/auto-complete.mp4"),
           })
         ),
         attachTo: { element: "#gbListSelect", on: "bottom" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldId",
         text: formatTuto(this.$t("components.gb_investment.tutorial.level")),
         attachTo: { element: "#fieldId", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldInvestorPercentage",
         text: formatTuto(this.$t("components.gb_investment.tutorial.investor_percentage")),
         attachTo: { element: "#fieldInvestorPercentage", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldOwnerInvestment",
         text: formatTuto(this.$t("components.gb_investment.tutorial.owner_investment")),
         attachTo: { element: "#fieldOwnerInvestment", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldAddInvestors",
         text: formatTuto(this.$t("components.gb_investment.tutorial.add_investors")),
         attachTo: { element: "#fieldAddInvestors", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldShowSnipe",
         text: formatTuto(this.$t("components.gb_investment.tutorial.show_snipe")),
         attachTo: { element: "#fieldShowSnipe", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldYourArcBonus",
         text: formatTuto(this.$t("components.gb_investment.tutorial.your_arc_bonus")),
         attachTo: { element: "#fieldYourArcBonus", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "fieldDisplayCard",
         text: formatTuto(this.$t("components.gb_investment.tutorial.display_card")),
         attachTo: { element: "#fieldDisplayCard", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       tour.addStep({
         id: "gbiTable",
         text: formatTuto(this.$t("components.gb_investment.tutorial.table.message")),
         attachTo: { element: ".gbiTable", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       for (const elt of TableColumnData) {
@@ -1289,7 +1314,7 @@ export default {
           id: elt.stepId,
           text: formatTuto(this.$t("components.gb_investment.tutorial.table." + elt.i18nKey)),
           attachTo: elt.attachTo,
-          ...defaultOptions
+          ...defaultOptions,
         });
       }
 
@@ -1297,7 +1322,7 @@ export default {
         id: "giPromotionMessage",
         text: formatTuto(this.$t("components.gb_investment.tutorial.promotion_message.message")),
         attachTo: { element: "#giPromotionMessage", on: "top" },
-        ...defaultOptions
+        ...defaultOptions,
       });
 
       for (const elt of promotionMessage) {
@@ -1305,7 +1330,7 @@ export default {
           id: elt.stepId,
           text: formatTuto(this.$t("components.gb_investment.tutorial.promotion_message." + elt.i18nKey)),
           attachTo: elt.attachTo,
-          ...defaultOptions
+          ...defaultOptions,
         });
       }
 
@@ -1318,14 +1343,14 @@ export default {
           {
             action: tour.back,
             classes: "button is-info",
-            text: this.$t("utils.Previous")
+            text: this.$t("utils.Previous"),
           },
           {
             action: tour.next,
             classes: "button is-link is-margin-left-auto",
-            text: this.$t("utils.Done")
-          }
-        ]
+            text: this.$t("utils.Done"),
+          },
+        ],
       });
 
       let self = this;
@@ -1340,7 +1365,7 @@ export default {
     },
     haveError(input) {
       return this.$data.errors[input] ? "is-danger" : "";
-    }
+    },
   },
   mounted() {
     this.calculate();
@@ -1352,6 +1377,6 @@ export default {
     numberinput,
     PromotionMessageBuilder,
     ImportPromotionMessage,
-    ContentLoader
-  }
+    ContentLoader,
+  },
 };

@@ -1,0 +1,3333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.519Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.519Z\n"
+"Language: nl\n"
+
+msgid "main_menu.home"
+msgstr "Startpagina"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "Over"
+
+msgid "footer_menu.contributors"
+msgstr "Bijdragers"
+
+msgid "footer_menu.changelog"
+msgstr "Wijzigingen"
+
+msgid "footer_menu.contact"
+msgstr "Contact"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Kies een provincie"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Deze provincie bevat één of meer sectoren met ontbrekende gegevens"
+
+msgid "components.campaign_cost.provinces"
+msgstr "Provincies"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Alle provincies"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Alle Tijdperken"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Jouw tijdperk"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Jouw @:(foe_data.gb.Chateau_Frontenac) Boost"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Munten voor de NVF Quest"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Deze waarde moet groter of gelijk zijn aan {min}omdat hieronder geen winst "
+"kan worden gegarandeerd (statistisch)"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Voorraden voor de  NVF Quest"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "GG & Plunder Goederen"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "24 Uurs FP Productie"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Andere dagelijks WQ's"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "Tweede WQ donor?"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Voorraden verzameld"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "BD's"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Medailles"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Goederen"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "FP's"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Dagelijkse NVF Quests: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Bonus NVF Quests: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "2de WQ's afgerond: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Totaal Goederen: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Totaal FP's: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Totaal WQ's afgerond: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Niveau"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Munten terug"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Voorraad terug"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"Met de huidige bonus van @:(foe_data.gb.Chateau_Frontenac), zul je meer "
+"munten en voorraden verdienen, dan dat nodig is om de quest af te ronden. "
+"Kies a.u.b. een aantal "
+"\"@:(components.cf_calculator.block_cfc.infinity_generator.label)\" die je "
+"wilt uitvoeren."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Aaneengesloten Quests"
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Dit programma Is enkel informatief. Het geeft je informatie wat je kan "
+"statistisch bereiken met je @:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"From @:(foe_data.age.LateMiddleAges), you can do a second recurring quest. "
+"Set \"@:(utils.Yes)\" if you want to do the second recurring quest.\n"
+"\n"
+"<i><b>Note</b>: It suppose that the second reccuring quest are: gather X "
+"supplies.</i>."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Vul aantal FP's in die je per 24 uur verzamelt."
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "Hoeveelheid Goederen welke je krijgt bij Plunderen & Incasseren van GG's"
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr "Vul het aantal voorraden in dat je voor alle missies wenst te gebruiken."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "Vul het aantal munten in dat je voor alle missies wenst te gebruiken."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Voer je @:(foe_data.gb.Chateau_Frontenac) boost in.\n"
+"\n"
+"Bijv: bij 450%, voer in: 450."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Kies uw Tijdperk."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr "In dat geval, moet je aangeven hoeveel Quests je wil doen."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr "Vul in hoeveel voorraden je wil gebruiken voor..."
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Kies Groot Gebouw"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"U kunt de stijl van de selector (oude selector of automatisch aanvullen) in "
+"de algemene instellingen wijzigen"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Voer het level ( naar lvl) en  Arc bonus % in. De tabelwaarden worden "
+"automatisch bijgewerkt."
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Let Op</strong>: Als het bijwerken niet automatsch plaats vind, "
+"stel dan eerst het GG niveau en de te investeren hoeveelheid in en klik op "
+"\"@:(components.gb_investment.gb_investment.form.submit_global)\". Om "
+"inviduele waasrden voor elke plaats aan te passen, wijzig de gewenste warde "
+"en klik op "
+"\"@:(components.gb_investment.gb_investment.form.submit_custom)\"."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "GG Niveau (tussen {min} en {max})"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "% Arc bonus"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Globale Berekening"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Aangepaste Berekening"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Aantal FP's dat door de GG eigenaar tot nu is gestort (max. {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr ""
+"Voeg investeerder toe (aantal FP's, $t(utils.between_range, {'min': "
+"'{min}', 'max': '{max}'}))"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Klik op de knop \"@:(utils.Add)\" of druk op de \"Enter\" -toets om een "
+"investeerder toe te voegen"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Lijst van toegevoegde investeerders"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Toon P veilig/Snipe winst"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Toon alleen beveiligde plaatsen"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Toon tabel in kaart overzicht (klein scherm)"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} niveau {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Posities"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Standaard beloningen"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "FP's van de eigenaar om positie veilig te stellen"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Beloning incl. Arc bonus"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "% Arc bonus"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Positie vrij "
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Aantal FP's reeds gestort"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Safe/profit"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "FP verkregen met verwachte eigenaar Arc Bonus %"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "FP verkregen met jouw Arc bonus %"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Potentiele Sniper?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Extra investeerder tonen"
+msgstr[1] "Extra investeerders tonen"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Extra investeerder verbergen"
+msgstr[1] "Extra investeerders verbergen"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Deze speler verliest FP"
+msgstr[1] "Deze speler verliest FP's"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "De door de eigenaar nog te storten FPs om de plaats veilig te stellen"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Verwachte investering"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Deze speler maakt (FP) winst"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Deze speler maakt geen winst of verlies"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Totale investering door eigenaar"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "Aantal FP's over om het niveau af te ronden: {count}"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Kosten niveau"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "GG Naam weergeven?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "GG Afkorting gebruiken?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Level tonen?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Promotie bericht"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "tekst voor het promotion promotie"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "tekst na het promotion promotie"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P1({investment})\n"
+"P2({investment})\n"
+"P3 ({investment})\n"
+"P4 ({investment})\n"
+"P5 ({investment})"
+
+msgid "components.gb_investment_investors.description.p1"
+msgstr ""
+"Deze weergave maakt het mogelijk de winst te zien die kan worden verkregen "
+"door een plaats in te nemen met of zonder rekening te houden met "
+"investeringen op andere plaatsen. Er zijn {count} soorten overwegingen van "
+"andere plaatsen:"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"label"
+msgstr "Neem andere plaatsen in overweging?"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Plaats weergeven"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Normaal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Optimaal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "hou geen rekening met andere plaatsen"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"Rekening houden met de andere plaatsen met een minimale investering van "
+"investeerders en zonder te beveiligen door de eigenaar"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.optimal"
+msgstr ""
+"Rekening houden met de andere plaatsen met een investering zonder winst van "
+"de investeerders en met het veiligstellen door de eigenaar"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Plaats {count}"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Winst / Verlies"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Prognose"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Bepaal het aantal FP's om van het ene naar het andere niveau te gaan, met "
+"of zonder de Arc bonus."
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Aangepaste Arc bonus (voor elke positie)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Schat tijd om het volgende niveau te halen"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] "Inclusief bonus investeringen, bespaar je {count} FP"
+msgstr[1] "Inclusief bonus investeringen, bespaar je {count} FP's"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"Om Van - Tot level(s) {level} van \"{gb}\" af te ronden, moet de eigenaar "
+"{preparation} FP's investeren. Totale kosten van niveau: {cost} FP's."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"Om van level {from} naar {to} te gaan van \"{gb}\", moet de eigenaar "
+"{preparation} FP's investeren. Totale kosten van niveau: {cost} FP's."
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "Geschatte tijd om het niveau te halen: {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "Reeds door de eigenaar geïnvesteerde FP's voor het huidige niveau"
+
+msgid "components.gb_forecast_cost.graph.title"
+msgstr "Prognose van de te investeren hoeveelheden voor \"{gb}\""
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Bruto kosten van het niveau"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Investering zonder bonus"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Investering met bonus"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"De grafieken zijn op basis van het tijdperk, omdat de kosten / opbrengsten "
+"van de GG's voor ieder tijdperk het zelfde zijn, op een enkel uitzonderlijk "
+"geval na (@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_statistics.represent"
+msgstr "Represent:"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Evolutie van de kosten van de niveaus t.o.v. de niveaus"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Evolutie van de opbrengst van de eerste positie t.o.v. de niveaus"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr ""
+"Evolutie van de kosten van de niveaus t.o.v. de opbrengst van de eerste "
+"positie"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr ""
+"Evolutie van de opbrengst van de eerste positie t.o.v. de kosten van de "
+"niveaus"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] "FP over om het niveau af te ronden: {count}"
+msgstr[1] "Hoeveelheid FP's over om het niveau af te ronden: {count}"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] "{place}({count} FP)"
+msgstr[1] "{place}({count} FP's)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Positie veilig stellen"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Kosten niveau"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Som van de actuele stortingen"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Jouw actuele bijdrage"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "Bijdrage van de in te halen speler"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Jouw Arc bonus"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "FP's van de beoogde positie"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Beoogde positie"
+
+msgid "components.secure_position.block_place.various_rate"
+msgstr "Verschillende tarieven"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Bonus"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "FP te storten afhankelijk van % Arc Bonus"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "FP te storten om P (Plek) veilig te stellen"
+
+msgid "components.secure_position.block_place.result.default"
+msgid_plural "components.secure_position.block_place.result.default"
+msgstr[0] "Stort totaal {count} FP om positie veilig te stellen."
+msgstr[1] "Je moet totaal {count} FP's hebben gestort om de positie veilig te stellen."
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] "FP te storten om je plaats veilig te stellen:"
+msgstr[1] "FPs te storten om je plaats veilig te stellen:"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgid_plural "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr[0] "Je moet nog {count} FP storten."
+msgstr[1] "Je moet nog {count} FP's storten."
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Één of meer waarden zijn niet geldig."
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgid_plural "components.secure_position.block_place.result.roi.profit"
+msgstr[0] "Je zult {count} FP winnen"
+msgstr[1] "Je zult {count} FP's winnen"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] "Je verliest {count} FP"
+msgstr[1] "Je verliest {count} FP's"
+
+msgid "components.secure_position.block_place.result.roi.neutral"
+msgstr "Je zult geen winst op je investering ontvangen"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "Je positie is veilig."
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "Aantal FP's nog te storten"
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Je kunt de positie niet veilig stellen."
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "onbekend"
+
+msgid "components.simple_trade.title"
+msgstr "Tabellen versie"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Tijdperk"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Goederen"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Resultaat"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Verdelen"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Verhouding"
+
+msgid "components.simple_trade.slpit"
+msgstr "De aanbiedingen verdelen?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "verhouding weergeven"
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "Een set tools om het leven op @:(common.links.foe) te versimpelen."
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"Als je doorgaat met het gebruik van @:(common.site_title), stem je in met "
+"het gebruik van cookies."
+
+msgid "components.site_layout.cookie.link"
+msgstr "Meer informatie"
+
+msgid "components.site_layout.new_year.message"
+msgid_plural "components.site_layout.new_year.message"
+msgstr[0] "@:(common.site_title) viert het {count} jaar"
+msgstr[1] "@:(common.site_title) viert zijn {count} jaar"
+
+msgid "components.site_layout.survey.message"
+msgstr ""
+"Help ons om @:(common.site_title) te verbeteren door deze enquête in te "
+"vullen"
+
+msgid "components.site_layout.whats_new"
+msgstr "Wat is er nieuw ?"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"Je bezoekt een permalink. Daardoor zullen de wijzigingen niet worden "
+"opgeslagen in een cookie."
+
+msgid "components.site_layout.footer.license_html"
+msgstr "Broncode onder @:(common.links.mit) licentie"
+
+msgid "components.site_layout.footer.version"
+msgstr "Versie {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "Dag"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Begin van de dag"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Nacht"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Begin van de nacht"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"Automatisch "
+"@:(components.site_layout.day_night.Day)/@:(components.site_layout.day_"
+"night.Night)"
+
+msgid "components.site_layout.global_config"
+msgstr "Algemene instellingen"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "Hoofdmenu altijd zichtbaar"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "GG Selectie methode"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Automatisch aanvullen"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Selecteer (oude stijl)"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Thema"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Dag"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Nacht"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "automatisch"
+
+msgid "components.site_layout.switch_locale"
+msgstr "@:(common.site_title) is beschikbaar in uw taal"
+
+msgid "components.trade.title"
+msgstr "Formulier versie"
+
+msgid "components.trade.label.i_have"
+msgstr "ik heb"
+
+msgid "components.trade.label.i_want"
+msgstr "ik wil"
+
+msgid "components.trade.label.amount"
+msgstr "Bedrag"
+
+msgid "components.trade.split_value"
+msgstr "Maximumgrootte van een aanbieding (max {count})"
+
+msgid "components.trade.split_message.msg"
+msgstr "{valueFrom} {ageFrom} voor {valueTo} {ageTo}"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) and {secondPart}"
+
+msgid "components.trade.message.result"
+msgstr ""
+"Voor {to} goederen van {ageTo} heeft u {from}goederen van  {ageFrom} nodig "
+"met aanbiedingen tot {count}:"
+
+msgid "components.trade.message.total"
+msgstr "(totaal: {amount} {key})"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Promotie bericht builder"
+
+msgid "components.promotion_message_builder.info"
+msgstr ""
+"Dit kan worden gekopieerd om te worden gedeeld, bijvoorbeeld met uw "
+"gildeleden"
+
+msgid "components.promotion_message_builder.note"
+msgstr ""
+"Merk op dat de messagebuilder niveau 9 → 10 gebruikt van "
+"@:(foe_data.gb.Observatory) met een ratio van 1,9 voor preview."
+
+msgid "components.promotion_message_builder.action"
+msgstr "Actie"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Maak een nieuwe sjabloon"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Update een bestaande sjabloon"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Een bestaande sjabloon verwijderen"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Begin met een sjabloon?"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Kies de sjabloon om te bewerken"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Kies de sjabloon die u wilt verwijderen"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Standaard sjablonen"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Aangepaste sjablonen"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Configuratie"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Voeg aangepaste velden toe"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Veldnaam"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Veldwaarde"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Uw aangepaste velden"
+
+msgid "components.promotion_message_builder.use_short_name"
+msgstr "@:(components.gb_investment.gb_investment.use_short_name)"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Plaatsen omkeren?"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Plaats scheidingsteken"
+
+msgid "components.promotion_message_builder.place_builder"
+msgstr "Plaatsen bouwer"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Plaats preview (1e plaats)"
+
+msgid "components.promotion_message_builder.message_builder"
+msgstr "Berichtmaker"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Bericht voorbeeld"
+
+msgid "components.promotion_message_builder.place_builder_title"
+msgstr "Plaats builder"
+
+msgid "components.promotion_message_builder.message_builder_title"
+msgstr "Berichtmaker"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Beschikbare variabelen:"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Plaats de index"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Waarde plaats (in FPs)"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Van niveau"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Naar niveau"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "GG naam"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Posities"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr ""
+"Aantal PF's te storten door de eigenaar voor plaats \"x\" (met \"x\" van 1 "
+"tot 5)"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Enter, Voeg nieuwe regel toe"
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Sjabloonnaam"
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Sjabloon kan deze naam niet hebben. Gebruik alstublieft een andere naam."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "De naam van het veld mag niet leeg zijn."
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Deze veldnaam bestaat al."
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Sjabloon opgeslagen"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Sjabloon bijgewerkt"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Sjabloon verwijderd"
+
+msgid "components.import_promotion_message.title"
+msgstr "Promotiebericht importeren"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Plak je configuratie hier"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Gegevens zijn ongeldig"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Sjabloon geïmporteerd"
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.title"
+msgstr "Over @:(common.site_title)"
+
+msgid "routes.about.general_info.title"
+msgstr "Algemene informatie"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Forge of Empires, FOE, en alle andere gerelateerde handelsmerken en content "
+"zijn eigendom van InnoGames GmbH. <br/> @:(common.site_title) is een "
+"onofficiele site van een derde partij en heeft geen binding met InnoGames."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"@:(common.site_title) was gecreeerd door de Franse speler <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"De site is OpenSource en de broncode is vrij verkrijgbaar op "
+"@:(common.links.github). <br/> Dus, iedereen met de benodigde kennis kan "
+"meehelpen deze site te verbeteren."
+
+msgid "routes.about.cookie.title"
+msgstr "Cookies"
+
+msgid "routes.about.cookie.p1"
+msgstr "Om het gebruiksgemak te verhogen, gebruikt deze site cookies."
+
+msgid "routes.about.cookie.table_message"
+msgstr "De onderstaande tabel toont alle cookies die op deze site worden gebruikt."
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr ""
+"Geeft aan of u het informatiebericht over het gebruik van cookies hebt "
+"gelezen"
+
+msgid "routes.about.cookie.info.gbi_tab"
+msgstr ""
+"Globale parameter voor \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"die aangeeft welk tabblad standaard moet worden geladen "
+"(@:(routes.gb_investment.tab.owner_view.title), etc.)."
+
+msgid "routes.about.cookie.info.gbPrefix"
+msgstr ""
+"Globale parameter voor \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"die het voorvoegsel voor het promotiebericht bevat"
+
+msgid "routes.about.cookie.info.gbSuffix"
+msgstr ""
+"Globale parameter voor \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"die het achtervoegsel voor het promotiebericht bevat"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Taal"
+
+msgid "routes.about.cookie.info.shortName"
+msgstr ""
+"Globale parameter voor \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"die aangeeft of de GG-korte naam voor het promotiebericht moet worden "
+"weergegeven"
+
+msgid "routes.about.cookie.info.showLevel"
+msgstr ""
+"Globale parameter voor \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"die aangeeft of het GG-niveau voor het promotiebericht moet worden "
+"weergegeven"
+
+msgid "routes.about.cookie.info.yourArcBonus"
+msgstr "Algemene instelling die jouw Arc bonus instelt"
+
+msgid "routes.about.cookie.info.yourCfBoost"
+msgstr "Algemene instelling voor uw Château Frontenac bonus"
+
+msgid "routes.about.cookie.info.haveReadTipAboutAddInvestor"
+msgstr ""
+"Geeft aan of u het informatiebericht hebt gelezen over de tip om bijdragers "
+"toe te voegen"
+
+msgid "routes.about.cookie.info.dayNightMode"
+msgstr "Geeft aan welke dag / nachtmodus u gebruikt"
+
+msgid "routes.about.cookie.info.dayStart"
+msgstr ""
+"Tijd gebruikt voor het begin van de dag (gebruikt in "
+"\"@:(components.site_layout.day_night.Auto)\")"
+
+msgid "routes.about.cookie.info.nightStart"
+msgstr ""
+"Tijd gebruikt voor het begin van de nacht (gebruikt in "
+"\"@:(components.site_layout.day_night.Auto)\")"
+
+msgid "routes.about.cookie.info.showSnipe"
+msgstr ""
+"Toon / verberg Spot / Snipe (gebruikt in "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.coins"
+msgstr "@:(components.cf_calculator.block_cfc.coins_to_use)"
+
+msgid "routes.about.cookie.info.fpBy24h"
+msgstr "@:(components.cf_calculator.block_cfc.fp_by_24h)"
+
+msgid "routes.about.cookie.info.goods"
+msgstr "@:(components.cf_calculator.block_cfc.gb_plunder_goods)"
+
+msgid "routes.about.cookie.info.otherRq"
+msgstr "@:(components.cf_calculator.block_cfc.other_rq)"
+
+msgid "routes.about.cookie.info.cumulativeQuest"
+msgstr "Cumulatief aantal missies"
+
+msgid "routes.about.cookie.info.secondRq"
+msgstr "@:(components.cf_calculator.block_cfc.second_rq)"
+
+msgid "routes.about.cookie.info.supplies"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_to_use)"
+
+msgid "routes.about.cookie.info.suppliesGathered"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_gathered)"
+
+msgid "routes.about.cookie.info.yourAge"
+msgstr "@:(components.cf_calculator.block_cfc.your_age)"
+
+msgid "routes.about.cookie.info.investorPercentageCustom_x"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th5)"
+
+msgid "routes.about.cookie.info.investorPercentageGlobal"
+msgstr "@:(components.gb_investment.gb_investment.form.investor_percentage)"
+
+msgid "routes.about.cookie.info.investorParticipation_x"
+msgstr "Verwachte bijdrage van investeerders wanneer de plaats geen FP's oplevert"
+
+msgid "routes.about.cookie.info.level"
+msgstr "GG level"
+
+msgid "routes.about.cookie.info.ownerInvestment"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "routes.about.cookie.info.showPx"
+msgstr "Geef aan of de plaats in het promotiebericht moet worden weergegeven"
+
+msgid "routes.about.cookie.info.takingPlaceInConsideration"
+msgstr ""
+"In tab \"@:(routes.gb_investment.tab.investors_view.title)\" van "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\", geeft aan of de andere "
+"plaatsen in aanmerking moeten worden genomen bij de berekening"
+
+msgid "routes.about.cookie.info.targetLevel"
+msgstr ""
+"In het tabblad \"@:(routes.gb_investment.tab.investors_view.title)\" van "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\", geeft aan vanaf welk "
+"niveau de informatie in de tabel moet worden weergegeven"
+
+msgid "routes.about.cookie.info.displayGbName"
+msgstr "Geef aan of de GG naam in het promotiebericht moet worden weergegeven"
+
+msgid "routes.about.cookie.info.investorParticipation"
+msgstr "Bevat een lijst met alle toegevoegde investeerders"
+
+msgid "routes.about.cookie.info.displayTableCard"
+msgstr ""
+"Geef aan of de tabel in \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"wordt weergegeven in de eenvoudige modus (tabel) of in de kaartweergave op "
+"een klein scherm"
+
+msgid "routes.about.cookie.info.from"
+msgstr ""
+"Niveau waar de lijst moet beginnen (gebruikt in het tabblad "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" of "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.to"
+msgstr ""
+"Niveau waar de lijst moet eindigen (gebruikt in het tabblad "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" of "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.showPlace"
+msgstr ""
+"Een array die aangeeft of een plaats moet worden weergegeven of niet "
+"(gebruikt in het tabblad "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" of "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.survey"
+msgstr "Een overzicht met alle door u voltooide enquêtes"
+
+msgid "routes.about.cookie.info.fixedMainMenu"
+msgstr "Geeft aan of het hoofdmenu altijd zichtbaar is of niet"
+
+msgid "routes.about.cookie.info.gbSelectMode"
+msgstr "Geeft aan welke GG Select-modus u gebruikt"
+
+msgid "routes.about.cookie.info.haveReadLocaleInfoAvailable"
+msgstr ""
+"Geeft aan of u de informatie hebt gelezen over het feit dat de site "
+"beschikbaar is in uw taal"
+
+msgid "routes.about.cookie.info.promotionMessageList"
+msgstr "Bevat de lijst met promotiebericht die u wilt weergeven"
+
+msgid "routes.about.cookie.info.customPromotionMessagesTemplates"
+msgstr "Bevat al uw aangepaste promotiebericht"
+
+msgid "routes.about.cookie.info.gbShowPrefix"
+msgstr "Geeft aan of u het voorvoegsel in promotieberichten wilt weergeven"
+
+msgid "routes.about.cookie.info.gbShowSuffix"
+msgstr "Geeft aan of u het achtervoegsel in promotieberichten wilt weergeven"
+
+msgid "routes.about.cookie.info.lastVisitVersion"
+msgstr "Bevat de versie van de site van uw laatste bezoek"
+
+msgid "routes.about.dev_info.title"
+msgstr "Ontwikkel informatie"
+
+msgid "routes.about.dev_info.p1"
+msgstr "De site is een simpele statische website welke op GitHub wordt gehost."
+
+msgid "routes.about.dev_info.p2_html"
+msgstr ""
+"De ontwikkeling vind plaats m.b.v. Node.js en maakt gebruik van "
+"@:(common.links.framework). De stijl is m.b.v. @:(common.links.style) "
+"gemaakt."
+
+msgid "routes.about.dev_info.p3_html"
+msgstr ""
+"Een idee voor een functionaliteit? Een probleem ? Wees zo vrij om een issue "
+"op @:(common.links.github) aan te maken of mij een email (in het Engels of "
+"Frans) te sturen op @:(common.links.contact_foe_tools)."
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>NB:</b> Aangaande issues op GitHub, schrijf deze in de Engelse taal om "
+"er zeker van te zijn dat nagenoeg iedereen het kan begrijpen."
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)| @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Campagnekosten"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr "Deze tool berekend de kosten van een sector of provincie. "
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Château Frontenac Calculator"
+
+msgid "routes.cf_calculator.hero.subtitle"
+msgstr ""
+"En tool welke help om de goederen en FP productie te voorspellen, welke "
+"voortvloeien uit wederkerende quests en de nietverjaardagsfeest quests "
+"(Rinbin)."
+
+msgid "routes.changelog.title"
+msgstr "Changelog | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Bijdragers"
+
+msgid "routes.contributors.hero.subtitle"
+msgstr "Deze pagina doet een poging om alle bijdragers te vermelden"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.gb_investment.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Weergave Eigenaar"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Weergave Investeerders"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "GG Investering"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Deze tool helpt een speler te berekenen wanneer en hoeveel FP's in een GG "
+"moeten worden geïnvesteerd om de eerste 5 posities veilig te stellen "
+"afhankelijk van de Arc bonus percentage. (Arc bonus)."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Kies een Groot Gebouw"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "GG kosten prognose"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Met behulp van deze tool wordt het inzichtelijk hoeveel FP's er nodig zijn "
+"om van het ene naar het andere level te gaan, met of zonder de Arc bonus."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "GG Statistieken"
+
+msgid "routes.gb_statistics.hero.subtitle"
+msgstr ""
+"Met deze tool wordt de evolutie van de kosten van een GG t.o.v. een "
+"tijdperk gevisualiseerd."
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Positie veiligstellen"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Met deze tool is te berekenen hoeveel FP's een speler moet investeren om "
+"zijn/haar positie veilig te stellen."
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title)| @:(common.site_title)"
+
+msgid "routes.trade.hero.title"
+msgstr "Handel"
+
+msgid "routes.trade.hero.subtitle"
+msgstr ""
+"Deze tool vergemakkelijkt uw handel door u de beste tarieven aan te bieden "
+"volgens uw manier van handelen."
+
+msgid "routes.trade.tab.trade_2_1.title"
+msgstr "2:1"
+
+msgid "routes.trade.tab.trade_2_1.message"
+msgstr ""
+"Eenvoudige handel, ratio 1 voor 1 met goederen van hetzelfde tijdperk en 1 "
+"voor 2 om goederen te krijgen met één tijdperkverschil."
+
+msgid "routes.trade.tab.fair_trade.title"
+msgstr "Eerlijke handel"
+
+msgid "routes.trade.tab.fair_trade.message"
+msgstr ""
+"Dit type transactie houdt rekening met de productiekosten van een goed "
+"(munten en voorraden) om de waardeverhouding tussen de goederen te bepalen."
+
+msgid "routes.help_to_translate_the_site.title"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)| @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.hero.title"
+msgstr "Helpen bij het vertalen van de site"
+
+msgid "routes.help_to_translate_the_site.hero.subtitle"
+msgstr "Word lid van het vertaalteam"
+
+msgid "routes.help_to_translate_the_site.p1"
+msgstr ""
+"Uw taal is niet beschikbaar, de vertaling is onvolledig of bevat fouten? "
+"Voel je vrij om deel te nemen aan het vertaalteam van de site."
+
+msgid "routes.help_to_translate_the_site.how_to_join_the_team"
+msgstr "Hoe wordt je lid van het team?"
+
+msgid "routes.help_to_translate_the_site.p2_html"
+msgstr ""
+"@:(common.site_title) wordt vertaald door gebruikers. We gebruiken het "
+"@:(common.links.translation_platform)-platform om het vertaalproces te "
+"vergemakkelijken. Om lid te worden van het team, stuur een e-mail (in het "
+"Engels) naar @:(common.links.contact_foe_tools) met de taal (talen) waarin "
+"u kunt vertalen, zodat we u een uitnodiging kunnen sturen."
+
+msgid "routes.survey.title"
+msgstr "@:(routes.survey.hero.title)| @:(common.site_title)"
+
+msgid "routes.survey.hero.title"
+msgstr "Enquête"
+
+msgid "routes.survey.hero.subtitle"
+msgstr "Help om @:(common.site_title) te verbeteren door deze enquête in te vullen"
+
+msgid "routes.survey.required_field"
+msgstr "Dit veld is verplicht"
+
+msgid "routes.survey.survey_complete"
+msgstr "Bedankt voor je feedback!"
+
+msgid "routes.survey.error"
+msgstr "Er is een fout opgetreden, controleer het formulier en probeer het opnieuw"
+
+msgid "routes.survey.unknown_error"
+msgstr "Er is een onbekende fout opgetreden, neem contact op met de sitebeheerder"
+
+msgid "routes.contact.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.contact.hero.title"
+msgstr "Contact"
+
+msgid "routes.contact.hero.subtitle"
+msgstr "Neem contact op met de beheerder van @:(common.site_title)"
+
+msgid "routes.contact.message_contact_html"
+msgstr ""
+"Een idee voor betere functionaliteit? Een probleem ? Stuur mij een email "
+"(in het Engels of Frans) op @:(common.links.contact_foe_tools)."
+
+msgid "routes.contact.message_translate"
+msgstr ""
+"Wist u dat u ook kunt helpen de site te vertalen? Volg de volgende link "
+"voor meer informatie:"
+
+msgid "routes.contact.message_other_info_html"
+msgstr ""
+"Als u ontwikkelaars bent, kunt u ook een probleem (en een bijdrage aan de "
+"ontwikkeling van de site) maken op @:(common.links.github)."
+
+msgid "routes.error.404.title"
+msgstr "Pagina niet gevonden | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Sorry, de gezochte pagina bestaat niet of niet meer"
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge) (@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "Geen Tijdperk"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Bronstijd"
+
+msgid "foe_data.age.IronAge"
+msgstr "IJzertijd"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Vroege Middeleeuwen"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Hoge Middeleeuwen"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Late Middeleeuwen"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "Koloniale Tijdperk"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Industriële Tijdperk"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "Progressieve Tijdperk"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Moderne Tijdperk"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Postmoderne Tijdperk"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Hedendaagse Tijdperk"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Morgen"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Toekomst"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Arctische Toekomst"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Oceanische Toekomst"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Virtuele toekomst"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Ruimtetijdperk: Mars"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "Geen TP"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "Brons"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "IJzer"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "VME"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "HME"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "LME"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "Kolo"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "Indu"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "Prog"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "Modern"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "PMT"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "HDT"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "Morgen"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "TK"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "AT"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "OT"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "VT"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "Mars"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Sterrenwacht"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Reliekentempel"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Orakel van Delphi"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Toren van Babel"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Standbeeld van Zeus"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Colosseum"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Pharos van Alexandrië"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Hagia Sophia"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Dom van Aken"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Basiliek van San Marco"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Notre Dame"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Basiliuskathedraal"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel del Monte"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Deal Castle"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Frauenkirche van Dresden"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Capitool"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Château Frontenac"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Alcatraz"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Space Needle"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Cape Canaveral"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "Habitat"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Lotus Tempel"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Innovation Tower"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Dynamic Tower"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "Arc"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Regenwoudproject"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Gaia-standbeeld"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Arctische Oranjerie"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Zadenkluis"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Atlantis-Museum"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "De Kraken"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "De Blauwe Melkweg"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Terracotta Leger"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Himeji Kasteel "
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "Het Virgo Project"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Sterrenkijker"
+
+msgid "foe_data.gb.Space_Carrier"
+msgstr "Ruimtevrachtschip"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "SW"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "RT"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "Delphi"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "TvB"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Zeus"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Colosseum"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "PvA"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "HS"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "DvA"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "BSM"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "ND"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "BK"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "CDM"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "DC"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "FoD"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "CAP"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "RAH"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "CF"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Alca"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "SN"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Atom"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Cape"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Hab"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "LT"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Inno"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "DT"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Voyager"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Arc"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "RWP"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Gaia"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "AO"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "ZK"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "AM"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "BMW"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "TL"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "Himeji"
+
+msgid "foe_data.gb_short.The_Virgo_Project"
+msgstr "Virgo"
+
+msgid "foe_data.gb_short.Star_Gazer"
+msgstr "Gazer"
+
+msgid "foe_data.gb_short.Space_Carrier"
+msgstr "Vrachtschip"
+
+msgid "foe_data.goods.dye"
+msgstr "verf"
+
+msgid "foe_data.goods.lumber"
+msgstr "Hout"
+
+msgid "foe_data.goods.marble"
+msgstr "Marmer"
+
+msgid "foe_data.goods.stone"
+msgstr "Steen"
+
+msgid "foe_data.goods.wine"
+msgstr "Wijn"
+
+msgid "foe_data.goods.cloth"
+msgstr "Doek"
+
+msgid "foe_data.goods.ebony"
+msgstr "Ebbehout"
+
+msgid "foe_data.goods.iron"
+msgstr "IJzer"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Juwelen"
+
+msgid "foe_data.goods.limestone"
+msgstr "Kalksteen"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Albast"
+
+msgid "foe_data.goods.copper"
+msgstr "Koper"
+
+msgid "foe_data.goods.gold"
+msgstr "Goud"
+
+msgid "foe_data.goods.granite"
+msgstr "Graniet"
+
+msgid "foe_data.goods.honey"
+msgstr "Honing"
+
+msgid "foe_data.goods.brick"
+msgstr "Steen"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Gedroogde kruiden"
+
+msgid "foe_data.goods.glass"
+msgstr "Glas"
+
+msgid "foe_data.goods.rope"
+msgstr "Touw"
+
+msgid "foe_data.goods.salt"
+msgstr "Zout"
+
+msgid "foe_data.goods.basalt"
+msgstr "basalt"
+
+msgid "foe_data.goods.brass"
+msgstr "Geelkoper"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Buskruit"
+
+msgid "foe_data.goods.silk"
+msgstr "Zijde"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Talkpoeder"
+
+msgid "foe_data.goods.coffee"
+msgstr "Koffie"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Porselein"
+
+msgid "foe_data.goods.paper"
+msgstr "Papier"
+
+msgid "foe_data.goods.tar"
+msgstr "Teer"
+
+msgid "foe_data.goods.wire"
+msgstr "IJzerdraad"
+
+msgid "foe_data.goods.coke"
+msgstr "Cokes"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Kunstmest"
+
+msgid "foe_data.goods.rubber"
+msgstr "Rubber"
+
+msgid "foe_data.goods.textiles"
+msgstr "Textiel"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Walvistraan"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Asbest"
+
+msgid "foe_data.goods.explosives"
+msgstr "Explosieven"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Benzine"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Machine onderdelen"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Tinplaat"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Kant-en-klaargerechten"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "gewapend beton"
+
+msgid "foe_data.goods.flavorants"
+msgstr "smaakstoffen"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Luxe materialen"
+
+msgid "foe_data.goods.packaging"
+msgstr "Verpakkingen"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Genoomgegevens"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Industriële filters"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Hernieuwbare bronnen"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Semiconductors"
+
+msgid "foe_data.goods.steel"
+msgstr "Staal"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Bionische gegevens"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "elektromagneten"
+
+msgid "foe_data.goods.gas"
+msgstr "Gas"
+
+msgid "foe_data.goods.plastics"
+msgstr "Kunststoffen"
+
+msgid "foe_data.goods.robots"
+msgstr "Robots"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Voedingsgegevens"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Papierbeton"
+
+msgid "foe_data.goods.preservatives"
+msgstr "conserveringsmiddelen"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Slimme materialen"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Doorzichtig beton"
+
+msgid "foe_data.goods.algae"
+msgstr "algen"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Biogeochemische data"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "nanodeeltjes"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Gezuiverd water"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Supergeleider"
+
+msgid "foe_data.goods.ai_data"
+msgstr "A.I. Gegevens"
+
+msgid "foe_data.goods.bioplastics"
+msgstr "bioplastics"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Nanodraad"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Papieren accu's"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Transestergas"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Kunstmatige schubben"
+
+msgid "foe_data.goods.biolight"
+msgstr "Biolichten"
+
+msgid "foe_data.goods.corals"
+msgstr "koraal"
+
+msgid "foe_data.goods.pearls"
+msgstr "Parels"
+
+msgid "foe_data.goods.plankton"
+msgstr "Plankton"
+
+msgid "foe_data.goods.promethium"
+msgstr "Promethium"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Orichalcum"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Cryptomunten"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Datakristallen"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Gouden rijst"
+
+msgid "foe_data.goods.nanites"
+msgstr "nanieten"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Theezijde"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymir"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "East-Nagach"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "West-Nagach"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todepass"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mons Suiry"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Cragshire"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Eldenborough"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Cuttingham"
+
+msgid "foe_data.province.Spearth"
+msgstr "Spearth"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Wolvhampton"
+
+msgid "foe_data.province.FourGallows"
+msgstr "FourGallows"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Mount Killmore"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "RavensCreek"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Houndsmoor"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Zaldon-on-Sea"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Grand Cap"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Northcastle"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Queenshope"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Ashcrook"
+
+msgid "foe_data.province.Narcien"
+msgstr "Narcien"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Lavignon"
+
+msgid "foe_data.province.Troulope"
+msgstr "Troulope"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Deuxerres"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Lombardeaux"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Pisterrac"
+
+msgid "foe_data.province.Varseille"
+msgstr "Varseille"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Haulenois"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "NewCragshire"
+
+msgid "foe_data.province.Okahe"
+msgstr "Okahe"
+
+msgid "foe_data.province.Rantford"
+msgstr "Rantford"
+
+msgid "foe_data.province.Desperation"
+msgstr "Desperation"
+
+msgid "foe_data.province.St_Marque"
+msgstr "St.Marque"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Las Penas"
+
+msgid "foe_data.province.DragonCity"
+msgstr "DragonCity"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Garrincton"
+
+msgid "foe_data.province.ElFuego"
+msgstr "ElFuego"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "SantaCatalina"
+
+msgid "foe_data.province.Dorango"
+msgstr "Dorango"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Nevarrone"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Embruniez"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Gabordeaux"
+
+msgid "foe_data.province.Ydine"
+msgstr "Ydine"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Wenoevre"
+
+msgid "foe_data.province.Havre"
+msgstr "Havre"
+
+msgid "foe_data.province.Omoien"
+msgstr "Omoien"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Uxrow"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Gaelford"
+
+msgid "foe_data.province.Sud"
+msgstr "Sud"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Kriegreich"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Ostrand"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Langenreich"
+
+msgid "foe_data.province.Uceria"
+msgstr "Uceria"
+
+msgid "foe_data.province.Gorski"
+msgstr "Gorski"
+
+msgid "foe_data.province.Inashu"
+msgstr "Inashu"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Natsuishu"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Chigikawa"
+
+msgid "foe_data.province.Igujima"
+msgstr "Igujima"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Kyushima"
+
+msgid "foe_data.province.Igioka"
+msgstr "Igioka"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Igamoto"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Higematsu"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Kibakuguchi"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Hiromaguchi"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Toimuro"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "CaiChetNui"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "SotDamLay"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "DayDuAo"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "TrungDoi"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "KhayHuyenBayGio"
+
+msgid "foe_data.province.RungTrai"
+msgstr "RungTrai"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "RungChienDau"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "GiaiCuuBinhMinh"
+
+msgid "foe_data.province.PhucKich"
+msgstr "PhucKich"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "MauMatDat"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "DongBangSong"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "OngChuCuoiCung"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Amaryah City"
+
+msgid "foe_data.province.Khail"
+msgstr "Khail"
+
+msgid "foe_data.province.Batif"
+msgstr "Batif"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Hafar Al Karak"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Al-Shadyra"
+
+msgid "foe_data.province.Salfah"
+msgstr "Salfah"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Ain Al-Khansa"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Suqqah"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Shayhour"
+
+msgid "foe_data.province.Kardad"
+msgstr "Kardad"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Qumeira"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Jandahar"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Torrinhos"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Villabaja"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Itabarai"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Bajatai"
+
+msgid "foe_data.province.Villariba"
+msgstr "Villariba"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Rio Roxo"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Sierra Torrido"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Santa Nerea"
+
+msgid "foe_data.province.La_Huega"
+msgstr "La Huega"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Jamenez"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Falsa Cruz"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Desierto de la Muerte"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Sao Malvado"
+
+msgid "foe_data.province.Agadar"
+msgstr "Agadar"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Esan-Ewu"
+
+msgid "foe_data.province.Omogba"
+msgstr "Omogba"
+
+msgid "foe_data.province.Owopele"
+msgstr "Owopele"
+
+msgid "foe_data.province.Jak"
+msgstr "Jak"
+
+msgid "foe_data.province.Pala"
+msgstr "Pala"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Kolabourg"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Bontaville"
+
+msgid "foe_data.province.Botuku"
+msgstr "Botuku"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Kalabuye"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Bisoraba"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Fort Buntu"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Nutarniq"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Iluliaq"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Aurora's Dale"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Cold Bay"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Arctic Horizon"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Tuklavik"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ananevut"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Qaniit"
+
+msgid "foe_data.province.White_Gate"
+msgstr "White Gate"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Snowdrifts"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Median Waters"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Frosty Mountain"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Southern Valley"
+
+msgid "foe_data.province.Ilug"
+msgstr "Ilug"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Chugiak"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Kesukavut"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Adlartok"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Northern Passage"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Avalanche"
+
+msgid "foe_data.province.Manirak"
+msgstr "Manirak"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Tundra Rock"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Patuktuq"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Summit Ice"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Kilalurak"
+
+msgid "foe_data.province.Nilak"
+msgstr "Nilak"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Chulyin"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Tattilgat"
+
+msgid "foe_data.province.Atka"
+msgstr "Atka"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Pimniq"
+
+msgid "foe_data.province.Anyu"
+msgstr "Anyu"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Glaciale piek"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Nunataq"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Nanuq"
+
+msgid "foe_data.province.Precipice"
+msgstr "Afgrond"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Unalaq"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Neural Rites"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Frozen Steppe"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "The Grotto"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Temple Floe"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Spirit Plane"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Murky Waters"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Cursed Current"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Coral Depths"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Rough Expanse"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Strong Tide"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Dark Abyss"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Fresh Flow"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Tideless Deep"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Glimmering Surf"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Serene Waves"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Red Sea"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Wondering Ocean"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Foam Ceiling"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Walled Gulf"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Lower Grotto"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Silver Swarms"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Upper Grotto"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Rocky Domain"
+
+msgid "foe_data.province.Nautical_Parlay"
+msgstr "Nautical Parlay"
+
+msgid "foe_data.province.Restless_Buoy"
+msgstr "Restless Buoy"
+
+msgid "foe_data.province.Ripped_Sails"
+msgstr "Ripped Sails"
+
+msgid "foe_data.province.Nautilus_Mirage"
+msgstr "Nautilus Mirage"
+
+msgid "foe_data.province.Ravenous_Tides"
+msgstr "Ravenous Tides"
+
+msgid "foe_data.province.Deep_Dive"
+msgstr "Deep Dive"
+
+msgid "foe_data.province.Furious_Storm"
+msgstr "Furious Storm"
+
+msgid "foe_data.province.Silver_Crest"
+msgstr "Silver Crest"
+
+msgid "foe_data.province.Grey_Clouds"
+msgstr "Grey Clouds"
+
+msgid "foe_data.province.Translucent_Algae"
+msgstr "Translucent Algae"
+
+msgid "foe_data.province.Treacherous_Surf"
+msgstr "Treacherous Surf"
+
+msgid "foe_data.province.Single_Wave"
+msgstr "Single Wave"
+
+msgid "foe_data.province.Cursed_Lip"
+msgstr "Cursed Lip"
+
+msgid "foe_data.province.Coral_Kingdom"
+msgstr "Coral Kingdom"
+
+msgid "foe_data.province.Telescopic_Barrel"
+msgstr "Telescopic Barrel"
+
+msgid "foe_data.province.Sponge_Sands"
+msgstr "Sponge Sands"
+
+msgid "foe_data.province.Seagull_Domain"
+msgstr "Seagull Domain"
+
+msgid "foe_data.province.Tangled_Fins"
+msgstr "Tangled Fins"
+
+msgid "foe_data.province.Scuba_Bay"
+msgstr "Scuba Bay"
+
+msgid "foe_data.province.Tide_Ascent"
+msgstr "Tide Ascent"
+
+msgid "foe_data.province.Breakwater_Wharf"
+msgstr "Breakwater Wharf"
+
+msgid "foe_data.province.Adrift_Liner"
+msgstr "Adrift Liner"
+
+msgid "foe_data.province.Bermuda_Quay"
+msgstr "Bermuda Quay"
+
+msgid "foe_data.province.Sextant_Mast"
+msgstr "Sextant Mast"
+
+msgid "foe_data.province.Grog_Wash"
+msgstr "Grog Wash"
+
+msgid "foe_data.province.R_lyeh_Reef"
+msgstr "R'lyeh Reef"
+
+msgid "foe_data.province.Capricorn_Waterway"
+msgstr "Capricorn Waterway"
+
+msgid "foe_data.province.Barnacle_Deck"
+msgstr "Barnacle Deck"
+
+msgid "foe_data.province.Ahab_s_Tomb"
+msgstr "Ahab's Tomb"
+
+msgid "foe_data.province.Galley_Commodore"
+msgstr "Galley Commodore"
+
+msgid "foe_data.province.Adamastor"
+msgstr "Adamastor"
+
+msgid "foe_data.province.Deadeye_Admiral"
+msgstr "Deadeye Admiral"
+
+msgid "foe_data.province.Monkey_s_Fist"
+msgstr "Monkey's Fist"
+
+msgid "foe_data.province.Dagon_s_Dagger"
+msgstr "Dagon's Dagger"
+
+msgid "foe_data.province.Sunken_Leviathan"
+msgstr "Sunken Leviathan"
+
+msgid "foe_data.province.Raging_Tides"
+msgstr "Raging Tides"
+
+msgid "foe_data.province.Buccaneer_Plateau"
+msgstr "Buccaneer plateau"
+
+msgid "foe_data.province.Craggy_Cay"
+msgstr "Craggy Cay"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Behemoth"
+
+msgid "foe_data.province.Privateer_Helm"
+msgstr "Privateer Helm"
+
+msgid "foe_data.province.Medusa_Cove"
+msgstr "Medusa Cove"
+
+msgid "foe_data.province.Man_O_War"
+msgstr "Man-O-War"
+
+msgid "foe_data.province.Nemo_s_Dock"
+msgstr "Nemo's Dock"
+
+msgid "foe_data.province.Anchorage_Ruin"
+msgstr "Anchorage Ruin"
+
+msgid "foe_data.province.Ahoy_Alee"
+msgstr "Ahoy Alee"
+
+msgid "foe_data.province.Ursula_s_Valley"
+msgstr "Ursula's Valley"
+
+msgid "foe_data.province.Dungbie_Trough"
+msgstr "Dungbie Trough"
+
+msgid "foe_data.province.Idlers_Range"
+msgstr "Idlers Range"
+
+msgid "foe_data.province.Wherry_Gap"
+msgstr "Wherry Gap"
+
+msgid "foe_data.province.Nock_s_Turn"
+msgstr "Nock's Turn"
+
+msgid "foe_data.province.Scuttle_Ridge"
+msgstr "Scuttle Ridge"
+
+msgid "foe_data.province.Ghost_Trench"
+msgstr "Ghost Trench"
+
+msgid "foe_data.province.Scurvy_Atoll"
+msgstr "Scurvy Atoll"
+
+msgid "foe_data.province.Capsize_Lagoon"
+msgstr "Capsize Lagoon"
+
+msgid "foe_data.province.Undertow_Bank"
+msgstr "Undertow Bank"
+
+msgid "foe_data.province.Neptune_s_Galleon"
+msgstr "Neptune's Galleon"
+
+msgid "foe_data.province.Seafarer_s_Current"
+msgstr "Seafarer's Current"
+
+msgid "foe_data.province.Blackwater_Cape"
+msgstr "Blackwater Cape"
+
+msgid "foe_data.province.Leviathan_Wreck"
+msgstr "Leviathan Wreck"
+
+msgid "foe_data.province.Typhoon_Peninsula"
+msgstr "Typhoon Peninsula"
+
+msgid "foe_data.province.Corsair_s_Skerry"
+msgstr "Corsair's Skerry"
+
+msgid "foe_data.province.Mutiny_Canyon"
+msgstr "Mutiny Canyon"
+
+msgid "foe_data.province.Bytedirt_Planes"
+msgstr "Bytedirt Planes"
+
+msgid "foe_data.province.End_of_the_Void"
+msgstr "End of the Void"
+
+msgid "foe_data.province.Banker_s_Heaven"
+msgstr "Banker's Heaven"
+
+msgid "foe_data.province.Shift_Land"
+msgstr "Shift/Land"
+
+msgid "foe_data.province.Black_Net_Market"
+msgstr "Black Net Market"
+
+msgid "foe_data.province.Pulse_City"
+msgstr "Pulse City"
+
+msgid "foe_data.province.Max_s_Shelter"
+msgstr "Max's Shelter"
+
+msgid "foe_data.province.The_Open_Zone"
+msgstr "The Open Zone"
+
+msgid "foe_data.province.The_Warring_Towers"
+msgstr "The Warring Towers"
+
+msgid "foe_data.province.Forgotten_Fragments"
+msgstr "Forgotten Fragments"
+
+msgid "foe_data.province.Backup_NET"
+msgstr "Backup:NET"
+
+msgid "foe_data.province.Spoiled_Resort"
+msgstr "Spoiled Resort"
+
+msgid "foe_data.province.Fort_Duplex"
+msgstr "Fort Duplex"
+
+msgid "foe_data.province.LoneHub"
+msgstr "LoneHub"
+
+msgid "foe_data.province.Alpha_1_Omega_2"
+msgstr "Alpha 1 Omega 2"
+
+msgid "foe_data.province.Ray_s_Ray_s"
+msgstr "Ray's Ray's"
+
+msgid "foe_data.province.Purple_Palace"
+msgstr "Purple Palace"
+
+msgid "foe_data.province.Three_Oc3ans"
+msgstr "Three Oc3ans"
+
+msgid "foe_data.province.Vortex"
+msgstr "Vortex"
+
+msgid "foe_data.province.Twisted_Alps"
+msgstr "Twisted Alps"
+
+msgid "foe_data.province.Archives_of_Junkman"
+msgstr "Archives of Junkman"
+
+msgid "foe_data.province.Frozen_RAM"
+msgstr "Frozen RAM"
+
+msgid "foe_data.province.Cas_Cade"
+msgstr "Cas.Cade"
+
+msgid "foe_data.province.The_Historical_Museum"
+msgstr "The Historical Museum"
+
+msgid "foe_data.province.Aerial_Boulevard"
+msgstr "Aerial Boulevard"
+
+msgid "foe_data.province.Slate_13"
+msgstr "Slate 13"
+
+msgid "foe_data.province.New_final_final_exe"
+msgstr "New_final_final.exe"
+
+msgid "foe_data.province.Bizarre_Plains"
+msgstr "Bizarre Plains"
+
+msgid "foe_data.province.Argus__Watch"
+msgstr "Argus' Watch"
+
+msgid "foe_data.province.Berta_s_Byte_Sauce"
+msgstr "Berta's Byte-Sauce"
+
+msgid "foe_data.province.Veil_of_Bits"
+msgstr "Veil of Bits"
+
+msgid "foe_data.province.Harvey_s_Low_Core"
+msgstr "Harvey's Low Core"
+
+msgid "foe_data.province.The_Byte_Parade"
+msgstr "The Byte Parade"
+
+msgid "foe_data.province.Reboot_Bay"
+msgstr "Reboot Bay"
+
+msgid "foe_data.province.Streaming_Forest"
+msgstr "Streaming Forest"
+
+msgid "foe_data.province.CMYK_Citadel"
+msgstr "CMYK Citadel"
+
+msgid "foe_data.province.Forgify"
+msgstr "Forgify"
+
+msgid "foe_data.province.Digital_Town_of_Hope"
+msgstr "Digital Town of Hope"
+
+msgid "foe_data.province.Cloud_One"
+msgstr "Cloud One"
+
+msgid "foe_data.province.Re_Birth"
+msgstr "Re:Birth"
+
+msgid "foe_data.province.Castle_You_Es_Bee"
+msgstr "Castle You-Es-Bee"
+
+msgid "foe_data.province.NET_MASKerade"
+msgstr "NET MASKerade"
+
+msgid "foe_data.province.If_Then_Whatever"
+msgstr "If, Then, Whatever"
+
+msgid "foe_data.province.The_Virtual_Cliffs_of_G0r3"
+msgstr "The Virtual Cliffs of G0r3"
+
+msgid "foe_data.province.The_Church_of_Games"
+msgstr "The Church of Games"
+
+msgid "foe_data.province.The_Sacred_Database"
+msgstr "The Sacred Database"
+
+msgid "foe_data.province.Game_Over"
+msgstr "Game Over"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Munt"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Voorraad"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Goed"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Speciale goederen"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Productiebonus"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Uitbreiding"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Medaille"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "Diamant"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "PvP-toren"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Blauwdruk"
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Militaire bonus"
+
+msgid "foe_data.bonus.military_boost.gb_description"
+msgstr ""
+"Verhoogt de aanvals- en verdedigingsbonus voor eenheden in aanvallend "
+"leger. Wordt verhoogd met ieder level"
+
+msgid "foe_data.bonus.fierce_resistance.name"
+msgstr "Felle tegenstand"
+
+msgid "foe_data.bonus.fierce_resistance.gb_description"
+msgstr ""
+"Verhoogt de aanvals- en verdedigingsbonus voor eenheden in het verdedigende "
+"leger en verhoogt de gilde ondersteuningspoolbonus. "
+
+msgid "foe_data.bonus.coin_boost.name"
+msgstr "Muntenbonus"
+
+msgid "foe_data.bonus.coin_boost.gb_description"
+msgstr "Verhoogt de eerste 90 inzamelingen van munten met een bepaald percentage, "
+
+msgid "foe_data.bonus.supply_boost.name"
+msgstr "Voorraadbonus"
+
+msgid "foe_data.bonus.supply_boost.gb_description"
+msgstr "Verhoogt de eerste x inzamelingen van voorraden met een bepaald percentage"
+
+msgid "foe_data.bonus.good_production.name"
+msgstr "Goederen productie"
+
+msgid "foe_data.bonus.good_production.gb_description"
+msgstr ""
+"Produceert elke 24 uur een bepaald aantal goederen vanaf uw huidige "
+"Tijdperk. Vanaf Modern Tijdperk produceert het dubbele aantal in "
+"ongeraffineerde goederen."
+
+msgid "foe_data.bonus.medal_production.name"
+msgstr "Medaille productie"
+
+msgid "foe_data.bonus.medal_production.gb_description"
+msgstr "Produceert elke 24 uur een bepaald aantal medailles."
+
+msgid "foe_data.bonus.research.name"
+msgstr "Onderzoek"
+
+msgid "foe_data.bonus.research.gb_description"
+msgstr "Produceert elke 24 uur een klein aantal Forge points."
+
+msgid "foe_data.bonus.coin_production.name"
+msgstr "Muntenproductie"
+
+msgid "foe_data.bonus.coin_production.gb_description"
+msgstr "Produceert elke 24 uur een bepaald aantal munten."
+
+msgid "foe_data.bonus.supply_production.name"
+msgstr "Voorradenproductie"
+
+msgid "foe_data.bonus.supply_production.gb_description"
+msgstr "Produceert elke 24 uur een bepaalde hoeveelheid voorraden."
+
+msgid "foe_data.bonus.population.name"
+msgstr "Bevolking"
+
+msgid "foe_data.bonus.population.gb_description"
+msgstr "Permanente bevolkingsbonus."
+
+msgid "foe_data.bonus.happiness.name"
+msgstr "Tevredenheid"
+
+msgid "foe_data.bonus.happiness.gb_description"
+msgstr "Permanente tevredenheidsbonus."
+
+msgid "foe_data.bonus.quest_reward_boost.name"
+msgstr "Extra missiebeloning"
+
+msgid "foe_data.bonus.quest_reward_boost.gb_description"
+msgstr ""
+"Verhoogt alleen je munten, voorraden, goederen, medailles of diamanten uit "
+"missiebeloningen."
+
+msgid "foe_data.bonus.penal_unit.name"
+msgstr "Militaire eenheid"
+
+msgid "foe_data.bonus.penal_unit.gb_description"
+msgstr ""
+"Rekruteert elke 24 uur onafhankelijke eenheden, willekeurig gekozen uit een "
+"militair gebouw in jouw stad."
+
+msgid "foe_data.bonus.guild_goods.name"
+msgstr "Gilde goederen"
+
+msgid "foe_data.bonus.guild_goods.gb_description"
+msgstr ""
+"Produceert goederen uit het huidige tijdperk die rechtstreeks naar de "
+"gildekas gaan."
+
+msgid "foe_data.bonus.support_pool_bonus.name"
+msgstr "ondersteuningspoolbonus"
+
+msgid "foe_data.bonus.support_pool_bonus.gb_description"
+msgstr ""
+"Verhoogt de ondersteuningspoolbonus van je gilde, Gaat omhoog met ieder "
+"level"
+
+msgid "foe_data.bonus.aid_goods.name"
+msgstr "Hulpgoederen"
+
+msgid "foe_data.bonus.aid_goods.gb_description"
+msgstr ""
+"Produceert 1 willekeurig goed bij het helpen van een andere speler "
+"(handmatig motiveren / opknappen geldt ook als hulp). Het tijdperk van het "
+"willekeurige goed komt overeen met het tijdperk van het gebouw dat u helpt."
+
+msgid "foe_data.bonus.plunder_goods.name"
+msgstr "Goederen plunderen"
+
+msgid "foe_data.bonus.plunder_goods.gb_description"
+msgstr ""
+"Voor de eerste drie plunderingen bij buren, geeft dit gebouw een bepaald "
+"aantal willekeurige bonus goederen. Het tijdperk van het geplunderde gebouw "
+"bepaalt het tijdperk van de bonus goederen."
+
+msgid "foe_data.bonus.contribution_boost.name"
+msgstr "Bijdragebeloning"
+
+msgid "foe_data.bonus.contribution_boost.gb_description"
+msgstr ""
+"Verhoogt de Forge points, medailles en blauwdrukken die u ontvangt van "
+"bijdrage beloningen."
+
+msgid "foe_data.bonus.aid_blueprints.name"
+msgstr "Hulpblauwdrukken"
+
+msgid "foe_data.bonus.aid_blueprints.gb_description"
+msgstr ""
+"Verhoogt de kans op het verkrijgen van een blauwdruk bij het helpen van een "
+"andere speler (handmatig motiveren / opknappen geldt ook als hulp). D.W.Z. "
+"Als u een bonus van 100% heeft, verdubbelt u uw kans om een blauwdruk te "
+"vinden."
+
+msgid "foe_data.bonus.relic_hunt.name"
+msgstr "Reliekenjacht"
+
+msgid "foe_data.bonus.relic_hunt.gb_description"
+msgstr ""
+"Geeft je de mogelijkheid om relieken te winnen op de Gilde-Expeditie kaart, "
+"wanneer je een ontmoeting met succes hebt opgelost. Relieken zijn erg "
+"waardevol en kunnen in 3 verschillende zeldzaamheden voorkomen. Elk niveau "
+"vergroot de kans om een reliek te vinden, maar ook de kansen om een "
+"ongewone of zeldzame relikwie te vinden, in tegenstelling tot een gewone."
+
+msgid "foe_data.bonus.critical_hit.name"
+msgstr "Critical Hit"
+
+msgid "foe_data.bonus.critical_hit.gb_description"
+msgstr ""
+"Geeft alle eenheden de kans om 1,5 keer de verwachte schade te verwerken "
+"bij het aanvallen van eenheden van hetzelfde tijdperk. Kritieke slag werkt "
+"ook tegen Reactief pantser (als verwachte schade 4-4 is, zal een kritieke "
+"slag 6-6 schade aanrichten). Schurken (en andere no-age-eenheden) worden "
+"niet beïnvloed / kunnen dit vermogen niet gebruiken tot ze in een andere "
+"eenheid veranderen. Een kritieke treffer van ten minste 11 schade zal een "
+"eenheid doden, zelfs met de moraalbonus. Deze bonus is van toepassing op "
+"alle aanvallende legers plus je verdedigende leger in PvP. De kritieke "
+"treffer zal niet gebeuren wanneer een eenheid wraak neemt."
+
+msgid "foe_data.bonus.helping_hands.name"
+msgstr "Helpende hand"
+
+msgid "foe_data.bonus.helping_hands.gb_description"
+msgstr ""
+"Geeft je een bepaalde kans om een willekeurige bonus te krijgen wanneer je "
+"de stad van een andere speler helpt (handmatig motiveren / polijsten geldt "
+"ook als hulp). Je kunt goederen ontvangen van je huidige leeftijd, "
+"benodigdheden, munten, medailles of zelfs diamanten."
+
+msgid "foe_data.bonus.plunder_and_pillage.name"
+msgstr "Plunderen"
+
+msgid "foe_data.bonus.plunder_and_pillage.gb_description"
+msgstr ""
+"Geeft je een bepaalde kans om het dubbele van de middelen te krijgen "
+"wanneer je de stad van een buurman plundert nadat je met succes zijn "
+"verdediging hebt verslagen. Het verdubbelt alle middelen die je kunt "
+"plunderen, inclusief Forge Points en Gilde Power."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "Eerste slag"
+
+msgid "foe_data.bonus.first_strike.gb_description"
+msgstr ""
+"Geeft je de kans dat aan het begin van de volgende gevechten, een eenheid "
+"van de vijand's verdedigend leger direct wordt gedood. Dit geldt alleen "
+"voor de eerste golf van een gevecht."
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Dubbele inzameling"
+
+msgid "foe_data.bonus.double_collection.gb_description"
+msgstr ""
+"Geeft u een kans om het dubbele van de middelen te krijgen in de eerste "
+"verzamelde gebouwen. Exclusief militaire en grote gebouwen. Verfrist met "
+"elke verzameling van dit gebouw."
+
+msgid "utils.content.tools"
+msgstr "Tools"
+
+msgid "utils.content.statistics"
+msgstr "Statistieken"
+
+msgid "utils.btn_calculate"
+msgstr "Berekenen"
+
+msgid "utils.description.p1"
+msgstr "Voer andere waarden in. Het resultaat wordt automatisch bijgewerkt."
+
+msgid "utils.description.p2_html"
+msgstr ""
+"<strong>NB</strong>: Als het resultaat niet automatisch wordt bijgewerkt, "
+"klik op \"@:(utils.btn_calculate)\"."
+
+msgid "utils.choose_age"
+msgstr "Kies een Tijdperk"
+
+msgid "utils.permalink"
+msgstr "Permalink"
+
+msgid "utils.Add"
+msgstr "Toevoegen"
+
+msgid "utils.Remove"
+msgstr "Verwijderen"
+
+msgid "utils.Yes"
+msgstr "Ja"
+
+msgid "utils.No"
+msgstr "Nee"
+
+msgid "utils.Ok"
+msgstr "Oké"
+
+msgid "utils.Copy"
+msgstr "Kopiëren"
+
+msgid "utils.Copyed"
+msgstr "Gekopieerd !"
+
+msgid "utils.Information"
+msgstr "Informatie"
+
+msgid "utils.From"
+msgstr "Van"
+
+msgid "utils.To"
+msgstr "Tot (max {max})"
+
+msgid "utils.Prefix"
+msgstr "Voorvoegsel"
+
+msgid "utils.Suffix"
+msgstr "Achtervoegsel"
+
+msgid "utils.Path"
+msgstr "Pad"
+
+msgid "utils.Name"
+msgstr "Naam"
+
+msgid "utils.Description"
+msgstr "Beschrijving"
+
+msgid "utils.Rewards"
+msgstr "beloningen"
+
+msgid "utils.Cost"
+msgstr "Kosten"
+
+msgid "utils.Conquered"
+msgstr "veroverde"
+
+msgid "utils.Total"
+msgstr "Totaal"
+
+msgid "utils.Secured"
+msgstr "Beveiligd"
+
+msgid "utils.Reset"
+msgstr "Reset"
+
+msgid "utils.Confirm"
+msgstr "Bevestigen"
+
+msgid "utils.Close"
+msgstr "Sluiten"
+
+msgid "utils.Result"
+msgstr "Resultaat"
+
+msgid "utils.between_range"
+msgstr "tussen {min} en {max}"
+
+msgid "utils.Submit"
+msgstr "versturen"
+
+msgid "utils.Reset_values"
+msgstr "Reset waarden"
+
+msgid "utils.Switch"
+msgstr "omzetten"
+
+msgid "utils.Save"
+msgstr "bewaar"
+
+msgid "utils.Show"
+msgstr "Tonen"
+
+msgid "utils.Hide"
+msgstr "Verbergen"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Dit veld kan niet leeg zijn"
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] "{count} jaar"
+msgstr[1] "{count} jaren"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] "{count} maand"
+msgstr[1] "{count} maanden"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] "{count} dag"
+msgstr[1] "{count} dagen"
+
+msgid "utils.graph.gb_level"
+msgstr "Niveau"
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Kosten niveau"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "Opbrengst niveau (1e positie)"
+
+msgid "contributions.blog"
+msgstr "Blog berichten"
+
+msgid "contributions.bug"
+msgstr "Foutmeldingen"
+
+msgid "contributions.code"
+msgstr "Code"
+
+msgid "contributions.design"
+msgstr "Ontwerp"
+
+msgid "contributions.doc"
+msgstr "Documentatie"
+
+msgid "contributions.eventOrganizing"
+msgstr "Evenement organiseren"
+
+msgid "contributions.example"
+msgstr "Voorbeelden"
+
+msgid "contributions.financial"
+msgstr "financieel"
+
+msgid "contributions.fundingFinding"
+msgstr "Financiering vinden"
+
+msgid "contributions.ideas"
+msgstr "Ideeën, planning en feedback"
+
+msgid "contributions.infra"
+msgstr "Infrastructuur (Hosting, Build-Tools, enz.)"
+
+msgid "contributions.platform"
+msgstr "Migratie / porteren naar nieuw platform"
+
+msgid "contributions.plugin"
+msgstr "Plugin / utility libraries"
+
+msgid "contributions.question"
+msgstr "Vragen beantwoorden"
+
+msgid "contributions.review"
+msgstr "Reviewed Pull Requests"
+
+msgid "contributions.talk"
+msgstr "Talks"
+
+msgid "contributions.test"
+msgstr "Tests"
+
+msgid "contributions.tool"
+msgstr "Tools"
+
+msgid "contributions.translation"
+msgstr "Translation"
+
+msgid "contributions.tutorial"
+msgstr "Tutorials"
+
+msgid "contributions.video"
+msgstr "Videos"
+
+msgid "contributions.data"
+msgstr "Gegevens toevoegen of bijwerken"
+
+msgid "contributions.inspired_tool"
+msgstr "Tool inspired by his work"
+
+msgid "contributions.creator"
+msgstr "Creator of this project"
+
+msgid "seo.keywords.gb"
+msgstr "GG"
+
+msgid "seo.keywords.great_building"
+msgstr "groots gebouw"
+
+msgid "seo.keywords.fp"
+msgstr "fp"
+
+msgid "seo.keywords.forge_point"
+msgstr "forge punt"
+
+msgid "seo.keywords.medals"
+msgstr "medailles"
+
+msgid "seo.keywords.military_units"
+msgstr "militaire eenheden"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] ""
+msgstr[1] "{count}updates sinds uw laatste bezoek."

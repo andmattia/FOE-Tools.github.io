@@ -17,7 +17,7 @@ const QUERY_KEY = {
   showPlace: urlPrefix + "sp",
   customPercentage: urlPrefix + "cp",
   investorPercentageGlobal: urlPrefix + "ipg",
-  investorPercentageCustom: urlPrefix + "pc"
+  investorPercentageCustom: urlPrefix + "pc",
 };
 
 const MAX_TAKING_PLACE_IN_CONSIDERATION = 2;
@@ -31,7 +31,7 @@ const INPUT_COMPARATOR = {
   yourArcBonus: { comparator: [">=", 0], type: "float" },
   takingPlaceInConsideration: { comparator: [0, MAX_TAKING_PLACE_IN_CONSIDERATION], type: "int" },
   investorPercentageGlobal: { comparator: [">=", 0], type: "float" },
-  investorPercentageCustom: { comparator: [">=", 0], type: "float" }
+  investorPercentageCustom: { comparator: [">=", 0], type: "float" },
 };
 
 export default {
@@ -39,12 +39,12 @@ export default {
   props: {
     gb: {
       type: Object,
-      required: true
+      required: true,
     },
     canPermalink: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   data() {
     const maxLevel = this.$props.gb.levels.length;
@@ -106,41 +106,41 @@ export default {
         to: false,
         yourArcBonus: false,
         percentageValueGlobal: false,
-        takingPlaceInConsideration: false
-      }
+        takingPlaceInConsideration: false,
+      },
     };
 
     Object.assign(data, this.checkQuery(data.maxLevel, data.from, data.to, data.customPercentage));
     this.$store.commit("ADD_URL_QUERY", {
       key: QUERY_KEY.from,
       value: data.from,
-      ns: "gbii"
+      ns: "gbii",
     });
     this.$store.commit("ADD_URL_QUERY", { key: QUERY_KEY.to, value: data.to, ns: "gbii" });
     this.$store.commit("ADD_URL_QUERY", {
       key: QUERY_KEY.yourArcBonus,
       value: data.yourArcBonus,
-      ns: "gbii"
+      ns: "gbii",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: QUERY_KEY.investorPercentageGlobal,
       value: data.investorPercentageGlobal,
-      ns: "gbii"
+      ns: "gbii",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: QUERY_KEY.cp,
       value: data.customPercentage ? 1 : 0,
-      ns: "gbii"
+      ns: "gbii",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: QUERY_KEY.takingPlaceInConsideration,
       value: data.takingPlaceInConsideration,
-      ns: "gbii"
+      ns: "gbii",
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: QUERY_KEY.showPlace,
       value: JSON.stringify(data.showPlace),
-      ns: "gbii"
+      ns: "gbii",
     });
 
     oldInvestorPercentageCustom = this.$clone(data.investorPercentageCustom);
@@ -155,18 +155,18 @@ export default {
       set(val) {
         this.checkFrom(val + 1);
         oldFromInput = val + 1;
-      }
+      },
     },
     isPermalink: get("isPermalink"),
     permaLink() {
       return {
         name: "GbInvestment",
         params: {
-          gb: this.gb.key
+          gb: this.gb.key,
         },
-        query: this.$store.getters.getUrlQuery("gbii")
+        query: this.$store.getters.getUrlQuery("gbii"),
       };
-    }
+    },
   },
   watch: {
     from(val, oldVal) {
@@ -189,7 +189,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: QUERY_KEY.from,
           value: val,
-          ns: "gbii"
+          ns: "gbii",
         });
         this.updateGlobalProfitLoss();
       }
@@ -219,7 +219,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: QUERY_KEY.to,
           value: val,
-          ns: "gbii"
+          ns: "gbii",
         });
         this.updateGlobalProfitLoss();
       }
@@ -241,7 +241,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: QUERY_KEY.takingPlaceInConsideration,
           value: val,
-          ns: "gbii"
+          ns: "gbii",
         });
         this.compute();
       }
@@ -266,7 +266,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: QUERY_KEY.yourArcBonus,
           value: val,
-          ns: "gbii"
+          ns: "gbii",
         });
         this.compute();
       }
@@ -293,14 +293,14 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: QUERY_KEY.investorPercentageGlobal,
           value: val,
-          ns: "gbii"
+          ns: "gbii",
         });
 
         for (let index = 0; index < this.$data.investorPercentageCustom.length; index++) {
           this.$store.commit("UPDATE_URL_QUERY", {
             key: QUERY_KEY.investorPercentageCustom + (index + 1),
             value: val,
-            ns: "gbii"
+            ns: "gbii",
           });
           this.$data.investorPercentageCustom[index] = val;
         }
@@ -335,7 +335,7 @@ export default {
           this.$store.commit("UPDATE_URL_QUERY", {
             key: QUERY_KEY.investorPercentageCustom + (index + 1),
             value: val[index],
-            ns: "gbii"
+            ns: "gbii",
           });
         }
         if (!this.isPermalink) {
@@ -353,7 +353,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: QUERY_KEY.customPercentage,
         value: val ? 1 : 0,
-        ns: "gbii"
+        ns: "gbii",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -369,7 +369,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: QUERY_KEY.investorPercentageCustom + (i + 1),
           value: this.$data.investorPercentageCustom[i],
-          ns: "gbii"
+          ns: "gbii",
         });
       }
     },
@@ -377,7 +377,7 @@ export default {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: QUERY_KEY.showPlace,
         value: JSON.stringify(val),
-        ns: "gbii"
+        ns: "gbii",
       });
       if (!this.isPermalink) {
         this.$store.set(
@@ -387,7 +387,7 @@ export default {
           this.$clone(Utils.normalizeBooleanArray(val))
         );
       }
-    }
+    },
   },
   methods: {
     normalizedFrom() {
@@ -527,7 +527,7 @@ export default {
       this.$data.result.globalProfitLoss = [];
       const tmpMap = this.$data.result.slice(this.$data.from - 1, this.$data.to);
       for (let i = 0; i < 5; i++) {
-        this.$data.result.globalProfitLoss.push(tmpMap.map(k => k.investment[i].roi).reduce((i, j) => i + j, 0));
+        this.$data.result.globalProfitLoss.push(tmpMap.map((k) => k.investment[i].roi).reduce((i, j) => i + j, 0));
       }
     },
 
@@ -586,13 +586,13 @@ export default {
 
       Vue.set(this.$data, "result", result);
       this.updateGlobalProfitLoss();
-    }
+    },
   },
   mounted() {
     this.compute();
   },
   components: {
     gbListSelect,
-    YesNo
-  }
+    YesNo,
+  },
 };

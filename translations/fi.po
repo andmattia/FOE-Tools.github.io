@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.223Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.223Z\n"
+"Language: fi\n"
+
+msgid "components.cf_calculator.tutorial.dailyUbq"
+msgstr ""
+"Kuinka monta Syntymättömyyspäivä tehtävää saat suoritettua käyttämilläsi "
+"kolikoilla ja tarvikkeilla."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr "Kuinka monta toistuvaa tehtävää saat (tilastollisesti) suoritettua."
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Kuinka paljon TP saat tehtävistä, HR:stä, jne."
+
+msgid "components.cf_calculator.tutorial.totalGoods"
+msgstr "Kuinka paljon tavaroita saat tehtävistä, HR:stä, jne."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"Tämä taulukko näyttää ansaitsemasi palkinnot. Muista että arvot pohjautuvat "
+"empiiriseen todennäköisyyteen."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr "Siinä tapauksessa, aseta kuinka monta toistuvaa tehtävää haluat tehdä."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Tämä osio näkyy vain kun sinun @:(foe_data.gb.Chateau_Frontenac) kerroin "
+"(aikakauden mukaan) antaa sinulle tilastollisesti enemmän kolikoita ja "
+"tarvikkeita kuin käytät."
+
+msgid "components.cf_calculator.tutorial.otherRq"
+msgstr "Aseta kuinka paljon muita toistuvia tehtäviä olet tehnyt."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr "Syötä kuinka paljon tarvikkeita haluat käyttää toiseen toistuvaan tehtävään."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"@:(foe_data.age.LateMiddleAges) alkaen voit tehdä toista toistuvaa "
+"tehtävää. Aseta \"@:(utils.Yes)\" jos haluat sen laskuihin mukaan.\n"
+"\n"
+"<i><b>HUOM</b>: Järjestelmä olettaa että toinen toistuva tehtävä on: kerää "
+"X tarvikkeita.</i>."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Syötä kuinka paljon tulee TP 24 tunnissa."
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "Syötä kuinka paljon saat tavaroita HR:stä ja ryöstöretkiltä."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr "Syötä kuinka paljon haluat käyttää tarvikkeita tehtäviin."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "Syötä kuinka paljon haluat käyttää kolikoita tehtäviin."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Syötä @:(foe_data.gb.Chateau_Frontenac) kerroin.\n"
+"\n"
+"Esim: CF kerroin 450%, laita 450."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Valitse aikakausi."
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Tämä työkalu on epävirallinen. Se vain kertoo mitä voit todennäköisesti "
+"saada @:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"Tässä taulukossa on kuinka paljon saat kolikoita ja tarvikkeita "
+"tilastollisesti alkuperäisestä panoksestasi (siis kuinka paljon laitoit "
+"kolikoita ja tarvikkeita käytettäväksi)."
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr "Toisen kierroksen toistuvien tehtävien määrä."
+
+msgid "components.cf_calculator.tutorial.bonusUbq"
+msgstr ""
+"Näin monta Syntymättömyyspäivä-tehtävää voit (tilastollisesti) tehdä "
+"kolikko ja tarvike panoksellasi ja mitä saat takaisin."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "toistuvaa tehtävää"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"@:(foe_data.gb.Chateau_Frontenac) bonuksella tienaat enemmän kolikoita ja "
+"tarvikkeita kuin käytät. Ole hyvä ja valitse montako "
+"\"@:(components.cf_calculator.block_cfc.infinity_generator.label)\" haluat "
+"tehdä."
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Tarvikkeita tehtävistä"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Kolikoita tehtävistä"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Taso"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Rinbin-tehtäviä tehty: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "TP yhteensä: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Tavaroita yhteensä: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Toisia tehtäviä: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Lisätehtäviä: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Rinbin-tehtäviä: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "TP"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Tavaroita"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Mitaleita"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Piirustuksia"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Tarvikkeita saatu"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "Toinen toistuva tehtävä ruutu?"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Muut toistuvat tehtävät"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "24h TP tuotanto"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "Tavaroita HR ja ryöstöistä"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Paljonko käytetään tarvikkeita Rinbin-tehtäviin"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Tämän arvon pitäisi olla suurempi tai yhtäsuuri kuin {min} koska "
+"pienemmillä ei voi taata voittoa (tilastollisesti)"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Paljonko käytetään kolikoita Rinbin-tehtäviin"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Sinun @:(foe_data.gb.Chateau_Frontenac) kerroin"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Aikakausi"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.provinces"
+msgstr "Provinssit"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Kaikki provinssit"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Kaikki aikakaudet"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Tässä provinssissa yhdestä tai useammasta sektorista puuttuu arvoja."
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Valitse provinssi"
+
+msgid "components.gb_investment.tutorial.table.rewards_with_rate"
+msgstr "Tämä on TP määrä jota omistaja odottaa sijoittajalta sijaan."
+
+msgid "components.gb_investment.tutorial.table.fp_to_put_by_the_owner"
+msgstr ""
+"Kuten nimi sanoo, tämä on kuinka paljon sijoittajan tarvitsee laittaa TP "
+"lukitakseen sijansa."
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr "Tämä on sijan oletuspalautus (ilman Kupu bonusta)."
+
+msgid "components.gb_investment.tutorial.table.message"
+msgstr "Tämä taulukko näyttää kaiken tiedot mitä tarvitset."
+
+msgid "components.gb_investment.tutorial.add_investors"
+msgstr ""
+"Onko sinulla satunnaisia sijoituksia HR:ssä jotka ovat matalampia tai "
+"korkeampia kuin asetettu kerroin?\n"
+"Pistä kaikki oudot sijoitukset tähän kenttään yksitellen\n"
+"Työkalu laskee uudet lukitus TP arvot ja kertoo mitkä sijat on jo lukittu."
+
+msgid "components.gb_investment.tutorial.your_arc_bonus"
+msgstr ""
+"Tämä kenttä on sijoittajille ja sitä käyttääkseen pitää "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" olla "
+"\"@:(utils.Yes)\".\n"
+"Se kertoo kuinka monta TP pitää sijoittaa tasoon lukitaksesi sijan; se myös "
+"kertoo mahdollisen voiton/tappion."
+
+msgid "components.gb_investment.tutorial.owner_investment"
+msgstr ""
+"Onko sinulla jo TP laitettuna HR?\n"
+"Jos on, syötä tähän kuinka monta TP on HR:ssä"
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Valitse kerroin jota oletat sijoittajien käyttävän\n"
+"Esim. 1.9 sijoittajalle laita 90"
+
+msgid "components.gb_investment.tutorial.level"
+msgstr "Valitse taso jota haluat tarkastella."
+
+msgid "components.gb_investment.tutorial.gb_select"
+msgstr ""
+"Tästä kentästä voit nopeasti vaihtaa HR.\n"
+"Tästä menusta on kaksi versiota.\n"
+"\n"
+"Yksinkertainen valikko (vanha versio) joka näyttää yksinkertaisen drop-down "
+"listan. Tämä on oletusvalikko:\n"
+"\n"
+"{videoSelect}\n"
+"\n"
+"Automaattisesti täyttävä valikko, jossa voit kirjoitttaa HR nimeä ja "
+"järjestelmä täyttää loput:\n"
+"\n"
+"{videoAutoComplete}"
+
+msgid "components.gb_investment.tutorial.display_modes.content"
+msgstr ""
+"Tämä työkalu antaa kaiken tiedon mitä omistaja ja sijoittajat tarvitsevat "
+"HR tason nostoon. Työkalussa on kaksi eri näyttötapaa: \n"
+"\n"
+"\"@:(routes.gb_investment.tab.owner_view.title)\" (olet tässä nyt) joka "
+"näyttää vain tämän tason tiedot ja paljon yksityiskohtia.\n"
+"\n"
+"\"@:(routes.gb_investment.tab.investors_view.title)\" näyttää usean tason "
+"tiedot sarakkeissa. Täällä näkyy vain TP määrät jotka omistajan ja "
+"sijoittajien tarvitsee laittaa, sekä mahdolliset voitot/tappiot."
+
+msgid "components.gb_investment.tutorial.display_modes.title"
+msgstr "Näyttötavat"
+
+msgid "components.gb_investment.tutorial.snipe.content"
+msgstr ""
+"Snipe tapahtuu kun pelaaja ottaa sijan toisen pelaajan HR:stä ja tekee "
+"sillä voittoa, yleensä toisin kuin omistaja haluaisi.\n"
+"\n"
+"Esimerkiksi taso 49 → 50 \"@:(foe_data.gb.The_Virgo_Project)\" HR:ssä ei "
+"tarvitse yhtään TP omistajalta että 2 ensimmäistä sijaa on lukittu. "
+"Odotettu sijoitus 1.9 kertoimella on {fp1739}. Snipeejä (jolla on tason 80 "
+"Kupu) voi odottaa kunnes taso avataan ja ottaa sijansa suoraan ja laittaa "
+"vain {fp1679}, joka lukitsisi hänen sijansa ja tuottaisi voittoa {fp60}."
+
+msgid "components.gb_investment.tutorial.snipe.title"
+msgstr "Snipe"
+
+msgid "components.gb_investment.tutorial.rush_1_9.content"
+msgstr ""
+"@:(foe_data.gb.The_Arc) on HR joka lisää palautuksia jotka saat kun "
+"sijoitut 5 parhaan joukkoon jonkun muun HR:ssä. Mitä korkeampi on Kuvun "
+"taso, sen paremmat palautukset.\n"
+"\n"
+"Aikoinaan siitä lähti puheet 1.8, 1.9 jne bonuksista. Todellisuudessa aina "
+"puhutaan Kupu bonuksesta.\n"
+"Itseasiassa 1.0 on perus palautus, 1.8 on palautus jonka saa kun Kupu on "
+"tasolla 70 (se antaa 80% enemmän sillä tasolla) ja 1.9 taas on palautus "
+"jonka Kupu antaa kun se on tasolla 80 (90% palautus).\n"
+"\n"
+"Viestiketjuja pelkästään näitä bonuksia ja sijoituksia käyttääkseen "
+"perustettiin paljon killoissa ja ystävien kesken. Se perustuu "
+"periaatteeseen että \"saan sen minkä sijoitankin\", ja siten vähensi kitkaa "
+"ja kiukkuja kiltatoverien ja ystävien parissa. Toisin kuin "
+"pistevaihtoketjut (10, 50, 100, jne) nämä 1.8 ja 1.9 ketjut myöskin "
+"säästävät HR omistajien aikaa paljon. Ei tarvitse odotella koska joku ottaa "
+"minkäkin vaihtoketjun. Toisekseen HR omistaja monesti säästää paljon omia "
+"pisteitäkin, kun tarvitsee vain laittaa sen verran että saa lukittua 1.8 "
+"tai 1.9 jne. sijat.\n"
+"\n"
+"Otetaanpa esimerkki:\n"
+"\n"
+"Kuvitellaan että haluat nostaa sinun @:(foe_data.gb.Observatory) tasolta 10 "
+"tasolle 60 ja sinun TP tuotanto on {fp50} päivässä.\n"
+"TP tarvitaan yhteensä {fp64975}.\n"
+"\n"
+"Jos käytät pistevaihtoketjuja, sinun oma sijoituksesi 1:1, eli {fp25} "
+"sijoitettuna jonkun muun HR = {fp25} joku muu sijoittaa sinun HR. Eli sinun "
+"tarvitsee <strong>sijoittaa {fp37320}</strong> saavuttaaksesi 60. Ja {fp50} "
+"päivässä tahdilla, se kestää <strong>2 vuotta ja 17 päivää</strong>. Toki "
+"saatat saada palautuksia jonkun verran muiden HR:stä, mutta sinun tarvitsee "
+"yhteensä käyttää tuo TP määrä.\n"
+"\n"
+"No, jos käytät 1.9 ketjua, sinun tarvitsee <strong>sijoittaa vain "
+"{fp12363}</strong> saavuttaaksesi tason 60, eli <strong>säästät {fp24957} "
+"!</strong>.\n"
+"Ja TP tuotannon ollessa yhä {fp50} päivässä, meneekin 2 vuoden ja 17 päivän "
+"sijaan <strong>8 kuukautta ja 5 päivää</strong> !"
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "Pika 1.9, 1.8, jne."
+
+msgid "components.gb_investment.tutorial.welcome"
+msgstr ""
+"Tämä ohje käy läpi kaikki tämän työkalun ominaisuudet.\n"
+"\n"
+"Voit klikata alla olevia linkkejä saadaksesi lisätietoja niistä.\n"
+"Jatkaaksesi ohjeen parissa klikkaa \"@:(utils.Next)\" nappia."
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"S5({investment})\n"
+"S4({investment})\n"
+"S3({investment})\n"
+"S2({investment})\n"
+"S1({investment})"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "teksti mainosviestin perään"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "teksti ennen mainosviestiä"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Mainosviesti"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Näytä taso?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Käytä lyhytnimeä?"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Näytä HR nimi?"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Tason kustannus"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "Omistajan tarvitsee laittaa vielä nämä TP jotta taso tulee valmiiksi"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Omistajan kokonais TP sijoitus"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Tämä pelaaja ei saa tuottoa eikä menetä TP"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Tämä pelaaja saa tuottoa"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Oletettu TP sijoitus"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "Omistajan laitettava TP määrä lukittaakseen sijan"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Tämä pelaaja häviää TP"
+msgstr[1] "Tämä pelaaja häviää useita TP"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Piilota extra sijoittaja"
+msgstr[1] "Piilota extra sijoittajat"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Näytä extra sijoittaja"
+msgstr[1] "Näytä extra sijoittajat"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Onko snipeejä?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "TP palautus sinun Kupu bonus prosentilla"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "TP palautus omistajan olettamalla bonus %"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Sija/Snipe"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Jo sijoitetut TP"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Liitä kopio riveille"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "Sijoittajan % bonus (Kupu bonus)"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Palautukset"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "Omistajan laitettava TP määrä että sija on lukittavissa"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Oletuspalautukset"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Sijat"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} taso {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Näytä taulukko kortti-muodossa? (pienille ruuduille)"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Näytä vain lukitut sijat"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Näytä Sijoitus/Snipe"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Lista sijoittajista"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Klikkaa \"@:(utils.Add)\" nappia tai paina \"Enter\"-nappia lisätäksesi "
+"sijoittajan"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr "Lisää sijoittaja (laita TP välillä, @:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Omistajan laittama TP (max {max})"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Mukautettu laskenta"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Laske"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "Sijoittajan % bonus (Kupu bonus)"
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "Taso {fromLevel} → {level} (@:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>HUOM</strong>: Jos ei päivity automaattisesti, aseta ensin HR taso "
+"ja kokonaissijoitus lukema ja klikkaa "
+"\"@:(components.gb_investment.gb_investment.form.submit_global)\". Jos "
+"haluat asettaa joka sijalle oman arvon, säädä mieleiseksesi ja klikkaa "
+"\"@:(components.gb_investment.gb_investment.form.submit_custom)\"."
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Syötä taso ja Kupu bonus % (90% jos 80 tason Kupu). Taulukon arvot "
+"päivittyvät automaattisesti."
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"Voit vaihtaa valitsimen tyyliä (alkuperäinen tai automaattisesti "
+"täydentävä) yleisasetuksissa"
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Vaihda Historiallista Rakennusta"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.home"
+msgstr "Koti"
+
+msgid "seo.keywords.military_units"
+msgstr "yksiköt"
+
+msgid "footer_menu.contact"
+msgstr "Yhteystiedot"
+
+msgid "footer_menu.changelog"
+msgstr "Muutosloki"
+
+msgid "footer_menu.contributors"
+msgstr "Kirjoittajat"
+
+msgid "footer_menu.about"
+msgstr "Tietoja"

@@ -12,7 +12,7 @@ export default ({ app, store, route }) => {
   if (app.$cookies.get("locale") === null || supportedLocales.indexOf(app.$cookies.get("locale")) === -1) {
     app.$cookies.set("locale", route.params.lang || defaultLocale, {
       path: "/",
-      expires: Utils.getDefaultCookieExpireTime()
+      expires: Utils.getDefaultCookieExpireTime(),
     });
   }
 

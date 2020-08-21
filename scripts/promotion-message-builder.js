@@ -27,20 +27,20 @@ function interpolationBuilder(gbKey, goodData, interpolationValues) {
   if (goodData.displayGbName) {
     goodInterpolationValues.push({
       key: "GBN",
-      value: goodData.useShortGbName ? this.$t(`foe_data.gb_short.${gbKey}`) : this.$t(`foe_data.gb.${gbKey}`)
+      value: goodData.useShortGbName ? this.$t(`foe_data.gb_short.${gbKey}`) : this.$t(`foe_data.gb.${gbKey}`),
     });
   } else {
     goodInterpolationValues.push({
       key: "GBN",
-      value: ""
+      value: "",
     });
   }
   goodInterpolationValues.push({ key: "LF", value: `\n` });
 
   if (goodData.customFields) {
     Object.keys(goodData.customFields)
-      .map(key => goodData.customFields[key])
-      .forEach(interpolation => {
+      .map((key) => goodData.customFields[key])
+      .forEach((interpolation) => {
         if (interpolation.show) {
           goodInterpolationValues.push(interpolation);
         } else {
@@ -75,7 +75,7 @@ export function buildPlace(gbKey, data, interpolationValues) {
   let result = interpolation.message;
 
   // Do interpolation
-  goodInterpolationValues.forEach(interpolation => {
+  goodInterpolationValues.forEach((interpolation) => {
     result = result.replace(new RegExp(`\\\${${interpolation.key}}`, "gi"), interpolation.value);
   });
 
@@ -128,7 +128,7 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
   let places = "";
   goodPlaceInterpolationValues.forEach((placeInterpolation, index) => {
     const placeData = {};
-    placeInterpolation.forEach(e => (placeData[e.key] = e.value));
+    placeInterpolation.forEach((e) => (placeData[e.key] = e.value));
     if (placeInterpolation[1].free) {
       places +=
         (places.length > 0 ? data.placeSeparator : "") +
@@ -136,11 +136,11 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
     }
     goodInterpolationValues.push({
       key: "PV" + (data.reversePlacesOrder ? 4 - index : index + 1),
-      value: placeData.PV
+      value: placeData.PV,
     });
     goodInterpolationValues.push({
       key: "PP" + (data.reversePlacesOrder ? 4 - index : index + 1),
-      value: placeData.PP
+      value: placeData.PP,
     });
   });
   for (let i = goodPlaceInterpolationValues.length; i < 5; i++) {
@@ -150,7 +150,7 @@ export function buildMessage(gbKey, data, interpolationValues, placeInterpolatio
   goodInterpolationValues.push({ key: "P", value: places });
 
   // Do interpolation
-  goodInterpolationValues.forEach(interpolation => {
+  goodInterpolationValues.forEach((interpolation) => {
     result = result.replace(new RegExp(`\\\${${interpolation.key}}`, "gi"), interpolation.value);
   });
 
@@ -180,8 +180,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: "  ",
       place: "${PI} (${PV})",
-      message: "${GBN} ${P}"
-    }
+      message: "${GBN} ${P}",
+    },
   },
   {
     name: "Default 1",
@@ -195,8 +195,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: false,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 2",
@@ -210,8 +210,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: false,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${P} ${GBN} ${FLVL} → ${TLVL}"
-    }
+      message: "${P} ${GBN} ${FLVL} → ${TLVL}",
+    },
   },
   {
     name: "Default 3",
@@ -225,8 +225,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 4",
@@ -240,8 +240,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${P} ${GBN} ${FLVL} → ${TLVL}"
-    }
+      message: "${P} ${GBN} ${FLVL} → ${TLVL}",
+    },
   },
   {
     name: "Default 5",
@@ -255,8 +255,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: false,
       placeSeparator: " ",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 6",
@@ -270,8 +270,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: " ",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 7",
@@ -285,8 +285,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: false,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 8",
@@ -300,8 +300,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 9",
@@ -315,8 +315,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 10",
@@ -330,8 +330,8 @@ export const defaultPromotionMessages = [
       reversePlacesOrder: true,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 11",
@@ -351,9 +351,9 @@ export const defaultPromotionMessages = [
           key: "Your pseudo",
           value: "My pseudo",
           placeholder: "My pseudo",
-          show: true
-        }
-      }
-    }
-  }
+          show: true,
+        },
+      },
+    },
+  },
 ];

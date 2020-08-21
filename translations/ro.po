@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.910Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.910Z\n"
+"Language: ro\n"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.home"
+msgstr "Acasă"

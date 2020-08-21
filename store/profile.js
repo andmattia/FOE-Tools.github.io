@@ -3,7 +3,7 @@ import { make } from "vuex-pathify";
 import clone from "lodash.clonedeep";
 
 export const state = () => ({
-  profiles: {}
+  profiles: {},
 });
 
 export const mutations = {
@@ -33,9 +33,9 @@ export const mutations = {
           otherRq: 0,
           suppliesGathered: 0,
           cumulativeQuest: 0,
-          secondRq: false
+          secondRq: false,
         },
-        gb: {}
+        gb: {},
       };
     }
     for (const key in profile) {
@@ -49,13 +49,13 @@ export const mutations = {
 
   addGB(state, { key, value }) {
     state.profiles.gb[key] = value;
-  }
+  },
 };
 
 export const actions = {
-  ...make.actions(state)
+  ...make.actions(state),
 };
 
 export const getters = {
-  ...make.getters(state)
+  ...make.getters(state),
 };

@@ -83,7 +83,7 @@ function getSimpleTradeArray() {
 
 const tradeArrayValues = {
   SIMPLE: getSimpleTradeArray(),
-  FAIR: getFairTradeArray()
+  FAIR: getFairTradeArray(),
 };
 
 /**
@@ -156,7 +156,7 @@ function uniformCostSearch(graph, start, goal) {
       } else {
         return u.cost > v.cost ? -1 : 1;
       }
-    }
+    },
   });
   frontier.queue({ key: start, cost: 0 });
 
@@ -199,7 +199,7 @@ function getBestOffers(tradeInput, iHave, iWant, amount) {
   for (let i = 1; i < bestOffers.length; i++) {
     result.push({
       key: bestOffers[i],
-      amount: Math.ceil(result[i - 1].amount * tradeArrayValues[tradeInput.name][bestOffers[i - 1]][bestOffers[i]])
+      amount: Math.ceil(result[i - 1].amount * tradeArrayValues[tradeInput.name][bestOffers[i - 1]][bestOffers[i]]),
     });
   }
 
@@ -218,14 +218,14 @@ function checkValidNumberInputParameter(paramName, funcName, value) {
     throw new Errors.InvalidTypeError({
       expected: "number",
       actual: typeof value,
-      additionalMessage: `for parameter "${paramName}" of ${funcName}`
+      additionalMessage: `for parameter "${paramName}" of ${funcName}`,
     });
   } else if (value <= 0) {
     throw new Errors.BoundExceededError({
       type: Errors.AvailableBoundTypes["<="],
       value: value,
       boundValue: 0,
-      additionalMessage: `for parameter "${paramName}" of ${funcName}`
+      additionalMessage: `for parameter "${paramName}" of ${funcName}`,
     });
   }
 }
@@ -243,7 +243,7 @@ function checkAge(paramName, funcName, value) {
     throw new Errors.InvalidTypeError({
       expected: validAges,
       actual: value,
-      additionalMessage: `for parameter "${paramName}" of ${funcName}`
+      additionalMessage: `for parameter "${paramName}" of ${funcName}`,
     });
   }
 }
@@ -276,7 +276,7 @@ export function splitGoods(toValue, splitValue, ratioFromTo, ratioToFrom) {
     result.push({
       from: fromValue === max ? splitValue : Math.round(splitValue * ratioToFrom),
       to: toValue === max ? splitValue : Math.ceil(splitValue * ratioFromTo),
-      count: Math.floor(max / splitValue)
+      count: Math.floor(max / splitValue),
     });
   }
 
@@ -308,7 +308,7 @@ export function getBestOffersSplitted(tradeInput, iHave, iWant, amount, splitVal
     throw new Errors.InvalidTypeError({
       expected: "TradeArray",
       actual: typeof tradeInput,
-      additionalMessage: `for parameter "tradeInput" of ${funcName}`
+      additionalMessage: `for parameter "tradeInput" of ${funcName}`,
     });
   }
 
@@ -334,7 +334,7 @@ export function getBestOffersSplitted(tradeInput, iHave, iWant, amount, splitVal
     if (bestOffers[i].split instanceof Array) {
       let r = 0;
       bestOffers[i].split
-        .map(k => {
+        .map((k) => {
           return { value: k.from, count: k.count ? k.count : 1 };
         })
         .reduce((oldVal, val) => {

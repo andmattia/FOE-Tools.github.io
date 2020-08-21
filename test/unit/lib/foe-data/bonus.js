@@ -1,7 +1,7 @@
 import bonus from "../../../../lib/foe-data/bonus";
 
 // For coverage
-describe("Bonus", function() {
+describe("Bonus", function () {
   test("Valid value", () => {
     expect(bonus).toBeTruthy();
   });

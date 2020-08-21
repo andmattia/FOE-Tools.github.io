@@ -1,6 +1,3 @@
-import Utils from "~/scripts/utils";
-import countryFlagEmoji from "country-flag-emoji";
-
 export default {
   name: "LanguageSelector",
   data() {
@@ -8,40 +5,24 @@ export default {
     for (const key of this.$store.get("supportedLocales")) {
       supportedLocales.push({
         key,
-        displayName: this.$t("language_selector." + (key === "en" ? "en" : "common"), { lang: key })
+        displayName:
+          key === "en"
+            ? this.$t("common.lang.en.original")
+            : `${this.$t(`common.lang.${key}.en`)} (${this.$t(`common.lang.${key}.original`)})`,
       });
     }
     supportedLocales.sort((a, b) => (a.displayName > b.displayName ? 1 : b.displayName > a.displayName ? -1 : 0));
 
     return {
-      currentLang: this.$clone(this.$store.get("global/locale")),
+      currentLang: this.$clone(this.$store.get("i18n/locale")),
       supportedLocales,
-      countryFlagEmoji
     };
   },
   watch: {
     currentLang(lang) {
-      this.$store.set("global/locale", lang);
-      this.$store.set("locale", lang);
-      this.$cookies.set("locale", lang, {
-        path: "/",
-        expires: Utils.getDefaultCookieExpireTime()
-      });
-      window.location.reload();
-    }
+      this.$store.set("i18n/locale", lang);
+      this.locale = lang;
+      this.$router.push(this.switchLocalePath(lang));
+    },
   },
-  methods: {
-    getCurrentCountry(locale) {
-      // This allow to manage special cases
-      if (locale === "sv") {
-        return "se";
-      } else if (locale === "cs") {
-        return "cz";
-      } else if (locale === "da") {
-        return "dk";
-      } else {
-        return locale;
-      }
-    }
-  }
 };

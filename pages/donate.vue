@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/donate";
+import Page from "~/pages/donate/Donate";
 export default Page;
 </script>
 

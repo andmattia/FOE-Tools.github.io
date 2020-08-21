@@ -41,3 +41,10 @@ __snapshots__
 dist
 modules
 *.marko.js
+
+# Extra ignore
+
+plugins/vue-i18n-plural.js
+static/sw.js
+test
+tmp

@@ -3,15 +3,15 @@ export default {
   props: {
     value: {
       type: Boolean,
-      required: true
+      required: true,
     },
     label: String,
-    customId: String
+    customId: String,
   },
   data() {
     return {
       newValue: this.value,
-      id: this.$props.customId ? this.$props.customId : ""
+      id: this.$props.customId ? this.$props.customId : "",
     };
   },
   watch: {
@@ -26,6 +26,6 @@ export default {
      */
     newValue(value) {
       this.$emit("input", value);
-    }
-  }
+    },
+  },
 };

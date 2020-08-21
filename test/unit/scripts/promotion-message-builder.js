@@ -19,7 +19,7 @@ for (let i = 0; i < rewards.length; i++) {
     { key: "PV", value: rewards[i], free: true },
     { key: "PP", value: preparation[i] },
     { key: "FLVL", value: 9 },
-    { key: "TLVL", value: 10 }
+    { key: "TLVL", value: 10 },
   ]);
 }
 
@@ -27,7 +27,7 @@ const messageInterpolation = [
   { key: "FLVL", value: 9 },
   { key: "TLVL", value: 10 },
   { key: "LC", value: 650 },
-  { key: "OP", value: 430 }
+  { key: "OP", value: 430 },
 ];
 
 const results = [
@@ -42,8 +42,8 @@ const results = [
       reversePlacesOrder: false,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 2",
@@ -56,8 +56,8 @@ const results = [
       reversePlacesOrder: false,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${P} ${GBN} ${FLVL} → ${TLVL}"
-    }
+      message: "${P} ${GBN} ${FLVL} → ${TLVL}",
+    },
   },
   {
     name: "Default 3",
@@ -70,8 +70,8 @@ const results = [
       reversePlacesOrder: true,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 4",
@@ -84,8 +84,8 @@ const results = [
       reversePlacesOrder: true,
       placeSeparator: " ",
       place: "P${PI}(${PV})",
-      message: "${P} ${GBN} ${FLVL} → ${TLVL}"
-    }
+      message: "${P} ${GBN} ${FLVL} → ${TLVL}",
+    },
   },
   {
     name: "Default 5",
@@ -98,8 +98,8 @@ const results = [
       reversePlacesOrder: false,
       placeSeparator: " ",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 6",
@@ -112,8 +112,8 @@ const results = [
       reversePlacesOrder: true,
       placeSeparator: " ",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 7",
@@ -126,8 +126,8 @@ const results = [
       reversePlacesOrder: false,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Default 8",
@@ -140,8 +140,8 @@ const results = [
       reversePlacesOrder: true,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} → ${TLVL} ${P}"
-    }
+      message: "${GBN} ${FLVL} → ${TLVL} ${P}",
+    },
   },
   {
     name: "Custom 11",
@@ -154,8 +154,8 @@ const results = [
       reversePlacesOrder: true,
       placeSeparator: ",",
       place: "${PI}",
-      message: "${GBN} ${FLVL} < ${P} > ${TLVL}"
-    }
+      message: "${GBN} ${FLVL} < ${P} > ${TLVL}",
+    },
   },
   {
     name: "Default 11",
@@ -172,10 +172,10 @@ const results = [
       customFields: {
         "Your pseudo": {
           key: "Your pseudo",
-          value: "My pseudo"
-        }
-      }
-    }
+          value: "My pseudo",
+        },
+      },
+    },
   },
   {
     name: "Custom 0",
@@ -194,22 +194,22 @@ const results = [
           key: "Your pseudo",
           value: "Yoratheon",
           placeholder: "My pseudo",
-          show: true
+          show: true,
         },
         Msg: {
           key: "Msg",
           value: "🆙",
           placeholder: "And up ?",
-          show: true
+          show: true,
         },
         Foo: {
           key: "Foo",
           value: "Bar",
           placeholder: "Baz",
-          show: true
-        }
-      }
-    }
+          show: true,
+        },
+      },
+    },
   },
   {
     name: "All variables",
@@ -225,9 +225,9 @@ const results = [
       message:
         "${GBN} from ${FLVL} to ${TLVL} (${OP}|${LC}):${LF}<<${P}>>${LF}And custom place P1(${PV1}|${PP1}), " +
         "P2(${PV2}|${PP2}), P3(${PV3}|${PP3}), P4(${PV4}|${PP4}), P5(${PV5}|${PP5})",
-      customFields: {}
-    }
-  }
+      customFields: {},
+    },
+  },
 ];
 
 describe("Promotion Message Builder", () => {

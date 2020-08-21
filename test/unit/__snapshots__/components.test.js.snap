@@ -1225,6 +1225,14 @@ My pseudo - Observatory 4",
 ]
 `;
 
+exports[`Components Remark Update markdown 1`] = `
+<div>
+  <h1>Hello World 🎉</h1>
+</div>
+`;
+
+exports[`Components Remark Valid value 1`] = `<h1>Hello World 🎉</h1>`;
+
 exports[`Components SimpleTrade Check result with current age ContemporaryEra for value 100 and split 100 1`] = `
 Object {
   "ArcticFuture": Object {

@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/secure-position";
+import Page from "~/pages/secure-position/SecurePosition";
 export default Page;
 </script>
 

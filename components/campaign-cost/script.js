@@ -37,8 +37,8 @@ export default {
       haveUnknownCosts: false,
       errors: {
         currentAge: false,
-        province: false
-      }
+        province: false,
+      },
     };
   },
   computed: {
@@ -69,7 +69,7 @@ export default {
           2
         );
       }
-    }
+    },
   },
   watch: {
     currentAge(val) {
@@ -91,8 +91,8 @@ export default {
           this.$clone(this.campaignConquired)
         );
       },
-      deep: true
-    }
+      deep: true,
+    },
   },
   methods: {
     haveError(key) {
@@ -109,7 +109,7 @@ export default {
             ? -1
             : 0;
         })
-        .forEach(function(key) {
+        .forEach(function (key) {
           ordered[key] = campaignCost[currentAge][key];
         });
       return ordered;
@@ -144,7 +144,7 @@ export default {
     },
 
     switchConquired(path, value) {
-      const updateProgression = path => {
+      const updateProgression = (path) => {
         const ref = this.campaignConquired[path.age][path.province].sectors[0];
         for (let i = 1; i < this.campaignConquired[path.age][path.province].sectors.length; i++) {
           if (ref !== this.campaignConquired[path.age][path.province].sectors[i]) {
@@ -175,7 +175,7 @@ export default {
         Vue.set(this.campaignConquired[path.age], "_state", previousState);
       };
 
-      const updateProgressionProvince = path => {
+      const updateProgressionProvince = (path) => {
         Vue.set(
           this.campaignConquired[path.age][path.province],
           "sectors",
@@ -237,7 +237,7 @@ export default {
       } else {
         return lodashValues(obj._specialGoods);
       }
-    }
+    },
   },
   beforeMount() {
     if (!this.campaignConquired) {
@@ -282,5 +282,5 @@ export default {
         }
       }
     }
-  }
+  },
 };

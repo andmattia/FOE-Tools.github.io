@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/gb-statistics";
+import Page from "~/pages/gb-statistics/GbStatistics";
 export default Page;
 </script>
 

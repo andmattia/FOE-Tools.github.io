@@ -26,10 +26,10 @@ describe("GB Data", () => {
           .filter((_, i) => {
             return i < 10;
           })
-          .map(obj => {
+          .map((obj) => {
             return obj.cost;
           }),
-        ...generateExpectedValues(gbs.agesCost[value][9].cost, gbs.agesCost[value].length)
+        ...generateExpectedValues(gbs.agesCost[value][9].cost, gbs.agesCost[value].length),
       ];
 
       for (let i = 0; i < gbs.agesCost[value].length; i++) {

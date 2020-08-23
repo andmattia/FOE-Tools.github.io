@@ -30,10 +30,10 @@ export default {
   /**
    * Convert a moment duration in string
    * @param duration {Duration} Duration to convert
-   * @param i18next {i18next} Reference of i18next instance to translate in good locale
+   * @param i18n {i18n} Reference of i18n instance to translate in good locale
    */
-  getFormatedDuration(duration, i18next) {
-    if (!duration || Object.keys(duration).length === 0 || !i18next || !i18next.t) {
+  getFormatedDuration(duration, i18n) {
+    if (!duration || Object.keys(duration).length === 0 || !i18n || !i18n.locale) {
       throw new Errors.NullOrEmptyArgError();
     }
 
@@ -43,7 +43,7 @@ export default {
 
     let match = this.regex_duration.exec(
       duration.format("y [years] M [months] d [days]", 0, {
-        useToLocaleString: false
+        useToLocaleString: false,
       })
     );
 
@@ -52,7 +52,7 @@ export default {
     if (match[2] !== undefined) {
       value = parseInt(match[2]);
       if (value > 0) {
-        result += i18next.t("utils.moment.year", { count: value });
+        result += i18n.tc("utils.moment.year", value, { count: i18n.n(value) });
       }
     }
 
@@ -60,7 +60,7 @@ export default {
       value = parseInt(match[4]);
       if (value > 0) {
         result += result.length > 0 ? " " : "";
-        result += i18next.t("utils.moment.month", { count: value });
+        result += i18n.tc("utils.moment.month", value, { count: i18n.n(value) });
       }
     }
 
@@ -68,7 +68,7 @@ export default {
       value = parseInt(match[6]);
       if (value > 0) {
         result += result.length > 0 ? " " : "";
-        result += i18next.t("utils.moment.day", { count: value });
+        result += i18n.tc("utils.moment.day", value, { count: i18n.n(value) });
       }
     }
 
@@ -90,8 +90,8 @@ export default {
         actual: {
           value: typeof value,
           lowerBound: typeof lowerBound,
-          upperBound: typeof upperBound
-        }
+          upperBound: typeof upperBound,
+        },
       });
     }
 
@@ -124,7 +124,7 @@ export default {
         expected: "Array",
         actual: typeof comparator,
         additionalMessage:
-          'for parameter "comparator" of checkFormNumeric(value, currentValue, comparator, type = "int" })'
+          'for parameter "comparator" of checkFormNumeric(value, currentValue, comparator, type = "int" })',
       });
     } else if (comparator.length !== 2) {
       throw new Errors.InvalidComparatorSize();
@@ -209,7 +209,7 @@ export default {
       throw new Errors.InvalidTypeError({
         expected: "Array",
         actual: typeof arrayList,
-        additionalMessage: 'for parameter "arrayList" of splitArray(arrayList, chunk, sameSize = false })'
+        additionalMessage: 'for parameter "arrayList" of splitArray(arrayList, chunk, sameSize = false })',
       });
     }
 
@@ -217,7 +217,7 @@ export default {
       throw new Errors.InvalidTypeError({
         expected: "number",
         actual: typeof chunk,
-        additionalMessage: 'for parameter "chunk" of splitArray(arrayList, chunk, sameSize = false })'
+        additionalMessage: 'for parameter "chunk" of splitArray(arrayList, chunk, sameSize = false })',
       });
     }
 
@@ -285,7 +285,7 @@ export default {
         actual: typeof cookieKey,
         additionalMessage:
           'for parameter "cookieKey" of handlerForm(ctx, key, value, currentValue, comparator, saveCookie = false, ' +
-          'cookieKey = "", type = "int" })'
+          'cookieKey = "", type = "int" })',
       });
     }
 
@@ -314,7 +314,7 @@ export default {
         value: percent,
         lowerBound: -1.0,
         upperBound: 1.0,
-        additionalMessage: 'for parameter "percent" of shadeRGBColor(color, percent)'
+        additionalMessage: 'for parameter "percent" of shadeRGBColor(color, percent)',
       });
     }
 
@@ -388,7 +388,7 @@ export default {
       throw new Errors.InvalidTypeError({ expected: "number", actual: typeof defaultValue });
     }
 
-    return array.map(k => this.normalizeNumberValue(k, defaultValue));
+    return array.map((k) => this.normalizeNumberValue(k, defaultValue));
   },
 
   /**
@@ -402,7 +402,7 @@ export default {
       throw new Errors.InvalidTypeError({ expected: "Array", actual: typeof array });
     }
 
-    return array.map(k => !!k);
+    return array.map((k) => !!k);
   },
 
   /* istanbul ignore next */
@@ -413,7 +413,7 @@ export default {
    * @param startVal {number} Index where we start
    * @param endVal {number} Index where we end
    */
-  binaryInsert: /* istanbul ignore next */ function(value, array, startVal, endVal) {
+  binaryInsert: /* istanbul ignore next */ function (value, array, startVal, endVal) {
     let length = array.length;
     let start = typeof startVal !== "undefined" ? startVal : 0;
     let end = typeof endVal !== "undefined" ? endVal : length - 1; //!! endVal could be 0 don't use || syntax
@@ -476,7 +476,7 @@ export default {
         ownerInvestment: 0,
         investorParticipation: [],
         investorPercentageGlobal: defaultInvestorPercentageGlobal,
-        investorPercentageCustom: Array.from(new Array(5), () => defaultInvestorPercentageGlobal)
+        investorPercentageCustom: Array.from(new Array(5), () => defaultInvestorPercentageGlobal),
       },
       investorView: {
         from: 1,
@@ -485,9 +485,9 @@ export default {
         takingPlaceInConsideration: 0,
         investorPercentageGlobal: defaultInvestorPercentageGlobal,
         investorPercentageCustom: Array.from(new Array(5), () => defaultInvestorPercentageGlobal),
-        customPercentage: false
+        customPercentage: false,
       },
-      tab: 0
+      tab: 0,
     };
-  }
+  },
 };

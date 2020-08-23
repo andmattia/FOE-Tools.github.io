@@ -1,0 +1,3772 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.293Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.293Z\n"
+"Language: fr\n"
+
+msgid "main_menu.home"
+msgstr "Accueil"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "À propos"
+
+msgid "footer_menu.contributors"
+msgstr "Contributeurs"
+
+msgid "footer_menu.changelog"
+msgstr "Changelog"
+
+msgid "footer_menu.contact"
+msgstr "Contact"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Choissisez une province"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Cette province contient un ou plusieurs secteurs dont il manque des valeurs."
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Tous les âges"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Toutes les provinces"
+
+msgid "components.campaign_cost.provinces"
+msgstr "Provinces"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Votre age"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Le bonus de votre @:(foe_data.gb.Chateau_Frontenac)"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "PO à utiliser dans la quête de Rinbin"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Cette valeur doit être supérieure ou égale à {min} car en dessous on ne "
+"peut garantir aucun profit (statistiquement)"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Marchandises à utiliser dans la quête de Rinbin"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "Ressources obtenues par les GMs et le pillage"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "Production de PF par 24h "
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Autre quête récurrente accomplie"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "Seconde quête récurrente ?"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Marchandises produites"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Plan"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Médaille"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Ressource"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "PF"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Nombre de quête de Rinbin : {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Bonus de la quête de Rinbin : {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Seconde quête accomplie : {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Total de ressource : {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Total de PF : {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Total de quête récurrente accompli : {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Quête cumulée"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "PO en retour"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Marchandises en retour"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"Avec le bonus actuel du @:(foe_data.gb.Chateau_Frontenac), vous allez "
+"gagner plus de pièces d'or et de marchandises que ce que vous allez "
+"utiliser pour accomplir les quêtes. Veuillez choisir le nombre de « "
+"@:(components.cf_calculator.block_cfc.infinity_generator.label) » que vous "
+"souhaitez faire."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Quête cumulée"
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Cet outil est purement informel. Il vous donne des informations sur ce que "
+"vous pouvez statistiquement obtenir avec votre "
+"@:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Sélectionnez votre âge."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Mettez le bonus de votre @:(foe_data.gb.Chateau_Frontenac).\n"
+"\n"
+"Exemple : pour 450%, mettez 450."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr ""
+"Indiquez le nombre de pièces d'or que vous souhaitez utiliser pour toutes "
+"les quêtes."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr ""
+"Indiquez le nombre de marchandises que vous souhaitez utiliser pour toutes "
+"les quêtes."
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr ""
+"Indiquez le nombre de ressources que vous avez récoltés de votre GM et "
+"pillage."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Mettez le nombre de PFs que vous obtenez tous les 24 heures."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"A partir de @:(foe_data.age.LateMiddleAges), vous pouvez faire une deuxième "
+"quête récurrente. Mettre \"@:(utils.Yes)\" si vous voulez faire la deuxième "
+"quête récurrente.\n"
+"\n"
+"<i><b>Note</b> : On suppose que la deuxième quête récurrente est : "
+"Collecter X marchandises.</i>."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr ""
+"Indiquez le nombre de marchandises que vous souhaitez utiliser pour la "
+"deuxième quête récurrente."
+
+msgid "components.cf_calculator.tutorial.otherRq"
+msgstr "Indiquez les autres quêtes récurrentes que vous avez effectuées aujourd'hui."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Cette section n'est affichée que lorsque le boost "
+"@:(foe_data.gb.Chateau_Frontenac) (en fonction de votre âge) vous donne "
+"statistiquement plus de pièces d'or et de marchandises que vous allez en "
+"dépenser pour faire les quêtes."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr "Dans ce cas, vous devez indiquez le nombre de quêtes que vous voulez faire."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"Ce tableau vous indique les récompenses que vous gagnerez. N'oubliez pas "
+"que les valeurs sont basées sur une probabilité empirique."
+
+msgid "components.cf_calculator.tutorial.totalGoods"
+msgstr "Nombre de ressources que vous gagnerez avec les quêtes, les GMs, etc."
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Nombre de PFs que vous gagnerez avec les quêtes, les GMs, etc."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr "Total des quêtes récurrentes que vous pouvez (statistiquement) accomplir."
+
+msgid "components.cf_calculator.tutorial.dailyUbq"
+msgstr ""
+"Nombre de quêtes de Non-anniversaire que vous pouvez accomplir en fonction "
+"de ce que vous êtes prêt à dépenser en pièces d'or et en marchandises."
+
+msgid "components.cf_calculator.tutorial.bonusUbq"
+msgstr ""
+"Nombre de quêtes d'anniversaire que vous pouvez (statistiquement) accomplir "
+"avec vos pièces d'or et marchandises initiales et ceux que vous allez "
+"gagner."
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr "Nombre de secondes quêtes récurrentes que vous pouvez accomplir."
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"Ce tableau vous indique le nombre de pièces d'or et de marchandises que "
+"vous gagnerez statistiquement à partir de l'investissement initial (avec ce "
+"que vous êtes prêt à dépenser en pièces d'or et marchandises)."
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Changer de Grand Monument"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"Vous pouvez changer le style du sélecteur (ancien sélecteur ou "
+"auto-complétion) dans les paramètres globaux"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Saisissez les valeurs pour le niveau et le pourcentage de bonus. Les "
+"valeurs du tableau se mettent à jour automatiquement."
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Note</strong> : Si la mise à jour ne se fait pas automatiquement, "
+"dans un premier temps, définissez le niveau du GM et la valeur "
+"d'investissement globale et cliquez sur « "
+"@:(components.gb_investment.gb_investment.form.submit_global) ». Si vous "
+"souhaitez ajuster les valeurs de chaque place, ajuster à votre convenance "
+"et cliquez sur « "
+"@:(components.gb_investment.gb_investment.form.submit_custom) »."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "Niveau {fromLevel} → {level} (@:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "% de bonus (grosses arches) global des investisseurs"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Calcul global"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Calcul personnalisé"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Nombre de PFs actuellement mis par le propriétaire (max {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr "Ajouter un investisseur (mettre la valeur en PF, @:(utils.between_range))"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Cliquez sur le bouton \"@:(utils.Add)\" ou appuyez sur la touche \"Entrée\" "
+"pour ajouter un investisseur"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Liste des investisseurs ajoutés"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Afficher Spot/Snipe"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Afficher uniquement les places sécurisés"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Afficher le tableau en mode carte ? (sur petit écran)"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} niveau {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Places"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Récompenses de base"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "PF à mettre par le propriétaire pour sécuriser la place"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Récompenses avec taux"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "% de bonus (grosses arches) des investisseurs"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Inclure dans les champs de copie"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Nombre de PF déjà mis"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Spot/Snipe"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "PF obtenu avec le % de bonus attendu par le propriétaire"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "PF obtenu avec le % de bonus de votre Arche"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Est un sniper potentiel ?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Montrer l'investisseur supplémentaire"
+msgstr[1] "Montrer les investisseurs supplémentaires"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Cacher l'investisseur supplémentaire"
+msgstr[1] "Cacher les investisseurs supplémentaires"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Ce joueur perdra un PF"
+msgstr[1] "Ce joueur perdra des PFs"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "PFs restant à mettre par le propriétaire pour sécuriser la place"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Investissement attendu"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Ce joueur fera un profit"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Ce joueur ne fera ni profit ni perte de PF"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Investissement total du propriétaire"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "PFs restant à mettre par le propriétaire pour finir le niveau"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Coût du niveau"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Afficher le nom du GM ?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Utiliser un nom court ?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Afficher le niveau ?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Message de promotion"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "texte avant le message de promotion"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "texte après le message de promotion"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P1({investment})\n"
+"P2({investment})\n"
+"P3({investment})\n"
+"P4({investment})\n"
+"P5({investment})"
+
+msgid "components.gb_investment.tutorial.message"
+msgstr "Tutoriel"
+
+msgid "components.gb_investment.tutorial.welcome"
+msgstr ""
+"Le but de ce tutoriel est d'expliquer toutes les fonctionnalités de cet "
+"outil.\n"
+"Vous pouvez cliquer sur les liens suivants pour en apprendre plus sur "
+"certaines notions. Pour continuer, cliquez sur le boutton "
+"\"@:(utils.Next)\"."
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "Rush 1.9, 1.8, etc."
+
+msgid "components.gb_investment.tutorial.rush_1_9.content"
+msgstr ""
+"@:(foe_data.gb.The_Arc) est un GM qui donne un bonus augmentant les "
+"récompenses que vous obtenez en vous plaçant parmi les 5 premiers sur le GM "
+"de quelqu'un. Ce bonus augmente au fil des niveaux de l'Arche.\n"
+"\n"
+"C'est ainsi qu'on a commencé à parler de 1.8, 1.9, etc. En réalité, cela "
+"représente le bonus de l'Arche.\n"
+"En effet, 1.0 représente la récompense de base, 1.8 représente une "
+"récompense avec un Arche niveau 70 (il donne 80% plus de récompense à ce "
+"niveau) et 1.9 représente la récompense avec un Arche niveau 80 (90% plus "
+"de récompenses).\n"
+"\n"
+"Des fils exclusivement réservés à ce type d'investissement ont était créer "
+"dans les guildes et groupes d'amis. Cela part d'un principe de « Je donne "
+"ce que je reçois », limitant ainsi les conflits entre membres de la guilde "
+"ou les amis en ne réalisant pas de profits sur leurs GM. Contrairement aux "
+"chaînes sans fin, l'autre avantage des fils 1.8, 1.9, etc. est que cela "
+"permet de faire gagner un temps considérable pour le propriétaire du GM. En "
+"effet, le propriétaire a besoin de mettre uniquement le nombre de PFs "
+"nécessaire pour sécuriser des places qui vont être prises par des Arches "
+"niveau 80 (dans le cas de fil 1.9).\n"
+"\n"
+"Prenons un exemple :\n"
+"\n"
+"Imaginons que vous souhaitez monter votre @:(foe_data.gb.Observatory) du "
+"niveau 10 au niveau 60 et que vous gagnez {fp50} par jour.\n"
+"Le coût total des niveaux représente {fp64975}.\n"
+"\n"
+"Si vous utilisez des chaînes sans fin, votre investissement sera de l'ordre "
+"de 1 pour 1, autrement dit, {fp25} investie sur un GM = {fp25} qu'un autre "
+"joueur va investir sur votre GM. Il faudra donc <strong>investir "
+"{fp37320}</strong> pour atteindre le niveau 60. À {fp50} par jour, cela "
+"vous prendra <strong>2 ans et 17 jours</strong>.\n"
+"\n"
+"Maintenant, si vous utilisez un fil 1.9, vous allez devoir "
+"<strong>n'investir que {fp12363}</strong> pour atteindre le niveau 60, soit "
+"<strong>une économie de {fp24957} !</strong>\n"
+"Toujours avec {fp50} par jour, vous passer de 2 ans et 17 jours à <strong>8 "
+"mois et 5 jours</strong> !"
+
+msgid "components.gb_investment.tutorial.snipe.title"
+msgstr "Snipe"
+
+msgid "components.gb_investment.tutorial.snipe.content"
+msgstr ""
+"Le snipe est le fait qu'un joueur prenne une place sur un GM afin de "
+"réaliser un profit, en ne respectant généralement pas les attentes du "
+"propriétaire.\n"
+"\n"
+"Par exemple le niveau 49 → 50 du GM \"@:(foe_data.gb.The_Virgo_Project)\" "
+"ne nécessite pas de PFs de la part du propriétaire pour sécuriser les deux "
+"premières places. L'investissement attendu à 1.9 est de {fp1739}. Un Sniper "
+"(avec un Arche niveau 80) pourrait attendre l'ouverture du niveau pour "
+"prendre place directement et poser {fp1679}, ce qui permettrait d'assurer "
+"sa place et de dégager un bénéfice de {fp60}."
+
+msgid "components.gb_investment.tutorial.display_modes.title"
+msgstr "Modes d'affichages"
+
+msgid "components.gb_investment.tutorial.display_modes.content"
+msgstr ""
+"Cet outil vous donne toutes les informations que le propriétaire et les "
+"investisseurs doivent savoir pour investir sur un niveau d'un GM. Il "
+"dispose de deux modes d’affichages: \n"
+"\n"
+"« @:(routes.gb_investment.tab.owner_view.title) » (là où vous vous trouvez) "
+"qui affiche des informations uniquement sur le niveau actuel et de manière "
+"très détaillé.\n"
+"\n"
+"« @:(routes.gb_investment.tab.investors_view.title) » affiche les valeurs "
+"de plusieurs niveaux sous forme de tableau. Vous y trouverez uniquement le "
+"nombre de PFs que doit mettre le propriétaire, ainsi que les investisseurs "
+"avec le gain/perte occasionné."
+
+msgid "components.gb_investment.tutorial.gb_select"
+msgstr ""
+"Ce champ permet de changer rapidement de grand monument.\n"
+"Il existe deux types de sélecteur.\n"
+"\n"
+"Le simple sélecteur (ancienne version) qui affiche une simple liste "
+"déroulante. C’est le sélecteur par défaut :\n"
+"\n"
+"{videoSelect}\n"
+"\n"
+"L’auto-complétion qui permet de trouver un GM en tapant des séquences "
+"lettres contenues dans le nom du GM souhaité :\n"
+"\n"
+"{videoAutoComplete}"
+
+msgid "components.gb_investment.tutorial.level"
+msgstr "Sélectionner le niveau sur lequel vous souhaitez travailler"
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Sélectionné le bonus d'arche que vous attendez des investisseurs.\n"
+"Exemple: pour un investissement à 1.9, mettre 90"
+
+msgid "components.gb_investment.tutorial.owner_investment"
+msgstr ""
+"Avez vous déjà mis des FPs sur votre GM ? Si la réponse est oui, ajouter le "
+"montant des PFs que vous avez mis"
+
+msgid "components.gb_investment.tutorial.your_arc_bonus"
+msgstr ""
+"Ce champ est destiné aux investisseurs et doit être utilisé avec "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" réglé sur "
+"\"@:(utils.Yes)\".\n"
+"Il vous indique le nombre de PFs que vous devez mettre sur le niveau pour "
+"assurer une place ; il donne également le profit ou la perte que vous allez "
+"réaliser."
+
+msgid "components.gb_investment.tutorial.add_investors"
+msgstr ""
+"Avez vous des personnes qui ont déjà posés des PFs sur votre GM ? Mettez "
+"tout les investissements courant, l'outil va calculer les nouvelles valeurs "
+"pour sécuriser les places"
+
+msgid "components.gb_investment.tutorial.show_snipe"
+msgstr ""
+"Ce champ est destiné aux investisseurs et permet d'afficher une colonne "
+"supplémentaire dans le tableau, nommée "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\".\n"
+"Cette colonne vous indique (en fonction de la valeur définie dans "
+"\"@:(components.secure_position.block_place.your_arc_bonus)\") le nombre de "
+"PFs que vous devez mettre sur le GM pour assurer votre place.\n"
+"Il indique également le profit ou la perte que vous allez réaliser."
+
+msgid "components.gb_investment.tutorial.display_card"
+msgstr ""
+"Ce champ vous permet d'afficher les données du tableau dans une \"Vue "
+"Carte\".\n"
+"Ceci est \"optimisé\" pour la lecture sur smartphone, de sorte que vous "
+"n'avez pas besoin de faire défiler l'écran horizontalement.\n"
+"Ce champ ne s'affiche que sur un petit écran."
+
+msgid "components.gb_investment.tutorial.table.message"
+msgstr "Ce tableau vous montre toutes les informations que vous voulez savoir."
+
+msgid "components.gb_investment.tutorial.table.place"
+msgstr "Correspondant au numéro de la place."
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr "C'est la récompense par défaut (sans bonus d'Arche) de la place."
+
+msgid "components.gb_investment.tutorial.table.fp_to_put_by_the_owner"
+msgstr ""
+"Comme son nom l'indique, il correspond au montant de PFs que le "
+"propriétaire doit mettre sur son GM pour sécuriser les places."
+
+msgid "components.gb_investment.tutorial.table.rewards_with_rate"
+msgstr ""
+"C'est le nombre de PFs attendu par le propriétaire lorsqu'un investisseur "
+"prend une place."
+
+msgid "components.gb_investment.tutorial.table.fp_already_putin"
+msgstr ""
+"Cette colonne s'affiche lorsque vous avez saisie au moins un investisseur. "
+"Il vous montre quelle sera la place de l'investisseur avec la stratégie "
+"(investissement attendu) du propriétaire."
+
+msgid "components.gb_investment.tutorial.table.spot_snipe"
+msgstr ""
+"Cette colonne n'est affichée que si vous avez réglé "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" sur "
+"\"@:(utils.Yes)\" et est destinée aux investisseurs. Cette colonne vous "
+"indique (en fonction de la valeur définie dans "
+"\"@:(components.secure_position.block_place.your_arc_bonus)\") le nombre de "
+"PF que vous devez mettre sur le GM pour sécuriser votre place.\n"
+"Il indique également le profit ou la perte que vous allez réaliser."
+
+msgid "components.gb_investment.tutorial.table.percentage_investors"
+msgstr ""
+"Comme "
+"\"@:(components.gb_investment.gb_investment.form.investor_percentage)\", "
+"cette colonne permet au propriétaire de définir l'investissement attendu "
+"des investisseurs, mais elle permet de saisir la valeur pour chaque place."
+
+msgid "components.gb_investment.tutorial.table.is_sniper"
+msgstr ""
+"Cette colonne s'affiche lorsque vous avez défini au moins un investisseur. "
+"Il est utilisé pour définir si un joueur est un sniper potentiel ou non. "
+"Ces informations sont utilisées pour le calcul de sécurisation de place."
+
+msgid "components.gb_investment.tutorial.table.include_in_copy_boxes"
+msgstr ""
+"Ce champ vous permet d'afficher cette place dans le message de promotion "
+"que vous pourrez copier et coller dans le jeu."
+
+msgid "components.gb_investment.tutorial.promotion_message.message"
+msgstr ""
+"Cette section vous permet d’avoir des messages contenant des informations "
+"sur le niveau courant du GM et les places. Vous pouvez copier un message et "
+"le coller directement dans le jeu, par exemple dans un fils 1.9."
+
+msgid "components.gb_investment.tutorial.promotion_message.tabs"
+msgstr ""
+"Les messages suivent un modèle. Vous pouvez importer un modèle à partir de "
+"l'onglet \"@:(components.import_promotion_message.title)\" ou créer votre "
+"propre modèle à partir de l'onglet "
+"\"@:(components.promotion_message_builder.title)\"."
+
+msgid "components.gb_investment.tutorial.promotion_message.prefix"
+msgstr "Texte qui sera ajouté au début du message."
+
+msgid "components.gb_investment.tutorial.promotion_message.suffix"
+msgstr "Texte qui sera ajouté à la fin du message."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.display_gb_"
+"name"
+msgstr "Affiche le nom du GM (s'il est inclus dans le modèle de message)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.use_short_"
+"name"
+msgstr ""
+"Permet de définir si vous voulez afficher un nom court pour le nom du GM "
+"(Exemple : \"@:(foe_data.gb.Observatory)\" sera affiché "
+"\"@:(foe_data.gb_short.Observatory)\")."
+
+msgid "components.gb_investment.tutorial.promotion_message.show_level"
+msgstr ""
+"Permet d'afficher le niveau du GM (s'il est inclus dans le modèle de "
+"message)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.show_only_"
+"secured_places"
+msgstr ""
+"Cette option vous permet d'ajouter automatiquement des places dans le "
+"message de promotion si ces places sont sécurisés et pas encore prises. "
+"Pour pouvoir utiliser cette fonctionnalité, vous devez saisir le nombre de "
+"PFs actuellement mis par le propriétaire ainsi que les investisseurs "
+"actuellement présents sur le niveau."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.custom_"
+"fields"
+msgstr ""
+"Notez que certains modèle dispose de leurs propres champs avec leurs "
+"propres noms."
+
+msgid "components.gb_investment.tutorial.promotion_message.add_message"
+msgstr "Ce champs vous permet d'ajouter des messages de promotions."
+
+msgid "components.gb_investment_investors.description.p1"
+msgstr ""
+"Cette vue permet de voir le gain qu'il est possible d'obtenir en prenant "
+"une place avec ou sans prise en compte des investissements sur les autres "
+"places. Il existe {count} types de prise en compte des autres places :"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"label"
+msgstr "Prendre les autres places en considération ?"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Afficher les places"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Normal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Optimal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "ne prend pas en compte les autres places"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"prend en compte les autres places avec un investissement minimal des "
+"investisseurs et sans sécurisation par le propriétaire"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.optimal"
+msgstr ""
+"prend en compte les autres places avec un investissement sans profit des "
+"investisseurs et avec sécurisation par le propriétaire"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Place {count}"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Bénéfice / Perte"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Prévisions"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Détermine le nombre de PFs pour aller d'un niveau à un autre, avec ou sans "
+"bonus d'Arche."
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Bonus d'Arche personnalisé ?"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Estimation du temps pour atteindre le niveau"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] "Avec les investissement à bonus, vous aller économiser {count} PF"
+msgstr[1] "Avec les investissement à bonus, vous aller économiser {count} PFs"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"Pour compléter le niveau {level} de « {gb} », il faut que le propriétaire "
+"investisse {preparation} PFs. Coût total du niveau : {cost} PFs."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"Pour aller du niveau {from} à {to} de « {gb} », il faut que le propriétaire "
+"investisse {preparation} PFs. Coût total des niveaux : {cost} PFs."
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "Temps estimé pour atteindre le niveau : {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "PFs déjà investi par le propriétaire sur le niveau actuel"
+
+msgid "components.gb_forecast_cost.graph.title"
+msgstr "Prévision du montant de préparation du propriétaire pour « {gb} »"
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Coût brut du niveau"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Montant de préparation sans bonus"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Montant de préparation avec bonus"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"Les graphiques sont réalisés en fonction de l'âge car le coût/gain des GMs "
+"est le même pour chaque GM d'un âge, sauf cas particulier "
+"(@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_statistics.represent"
+msgstr "Représenter :"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Évolution du coût des niveaux en fonction des niveaux"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Évolution du gain de la première place en fonction des niveaux"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr "Évolution du coût des niveaux en fonction du gain de la première place"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr "Évolution du gain de la première place en fonction du coût des niveaux"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] "Nombre de PF restant pour compléter le niveau :"
+msgstr[1] "Nombre de PFs restant pour compléter le niveau :"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] "{place} ({count} PF)"
+msgstr[1] "{place} ({count} PFs)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Bloquer sa place"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Coût du niveau"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Somme des dépôts actuels"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Votre participation actuelle"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "Participation du joueur à dépasser"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Bonus de votre Arche"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "Récompense (PF) de la place visée"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Place visée"
+
+msgid "components.secure_position.block_place.various_rate"
+msgstr "Autres bonus"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Bonus"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "PF à mettre en fonction du bonus"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "PF à mettre pour verrouiller votre place"
+
+msgid "components.secure_position.block_place.result.default"
+msgid_plural "components.secure_position.block_place.result.default"
+msgstr[0] "Vous devez avoir mis au total {count} PF pour bloquer la place."
+msgstr[1] "Vous devez avoir mis au total {count} PFs pour bloquer la place."
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] "PF que vous devez mettre pour bloquer la place :"
+msgstr[1] "PFs que vous devez mettre pour bloquer la place :"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgid_plural "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr[0] "Vous devez encore mettre {count} PF."
+msgstr[1] "Vous devez encore mettre {count} PFs."
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Une ou plusieurs valeurs ne sont pas valide."
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgid_plural "components.secure_position.block_place.result.roi.profit"
+msgstr[0] "Vous allez gagner {count} PF"
+msgstr[1] "Vous allez gagner {count} PFs"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] "Vous allez perdre {count} PF"
+msgstr[1] "Vous allez perdre {count} PFs"
+
+msgid "components.secure_position.block_place.result.roi.neutral"
+msgstr "Vous n'allez pas avoir de retour sur investissement"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "Votre place est bloquée."
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "Nombre de PF qu'il reste à mettre"
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Vous ne pouvez pas bloquer la place."
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "inconnu"
+
+msgid "components.simple_trade.title"
+msgstr "Version tableau"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Âge"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Marchandise"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Résultat"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Division"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Ratio"
+
+msgid "components.simple_trade.slpit"
+msgstr "Diviser les offres ?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "Afficher le ratio"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] "Une mise à jour depuis votre dernière visite."
+msgstr[1] "{count} mises à jour depuis votre dernière visite."
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "Un ensemble d'outils pour se simplifier la vie sur @:(common.links.foe)"
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"En continuant à utiliser @:(common.site_title), vous acceptez l'utilisation "
+"de cookies pour améliorer votre confort d'utilisation."
+
+msgid "components.site_layout.cookie.link"
+msgstr "En savoir plus"
+
+msgid "components.site_layout.new_year.message"
+msgid_plural "components.site_layout.new_year.message"
+msgstr[0] "@:(common.site_title) fête ses {count} an"
+msgstr[1] "@:(common.site_title) fête ses {count} ans"
+
+msgid "components.site_layout.survey.message"
+msgstr "Aidez-nous à améliorer @:(common.site_title) en répondant à ce sondage."
+
+msgid "components.site_layout.whats_new"
+msgstr "Quoi de neuf ?"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"Vous visitez un lien permanent. De ce fait, toutes modifications effectuées "
+"ne seront pas sauvegardées dans des cookies."
+
+msgid "components.site_layout.footer.license_html"
+msgstr "Code source sous licence @:(common.links.mit)"
+
+msgid "components.site_layout.footer.version"
+msgstr "Version {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "Jour"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Début du jour"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Nuit"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Début de la nuit"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"@:(components.site_layout.day_night.Day)/@:(components.site_layout.day_"
+"night.Night) automatique"
+
+msgid "components.site_layout.global_config"
+msgstr "Paramètres globaux"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "Menu principal toujours visible"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "Style du sélecteur de GM"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Auto-complétion"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Simple selecteur (ancienne version)"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Theme"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Jour"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Nuit"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Automatique"
+
+msgid "components.site_layout.switch_locale"
+msgstr "@:(common.site_title) est disponible dans votre langue"
+
+msgid "components.trade.title"
+msgstr "Version formulaire"
+
+msgid "components.trade.label.i_have"
+msgstr "J'ai"
+
+msgid "components.trade.label.i_want"
+msgstr "Je veux"
+
+msgid "components.trade.label.amount"
+msgstr "Quantité"
+
+msgid "components.trade.split_value"
+msgstr "Taille maximale d'une offre (max {count})"
+
+msgid "components.trade.split_message.msg"
+msgstr "{valueFrom} {ageFrom} pour {valueTo} {ageTo}"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) et {secondPart}"
+
+msgid "components.trade.message.result"
+msgstr ""
+"Pour {to} ressources {ageTo}, il vous faut {from} ressources {ageFrom} avec "
+"des offres de taille maximal {count} :"
+
+msgid "components.trade.message.total"
+msgstr "(total: {amount} {key})"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Constructeur de messages de promotion"
+
+msgid "components.promotion_message_builder.info"
+msgstr ""
+"Ceci peut être copié pour être partagé, par exemple, avec les membres de "
+"votre guilde"
+
+msgid "components.promotion_message_builder.note"
+msgstr ""
+"Notez que le constructeur de message utilise le niveau 9 → 10 de "
+"@:(foe_data.gb.Observatory) avec un ratio de 1.9 pour la prévisualisation."
+
+msgid "components.promotion_message_builder.action"
+msgstr "Action"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Créer un nouveau modèle"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Mettre à jour un modèle existant"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Supprimer un modèle existant"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Commencer à partir d'un modèle ?"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Choisissez le modèle à modifier"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Choisissez le modèle à supprimer"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Modèles par défaut"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Modèles personnalisés"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Configuration"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Ajouter des champs personnalisés"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Nom du champ"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Valeur du champ"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Vos champs personnalisés"
+
+msgid "components.promotion_message_builder.use_short_name"
+msgstr "@:(components.gb_investment.gb_investment.use_short_name)"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Inverser l'ordre des places ?"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Séparateur de place"
+
+msgid "components.promotion_message_builder.place_builder"
+msgstr "Constructeur de places"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Aperçu d'une place (1ère place)"
+
+msgid "components.promotion_message_builder.message_builder"
+msgstr "Constructeur de messages"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Aperçu du message"
+
+msgid "components.promotion_message_builder.place_builder_title"
+msgstr "Constructeur de places"
+
+msgid "components.promotion_message_builder.message_builder_title"
+msgstr "Constructeur de messages"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Variables disponibles:"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Numéro de place"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Valeur de la place (en PFs)"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Du niveau"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Au niveau"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "Nom du GM"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Places"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr ""
+"Nombre de PFs à mettre par le propriétaire pour la place \"x\" (avec \"x\" "
+"allant de 1 à 5)"
+
+msgid "components.promotion_message_builder.variables.message.PVx"
+msgstr ""
+"Nombre de PFs à mettre par un investisseur pour la place \"x\" (avec \"x\" "
+"allant de 1 à 5)"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Saut de ligne, ajouter une nouvelle ligne"
+
+msgid "components.promotion_message_builder.variables.message.LC"
+msgstr "Coût du niveau"
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Nom du modèle"
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Le modèle ne peut pas avoir ce nom. Veuillez utiliser un autre nom."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "Le nom du champ ne peut pas être vide."
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Ce nom de champ existe déjà."
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Modèle sauvegardé"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Modèle mis à jour"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Modèle supprimé"
+
+msgid "components.import_promotion_message.title"
+msgstr "Importer un message de promotion"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Collez votre configuration ici"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Les données ne sont pas valides"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Modèle importé"
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.title"
+msgstr "À propos de @:(common.site_title)"
+
+msgid "routes.about.general_info.title"
+msgstr "Informations générales"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Forge of Empires, FOE, et toutes les marques et contenus associés "
+"appartiennent à InnoGames GmbH.<br />@:(common.site_title) est un site "
+"tierce non officiel et n'est pas affilié à InnoGames."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"@:(common.site_title) a été créé par le joueur français <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"Le site est OpenSource, le code est disponible librement et gratuitement "
+"sur @:(common.links.github).<br/>Ainsi, tout le monde ayant les compétences "
+"nécessaires peut participer à l'amélioration de ce site."
+
+msgid "routes.about.cookie.title"
+msgstr "Cookies"
+
+msgid "routes.about.cookie.p1"
+msgstr "Pour améliorer votre confort d'utilisation, le site utilise des cookies."
+
+msgid "routes.about.cookie.table_message"
+msgstr "Le tableau ci-dessous présent tous les cookies utilisés sur ce site."
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr ""
+"Indique si vous avez lu le message d'information concernant l'utilisation "
+"de cookies"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Langue d'affichage"
+
+msgid "routes.about.dev_info.title"
+msgstr "Informations développement"
+
+msgid "routes.about.dev_info.p1"
+msgstr "Le site est un simple site static hébergé sur GitHub."
+
+msgid "routes.about.dev_info.p2_html"
+msgstr ""
+"Le développement se fait en Node.js à l'aide de @:(common.links.framework). "
+"Le style est réalisé à l'aide de @:(common.links.style)."
+
+msgid "routes.about.dev_info.p3_html"
+msgstr ""
+"Une idée de fonctionnalité ? Un problème ? N'hésitez pas à créer une issue "
+"sur @:(common.links.github) ou à m'envoyer un mail à "
+"@:(common.links.contact_foe_tools)."
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>Note :</b> Concernant les issues sur GitHub, veuillez veiller à les "
+"rédiger en anglais pour faciliter la compréhension pour le plus grand "
+"nombre."
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Coût de la campagne"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr "Cet outil permet de prévoir le coût d'un secteur ou d'une province."
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Calculette Château Frontenac"
+
+msgid "routes.cf_calculator.hero.subtitle"
+msgstr ""
+"Un outil qui aide à prévoir les productions de ressources et de PF en "
+"faisant des quêtes récurrentes et des quêtes de « fête de non anniversaire "
+"» (Rinbin)."
+
+msgid "routes.changelog.title"
+msgstr "Changelog | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Contributeurs"
+
+msgid "routes.contributors.hero.subtitle"
+msgstr "Cette page tente de répertorier tous les contributeurs"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.gb_investment.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Vue propriétaire"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Vue investisseurs"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "Investissement GM"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Cet outil permet de calculer le nombre de points qu'un joueur doit mettre "
+"sur son GM pour sécuriser les 5 premières places suivant un taux (grosses "
+"arches)."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Choisir un Grand Monument"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "Prévision du coût d'un GM"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Cet outil permet de déterminer le nombre de PFs pour aller d'un niveau à un "
+"autre, avec ou sans bonus d'Arche."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "Statistiques GM"
+
+msgid "routes.gb_statistics.hero.subtitle"
+msgstr ""
+"Cet outil permet de visualiser des graphiques sur l'évolution des coûts des "
+"GM suivant l'Âge."
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Sécurisation de place"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Cet outil permet de calculer le nombre de PF qu'un joueur doit mettre sur "
+"un GM pour bloquer sa place."
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.trade.hero.title"
+msgstr "Commerce"
+
+msgid "routes.trade.hero.subtitle"
+msgstr ""
+"Cet outil permet de faciliter votre commerce en vous proposant les "
+"meilleurs taux suivant votre façon de commercer."
+
+msgid "routes.trade.tab.trade_2_1.title"
+msgstr "2:1"
+
+msgid "routes.trade.tab.trade_2_1.message"
+msgstr ""
+"Simple commerce, ratio 1 pour 1 pour des ressources de même âge et 1 pour 2 "
+"pour des ressources avec un âge d'écart."
+
+msgid "routes.trade.tab.fair_trade.title"
+msgstr "Commerce Équitable"
+
+msgid "routes.trade.tab.fair_trade.message"
+msgstr ""
+"Ce type de commerce prend en compte le coût de fabrication d'une ressource "
+"(pièce d'or et marchandise) pour déterminer les taux entre les ressources."
+
+msgid "routes.help_to_translate_the_site.title"
+msgstr "@:(routes.help_to_translate_the_site.hero.title) | @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.hero.title"
+msgstr "Aider à traduire le site"
+
+msgid "routes.help_to_translate_the_site.hero.subtitle"
+msgstr "Rejoindre l'équipe de traduction"
+
+msgid "routes.help_to_translate_the_site.p1"
+msgstr ""
+"Votre langue n'est pas disponible, la traduction est incomplète ou comporte "
+"des erreurs ? N'hésitez pas à rejoindre l'équipe de traduction du site."
+
+msgid "routes.help_to_translate_the_site.how_to_join_the_team"
+msgstr "Comment rejoindre l'équipe ?"
+
+msgid "routes.help_to_translate_the_site.p2_html"
+msgstr ""
+"@:(common.site_title) est traduit par les utilisateurs. Nous utilisons la "
+"plateforme @:(common.links.translation_platform) pour faciliter le "
+"processus de traduction. Pour rejoindre l'équipe, suivez le lien suivant et "
+"inscrivez-vous : @:(common.links.translation_platform)"
+
+msgid "routes.help_to_translate_the_site.state_of_translation"
+msgstr "État de la traduction :"
+
+msgid "routes.survey.title"
+msgstr "@:(routes.survey.hero.title) | @:(common.site_title)"
+
+msgid "routes.survey.hero.title"
+msgstr "Sondage"
+
+msgid "routes.survey.hero.subtitle"
+msgstr "Aider à améliorer @:(common.site_title) en répondant à ce sondage"
+
+msgid "routes.survey.required_field"
+msgstr "Ce champ est obligatoire"
+
+msgid "routes.survey.survey_complete"
+msgstr "Merci pour vos réponses !"
+
+msgid "routes.survey.error"
+msgstr "Une erreur s'est produite, vérifiez le formulaire et réessayez"
+
+msgid "routes.survey.unknown_error"
+msgstr ""
+"Une erreur inconnue c'est produit, veuillez contacter l'administrateur du "
+"site"
+
+msgid "routes.contact.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.contact.hero.title"
+msgstr "Contact"
+
+msgid "routes.contact.hero.subtitle"
+msgstr "Contacter le mainteneur de @:(common.site_title)"
+
+msgid "routes.contact.message_contact_html"
+msgstr ""
+"Une idée de fonctionnalité ? Un problème ? N'hésitez pas m'envoyer un mail "
+"à @:(common.links.contact_foe_tools)."
+
+msgid "routes.contact.message_translate"
+msgstr ""
+"Savez vous que vous pouvez aussi aider à traduire le site ? suivez le lien "
+"suivant pour plus d'information :"
+
+msgid "routes.contact.message_other_info_html"
+msgstr ""
+"Si vous êtes développeurs, vous pouvez aussi créer une issue (et contribuer "
+"au développement du site) sur @:(common.links.github)."
+
+msgid "routes.donate.title"
+msgstr "@:(routes.donate.hero.title) | @:(common.site_title)"
+
+msgid "routes.donate.donation_message"
+msgstr ""
+"@:(common.site_title) est un projet open source sans publicité, et je ne le "
+"fais pas dans un but lucratif. Par conséquent, le temps que je passe à le "
+"réaliser n'est pas rémunéré. J'accepte cependant les dons de toute personne "
+"qui apprécie suffisamment mon travail pour être encline à me rémunérer, "
+"quel qu'en soit le montant et la façon (ponctuel ou mensuel). Les dons ont "
+"une grande importance pour moi, car ils aident à couvrir les coûts liés à "
+"la maintenance des serveurs, aux domaines et à l'hébergement, ainsi que le "
+"coût de la vie en général, et ils me servent de motivation pour continuer à "
+"travailler sur ce projet open-source."
+
+msgid "routes.donate.conversion"
+msgstr "Si vous appréciez mon travail, veuillez envisager de faire un don."
+
+msgid "routes.donate.donation_options"
+msgstr "Faites un don avec @:(common.links.donorbox) ou @:(common.links.paypal)."
+
+msgid "routes.donate.hero.title"
+msgstr "@:(utils.Donate)"
+
+msgid "routes.donate.hero.subtitle"
+msgstr "Faites un don à @:(common.site_title)"
+
+msgid "routes.error.404.title"
+msgstr "Page non trouvée | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Désolé, la page que vous recherchez n'existe pas ou plus"
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge) (@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "Aucun âge"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Âge du Bronze"
+
+msgid "foe_data.age.IronAge"
+msgstr "Âge du Fer"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Haut Moyen Âge"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Moyen Âge Classique"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Renaissance"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "Âge Colonial"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Âge Industriel"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "Ère Progressiste"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Ère Moderne"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Ère Postmoderne"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Ère Contemporaine"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Ère de Demain"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Ère du Futur"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Futur Arctique"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Futur Océanique"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Futur Virtuel"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Ère Spatiale : Mars"
+
+msgid "foe_data.age.SpaceAgeAsteroidBelt"
+msgstr "Ère Spatiale : Ceinture d’Astéroïdes"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "SA"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "ADB"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "ADF"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "HMA"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "MAC"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "REN"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "COL"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "IND"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "PROG"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "MOD"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "PMOD"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "CONT"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "DEM"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "FUT"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "ARC"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "OCE"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "VIR"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "Mars"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Observatoire"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Temple des reliques"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Oracle de Delphes"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Tour de Babel"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Statue de Zeus"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Colisée"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Phare d'Alexandrie"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Hagia Sophia"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Cathédrale d'Aix-la-Chapelle"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Basilique Saint-Marc"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Notre-Dame"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Cathédrale Saint-Basile"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel del Monte"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Château de Deal"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Frauenkirche de Dresde"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Capitole"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Château Frontenac"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Alcatraz"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Space Needle"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Cap Canaveral"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "L'Habitat"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Temple du lotus"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Tour de l'innovation"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Tour de la trêve"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "L'arche"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Forêt tropicale"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Statue de Gaïa"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Orangerie arctique"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Chambre forte des graines"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Musée de l'Atlantide"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "Le Kraken"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "La galaxie bleue"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Armée de terre cuite"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Château d'Himeji"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "Le Projet Virgo"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Star Gazer"
+
+msgid "foe_data.gb.Space_Carrier"
+msgstr "Transporteur Spatial"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Obs"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "TdR"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "Oracle"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Babel"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Zeus"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Colisée"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "Phare"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "Hagia"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "Aix"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "Saint-Marc"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "Notre-Dame"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "Saint-Basile"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "Castel"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "Deal"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "Dresde"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Capitole"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "RAH"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "Frontenac"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Alca"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "SN"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Cap"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Habitat"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "Lotus"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Inno"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "Trêve"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Voyager"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Arche"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "Forêt"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Gaïa"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "Orangerie"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "Chambre (CFdG)"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "Musée"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "Galaxie"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "ATC"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "Himeji"
+
+msgid "foe_data.gb_short.The_Virgo_Project"
+msgstr "Virgo"
+
+msgid "foe_data.gb_short.Star_Gazer"
+msgstr "Gazer"
+
+msgid "foe_data.gb_short.Space_Carrier"
+msgstr "Transporteur"
+
+msgid "foe_data.goods.dye"
+msgstr "Teinture"
+
+msgid "foe_data.goods.lumber"
+msgstr "Bois"
+
+msgid "foe_data.goods.marble"
+msgstr "Marbre"
+
+msgid "foe_data.goods.stone"
+msgstr "Pierre"
+
+msgid "foe_data.goods.wine"
+msgstr "Vin"
+
+msgid "foe_data.goods.cloth"
+msgstr "Tissu"
+
+msgid "foe_data.goods.ebony"
+msgstr "Bois d'ébène"
+
+msgid "foe_data.goods.iron"
+msgstr "Fer"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Bijoux"
+
+msgid "foe_data.goods.limestone"
+msgstr "Calcaire"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Albâtre"
+
+msgid "foe_data.goods.copper"
+msgstr "Cuivre"
+
+msgid "foe_data.goods.gold"
+msgstr "Or"
+
+msgid "foe_data.goods.granite"
+msgstr "Granite"
+
+msgid "foe_data.goods.honey"
+msgstr "Miel"
+
+msgid "foe_data.goods.brick"
+msgstr "Brique"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Herbes séchées"
+
+msgid "foe_data.goods.glass"
+msgstr "Verre"
+
+msgid "foe_data.goods.rope"
+msgstr "Corde"
+
+msgid "foe_data.goods.salt"
+msgstr "Sel"
+
+msgid "foe_data.goods.basalt"
+msgstr "Basalte"
+
+msgid "foe_data.goods.brass"
+msgstr "Laiton"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Poudre à canon"
+
+msgid "foe_data.goods.silk"
+msgstr "Soie"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Poudre à talquer"
+
+msgid "foe_data.goods.coffee"
+msgstr "Café"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Porcelaine"
+
+msgid "foe_data.goods.paper"
+msgstr "Papier"
+
+msgid "foe_data.goods.tar"
+msgstr "Goudron"
+
+msgid "foe_data.goods.wire"
+msgstr "Fil"
+
+msgid "foe_data.goods.coke"
+msgstr "Coke"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Engrais"
+
+msgid "foe_data.goods.rubber"
+msgstr "Caoutchouc"
+
+msgid "foe_data.goods.textiles"
+msgstr "Textile"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Huile de baleine"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Amiante"
+
+msgid "foe_data.goods.explosives"
+msgstr "Explosif"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Essence"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Pièce détachée"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Fer-blanc"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Plats cuisinés"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Béton armé"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Arômes"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Produits de luxe"
+
+msgid "foe_data.goods.packaging"
+msgstr "Emballage"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Données génétiques"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Filtres industriels"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Ressources renouvelables"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Semi-conducteurs"
+
+msgid "foe_data.goods.steel"
+msgstr "Acier"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Données bioniques"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Électro-aimants"
+
+msgid "foe_data.goods.gas"
+msgstr "Gaz"
+
+msgid "foe_data.goods.plastics"
+msgstr "Plastiques"
+
+msgid "foe_data.goods.robots"
+msgstr "Robots"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Recherche en nutrition"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Liant papier"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Conservateurs"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Matériaux intelligents"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Béton translucide"
+
+msgid "foe_data.goods.algae"
+msgstr "Algues"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Données biogéochimiques"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Nanoparticules"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Eau purifiée"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Supraconducteurs"
+
+msgid "foe_data.goods.ai_data"
+msgstr "Données d'I.A."
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Bioplastiques"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Nanocâble"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Piles en papier"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Gaz transester"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Écailles artificielles"
+
+msgid "foe_data.goods.biolight"
+msgstr "Substance bioluminescente"
+
+msgid "foe_data.goods.corals"
+msgstr "Coraux"
+
+msgid "foe_data.goods.pearls"
+msgstr "Perles"
+
+msgid "foe_data.goods.plankton"
+msgstr "Plancton"
+
+msgid "foe_data.goods.promethium"
+msgstr "Prométhium"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Orichalque"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Crypto-monnaie"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Cristal de données"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Riz dorée"
+
+msgid "foe_data.goods.nanites"
+msgstr "Nanorobot"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Soie de thé"
+
+msgid "foe_data.goods.lubricants"
+msgstr "Huiles de graissage"
+
+msgid "foe_data.goods.biotech_crops"
+msgstr "Cultures biotechnologiques"
+
+msgid "foe_data.goods.mars_microbes"
+msgstr "Microbes martiens"
+
+msgid "foe_data.goods.fusion_reactors"
+msgstr "Réacteurs de fusion"
+
+msgid "foe_data.goods.superalloys"
+msgstr "Superalliages"
+
+msgid "foe_data.goods.nickel"
+msgstr "Nickel"
+
+msgid "foe_data.goods.processed_materials"
+msgstr "Matériau transformé"
+
+msgid "foe_data.goods.compound_fluid"
+msgstr "Fluide composé"
+
+msgid "foe_data.goods.bromine"
+msgstr "Brome"
+
+msgid "foe_data.goods.platinum_crystals"
+msgstr "Crystal de platine"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymir"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "East-Nagach"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "West-Nagach"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todepass"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mont Suiry"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Cragshire"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Eldenborough"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Cuttingham"
+
+msgid "foe_data.province.Spearth"
+msgstr "Spearth"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Wolvhampton"
+
+msgid "foe_data.province.FourGallows"
+msgstr "FourGallows"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Mount Killmore"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "RavensCreek"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Houndsmoor"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Zaldon-on-Sea"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Grand Cap"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Northcastle"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Queenshope"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Ashcrook"
+
+msgid "foe_data.province.Narcien"
+msgstr "Narcien"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Lavignon"
+
+msgid "foe_data.province.Troulope"
+msgstr "Troulope"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Deuxerres"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Lombardeaux"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Pisterrac"
+
+msgid "foe_data.province.Varseille"
+msgstr "Varseille"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Haulenois"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "NewCragshire"
+
+msgid "foe_data.province.Okahe"
+msgstr "Okahe"
+
+msgid "foe_data.province.Rantford"
+msgstr "Rantford"
+
+msgid "foe_data.province.Desperation"
+msgstr "Desperation"
+
+msgid "foe_data.province.St_Marque"
+msgstr "St.Marque"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Las Penas"
+
+msgid "foe_data.province.DragonCity"
+msgstr "DragonCity"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Garrincton"
+
+msgid "foe_data.province.ElFuego"
+msgstr "ElFuego"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "SantaCatalina"
+
+msgid "foe_data.province.Dorango"
+msgstr "Dorango"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Nevarrone"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Embruniez"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Gabordeaux"
+
+msgid "foe_data.province.Ydine"
+msgstr "Ydine"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Wenoevre"
+
+msgid "foe_data.province.Havre"
+msgstr "Havre"
+
+msgid "foe_data.province.Omoien"
+msgstr "Omoien"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Uxrow"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Gaelford"
+
+msgid "foe_data.province.Sud"
+msgstr "Sud"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Kriegreich"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Ostrand"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Langenreich"
+
+msgid "foe_data.province.Uceria"
+msgstr "Uceria"
+
+msgid "foe_data.province.Gorski"
+msgstr "Gorski"
+
+msgid "foe_data.province.Inashu"
+msgstr "Inashu"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Natsuishu"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Chigikawa"
+
+msgid "foe_data.province.Igujima"
+msgstr "Igujima"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Kyushima"
+
+msgid "foe_data.province.Igioka"
+msgstr "Igioka"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Igamoto"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Higematsu"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Kibakuguchi"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Hiromaguchi"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Toimuro"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "CaiChetNui"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "SotDamLay"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "DayDuAo"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "TrungDoi"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "KhayHuyenBayGio"
+
+msgid "foe_data.province.RungTrai"
+msgstr "RungTrai"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "RungChienDau"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "GiaiCuuBinhMinh"
+
+msgid "foe_data.province.PhucKich"
+msgstr "PhucKich"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "MauMatDat"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "DongBangSong"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "OngChuCuoiCung"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Amaryah City"
+
+msgid "foe_data.province.Khail"
+msgstr "Khail"
+
+msgid "foe_data.province.Batif"
+msgstr "Batif"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Hafar Al Karak"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Al-Shadyra"
+
+msgid "foe_data.province.Salfah"
+msgstr "Salfah"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Ain Al-Khansa"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Suqqah"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Shayhour"
+
+msgid "foe_data.province.Kardad"
+msgstr "Kardad"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Qumeira"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Jandahar"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Torrinhos"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Villabaja"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Itabarai"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Bajatai"
+
+msgid "foe_data.province.Villariba"
+msgstr "Villariba"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Rio Roxo"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Sierra Torrido"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Santa Nerea"
+
+msgid "foe_data.province.La_Huega"
+msgstr "La Huega"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Jamenez"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Falsa Cruz"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Desierto de la Muerte"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Sao Malvado"
+
+msgid "foe_data.province.Agadar"
+msgstr "Agadar"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Esan-Ewu"
+
+msgid "foe_data.province.Omogba"
+msgstr "Omogba"
+
+msgid "foe_data.province.Owopele"
+msgstr "Owopele"
+
+msgid "foe_data.province.Jak"
+msgstr "Jak"
+
+msgid "foe_data.province.Pala"
+msgstr "Pala"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Kolabourg"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Bontaville"
+
+msgid "foe_data.province.Botuku"
+msgstr "Botuku"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Kalabuye"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Bisoraba"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Fort Buntu"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Nutarniq"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Iluliaq"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Vallée de l'aurore"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Baie gelée"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Horizon arctique"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Tuklavik"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ananevut"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Qaniit"
+
+msgid "foe_data.province.White_Gate"
+msgstr "Porte blanche"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Congères"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Eaux centrales"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Montagne givrée"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Vallée méridionale"
+
+msgid "foe_data.province.Ilug"
+msgstr "Ilug"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Chugiak"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Kesukavut"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Adlartok"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Passage septentrional"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Avalanche"
+
+msgid "foe_data.province.Manirak"
+msgstr "Manirak"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Toundra rocheuse"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Patuktuq"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Sommet glacé"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Kilalurak"
+
+msgid "foe_data.province.Nilak"
+msgstr "Nilak"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Chulyin"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Tattilgat"
+
+msgid "foe_data.province.Atka"
+msgstr "Atka"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Pimniq"
+
+msgid "foe_data.province.Anyu"
+msgstr "Anyu"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Pic glacé"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Nunataq"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Nanuq"
+
+msgid "foe_data.province.Precipice"
+msgstr "Précipice"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Unalaq"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Rites neuraux"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Steppes gelées"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "La grotte"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Banquise du temple"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Plaine spirituelle"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Eaux troubles"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Courant maudit"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Profondeurs coralliennes"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Étendue irrégulière"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Forte marée"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Abîme ténébreux"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Courant frais"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Profondeur sans marée"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Ressac scintillant"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Vagues sereines"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Mer rouge"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Océan émerveillé"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Plafond d'écume"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Golfe fortifié"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Grotte inférieure"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Bancs argentés"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Grotte supérieure"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Domaine rocheux"
+
+msgid "foe_data.province.Nautical_Parlay"
+msgstr "Parlement nautique"
+
+msgid "foe_data.province.Restless_Buoy"
+msgstr "Bouée agitée"
+
+msgid "foe_data.province.Ripped_Sails"
+msgstr "Voiles déchirées"
+
+msgid "foe_data.province.Nautilus_Mirage"
+msgstr "Mirage du Nautilus"
+
+msgid "foe_data.province.Ravenous_Tides"
+msgstr "Marées voraces"
+
+msgid "foe_data.province.Deep_Dive"
+msgstr "Plongeon en profondeur"
+
+msgid "foe_data.province.Furious_Storm"
+msgstr "Tempête déchaînée"
+
+msgid "foe_data.province.Silver_Crest"
+msgstr "Crête en argent"
+
+msgid "foe_data.province.Grey_Clouds"
+msgstr "Nuages gris"
+
+msgid "foe_data.province.Translucent_Algae"
+msgstr "Algue translucide"
+
+msgid "foe_data.province.Treacherous_Surf"
+msgstr "Glissade traître"
+
+msgid "foe_data.province.Single_Wave"
+msgstr "Vague unique"
+
+msgid "foe_data.province.Cursed_Lip"
+msgstr "Lèvre maudite"
+
+msgid "foe_data.province.Coral_Kingdom"
+msgstr "Royaume corallien"
+
+msgid "foe_data.province.Telescopic_Barrel"
+msgstr "Fût télescopique"
+
+msgid "foe_data.province.Sponge_Sands"
+msgstr "Sables spongieux"
+
+msgid "foe_data.province.Seagull_Domain"
+msgstr "Domaine des mouettes"
+
+msgid "foe_data.province.Tangled_Fins"
+msgstr "Nageoires entremêlées"
+
+msgid "foe_data.province.Scuba_Bay"
+msgstr "Baie de plongée"
+
+msgid "foe_data.province.Tide_Ascent"
+msgstr "Marée montante"
+
+msgid "foe_data.province.Breakwater_Wharf"
+msgstr "Quai de Brise-lames"
+
+msgid "foe_data.province.Adrift_Liner"
+msgstr "Paquebot à la dérive"
+
+msgid "foe_data.province.Bermuda_Quay"
+msgstr "Quai des Bermudes"
+
+msgid "foe_data.province.Sextant_Mast"
+msgstr "Mât de sextant"
+
+msgid "foe_data.province.Grog_Wash"
+msgstr "Embruns de grog"
+
+msgid "foe_data.province.R_lyeh_Reef"
+msgstr "Récif de R'lyeh"
+
+msgid "foe_data.province.Capricorn_Waterway"
+msgstr "Voie navigable Capricorne"
+
+msgid "foe_data.province.Barnacle_Deck"
+msgstr "Pont de barnacle"
+
+msgid "foe_data.province.Ahab_s_Tomb"
+msgstr "Tombe d'Ahab"
+
+msgid "foe_data.province.Galley_Commodore"
+msgstr "Galère Commodore"
+
+msgid "foe_data.province.Adamastor"
+msgstr "Adamastor"
+
+msgid "foe_data.province.Deadeye_Admiral"
+msgstr "Amiral Œil de mort"
+
+msgid "foe_data.province.Monkey_s_Fist"
+msgstr "Poing de singe"
+
+msgid "foe_data.province.Dagon_s_Dagger"
+msgstr "Dague de Dragon"
+
+msgid "foe_data.province.Sunken_Leviathan"
+msgstr "Léviathan englouti"
+
+msgid "foe_data.province.Raging_Tides"
+msgstr "Marées déchaînées"
+
+msgid "foe_data.province.Buccaneer_Plateau"
+msgstr "Plateau du boucanier"
+
+msgid "foe_data.province.Craggy_Cay"
+msgstr "Ilot escarpé"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Béhémoth"
+
+msgid "foe_data.province.Privateer_Helm"
+msgstr "Gouvernail de corsaire"
+
+msgid "foe_data.province.Medusa_Cove"
+msgstr "Crique de la méduse"
+
+msgid "foe_data.province.Man_O_War"
+msgstr "Méduse"
+
+msgid "foe_data.province.Nemo_s_Dock"
+msgstr "Dock de Nemo"
+
+msgid "foe_data.province.Anchorage_Ruin"
+msgstr "Ruines d'ancrage"
+
+msgid "foe_data.province.Ahoy_Alee"
+msgstr "Ahoy Alee"
+
+msgid "foe_data.province.Ursula_s_Valley"
+msgstr "Vallée d'Ursula"
+
+msgid "foe_data.province.Dungbie_Trough"
+msgstr "Creux du sillon"
+
+msgid "foe_data.province.Idlers_Range"
+msgstr "Tanière des matelots"
+
+msgid "foe_data.province.Wherry_Gap"
+msgstr "Brèche des voiles à corne"
+
+msgid "foe_data.province.Nock_s_Turn"
+msgstr "Virage des voiles"
+
+msgid "foe_data.province.Scuttle_Ridge"
+msgstr "Crête des coques percées"
+
+msgid "foe_data.province.Ghost_Trench"
+msgstr "Tranchée fantôme"
+
+msgid "foe_data.province.Scurvy_Atoll"
+msgstr "Vil atoll"
+
+msgid "foe_data.province.Capsize_Lagoon"
+msgstr "Lagon chaviré"
+
+msgid "foe_data.province.Undertow_Bank"
+msgstr "Rive du contre-courant"
+
+msgid "foe_data.province.Neptune_s_Galleon"
+msgstr "Galion de Neptune"
+
+msgid "foe_data.province.Seafarer_s_Current"
+msgstr "Courant du marin"
+
+msgid "foe_data.province.Blackwater_Cape"
+msgstr "Cap des eaux noires"
+
+msgid "foe_data.province.Leviathan_Wreck"
+msgstr "Épave du Léviathan"
+
+msgid "foe_data.province.Typhoon_Peninsula"
+msgstr "Péninsule du typhon"
+
+msgid "foe_data.province.Corsair_s_Skerry"
+msgstr "Skerry du corsaire"
+
+msgid "foe_data.province.Mutiny_Canyon"
+msgstr "Gorge de la mutinerie"
+
+msgid "foe_data.province.Bytedirt_Planes"
+msgstr "Bytedirt Planes"
+
+msgid "foe_data.province.End_of_the_Void"
+msgstr "End of the Void"
+
+msgid "foe_data.province.Banker_s_Heaven"
+msgstr "Banker's Heaven"
+
+msgid "foe_data.province.Shift_Land"
+msgstr "Shift/Land"
+
+msgid "foe_data.province.Black_Net_Market"
+msgstr "Black Net Market"
+
+msgid "foe_data.province.Pulse_City"
+msgstr "Pulse City"
+
+msgid "foe_data.province.Max_s_Shelter"
+msgstr "Max's Shelter"
+
+msgid "foe_data.province.The_Open_Zone"
+msgstr "The Open Zone"
+
+msgid "foe_data.province.The_Warring_Towers"
+msgstr "The Warring Towers"
+
+msgid "foe_data.province.Forgotten_Fragments"
+msgstr "Forgotten Fragments"
+
+msgid "foe_data.province.Backup_NET"
+msgstr "Backup:NET"
+
+msgid "foe_data.province.Spoiled_Resort"
+msgstr "Spoiled Resort"
+
+msgid "foe_data.province.Fort_Duplex"
+msgstr "Fort Duplex"
+
+msgid "foe_data.province.LoneHub"
+msgstr "LoneHub"
+
+msgid "foe_data.province.Alpha_1_Omega_2"
+msgstr "Alpha 1 Omega 2"
+
+msgid "foe_data.province.Ray_s_Ray_s"
+msgstr "Ray's Ray's"
+
+msgid "foe_data.province.Purple_Palace"
+msgstr "Purple Palace"
+
+msgid "foe_data.province.Three_Oc3ans"
+msgstr "Three Oc3ans"
+
+msgid "foe_data.province.Vortex"
+msgstr "Vortex"
+
+msgid "foe_data.province.Twisted_Alps"
+msgstr "Twisted Alps"
+
+msgid "foe_data.province.Archives_of_Junkman"
+msgstr "Archives of Junkman"
+
+msgid "foe_data.province.Frozen_RAM"
+msgstr "Frozen RAM"
+
+msgid "foe_data.province.Cas_Cade"
+msgstr "Cas.Cade"
+
+msgid "foe_data.province.The_Historical_Museum"
+msgstr "The Historical Museum"
+
+msgid "foe_data.province.Aerial_Boulevard"
+msgstr "Aerial Boulevard"
+
+msgid "foe_data.province.Slate_13"
+msgstr "Slate 13"
+
+msgid "foe_data.province.New_final_final_exe"
+msgstr "New_final_final.exe"
+
+msgid "foe_data.province.Bizarre_Plains"
+msgstr "Bizarre Plains"
+
+msgid "foe_data.province.Argus__Watch"
+msgstr "Argus' Watch"
+
+msgid "foe_data.province.Berta_s_Byte_Sauce"
+msgstr "Berta's Byte-Sauce"
+
+msgid "foe_data.province.Veil_of_Bits"
+msgstr "Veil of Bits"
+
+msgid "foe_data.province.Harvey_s_Low_Core"
+msgstr "Harvey's Low Core"
+
+msgid "foe_data.province.The_Byte_Parade"
+msgstr "The Byte Parade"
+
+msgid "foe_data.province.Reboot_Bay"
+msgstr "Reboot Bay"
+
+msgid "foe_data.province.Streaming_Forest"
+msgstr "Streaming Forest"
+
+msgid "foe_data.province.CMYK_Citadel"
+msgstr "CMYK Citadel"
+
+msgid "foe_data.province.Forgify"
+msgstr "Forgify"
+
+msgid "foe_data.province.Digital_Town_of_Hope"
+msgstr "Digital Town of Hope"
+
+msgid "foe_data.province.Cloud_One"
+msgstr "Cloud One"
+
+msgid "foe_data.province.Re_Birth"
+msgstr "Re:Birth"
+
+msgid "foe_data.province.Castle_You_Es_Bee"
+msgstr "Castle You-Es-Bee"
+
+msgid "foe_data.province.NET_MASKerade"
+msgstr "NET MASKerade"
+
+msgid "foe_data.province.If_Then_Whatever"
+msgstr "If, Then, Whatever"
+
+msgid "foe_data.province.The_Virtual_Cliffs_of_G0r3"
+msgstr "The Virtual Cliffs of G0r3"
+
+msgid "foe_data.province.The_Church_of_Games"
+msgstr "The Church of Games"
+
+msgid "foe_data.province.The_Sacred_Database"
+msgstr "The Sacred Database"
+
+msgid "foe_data.province.Game_Over"
+msgstr "Game Over"
+
+msgid "foe_data.province.Rustikauri"
+msgstr "Rustikauri"
+
+msgid "foe_data.province.Mathaben"
+msgstr "Mathaben"
+
+msgid "foe_data.province.Kardine_Haven"
+msgstr "Kardine Haven"
+
+msgid "foe_data.province.Vradeen"
+msgstr "Vradeen"
+
+msgid "foe_data.province.Nobisia"
+msgstr "Nobisia"
+
+msgid "foe_data.province.Ghirken"
+msgstr "Ghirken"
+
+msgid "foe_data.province.Klaylach"
+msgstr "Klaylach"
+
+msgid "foe_data.province.Wrandasten_3"
+msgstr "Wrandasten 3"
+
+msgid "foe_data.province.Carva_Caska"
+msgstr "Carva Caska"
+
+msgid "foe_data.province.Fortrin"
+msgstr "Fortrin"
+
+msgid "foe_data.province.Oppeska"
+msgstr "Oppeska"
+
+msgid "foe_data.province.Enervein"
+msgstr "Enervein"
+
+msgid "foe_data.province.Akuppers"
+msgstr "Akuppers"
+
+msgid "foe_data.province.Xalvades"
+msgstr "Xalvades"
+
+msgid "foe_data.province.Ertannen_Belt"
+msgstr "Ertannen Belt"
+
+msgid "foe_data.province.New_Frozenstone"
+msgstr "New Frozenstone"
+
+msgid "foe_data.province.Vaanderbirch"
+msgstr "Vaanderbirch"
+
+msgid "foe_data.province.Zomantau"
+msgstr "Zomantau"
+
+msgid "foe_data.province.Verda_Dophria"
+msgstr "Verda Dophria"
+
+msgid "foe_data.province.Phovolken"
+msgstr "Phovolken"
+
+msgid "foe_data.province.Astra_Prime"
+msgstr "Astra Prime"
+
+msgid "foe_data.province.Destallia"
+msgstr "Destallia"
+
+msgid "foe_data.province.Vyvalgis"
+msgstr "Vyvalgis"
+
+msgid "foe_data.province.Low_Hacoon_Valley"
+msgstr "Low Hacoon Valley"
+
+msgid "foe_data.province.High_Hacoon_Valley"
+msgstr "High Hacoon Valley"
+
+msgid "foe_data.province.Plateau_Firnane_2"
+msgstr "Plateau Firnane-2"
+
+msgid "foe_data.province.Jalcion_Crater"
+msgstr "Jalcion Crater"
+
+msgid "foe_data.province.Loakmolden"
+msgstr "Loakmolden"
+
+msgid "foe_data.province.Sharvice"
+msgstr "Sharvice"
+
+msgid "foe_data.province.Delta_Hills"
+msgstr "Delta Hills"
+
+msgid "foe_data.province.Everdoom"
+msgstr "Everdoom"
+
+msgid "foe_data.province.Psyche"
+msgstr "Psyche"
+
+msgid "foe_data.province.Medea"
+msgstr "Medea"
+
+msgid "foe_data.province.Eros"
+msgstr "Eros"
+
+msgid "foe_data.province.Pallas_C_4"
+msgstr "Pallas C-4"
+
+msgid "foe_data.province.Pallas_D_5"
+msgstr "Pallas D-5"
+
+msgid "foe_data.province.Eunomia"
+msgstr "Eunomia"
+
+msgid "foe_data.province.TB_15_X_7"
+msgstr "TB-15 X-7"
+
+msgid "foe_data.province.Interamnia"
+msgstr "Interamnia"
+
+msgid "foe_data.province.Amphitrite"
+msgstr "Amphitrite"
+
+msgid "foe_data.province.Thisbe"
+msgstr "Thisbe"
+
+msgid "foe_data.province.Ino"
+msgstr "Ino"
+
+msgid "foe_data.province.Hektor"
+msgstr "Hektor"
+
+msgid "foe_data.province.Metis"
+msgstr "Metis"
+
+msgid "foe_data.province.Aletheia"
+msgstr "Aletheia"
+
+msgid "foe_data.province.Diotima"
+msgstr "Diotima"
+
+msgid "foe_data.province.Egeria"
+msgstr "Egeria"
+
+msgid "foe_data.province.Vesta_S_1"
+msgstr "Vesta S-1"
+
+msgid "foe_data.province.Juno"
+msgstr "Juno"
+
+msgid "foe_data.province.Cybele_F_3"
+msgstr "Cybele F-3"
+
+msgid "foe_data.province.Cybele_V_4"
+msgstr "Cybele V-4"
+
+msgid "foe_data.province.Aurora"
+msgstr "Aurora"
+
+msgid "foe_data.province.Ceres_E_6"
+msgstr "Ceres E-6"
+
+msgid "foe_data.province.Ceres_G_7"
+msgstr "Ceres G-7"
+
+msgid "foe_data.province.Pales"
+msgstr "Pales"
+
+msgid "foe_data.province.Loreley"
+msgstr "Loreley"
+
+msgid "foe_data.province.Gyptis"
+msgstr "Gyptis"
+
+msgid "foe_data.province.Eunike"
+msgstr "Eunike"
+
+msgid "foe_data.province.Euphrosyne_A_12"
+msgstr "Euphrosyne A-12"
+
+msgid "foe_data.province.Hygiea_N_13"
+msgstr "Hygiea N-13"
+
+msgid "foe_data.province.Hygiea_O_14"
+msgstr "Hygiea O-14"
+
+msgid "foe_data.province.Vesta_L_15"
+msgstr "Vesta L-15"
+
+msgid "foe_data.province.Vesta_M_16"
+msgstr "Vesta M-16"
+
+msgid "foe_data.province.Fides"
+msgstr "Fides"
+
+msgid "foe_data.province.Ceres_K_18"
+msgstr "Ceres K-18"
+
+msgid "foe_data.province.Nemesis"
+msgstr "Nemesis"
+
+msgid "foe_data.province.Euphrosyne_A_20"
+msgstr "Euphrosyne A-20"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Pièces d'or"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Marchandises"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Ressources"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Ressources spécials"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Dépôt de ressources"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Expansion"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Médailles"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "diamant"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "Tour JcJ"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Plan"
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Amélioration militaire"
+
+msgid "foe_data.bonus.military_boost.gb_description"
+msgstr ""
+"Augmente le bonus d'attaque et de défense pour votre armée d'attaque, "
+"s'ajoute à celui des bâtiments."
+
+msgid "foe_data.bonus.fierce_resistance.name"
+msgstr "Résistance féroce"
+
+msgid "foe_data.bonus.fierce_resistance.gb_description"
+msgstr ""
+"Augmente le bonus d'attaque et de défense pour votre armée de défense et "
+"augmente le bonus de réserve de soutien, s'ajoute à celui des bâtiments."
+
+msgid "foe_data.bonus.coin_boost.name"
+msgstr "Amélioration relative aux pièces"
+
+msgid "foe_data.bonus.coin_boost.gb_description"
+msgstr ""
+"Augmente les revenus de vos habitations en complément de votre niveau de "
+"satisfaction et des motivations reçues."
+
+msgid "foe_data.bonus.supply_boost.name"
+msgstr "Amélioration relative aux marchandises"
+
+msgid "foe_data.bonus.supply_boost.gb_description"
+msgstr ""
+"Augmente la production de vos bâtiments de marchandises en complément de "
+"votre niveau de satisfaction et des motivations reçues."
+
+msgid "foe_data.bonus.good_production.name"
+msgstr "Production de ressources"
+
+msgid "foe_data.bonus.good_production.gb_description"
+msgstr ""
+"Produit toutes les 24 heures une quantité de ressources de l'âge dans "
+"lequel vous vous trouvez. À partir de l'Ère Moderne, produit le double de "
+"ressources non raffinées."
+
+msgid "foe_data.bonus.medal_production.name"
+msgstr "Production de médailles"
+
+msgid "foe_data.bonus.medal_production.gb_description"
+msgstr "Produit toutes les 24 heures une quantité de médailles."
+
+msgid "foe_data.bonus.research.name"
+msgstr "Recherches"
+
+msgid "foe_data.bonus.research.gb_description"
+msgstr "Produit toutes les 24 heures une quantité de points Forge."
+
+msgid "foe_data.bonus.coin_production.name"
+msgstr "Production de pièces"
+
+msgid "foe_data.bonus.coin_production.gb_description"
+msgstr "Produit toutes les 24 heures une quantité de pièces d'or."
+
+msgid "foe_data.bonus.supply_production.name"
+msgstr "Production de marchandises"
+
+msgid "foe_data.bonus.supply_production.gb_description"
+msgstr "Produit toutes les 24 heures une quantité de marchandises."
+
+msgid "foe_data.bonus.population.name"
+msgstr "Population"
+
+msgid "foe_data.bonus.population.gb_description"
+msgstr "Ajoute de façon permanente un bonus de population."
+
+msgid "foe_data.bonus.happiness.name"
+msgstr "Satisfaction"
+
+msgid "foe_data.bonus.happiness.gb_description"
+msgstr "Ajoute de façon permanente un bonus de satisfaction."
+
+msgid "foe_data.bonus.quest_reward_boost.name"
+msgstr "Amélioration relative aux récompenses de quête"
+
+msgid "foe_data.bonus.quest_reward_boost.gb_description"
+msgstr ""
+"Augmente uniquement vos gains de pièces d'or, marchandises, ressources, "
+"médailles ou diamants reçus lors d'une quête."
+
+msgid "foe_data.bonus.penal_unit.name"
+msgstr "Production d'unités"
+
+msgid "foe_data.bonus.penal_unit.gb_description"
+msgstr ""
+"Produit toutes les 24 heures des unités sans rattachement choisies au "
+"hasard parmi toutes celles que vous pouvez produire dans votre cité."
+
+msgid "foe_data.bonus.guild_goods.name"
+msgstr "Ressources de la guilde"
+
+msgid "foe_data.bonus.guild_goods.gb_description"
+msgstr ""
+"Produit toutes les 24 heures une quantité de ressources de l'âge dans "
+"lequel vous vous trouvez et qui va directement dans la trésorerie de guilde."
+
+msgid "foe_data.bonus.support_pool_bonus.name"
+msgstr "Bonus de réserve de soutien"
+
+msgid "foe_data.bonus.support_pool_bonus.gb_description"
+msgstr ""
+"Augmente le bonus de réserve de soutien de votre guilde, s'ajoute à celui "
+"des bâtiments."
+
+msgid "foe_data.bonus.aid_goods.name"
+msgstr "Ressources d'entraide"
+
+msgid "foe_data.bonus.aid_goods.gb_description"
+msgstr ""
+"Lorsque vous aidez un bâtiment (cela fonctionne aussi avec le "
+"polissage/motivation manuel), vous recevez une ressource aléatoire de l'âge "
+"du bâtiment aidé."
+
+msgid "foe_data.bonus.plunder_goods.name"
+msgstr "Ressources de pillage"
+
+msgid "foe_data.bonus.plunder_goods.gb_description"
+msgstr ""
+"Pour les trois premiers voisins pillés, vous recevez des ressources "
+"aléatoires de l'âge du bâtiment pillé."
+
+msgid "foe_data.bonus.contribution_boost.name"
+msgstr "Bonus de contribution"
+
+msgid "foe_data.bonus.contribution_boost.gb_description"
+msgstr ""
+"Augmente le nombre de points Forge, de médailles et de plans reçus en tant "
+"que récompense de contribution."
+
+msgid "foe_data.bonus.aid_blueprints.name"
+msgstr "Plans d'entraide"
+
+msgid "foe_data.bonus.aid_blueprints.gb_description"
+msgstr ""
+"Augmente la chance d'obtenir un plan lorsque vous aidez un autre joueur "
+"(les polir/motiver manuellement compte au même titre qu'aider). Par exemple "
+"avec un bonus de 100% vous doublez votre chance de trouver un plan."
+
+msgid "foe_data.bonus.relic_hunt.name"
+msgstr "Chasse à la relique"
+
+msgid "foe_data.bonus.relic_hunt.gb_description"
+msgstr ""
+"Donne un pourcentage de chance de faire apparaître une relique cachée sur "
+"la carte d'expédition de guilde après avoir résolu une rencontre. Les "
+"reliques valent le coup et peuvent avoir 3 types de rareté différents. "
+"Chaque niveau augmente la chance de trouver une relique, mais augmente "
+"aussi la chance de trouver une relique inhabituelle ou rare par rapport à "
+"une relique commune."
+
+msgid "foe_data.bonus.critical_hit.name"
+msgstr "Coup critique"
+
+msgid "foe_data.bonus.critical_hit.gb_description"
+msgstr ""
+"Lorsqu'une unité attaque une autre unité du même âge, elle a une chance de "
+"faire 1,5 fois les dégâts attendus. Contre l'armure réactive, le coup "
+"critique fera aussi 1,5 fois plus de dégâts qu'un coup normal (donc si le "
+"dégât espéré est de 4-4, un coup critique fera un dégât de 6-6). Contre les "
+"voyous, ce bonus ne fonctionne pas au départ (il en va de même pour toutes "
+"les unités sans âge), mais dès que l'unité se transforme, elle peut "
+"utiliser/être affectée par ce bonus. Un coup critique faisant au moins 11 "
+"de dégâts va tuer l'unité en un seul coup, même avec le bonus moral. Ce "
+"bonus s'applique sur toutes les armées d'attaque ainsi que sur votre armée "
+"de défense en JcJ : le coup critique n'aura pas lieu lors des représailles "
+"de l'unité."
+
+msgid "foe_data.bonus.helping_hands.name"
+msgstr "Aide entre membres"
+
+msgid "foe_data.bonus.helping_hands.gb_description"
+msgstr ""
+"Vous donne une chance d'obtenir une richesse au hasard lorsque vous aidez "
+"un autre joueur (les polir/motiver manuellement compte au même titre "
+"qu'aider). Vous pouvez recevoir des ressources de votre âge actuel, des "
+"marchandises, des pièces, des médailles et même des diamants."
+
+msgid "foe_data.bonus.plunder_and_pillage.name"
+msgstr "Pillage et saccage"
+
+msgid "foe_data.bonus.plunder_and_pillage.gb_description"
+msgstr ""
+"Vous donne une chance d'obtenir le double de ce que vous pillez dans la "
+"ville d'un voisin après avoir vaincu ses défenses. Cela concerne aussi bien "
+"les points Forge que les points de prestige."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "Première frappe"
+
+msgid "foe_data.bonus.first_strike.gb_description"
+msgstr ""
+"Vous donne une chance qu'au début d'un combat, une unité de l'armée de "
+"défense ennemie soit tuée immédiatement. Ne s'applique qu'à la première "
+"vague d'un combat."
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Collecte doublée"
+
+msgid "foe_data.bonus.double_collection.gb_description"
+msgstr ""
+"Pour les %s premiers bâtiments que vous collectez, vous avez une chance de "
+"doubler les richesses obtenues. Ne concerne pas les bâtiments militaires et "
+"grands monuments. S'actualise à chaque collecte du bâtiment."
+
+msgid "foe_data.bonus.exploration_site.name"
+msgstr "Site d'exploration"
+
+msgid "foe_data.bonus.exploration_site.gb_description"
+msgstr "---"
+
+msgid "utils.content.tools"
+msgstr "Outils"
+
+msgid "utils.content.statistics"
+msgstr "Statistiques"
+
+msgid "utils.btn_calculate"
+msgstr "Calculer"
+
+msgid "utils.description.p1"
+msgstr ""
+"Saisissez les différentes valeurs. Le résultat se met à jour "
+"automatiquement."
+
+msgid "utils.description.p2_html"
+msgstr ""
+"<strong>Note</strong> : Si la mise à jour ne se fait pas automatiquement, "
+"cliquez sur « @:(utils.btn_calculate) »."
+
+msgid "utils.choose_age"
+msgstr "Choisissez un Âge"
+
+msgid "utils.permalink"
+msgstr "Lien permanent"
+
+msgid "utils.Add"
+msgstr "Ajouter"
+
+msgid "utils.Remove"
+msgstr "Supprimer"
+
+msgid "utils.Yes"
+msgstr "Oui"
+
+msgid "utils.No"
+msgstr "Non"
+
+msgid "utils.Ok"
+msgstr "Ok"
+
+msgid "utils.Copy"
+msgstr "Copier"
+
+msgid "utils.Copyed"
+msgstr "Copié !"
+
+msgid "utils.Information"
+msgstr "Information"
+
+msgid "utils.From"
+msgstr "De"
+
+msgid "utils.To"
+msgstr "À (max {max})"
+
+msgid "utils.Prefix"
+msgstr "Préfixe"
+
+msgid "utils.Suffix"
+msgstr "Suffixe"
+
+msgid "utils.Path"
+msgstr "Chemin"
+
+msgid "utils.Name"
+msgstr "Nom"
+
+msgid "utils.Description"
+msgstr "Description"
+
+msgid "utils.Rewards"
+msgstr "Récompenses"
+
+msgid "utils.Cost"
+msgstr "Coût"
+
+msgid "utils.Conquered"
+msgstr "Conquis"
+
+msgid "utils.Total"
+msgstr "Total"
+
+msgid "utils.Secured"
+msgstr "Sécurisé"
+
+msgid "utils.Reset"
+msgstr "Réinitialiser"
+
+msgid "utils.Confirm"
+msgstr "Confirmer"
+
+msgid "utils.Close"
+msgstr "Fermer"
+
+msgid "utils.Result"
+msgstr "Résultat"
+
+msgid "utils.between_range"
+msgstr "entre {min} et {max}"
+
+msgid "utils.Submit"
+msgstr "Envoyer"
+
+msgid "utils.Reset_values"
+msgstr "Réinitialiser les valeurs"
+
+msgid "utils.Switch"
+msgstr "Changer"
+
+msgid "utils.Save"
+msgstr "Sauvegarder"
+
+msgid "utils.Show"
+msgstr "Afficher"
+
+msgid "utils.Hide"
+msgstr "Masquer"
+
+msgid "utils.Next"
+msgstr "→"
+
+msgid "utils.Previous"
+msgstr "←"
+
+msgid "utils.Exit"
+msgstr "Quitter"
+
+msgid "utils.Done"
+msgstr "Fini"
+
+msgid "utils.FP"
+msgid_plural "utils.FP"
+msgstr[0] "{count} PF"
+msgstr[1] "{count} PFs"
+
+msgid "utils.Tutorial"
+msgstr "Tutoriel"
+
+msgid "utils.Donate"
+msgstr "Faire un don"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Ce champ ne peut pas être vide"
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] "{count} an"
+msgstr[1] "{count} ans"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] "{count} mois"
+msgstr[1] "{count} mois"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] "{count} jour"
+msgstr[1] "{count} jours"
+
+msgid "utils.graph.gb_level"
+msgstr "Niveau"
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Coût du niveau"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "Gain du niveau (1er place)"
+
+msgid "contributions.blog"
+msgstr "Articles de blog"
+
+msgid "contributions.bug"
+msgstr "Rapports de bogues"
+
+msgid "contributions.code"
+msgstr "Code"
+
+msgid "contributions.design"
+msgstr "Design"
+
+msgid "contributions.doc"
+msgstr "Documentation"
+
+msgid "contributions.eventOrganizing"
+msgstr "Organisation d'événements"
+
+msgid "contributions.example"
+msgstr "Exemples"
+
+msgid "contributions.financial"
+msgstr "Financier"
+
+msgid "contributions.fundingFinding"
+msgstr "Recherche de financement"
+
+msgid "contributions.ideas"
+msgstr "Idées, planification et commentaires"
+
+msgid "contributions.infra"
+msgstr "Infrastructure (Hosting, Build-Tools, etc)"
+
+msgid "contributions.platform"
+msgstr "Packaging/portage vers une nouvelle plateforme"
+
+msgid "contributions.plugin"
+msgstr "Plug-in / Bibliothèques utilitaires"
+
+msgid "contributions.question"
+msgstr "Répondre aux questions"
+
+msgid "contributions.review"
+msgstr "Revue de Pull Requests"
+
+msgid "contributions.talk"
+msgstr "Discussion"
+
+msgid "contributions.test"
+msgstr "Tests"
+
+msgid "contributions.tool"
+msgstr "Outils"
+
+msgid "contributions.translation"
+msgstr "Traduction"
+
+msgid "contributions.tutorial"
+msgstr "Tutoriels"
+
+msgid "contributions.video"
+msgstr "Vidéos"
+
+msgid "contributions.data"
+msgstr "Ajout ou mise à jour de données"
+
+msgid "contributions.inspired_tool"
+msgstr "Outil inspiré de son travail"
+
+msgid "contributions.creator"
+msgstr "Créateur de ce projet"
+
+msgid "seo.keywords.gb"
+msgstr "gm"
+
+msgid "seo.keywords.great_building"
+msgstr "grand monument"
+
+msgid "seo.keywords.fp"
+msgstr "pf"
+
+msgid "seo.keywords.forge_point"
+msgstr "point forge"
+
+msgid "seo.keywords.medals"
+msgstr "médailles"
+
+msgid "seo.keywords.military_units"
+msgstr "unités militaires"

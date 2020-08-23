@@ -15,25 +15,25 @@ const defaultProfileName = "Default";
 const tagURL = "https://api.github.com/repos/FOE-Tools/FOE-Tools.github.io/git/refs/tags";
 
 export default {
-  head /* istanbul ignore next */: function() {
+  head /* istanbul ignore next */: function () {
     return {
       link: [
         {
           hid: "icon_1",
           rel: "icon",
           type: "image/png",
-          href: "/icon.png"
-        }
+          href: "/icon.png",
+        },
       ],
       htmlAttrs: {
         lang: this.lang,
-        class: this.$store.get("isDarkTheme") ? "dark-theme" : "light-theme"
+        class: this.$store.get("isDarkTheme") ? "dark-theme" : "light-theme",
       },
       bodyAttrs: {
         class:
           (this.$store.get("global/fixedMainMenu") ? "has-navbar-fixed-top " : "") +
-          (this.$store.get("isDarkTheme") ? "dark-theme" : "light-theme")
-      }
+          (this.$store.get("isDarkTheme") ? "dark-theme" : "light-theme"),
+      },
     };
   },
   data() {
@@ -67,14 +67,14 @@ export default {
         gb_statistics: this.$store.get("routes@gb_statistics"),
         gb_forecast_cost: this.$store.get("routes@gb_forecast_cost"),
         trade: this.$store.get("routes@trade"),
-        campaign_cost: this.$store.get("routes@campaign_cost")
+        campaign_cost: this.$store.get("routes@campaign_cost"),
       },
       mainMenu: [
         {
           ...this.$store.get("routes@home"),
           type: Utils.MenuRecordType.PAGE,
           name: this.$t(`main_menu.${this.$store.get("routes@home.key")}`),
-          children: []
+          children: [],
         },
         {
           type: Utils.MenuRecordType.MENU_ENTRY,
@@ -86,33 +86,33 @@ export default {
               ...this.$store.get("routes@gb_investment"),
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@gb_investment.key")}`),
-              children: []
+              children: [],
             },
             {
               ...this.$store.get("routes@secure_position"),
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@secure_position.key")}`),
-              children: []
+              children: [],
             },
             {
               ...this.$store.get("routes@cf_calculator"),
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@cf_calculator.key")}`),
-              children: []
+              children: [],
             },
             {
               ...this.$store.get("routes@trade"),
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@trade.key")}`),
-              children: []
+              children: [],
             },
             {
               ...this.$store.get("routes@campaign_cost"),
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@campaign_cost.key")}`),
-              children: []
-            }
-          ]
+              children: [],
+            },
+          ],
         },
         {
           type: Utils.MenuRecordType.MENU_ENTRY,
@@ -125,39 +125,39 @@ export default {
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@gb_statistics.key")}`),
               link: this.$store.get("routes@gb_statistics.link"),
-              children: []
+              children: [],
             },
             {
               ...this.$store.get("routes@gb_forecast_cost"),
               type: Utils.MenuRecordType.PAGE,
               name: this.$t(`main_menu.${this.$store.get("routes@gb_forecast_cost.key")}`),
-              children: []
-            }
-          ]
-        }
+              children: [],
+            },
+          ],
+        },
       ],
       footerLinks: [
         this.$store.get("routes@about"),
         this.$store.get("routes@contact"),
         this.$store.get("routes@contributors"),
-        this.$store.get("routes@changelog")
+        this.$store.get("routes@changelog"),
       ],
       dayNightWatchdog: (() => {
         let timeout;
         return {
-          start: /* istanbul ignore next */ function() {
+          start: /* istanbul ignore next */ function () {
             if (!timeout) {
               timeout = setInterval(this.updateDayNightMode, dayNightWatchdogTimeout);
             }
           },
-          stop: /* istanbul ignore next */ function() {
+          stop: /* istanbul ignore next */ function () {
             clearInterval(timeout);
             timeout = undefined;
-          }
+          },
         };
       })(),
       showSnackbarChangeLocale: false,
-      detectedLocale: ""
+      detectedLocale: "",
     };
   },
   computed: {
@@ -179,17 +179,14 @@ export default {
     },
     hasSurvey() {
       return this.$route.name !== "Survey" && this.$store.get("survey") && this.$store.get("survey").length;
-    }
+    },
   },
   watch: {
-    lang(val) {
-      this.$formatNumberLocale(val);
-    },
     "$route.path"() {
       Vue.set(this.$data, "burgerMenuVisible", false);
       this.$store.commit("RESET_LOCATION");
     },
-    dayNightMode: /* istanbul ignore next */ function(val) {
+    dayNightMode: /* istanbul ignore next */ function (val) {
       switch (val) {
         case "day":
           this.dayNightWatchdog.stop.call(this);
@@ -204,7 +201,7 @@ export default {
           this.updateDayNightMode();
           break;
       }
-    }
+    },
   },
   methods: {
     confirmInfoCookie() {
@@ -215,17 +212,15 @@ export default {
       const min = 15;
       const max = 30;
       const amount = Math.random() * (max - min) + min;
-      return this.$moment()
-        .add(amount, "days")
-        .format("YYYY-MM-DD");
+      return this.$moment().add(amount, "days").format("YYYY-MM-DD");
     },
     toggleMenu() {
       Vue.set(this.$data, "burgerMenuVisible", !this.$data.burgerMenuVisible);
     },
     isActive(key) {
-      return this.$route.name === key;
+      return this.$route.name.startsWith(`${key}___`);
     },
-    showGlobalSettings: /* istanbul ignore next */ function() {
+    showGlobalSettings: /* istanbul ignore next */ function () {
       let self = this;
       this.$buefy.modal.open({
         parent: this,
@@ -238,13 +233,13 @@ export default {
           nightStartChange: () => {
             self.updateDayNightMode();
           },
-          dayNightChanged: val => {
+          dayNightChanged: (val) => {
             this.$data.dayNightMode = val;
-          }
-        }
+          },
+        },
       });
     },
-    updateDayNightMode: /* istanbul ignore next */ function() {
+    updateDayNightMode: /* istanbul ignore next */ function () {
       if (this.dayNightMode !== "auto") {
         this.dayNightWatchdog.stop.call(this);
       } else {
@@ -260,33 +255,33 @@ export default {
       this.$store.set("isDarkTheme", value === "night");
       this.$store.set("global/dayNightMode", this.$clone(value));
     },
-    backToTop: /* istanbul ignore next */ function() {
+    backToTop: /* istanbul ignore next */ function () {
       window.scroll({ top: 0 });
     },
-    closeSnackbar: /* istanbul ignore next */ function() {
+    closeSnackbar: /* istanbul ignore next */ function () {
       this.showSnackbarChangeLocale = false;
       this.$store.set("global/haveReadLocaleInfoAvailable", true);
     },
-    switchLocale: /* istanbul ignore next */ function() {
+    switchLocale: /* istanbul ignore next */ function () {
       this.closeSnackbar();
       this.$cookies.set("locale", this.detectedLocale, {
         path: "/",
-        expires: Utils.getDefaultCookieExpireTime()
+        expires: Utils.getDefaultCookieExpireTime(),
       });
       this.$store.set("global/locale", this.$clone(this.detectedLocale));
       this.$store.set("locale", this.detectedLocale);
       window.location.reload();
     },
-    onCloseDonationMessage: /* istanbul ignore next */ function() {
+    onCloseDonationMessage: /* istanbul ignore next */ function () {
       this.$store.set("global/donationConversion", this.$clone(this.getNextConversion()));
     },
-    initData: /* istanbul ignore next */ function() {
+    initData: /* istanbul ignore next */ function () {
       const defaultInvestorPercentageGlobal = 90;
 
       let currentProfileID;
 
       if (!this.$store.get("global/profiles").length || !this.$store.get("global/currentProfile")) {
-        const ids = this.$store.get("global/profiles").map(k => k.key);
+        const ids = this.$store.get("global/profiles").map((k) => k.key);
         do {
           currentProfileID = uuidv4();
         } while (ids.indexOf(currentProfileID) >= 0);
@@ -311,7 +306,7 @@ export default {
         "dayNightMode",
         "dayStart",
         "nightStart",
-        "lastVisitVersion"
+        "lastVisitVersion",
       ];
 
       if ("locale" in cookies) {
@@ -363,9 +358,9 @@ export default {
           cumulativeQuest: 0,
           secondRq: false,
           supplies: 0,
-          suppliesGathered: 0
+          suppliesGathered: 0,
         },
-        gb: {}
+        gb: {},
       };
 
       const dbProfile = this.$store.get(`profile/profiles@[${currentProfileID}]`);
@@ -374,7 +369,7 @@ export default {
           ...currentProfile,
           ...dbProfile,
           cf: { ...currentProfile.cf, ...this.$clone(dbProfile.cf) },
-          gb: { ...this.$clone(dbProfile.gb) }
+          gb: { ...this.$clone(dbProfile.gb) },
         };
       }
 
@@ -399,7 +394,7 @@ export default {
         { key: "otherRq", parentKey: "cf" },
         { key: "suppliesGathered", parentKey: "cf" },
         { key: "cumulativeQuest", parentKey: "cf" },
-        { key: "secondRq", parentKey: "cf" }
+        { key: "secondRq", parentKey: "cf" },
       ];
 
       // Add keys that is global in the profile or in cf
@@ -420,7 +415,7 @@ export default {
       const defaultGBConf = Utils.getDefaultGBConf();
 
       // Get "easy" keys of GB
-      cookieKeys.some(e => {
+      cookieKeys.some((e) => {
         const regGbTab = /^(\w+)_tab$/g;
         const regOwnerView = /^(\w+)_(ownerInvestment|investorParticipation|level)_?(\d*)$/g;
         const regInvestorView = /^(\w+)_(from|to|showPlace|takingPlaceInConsideration)_?(\d*)$/g;
@@ -457,7 +452,7 @@ export default {
       });
 
       // Get InvestorPercentageGlobal
-      cookieKeys.some(e => {
+      cookieKeys.some((e) => {
         const reg = /^(\w+)_investorPercentageGlobal$/g;
         if (reg.test(e)) {
           reg.lastIndex = 0;
@@ -475,7 +470,7 @@ export default {
       });
 
       // Get InvestorPercentageCustom
-      cookieKeys.some(e => {
+      cookieKeys.some((e) => {
         const reg = /^(\w+)_investorPercentageCustom_?(\d*)$/g;
         if (reg.test(e)) {
           reg.lastIndex = 0;
@@ -495,7 +490,7 @@ export default {
       this.$store.commit("profile/setProfile", { profileKey: currentProfileID, profile: { ...currentProfile } });
       const profile = this.$store.get(`profile/profiles@[${this.$store.get("global/currentProfile")}]`);
       if (!Utils.isNullOrUndef(profile.customPromotionMessagesTemplates)) {
-        let ids = this.$store.get(`global/customPromotionMessagesTemplates`).map(e => e.id);
+        let ids = this.$store.get(`global/customPromotionMessagesTemplates`).map((e) => e.id);
         const customPMT = this.$clone(profile.customPromotionMessagesTemplates);
         for (const elt of customPMT) {
           let id;
@@ -511,7 +506,7 @@ export default {
       }
 
       const customPromotionMessagesTemplates = this.$clone(this.$store.get(`global/customPromotionMessagesTemplates`));
-      customPromotionMessagesTemplates.forEach(elt => {
+      customPromotionMessagesTemplates.forEach((elt) => {
         for (const customFieldName in elt.config.customFields) {
           if (!("placeholder" in elt.config.customFields[customFieldName])) {
             elt.config.customFields[customFieldName].placeholder = elt.config.customFields[customFieldName].value;
@@ -522,10 +517,17 @@ export default {
         }
       });
       this.$store.set(`global/customPromotionMessagesTemplates`, customPromotionMessagesTemplates);
-    }
+    },
   },
-  mounted: /* istanbul ignore next */ function() {
-    this.$formatNumberLocale(this.lang);
+  mounted: /* istanbul ignore next */ function () {
+    let addToAnyScript1 = document.createElement("script");
+    addToAnyScript1.innerText = `var a2a_config = {};
+    a2a_config.locale = "${this.$clone(this.$store.get("locale"))}";`;
+    document.head.appendChild(addToAnyScript1);
+    let addToAnyScript2 = document.createElement("script");
+    addToAnyScript2.setAttribute("src", "https://static.addtoany.com/menu/page.js");
+    document.head.appendChild(addToAnyScript2);
+
     if (this.dayNightMode === "auto") {
       this.dayNightWatchdog.start.call(this);
       this.updateDayNightMode();
@@ -550,13 +552,13 @@ export default {
       let xhr = new XMLHttpRequest();
       let self = this;
       xhr.open("GET", tagURL, true);
-      xhr.onload = function() {
+      xhr.onload = function () {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
             const tags = JSON.parse(xhr.responseText);
             let found = false;
             let nb = 0;
-            tags.forEach(elt => {
+            tags.forEach((elt) => {
               if (!found && elt.ref.match(/v(\d+\.\d+\.\d+)$/)[1] === lastVisitVersion) {
                 found = true;
               } else if (found) {
@@ -573,13 +575,13 @@ export default {
           }
         }
       };
-      xhr.onerror = function() {
+      xhr.onerror = function () {
         console.error(xhr.statusText);
       };
       xhr.send(null);
     }
   },
   components: {
-    languageSelector
-  }
+    languageSelector,
+  },
 };

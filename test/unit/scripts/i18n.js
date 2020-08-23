@@ -1,7 +1,7 @@
 import { i18next } from "../../../scripts/i18n";
 
-describe("i18n", function() {
-  describe("i18next", function() {
+describe("i18n", function () {
+  describe("i18next", function () {
     test("Valid value", () => {
       const result = i18next.t("utils.moment.year", { count: 1234 });
       expect(result).toBe("1,234 years");

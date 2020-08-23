@@ -10,15 +10,15 @@ export default {
   props: {
     current: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     gbs = this.$store.get("foe/gbs@gbs");
     gbList = this.$store.get("foe/gbs@gbList");
 
     const gbData = Object.keys(gbs)
-      .map(k => {
+      .map((k) => {
         return { value: k, text: this.$t("foe_data.gb." + k) };
       })
       .sort((a, b) => (a.text > b.text ? 1 : b.text > a.text ? -1 : 0));
@@ -30,21 +30,16 @@ export default {
       selected: this.$props.current,
       name: "",
       tmpName: "",
-      id: "gbList" + this._uid
+      id: "gbList" + this._uid,
     };
   },
   computed: {
-    filteredDataObj: /* istanbul ignore next */ function() {
-      return this.gbData.filter(option => {
-        return (
-          option.text
-            .toString()
-            .toLowerCase()
-            .indexOf(this.name.toLowerCase()) >= 0
-        );
+    filteredDataObj: /* istanbul ignore next */ function () {
+      return this.gbData.filter((option) => {
+        return option.text.toString().toLowerCase().indexOf(this.name.toLowerCase()) >= 0;
       });
     },
-    gbSelectModeDatalist: sync("global/gbSelectMode")
+    gbSelectModeDatalist: sync("global/gbSelectMode"),
   },
   watch: {
     selected(val) {
@@ -55,16 +50,16 @@ export default {
 
         this.$emit("change", val);
       }
-    }
+    },
   },
   methods: {
-    onSelect: /* istanbul ignore next */ function(option) {
+    onSelect: /* istanbul ignore next */ function (option) {
       if (option) {
         this.selected = option.value;
       }
     },
-    onFocus: /* istanbul ignore next */ function(evt) {
+    onFocus: /* istanbul ignore next */ function (evt) {
       evt.target.select();
-    }
-  }
+    },
+  },
 };

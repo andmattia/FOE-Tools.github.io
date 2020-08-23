@@ -9,7 +9,7 @@ const factory = () => {
   const { localVue, store } = getView({ ...getDefaultStore(), campaignCost });
   return shallowMount(Component, {
     localVue: localVue,
-    store: store
+    store: store,
   });
 };
 

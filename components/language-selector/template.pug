@@ -3,22 +3,22 @@ div
     button.button(slot="trigger")
       article.media
         .media-left
-          span {{countryFlagEmoji.get(this.$i18n.i18next.language === "en" ? "GB" : getCurrentCountry(this.$i18n.i18next.language)).emoji}}
-        .media-content {{ $t('lang.' + this.$i18n.i18next.language + '.original') }}
-        .media-right(v-if="this.$i18n.i18next.language === 'en'")
-          span {{countryFlagEmoji.get("US").emoji}}
+          span {{$t(`common.lang.${$i18n.locale}.${$i18n.locale === "en" ? "flag_GB" : "flag"}`)}}
+        .media-content {{ $t('common.lang.' + this.$i18n.locale + '.original') }}
+        .media-right(v-if="this.$i18n.locale === 'en'")
+          span {{$t("common.lang.en.flag_US")}}
       span.icon
-        i.fas.fa-chevron-down
+        font-awesome-icon(icon="chevron-down")
 
     b-dropdown-item(v-for="lang in supportedLocales" :key="lang.key" data-lang="lang" @click="currentLang = lang.key" :class="[lang.key === currentLang ? 'is-active' : '']")
       article.media
         .media-left
-          span {{countryFlagEmoji.get(lang.key === "en" ? "GB" : getCurrentCountry(lang.key)).emoji}}
+          span {{$t(`common.lang.${lang.key}.${lang.key === "en" ? "flag_GB" : "flag"}`)}}
         .media-content {{ lang.displayName }}
         .media-right(v-if="lang.key === 'en'")
-          span {{countryFlagEmoji.get("US").emoji}}
+          span {{$t("common.lang.en.flag_US")}}
     hr.navbar-divider
-    b-dropdown-item(@click="$router.push({ name: 'HelpToTranslateTheSite' })")
+    b-dropdown-item(@click="$router.push(localePath({ name: 'HelpToTranslateTheSite' }))")
       span.icon.is-icon-2rem(style="vertical-align: middle;")
-        i.fas.fa-language
-      span(style="vertical-align: middle;") &nbsp;&nbsp;&nbsp;{{$t("main_menu.help_to_translate_the_site")}}
+        font-awesome-icon(icon="language")
+      span(style="vertical-align: middle;") &nbsp;&nbsp;&nbsp;{{$t("routes.help_to_translate_the_site.hero.title")}}

@@ -12,7 +12,7 @@ const queryKey = {
   yourParticipation: urlPrefix + "yp",
   otherParticipation: urlPrefix + "op",
   yourArcBonus: urlPrefix + "yab",
-  fpTargetReward: urlPrefix + "ftr"
+  fpTargetReward: urlPrefix + "ftr",
 };
 
 const inputComparator = {
@@ -21,7 +21,7 @@ const inputComparator = {
   yourParticipation: { comparator: [">=", 0], type: "int" },
   otherParticipation: { comparator: [">=", 0], type: "int" },
   yourArcBonus: { comparator: [">=", 0], type: "float" },
-  fpTargetReward: { comparator: [">=", 0], type: "int" }
+  fpTargetReward: { comparator: [">=", 0], type: "int" },
 };
 
 export default {
@@ -29,24 +29,24 @@ export default {
   props: {
     levelData: {
       type: Object,
-      default: null
+      default: null,
     },
     canPermalink: {
       type: Boolean,
-      default: false
+      default: false,
     },
     ns: {
       type: String,
-      default: ""
+      default: "",
     },
     customYourArcBonus: {
       type: Number | Boolean,
-      default: false
+      default: false,
     },
     canCustomYourArcBonus: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   data() {
     const data = {
@@ -70,7 +70,7 @@ export default {
         { rate: 85, displayRate: 1.85, result: null },
         { rate: 80, displayRate: 1.8, result: null },
         { rate: 75, displayRate: 1.75, result: null },
-        { rate: 70, displayRate: 1.7, result: null }
+        { rate: 70, displayRate: 1.7, result: null },
       ],
       errors: {
         levelCost: false,
@@ -78,9 +78,9 @@ export default {
         yourParticipation: false,
         otherParticipation: false,
         yourArcBonus: false,
-        fpTargetReward: false
+        fpTargetReward: false,
       },
-      change: this.haveInputLevelCost()
+      change: this.haveInputLevelCost(),
     };
 
     Object.assign(data, this.checkQuery());
@@ -88,32 +88,32 @@ export default {
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.levelCost,
       value: data.levelCost,
-      ns: this.$props.ns
+      ns: this.$props.ns,
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.currentDeposits,
       value: data.currentDeposits,
-      ns: this.$props.ns
+      ns: this.$props.ns,
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.yourParticipation,
       value: data.yourParticipation,
-      ns: this.$props.ns
+      ns: this.$props.ns,
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.otherParticipation,
       value: data.otherParticipation,
-      ns: this.$props.ns
+      ns: this.$props.ns,
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.yourArcBonus,
       value: data.yourArcBonus,
-      ns: this.$props.ns
+      ns: this.$props.ns,
     });
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.fpTargetReward,
       value: data.fpTargetReward,
-      ns: this.$props.ns
+      ns: this.$props.ns,
     });
 
     return data;
@@ -123,9 +123,9 @@ export default {
     permaLink() {
       return {
         name: "SecurePosition",
-        query: this.$store.getters.getUrlQuery(this.$props.ns)
+        query: this.$store.getters.getUrlQuery(this.$props.ns),
       };
-    }
+    },
   },
   watch: {
     levelData(val) {
@@ -157,7 +157,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.levelCost,
           value: val,
-          ns: this.$props.ns
+          ns: this.$props.ns,
         });
         this.calculate();
       }
@@ -179,7 +179,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.currentDeposits,
           value: val,
-          ns: this.$props.ns
+          ns: this.$props.ns,
         });
         this.calculate();
       }
@@ -201,7 +201,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.yourParticipation,
           value: val,
-          ns: this.$props.ns
+          ns: this.$props.ns,
         });
         this.calculate();
       }
@@ -223,7 +223,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.otherParticipation,
           value: val,
-          ns: this.$props.ns
+          ns: this.$props.ns,
         });
         this.calculate();
       }
@@ -251,7 +251,7 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.yourArcBonus,
           value: val,
-          ns: this.$props.ns
+          ns: this.$props.ns,
         });
         this.calculate();
       }
@@ -263,12 +263,12 @@ export default {
       const value = !val || val.length === 0 ? 0 : val;
       this.$data.change = true;
       if (this.haveInputLevelCost()) {
-        if (this.$props.levelData.investment.map(k => k.reward).indexOf(value) >= 0) {
+        if (this.$props.levelData.investment.map((k) => k.reward).indexOf(value) >= 0) {
           this.$data.errors.fpTargetReward = false;
           this.$store.commit("UPDATE_URL_QUERY", {
             key: queryKey.fpTargetReward,
             value: val,
-            ns: this.$props.ns
+            ns: this.$props.ns,
           });
           this.calculate();
         } else {
@@ -282,11 +282,11 @@ export default {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.fpTargetReward,
           value: val,
-          ns: this.$props.ns
+          ns: this.$props.ns,
         });
         this.calculate();
       }
-    }
+    },
   },
   methods: {
     haveInputLevelCost() {
@@ -451,12 +451,12 @@ export default {
               this.$store.get(`profile/profiles@[${this.$store.get("global/currentProfile")}].yourArcBonus)`)
             );
       this.$data.fpTargetReward = 0;
-    }
+    },
   },
   mounted() {
     this.calculate();
   },
   components: {
-    numberinput
-  }
+    numberinput,
+  },
 };

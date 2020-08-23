@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/survey";
+import Page from "~/pages/survey/Survey";
 export default Page;
 </script>
 

@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/changelog";
+import Page from "~/pages/changelog/Changelog";
 export default Page;
 </script>
 

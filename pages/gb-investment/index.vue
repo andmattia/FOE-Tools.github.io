@@ -1,7 +1,6 @@
-<script>
-import Page from "~/pages/_lang/gb-investment";
-export default Page;
-</script>
+<template src="./template.pug" lang="pug"></template>
+
+<script src="./script.js"></script>
 
 <router>
   {

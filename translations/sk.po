@@ -1,0 +1,3900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"POT-Creation-Date: 2020-08-21T21:00:52.050Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:52.050Z\n"
+"Language: sk\n"
+
+msgid "main_menu.home"
+msgstr "Domov"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "Viac o"
+
+msgid "footer_menu.contributors"
+msgstr "Prispievatelia"
+
+msgid "footer_menu.changelog"
+msgstr "Zoznam zmien"
+
+msgid "footer_menu.contact"
+msgstr "Kontakt"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Zvoľte si provinciu"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Provincia obsahuje jeden alebo viac sektorov , ktorým chýbajú hodnoty."
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Tvoj vek"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Váš @:(foe_data.gb.Chateau_Frontenac) bonus"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Počet mincí potrebných pre \"nenarodeninovú párty\" (opakujúca sa úloha)"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Táto hodnota by mala byť väčšia alebo rovná ako {min} ,lebo pod túto "
+"hodnotu nemôžeme garantovať žiadny zisk (štatisticky)"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Počet zásob potrebných pre \"nenarodeninovú párty\" (opakovateľná úloha)"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "VB a ukoristené tovary"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "24 hodinová produkcia BV"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Ostatné opakovateľné denné úlohy"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "Druhý zadávateľ opakovacích úloh?"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Získané zásoby"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Plány"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Medaile"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Tovar"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "BV"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Denné \"nenarodeninové párty\" (opakovateľná úloha): {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Bonusové \"nenarodeninové párty\" (opakovateľná úloha): {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Druhé opakovateľné úlohy splnené: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Spolu tovaru: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Spolu BV: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Spolu splnených úloh: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Úroveň"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Vrátené mince"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Vrátené zásoby"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"So súčasným bonusom z @:(foe_data.gb.Chateau_Frontenac) získate viac mincí "
+"a zásob, ako použijete na dokončenie úloh. Prosím vyberte si počet "
+"«@:(components.cf_calculator.block_cfc.infinity_generator.label)», ktoré "
+"chcete urobiť."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Nadväzujúca úloha"
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"T8to tabuľka ukazuje množstvo mincí a zásob, ktoré štatisticky získate pri "
+"počiatočnom investovaní (s tým čo ste ochotný minúť zo zásob a mincí)."
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr "Počet opakovaní druhej opakovateľnej úlohy, ktorú môžete dokončiť."
+
+msgid "components.cf_calculator.tutorial.bonusUbq"
+msgstr ""
+"Počet opakovaní\"Nenarodinovej\" úlohy, ktorú môžete (štatisticky) dokončiť "
+"s Vašim počiatočným stavom mincí a zásob a tým čo získate."
+
+msgid "components.cf_calculator.tutorial.dailyUbq"
+msgstr ""
+"Počet opakovaní\"Nenarodinovej\" úlohy, ktorú môžete dokončiť za "
+"predpokladu, že ste ochotný minúť mince a zásoby."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr ""
+"Celkový počet opakovaní opakovateľnej úlohy, ktorú môžete (štatisticky) "
+"dokončiť."
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Počet bodov, ktoré získate s úlohami, VB-čkami, a pod."
+
+msgid "components.cf_calculator.tutorial.totalGoods"
+msgstr "Množstvo materiálu ktoré získate s úlohami, VB-čkami, a pod."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"Táto tabuľka ukazuje odmenu, ktorú získate. Pamätajte nato, že táto hodnota "
+"je vypočítaná na základe empirickej pravdepodobnosti."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr "V tomto prípade, musíte nastaviť počet úloh, ktoré chcete spraviť."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Táto časť sa zobrazuje, len ak @:(foe_data.gb.Chateau_Frontenac) bonus (vo "
+"Vašom aktuálnom veku) dáva štatisticky viac minci a zásob ako miniete."
+
+msgid "components.cf_calculator.tutorial.otherRq"
+msgstr "Nastavte druhú opakujúcu sa dennú úlohu, ktorú ste práve spravili."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr "Vložte množstvo zásob, ktoré chcete použiť pre druhú opakujúcu sa úlohu."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"Od @:(foe_data.age.LateMiddleAges), môžete robiť druhú opakujúcu sa úlohu. "
+"Nastavte \"@:(utils.Yes)\"ak chcete robiť druhú opakujúcu sa úlohu.\n"
+"\n"
+"<i><b>Poznámka</b>: Predpokladá sa, že druhá opakujúca úloha je: zhromaždi "
+"X zásob.</i>."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Vložte množstvo BV ktoré získavate za 24 hodín."
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "Vložte množstvo materiálu ktoré získavate z VB a rabovania."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr "Vložte množstvo zásob, ktoré chcete použiť pre všetky úlohy."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "Vložte množstvo mincí, ktoré chcete použiť pre všetky úlohy."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Vložte svoj@:(foe_data.gb.Chateau_Frontenac) bonus.\n"
+"Príklad: pre 450%, vložte 450."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Vyberte si svoj vek."
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Tento nástroj je čisto informatívny. Poskytuje informácie ktoré sa dajú "
+"získať štatisticky s Vaším @:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Zmeňte Veľkolepú budovu"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"V nastaveniach si môžete zmeniť spôsob hľadania názvu VB (radenie postupne "
+"podľa dôb alebo automatického dopĺňania textu)"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Vlož na akú úroveň a bonus % Oblúka (90% pre Oblúk úr 80). Hodnoty v "
+"tabuľke sa aktualizujú automaticky."
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Poznámka </strong>: Ak sa aktualizácia neuskutoční automaticky, "
+"najprv nastavte úroveň VB a celkovú investíciu bv a kliknite na "
+"„@:(components.gb_investment.gb_investment.form.submit_global)“. Ak chcete "
+"upraviť hodnoty každého miesta, upravte ich ako Vám to vyhovuje a kliknite "
+"na „@:(components.gb_investment.gb_investment.form.submit_custom)“."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "Úroveň {fromLevel} → {level} (@:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "% z bonusov hlavných prispievateľov (bonus oblúku)"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Globálne prepočítanie"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Upravené prepočítanie"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Počet BV momentálne vložených vlastníkom (max {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr ""
+"Pridajte investora (vložte počet BV, $t(utils.between_range, {'min': "
+"'{min}', 'max': '{max}'}))"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Kliknutím na tlačidlo @:(utils.Add)“alebo stlačením klávesy „Enter“ pridáte "
+"prispievateľa"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Zoznam pridaných prispievateľov"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Zobraziť Zabezpečená pozícia / Možný profit"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Ukázať len zaistené pozície"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Zobraziť tabuľku v karte ? (na malej obrazovke)"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key}úroveň {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Miesta"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Základné odmeny"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "BV vložené majiteľom na zaistenie pozície"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Odmena s bonusom"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "% bonus prispievateľa (bonus Oblúka)"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Zahrň do kopírovacích kolóniek"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Počet už vložených BV"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Zabezpečená pozícia / Možný profit"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "BV získané s % bonusom očakávaným majiteľom"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "BV získané s % bonusom tvojho Oblúka"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Môže sa snažiť o získanie pozície ?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor_0"
+msgstr "Ukáž ďalšieho prispievateľa"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor_1"
+msgstr "Ukáž ďalších prispievateľov"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor_2"
+msgstr "Ukáž ďalších prispievateľov"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor_0"
+msgstr "Skry ďalšieho prispievateľa"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor_1"
+msgstr "Skry ďalších prispievateľov"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor_2"
+msgstr "Skry ďalších prispievateľov"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss_0"
+msgstr "Tento hráč stratí BV"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss_1"
+msgstr "Tento hráč stratí pár BV"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss_2"
+msgstr "Tento hráč stratí viac BV"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "Zostávajúci počet BV, ktoré musí majiteľ vložiť na zaistenie pozície"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Očakávaná investícia"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Tento hráč bude mať zisk"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Tento hráč nezarobí ani nestratí BV"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Celková investícia majiteľa"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Cena úrovne"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "BV potrebné vložiť majiteľom na dokončenie levelu"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Ukázať názov VB ?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Ukáž skratku názvu ?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Zobraziť úroveň ?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Propagačná správa"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "text pred propagačnou správou"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "text za propagačnou správou"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P1 ({investment})\n"
+"P2 ({investment})\n"
+"P3 ({investment})\n"
+"P4 ({investment})\n"
+"P5 ({investment})"
+
+msgid "components.gb_investment.tutorial.promotion_message.add_message"
+msgstr "V tomto políčku môžete nastavovať správy."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.custom_"
+"fields"
+msgstr ""
+"Majte na pamäti, že niektoré vzory majú svoje vlastné políčka s ich "
+"vlastnými menami."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.show_only_"
+"secured_places"
+msgstr ""
+"Táto možnosť Vám automaticky pridá miesta do správy ak sú tieto miesta "
+"zabezpečené a ešte nezabraté. Aby sa mohol tento nástroj použiť, musíte "
+"zadať počet BV vložených majiteľom a investormi do aktuálnej úrovne."
+
+msgid "components.gb_investment.tutorial.promotion_message.show_level"
+msgstr "Zobrazuje úroveň VBčky (ak je súčasťou vzoru správy)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.use_short_"
+"name"
+msgstr ""
+"Môžete si zadefinovať, či chcete zobraziť krátky názov Vbčky "
+"(Napríklad:\"@:(foe_data.gb.Observatory)\" bude zobrazená ako  "
+"\"@:(foe_data.gb_short.Observatory)\")."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.display_gb_"
+"name"
+msgstr "Zobrazuje meno VBčky (ak je obsiahnuté vo vzore správy)."
+
+msgid "components.gb_investment.tutorial.promotion_message.suffix"
+msgstr "Text ktorý bude pridaný na koniec správy."
+
+msgid "components.gb_investment.tutorial.promotion_message.prefix"
+msgstr "Text ktorý bude pridaný na začiatok správy."
+
+msgid "components.gb_investment.tutorial.promotion_message.tabs"
+msgstr ""
+"Správy sa riadia vzorom. Môžete importovať vzor z "
+"tabuľky\"@:(components.import_promotion_message.title)\" alebo si vytvoriť "
+"svoj vlastný v tabuľke \"@:(components.promotion_message_builder.title)\"."
+
+msgid "components.gb_investment.tutorial.promotion_message.message"
+msgstr ""
+"V tejto časti si môžete vytvoriť správy obsahujúce informácie o aktuálnej "
+"úrovni VB a miestach v nej. Môžete si správu skopírovať a vložiť priamo do "
+"hry, napríklad do 1.9 vlákna."
+
+msgid "components.gb_investment.tutorial.table.include_in_copy_boxes"
+msgstr ""
+"Políčko Vám dovolí zobraziť toto miesto v správe ktorú si môžete skopírovať "
+"a vložiť do hry."
+
+msgid "components.gb_investment.tutorial.table.is_sniper"
+msgstr ""
+"Stĺpec sa zobrazuje ak ste zadali aspoň jedného investora. Používa sa na "
+"zistenie, či je hráč potencionálnym poľovníkom alebo nie. Táto informácia "
+"sa využíva na vyrátanie bezpečnosti pozícií."
+
+msgid "components.gb_investment.tutorial.table.percentage_investors"
+msgstr ""
+"Ako "
+"\"@:(components.gb_investment.gb_investment.form.investor_percentage)\", "
+"stĺpec dovolí majiteľovi definovať investície očakávané od investorov, ale "
+"pre každé miesto samostatne."
+
+msgid "components.gb_investment.tutorial.table.spot_snipe"
+msgstr ""
+"Stĺpec sa zobrazuje len ak ste nastavili  "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" na "
+"\"@:(utils.Yes)\" a je pre investorov. Stĺpec Vám povie (na základe hodnôt "
+"nastavených v "
+"\"@:(components.secure_position.block_place.your_arc_bonus)\") koľko BV "
+"musíte vložiť do VB na zaistenie miesta."
+
+msgid "components.gb_investment.tutorial.table.fp_already_putin"
+msgstr ""
+"Tento stĺpec je zobrazený, ak vložíte aspoň jedného investora. Zobrazuje "
+"Vám aké miesto investor zaberie s stratégiou (očakávanými investíciami) "
+"majiteľa."
+
+msgid "components.gb_investment.tutorial.table.rewards_with_rate"
+msgstr "Toto je množstvo BV predpokladaných majiteľom ak investor zaberie miesto."
+
+msgid "components.gb_investment.tutorial.table.fp_to_put_by_the_owner"
+msgstr ""
+"Ako názov indikuje, vraví Vám koľko BV musí majiteľ vložiť do svojej VB na "
+"zaistenie miesta."
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr "Toto je základná odmena (bez bonusu Oblúka) miesta."
+
+msgid "components.gb_investment.tutorial.table.place"
+msgstr "Zodpovedajúci k indexu miesta."
+
+msgid "components.gb_investment.tutorial.table.message"
+msgstr "Táto tabuľka Vám ukazuje všetky informácie ktoré chcete vedieť."
+
+msgid "components.gb_investment.tutorial.display_card"
+msgstr ""
+"Toto políčko Vám dovolí zobraziť dáta z tabuľky v \"Karte\".\n"
+"Je to \"optimalizované\" pre zobrazenie na smartphone, takže si pri čítaní "
+"nemusíte posúvať text horizontálne.\n"
+"Toto políčko sa zobrazuje len na malý display."
+
+msgid "components.gb_investment.tutorial.show_snipe"
+msgstr ""
+"Toto políčko je pre investorov a zobrazuje ďalší stĺpec v tabuľke, "
+"pomenovaný \"@:(components.gb_investment.gb_investment.form.show_snipe)\".\n"
+"Tento stĺpec Vám povie (na základe hodnoty zadanej v "
+"\"@:(components.secure_position.block_place.your_arc_bonus)\") koľko BV "
+"potrebujete vložiť do VB na zaistenie Vášho miesta.\n"
+"Taktiež ukazuje možný profit alebo stratu z tejto investície."
+
+msgid "components.gb_investment.tutorial.add_investors"
+msgstr ""
+"Máte vo Vašej VBčke náhodných investorov ktorý sú nižšie alebo vyššie ako "
+"je požadovaný stupeň?\n"
+"Vložte všetky aktuálne investície do políčka oddelene.\n"
+"Nástroj zráta ktoré miesta sú zabraté a koľko BV sa použilo na zaistenie "
+"nezabratých miest."
+
+msgid "components.gb_investment.tutorial.your_arc_bonus"
+msgstr ""
+"Toto políčko je pre investorov a musí byť použité s "
+"\"@:(components.gb_investment.gb_investment.form.show_snipe)\" nastavené na "
+"\"@:(utils.Yes)\".\n"
+"Povie Vám to koľko BV ešte musíte vložiť do úrovne na zaistenie svojho "
+"miesta; zároveň Vám to povie aký budete mať profit alebo stratu."
+
+msgid "components.gb_investment.tutorial.owner_investment"
+msgstr ""
+"Máte už nejaké BV vo Vašej VB?\n"
+"Ak áno, vložte sem koľko BV už vo Vašej VB je"
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Vyberte stupeň investovania, ktorý očakávate od investorov\n"
+"Príklad: pre investovanie s 1.9, vložte 90"
+
+msgid "components.gb_investment.tutorial.level"
+msgstr "Vyberte úroveň ktorú chcete zvyšovať."
+
+msgid "components.gb_investment.tutorial.gb_select"
+msgstr ""
+"Na tomto mieste môžete rýchlo meniť vybratú VB.\n"
+"Sú tu 2 možnosti výberu.\n"
+"Jednoduchý výber (stará verzia) ktorá ukáže jednoduchý zoznam. Toto je "
+"štandardné nastavenie:\n"
+"\n"
+"{videoSelect}\n"
+"\n"
+"Auto-doplnenie ktoré Vám dovolí nájsť VB písaním písmen obsiahnutých v "
+"názve hľadanej VB :\n"
+"\n"
+"{videoAutoComplete}"
+
+msgid "components.gb_investment.tutorial.display_modes.content"
+msgstr ""
+"Tento nástroj Vám dáva všetky potrebné informácie pre majiteľa a investora "
+"k investovaniu do úrovne VB. Má 2 zobrazovacie režimy:\n"
+"\n"
+"\"@:(routes.gb_investment.tab.owner_view.title)\" (kde ste) čo zobrazuje "
+"informáciu len o aktuálnej úrovni a veľmi podrobne.\n"
+"\n"
+"\"@:(routes.gb_investment.tab.investors_view.title)\" zobrazuje hodnoty "
+"niekoľkých úrovní v tabuľkovej forme. Nájdete len počet BV ktoré majiteľ a "
+"investori môžu vložiť s následným profitom/stratou."
+
+msgid "components.gb_investment.tutorial.display_modes.title"
+msgstr "Zobraziť režimy"
+
+msgid "components.gb_investment.tutorial.snipe.content"
+msgstr ""
+"Hráč \"poľuje\" (na miesto vo VB), ak zaberie miesto vo VB s cieľom "
+"vytvoriť profit, zvyčajne sa to nestretáva s očakávaniami majiteľa.\n"
+"\n"
+"Napríklad úroveň 49 → 50 vo VB \"@:(foe_data.gb.The_Virgo_Project)\" "
+"nepotrebuje žiadne BV od majiteľa na zaistenie prvých dvoch miest. "
+"Očakávaná investícia pri 1.9 je {fp1739}.  Poľujúci hráč (s Oblúkom úrovne "
+"80) by mohol počkať na otvorenie úrovne a hneď zabrať miesto s vložením "
+"{fp1679}, čo mu zabezpečí jeho miesto s profitom {fp60}."
+
+msgid "components.gb_investment.tutorial.snipe.title"
+msgstr "Poľovať"
+
+msgid "components.gb_investment.tutorial.rush_1_9.content"
+msgstr ""
+"@:(foe_data.gb.The_Arc) je VB ktorá dáva bonus k odmenám za umiestnenie v "
+"top 5 niekoho VB. Čím vyšší level oblúka, tým dôležitejšie sú získané "
+"odmeny.\n"
+"\n"
+"Takto sme začali rozprávať o 1.8, 1.9, atď. . V skutočnosti, toto je bonus "
+"Oblúka.\n"
+"Konkrétne, 1.0 reprezentuje základnú odmenu, 1.8 reprezentuje odmenu s "
+"Oblúkom úrovne 70 (dá o 80% viac odmeny na tejto úrovni) a 1.9 reprezentuje "
+"odmenu s Oblúkom úrovne 80 (o 90% viac odmeny).\n"
+"\n"
+"Vlákna výhradne pre tento typ investovania do VB boli vytvorené v cechoch a "
+"skupinách priateľov \"Oblukárov\". Toto je založené na princípe \"Dám "
+"toľko, koľko dostanem naspäť\", čím sa znižuje množstvo konfliktov medzi "
+"členmi cechu či členmi listu priateľov nevytváraním profitu v ich VBčkách. "
+"Naproti reťazovým (bumerangovým) vláknam (10, 50, 100, atď.), ďalšia výhoda "
+"z 1.8, 1.9, atď. vlákien je v tom, že podstatne šetrí čas majiteľa VBčky. "
+"Je to preto, že majiteľ potrebuje vložiť do svojej VBčky len nutný počet BV "
+"na zaistenie miest, ktoré budú zobraté hráčom s Oblúkom 80 úrovne(v prípade "
+"vlákna 1.9).\n"
+"\n"
+"Pozrime sa nato na príklade:\n"
+"\n"
+"Prestavte si, že chcete zvýšiť úroven Vašej @:(foe_data.gb.Observatory) z "
+"úrovne 10 na 60 a zbierate {fp50} za deň.\n"
+"Celková suma BV za všetky úrovne je {fp64975}.\n"
+"\n"
+"Ak používate k tomu reťazové vlákna, Vaša investícia bude 1:1 , čiže {fp25} "
+"investovaných do VB = {fp25} ktoré iný hráč investuje do Vašej VB. Takže "
+"budete musieť <strong> investovať {fp37320}</strong> pre dosiahnutie úrovne "
+"60. Pri {fp50} za deň, To bude trvať <strong>2 roky a 17 dní </strong>.\n"
+"\n"
+"Naproti tomu, ak využijete 1.9 vlákno, potrebujete <strong>investovať len "
+"{fp12363}</strong> pre dosiahnutie úrovne 60, takže <strong> ušetríte "
+"{fp24957} !</strong>.\n"
+"Stále s {fp50} na deň, znížite potrebný čas z 2 rokov a 17 dní na <strong>8 "
+"mesiacov a 5 dní</strong> !"
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "skoč s 1.9, 1.8, a pod."
+
+msgid "components.gb_investment.tutorial.welcome"
+msgstr ""
+"Cieľom tohto tutoriálu je vysvetliť všetky funkcie tohto nástroja.\n"
+"\n"
+"Môžete kliknúť na link nižšie pre získanie viac informácií.\n"
+"Pre pokračovanie s tutoriálom prosím kliknite na \"@:(utils.Next)\" "
+"tlačítko."
+
+msgid "components.gb_investment_investors.description.p1"
+msgstr ""
+"Tento pohľad umožňuje vidieť zisk, ktorý je možné dosiahnuť získaním "
+"pozície s alebo bez zobratia v úvahu investície na iných pozíciach. Sú tu "
+"{count}  spôsoby s ohľadom na ostatné pozície :"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"label"
+msgstr "Zobrať v úvahu ostatné pozície ?"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Zobraziť pozíciu"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Základný"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Optimálny"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "nebrať v úvahu ostatné miesta"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"brať v úvahu ostatné miesta s minimálnou investíciou prispievateľov a bez "
+"zaistenia majiteľom"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.optimal"
+msgstr ""
+"brať v úvahu  ostatné miesta s investíciou bez zisku prispievateľov a so "
+"zaistením majiteľom"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Pozícia {count}"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Zisk / Strata"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Prognóza"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Určite počet BV potrebných na postup z jednej úrovne do druhej  s a bez "
+"bonusu Oblúka."
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Rôzny bonus Oblúka (pre každé miesto)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Predpokladaný čas na uzavretie úrovne"
+
+msgid "components.gb_forecast_cost.message.diff_0"
+msgstr "S bonusom investícií ušetríte {count} BV"
+
+msgid "components.gb_forecast_cost.message.diff_1"
+msgstr ""
+
+msgid "components.gb_forecast_cost.message.diff_2"
+msgstr "S bonusom investícií ušetríte {count} BV"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"Na dokončenie  {level} úrovne v „{gb}“, musí majiteľ investovať "
+"{preparation}  BV. Celkové náklady na úroveň: {cost} BV."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"Na zvýšenie \"{gb}\" z {from} na {to} úroveň, musí majiteľ investovať "
+"{preparation} BV. Celková cena úrovní: {cost} BV."
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "Predpokladaný čas na uzavretie úrovne: {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "Počet BV už investovaných majiteľom v terajšej úrovni"
+
+msgid "components.gb_forecast_cost.graph.title"
+msgstr "Prognóza potrebnej investície majiteľom na prípravu pre \"{gb}\""
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Celková cena úrovne"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Veľkosť potrebnej investície na prípravu bez bonusu"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Veľkosť potrebnej investície na prípravu s bonusom"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"Grafy sú robené podľa doby, lebo cena / odmena vo VB-kach je rovnaká pre "
+"každú VB z danej doby, okrem týchto prípadov "
+"(@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_statistics.represent"
+msgstr "Predstaviteľ:"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Vývoj cien úrovní podľa úrovní"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Vývoj odmien prvej pozície podľa úrovní"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr "Vývoj cien úrovní podľa odmien na prvej pozícii"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr "Vývoj odmien na prvej pozícii podľa cien úrovní"
+
+msgid "components.secure_position.block_place.fp_to_complete_level_0"
+msgstr "BV zostávajúci do uzavretia úrovne:"
+
+msgid "components.secure_position.block_place.fp_to_complete_level_1"
+msgstr ""
+
+msgid "components.secure_position.block_place.fp_to_complete_level_2"
+msgstr "BV zostávajúcich do uzavretia úrovne:"
+
+msgid "components.secure_position.block_place.place_0"
+msgstr "{place}({count} BV)"
+
+msgid "components.secure_position.block_place.place_1"
+msgstr ""
+
+msgid "components.secure_position.block_place.place_2"
+msgstr "{place} ({count} BV)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Zablokujte jeho pozíciu"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Cena úrovne"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Suma terajších investícií"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Váš aktuálny vklad"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "BV hráča, s ktorým treba rátať pri zaisťovaní pozície"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Váš bonus Oblúka"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "BV na požadovanú pozíciu"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Požadovaná pozícia"
+
+msgid "components.secure_position.block_place.various_rate"
+msgstr "Rôzne hodnoty"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Bonus"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "Vložiť BV podla aktuálneho bonusu"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "Vložiť BV na zaistenie Vašej pozície"
+
+msgid "components.secure_position.block_place.result.default_0"
+msgstr "Musíte mať celkovo {count} BV na zablokovanie pozície."
+
+msgid "components.secure_position.block_place.result.default_1"
+msgstr ""
+
+msgid "components.secure_position.block_place.result.default_2"
+msgstr "Musíte mať celkovo {count} BV na zablokovanie pozície."
+
+msgid ""
+"components.secure_position.block_place.result.fp_need_to_lock###"
+"0"
+msgstr "BV potrebný na zaistenie Vašej pozície:"
+
+msgid ""
+"components.secure_position.block_place.result.fp_need_to_lock###"
+"1"
+msgstr ""
+
+msgid ""
+"components.secure_position.block_place.result.fp_need_to_lock###"
+"2"
+msgstr "BV potrebných na zaistenie Vašej pozície:"
+
+msgid ""
+"components.secure_position.block_place.result.fp_to_secure_html#"
+"##0"
+msgstr "Stále musíte vložiť {count} BV."
+
+msgid ""
+"components.secure_position.block_place.result.fp_to_secure_html#"
+"##1"
+msgstr ""
+
+msgid ""
+"components.secure_position.block_place.result.fp_to_secure_html#"
+"##2"
+msgstr "Stále musíte vložiť {count}BV."
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Jedna alebo viac premenných nemajú správnu hodnotu."
+
+msgid "components.secure_position.block_place.result.roi.profit_0"
+msgstr "Váš zisk bude {count} BV"
+
+msgid "components.secure_position.block_place.result.roi.profit_1"
+msgstr ""
+
+msgid "components.secure_position.block_place.result.roi.profit_2"
+msgstr "Váš zisk bude {count} BV"
+
+msgid "components.secure_position.block_place.result.roi.loss_0"
+msgstr "Vaša strata bude {count} BV"
+
+msgid "components.secure_position.block_place.result.roi.loss_1"
+msgstr ""
+
+msgid "components.secure_position.block_place.result.roi.loss_2"
+msgstr "Vaša strata bude {count} BV"
+
+msgid "components.secure_position.block_place.result.roi.neutral"
+msgstr "Vaša investícia sa nevráti"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "Vaša pozícia je zablokovaná."
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "Počet BV ktoré ešte musíte vložiť"
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Nemôžete zablokovať pozíciu."
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "neznáme"
+
+msgid "components.simple_trade.title"
+msgstr "Tabuľková verzia"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Vek"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Tovar"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Výsledok"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Rozdeliť"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Pomer"
+
+msgid "components.simple_trade.slpit"
+msgstr "Rozdeliť ponuky?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "Zobraziť pomer"
+
+msgid "components.site_layout.update_0"
+msgstr "Jedna novinka od Vašej poslednej návštevy"
+
+msgid "components.site_layout.update_1"
+msgstr ""
+
+msgid "components.site_layout.update_2"
+msgstr "{count} noviniek od Vašej poslednej návštevy"
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "Zostava náradia pre zjednodušenie života v @:(common.links.foe)"
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"Ak budete naďalej používať @:(common.site_title), súhlasíte s využitím "
+"cookies, ktoré Vám zjednoduší jej používanie."
+
+msgid "components.site_layout.cookie.link"
+msgstr "Viac informácií"
+
+msgid "components.site_layout.new_year.message_0"
+msgstr "@:(common.site_title) oslavuje svoj {count}  rok"
+
+msgid "components.site_layout.new_year.message_1"
+msgstr ""
+
+msgid "components.site_layout.new_year.message_2"
+msgstr "@:(common.site_title) oslavuje {count} rokov"
+
+msgid "components.site_layout.survey.message"
+msgstr "Pomôžte nám vylepšiť  @:(common.site_title) vyplnením tohto dotazníka"
+
+msgid "components.site_layout.whats_new"
+msgstr "Čo je nové ?"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"Pozeráte sa na permalink. Akékoľvek následné nastavenia sa neuložia do "
+"cookies."
+
+msgid "components.site_layout.footer.license_html"
+msgstr "Zdrojový kód patrí pod @:(common.links.mit) licenciu"
+
+msgid "components.site_layout.footer.version"
+msgstr "Verzia {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "Deň"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Začiatok dňa"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Noc"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Začiatok noci"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"Automatické@:(components.site_layout.day_night.Day)/@:(components.site_"
+"layout.day_night.Night)"
+
+msgid "components.site_layout.global_config"
+msgstr "Globálne nastavenie"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "Hlavné menu vždy viditeľné"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "Štýl výberu VB "
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Auto-doplnenie textu"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Výberom zo zoznamu podľa dôb"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Téma"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Deň"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Noc"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Automatické"
+
+msgid "components.site_layout.switch_locale"
+msgstr "@:(common.site_title) je dostupná vo Vašom jazyku"
+
+msgid "components.trade.title"
+msgstr "Formulárová verzia"
+
+msgid "components.trade.label.i_have"
+msgstr "Mám"
+
+msgid "components.trade.label.i_want"
+msgstr "Chcem"
+
+msgid "components.trade.label.amount"
+msgstr "Množstvo"
+
+msgid "components.trade.split_value"
+msgstr "Maximálna veľkosť ponuky (max {count})"
+
+msgid "components.trade.split_message.msg"
+msgstr "{valueFrom}{ageFrom} pre {valueTo}{ageTo}"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) a {secondPart}"
+
+msgid "components.trade.message.result"
+msgstr ""
+"Pre {to}ks materiálu{ageTo}, potrebujete {from}ks materiálu z{ageFrom} s "
+"ponukou do{count}:"
+
+msgid "components.trade.message.total"
+msgstr "(celkom:{amount}{key})"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Nástroj na propagačné správy pre prispievateľov"
+
+msgid "components.promotion_message_builder.info"
+msgstr "Toto môže byť skopírované a ďalej zdieľané, napríklad pre členov Vášho cechu"
+
+msgid "components.promotion_message_builder.note"
+msgstr ""
+"Všimnite si prosím, že tento nástroj pre správy používa úroveň 9 → 10 z "
+"@:(foe_data.gb.Observatory) s pomerom 1.9 násobku pre zobrazenie."
+
+msgid "components.promotion_message_builder.action"
+msgstr "Akcia"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Vytvor novú šablónu"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Uprav existujúcu šablónu"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Vymaž existujúcu šablónu"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Začať z šablóny ?"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Vyberte si šablónu na úpravu"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Vyberte si šablónu na vymazanie"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Predvolené šablóny"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Prispôsobené šablóny"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Nastavenie"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Pridajte prispôsobené polia"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Názov poľa"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Hodnota poľa"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Vaše prispôsobené polia"
+
+msgid "components.promotion_message_builder.use_short_name"
+msgstr "@:(components.gb_investment.gb_investment.use_short_name)"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Vymeniť poradie pozícií?"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Oddeľovač pozícií"
+
+msgid "components.promotion_message_builder.place_builder"
+msgstr "Poradovník pozícií"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Zobrazenie pozície (1 pozícia)"
+
+msgid "components.promotion_message_builder.message_builder"
+msgstr "Nástroj na správy"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Zobrazenie správy"
+
+msgid "components.promotion_message_builder.place_builder_title"
+msgstr "Poradovník pozícií"
+
+msgid "components.promotion_message_builder.message_builder_title"
+msgstr "Nástroj na správy"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Dostupné premenné:"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Zoznam pozícií"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Hodnota pozícií (v BV)"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Z úrovne"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Po úroveň"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "Názov VB"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Pozície"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr "Počet bodov na vloženie majiteľom pre miesto \"x\" (\"x\" je od 1 to 5)"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Riadok, pridajte nový riadok"
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Názov šablóny"
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Šablóna nemôže mať tento názov. Použite prosím iný názov."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "Názov poľa nemôže byť prázdny."
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Tento názov poľa už existuje."
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Šablóna bola uložená"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Šablóna bola aktualizovaná"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Šablóna bola odstránená"
+
+msgid "components.import_promotion_message.title"
+msgstr "Nahrajte propagačnú správu"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Sem vložte svoje nastavenia"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Údaje sú neplatné"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Šablóna bola úspešne nahraná"
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.title"
+msgstr "Informácia o@:(common.site_title)"
+
+msgid "routes.about.general_info.title"
+msgstr "Všeobecné informácie"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Forge of Empires, FOE a všetky súvisiace ochranné známky a obsah patria "
+"spoločnosti InnoGames GmbH. <br/>@:(common.site_title) je neoficiálna web "
+"stránka tretej strany a nie je súčasťou InnoGames."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"@:(common.site_title) bola vytvorená francúzskym hráčom <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"Táto stránka je OpenSource, kód je voľne k dispozícii na "
+"@:(common.links.github). <br/>Takto sa môžu všetci, ktorí majú potrebné "
+"zručnosti, podieľať na zdokonaľovaní tejto stránky."
+
+msgid "routes.about.cookie.title"
+msgstr "Cookies"
+
+msgid "routes.about.cookie.p1"
+msgstr "Pre zjednodušenie používania, stránka používa cookies."
+
+msgid "routes.about.cookie.table_message"
+msgstr "V nasledujúcej tabuľke sú uvedené všetky cookies použité na tejto stránke."
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr "Oznamuje, že ste si prečítali informačnú správu o používaní cookies"
+
+msgid "routes.about.cookie.info.gbi_tab"
+msgstr ""
+"Globálny parameter pre \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"ktorý označuje, ktorá karta sa nahrá ako predvolená "
+"(@:(routes.gb_investment.tab.owner_view.title), atď.). "
+
+msgid "routes.about.cookie.info.gbPrefix"
+msgstr ""
+"Globálny parameter pre \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"ktorý obsahuje text pred propagačnou správou"
+
+msgid "routes.about.cookie.info.gbSuffix"
+msgstr ""
+"Globálny parameter pre \"@:(routes.gb_investment_gb_chooser.hero.title)\" "
+"ktorý obsahuje text za propagačnou správou"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Jazyk zobrazenia"
+
+msgid "routes.about.cookie.info.shortName"
+msgstr ""
+"Globálny parameter pre „@:(routes.gb_investment_gb_chooser.hero.title)“, "
+"ktorý označuje, či sa má v propagačnej správe zobraziť skrátený názov VB."
+
+msgid "routes.about.cookie.info.showLevel"
+msgstr ""
+"Globálny parameter pre „@:(routes.gb_investment_gb_chooser.hero.title)“, "
+"ktorý označuje, či sa má pre propagačnú správu zobraziť úroveň VB."
+
+msgid "routes.about.cookie.info.yourArcBonus"
+msgstr "Globálne nastavenie obsahujúce bonus vášho Oblúka"
+
+msgid "routes.about.cookie.info.yourCfBoost"
+msgstr "Globálne nastavenie obsahujúce bonus vášho Frontenacu"
+
+msgid "routes.about.cookie.info.haveReadTipAboutAddInvestor"
+msgstr ""
+"Označuje, či ste si prečítali informačnú správu týkajúcu sa tipov, ako môžu "
+"používatelia prispieť"
+
+msgid "routes.about.cookie.info.dayNightMode"
+msgstr "Označuje, ktorý režim deň / noc používate"
+
+msgid "routes.about.cookie.info.dayStart"
+msgstr ""
+"Čas použitý pre začiatok dňa (použitý v "
+"\"@:(components.site_layout.day_night.Auto)\")"
+
+msgid "routes.about.cookie.info.nightStart"
+msgstr ""
+"Čas použitý pre začiatok noci (použitý v "
+"\"@:(components.site_layout.day_night.Auto)\")"
+
+msgid "routes.about.cookie.info.showSnipe"
+msgstr ""
+"Zobraziť alebo skryť požadovaný počet BV do zaistenia miesta (použité v "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.coins"
+msgstr "@:(components.cf_calculator.block_cfc.coins_to_use)"
+
+msgid "routes.about.cookie.info.fpBy24h"
+msgstr "@:(components.cf_calculator.block_cfc.fp_by_24h)"
+
+msgid "routes.about.cookie.info.goods"
+msgstr "@:(components.cf_calculator.block_cfc.gb_plunder_goods)"
+
+msgid "routes.about.cookie.info.otherRq"
+msgstr "@:(components.cf_calculator.block_cfc.other_rq)"
+
+msgid "routes.about.cookie.info.cumulativeQuest"
+msgstr "Počet nadväzujúcich úloh"
+
+msgid "routes.about.cookie.info.secondRq"
+msgstr "@:(components.cf_calculator.block_cfc.second_rq)"
+
+msgid "routes.about.cookie.info.supplies"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_to_use)"
+
+msgid "routes.about.cookie.info.suppliesGathered"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_gathered)"
+
+msgid "routes.about.cookie.info.yourAge"
+msgstr "@:(components.cf_calculator.block_cfc.your_age)"
+
+msgid "routes.about.cookie.info.investorPercentageCustom_x"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th5)"
+
+msgid "routes.about.cookie.info.investorPercentageGlobal"
+msgstr "@:(components.gb_investment.gb_investment.form.investor_percentage)"
+
+msgid "routes.about.cookie.info.investorParticipation_x"
+msgstr "Očakávaná účasť prispievateľov aj keď miesto neposkytuje BV"
+
+msgid "routes.about.cookie.info.level"
+msgstr "Úroveň VB"
+
+msgid "routes.about.cookie.info.ownerInvestment"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "routes.about.cookie.info.showPx"
+msgstr "Označuje, či sa má v propagačnej správe uviesť pozícia"
+
+msgid "routes.about.cookie.info.takingPlaceInConsideration"
+msgstr ""
+"Na karte „@:(routes.gb_investment.tab.investors_view.title)“ z "
+"„@:(routes.gb_investment_gb_chooser.hero.title)“ označuje, či sa pri "
+"výpočte musia zohľadniť ďalšie miesta."
+
+msgid "routes.about.cookie.info.targetLevel"
+msgstr ""
+"Na karte „@:(routes.gb_investment.tab.investors_view.title)“ z "
+"„@:(routes.gb_investment_gb_chooser.hero.title)“ označuje, z akej úrovne sa "
+"majú zobraziť informácie v tabuľke"
+
+msgid "routes.about.cookie.info.displayGbName"
+msgstr "Označuje, či sa v propagačnej správe má zobraziť názov VB"
+
+msgid "routes.about.cookie.info.investorParticipation"
+msgstr "Obsahuje zoznam všetkých pridaných prispievateľov"
+
+msgid "routes.about.cookie.info.displayTableCard"
+msgstr ""
+"Označuje, či sa má tabuľka zobraziť v "
+"„@:(routes.gb_investment_gb_chooser.hero.title)“ v jednoduchom režime "
+"(tabuľka) alebo v zobrazení karty na malej obrazovke"
+
+msgid "routes.about.cookie.info.from"
+msgstr ""
+"Úroveň, kde sa má spustiť pole (použité na karte "
+"„@:(routes.gb_investment.tab.investors_view.title)“ z "
+"„@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.to"
+msgstr ""
+"Úroveň, kde sa má ukončiť pole (použité na karte "
+"„@:(routes.gb_investment.tab.investors_view.title)“ z "
+"„@:(routes.gb_investment_gb_chooser.hero.title)\")"
+
+msgid "routes.about.cookie.info.showPlace"
+msgstr ""
+"Pole, ktoré ukazuje, či sa má pozícia zobraziť alebo nie (použité na karte "
+"„@:(routes.gb_investment.tab.investors_view.title)“ z "
+"„@:(routes.gb_investment_gb_chooser.hero.title)\")“"
+
+msgid "routes.about.cookie.info.survey"
+msgstr "Pole, ktoré obsahuje všetky prehľady, ktoré ste už dokončili"
+
+msgid "routes.about.cookie.info.fixedMainMenu"
+msgstr "Označuje, či je hlavné menu vždy viditeľné alebo nie"
+
+msgid "routes.about.cookie.info.gbSelectMode"
+msgstr "Označuje, ktorý režim výberu VB sa používa"
+
+msgid "routes.about.cookie.info.haveReadLocaleInfoAvailable"
+msgstr ""
+"Označuje, či ste si prečítali informácie o skutočnosti, že stránka je k "
+"dispozícii vo vašom jazyku"
+
+msgid "routes.about.cookie.info.promotionMessageList"
+msgstr "Obsahuje zoznam propagačných správ, ktoré chcete zobraziť"
+
+msgid "routes.about.cookie.info.customPromotionMessagesTemplates"
+msgstr "Obsahuje všetky vaše upravené propagačné správy"
+
+msgid "routes.about.cookie.info.gbShowPrefix"
+msgstr "Označuje, či sa má zobraziť text pred propagačnými správami"
+
+msgid "routes.about.cookie.info.gbShowSuffix"
+msgstr "Označuje, či sa má zobraziť text za propagačnými správami"
+
+msgid "routes.about.cookie.info.lastVisitVersion"
+msgstr "Obsahuje verziu stránky z Vašej poslednej návštevy"
+
+msgid "routes.about.dev_info.title"
+msgstr "Informácie o vývoji"
+
+msgid "routes.about.dev_info.p1"
+msgstr "Táto stránka je jednoduchá statická stránka hosťovaná na serveri GitHub."
+
+msgid "routes.about.dev_info.p2_html"
+msgstr ""
+"Stránka je vyvíjaná v Node.js za pomoci @:(common.links.framework). Štýl je "
+"vytvorený pomocou @:(common.links.style)."
+
+msgid "routes.about.dev_info.p3_html"
+msgstr ""
+"Nápad na novú funkcionalitu? Problém ? Neváhajte nás kontaktovať na "
+"@:(common.links.github) alebo mi pošlite e-mail (v angličtine alebo "
+"francúzštine) na @:(common.links.contact_foe_tools)."
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>Poznámka: </b>Pokiaľ ide o problémy týkajúce sa GitHub, nezabudnite ich "
+"napísať v angličtine, aby im mohlo porozumieť čo najväčší počet ľudí."
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Cena kampane"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr "Tento nástroj predpovedá náklady na získanie sektora alebo provincie."
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Château Frontenac kalkulátor"
+
+msgid "routes.cf_calculator.hero.subtitle"
+msgstr ""
+"Nástroj, ktorý pomáha predpovedať produkciu fp a produkciu opakujúcich sa "
+"questov a nedobytných výprav na párty (Rinbin)."
+
+msgid "routes.changelog.title"
+msgstr "Zoznam zmien | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Spolupracovníci"
+
+msgid "routes.contributors.hero.subtitle"
+msgstr "Táto stránka sa pokúša uviesť zoznam všetkých spolupracovníkov"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.gb_investment.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Pohľad majiteľa"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Pohľad prispievateľa"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "Príspevky do VB"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Tento nástroj umožňuje vypočítať počet bodov, ktoré musí hráč dať do svojej "
+"VB, aby  zabezpečil prvých 5 pozícií podľa výšky odmien (bonus za oblúk)."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Vyberte si Veľkolepú budovu"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "Prognóza ceny VB"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Tento nástroj určuje počet BV, potrebných na zvýšenie úrovne VB s  alebo "
+"bez bonusu Oblúka."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "VB štatistiky"
+
+msgid "routes.gb_statistics.hero.subtitle"
+msgstr "Tento nástroj umožňuje zobraziť grafy vývoja nákladov VB po dosiahnutí veku."
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Zabezpečená pozícia"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Tento nástroj vypočítava počet BV, ktoré musí hráč vložiť do VB na "
+"zablokovanie svojej pozície"
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.trade.hero.title"
+msgstr "Obchodovanie"
+
+msgid "routes.trade.hero.subtitle"
+msgstr ""
+"Tento nástroj napomáha Vášmu obchodovaniu tým, že Vám ponúkne najlepšie "
+"pomery podľa toho ktorým smerom obchodujete."
+
+msgid "routes.trade.tab.trade_2_1.title"
+msgstr "2:1"
+
+msgid "routes.trade.tab.trade_2_1.message"
+msgstr ""
+"Jednoduché obchodovanie, pomer 1 za 1 s zdrojmi tej istej doby a 1 za 2 s "
+"cieľom získať zdroje nie z najbližšej doby, ale až z tej po nej."
+
+msgid "routes.trade.tab.fair_trade.title"
+msgstr "Fér obchodovanie"
+
+msgid "routes.trade.tab.fair_trade.message"
+msgstr ""
+"Tento druh obchodu zohľadňuje náklady na výrobu tovaru (mince a zásoby) na "
+"určenie sadzieb medzi tovarmi."
+
+msgid "routes.help_to_translate_the_site.title"
+msgstr "@:(routes.help_to_translate_the_site.hero.title) | @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.hero.title"
+msgstr "Pomôžte s prekladom stránky"
+
+msgid "routes.help_to_translate_the_site.hero.subtitle"
+msgstr "Pripojte sa k prekladateľskému tímu"
+
+msgid "routes.help_to_translate_the_site.p1"
+msgstr ""
+"Váš jazyk nie je k dispozícii, preklad je neúplný alebo obsahuje chyby? "
+"Neváhajte a pripojte sa k prekladateľskému tímu stránky."
+
+msgid "routes.help_to_translate_the_site.how_to_join_the_team"
+msgstr "Ako sa pripojiť k tímu?"
+
+msgid "routes.help_to_translate_the_site.p2_html"
+msgstr ""
+"@:(common.site_title) je prekladaný používateľmi. Na uľahčenie prekladania "
+"využívame platformu @:(common.links.translation_platform). Pre pripojenie "
+"sa k týmu pošlite email (v Angličtine) na "
+"@:(common.links.contact_foe_tools) kde uveďte do ktorého jazyka by ste "
+"chceli prekladať, aby sme Vám mohli postať pozvánku do týmu."
+
+msgid "routes.help_to_translate_the_site.state_of_translation"
+msgstr "Aktuálny stav prekladu :"
+
+msgid "routes.survey.title"
+msgstr "@:(routes.survey.hero.title) | @:(common.site_title)"
+
+msgid "routes.survey.hero.title"
+msgstr "Dotazník"
+
+msgid "routes.survey.hero.subtitle"
+msgstr "Pomôžte nám vylepšiť @:(common.site_title) vyplnením tohto dotazníka"
+
+msgid "routes.survey.required_field"
+msgstr "Toto políčko je povinné"
+
+msgid "routes.survey.survey_complete"
+msgstr "Ďakujeme za Vašu reakciu!"
+
+msgid "routes.survey.error"
+msgstr "Vyskytla sa chyba, skontrolujte formulár a skúste to znova"
+
+msgid "routes.survey.unknown_error"
+msgstr "Vyskytla sa neznáma chyba, kontaktujte prosím správcu stránky"
+
+msgid "routes.contact.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.contact.hero.title"
+msgstr "Kontakt"
+
+msgid "routes.contact.hero.subtitle"
+msgstr "Kontakt na administrátora @:(common.site_title)"
+
+msgid "routes.contact.message_contact_html"
+msgstr ""
+"Nápad na novú funkcionalitu? Problém ? Neváhajte a pošlite e-mail (v "
+"angličtine alebo francúzštine) na @:(common.links.contact_foe_tools)."
+
+msgid "routes.contact.message_translate"
+msgstr ""
+"Vedeli ste, že môžete tiež pomôcť s prekladom stránky? Ak chcete získať "
+"ďalšie informácie, kliknite na nasledujúci odkaz:"
+
+msgid "routes.contact.message_other_info_html"
+msgstr ""
+"Ak ste vývojári, môžete tiež vytvoriť ticket (a prispieť k rozvoju stránky "
+") na @:(common.links.github)."
+
+msgid "routes.error.404.title"
+msgstr "Stránka sa nenašla | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Ľutujeme, hľadaná stránka neexistuje alebo už neexistuje"
+
+msgid "routes.donate.title"
+msgstr "@:(routes.donate.hero.title) | @:(common.site_title)"
+
+msgid "routes.donate.hero.subtitle"
+msgstr "Dar na @:(common.site_title)"
+
+msgid "routes.donate.hero.title"
+msgstr "@:(utils.Donate)"
+
+msgid "routes.donate.donation_options"
+msgstr "Dar cez @:(common.links.donorbox) alebo @:(common.links.paypal)."
+
+msgid "routes.donate.conversion"
+msgstr "Ak Vás moja práca oslovila, prosím zvážte dar."
+
+msgid "routes.donate.donation_message"
+msgstr ""
+"@:(common.site_title) je bez reklamy, open source projekt a ja to nerobím "
+"pre finančný zisk. Takže môj čas venovaný tomuto projektu je nezaplatený. "
+"Preto prijímam dary od kohokoľvek, komu sa moja práca páči natoľko, že ma "
+"chcú za ňu vyplatiť, je jedno na množstve a spôsobe (jednorazovo alebo "
+"mesačne). Dary znamenajú pre mňa veľa, nakoľko mi pomáhajú pokryť náklady "
+"spojené s platením servera, domény a hostingu a všeobecne živobitia a "
+"slúžia aj ako pozitívna motivácia pracovať ďalej na tomto open-source "
+"projekte."
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge)(@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "žiadna doba"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Doba bronzová"
+
+msgid "foe_data.age.IronAge"
+msgstr "Doba železná"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Raný stredovek"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Vrcholný stredovek"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Neskorý stredovek"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "Koloniálny vek"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Priemyselná éra"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "Progresívna doba"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Moderná éra"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Postmoderná éra"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Súčasná éra"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Zajtra"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Budúcnosť"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Arktická budúcnosť"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Oceánska budúcnosť"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Virtuálna budúcnosť"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Vesmírny vek: Mars"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "ZD"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "DB"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "DZ"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "RS"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "VS"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "NS"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "KV"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "PE"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "PD"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "ME"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "PME"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "SE"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "ZA"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "BU"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "AB"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "OB"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "VB"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "VVM"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Hvezdáreň"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Chrám relikvií"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Delfská veštiareň"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Babylonská veža"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Diova socha"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Koloseum"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Alexandrijský maják"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Hagia Sofia"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Aachenský dóm"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Bazilika svätého Marka"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Katedrála Notre-Dame"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Chrám Vasila Blaženého"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel del Monte"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Dealský hrad"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Drážďanský kostol Panny Márie"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Kapitol"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Château Frontenac"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Alcatraz"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Space Needle"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Atómium"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Cape Canaveral"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "Habitat"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Lotosový chrám"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Inovačná veža"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Dynamic Tower"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "Oblúk"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Projekt dažďového pralesa"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Socha matky Gaea"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Arktický skleník"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Trezor so semienkami"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Múzeum Atlantídy"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "Modrá galaxia"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Terakotová armáda"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Hrad Himeji"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "Projekt Virgo"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Star Gazer"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Hvezd."
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "Relikvie"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "Veštiareň"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Babylon"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Dio"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Kolo"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "Maják"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "Hagia"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "Aachen"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "Bazilika"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "Notre"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "Vasil"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "Castel"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "Dealsky"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "Drážďansky"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Kapitol"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "Royal"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "Fronte"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Alca"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "Ihla"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Atom"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Cape"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Habitat"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "Lotus"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Inovačka"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "Dynamik"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Voyager"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Oblúk"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "Prales"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Gaea"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "Skleník"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "Trezor"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "Múzeum"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "Galaxia"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "Terra"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "Himeji"
+
+msgid "foe_data.gb_short.The_Virgo_Project"
+msgstr "Virgo"
+
+msgid "foe_data.gb_short.Star_Gazer"
+msgstr "Gazer"
+
+msgid "foe_data.goods.dye"
+msgstr "Farbivo"
+
+msgid "foe_data.goods.lumber"
+msgstr "Stavebné drevo"
+
+msgid "foe_data.goods.marble"
+msgstr "Mramor"
+
+msgid "foe_data.goods.stone"
+msgstr "Kameň"
+
+msgid "foe_data.goods.wine"
+msgstr "Víno"
+
+msgid "foe_data.goods.cloth"
+msgstr "Látka"
+
+msgid "foe_data.goods.ebony"
+msgstr "Eben"
+
+msgid "foe_data.goods.iron"
+msgstr "Železo"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Šperky"
+
+msgid "foe_data.goods.limestone"
+msgstr "Vápenec"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Alabaster"
+
+msgid "foe_data.goods.copper"
+msgstr "Meď"
+
+msgid "foe_data.goods.gold"
+msgstr "Zlato"
+
+msgid "foe_data.goods.granite"
+msgstr "Žula"
+
+msgid "foe_data.goods.honey"
+msgstr "Med"
+
+msgid "foe_data.goods.brick"
+msgstr "Tehla"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Sušené bylinky"
+
+msgid "foe_data.goods.glass"
+msgstr "Sklo"
+
+msgid "foe_data.goods.rope"
+msgstr "Lano"
+
+msgid "foe_data.goods.salt"
+msgstr "Soľ"
+
+msgid "foe_data.goods.basalt"
+msgstr "Čadič"
+
+msgid "foe_data.goods.brass"
+msgstr "Mosadz"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Strelný prach"
+
+msgid "foe_data.goods.silk"
+msgstr "Hodváb"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Prášok z mastenca"
+
+msgid "foe_data.goods.coffee"
+msgstr "Káva"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Porcelán"
+
+msgid "foe_data.goods.paper"
+msgstr "Papier"
+
+msgid "foe_data.goods.tar"
+msgstr "Decht"
+
+msgid "foe_data.goods.wire"
+msgstr "Drôt"
+
+msgid "foe_data.goods.coke"
+msgstr "Koks"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Hnojivo"
+
+msgid "foe_data.goods.rubber"
+msgstr "Guma"
+
+msgid "foe_data.goods.textiles"
+msgstr "Textil"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Veľrybí olej"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Azbest"
+
+msgid "foe_data.goods.explosives"
+msgstr "Výbušniny"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Benzín"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Strojové súčiastky"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Cínové plechy"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Polotovary"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Železobetón"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Dochucovadlá"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Luxusné materiály"
+
+msgid "foe_data.goods.packaging"
+msgstr "Obalové materiály"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Genetické informácie"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Priemyselné filtre"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Obnoviteľné zdroje"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Polovodiče"
+
+msgid "foe_data.goods.steel"
+msgstr "Oceľ"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Bionické údaje"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Elektromagnety"
+
+msgid "foe_data.goods.gas"
+msgstr "Plyn"
+
+msgid "foe_data.goods.plastics"
+msgstr "Plasty"
+
+msgid "foe_data.goods.robots"
+msgstr "Roboty"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Nutričný výskum"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Papierobetón"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Konzervanty"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Inteligentné materiály"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Sklobetón"
+
+msgid "foe_data.goods.algae"
+msgstr "Riasy"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Biogeochemické údaje"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Nanočastice"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Čistená voda"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Supravodiče"
+
+msgid "foe_data.goods.ai_data"
+msgstr "Dáta pre U.I."
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Bioplasty"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Nanodrôt"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Ohybné batérie"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Transesterový plyn"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Umelé šupiny"
+
+msgid "foe_data.goods.biolight"
+msgstr "Biosvetlá"
+
+msgid "foe_data.goods.corals"
+msgstr "Koraly"
+
+msgid "foe_data.goods.pearls"
+msgstr "Perly"
+
+msgid "foe_data.goods.plankton"
+msgstr "Planktón"
+
+msgid "foe_data.goods.promethium"
+msgstr "Prométium"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Orichalkum"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Kryptomena"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Dátové kryštály"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Zlatá ryža"
+
+msgid "foe_data.goods.nanites"
+msgstr "Nanity"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Čajovníkový hodváb"
+
+msgid "foe_data.goods.superalloys"
+msgstr "Superzliatina"
+
+msgid "foe_data.goods.fusion_reactors"
+msgstr "Fúzny reaktor"
+
+msgid "foe_data.goods.mars_microbes"
+msgstr "Marťanské mikróby"
+
+msgid "foe_data.goods.biotech_crops"
+msgstr "Biotechnologické plodiny"
+
+msgid "foe_data.goods.lubricants"
+msgstr "Mazivo"
+
+msgid "foe_data.province.Alpha_1_Omega_2"
+msgstr "Alpha 1 Omega 2"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymir"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "East-Nagach"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "West-Nagach"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todepass"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mons Suiry"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Cragshire"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Eldenborough"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Cuttingham"
+
+msgid "foe_data.province.Spearth"
+msgstr "Spearth"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Wolvhampton"
+
+msgid "foe_data.province.FourGallows"
+msgstr "FourGallows"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Mount Killmore"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "RavensCreek"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Houndsmoor"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Zaldon-on-Sea"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Grand Cap"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Severný hrad"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Queenshope"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Ashcrook"
+
+msgid "foe_data.province.Narcien"
+msgstr "Narcien"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Lavignon"
+
+msgid "foe_data.province.Troulope"
+msgstr "Troulope"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Deuxerres"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Lombardeaux"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Pisterrac"
+
+msgid "foe_data.province.Varseille"
+msgstr "Varseille"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Haulenois"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "NewCragshire"
+
+msgid "foe_data.province.Okahe"
+msgstr "Okahe"
+
+msgid "foe_data.province.Rantford"
+msgstr "Rantford"
+
+msgid "foe_data.province.Desperation"
+msgstr "Beznádej"
+
+msgid "foe_data.province.St_Marque"
+msgstr "St.Marque"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Las Penas"
+
+msgid "foe_data.province.DragonCity"
+msgstr "DragonCity"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Garrincton"
+
+msgid "foe_data.province.ElFuego"
+msgstr "ElFuego"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "SantaCatalina"
+
+msgid "foe_data.province.Dorango"
+msgstr "Dorango"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Nevarrone"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Embruniez"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Gabordeaux"
+
+msgid "foe_data.province.Ydine"
+msgstr "Ydine"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Wenoevre"
+
+msgid "foe_data.province.Havre"
+msgstr "Havre"
+
+msgid "foe_data.province.Omoien"
+msgstr "Omoien"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Uxrow"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Gaelford"
+
+msgid "foe_data.province.Sud"
+msgstr "Sud"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Kriegreich"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Ostrand"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Langenreich"
+
+msgid "foe_data.province.Uceria"
+msgstr "Uceria"
+
+msgid "foe_data.province.Gorski"
+msgstr "Gorski"
+
+msgid "foe_data.province.Inashu"
+msgstr "Inashu"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Natsuishu"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Chigikawa"
+
+msgid "foe_data.province.Igujima"
+msgstr "Igujima"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Kyushima"
+
+msgid "foe_data.province.Igioka"
+msgstr "Igioka"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Igamoto"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Higematsu"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Kibakuguchi"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Hiromaguchi"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Toimuro"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "CaiChetNui"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "SotDamLay"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "DayDuAo"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "TrungDoi"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "KhayHuyenBayGio"
+
+msgid "foe_data.province.RungTrai"
+msgstr "RungTrai"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "RungChienDau"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "GiaiCuuBinhMinh"
+
+msgid "foe_data.province.PhucKich"
+msgstr "PhucKich"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "MauMatDat"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "DongBangSong"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "OngChuCuoiCung"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Mesto Amaryah City"
+
+msgid "foe_data.province.Khail"
+msgstr "Khail"
+
+msgid "foe_data.province.Batif"
+msgstr "Batif"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Hafar Al Karak"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Al-Shadyra"
+
+msgid "foe_data.province.Salfah"
+msgstr "Salfah"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Ain Al-Khansa"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Suqqah"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Shayhour"
+
+msgid "foe_data.province.Kardad"
+msgstr "Kardad"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Qumeira"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Jandahar"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Torrinhos"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Villabaja"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Itabarai"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Bajatai"
+
+msgid "foe_data.province.Villariba"
+msgstr "Villariba"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Rio Roxo"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Sierra Torrido"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Santa Nerea"
+
+msgid "foe_data.province.La_Huega"
+msgstr "La Huega"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Jamenez"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Falsa Cruz"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Desierto de la Muerte"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Sao Malvado"
+
+msgid "foe_data.province.Agadar"
+msgstr "Agadar"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Esan-Ewu"
+
+msgid "foe_data.province.Omogba"
+msgstr "Omogba"
+
+msgid "foe_data.province.Owopele"
+msgstr "Owopele"
+
+msgid "foe_data.province.Jak"
+msgstr "Jak"
+
+msgid "foe_data.province.Pala"
+msgstr "Pala"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Kolabourg"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Bontaville"
+
+msgid "foe_data.province.Botuku"
+msgstr "Botuku"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Kalabuye"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Bisoraba"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Fort Buntu"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Nutarniq"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Iluliaq"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Údolie polárnej žiary"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Chladný záliv"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Arktický horizont"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Tuklavik"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ananevut"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Qaniit"
+
+msgid "foe_data.province.White_Gate"
+msgstr "Biela brána"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Záveje"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Vody mediánu"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Mrazivá hora"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Južné údolie"
+
+msgid "foe_data.province.Ilug"
+msgstr "Ilug"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Chugiak"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Kesukavut"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Adlartok"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Severná trasa"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Lavína"
+
+msgid "foe_data.province.Manirak"
+msgstr "Manirak"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Tundrová skala"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Patuktuq"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Ľadový vrch"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Kilalurak"
+
+msgid "foe_data.province.Nilak"
+msgstr "Nilak"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Chulyin"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Tattilgat"
+
+msgid "foe_data.province.Atka"
+msgstr "Atka"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Pimniq"
+
+msgid "foe_data.province.Anyu"
+msgstr "Anyu"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Ľadový štít"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Nunataq"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Nanuq"
+
+msgid "foe_data.province.Precipice"
+msgstr "Svah"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Unalaq"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Rituálne miesto"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Zamrznutá step"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "Jaskyňa"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Kryha s chrámom"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Pláň duší"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Kalné vody"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Prekliaty prúd"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Koralové hlbiny"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Hrboľatá šírava"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Silný prúd"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Temná priepasť"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Čerstvý prúd"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Bezprílivová hlbina"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Pokojné vlny"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Trblietavý surf"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Červené more"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Oceán zamyslenia"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Molitanový strop"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Záliv obohnaný múrom"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Dolná jaskyňa"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Strieborné húfy"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Horná jaskyňa"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Skalnaté panstvo"
+
+msgid "foe_data.province.Nautical_Parlay"
+msgstr "Morská stávka"
+
+msgid "foe_data.province.Restless_Buoy"
+msgstr "Nepokojná bója"
+
+msgid "foe_data.province.Ripped_Sails"
+msgstr "Búrlivé prúdy"
+
+msgid "foe_data.province.Nautilus_Mirage"
+msgstr "Vidina Nautila"
+
+msgid "foe_data.province.Ravenous_Tides"
+msgstr "Roztrhnuté plachty"
+
+msgid "foe_data.province.Deep_Dive"
+msgstr "Hlboký ponor"
+
+msgid "foe_data.province.Furious_Storm"
+msgstr "Zúrivá búrka"
+
+msgid "foe_data.province.Silver_Crest"
+msgstr "Strieborný hrebeň"
+
+msgid "foe_data.province.Grey_Clouds"
+msgstr "Sivé oblaky"
+
+msgid "foe_data.province.Translucent_Algae"
+msgstr "Priesvitné riasy"
+
+msgid "foe_data.province.Treacherous_Surf"
+msgstr "Zradný surf"
+
+msgid "foe_data.province.Single_Wave"
+msgstr "Jedna vlna"
+
+msgid "foe_data.province.Cursed_Lip"
+msgstr "Prekliata pera"
+
+msgid "foe_data.province.Coral_Kingdom"
+msgstr "Koralové kráľovstvo"
+
+msgid "foe_data.province.Telescopic_Barrel"
+msgstr "Teleskopický sud"
+
+msgid "foe_data.province.Sponge_Sands"
+msgstr "Dierkované piesky"
+
+msgid "foe_data.province.Seagull_Domain"
+msgstr "Kráľovstvo čajok"
+
+msgid "foe_data.province.Tangled_Fins"
+msgstr "Prepletené plutvy"
+
+msgid "foe_data.province.Scuba_Bay"
+msgstr "Zátoka potápačov"
+
+msgid "foe_data.province.Tide_Ascent"
+msgstr "Stúpajúci príliv"
+
+msgid "foe_data.province.Breakwater_Wharf"
+msgstr "Vlnolamové prístavisko"
+
+msgid "foe_data.province.Adrift_Liner"
+msgstr "Neriadený parník"
+
+msgid "foe_data.province.Bermuda_Quay"
+msgstr "Bermutské nábrežie"
+
+msgid "foe_data.province.Sextant_Mast"
+msgstr "Sťažeň na sextant"
+
+msgid "foe_data.province.Grog_Wash"
+msgstr "Záplava grogu"
+
+msgid "foe_data.province.R_lyeh_Reef"
+msgstr "Útes v R'lyehu"
+
+msgid "foe_data.province.Capricorn_Waterway"
+msgstr "Vodná cesta pre lode"
+
+msgid "foe_data.province.Barnacle_Deck"
+msgstr "Paluba morského vlka"
+
+msgid "foe_data.province.Ahab_s_Tomb"
+msgstr "Achabova hrobka"
+
+msgid "foe_data.province.Galley_Commodore"
+msgstr "Kapitán galeje"
+
+msgid "foe_data.province.Adamastor"
+msgstr "Adamastor"
+
+msgid "foe_data.province.Deadeye_Admiral"
+msgstr "Ostrostrelecký admirál"
+
+msgid "foe_data.province.Monkey_s_Fist"
+msgstr "Opičia päsť"
+
+msgid "foe_data.province.Dagon_s_Dagger"
+msgstr "Dagonova dýka"
+
+msgid "foe_data.province.Sunken_Leviathan"
+msgstr "Potopený leviatan"
+
+msgid "foe_data.province.Raging_Tides"
+msgstr "Zúrivé prúdy"
+
+msgid "foe_data.province.Buccaneer_Plateau"
+msgstr "Korzárska plošina"
+
+msgid "foe_data.province.Craggy_Cay"
+msgstr "Skalnatý ostrovček"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Behemoth"
+
+msgid "foe_data.province.Privateer_Helm"
+msgstr "Korzárske kormidlo"
+
+msgid "foe_data.province.Medusa_Cove"
+msgstr "Zátoka medúz"
+
+msgid "foe_data.province.Man_O_War"
+msgstr "Medúza mechúrikovitá"
+
+msgid "foe_data.province.Nemo_s_Dock"
+msgstr "Nemova paluba"
+
+msgid "foe_data.province.Anchorage_Ruin"
+msgstr "Zrúcaniny kotviska"
+
+msgid "foe_data.province.Ahoy_Alee"
+msgstr "Záveterná strana"
+
+msgid "foe_data.province.Ursula_s_Valley"
+msgstr "Ursulino údolie"
+
+msgid "foe_data.province.Dungbie_Trough"
+msgstr "Zadný žľab"
+
+msgid "foe_data.province.Idlers_Range"
+msgstr "Lodníkovo pohorie"
+
+msgid "foe_data.province.Wherry_Gap"
+msgstr "Pramicový priesmyk"
+
+msgid "foe_data.province.Nock_s_Turn"
+msgstr "Nockov obrat"
+
+msgid "foe_data.province.Scuttle_Ridge"
+msgstr "Hlboký hrebeň"
+
+msgid "foe_data.province.Ghost_Trench"
+msgstr "Prízračný zákop"
+
+msgid "foe_data.province.Scurvy_Atoll"
+msgstr "Skorbutový atol"
+
+msgid "foe_data.province.Capsize_Lagoon"
+msgstr "Lagúna prevrhnutých lodí"
+
+msgid "foe_data.province.Undertow_Bank"
+msgstr "Pobrežie spodných prúdov"
+
+msgid "foe_data.province.Neptune_s_Galleon"
+msgstr "Neptúnová galeóna"
+
+msgid "foe_data.province.Seafarer_s_Current"
+msgstr "Moreplavcov prúd"
+
+msgid "foe_data.province.Blackwater_Cape"
+msgstr "Čiernovodný mys"
+
+msgid "foe_data.province.Leviathan_Wreck"
+msgstr "Vrak leviatana"
+
+msgid "foe_data.province.Typhoon_Peninsula"
+msgstr "Poloostrov tajfúnov"
+
+msgid "foe_data.province.Corsair_s_Skerry"
+msgstr "Korzárova skala"
+
+msgid "foe_data.province.Mutiny_Canyon"
+msgstr "Kaňon vzbury"
+
+msgid "foe_data.province.Bytedirt_Planes"
+msgstr "Bytedirt Planes"
+
+msgid "foe_data.province.End_of_the_Void"
+msgstr "End of the Void"
+
+msgid "foe_data.province.Banker_s_Heaven"
+msgstr "Banker's Heaven"
+
+msgid "foe_data.province.Shift_Land"
+msgstr "Shift/Land"
+
+msgid "foe_data.province.Black_Net_Market"
+msgstr "Black Net Market"
+
+msgid "foe_data.province.Pulse_City"
+msgstr "Pulse City"
+
+msgid "foe_data.province.Max_s_Shelter"
+msgstr "Max's Shelter"
+
+msgid "foe_data.province.The_Open_Zone"
+msgstr "The Open Zone"
+
+msgid "foe_data.province.The_Warring_Towers"
+msgstr "The Warring Towers"
+
+msgid "foe_data.province.Forgotten_Fragments"
+msgstr "Forgotten Fragments"
+
+msgid "foe_data.province.Backup_NET"
+msgstr "Backup:NET"
+
+msgid "foe_data.province.Spoiled_Resort"
+msgstr "Spoiled Resort"
+
+msgid "foe_data.province.Fort_Duplex"
+msgstr "Fort Duplex"
+
+msgid "foe_data.province.LoneHub"
+msgstr "LoneHub"
+
+msgid "foe_data.province.Ray_s_Ray_s"
+msgstr "Ray's Ray's"
+
+msgid "foe_data.province.Purple_Palace"
+msgstr "Purple Palace"
+
+msgid "foe_data.province.Three_Oc3ans"
+msgstr "Three Oc3ans"
+
+msgid "foe_data.province.Vortex"
+msgstr "Vortex"
+
+msgid "foe_data.province.Twisted_Alps"
+msgstr "Twisted Alps"
+
+msgid "foe_data.province.Archives_of_Junkman"
+msgstr "Archives of Junkman"
+
+msgid "foe_data.province.Frozen_RAM"
+msgstr "Frozen RAM"
+
+msgid "foe_data.province.Cas_Cade"
+msgstr "Cas.Cade"
+
+msgid "foe_data.province.The_Historical_Museum"
+msgstr "The Historical Museum"
+
+msgid "foe_data.province.Aerial_Boulevard"
+msgstr "Aerial Boulevard"
+
+msgid "foe_data.province.Slate_13"
+msgstr "Slate 13"
+
+msgid "foe_data.province.New_final_final_exe"
+msgstr "New_final_final.exe"
+
+msgid "foe_data.province.Bizarre_Plains"
+msgstr "Bizarre Plains"
+
+msgid "foe_data.province.Argus__Watch"
+msgstr "Argus' Watch"
+
+msgid "foe_data.province.Berta_s_Byte_Sauce"
+msgstr "Berta's Byte-Sauce"
+
+msgid "foe_data.province.Veil_of_Bits"
+msgstr "Veil of Bits"
+
+msgid "foe_data.province.Harvey_s_Low_Core"
+msgstr "Harvey's Low Core"
+
+msgid "foe_data.province.The_Byte_Parade"
+msgstr "The Byte Parade"
+
+msgid "foe_data.province.Reboot_Bay"
+msgstr "Reboot Bay"
+
+msgid "foe_data.province.Streaming_Forest"
+msgstr "Streaming Forest"
+
+msgid "foe_data.province.CMYK_Citadel"
+msgstr "CMYK Citadel"
+
+msgid "foe_data.province.Forgify"
+msgstr "Forgify"
+
+msgid "foe_data.province.Digital_Town_of_Hope"
+msgstr "Digital Town of Hope"
+
+msgid "foe_data.province.Cloud_One"
+msgstr "Cloud One"
+
+msgid "foe_data.province.Re_Birth"
+msgstr "Re:Birth"
+
+msgid "foe_data.province.Castle_You_Es_Bee"
+msgstr "Castle You-Es-Bee"
+
+msgid "foe_data.province.NET_MASKerade"
+msgstr "NET MASKerade"
+
+msgid "foe_data.province.If_Then_Whatever"
+msgstr "If, Then, Whatever"
+
+msgid "foe_data.province.The_Virtual_Cliffs_of_G0r3"
+msgstr "The Virtual Cliffs of G0r3"
+
+msgid "foe_data.province.The_Church_of_Games"
+msgstr "The Church of Games"
+
+msgid "foe_data.province.The_Sacred_Database"
+msgstr "The Sacred Database"
+
+msgid "foe_data.province.Game_Over"
+msgstr "Game Over"
+
+msgid "foe_data.province.Astra_Prime"
+msgstr "Astra Prime"
+
+msgid "foe_data.province.Phovolken"
+msgstr "Phovolken"
+
+msgid "foe_data.province.Verda_Dophria"
+msgstr "Verda Dophria"
+
+msgid "foe_data.province.Zomantau"
+msgstr "Zomantau"
+
+msgid "foe_data.province.Vaanderbirch"
+msgstr "Vaanderbirch"
+
+msgid "foe_data.province.New_Frozenstone"
+msgstr "New Frozenstone"
+
+msgid "foe_data.province.Ertannen_Belt"
+msgstr "Ertannen Belt"
+
+msgid "foe_data.province.Xalvades"
+msgstr "Xalvades"
+
+msgid "foe_data.province.Akuppers"
+msgstr "Akuppers"
+
+msgid "foe_data.province.Enervein"
+msgstr "Enervein"
+
+msgid "foe_data.province.Oppeska"
+msgstr "Oppeska"
+
+msgid "foe_data.province.Fortrin"
+msgstr "Fortrin"
+
+msgid "foe_data.province.Carva_Caska"
+msgstr "Carva Caska"
+
+msgid "foe_data.province.Wrandasten_3"
+msgstr "Wrandasten 3"
+
+msgid "foe_data.province.Klaylach"
+msgstr "Klaylach"
+
+msgid "foe_data.province.Ghirken"
+msgstr "Ghirken"
+
+msgid "foe_data.province.Nobisia"
+msgstr "Nobisia"
+
+msgid "foe_data.province.Vradeen"
+msgstr "Vradeen"
+
+msgid "foe_data.province.Kardine_Haven"
+msgstr "Kardine Haven"
+
+msgid "foe_data.province.Mathaben"
+msgstr "Mathaben"
+
+msgid "foe_data.province.Everdoom"
+msgstr "Everdoom"
+
+msgid "foe_data.province.Delta_Hills"
+msgstr "Delta Hills"
+
+msgid "foe_data.province.Sharvice"
+msgstr "Sharvice"
+
+msgid "foe_data.province.Loakmolden"
+msgstr "Loakmolden"
+
+msgid "foe_data.province.Jalcion_Crater"
+msgstr "Jalcion Crater"
+
+msgid "foe_data.province.Plateau_Firnane_2"
+msgstr "Plateau Firnane-2"
+
+msgid "foe_data.province.High_Hacoon_Valley"
+msgstr "High Hacoon Valley"
+
+msgid "foe_data.province.Low_Hacoon_Valley"
+msgstr "Low Hacoon Valley"
+
+msgid "foe_data.province.Vyvalgis"
+msgstr "Vyvalgis"
+
+msgid "foe_data.province.Destallia"
+msgstr "Destallia"
+
+msgid "foe_data.province.Rustikauri"
+msgstr "Rustikauri"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Mince"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Zásoby"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Tovar"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Špeciálny tovar"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Produkčný bonus"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Rozšírenie"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Medaila"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "Diamant"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "PvP Veža"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Plán"
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Posilnenie armády"
+
+msgid "foe_data.bonus.military_boost.gb_description"
+msgstr ""
+"Zvyšuje útočný a obranný bonus pre jednotky v útočnej armáde, sčítava sa s "
+"každou budovou."
+
+msgid "foe_data.bonus.fierce_resistance.name"
+msgstr "Zúrivý odpor"
+
+msgid "foe_data.bonus.fierce_resistance.gb_description"
+msgstr ""
+"Obranné jednotky majú posilnené svoje útočné a obranné hodnoty o určité "
+"percento. Rovnako aj cech dostane do svojho podporného fondu určité "
+"množstvo a bonus sa sčítava s každou budovou."
+
+msgid "foe_data.bonus.coin_boost.name"
+msgstr "Zvýšenie počtu mincí"
+
+msgid "foe_data.bonus.coin_boost.gb_description"
+msgstr ""
+"Prvých niekoľko vyzdvihnutých (až do 90 krát) produkcií mincí sa o určité "
+"percento posilní. Sčítava sa so zvýšením z produktivity, motivácie a iných "
+"zvýšení produkcie mincí."
+
+msgid "foe_data.bonus.supply_boost.name"
+msgstr "Zvýšenie množstva zásob"
+
+msgid "foe_data.bonus.supply_boost.gb_description"
+msgstr ""
+"Prvých niekoľko vyzdvihnutých produkcií zásob sa o určité percento posilní. "
+"Sčítava sa so zvýšením z produktivity, motivácie a iných zvýšení produkcie "
+"zásob."
+
+msgid "foe_data.bonus.good_production.name"
+msgstr "Produkcia tovaru"
+
+msgid "foe_data.bonus.good_production.gb_description"
+msgstr ""
+"Každých 24 hodín produkuje určitý počet náhodných tovarov z hráčovej doby. "
+"Od modernej éry zas produkuje dvojnásobok neopracovaného tovaru."
+
+msgid "foe_data.bonus.medal_production.name"
+msgstr "Produkcia medailí "
+
+msgid "foe_data.bonus.medal_production.gb_description"
+msgstr "Každých 24 hodín produkuje určitý počet medail."
+
+msgid "foe_data.bonus.research.name"
+msgstr "Výskum"
+
+msgid "foe_data.bonus.research.gb_description"
+msgstr "Produkuje malé množstvo bodov výskumu každých 24 hodín."
+
+msgid "foe_data.bonus.coin_production.name"
+msgstr "Výroba mincí"
+
+msgid "foe_data.bonus.coin_production.gb_description"
+msgstr "Produkuje určité množstvo mincí každých 24 hodín."
+
+msgid "foe_data.bonus.supply_production.name"
+msgstr "Výroba zásob"
+
+msgid "foe_data.bonus.supply_production.gb_description"
+msgstr "Produkuje určité množstvo zásob každých 24 hodín."
+
+msgid "foe_data.bonus.population.name"
+msgstr "Populácia"
+
+msgid "foe_data.bonus.population.gb_description"
+msgstr "Stály bonus obyvateľstva."
+
+msgid "foe_data.bonus.happiness.name"
+msgstr "Spokojnosť"
+
+msgid "foe_data.bonus.happiness.gb_description"
+msgstr "Trvalý bonus spokojnosti."
+
+msgid "foe_data.bonus.quest_reward_boost.name"
+msgstr "Bonus k odmenám za úlohy"
+
+msgid "foe_data.bonus.quest_reward_boost.gb_description"
+msgstr ""
+"Keď dostanete mince, zásoby, tovary, diamanty alebo medaily ako odmenu za "
+"úlohy, dostanete k nim navyše ďalšie určité percento."
+
+msgid "foe_data.bonus.penal_unit.name"
+msgstr "Vojenská jednotka"
+
+msgid "foe_data.bonus.penal_unit.gb_description"
+msgstr ""
+"Každých 24 hodín produkuje náhodné nepripojené jednotky z vojenských budov "
+"v hráčovom meste. Podpora náboru cechu dokáže skrátiť čas."
+
+msgid "foe_data.bonus.guild_goods.name"
+msgstr "Tovary cechu"
+
+msgid "foe_data.bonus.guild_goods.gb_description"
+msgstr ""
+"Produkuje niekoľko kusov z každého súčasného tovaru do pokladňe cechu. "
+"Možnosť vyzdvihnutia len pri členstve v cechu."
+
+msgid "foe_data.bonus.support_pool_bonus.name"
+msgstr "Bonus podporného fondu"
+
+msgid "foe_data.bonus.support_pool_bonus.gb_description"
+msgstr ""
+"Cech dostane určité množstvo do svojho podporného fondu za každú budovu s "
+"týmto bonusom."
+
+msgid "foe_data.bonus.aid_goods.name"
+msgstr "Tovar z pomoci"
+
+msgid "foe_data.bonus.aid_goods.gb_description"
+msgstr ""
+"Za prvých niekoľko pomocí budove iného hráča, dostanete náhodný tovar z "
+"doby danej budovy."
+
+msgid "foe_data.bonus.plunder_goods.name"
+msgstr "Tovar za plienenie "
+
+msgid "foe_data.bonus.plunder_goods.gb_description"
+msgstr ""
+"Za prvých niekoľko vyplienení budovy iného hráča dostanete náhodný tovar z "
+"doby danej budovy."
+
+msgid "foe_data.bonus.contribution_boost.name"
+msgstr "Zvýšenie príspevku"
+
+msgid "foe_data.bonus.contribution_boost.gb_description"
+msgstr "Odmeny za príspevok pri obsadení pozície vo VB sa o určité percento zvýšia."
+
+msgid "foe_data.bonus.aid_blueprints.name"
+msgstr "Pomocné plány"
+
+msgid "foe_data.bonus.aid_blueprints.gb_description"
+msgstr ""
+"Keď pomôžete (motiváciou alebo zdokonalením budovy) inému hráčovi, vaša "
+"šanca na nájdete plánu z doby budovy sa zvýši. "
+
+msgid "foe_data.bonus.relic_hunt.name"
+msgstr "Hľadanie relikvií"
+
+msgid "foe_data.bonus.relic_hunt.gb_description"
+msgstr ""
+"Zvyšuje sa šanca, že sa po vyriešení stretnutia na mape cechovej expedície "
+"objaví skrytá odmena vo forme relikvie. Taktiež sa zvyšuje šanca , že daná "
+"relikvia bude vyššej kvality.\n"
+"Neovplyvňuje akú odmenu z už vygenerovanej relikvie dostanete."
+
+msgid "foe_data.bonus.critical_hit.name"
+msgstr "Kritický zásah"
+
+msgid "foe_data.bonus.critical_hit.gb_description"
+msgstr ""
+"Poskytuje šancu spôsobiť 150 % poškodenie proti jednotkám z rovnakej doby.\n"
+"Kritický zásah funguje aj u reaktívneho panciera. U rogue nefunguje až do "
+"jeho premenenia. Tento bonus funguje pre útočné aj obranné jednotky."
+
+msgid "foe_data.bonus.helping_hands.name"
+msgstr "Pomocná ruka priateľa"
+
+msgid "foe_data.bonus.helping_hands.gb_description"
+msgstr ""
+"Keď pomôžete iným hráčom, máte určitú šancu získať niečo navyše (tovar, "
+"zásoby, mince, medaily, diamanty)."
+
+msgid "foe_data.bonus.plunder_and_pillage.name"
+msgstr "Plienenie a rabovanie"
+
+msgid "foe_data.bonus.plunder_and_pillage.gb_description"
+msgstr "Pridáva šancu na zdvojnásobenie zisku z vyplienených budov."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "Prvý úder"
+
+msgid "foe_data.bonus.first_strike.gb_description"
+msgstr ""
+"Pri prvých niekoľkých bitkách budete mať šancu na zabitie 1 nepriateľskej "
+"jednotky hneď na začiatku bitky. V bitkách, ktoré prebiehajú v dvoch "
+"vlnách, platí schopnosť len v prvej vlne."
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Dvojnásobný výber"
+
+msgid "foe_data.bonus.double_collection.gb_description"
+msgstr ""
+"Pri prvých niekoľkých vyzdvihnutiach v budovách vzniká šanca na "
+"zdvojnásobenie vyzdvihnutých surovín.Tento bonus sa nedá uplatniť u "
+"vojenských a veľkolepých budovách."
+
+msgid "foe_data.bonus.exploration_site.gb_description"
+msgstr "---"
+
+msgid "foe_data.bonus.exploration_site.name"
+msgstr "Prieskumné stanovisko"
+
+msgid "utils.content.tools"
+msgstr "Nástroje"
+
+msgid "utils.content.statistics"
+msgstr "Štatistiky"
+
+msgid "utils.btn_calculate"
+msgstr "Vypočítať"
+
+msgid "utils.description.p1"
+msgstr "Zadajte rôzne hodnoty. Výsledok sa aktualizuje automaticky."
+
+msgid "utils.description.p2_html"
+msgstr ""
+"<strong>Poznámka</strong>: ak sa aktualizácia neuskutoční automaticky, "
+"kliknite prosím na \"@:(utils.btn_calculate)\"."
+
+msgid "utils.choose_age"
+msgstr "Vyberte si dobu"
+
+msgid "utils.permalink"
+msgstr "Trvalý odkaz"
+
+msgid "utils.Add"
+msgstr "Pridať"
+
+msgid "utils.Remove"
+msgstr "Vymazať"
+
+msgid "utils.Yes"
+msgstr "Áno"
+
+msgid "utils.No"
+msgstr "Nie"
+
+msgid "utils.Ok"
+msgstr "Ok"
+
+msgid "utils.Copy"
+msgstr "Kopírovať"
+
+msgid "utils.Copyed"
+msgstr "Skopírované!"
+
+msgid "utils.Information"
+msgstr "Informácia"
+
+msgid "utils.From"
+msgstr "Z"
+
+msgid "utils.To"
+msgstr "Do (max {max})"
+
+msgid "utils.Prefix"
+msgstr "Pred"
+
+msgid "utils.Suffix"
+msgstr "Za"
+
+msgid "utils.Path"
+msgstr "Cesta"
+
+msgid "utils.Name"
+msgstr "Meno"
+
+msgid "utils.Description"
+msgstr "Popis"
+
+msgid "utils.Rewards"
+msgstr "Odmeny"
+
+msgid "utils.Cost"
+msgstr "Náklady"
+
+msgid "utils.Conquered"
+msgstr "Podrobené"
+
+msgid "utils.Total"
+msgstr "Celkom"
+
+msgid "utils.Secured"
+msgstr "Zaistené"
+
+msgid "utils.Reset"
+msgstr "Resetovať"
+
+msgid "utils.Confirm"
+msgstr "Potvrdiť"
+
+msgid "utils.Close"
+msgstr "Zatvoriť"
+
+msgid "utils.Result"
+msgstr "Výsledok"
+
+msgid "utils.between_range"
+msgstr "medzi{min} a {max}"
+
+msgid "utils.Submit"
+msgstr "Odoslať"
+
+msgid "utils.Reset_values"
+msgstr "Resetovať hodnoty"
+
+msgid "utils.Switch"
+msgstr "Prepnúť"
+
+msgid "utils.Save"
+msgstr "Uložiť"
+
+msgid "utils.Show"
+msgstr "Ukázať"
+
+msgid "utils.Hide"
+msgstr "Skryť"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Toto políčko nemôže ostať prázdne"
+
+msgid "utils.moment.year_0"
+msgstr "{count} rok"
+
+msgid "utils.moment.year_1"
+msgstr ""
+
+msgid "utils.moment.year_2"
+msgstr "{count} rokov"
+
+msgid "utils.moment.month_0"
+msgstr "{count} mesiac"
+
+msgid "utils.moment.month_1"
+msgstr ""
+
+msgid "utils.moment.month_2"
+msgstr "{count} mesiacov"
+
+msgid "utils.moment.day_0"
+msgstr "{count} deň"
+
+msgid "utils.moment.day_1"
+msgstr ""
+
+msgid "utils.moment.day_2"
+msgstr "{count} dní"
+
+msgid "utils.graph.gb_level"
+msgstr "Úroveň"
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Cena úrovne"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "Odmena za úroveň (prvé miesto)"
+
+msgid "utils.Previous"
+msgstr "←"
+
+msgid "utils.Next"
+msgstr "→"
+
+msgid "utils.Donate"
+msgstr "Dar"
+
+msgid "utils.Tutorial"
+msgstr "Návod"
+
+msgid "utils.FP_0"
+msgstr "{count} BV"
+
+msgid "utils.FP_1"
+msgstr "{count} BV"
+
+msgid "utils.FP_2"
+msgstr "{count} BV"
+
+msgid "utils.Done"
+msgstr "Hotovo"
+
+msgid "utils.Exit"
+msgstr "Východ"
+
+msgid "contributions.blog"
+msgstr "Blogové príspevky"
+
+msgid "contributions.bug"
+msgstr "Hlásenia chýb"
+
+msgid "contributions.code"
+msgstr "kód"
+
+msgid "contributions.design"
+msgstr "Dizajn"
+
+msgid "contributions.doc"
+msgstr "Dokumentácia"
+
+msgid "contributions.eventOrganizing"
+msgstr "Organizér udalostí"
+
+msgid "contributions.example"
+msgstr "Príklady"
+
+msgid "contributions.financial"
+msgstr "Finančné"
+
+msgid "contributions.fundingFinding"
+msgstr "Nájsť financovanie"
+
+msgid "contributions.ideas"
+msgstr "Nápady, Plánovanie a Spätná väzba"
+
+msgid "contributions.infra"
+msgstr "Infraštruktúra (Hosting, Vytváranie nástrojov atď.)"
+
+msgid "contributions.platform"
+msgstr "Balenie / prenos na novú platformu"
+
+msgid "contributions.plugin"
+msgstr "prídavný modul/knižnica pomocných programov"
+
+msgid "contributions.question"
+msgstr "Odpovede na otázky"
+
+msgid "contributions.review"
+msgstr "Preskúmané návrhy zmien"
+
+msgid "contributions.talk"
+msgstr "Diskusia"
+
+msgid "contributions.test"
+msgstr "Testy"
+
+msgid "contributions.tool"
+msgstr "Nástroje"
+
+msgid "contributions.translation"
+msgstr "Preklad"
+
+msgid "contributions.tutorial"
+msgstr "Návody"
+
+msgid "contributions.video"
+msgstr "Videá"
+
+msgid "contributions.data"
+msgstr "Pridávanie alebo aktualizácia údajov"
+
+msgid "contributions.inspired_tool"
+msgstr "Nástroj inšpirovaný jeho prácou"
+
+msgid "contributions.creator"
+msgstr "Tvorca tohto projektu"
+
+msgid "seo.keywords.gb"
+msgstr "VB"
+
+msgid "seo.keywords.great_building"
+msgstr "veľkolepá budova"
+
+msgid "seo.keywords.fp"
+msgstr "BV"
+
+msgid "seo.keywords.forge_point"
+msgstr "body výskumu"
+
+msgid "seo.keywords.medals"
+msgstr "medaily"
+
+msgid "seo.keywords.military_units"
+msgstr "vojenské jednotky"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] ""
+msgstr[1] "Ukáž ďalších prispievateľov"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] ""
+msgstr[1] "Skry ďalších prispievateľov"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] ""
+msgstr[1] "Tento hráč stratí viac BV"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] ""
+msgstr[1] "S bonusom investícií ušetríte {count} BV"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] ""
+msgstr[1] "BV zostávajúcich do uzavretia úrovne:"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] ""
+msgstr[1] "{place} ({count} BV)"
+
+msgid "components.secure_position.block_place.result.default"
+msgid_plural "components.secure_position.block_place.result.default"
+msgstr[0] ""
+msgstr[1] "Musíte mať celkovo {count} BV na zablokovanie pozície."
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] ""
+msgstr[1] "Na zaistenie Vašej pozície potrebujete vložiť toľko BV:"
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgid_plural "components.secure_position.block_place.result.roi.profit"
+msgstr[0] ""
+msgstr[1] "Váš zisk bude {count} BV"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] ""
+msgstr[1] "Vaša strata bude {count} BV"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgid_plural "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr[0] ""
+msgstr[1] "Musíte vložiť ešte {count} BV."
+
+msgid "components.site_layout.new_year.message"
+msgid_plural "components.site_layout.new_year.message"
+msgstr[0] ""
+msgstr[1] "@:(common.site_title) oslavuje svoje {count}  výročie"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] ""
+msgstr[1] "{count} noviniek od Vašej poslednej návštevy."
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] ""
+msgstr[1] "{count} roky"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] ""
+msgstr[1] "{count} mesiace"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] ""
+msgstr[1] "{count} dni"

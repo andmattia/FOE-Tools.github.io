@@ -5,7 +5,7 @@ fixture`VueSelector`
   /* Wait to root element to appear in each test */
   .beforeEach(async () => await VueSelector());
 
-test("Nuxt is root node", async t => {
+test("Nuxt is root node", async (t) => {
   const root = VueSelector();
   const rootVue = await root.getVue();
 

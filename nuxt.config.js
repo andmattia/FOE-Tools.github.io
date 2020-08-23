@@ -1,15 +1,27 @@
 import { JSDOM } from "jsdom";
-
 import { defaultLocale, supportedLocales } from "./scripts/locales";
-import { i18next } from "./scripts/i18n";
+// import { i18next } from "./scripts/i18n";
+import Vue from "vue";
+import VueI18n from "vue-i18n";
 import { gbs } from "./lib/foe-data/gbs";
 import { bestFacebookLocaleFor } from "facebook-locales";
+
+Vue.use(VueI18n);
+
+let i18next = new VueI18n({
+  locale: "en",
+  fallbackLocale: "en",
+  messages: {
+    en: { ...require("./translations/common.json"), ...require("./lang/en.json") },
+  },
+  pluralizationRules: require("./plugins/vue-i18n-plural"),
+});
 
 const extraSeoByPages = {
   gb_investment: {
     en: "gb leveler, gbleveler",
-    de: "Rechner, foe arche rechner"
-  }
+    de: "Rechner, foe arche rechner",
+  },
 };
 
 /**
@@ -17,7 +29,7 @@ const extraSeoByPages = {
  * @param route {string} Route where get locale
  * @return {string} Renvoie les paramètres régionaux associés à cette route
  */
-const getLocale = route => {
+const getLocale = (route) => {
   for (let locale of supportedLocales) {
     if (route.indexOf("/" + locale) === 0) {
       return locale;
@@ -26,7 +38,7 @@ const getLocale = route => {
   return defaultLocale;
 };
 
-const getPageKey = path => {
+const getPageKey = (path) => {
   let result = path.replace(/-/g, "_");
   result = /(\/[a-z]{2})?\/(.*)/.exec(result);
   if (result[2] === "") {
@@ -73,7 +85,7 @@ const modifyHtml = (page, locale) => {
   if (pageKey[0] === "gb_investment") {
     text = i18next.t(`routes.${pageKey[0]}.title`, {
       lng: locale,
-      gb_key: "foe_data.gb." + pageKey[1]
+      gb_key: "foe_data.gb." + pageKey[1],
     });
     image = `${hostname}/img/foe/gb/${pageKey[1]}.png`;
     node.content = image;
@@ -130,7 +142,7 @@ const modifyHtml = (page, locale) => {
   text = i18next.t(
     [
       `routes.${pageKey[0] === "gb_investment" ? "gb_investment_gb_chooser" : pageKey[0]}.hero.subtitle`,
-      "components.site_layout.hero.slogan_html"
+      "components.site_layout.hero.slogan_html",
     ],
     { lng: locale }
   );
@@ -204,7 +216,7 @@ const modifyHtml = (page, locale) => {
     i18next.t("foe_data.age.Tomorrow", { lng: locale }),
     i18next.t("foe_data.age.TheFuture", { lng: locale }),
     i18next.t("foe_data.age.ArcticFuture", { lng: locale }),
-    i18next.t("foe_data.age.OceanicFuture", { lng: locale })
+    i18next.t("foe_data.age.OceanicFuture", { lng: locale }),
   ].join(", ");
   text +=
     customKeyWords in extraSeoByPages && locale in extraSeoByPages[customKeyWords]
@@ -272,14 +284,14 @@ const modifyHtml = (page, locale) => {
         operatingSystem: "Any",
         inLanguage: {
           "@type": "Language",
-          name: supportedLocales
-        }
+          name: supportedLocales,
+        },
       };
       break;
     case "gb_investment_gb_chooser":
       tmp = {
         "@type": "ItemList",
-        itemListElement: []
+        itemListElement: [],
       };
       index = 0;
       for (let gbKey in gbs) {
@@ -290,7 +302,7 @@ const modifyHtml = (page, locale) => {
             "@type": "WebApplication",
             name: i18next.t("routes.gb_investment.title", {
               lng: locale,
-              gb_key: "foe_data.gb." + gbKey
+              gb_key: "foe_data.gb." + gbKey,
             }),
             description,
             image: `${hostname}/img/foe/gb/${gbKey}.png`,
@@ -299,9 +311,9 @@ const modifyHtml = (page, locale) => {
             operatingSystem: "Any",
             inLanguage: {
               "@type": "Language",
-              name: supportedLocales
-            }
-          }
+              name: supportedLocales,
+            },
+          },
         });
         index++;
       }
@@ -321,8 +333,8 @@ const modifyHtml = (page, locale) => {
         operatingSystem: "Any",
         inLanguage: {
           "@type": "Language",
-          name: supportedLocales
-        }
+          name: supportedLocales,
+        },
       };
       break;
   }
@@ -398,8 +410,8 @@ const routerBase =
   process.env.DEPLOY_ENV === "GH_PAGES"
     ? {
         router: {
-          base: "/"
-        }
+          base: "/",
+        },
       }
     : {};
 
@@ -416,14 +428,14 @@ const defaultRoutes = [
     dynamic: Object.keys(gbs),
     payload(gb) {
       return require("./lib/foe-data/gbs-data/" + gb);
-    }
+    },
   },
   { route: "/secure-position", dynamic: [] },
   { route: "/cf-calculator", dynamic: [] },
   { route: "/gb-statistics", dynamic: [] },
   { route: "/gb-forecast-cost", dynamic: [] },
   { route: "/trade", dynamic: [] },
-  { route: "/campaign-cost", dynamic: [] }
+  { route: "/campaign-cost", dynamic: [] },
 ];
 
 const sitemap =
@@ -432,8 +444,8 @@ const sitemap =
         sitemap: {
           hostname,
           routes: generateSitemapRoutes(supportedLocales, defaultRoutes),
-          exclude: ["/survey", "/**/survey", "/donate", "/**/donate"]
-        }
+          exclude: ["/survey", "/**/survey", "/donate", "/**/donate"],
+        },
       }
     : {};
 
@@ -450,28 +462,25 @@ module.exports = {
     sitekey:
       process.env.DEPLOY_ENV === "GH_PAGES"
         ? "6Le0qqAUAAAAADcXlFuBa9hfCXfdUi53i85sWzSp"
-        : "6LdzDKAUAAAAAKVUJf-Po_iaYTdnOzjkvusHF6ie"
+        : "6LdzDKAUAAAAAKVUJf-Po_iaYTdnOzjkvusHF6ie",
   },
 
   loading: {
     color: "#3498db",
-    failedColor: "#e74c3c"
+    failedColor: "#e74c3c",
   },
 
-  router: {
-    middleware: ["i18next"]
-  },
   plugins: [
     { src: "~/plugins/vuex-persist", mode: "client" },
     { src: "~/plugins/clone.js" },
-    { src: "~/plugins/i18next.js" },
+    { src: "~/plugins/i18n.js" },
     { src: "~/plugins/clipboard.js" },
-    { src: "~/plugins/numeral-plugin.js" },
-    { src: "~/plugins/moment.js" }
+    { src: "~/plugins/moment.js" },
+    { src: "~/plugins/fontawesome.js" },
   ],
   generate: {
     fallback: true,
-    routes: function() {
+    routes: function () {
       let result = [];
       let prefix;
       for (let locale of supportedLocales) {
@@ -482,7 +491,7 @@ module.exports = {
             if (route.payload) {
               result.push({
                 route: `${prefix}${route.route}/${subRoute}`,
-                payload: route.payload(subRoute)
+                payload: route.payload(subRoute),
               });
             } else {
               result.push(`${prefix}${route.route}/${subRoute}`);
@@ -491,19 +500,20 @@ module.exports = {
         }
       }
       return result;
-    }
+    },
   },
 
   modules: [
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
     "cookie-universal-nuxt",
+    "nuxt-i18n",
     "@nuxtjs/axios",
-    { src: "~/modules/i18next/module.js" },
+    // { src: "~/modules/i18next/module.js" }, //FIXME: to be deleted
     { src: "~/modules/buefy/module.js" },
     { src: "~/modules/foe-data/module.js" },
     { src: "~/modules/cname/module.js" },
-    "@nuxtjs/pwa"
+    "@nuxtjs/pwa",
   ],
   robots: generateRobotTxt(`${hostname}/sitemap.xml`),
   buefy: { defaultIconPack: "fas", materialDesignIcons: false },
@@ -512,7 +522,7 @@ module.exports = {
     /**
      * This hook will add some SEO attributes for each generated files
      */
-    hook("generate:page", page => {
+    hook("generate:page", (page) => {
       page.html = modifyHtml(page, getLocale(page.route));
     });
   },
@@ -524,26 +534,14 @@ module.exports = {
       {
         hid: "google-site-verification",
         name: "google-site-verification",
-        content: "Hw0veaLyPnzkFUmcgHozLpLMGX17y65E_fp5-o2UmbU"
+        content: "Hw0veaLyPnzkFUmcgHozLpLMGX17y65E_fp5-o2UmbU",
       },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "og:site_name", name: "og:site_name", content: "FOE-Tools" },
       { name: "msapplication-TileColor", content: "#2b5797" },
-      { name: "theme-color", content: "#fdf8f0" }
+      { name: "theme-color", content: "#fdf8f0" },
     ],
-    script: [
-      {
-        defer: true,
-        src: "https://use.fontawesome.com/releases/v5.0.10/js/all.js",
-        integrity: "sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+",
-        crossorigin: "anonymous"
-      },
-      {
-        defer: true,
-        type: "text/javascript",
-        src: "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c802f960d12380b"
-      }
-    ]
+    script: [],
   },
 
   css: ["~assets/theme/light/theme.scss", "~assets/theme/dark/theme.scss", "~assets/style.scss"],
@@ -551,18 +549,69 @@ module.exports = {
   axios: {
     host: process.env.DEPLOY_ENV === "GH_PAGES" ? prodUrl : "localhost",
     port: process.env.DEPLOY_ENV === "GH_PAGES" ? 443 : 3000,
-    https: process.env.DEPLOY_ENV === "GH_PAGES"
+    https: process.env.DEPLOY_ENV === "GH_PAGES",
   },
 
   pwa: {
     manifest: {
-      name: "FOE Tools"
-    }
+      name: "FOE Tools",
+    },
+  },
+
+  i18n: {
+    // Use this site to find iso code: https://www.localeplanet.com/icu/iso639.html
+    // Or some info here: https://appmakers.dev/bcp-47-language-codes-list/
+    locales: [
+      { code: "cs", file: "cs.json", iso: "cs-CZ" },
+      { code: "da", file: "da.json", iso: "da-DK" },
+      { code: "de", file: "de.json", iso: "de-DE" },
+      { code: "en", file: "en.json", iso: "en-US" },
+      { code: "es", file: "es.json", iso: "es-ES" },
+      { code: "fr", file: "fr.json", iso: "fr-FR" },
+      { code: "hu", file: "hu.json", iso: "hu-HU" },
+      { code: "it", file: "it.json", iso: "it-IT" },
+      { code: "nl", file: "nl.json", iso: "nl-NL" },
+      { code: "pl", file: "pl.json", iso: "pl-PL" },
+      { code: "pt", file: "pt.json", iso: "pt-PT" },
+      { code: "ru", file: "ru.json", iso: "ru-RU" },
+      { code: "sk", file: "sk.json", iso: "sk-SK" },
+      { code: "sv", file: "sv.json", iso: "sv-SE" },
+      { code: "tr", file: "tr.json", iso: "tr-TR" },
+    ],
+    defaultLocale: "en",
+    lazy: true,
+    langDir: "lang/",
+    vueI18n: "~/plugins/vue-i18n.js",
+    vuex: {
+      // Module namespace
+      moduleName: "i18n",
+
+      // If enabled, current app's locale is synced with nuxt-i18n store module
+      syncLocale: true,
+
+      // If enabled, current translation messages are synced with nuxt-i18n store module
+      syncMessages: true,
+
+      // Mutation to commit to set route parameters translations
+      syncRouteParams: true,
+    },
+    detectBrowserLanguage: {
+      // If enabled, a cookie is set once a user has been redirected to his
+      // preferred language to prevent subsequent redirections
+      // Set to false to redirect every time
+      useCookie: true,
+      // Cookie name
+      cookieKey: "locale",
+      // Set to always redirect to value stored in the cookie, not just once
+      alwaysRedirect: true,
+      // If no locale for the browsers locale is a match, use this one as a fallback
+      fallbackLocale: null,
+    },
   },
 
   build: {
-    extractCSS: true
+    extractCSS: true,
   },
 
-  buildModules: ["@nuxtjs/router-extras"]
+  buildModules: ["@nuxtjs/router-extras"],
 };

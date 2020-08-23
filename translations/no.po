@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.597Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.598Z\n"
+"Language: no\n"
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Dette verktøyet er bare til informasjon. Det gir deg informasjon om hva du, "
+"statistisk, kan oppnå med ditt @:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Velg din tidsalder."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Legg inn din @:(foe_data.gb.Chateau_Frontenac)-bonus.\n"
+"\n"
+"Eksempel: for 450%, legg inn 450."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr "Legg inn antall forsyninger du vil bruke på alle oppdragene."
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "Legg inn antall varer du samler fra storstilte bygninger og plyndring."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Legg inn antall FP du får på 24 timer."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "Legg inn antall mynter du vil bruke på alle oppdragene."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr "I så tilfelle må du angi det antall oppdrag du ønsker å gjennomføre."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Denne seksjonen vises kun når @:(foe_data.gb.Chateau_Frontenac) bonus (i "
+"forhold til din Era) statistisk sett gir deg mer mynt og forsyninger enn du "
+"investerer."
+
+msgid "components.cf_calculator.tutorial.otherRq"
+msgstr "Angi de andre gjentakende oppdragene du har gjennomført."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr ""
+"Angi det antall forsyninger du ønsker å bruke for det andre gjentakende "
+"oppdraget."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"Fra @:(foe_data.age.LateMiddleAges), kan du gjennomføre et ekstra "
+"gjentakende oppdrag. Sett \"@:(utils.Yes)\" dersom du ønsker å gjennomføre "
+"det andre gjentakende oppdraget.\n"
+"\n"
+"<i><b>Note</b>: Det antar at det andre gjentakende oppdraget er: samle X "
+"forsyninger.</i>."
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"Denne tabellen viser det antallet mynt og forsyninger du statistisk vil "
+"tjene basert på den opprinnelige investeringen (basert på hva du er villig "
+"til å bruke av mynt og forsyninger)."
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr "Antall andre gjentakende oppdrag du kan gjennomføre."
+
+msgid "components.cf_calculator.tutorial.bonusUbq"
+msgstr ""
+"Antall Unbirthday Quests du (statistisk) kan gjennomføre med de "
+"opprinnelige mynt og forsyninger du vil tjene."
+
+msgid "components.cf_calculator.tutorial.dailyUbq"
+msgstr ""
+"Antall Unbirthday Quests du kan gjennomføre i forhold til hva du er villig "
+"til å bruke av mynt og forsyninger."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr "Antall gjentakende oppdrag du (statistisk) kan gjennomføre."
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Antall FP du vil tjene med oppdrag, GB, osv."
+
+msgid "components.cf_calculator.tutorial.totalGoods"
+msgstr "Antall varer du vil tjene med oppdrag, GB, osv."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"Denne tabellen viser deg belønninger du vil oppnå. Husk på at belønningens "
+"størrelse er basert på empirisk sannsynlighet."
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Din alder"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Din @:(foe_data.gb.Chateau_Frontenac) bonus"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Mynter å bruke på ubursdagsfest"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Forsyninger å bruke på ubursdagsfest"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "SB & Plyndringsvarer"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "24-timers FP-produksjon"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Andre daglige repeterende oppdrag"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Forsyninger samlet"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Skisser"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Medaljer"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Varer"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "FP"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Daglige ubursdagsfester: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Andre repeterende oppdrag utført: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Varer totalt: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "FP totalt: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Bonus ubursdagsfester: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Repeterende oppdrag utført totalt: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Nivå"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Mynt returnert"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Forsyninger returnert"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"Med nåværende bonus på (foe_data.gb.Chateau_Frontenac), vil du tjene mer "
+"mynt og forsyninger enn du bruker på å fullføre oppdragene. Velg antall "
+"\"@:(components.cf_calculator.block_cfc.infinity_generator.label)\" du vil "
+"gjøre."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Kumulative oppdrag"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Denne verdien bør være større enn eller lik {min} fordi vi kan ikke "
+"garantere noen fortjeneste (statistisk) for lavere verdier"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "Andre repeterende oppgavegiver"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Velg en provins"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Denne provinsen inneholder en eller flere sektorer som mangler verdier."
+
+msgid "components.campaign_cost.provinces"
+msgstr "Provinser"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Alle provinser"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Alle eraer"
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "Fremskynde 1.9, 1.8 osv."
+
+msgid "components.gb_investment.tutorial.welcome"
+msgstr ""
+"Formålet med denne hjelperen er å forklare alle egenkapene ved dette "
+"verktøyet.\n"
+"\n"
+"Du kan trykke på lenkene under for å lære mer om dem.\n"
+"For å fortsette med denne hjelperen vennligst trykk på \"@:(utils.Next)\" "
+"knappen."
+
+msgid "components.gb_investment.tutorial.promotion_message.suffix"
+msgstr "Tekst som vil bli lagt til bakerst i meldingen."
+
+msgid "components.gb_investment.tutorial.promotion_message.prefix"
+msgstr "Tekst som vil bli lagt til i starten av meldingen."
+
+msgid "components.gb_investment.tutorial.table.rewards_with_rate"
+msgstr "Dette er det antall FP som eieren forventer av en investor for plassen."
+
+msgid "components.gb_investment.tutorial.table.fp_to_put_by_the_owner"
+msgstr ""
+"Som navnet indikerer korresponderer dette til det antall FP eieren må legge "
+"på SB'en for å sikre plassen."
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr ""
+"Dette er standardbelønningen (uten @:(foe_data.gb.The_Arc) bonus) for "
+"plassen."
+
+msgid "components.gb_investment.tutorial.table.message"
+msgstr "Denne tabellen viser deg all informasjonen du trenger."
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Velg raten du forventer deg av investorene dine.\n"
+"F.eks. skriv 90 for investeringer på 1,9 (190%)"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Tipasset utregning"
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "Nivå {fromLevel} → {level} (@:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Vis tabellen i kortvisning? (på små skjermer)"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Vis bare tryggede plasser"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Vis Spot/Snipe"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Liste over tillagte investorer"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Trykk på \"@:(utils.Add)\" knappen eller trykk \"Enter\" tast for å legge "
+"til investor"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr "Legg til investor (put FP value, @:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Antall FP allerede plassert av eier (max {max})"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Global utregning"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "% av global investor bonus (arc bonus)"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Vis nivå?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Bruk forkortet navn?"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Vis GB navn?"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Nivåkostnad"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "FP som gjenstår for eier å plassere for å fullføre nivået"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Total investering fra eier"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Denne spilleren vil hverken gjøre profitt eller tape FP"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Denne spilleren vil gjøre profitt"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Forventet investering"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "FP som gjenstår for eier å plassere for å trygge plassen"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Denne spilleren vil tape FP"
+msgstr[1] "Denne spilleren vil tape FP"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Skjul ytterligere investor"
+msgstr[1] "Skjul ytterligere investorer"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Vis ytterligere investor"
+msgstr[1] "Vis ytterligere investorer"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Er en potensiell sniper?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "FP oppnådd med den % bonus % av din Arc"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "FP oppnådd med den % bonus forventet av eier"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Plass/Kapre"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Antall FP allerede plassert"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "inkluder i kopieringsbokser"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "% av investors bonus (arc bonus)"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Belønning med rate"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "FP som må plasseres av eier for å trygge plassen"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Standard belønninger"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Plasser"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} nivå {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Note</strong>: Dersom oppdatering ikke skier automation, sett først "
+"GB nivå og total investeringssum og trykk på "
+"\"@:(components.gb_investment.gb_investment.form.submit_global)\". Dersom "
+"du vil justere summene på hvert sted, juster det du ønsker og trykk "
+"på\"@:(components.gb_investment.gb_investment.form.submit_custom)\"."
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Fyll inn nivået (til) og Arc bonus % (90% for Arc nivå 80). Innholdet i "
+"tabellen oppdateres automatisk."
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P5({investment})\n"
+"P4({investment})\n"
+"P3({investment})\n"
+"P2({investment})\n"
+"P1({investment})"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "tekst i bakkant av reklamemeldingen"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "tekst i forkant av reklamemeldingen"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Reklamemelding"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"Du kan endre stilen til velgeren (legacy selector eller auto-complete) i "
+"globale innstillinger"
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Bytt Storslått Bygning"
+
+msgid "main_menu.home"
+msgstr "Hjem"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "Om"
+
+msgid "footer_menu.contributors"
+msgstr "Bidragsytere"
+
+msgid "footer_menu.changelog"
+msgstr "Endringslogg"
+
+msgid "footer_menu.contact"
+msgstr "Kontakt"
+
+msgid "foe_data.bonus.exploration_site.gb_description"
+msgstr "---"

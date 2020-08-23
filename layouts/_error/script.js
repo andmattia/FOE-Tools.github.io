@@ -6,14 +6,14 @@ function sCode(error) {
 
 export default {
   props: ["error"],
-  head /* istanbul ignore next */: function() {
+  head /* istanbul ignore next */: function () {
     return {
-      title: this.$t(i18nPrefix + sCode(this.error) + ".title")
+      title: this.$t(i18nPrefix + sCode(this.error) + ".title"),
     };
   },
   data() {
     return {
-      i18nPrefix: i18nPrefix
+      i18nPrefix: i18nPrefix,
     };
   },
   computed: {
@@ -23,14 +23,11 @@ export default {
     message() {
       const statusCode = sCode(this.error);
 
-      if (
-        this.$i18nExists(i18nPrefix + statusCode.toString()) &&
-        this.$i18nExists(i18nPrefix + statusCode.toString() + ".message")
-      ) {
+      if (this.$te(i18nPrefix + statusCode.toString()) && this.$te(i18nPrefix + statusCode.toString() + ".message")) {
         return this.$t(i18nPrefix + statusCode.toString() + ".message");
       } else {
         return this.error.message || "messages.client_error";
       }
-    }
-  }
+    },
+  },
 };

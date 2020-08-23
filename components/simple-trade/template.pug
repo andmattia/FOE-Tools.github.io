@@ -7,7 +7,7 @@ div
       yes-no(v-model="showRatio" :label="$t(i18nPrefix + 'show_ratio')")
 
     div.column.is-half
-      b-field(v-show="split" :label="$t('components.trade.split_value', { count: maxSplitValue })" :label-for="splitValueId" :type="haveError('splitValue')")
+      b-field(v-show="split" :label="$t('components.trade.split_value', { count: $n(maxSplitValue) })" :label-for="splitValueId" :type="haveError('splitValue')")
         b-input(:id="splitValueId" type="number" min="0" :max="maxSplitValue" v-model.number="splitValue" name="splitValue" autocomplete="off")
 
   div.table-wrapper

@@ -15,14 +15,14 @@ export const supportedLocales = [
   "tr",
   "it",
   "cs",
-  "da"
+  "da",
 ];
 
 export const numeralSpecialLocales = {
   nl: "nl-nl",
   sv: "sv-se",
   pt: "pt-pt",
-  da: "da-dk"
+  da: "da-dk",
 };
 
 import hideNumeral from "numeral";

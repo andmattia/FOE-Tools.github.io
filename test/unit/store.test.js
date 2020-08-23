@@ -5,16 +5,18 @@ import { getDefaultStore } from "./utils";
 
 const factory = (mocks = {}) => {
   const { localVue, store } = getView(getDefaultStore());
+  console.log("localVue created");
   return shallowMount(Component, {
     localVue: localVue,
     store: store,
     stubs: ["nuxt"],
     mocks: {
       $route: {
-        path: "foo"
+        name: "foo",
+        path: "foo",
       },
-      ...mocks
-    }
+      ...mocks,
+    },
   });
 };
 
@@ -25,15 +27,15 @@ describe("Store", () => {
     const wrapper = factory();
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "components.site_layout.hero.title",
-      subtitle: "components.site_layout.hero.slogan_html"
+      subtitle: "components.site_layout.hero.slogan_html",
     });
     wrapper.vm.$store.set("hero", {
       title: i18nPrefix + "hero.title",
-      subtitle: i18nPrefix + "hero.subtitle"
+      subtitle: i18nPrefix + "hero.subtitle",
     });
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "routes.secure_position.hero.title",
-      subtitle: "routes.secure_position.hero.subtitle"
+      subtitle: "routes.secure_position.hero.subtitle",
     });
   });
 
@@ -41,20 +43,20 @@ describe("Store", () => {
     const wrapper = factory();
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "components.site_layout.hero.title",
-      subtitle: "components.site_layout.hero.slogan_html"
+      subtitle: "components.site_layout.hero.slogan_html",
     });
     wrapper.vm.$store.set("hero", {
       title: i18nPrefix + "hero.title",
-      subtitle: i18nPrefix + "hero.subtitle"
+      subtitle: i18nPrefix + "hero.subtitle",
     });
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "routes.secure_position.hero.title",
-      subtitle: "routes.secure_position.hero.subtitle"
+      subtitle: "routes.secure_position.hero.subtitle",
     });
     wrapper.vm.$store.commit("RESTORE_HERO");
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "components.site_layout.hero.title",
-      subtitle: "components.site_layout.hero.slogan_html"
+      subtitle: "components.site_layout.hero.slogan_html",
     });
   });
 

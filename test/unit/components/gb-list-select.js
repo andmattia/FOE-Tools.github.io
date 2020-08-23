@@ -8,17 +8,19 @@ const factory = () => {
   const { localVue, store } = getView();
   return shallowMount(Component, {
     propsData: {
-      current: defaultGb
+      current: defaultGb,
     },
     localVue: localVue,
-    store: store
+    store: store,
   });
 };
 
 describe("GbListSelect", () => {
   test("Is a Vue instance", () => {
     const wrapper = factory();
-    expect(wrapper.isVueInstance()).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.isVueInstance()).toBeTruthy();
+    });
   });
 
   test('Change "selected" value', () => {
@@ -26,9 +28,11 @@ describe("GbListSelect", () => {
     const newGb = "Statue_of_Zeus";
     expect(wrapper.vm.selected).toBe(defaultGb);
     wrapper.vm.selected = newGb;
-    expect(wrapper.vm.selected).toBe(newGb);
-    expect(wrapper.emitted().change).toBeTruthy();
-    expect(wrapper.emitted().change[0]).toEqual([newGb]);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.selected).toBe(newGb);
+      expect(wrapper.emitted().change).toBeTruthy();
+      expect(wrapper.emitted().change[0]).toEqual([newGb]);
+    });
   });
 
   test('Change "selected" invalid value', () => {
@@ -36,7 +40,9 @@ describe("GbListSelect", () => {
     const newGb = "foo";
     expect(wrapper.vm.selected).toBe(defaultGb);
     wrapper.vm.selected = newGb;
-    expect(wrapper.vm.selected).toBe(newGb);
-    expect(wrapper.emitted().change).toBeFalsy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.selected).toBe(newGb);
+      expect(wrapper.emitted().change).toBeFalsy();
+    });
   });
 });

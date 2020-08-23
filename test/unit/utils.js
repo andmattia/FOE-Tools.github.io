@@ -6,7 +6,7 @@ import merge from "lodash.merge";
 export function doTestOf(dirName, path = __dirname) {
   const normalizedPath = join(path, dirName);
 
-  readdirSync(normalizedPath, { withFileTypes: true }).forEach(file => {
+  readdirSync(normalizedPath, { withFileTypes: true }).forEach((file) => {
     if (file.isFile()) {
       require(join(normalizedPath, file.name));
     }
@@ -32,11 +32,11 @@ export function getDefaultStore(profileID = "testID", customConf = {}) {
       lastVisitVersion: "",
       donationConversion: "",
       currentProfile: profileID,
-      profiles: [{ id: profileID, name: "Foo Bar" }]
+      profiles: [{ id: profileID, name: "Foo Bar" }],
     },
     profileStore: {
-      profiles: {}
-    }
+      profiles: {},
+    },
   };
 
   result.profileStore.profiles[profileID] = {
@@ -62,7 +62,7 @@ export function getDefaultStore(profileID = "testID", customConf = {}) {
       otherRq: 0,
       suppliesGathered: 0,
       cumulativeQuest: 0,
-      secondRq: false
+      secondRq: false,
     },
     gb: {
       root: {
@@ -71,7 +71,7 @@ export function getDefaultStore(profileID = "testID", customConf = {}) {
           ownerInvestment: 0,
           investorParticipation: [],
           investorPercentageGlobal: defaultInvestorPercentageGlobal,
-          investorPercentageCustom: Array.from(new Array(5), () => defaultInvestorPercentageGlobal)
+          investorPercentageCustom: Array.from(new Array(5), () => defaultInvestorPercentageGlobal),
         },
         investorView: {
           from: 1,
@@ -80,11 +80,11 @@ export function getDefaultStore(profileID = "testID", customConf = {}) {
           takingPlaceInConsideration: 0,
           investorPercentageGlobal: defaultInvestorPercentageGlobal,
           investorPercentageCustom: Array.from(new Array(5), () => defaultInvestorPercentageGlobal),
-          customPercentage: false
+          customPercentage: false,
         },
-        tab: 0
-      }
-    }
+        tab: 0,
+      },
+    },
   };
 
   return merge(result, customConf);

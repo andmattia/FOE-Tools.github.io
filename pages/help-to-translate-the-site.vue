@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/help-to-translate-the-site";
+import Page from "~/pages/help-to-translate-the-site/HelpToTranslateTheSite";
 export default Page;
 </script>
 

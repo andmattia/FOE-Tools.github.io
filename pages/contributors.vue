@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/contributors";
+import Page from "~/pages/contributors/Contributors";
 export default Page;
 </script>
 

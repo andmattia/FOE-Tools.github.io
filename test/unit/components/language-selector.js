@@ -9,14 +9,16 @@ const factory = () => {
   return shallowMount(Component, {
     localVue,
     store,
-    i18n
+    i18n,
   });
 };
 
 describe("LanguageSelector", () => {
   test("Is a Vue instance", () => {
     const wrapper = factory();
-    expect(wrapper.isVueInstance()).toBeTruthy();
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.isVueInstance()).toBeTruthy();
+    });
   });
 
   test("Change current lang", () => {
@@ -29,22 +31,28 @@ describe("LanguageSelector", () => {
 
     wrapper.vm.currentLang = newValue;
 
-    expect(wrapper.vm.$store.get("locale")).toBe("fr");
-    expect(wrapper.vm.$store.get("global/locale")).toBe(newValue);
-    expect(window.location.reload.mock.calls.length).toBe(1);
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.$store.get("locale")).toBe("fr");
+      expect(wrapper.vm.$store.get("global/locale")).toBe(newValue);
+      expect(window.location.reload.mock.calls.length).toBe(1);
+    });
   });
 
   test('Call "getCurrentCountry" with a non special locale', () => {
     const wrapper = factory();
     window.location.reload = jest.fn();
 
-    expect(wrapper.vm.getCurrentCountry("en")).toBe("en");
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.getCurrentCountry("en")).toBe("en");
+    });
   });
 
   test('Call "getCurrentCountry" with a special locale', () => {
     const wrapper = factory();
     window.location.reload = jest.fn();
 
-    expect(wrapper.vm.getCurrentCountry("sv")).toBe("se");
+    wrapper.vm.$nextTick(() => {
+      expect(wrapper.vm.getCurrentCountry("sv")).toBe("se");
+    });
   });
 });

@@ -9,7 +9,7 @@ const queryKey = {
   statSelector: urlPrefix + "s",
   from: urlPrefix + "f",
   to: urlPrefix + "t",
-  hidden: urlPrefix + "h"
+  hidden: urlPrefix + "h",
 };
 
 let agesCost = {};
@@ -30,23 +30,23 @@ export default {
         cost_level: {
           title: this.$t(i18nPrefix + "graph.title_1"),
           xAxesLabel: this.$t("utils.graph.gb_level"),
-          yAxesLabel: this.$t("utils.graph.gb_level_cost")
+          yAxesLabel: this.$t("utils.graph.gb_level_cost"),
         },
         reward_level: {
           title: this.$t(i18nPrefix + "graph.title_2"),
           xAxesLabel: this.$t("utils.graph.gb_level"),
-          yAxesLabel: this.$t("utils.graph.gb_reward_1st_place")
+          yAxesLabel: this.$t("utils.graph.gb_reward_1st_place"),
         },
         reward_cost: {
           title: this.$t(i18nPrefix + "graph.title_3"),
           xAxesLabel: this.$t("utils.graph.gb_reward_1st_place"),
-          yAxesLabel: this.$t("utils.graph.gb_level_cost")
+          yAxesLabel: this.$t("utils.graph.gb_level_cost"),
         },
         cost_reward: {
           title: this.$t(i18nPrefix + "graph.title_4"),
           xAxesLabel: this.$t("utils.graph.gb_level_cost"),
-          yAxesLabel: this.$t("utils.graph.gb_reward_1st_place")
-        }
+          yAxesLabel: this.$t("utils.graph.gb_reward_1st_place"),
+        },
       },
       hidden: Array.from(new Array(Object.keys(agesCost).length), (_, x) => x !== 0),
       labels: [],
@@ -57,11 +57,11 @@ export default {
         stacked: true,
         title: {
           display: true,
-          text: ""
+          text: "",
         },
         tooltips: {
           mode: "index",
-          intersect: false
+          intersect: false,
         },
         scales: {
           xAxes: [
@@ -69,119 +69,119 @@ export default {
               display: true,
               scaleLabel: {
                 display: true,
-                labelString: ""
-              }
-            }
+                labelString: "",
+              },
+            },
           ],
           yAxes: [
             {
               display: true,
               scaleLabel: {
                 display: true,
-                labelString: ""
+                labelString: "",
               },
               ticks: {
                 suggestedMin: defaultFromGraph,
-                suggestedMax: defaultToGraph
-              }
-            }
-          ]
-        }
+                suggestedMax: defaultToGraph,
+              },
+            },
+          ],
+        },
       },
       ageConfig: {
         Oracle: {
           name: this.$t("foe_data.age.Oracle"),
-          color: "rgb(102,34,17)"
+          color: "rgb(102,34,17)",
         },
         NoAge: {
           name: this.$t("foe_data.age.NoAge"),
-          color: "rgb(102,34,17)"
+          color: "rgb(102,34,17)",
         },
         BronzeAge: {
           name: this.$t("foe_data.age.BronzeAge"),
-          color: "rgb(183,141,19)"
+          color: "rgb(183,141,19)",
         },
         IronAge: {
           name: this.$t("foe_data.age.IronAge"),
-          color: "rgb(152,68,32)"
+          color: "rgb(152,68,32)",
         },
         EarlyMiddleAges: {
           name: this.$t("foe_data.age.EarlyMiddleAges"),
-          color: "rgb(78,129,68)"
+          color: "rgb(78,129,68)",
         },
         HighMiddleAges: {
           name: this.$t("foe_data.age.HighMiddleAges"),
-          color: "rgb(47,142,142)"
+          color: "rgb(47,142,142)",
         },
         LateMiddleAges: {
           name: this.$t("foe_data.age.LateMiddleAges"),
-          color: "rgb(127,66,133)"
+          color: "rgb(127,66,133)",
         },
         ColonialAge: {
           name: this.$t("foe_data.age.ColonialAge"),
-          color: "rgb(206,100,4)"
+          color: "rgb(206,100,4)",
         },
         IndustrialAge: {
           name: this.$t("foe_data.age.IndustrialAge"),
-          color: "rgb(167,41,38)"
+          color: "rgb(167,41,38)",
         },
         ProgressiveEra: {
           name: this.$t("foe_data.age.ProgressiveEra"),
-          color: "rgb(182,137,91)"
+          color: "rgb(182,137,91)",
         },
         ModernEra: {
           name: this.$t("foe_data.age.ModernEra"),
-          color: "rgb(70,93,136)"
+          color: "rgb(70,93,136)",
         },
         PostmodernEra: {
           name: this.$t("foe_data.age.PostmodernEra"),
-          color: "rgb(141,146,146)"
+          color: "rgb(141,146,146)",
         },
         ContemporaryEra: {
           name: this.$t("foe_data.age.ContemporaryEra"),
-          color: "rgb(141,199,63)"
+          color: "rgb(141,199,63)",
         },
         Tomorrow: {
           name: this.$t("foe_data.age.Tomorrow"),
-          color: "rgb(123,137,137)"
+          color: "rgb(123,137,137)",
         },
         TheFuture: {
           name: this.$t("foe_data.age.TheFuture"),
-          color: "rgb(34,90,75)"
+          color: "rgb(34,90,75)",
         },
         ArcticFuture: {
           name: this.$t("foe_data.age.ArcticFuture"),
-          color: "rgb(67,66,66)"
+          color: "rgb(67,66,66)",
         },
         OceanicFuture: {
           name: this.$t("foe_data.age.OceanicFuture"),
-          color: "rgb(127,255,212)"
+          color: "rgb(127,255,212)",
         },
         VirtualFuture: {
           name: this.$t("foe_data.age.VirtualFuture"),
-          color: "rgb(85,271,39)"
+          color: "rgb(85,271,39)",
         },
         SpaceAgeMars: {
           name: this.$t("foe_data.age.SpaceAgeMars"),
-          color: "rgb(187,19,0)"
+          color: "rgb(187,19,0)",
         },
         SpaceAgeAsteroidBelt: {
           name: this.$t("foe_data.age.SpaceAgeAsteroidBelt"),
-          color: "rgb(9,78,189)"
-        }
+          color: "rgb(9,78,189)",
+        },
       },
       statSelector: "cost_level",
       maxLevelGraph: Object.keys(gbsData)
-        .map(k => gbsData[k])
-        .map(item => item.levels.length)
+        .map((k) => gbsData[k])
+        .map((item) => item.levels.length)
         .reduce((a, b) => Math.max(a, b), -Infinity),
       maxAgeCost: agesCost.VirtualFuture,
       from: defaultFromGraph,
       to: defaultToGraph,
       errors: {
         from: false,
-        to: false
-      }
+        to: false,
+      },
     };
 
     for (const gb in gbsData) {
@@ -194,22 +194,22 @@ export default {
 
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.statSelector,
-      value: obj.statSelector
+      value: obj.statSelector,
     });
 
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.from,
-      value: obj.from
+      value: obj.from,
     });
 
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.to,
-      value: obj.to
+      value: obj.to,
     });
 
     this.$store.commit("ADD_URL_QUERY", {
       key: queryKey.hidden,
-      value: obj.hidden.map(k => (k ? 1 : 0)).join("")
+      value: obj.hidden.map((k) => (k ? 1 : 0)).join(""),
     });
 
     this.updateGraphData(obj);
@@ -221,9 +221,9 @@ export default {
     permaLink() {
       return {
         name: "GbStatistics",
-        query: this.$store.get("urlQuery")
+        query: this.$store.get("urlQuery"),
       };
-    }
+    },
   },
   watch: {
     statSelector(val) {
@@ -232,7 +232,7 @@ export default {
       }
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.statSelector,
-        value: val
+        value: val,
       });
       this.updateGraphData();
     },
@@ -242,106 +242,106 @@ export default {
           cost_level: {
             title: this.$t(i18nPrefix + "graph.title_1"),
             xAxesLabel: this.$t("utils.graph.gb_level"),
-            yAxesLabel: this.$t("utils.graph.gb_level_cost")
+            yAxesLabel: this.$t("utils.graph.gb_level_cost"),
           },
           reward_level: {
             title: this.$t(i18nPrefix + "graph.title_2"),
             xAxesLabel: this.$t("utils.graph.gb_level"),
-            yAxesLabel: this.$t("utils.graph.gb_reward_1st_place")
+            yAxesLabel: this.$t("utils.graph.gb_reward_1st_place"),
           },
           reward_cost: {
             title: this.$t(i18nPrefix + "graph.title_3"),
             xAxesLabel: this.$t("utils.graph.gb_reward_1st_place"),
-            yAxesLabel: this.$t("utils.graph.gb_level_cost")
+            yAxesLabel: this.$t("utils.graph.gb_level_cost"),
           },
           cost_reward: {
             title: this.$t(i18nPrefix + "graph.title_4"),
             xAxesLabel: this.$t("utils.graph.gb_level_cost"),
-            yAxesLabel: this.$t("utils.graph.gb_reward_1st_place")
-          }
+            yAxesLabel: this.$t("utils.graph.gb_reward_1st_place"),
+          },
         },
         ageConfig: {
           Oracle: {
             name: this.$t("foe_data.age.Oracle"),
-            color: "rgb(102,34,17)"
+            color: "rgb(102,34,17)",
           },
           NoAge: {
             name: this.$t("foe_data.age.NoAge"),
-            color: "rgb(102,34,17)"
+            color: "rgb(102,34,17)",
           },
           BronzeAge: {
             name: this.$t("foe_data.age.BronzeAge"),
-            color: "rgb(183,141,19)"
+            color: "rgb(183,141,19)",
           },
           IronAge: {
             name: this.$t("foe_data.age.IronAge"),
-            color: "rgb(152,68,32)"
+            color: "rgb(152,68,32)",
           },
           EarlyMiddleAges: {
             name: this.$t("foe_data.age.EarlyMiddleAges"),
-            color: "rgb(78,129,68)"
+            color: "rgb(78,129,68)",
           },
           HighMiddleAges: {
             name: this.$t("foe_data.age.HighMiddleAges"),
-            color: "rgb(47,142,142)"
+            color: "rgb(47,142,142)",
           },
           LateMiddleAges: {
             name: this.$t("foe_data.age.LateMiddleAges"),
-            color: "rgb(127,66,133)"
+            color: "rgb(127,66,133)",
           },
           ColonialAge: {
             name: this.$t("foe_data.age.ColonialAge"),
-            color: "rgb(206,100,4)"
+            color: "rgb(206,100,4)",
           },
           IndustrialAge: {
             name: this.$t("foe_data.age.IndustrialAge"),
-            color: "rgb(167,41,38)"
+            color: "rgb(167,41,38)",
           },
           ProgressiveEra: {
             name: this.$t("foe_data.age.ProgressiveEra"),
-            color: "rgb(182,137,91)"
+            color: "rgb(182,137,91)",
           },
           ModernEra: {
             name: this.$t("foe_data.age.ModernEra"),
-            color: "rgb(70,93,136)"
+            color: "rgb(70,93,136)",
           },
           PostmodernEra: {
             name: this.$t("foe_data.age.PostmodernEra"),
-            color: "rgb(141,146,146)"
+            color: "rgb(141,146,146)",
           },
           ContemporaryEra: {
             name: this.$t("foe_data.age.ContemporaryEra"),
-            color: "rgb(141,199,63)"
+            color: "rgb(141,199,63)",
           },
           Tomorrow: {
             name: this.$t("foe_data.age.Tomorrow"),
-            color: "rgb(123,137,137)"
+            color: "rgb(123,137,137)",
           },
           TheFuture: {
             name: this.$t("foe_data.age.TheFuture"),
-            color: "rgb(34,90,75)"
+            color: "rgb(34,90,75)",
           },
           ArcticFuture: {
             name: this.$t("foe_data.age.ArcticFuture"),
-            color: "rgb(67,66,66)"
+            color: "rgb(67,66,66)",
           },
           OceanicFuture: {
             name: this.$t("foe_data.age.OceanicFuture"),
-            color: "rgb(127,255,212)"
+            color: "rgb(127,255,212)",
           },
           VirtualFuture: {
             name: this.$t("foe_data.age.VirtualFuture"),
-            color: "rgb(85,271,39)"
+            color: "rgb(85,271,39)",
           },
           SpaceAgeMars: {
             name: this.$t("foe_data.age.SpaceAgeMars"),
-            color: "rgb(187,19,0)"
+            color: "rgb(187,19,0)",
           },
           SpaceAgeAsteroidBelt: {
             name: this.$t("foe_data.age.SpaceAgeAsteroidBelt"),
-            color: "rgb(9,78,189)"
-          }
-        }
+            color: "rgb(9,78,189)",
+          },
+        },
       });
 
       this.updateGraphData();
@@ -358,7 +358,7 @@ export default {
       ) {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.from,
-          value: val
+          value: val,
         });
         this.updateGraphData();
       }
@@ -377,7 +377,7 @@ export default {
       ) {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.to,
-          value: val
+          value: val,
         });
         if (this.$data.errors.from) {
           if (value >= this.$data.errors.from) {
@@ -392,9 +392,9 @@ export default {
     hidden(val) {
       this.$store.commit("UPDATE_URL_QUERY", {
         key: queryKey.hidden,
-        value: val.map(k => (k ? 1 : 0)).join("")
+        value: val.map((k) => (k ? 1 : 0)).join(""),
       });
-    }
+    },
   },
   methods: {
     normalizedFrom() {
@@ -429,7 +429,7 @@ export default {
       });
 
       for (const elt in agesCost) {
-        data[elt] = agesCost[elt].slice(from - 1, to + 1).map(x => {
+        data[elt] = agesCost[elt].slice(from - 1, to + 1).map((x) => {
           if (statSelector === "cost_level" || statSelector === "reward_cost") {
             suggestedMin = x.cost < suggestedMin ? x.cost : suggestedMin;
             suggestedMax = x.cost > suggestedMax ? x.cost : suggestedMax;
@@ -460,7 +460,7 @@ export default {
           pointHoverRadius: 4,
           pointRadius: 1,
           pointHitRadius: 10,
-          data: data[elt]
+          data: data[elt],
         });
       }
       return {
@@ -470,7 +470,7 @@ export default {
         suggestedMin: suggestedMin,
         suggestedMax: suggestedMax,
         labels,
-        datasets
+        datasets,
       };
     },
     updateGraphData(obj = this.$data) {
@@ -529,7 +529,7 @@ export default {
 
       if (this.$route.query[queryKey.hidden]) {
         change = Utils.FormCheck.VALID;
-        let hidden = this.$route.query[queryKey.hidden].split("").map(k => k !== "0");
+        let hidden = this.$route.query[queryKey.hidden].split("").map((k) => k !== "0");
         Array.prototype.splice.apply(obj.hidden, [0, hidden.length].concat(hidden));
       }
 
@@ -541,9 +541,9 @@ export default {
     },
     haveError(input) {
       return this.$data.errors[input] ? "is-danger" : "";
-    }
+    },
   },
   components: {
-    graphCanvas
-  }
+    graphCanvas,
+  },
 };

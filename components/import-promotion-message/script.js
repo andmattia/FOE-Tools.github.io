@@ -13,7 +13,7 @@ export default {
   props: {
     gbKey: {
       type: String,
-      default: Observatory.key
+      default: Observatory.key,
     },
     messageInterpolation: {
       type: Array,
@@ -22,9 +22,9 @@ export default {
           { key: "FLVL", value: 9 },
           { key: "TLVL", value: 10 },
           { key: "OP", value: 430 },
-          { key: "LC", value: 650 }
+          { key: "LC", value: 650 },
         ];
-      }
+      },
     },
     placesInterpolationValues: {
       type: Array,
@@ -42,12 +42,12 @@ export default {
             { key: "PV", value: RewardsAt90Percent[i], free: true },
             { key: "PP", value: ownerPreparation[i] },
             { key: "FLVL", value: 9 },
-            { key: "TLVL", value: 10 }
+            { key: "TLVL", value: 10 },
           ]);
         }
         return placesInterpolationValues;
-      }
-    }
+      },
+    },
   },
   data() {
     const data = {
@@ -57,14 +57,14 @@ export default {
       resultMessage: "",
       errors: {
         templateName: { found: false, message: "" },
-        template: { found: false, message: "" }
-      }
+        template: { found: false, message: "" },
+      },
     };
 
     return data;
   },
   computed: {
-    lang: get("locale")
+    lang: get("locale"),
   },
   watch: {
     lang() {
@@ -96,7 +96,7 @@ export default {
           useShortGbName: false,
           reversePlacesOrder: false,
           placeSeparator: "",
-          ...JSON.parse(val)
+          ...JSON.parse(val),
         };
       } catch (e) {
         this.errors.template.found = true;
@@ -137,14 +137,14 @@ export default {
         this.$props.messageInterpolation,
         this.$props.placesInterpolationValues
       );
-    }
+    },
   },
   methods: {
     successCopy(index) {
       this.tooltips[index] = true;
       let self = this;
       /* istanbul ignore next */
-      setTimeout(function() {
+      setTimeout(function () {
         self.tooltips[index] = false;
       }, 3000);
     },
@@ -163,7 +163,7 @@ export default {
           useShortGbName: false,
           reversePlacesOrder: false,
           placeSeparator: "",
-          ...JSON.parse(this.template)
+          ...JSON.parse(this.template),
         };
       } catch (e) {
         this.errors.template.found = true;
@@ -204,7 +204,7 @@ export default {
       }
 
       let result = this.$clone(this.$store.get(`global/customPromotionMessagesTemplates`));
-      const ids = result.map(e => e.id);
+      const ids = result.map((e) => e.id);
       let id;
       do {
         id = uuidv4();
@@ -214,7 +214,7 @@ export default {
       this.$buefy.notification.open({
         message: this.$t(i18nPrefix + "template_imported"),
         type: "is-success",
-        duration: 5000
+        duration: 5000,
       });
     },
     nbMultiLine(src) {
@@ -223,10 +223,10 @@ export default {
     },
     haveError(input) {
       return this.$data.errors[input] ? "is-danger" : "";
-    }
+    },
   },
   components: {
     yesNo,
-    numberinput
-  }
+    numberinput,
+  },
 };

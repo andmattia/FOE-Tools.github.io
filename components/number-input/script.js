@@ -7,7 +7,7 @@
 
 const config = {
   defaultUseHtml5Validation: true,
-  defaultIconPack: "mdi"
+  defaultIconPack: "mdi",
 };
 
 const FormElementMixin = {
@@ -23,14 +23,14 @@ const FormElementMixin = {
     maxlength: [Number, String],
     useHtml5Validation: {
       type: Boolean,
-      default: () => config.defaultUseHtml5Validation
-    }
+      default: () => config.defaultUseHtml5Validation,
+    },
   },
   data() {
     return {
       isValid: true,
       isFocused: false,
-      newIconPack: this.iconPack || config.defaultIconPack
+      newIconPack: this.iconPack || config.defaultIconPack,
     };
   },
   computed: {
@@ -85,7 +85,7 @@ const FormElementMixin = {
         case "is-large":
           return this.newIconPack === "mdi" ? "is-medium" : "";
       }
-    }
+    },
   },
   methods: {
     /**
@@ -147,8 +147,8 @@ const FormElementMixin = {
       });
 
       return this.isValid;
-    }
-  }
+    },
+  },
 };
 
 export default {
@@ -163,23 +163,23 @@ export default {
     disabled: Boolean,
     type: {
       type: String,
-      default: "is-primary"
+      default: "is-primary",
     },
     editable: {
       type: Boolean,
-      default: true
+      default: true,
     },
     controlsRounded: {
       type: Boolean,
-      default: false
+      default: false,
     },
-    controlsPosition: String
+    controlsPosition: String,
   },
   data() {
     return {
       newValue: !isNaN(this.value) ? this.value : parseFloat(this.min) || 0,
       newStep: this.step || 1,
-      _elementRef: "input"
+      _elementRef: "input",
     };
   },
   computed: {
@@ -195,12 +195,12 @@ export default {
         this.newValue = newValue;
         this.$emit("input", newValue);
         this.$refs.input.checkHtml5Validity();
-      }
+      },
     },
     fieldClasses() {
       return [
         { "has-addons": this.controlsPosition === "compact" },
-        { "is-grouped": this.controlsPosition !== "compact" }
+        { "is-grouped": this.controlsPosition !== "compact" },
       ];
     },
     buttonClasses() {
@@ -228,7 +228,7 @@ export default {
         return step.substring(index + 1).length;
       }
       return 0;
-    }
+    },
   },
   watch: {
     /**
@@ -237,7 +237,7 @@ export default {
      */
     value(value) {
       this.newValue = value;
-    }
+    },
   },
   methods: {
     decrement() {
@@ -274,6 +274,6 @@ export default {
       }
       clearInterval(this._$intervalRef);
       this._$intervalRef = null;
-    }
-  }
+    },
+  },
 };

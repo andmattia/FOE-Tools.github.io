@@ -1,0 +1,2690 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.977Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:51.977Z\n"
+"Language: ru\n"
+
+msgid "main_menu.home"
+msgstr "Главная"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "О сервисе"
+
+msgid "footer_menu.contributors"
+msgstr "Авторы"
+
+msgid "footer_menu.changelog"
+msgstr "Изменения"
+
+msgid "footer_menu.contact"
+msgstr "Контакты"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Выберите провинцию"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr ""
+"Эта провинция содержит один или несколько секторов, в которых отсутствуют "
+"значения."
+
+msgid "components.campaign_cost.provinces"
+msgstr "Провинции"
+
+msgid "components.campaign_cost.all_provinces"
+msgstr "Все провинции"
+
+msgid "components.campaign_cost.all_ages"
+msgstr "Все эпохи"
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Ваша эпоха"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "Ваш бонус @:(foe_data.gb.Chateau_Frontenac)"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Монет в Праздничной вечеринке Ринбина (ПВР)"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Ресурсов в ПВР"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "ВС и производственные здания (товары)"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "Производство СО в сутки"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Другие суточные круговые квесты"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "Еще круговые квесты?"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Ресурсов получено"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Чертежи"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Медали"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Товары"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "СО"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Ежедневные ПВР: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Бонус ПВР: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Всего круговых заданий выполнено: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Всего товаров: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Всего СО: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Всего круговых заданий выполнено: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Уровень"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Возврат монет"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Возврат ресурсов"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"С текущим бонусом @:(foe_data.gb.Chateau_Frontenac) вы получите больше "
+"монет и ресурсов, чем потратите на выполнение задания. Пожалуйста, укажите "
+"число \"@:(components.cf_calculator.block_cfc.infinity_generator.label)\", "
+"которые вы хотите выполнить."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Кумулятивный квест"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Это значение должно не меньше {min}, потому что меньшее значение не "
+"гарантирует прибыль (среднестатистически)"
+
+msgid "components.cf_calculator.tutorial.goods"
+msgstr "Укажите количество товаров, которые вы хотите использовать для всех квестов."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr ""
+"Укажите количество ресурсов, которые вы хотите использовать для всех "
+"квестов."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr "Укажите количество монет, которые вы хотите использовать для всех квестов."
+
+msgid "components.cf_calculator.tutorial.yourAge"
+msgstr "Выберете свою эпоху."
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Укажите количество СО, которые вы получаете за 24 часа."
+
+msgid "components.cf_calculator.tutorial.suppliesGathered"
+msgstr ""
+"Укажите количество ресурсов, которые вы хотите использовать для второго "
+"повторяющегося квеста."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Введите \"квест-бонус\" вашего @:(foe_data.gb.Chateau_Frontenac).\n"
+"\n"
+"Пример: для 450%, введите 450."
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Этот инструмент носит информационный характер. Он показывает что Вы сможете "
+"теоретически получить с вашего @:(foe_data.gb.Chateau_Frontenac)."
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"Эта таблица показывает вам количество монет и ресурсов, которые вы "
+"заработаете теоретически от первоначальных инвестиций (с тем, что вы готовы "
+"потратить в монетах и ресурсах)."
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr ""
+"Количество повторений второго повторного квеста, которое вы можете "
+"выполнить."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr ""
+"Общее количество повторяющихся квестов, которые вы можете (теоретически) "
+"выполнить."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Этот раздел показывается только тогда, когда  бонус "
+"@:(foe_data.gb.Chateau_Frontenac) (в соответствии с вашей эпохой) даст вам "
+"теоретически больше монет и ресурсов, чем вы потратите."
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Количество СО, которые вы получите с помощью квестов, ВС и т.д."
+
+msgid "components.cf_calculator.tutorial.totalGoods"
+msgstr "Количество товаров, которые вы получите с помощью квестов, ВС и т.д."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"В этой таблице представлены вознаграждения, которые вы получите. Имейте в "
+"виду, что значения основаны на эмпирической вероятности."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr ""
+"В этом случае необходимо задать количество заданий, которые вы хотите "
+"выполнить."
+
+msgid "components.cf_calculator.tutorial.otherRq"
+msgstr ""
+"Задайте другие ежедневные повторяющиеся квесты, которые вы сделали в "
+"настоящее время."
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Выберите Великое Строение"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"Вы можете изменить стиль выбора ВС (устаревший или автозаполнение) в "
+"глобальных настройках"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Укажите уровень ВС и бонус Арки % (90% для 80 уровня Арки) вкладчика. "
+"Значения в таблице обновляются автоматически."
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Замечание</strong>: Если таблица не обновилась автоматически, "
+"сначала укажите уровень ВС, потом значение бонуса Арки и нажмите "
+"\"@:(components.gb_investment.gb_investment.form.submit_global)\". Если вы "
+"хотите указать значения вкладов для всех мест вручную, заполните правую "
+"колонку таблицы и нажмите "
+"\"@:(components.gb_investment.gb_investment.form.submit_custom)\"."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr "Уровень {fromLevel} → {level} (@:(utils.between_range))"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "Бонус Арки, % (единый для всех мест)"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Рассчитать"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Рассчитать индивидуально"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Количество СО, на данный момент вложенных владельцем (не более {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr "Добавить вкладчика (укажите количество СО, @:(utils.between_range))"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Нажмите кнопку «@:(utils.Add)» или нажмите клавишу «Ввод», чтобы добавить "
+"вкладчика"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Список добавленных вкладчиков"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Показать таблицу в виде карты? (на маленьком экране)"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Показать все обеспеченные места"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Показать гарантированное место/возможную прибыль(Снайпер)"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} уровень {fromLevel} → {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Места"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Стандартная награда"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "СО, которые должен вложить владелец для гарантии места"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Награда с учетом бонуса"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "Бонус Арки, %"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Включить в скопированные ячейки"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Количество СО уже вложенных"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "СО получено с % бонуса % вашей Арки"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Потенциальный снайпер?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "Количество СО получаемые с учетом бонуса, установленным владельцем ВС"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Гарантированное место/Снайпер"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor_0"
+msgstr "Показать дополнительного вкладчика"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor_1"
+msgstr "Показать дополнительных вкладчиков"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor_2"
+msgstr "Показать дополнительных вкладчиков"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor_0"
+msgstr "Скрыть дополнительного вкладчика"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor_1"
+msgstr "Скрыть дополнительных вкладчиков"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor_2"
+msgstr "Скрыть дополнительных вкладчиков"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss_0"
+msgstr "Этот игрок потеряет СО"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss_1"
+msgstr "Этот игрок потеряет СО"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss_2"
+msgstr "Этот игрок потеряет СО"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "СО, которые должен вложить владелец для гарантии места"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Ожидаемые вложения"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Этот игрок получит прибыль"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Этот игрок не получит прибыль, ни потерять СО"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Общий вклад владельца"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Стоимость уровня"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr ""
+"Количество оставшихся СО, которые должен вложить владелец, чтобы завершить "
+"уровень"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Отобразить название ВС?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Использовать короткое название?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Показать уровень?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Шаблон сообщения с предложением вложиться арочникам"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "текст до предложения"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "текст после предложения"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P1 ({investment})\n"
+"P2 ({investment})\n"
+"P3 ({investment})\n"
+"P4 ({investment})\n"
+"P5 ({investment})"
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr "Это стандартная награда (без учёта бонуса Арки) за место."
+
+msgid "components.gb_investment.tutorial.table.is_sniper"
+msgstr ""
+"Этот столбец отображается, когда вы добавите хотя бы одного инвестора. Он "
+"используется для определения, является ли игрок потенциальным снайпером или "
+"нет. Эта информация используется для расчета безопасности места."
+
+msgid "components.gb_investment.tutorial.promotion_message.show_level"
+msgstr "Отобразить уровень ВС (Если добавлено в шаблон сообщения)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.display_gb_"
+"name"
+msgstr "Отобразить имя ВС (Если добавлено в шаблон сообщения)."
+
+msgid "components.gb_investment.tutorial.owner_investment"
+msgstr ""
+"Вы вложили СО в ваше ВС?\n"
+"Если да, то добавьте сюда, сколько СО вы вложили"
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Выберите коэффициент, который, как вы ожидаете, будут использовать ваши "
+"инвесторы\n"
+"Пример: для инвестиций под 1.9 поставьте 90"
+
+msgid "components.gb_investment.tutorial.level"
+msgstr "Выберите уровень, над которым вы хотите работать."
+
+msgid "components.gb_investment.tutorial.gb_select"
+msgstr ""
+"Это поле позволяет быстро изменять ВС\n"
+"Существует два типа селектора.\n"
+"\n"
+"Простой селектор (устаревший), который отображает простой выпадающий "
+"список. Это селектор по умолчанию:\n"
+"\n"
+"{videoSelect}\n"
+"\n"
+"Автозавершение, которое позволяет найти ВС, набрав буквы, содержащиеся в "
+"нужном имени ВС:\n"
+"\n"
+"{videoAutoComplete}"
+
+msgid "components.gb_investment.tutorial.display_modes.content"
+msgstr ""
+"Этот инструмент дает вам информацию, которую владелец и инвесторы должны "
+"знать, чтобы вложиться в уровень ВС. Он имеет два режима отображения:\n"
+"\n"
+"\"@:(routes.gb_investment.tab.owner_view.title)\" (где вы находитесь), "
+"которое отображает информацию только на текущем уровне и в мельчайших "
+"деталях.\n"
+"\n"
+"\"@:(routes.gb_investment.tab.investors_view.title)\" отображает значения "
+"нескольких уровней в табличной форме. Вы найдете только количество СО, "
+"которые должен вложить владелец и инвесторы для получения прибыли / убытка."
+
+msgid "components.gb_investment.tutorial.display_modes.title"
+msgstr "Режим отображения"
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "Под 1.9, 1.8, и тд."
+
+msgid "components.gb_investment.tutorial.snipe.title"
+msgstr "Снайпер"
+
+msgid "components.gb_investment.tutorial.snipe.content"
+msgstr ""
+"«Снайпер - это игрок, который занимает место в ВС, чтобы получить прибыль, "
+"как правило, в убыток владельцу ВС.\n"
+"\n"
+"Например, поднятие уровня с 49 по 50 ВС "
+"\"@:(foe_data.gb.The_Virgo_Project)\" не требует от владельца вклада СО для "
+"обеспечения первых двух мест. Вложения при коэффициенте 1.9, составляет "
+"{fp1739}. Игрок (с Аркой 80-го уровня) может, после открытия уровня, занять "
+"первое место за {fp1679}, что обеспечит ему прибыль в размере {fp60}."
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"label"
+msgstr "Принимать во внимание другие места?"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Отобразить место"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Нормальный"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Оптимальный"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "не принимать во внимание другие места"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"принимать во внимание другие места, с минимальным вложением вкладчика и без "
+"обеспечения места владельцем"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "{count} место"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Прибыль / Потеря"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Прогноз"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Определите количество СО, нужное для перехода с уровня на уровень, с и без "
+"бонуса Арки."
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Разные бонусы Арки (для разных мест)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Примерное время на достижения уровня"
+
+msgid "components.gb_forecast_cost.message.diff_0"
+msgstr "За счет бонуса вы сэкономите {count} СО"
+
+msgid "components.gb_forecast_cost.message.diff_1"
+msgstr "За счет бонуса вы сэкономите {count} СО"
+
+msgid "components.gb_forecast_cost.message.diff_2"
+msgstr "За счет бонуса вы сэкономите {count} СО"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"Для достижения уровня {level} \"{gb}\", владелец должен вложить "
+"{preparation} СО. Общая стоимость уровней: {cost} СО."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"Чтобы перейти с {from} уровня на {to} из \"{gb}\", владелец должен вложить "
+"{preparation} СО. Общая стоимость уровней: {cost} СО."
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "Примерное время на достижение уровня: {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "Уже вложено СО владельцем в текущий уровень"
+
+msgid "components.gb_forecast_cost.graph.title"
+msgstr "Прогноз затрат СО для владельца для подготовки и прокачки \"{gb}\""
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Разница относительно прошлого уровня"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Количество требуемых СО без бонуса"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Количество требуемых СО с бонусом"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"Граф сделан на основании Эпох, так как стоимость и награды в ВС одной эпохи "
+"одинаковы кроме особого случая (@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_statistics.represent"
+msgstr "Представляет:"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Рост стоимости уровня относительно уровней"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Рост наград за первое место относительно уровней"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr "Рост стоимости уровня относительно награды за первое место"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr "Рост награды за первое место относительно стоимости уровней"
+
+msgid "components.secure_position.block_place.fp_to_complete_level_0"
+msgstr "Количество СО, которые осталось вложить до закрытия уровня:"
+
+msgid "components.secure_position.block_place.fp_to_complete_level_1"
+msgstr "Количество СО, которые осталось вложить до закрытия уровня:"
+
+msgid "components.secure_position.block_place.fp_to_complete_level_2"
+msgstr "Количество СО, которые осталось вложить до закрытия уровня:"
+
+msgid "components.secure_position.block_place.place_0"
+msgstr "{place} ({count} СО)"
+
+msgid "components.secure_position.block_place.place_1"
+msgstr "{place} ({count} СО)"
+
+msgid "components.secure_position.block_place.place_2"
+msgstr "{place} ({count} СО)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Обеспечение гарантии"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Стоимость уровня"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Сумма вложений на данный момент"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Ваше вложение"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "Вложение игрока, которого нужно обойти"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Бонус вашей Арки"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "СО планируемого места"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Ожидаемое место"
+
+msgid "components.secure_position.block_place.result.default_0"
+msgstr "Вы должны вложить всего {count} СО, чтобы занять место."
+
+msgid "components.secure_position.block_place.result.default_1"
+msgstr "Вы должны вложить всего {count} СО, чтобы занять место."
+
+msgid "components.secure_position.block_place.result.default_2"
+msgstr "Вы должны вложить всего {count} СО, чтобы занять место."
+
+msgid ""
+"components.secure_position.block_place.result.fp_to_secure_html#"
+"##0"
+msgstr "Вам нужно добавить еще {count} СО."
+
+msgid ""
+"components.secure_position.block_place.result.fp_to_secure_html#"
+"##1"
+msgstr "Вам нужно добавить еще {count} СО."
+
+msgid ""
+"components.secure_position.block_place.result.fp_to_secure_html#"
+"##2"
+msgstr "Вам нужно добавить еще {count} СО."
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Одно или несколько значений не верны."
+
+msgid "components.secure_position.block_place.result.roi.profit_0"
+msgstr "Вы получите {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.profit_1"
+msgstr "Вы получите {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.profit_2"
+msgstr "Вы получите {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.loss_0"
+msgstr "Вы потеряете {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.loss_1"
+msgstr "Вы потеряете {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.loss_2"
+msgstr "Вы потеряете {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.neutral"
+msgstr "Вы не получите возврат с этого вложения"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "Это место уже занято."
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Вы не можете занять это место."
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "Количество CО, оставшихся до завершения уровня"
+
+msgid ""
+"components.secure_position.block_place.result.fp_need_to_lock###"
+"0"
+msgstr "Количество СО, которое вам нужно внести для резервирования места:"
+
+msgid ""
+"components.secure_position.block_place.result.fp_need_to_lock###"
+"1"
+msgstr "Количество СО, которое вам нужно внести для резервирования места:"
+
+msgid ""
+"components.secure_position.block_place.result.fp_need_to_lock###"
+"2"
+msgstr "Количество СО, которое вам нужно внести для резервирования места:"
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "неизвестно"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "Количество СО для резервирования места"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "Количество СО с учетом бонуса"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Бонус"
+
+msgid "components.secure_position.block_place.various_rate"
+msgstr "Различный бонус"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Эпоха"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Товар"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Результат"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Разбить"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Отношение"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.slpit"
+msgstr "Разбить предложения?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "Показать отношение"
+
+msgid "components.simple_trade.title"
+msgstr "Табличная версия"
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "Набор инструментов для упрощения игры в @:(common.links.foe)"
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"Продолжая использовать @:(common.site_title), вы соглашаетесь с применением "
+"cookies для удобства использования сайта."
+
+msgid "components.site_layout.cookie.link"
+msgstr "Больше информации"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"Вы перешли по прямой ссылке. В связи с этим данные не будут сохранены в "
+"cookies."
+
+msgid "components.site_layout.footer.license_html"
+msgstr "Исходный код доступен под лицезией @:(common.links.mit)"
+
+msgid "components.site_layout.footer.version"
+msgstr "Версия {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "День"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Начало дня"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Ночь"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Начало ночи"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"Автоматически "
+"@:(components.site_layout.day_night.Day)/@:(components.site_layout.day_"
+"night.Night)"
+
+msgid "components.site_layout.global_config"
+msgstr "Глобальные настройки"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "Всегда отображать глобальное меню"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Автозавершение"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Выбор из списка(устаревший)"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Тема"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "День"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Ночь"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Автоматически"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "Стиль выбора ВС"
+
+msgid "components.site_layout.new_year.message_0"
+msgstr "@:(common.site_title) отмечает {count} год"
+
+msgid "components.site_layout.new_year.message_1"
+msgstr "@:(common.site_title) отмечает {count} года"
+
+msgid "components.site_layout.new_year.message_2"
+msgstr "@:(common.site_title) отмечает {count} лет"
+
+msgid "components.site_layout.update_0"
+msgstr "Произошло одно обновление с момента вашего последнего визита."
+
+msgid "components.site_layout.update_1"
+msgstr "Произошло {count} обновления с момента вашего последнего визита."
+
+msgid "components.site_layout.update_2"
+msgstr "Произошло {count} обновлений с момента вашего последнего визита."
+
+msgid "components.site_layout.switch_locale"
+msgstr "@:(common.site_title) доступен на вашем языке"
+
+msgid "components.site_layout.whats_new"
+msgstr "Что нового?"
+
+msgid "components.site_layout.survey.message"
+msgstr "Помогите нам улучшить @:(common.site_title), ответив на несколько вопросов"
+
+msgid "components.trade.label.i_have"
+msgstr "У меня есть"
+
+msgid "components.trade.label.i_want"
+msgstr "Я хочу"
+
+msgid "components.trade.label.amount"
+msgstr "Количество"
+
+msgid "components.trade.message.result"
+msgstr ""
+"Для получения {to} товаров {ageTo}, вам нужно {from} товаров(разбивка по "
+"{count}):"
+
+msgid "components.trade.message.total"
+msgstr "(всего: {amount} {key})"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) и {secondPart}"
+
+msgid "components.trade.split_message.msg"
+msgstr "{valueFrom} {ageFrom} на {valueTo} {ageTo}"
+
+msgid "components.trade.split_value"
+msgstr "Максимальный размер предложения (max {count})"
+
+msgid "components.trade.title"
+msgstr "Краткая версия"
+
+msgid "components.promotion_message_builder.action"
+msgstr "Действие"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "Название ВС"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr ""
+"Количество СО которые должен вложить владелец для гарантии места \"х\" (где "
+"\"х\" значение от 1 до 5)"
+
+msgid "components.promotion_message_builder.variables.message.LC"
+msgstr "Стоимость уровня"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Перевод строки, добавление новой строки"
+
+msgid "components.promotion_message_builder.variables.message.PVx"
+msgstr ""
+"Колличество СО, которые должен вложить инвестор с учётом бонусов чтобы "
+"занять место \"х\" (где \"х\" значение от 1 до 5)"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Места"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "По уровень"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "С уровня"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Стоимость места(в СО)"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Номер места"
+
+msgid "components.promotion_message_builder.note"
+msgstr ""
+"Внимание: Конструктор сообщений использует для примера прокачку уровня с 9 "
+"до 10 под коэффициент 1,9 у ВС @:(foe_data.gb.Observatory)."
+
+msgid "components.promotion_message_builder.info"
+msgstr ""
+"Вы можете скопировать ваши настройки, например что бы поделится с членами "
+"вашей гильдии"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Конструктор сообщений для вкладчиков"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Отобразить места в обратном порядке?"
+
+msgid "components.promotion_message_builder.use_short_name"
+msgstr "@:(components.gb_investment.gb_investment.use_short_name)"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Ваши настраиваемые поля"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Значение поля"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Наименование поля"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Добавить настраиваемые поля"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Конфигурация"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Пользовательские шаблоны"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Шаблоны по умолчанию"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Выберите шаблон для удаления"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Выберите шаблон для редактирования"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Начать с шаблона ?"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Удалить существующий шаблон"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Обновить существующий шаблон"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Создать новый шаблон"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Разделитель между местами"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Шаблон удалён"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Шаблон обновлён"
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Шаблон сохранён"
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Данное имя шаблона уже существует."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "Поле с именем шаблона не может быть пустым."
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Некорректное имя шаблона, пожалуйста задайте другое имя."
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Имя шаблона"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Доступные переменные:"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Предварительный просмотр сообщения"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Предварительный просмотр (1 место)"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Шаблон импортирован"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Данные не коректны"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Вставьте свою конфигурацию сюда"
+
+msgid "components.import_promotion_message.title"
+msgstr "Импорт сообщения с предложением"
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.title"
+msgstr "О @:(common.site_title)"
+
+msgid "routes.about.general_info.title"
+msgstr "Основная информация"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Forge of Empires, FOE и все связанные торговые марки принадлежат InnoGames "
+"GmbH. <br/> @:(common.site_title) не связан с Innogames и является "
+"сторонним неофициальным сайтом."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"@:(common.site_title) создан французским игроком <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"Сайт является открытым, исходный код доступен на @:(common.links.github). "
+"<br/> Все желающие могут принять участие в улучшении этого сайта."
+
+msgid "routes.about.cookie.title"
+msgstr "Cookies"
+
+msgid "routes.about.cookie.p1"
+msgstr "Для вашего удобства этот сайт использует cookies вашего браузера."
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Язык интерфейса"
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr ""
+"Указывает, прочитали ли вы информационное сообщение об использовании файлов "
+"cookie"
+
+msgid "routes.about.cookie.table_message"
+msgstr "В таблице ниже показаны все файлы cookie, используемые на данном сайте."
+
+msgid "routes.about.dev_info.title"
+msgstr "Информация для разработчиков"
+
+msgid "routes.about.dev_info.p1"
+msgstr "Этот сайт является простым статичным сайтом, который хостится на GitHub."
+
+msgid "routes.about.dev_info.p2_html"
+msgstr ""
+"Сайт разработан на Node.js. Движок шаблонов - @:(common.links.framework). "
+"Оформление сделано с использованием @:(common.links.style)."
+
+msgid "routes.about.dev_info.p3_html"
+msgstr ""
+"Есть идея, как улучшить сайт? Нашли ошибку? Создавайте Issue на "
+"@:(common.links.github) или пишите письма (на английском или французском) "
+"разработчику сайта на @:(common.links.contact_foe_tools)."
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>Замечение:</b> Отосительно запросов на Github, пожалуйста, пишите их "
+"по-английски, чтобы все вас понимали. Переводчик на русский в процессе "
+"разработки не участвует."
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Калькулятор Шато-Фронтенак"
+
+msgid "routes.cf_calculator.hero.subtitle"
+msgstr ""
+"Инструмент для подсчета возврата товаров и СО при выполнении круговых "
+"квестов и неосновного квеста Ринбин (Непраздничная вечеринка)."
+
+msgid "routes.changelog.title"
+msgstr "Изменения | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Авторы"
+
+msgid "routes.contributors.hero.subtitle"
+msgstr ""
+"На этой странице перечислены все (надеемся, что так) участники разработки "
+"этого проекта"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.gb_investment.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Для инвестора"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Для владельца"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "Вложения ВС"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Инструмент для подсчета количества стратегических очков (СО), которые игрок "
+"должен вложить в великое строение (ВС) для обеспечения гаранта по 5 местам "
+"другим вкладчикам с Аркой (с учетом бонуса Арки)."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Выберите Великое Строение"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "Прогноз строимости ВС"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Этот инструмент позволяет определить количество СО, нужное для перехода с "
+"уровня на уровень, с и без бонуса Арки."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "Статистика ВС"
+
+msgid "routes.gb_statistics.hero.subtitle"
+msgstr "Этот инструмент визуализирует рост стоимости ВС относительно эпохи."
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Резервирование места"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Этот инструмент позволяет подсчитать количество СО, которые игрок должен "
+"вложить в ВС для того, чтобы гарантированно занять в нем место."
+
+msgid "routes.error.404.title"
+msgstr "Страница не найдена | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Извините, страница не существует"
+
+msgid "routes.trade.hero.title"
+msgstr "Торговля"
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr ""
+"Этот инструмент показывает стоимость захвата провинции или сектора путем "
+"переговоров."
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Стоимость кампании"
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title) | @:(common.site_title)"
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge) (@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "Без эпохи"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Бронзовый век"
+
+msgid "foe_data.age.IronAge"
+msgstr "Железный век"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Раннее средневековье"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Высокое средневековье"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Позднее средневековье"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "Колониальный период"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Индустриальная эпоха"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "Эра прогрессивизма"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Эпоха модерна"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Эпоха постмодерна"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Новейшее время"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Завтра"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Будущее"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Арктическое будущее"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Океаническое будущее"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Виртуальное будущее"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Космическая эра: Марс"
+
+msgid "foe_data.age.SpaceAgeAsteroidBelt"
+msgstr "Космическая Эра: Пояс Астероидов"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "НЭ"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "Марс"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "Виртуалка"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "Океан"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "Арктика"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "Будущее"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "Завтра"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "Новейшее"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "ЭПМ"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "Модерн"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "Прогресс"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "ЭП"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "КП"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "ПС"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "ВС"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "РС"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "ЖВ"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "БВ"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Обсерватория"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Храм реликвий"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Дельфийский оракул"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Вавилонская башня"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Статуя Зевса"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Колизей"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Александрийский маяк"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Собор Святой Софии"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Ахенский Собор"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Собор Святого Марка"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Нотр-Дам"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Храм Василия Блаженного"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Кастель-дель-Монте"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Дильский замок"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Фрауэнкирхе"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Капитолий"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Королевский Альберт-холл"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Шато-Фронтенак"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Алькатрас"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Спейс-Нидл"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Атомиум"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Космодром на мысе Канаверал"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "Хабитат"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Храм Лотоса"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Башня Инноваций"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Вращающаяся башня"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Вояджер V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "Арка"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Проект \"Дождевой лес\""
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Статуя Геи"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Арктическая оранжерея"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Зернохранилище"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Музей Атлантиды"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "Кракен"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "Синяя галактика"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Терракотовая армия"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Замок Химедзи"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "Проект Дева"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Звездочёт"
+
+msgid "foe_data.gb.Space_Carrier"
+msgstr "Космический авианосец"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Зевс"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Коля"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Арка"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "Атлантида"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Кракен"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "София"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "Маяк"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "Оракл"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "Храм"
+
+msgid "foe_data.gb_short.Space_Carrier"
+msgstr "Авианосец"
+
+msgid "foe_data.gb_short.Star_Gazer"
+msgstr "Звездочет"
+
+msgid "foe_data.gb_short.The_Virgo_Project"
+msgstr "Дева"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "Замок"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "Терра"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "Гала"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "Зерно"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "Снег"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Гея"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "Дождь"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Вояджер"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "Вращалка"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Иннова"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "Лотос"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Хаб"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Ракета"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Атом"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "Спейс"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Альк"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "Шато"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "Алберт"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Капитолий"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "Фрау"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "Диль"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "Кастель"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "Вася"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "Нотер"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "Марк"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "Ахен"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Обсерва"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Вавилонка"
+
+msgid "foe_data.goods.marble"
+msgstr "Мрамор"
+
+msgid "foe_data.goods.stone"
+msgstr "Камень"
+
+msgid "foe_data.goods.wine"
+msgstr "Вино"
+
+msgid "foe_data.goods.iron"
+msgstr "Железо"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Алебастр"
+
+msgid "foe_data.goods.copper"
+msgstr "Медь"
+
+msgid "foe_data.goods.gold"
+msgstr "Золото"
+
+msgid "foe_data.goods.honey"
+msgstr "Мед"
+
+msgid "foe_data.goods.glass"
+msgstr "Стекло"
+
+msgid "foe_data.goods.salt"
+msgstr "Соль"
+
+msgid "foe_data.goods.basalt"
+msgstr "Базальт"
+
+msgid "foe_data.goods.brass"
+msgstr "Латунь"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Порох"
+
+msgid "foe_data.goods.silk"
+msgstr "Шёлк"
+
+msgid "foe_data.goods.coffee"
+msgstr "Кофе"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Фарфор"
+
+msgid "foe_data.goods.paper"
+msgstr "Бумага"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Китовый жир"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Асбест"
+
+msgid "foe_data.goods.explosives"
+msgstr "Взрывчатка"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Бензин"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Детали машин"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Дорогие материалы"
+
+msgid "foe_data.goods.packaging"
+msgstr "Упаковка"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Промышленные фильтры"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Полупроводники"
+
+msgid "foe_data.goods.steel"
+msgstr "Сталь"
+
+msgid "foe_data.goods.superalloys"
+msgstr "Суперсплавы"
+
+msgid "foe_data.goods.fusion_reactors"
+msgstr "Термоядерная энергия"
+
+msgid "foe_data.goods.mars_microbes"
+msgstr "Марсианские микробы"
+
+msgid "foe_data.goods.biotech_crops"
+msgstr "Биотехнологические урожаи"
+
+msgid "foe_data.goods.lubricants"
+msgstr "Смазки"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Чайный шелк"
+
+msgid "foe_data.goods.nanites"
+msgstr "Наниты"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Золотой рис"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Кристаллы с данными"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Криптовалюта"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Орихалк"
+
+msgid "foe_data.goods.promethium"
+msgstr "Прометий"
+
+msgid "foe_data.goods.plankton"
+msgstr "Планктон"
+
+msgid "foe_data.goods.pearls"
+msgstr "Жемчужина"
+
+msgid "foe_data.goods.corals"
+msgstr "Кораллы"
+
+msgid "foe_data.goods.biolight"
+msgstr "Биосвет"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Искусственная чешуя"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Переэтерифицированный газ"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Бумажная батарея"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Нановолокно"
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Биопластмасса"
+
+msgid "foe_data.goods.ai_data"
+msgstr "Данные ИИ"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Сверхпроводник"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Очищенная вода"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Наночастица"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Биогеохимические данные"
+
+msgid "foe_data.goods.algae"
+msgstr "Водоросли"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Прозрачный бетон"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Умные материалы"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Консерванты"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Арболит"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Нутрициологические исследования"
+
+msgid "foe_data.goods.robots"
+msgstr "Робот"
+
+msgid "foe_data.goods.plastics"
+msgstr "Пластмасса"
+
+msgid "foe_data.goods.gas"
+msgstr "Газ"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Электромагнит"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Данные бионики"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Возобновляемые ресурсы"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Геномные данные"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Ароматизаторы"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Железобетон"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Полуфабрикаты"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Белая жесть"
+
+msgid "foe_data.goods.coke"
+msgstr "Каменноугольный кокс"
+
+msgid "foe_data.goods.wire"
+msgstr "Проволока"
+
+msgid "foe_data.goods.tar"
+msgstr "Смола"
+
+msgid "foe_data.goods.textiles"
+msgstr "Текстильные изделия"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Удобрения"
+
+msgid "foe_data.goods.rubber"
+msgstr "Резина"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Тальковый порошок"
+
+msgid "foe_data.goods.rope"
+msgstr "Веревка"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Сушёные травы"
+
+msgid "foe_data.goods.brick"
+msgstr "Кирпич"
+
+msgid "foe_data.goods.granite"
+msgstr "Гранит"
+
+msgid "foe_data.goods.limestone"
+msgstr "Известняк"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Ювелирные изделия"
+
+msgid "foe_data.goods.cloth"
+msgstr "Ткань"
+
+msgid "foe_data.goods.ebony"
+msgstr "Черное дерево"
+
+msgid "foe_data.goods.lumber"
+msgstr "Древесина"
+
+msgid "foe_data.goods.dye"
+msgstr "Краска"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Бегемот"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Улинуа"
+
+msgid "foe_data.province.Varseille"
+msgstr "Варсаль"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Пастерра"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Ломбардю"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Дюксерр"
+
+msgid "foe_data.province.Troulope"
+msgstr "Траулуп"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Лавиньон"
+
+msgid "foe_data.province.Narcien"
+msgstr "Нарсиен"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Пепельный рог"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Королевская лощина"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Северная цитадель"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Большой каньон"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Залдон-на-Море"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Серый Топи"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "Черная Бухта"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Кровожадная Гора"
+
+msgid "foe_data.province.FourGallows"
+msgstr "Четыре виселицы"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Вольфгамптон"
+
+msgid "foe_data.province.Spearth"
+msgstr "Спеарф"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Гуттингхэм"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Элденборуг"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Грегшир"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Моравария"
+
+msgid "foe_data.province.Jaims"
+msgstr "Джаимс"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Монс Суири"
+
+msgid "foe_data.province.Frathia"
+msgstr "Фратия"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Велетритес"
+
+msgid "foe_data.province.Canturia"
+msgstr "Кантурия"
+
+msgid "foe_data.province.Breturia"
+msgstr "Бретурия"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Тармелман"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Чертов обрыв"
+
+msgid "foe_data.province.Todepass"
+msgstr "Тоудспасс"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Каньон виселиц"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Каменная низина"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Чертов брод"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Ледяной пруд"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Штормовые вершины"
+
+msgid "foe_data.province.Greifental"
+msgstr "Долина грифов"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Темный лес"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Перцовая гора"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Мактаба"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "Западный Нагах"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "Восточный Нагах"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Каркагу"
+
+msgid "foe_data.province.Ruug"
+msgstr "Рууг"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Паруух"
+
+msgid "foe_data.province.Badakus"
+msgstr "Бадакус"
+
+msgid "foe_data.province.Hymir"
+msgstr "Гумыр"
+
+msgid "foe_data.province.Tyr"
+msgstr "Тюр"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Фел Дрангыр"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Дунарсунд"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Яндагар"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Кумейра"
+
+msgid "foe_data.province.Kardad"
+msgstr "Кардад"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Шайхур"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Сакках"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Аин Аль-Ханса"
+
+msgid "foe_data.province.Salfah"
+msgstr "Сальфа"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Аль-Шадира"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Хафар Аль-Карак"
+
+msgid "foe_data.province.Batif"
+msgstr "Батиф"
+
+msgid "foe_data.province.Khail"
+msgstr "Хаиль"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Город Амарья"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "Онг Ху Куои Кунг"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "Донг Бэнг Сонг"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "Мао Мэ Дэ"
+
+msgid "foe_data.province.PhucKich"
+msgstr "Фук Кихь"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "Гиаи Куу Бинь Минь"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "Рунг Чьен Дао"
+
+msgid "foe_data.province.RungTrai"
+msgstr "Рунг Чай"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "Кхай Хьён Бэй Чио"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "Трунг Дои"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "Дэй Ду Ао"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "Сот Дэм Лэй"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "Чай Чет Нуи"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Тоймуро"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Хиромагучи"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Хибакугуши"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Хикиматсу"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Икамаото"
+
+msgid "foe_data.province.Igioka"
+msgstr "Икиока"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Кушима"
+
+msgid "foe_data.province.Igujima"
+msgstr "Икушима"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Хидзикава"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Нацуишу"
+
+msgid "foe_data.province.Inashu"
+msgstr "Инашу"
+
+msgid "foe_data.province.Gorski"
+msgstr "Горская империя"
+
+msgid "foe_data.province.Uceria"
+msgstr "Уцирия"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Лангенская империя"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Восточная граница"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Кригрейх"
+
+msgid "foe_data.province.Sud"
+msgstr "Сюд"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Гелфорд"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Уксроу"
+
+msgid "foe_data.province.Omoien"
+msgstr "Амойен"
+
+msgid "foe_data.province.Havre"
+msgstr "Гавр"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Веневр"
+
+msgid "foe_data.province.Ydine"
+msgstr "Идинья"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Габордо"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Эмбруниз"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Неваррон"
+
+msgid "foe_data.province.Dorango"
+msgstr "Доранго"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "Санта-Каталина"
+
+msgid "foe_data.province.ElFuego"
+msgstr "Фуэго"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Карринктон"
+
+msgid "foe_data.province.DragonCity"
+msgstr "Город Драконов"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Лас Пенас"
+
+msgid "foe_data.province.St_Marque"
+msgstr "Санта-Марк"
+
+msgid "foe_data.province.Desperation"
+msgstr "Безнадежная провинция"
+
+msgid "foe_data.province.Rantford"
+msgstr "Рантфорт"
+
+msgid "foe_data.province.Okahe"
+msgstr "Огойе"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "Новый Грегшир"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Горная область"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Верхний грот"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Серебряные стаи"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Нижний грот"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Окруженный залив"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Потолок из пены"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Дивный океан"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Красное море"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Безмятежные волны"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Мерцающий прибой"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Неподвижная глубина"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Свежий поток"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Тёмная бездна"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Сильный прилив"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Грубое расширение"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Коралловые глубины"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Проклятое течение"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Мутные воды"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Долина духов"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Храм льда"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "Грот"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Замерзшая степь"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Нейрообряды"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Анлак"
+
+msgid "foe_data.province.Precipice"
+msgstr "Пропасть"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Нанак"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Нанатак"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Ледниковый пик"
+
+msgid "foe_data.province.Anyu"
+msgstr "Энью"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Пимник"
+
+msgid "foe_data.province.Atka"
+msgstr "Атка"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Таттилгат"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Чульин"
+
+msgid "foe_data.province.Nilak"
+msgstr "Нилак"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Килалурак"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Ледяная вершина"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Патуктук"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Камень Тундры"
+
+msgid "foe_data.province.Manirak"
+msgstr "Манирак"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Лавина"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Северный путь"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Адларток"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Кесукавут"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Чугиак"
+
+msgid "foe_data.province.Ilug"
+msgstr "Илуг"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Южная долина"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Замерзшие горы"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Срединные воды"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Снежные наносы"
+
+msgid "foe_data.province.White_Gate"
+msgstr "Белые врата"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Каниит"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ананевут"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Туклавик"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Арктический горизонт"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Колд Бэй"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Автора Дэйл"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Илулиак"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Нутарник"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Форт Бунту"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Бисораба"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Калабайя"
+
+msgid "foe_data.province.Botuku"
+msgstr "Ботуку"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Бонта-таун"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Колабург"
+
+msgid "foe_data.province.Pala"
+msgstr "Пала"
+
+msgid "foe_data.province.Owopele"
+msgstr "Овопеле"
+
+msgid "foe_data.province.Omogba"
+msgstr "Омогба"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Эсан-Эву"
+
+msgid "foe_data.province.Agadar"
+msgstr "Агадар"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Сан-Мальвадо"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Дезертио-де-ла-Муэрте"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Фальза-Крус"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Хаменес"
+
+msgid "foe_data.province.La_Huega"
+msgstr "Ла Хуэга"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Санта-Нерея"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Сьерра-Торридо"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Рио-Роксо"
+
+msgid "foe_data.province.Villariba"
+msgstr "Виллариба"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Бахатай"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Итабарай"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Виллабаха"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Торриньос"
+
+msgid "foe_data.bonus.double_collection.gb_description"
+msgstr ""
+"Дает вам шанс получить удвоенные ресурсы при первых сборах зданий. Исключая "
+"военные и великие строения. Обновляется с каждым сбором этого здания."
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Двойная коллекция"
+
+msgid "foe_data.bonus.military_boost.gb_description"
+msgstr "Повышение атаки и защиты атакующей армии, суммируются с каждым зданием."
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Неистовство"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Чертеж"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "ПвП башня"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "Брильянты"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Медали"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Расширение"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Источник сырья"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Специальные товары"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Товар"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Ресурсы"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Монеты"
+
+msgid "utils.content.tools"
+msgstr "Инструменты"
+
+msgid "utils.content.statistics"
+msgstr "Статистика"
+
+msgid "utils.btn_calculate"
+msgstr "Калькулятор"
+
+msgid "utils.description.p1"
+msgstr "Введите значения. Результат будет обновлен автоматически."
+
+msgid "utils.description.p2_html"
+msgstr ""
+"<strong>Замечание</strong>: Если результат не обновился автоматически, "
+"нажмите \"@:(utils.btn_calculate)\"."
+
+msgid "utils.choose_age"
+msgstr "Выберите эпоху"
+
+msgid "utils.permalink"
+msgstr "Постоянная ссылка"
+
+msgid "utils.Add"
+msgstr "Добавить"
+
+msgid "utils.Remove"
+msgstr "Удалить"
+
+msgid "utils.Yes"
+msgstr "Да"
+
+msgid "utils.No"
+msgstr "Нет"
+
+msgid "utils.Ok"
+msgstr "Ok"
+
+msgid "utils.Copy"
+msgstr "Копировать"
+
+msgid "utils.Copyed"
+msgstr "Скопировано!"
+
+msgid "utils.Information"
+msgstr "Информация"
+
+msgid "utils.From"
+msgstr "От"
+
+msgid "utils.To"
+msgstr "До (максимум {max})"
+
+msgid "utils.Prefix"
+msgstr "Префикс"
+
+msgid "utils.Suffix"
+msgstr "Суффикс"
+
+msgid "utils.Rewards"
+msgstr "Награда"
+
+msgid "utils.moment.year_0"
+msgstr "{count} год"
+
+msgid "utils.moment.year_1"
+msgstr "{count} года"
+
+msgid "utils.moment.year_2"
+msgstr "{count} лет"
+
+msgid "utils.moment.month_0"
+msgstr "{count} месяц"
+
+msgid "utils.moment.month_1"
+msgstr "{count} месяца"
+
+msgid "utils.moment.month_2"
+msgstr "{count} месяцев"
+
+msgid "utils.moment.day_0"
+msgstr "{count} день"
+
+msgid "utils.moment.day_1"
+msgstr "{count} дня"
+
+msgid "utils.moment.day_2"
+msgstr "{count} дней"
+
+msgid "utils.graph.gb_level"
+msgstr "Уровень"
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Стоимость уровня"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "Награда за уровень (1е место)"
+
+msgid "utils.Secured"
+msgstr "Обеспечено"
+
+msgid "seo.keywords.gb"
+msgstr "вс"
+
+msgid "seo.keywords.great_building"
+msgstr "великое строение"
+
+msgid "seo.keywords.fp"
+msgstr "со"
+
+msgid "seo.keywords.forge_point"
+msgstr "стратегическое очко"
+
+msgid "seo.keywords.medals"
+msgstr "медали"
+
+msgid "seo.keywords.military_units"
+msgstr "военные единицы"
+
+msgid "contributions.creator"
+msgstr "Создатель этого проекта"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] ""
+msgstr[1] "Показать дополнительных вкладчиков"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] ""
+msgstr[1] "Скрыть дополнительных вкладчиков"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] ""
+msgstr[1] "Этот игрок потеряет СО"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] ""
+msgstr[1] "За счет бонуса вы сэкономите {count} СО"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] ""
+msgstr[1] "Количество СО, которые осталось вложить до закрытия уровня: {count}"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] ""
+msgstr[1] "{place} ({count} СО)"
+
+msgid "components.secure_position.block_place.result.default"
+msgid_plural "components.secure_position.block_place.result.default"
+msgstr[0] ""
+msgstr[1] "Вы должны вложить всего {count} СО, чтобы занять место."
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgid_plural "components.secure_position.block_place.result.roi.profit"
+msgstr[0] ""
+msgstr[1] "Вы получите {count} СО"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] ""
+msgstr[1] "Вы потеряете {count} СО"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgid_plural "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr[0] ""
+msgstr[1] "Вам нужно вложить еще {count} СО."
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] ""
+msgstr[1] "{count} лет"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] ""
+msgstr[1] "{count} месяцев"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] ""
+msgstr[1] "{count} дней"

@@ -7,14 +7,14 @@ div.content
         gb-list-select(:current="gb.key" @change="goTo($event)")
     div.column.is-half(v-show="canPermalink")
       div.field
-        nuxt-link#permalink.level-right(:to="permaLink" exact)
+        nuxt-link#permalink.level-right(:to="localePath(permaLink)" exact)
           span.icon
             i.fas.fa-link
           | &nbsp;{{$t('utils.permalink')}}
 
   h4.title.is-4 {{$t('routes.gb_investment_gb_chooser.hero.title')}}
 
-  p {{$t($data.i18nPrefix + 'description.p1', { count: maxConsideration })}}
+  p {{$t($data.i18nPrefix + 'description.p1', { count: $n(maxConsideration) })}}
 
   p
     b {{$t($data.i18nPrefix + 'takingPlaceInConsideration.form.no')}}
@@ -92,7 +92,7 @@ div.content
             p {{$t("components.gb_investment.gb_investment.table.tfoot.level_cost")}}
           template(v-for="(value, index) in showPlace")
             th(colspan=3 v-show="showPlace[index]")
-              p {{$t(i18nPrefix + "table.thead.th_place", { count: index + 1 })}}
+              p {{$t(i18nPrefix + "table.thead.th_place", { count: $n(index + 1) })}}
         tr
           template(v-for="(value, index) in showPlace")
             th(v-show="showPlace[index]")
@@ -105,32 +105,32 @@ div.content
       tbody
         tr(v-for="(line, lineIndex) in result.slice(from - 1, to)")
           td.has-text-right
-            p {{$formatNumber(lineIndex + from - 1)}} → {{$formatNumber(lineIndex + from)}}
+            p {{$n(lineIndex + from - 1)}} → {{$n(lineIndex + from)}}
           td.has-text-right
-            p {{$formatNumber(line.cost)}}
+            p {{$n(line.cost)}}
 
           template(v-for="(value, index) in showPlace")
             td.has-text-right(v-show="showPlace[index]")
-              p(v-if="takingPlaceInConsideration === 2") {{$formatNumber(line.investment[index].reward) + " ("}}
-                b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t('components.gb_investment.gb_investment.table.thead.expected_participation')" dashed) {{$formatNumber(line.investment[index].participation)}}
+              p(v-if="takingPlaceInConsideration === 2") {{$n(line.investment[index].reward) + " ("}}
+                b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t('components.gb_investment.gb_investment.table.thead.expected_participation')" dashed) {{$n(line.investment[index].participation)}}
                 | &nbsp;|&nbsp;
-                b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t('components.gb_investment.gb_investment.table.thead.real_participation')" dashed) {{$formatNumber(line.investment[index].realParticipation)}}
+                b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t('components.gb_investment.gb_investment.table.thead.real_participation')" dashed) {{$n(line.investment[index].realParticipation)}}
                 | )
-              p(v-else) {{$formatNumber(line.investment[index].reward) + " (" + $formatNumber(line.investment[index].participation) + ")" }}
+              p(v-else) {{$n(line.investment[index].reward) + " (" + $n(line.investment[index].participation) + ")" }}
             td.has-text-right(v-show="showPlace[index]")
-              p(v-if="takingPlaceInConsideration === 2") {{$formatNumber(line.investment[index].participation) + " ("}}
-                b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t('components.gb_investment.gb_investment.table.thead.th3')" dashed) {{$formatNumber(line.investment[index].preparation)}}
+              p(v-if="takingPlaceInConsideration === 2") {{$n(line.investment[index].participation) + " ("}}
+                b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t('components.gb_investment.gb_investment.table.thead.th3')" dashed) {{$n(line.investment[index].preparation)}}
                 | )
-              p(v-else) {{$formatNumber(line.investment[index].fp)}}
+              p(v-else) {{$n(line.investment[index].fp)}}
             td.has-text-right(v-show="showPlace[index]")
               p(v-if="line.investment[index].roi > 0")
                 span.icon.is-medium.has-text-success(style="vertical-align: middle;")
                   i.fas.fa-arrow-up
-                | {{$formatNumber(Math.abs(line.investment[index].roi))}}
+                | {{$n(Math.abs(line.investment[index].roi))}}
               p(v-else-if="line.investment[index].roi < 0")
                 span.icon.is-medium.has-text-danger(style="vertical-align: middle;")
                   i.fas.fa-arrow-down
-                | {{$formatNumber(Math.abs(line.investment[index].roi))}}
+                | {{$n(Math.abs(line.investment[index].roi))}}
               p(v-else)
                 span.icon.is-medium(style="vertical-align: middle;")
                   i.fas.fa-exchange-alt
@@ -144,11 +144,11 @@ div.content
               p(v-if="result.globalProfitLoss[index] > 0")
                 span.icon.is-medium.has-text-success(style="vertical-align: middle;")
                   i.fas.fa-arrow-up
-                | {{ $formatNumber(Math.abs(result.globalProfitLoss[index])) }}
+                | {{ $n(Math.abs(result.globalProfitLoss[index])) }}
               p(v-else-if="result.globalProfitLoss[index] < 0")
                 span.icon.is-medium.has-text-danger(style="vertical-align: middle;")
                   i.fas.fa-arrow-down
-                | {{ $formatNumber(Math.abs(result.globalProfitLoss[index])) }}
+                | {{ $n(Math.abs(result.globalProfitLoss[index])) }}
               p(v-else)
                 span.icon.is-medium(style="vertical-align: middle;")
                   i.fas.fa-exchange-alt

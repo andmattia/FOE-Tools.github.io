@@ -5,7 +5,7 @@ div.content
         h3.title.is-3 {{$t(i18nPrefix + 'title')}}
     div.column.is-half
       div.field
-        nuxt-link#permalink.level-right(:to="permaLink" exact)
+        nuxt-link#permalink.level-right(:to="localePath(permaLink)" exact)
           span.icon
             i.fas.fa-link
           | &nbsp;{{$t('utils.permalink')}}

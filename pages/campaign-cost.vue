@@ -1,5 +1,5 @@
 <script>
-import Page from "~/pages/_lang/campaign-cost";
+import Page from "~/pages/campaign-cost/CampaignCost";
 export default Page;
 </script>
 

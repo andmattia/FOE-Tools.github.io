@@ -12,7 +12,7 @@ export default {
   props: {
     gbKey: {
       type: String,
-      default: Observatory.key
+      default: Observatory.key,
     },
     messageInterpolation: {
       type: Array,
@@ -21,9 +21,9 @@ export default {
           { key: "FLVL", value: 9 },
           { key: "TLVL", value: 10 },
           { key: "OP", value: 430 },
-          { key: "LC", value: 650 }
+          { key: "LC", value: 650 },
         ];
-      }
+      },
     },
     placesInterpolationValues: {
       type: Array,
@@ -41,12 +41,12 @@ export default {
             { key: "PV", value: RewardsAt90Percent[i], free: true },
             { key: "PP", value: ownerPreparation[i] },
             { key: "FLVL", value: 9 },
-            { key: "TLVL", value: 10 }
+            { key: "TLVL", value: 10 },
           ]);
         }
         return placesInterpolationValues;
-      }
-    }
+      },
+    },
   },
   data() {
     const defaultTemplates = PMBuilder.defaultPromotionMessages;
@@ -54,7 +54,7 @@ export default {
     const data = {
       i18nPrefix,
       tooltips: {
-        config: false
+        config: false,
       },
       action: "create",
       templateName: "",
@@ -73,12 +73,12 @@ export default {
         placeSeparator: "",
         place: "",
         message: "",
-        customFields: {}
+        customFields: {},
       },
       errors: {
         templateName: { found: false, message: "" },
-        addFieldName: { found: false, message: "" }
-      }
+        addFieldName: { found: false, message: "" },
+      },
     };
 
     return data;
@@ -93,7 +93,7 @@ export default {
     customFields() {
       return !this.$data.result.customFields
         ? []
-        : Object.keys(this.$data.result.customFields).map(key => this.$data.result.customFields[key]);
+        : Object.keys(this.$data.result.customFields).map((key) => this.$data.result.customFields[key]);
     },
     placePreview() {
       return !this.result.place || !this.result.place.length
@@ -126,7 +126,7 @@ export default {
             this.$props.messageInterpolation,
             this.$props.placesInterpolationValues
           );
-    }
+    },
   },
   watch: {
     lang() {
@@ -148,8 +148,8 @@ export default {
     },
     startFromTemplate(templateID) {
       const tmp = defaultTemplateNameRegex.test(templateID)
-        ? this.defaultTemplates.find(elt => elt.id === templateID)
-        : this.customTemplates.find(elt => elt.id === templateID);
+        ? this.defaultTemplates.find((elt) => elt.id === templateID)
+        : this.customTemplates.find((elt) => elt.id === templateID);
       this.result = { customFields: {}, ...this.$clone(tmp.config) };
       this.$data.IdEditedTemplate = templateID;
       if (this.action === "update") {
@@ -164,14 +164,14 @@ export default {
         this.$data.errors.addFieldName.found = false;
         this.$data.errors.addFieldName.message = "";
       }
-    }
+    },
   },
   methods: {
     successCopy(index) {
       this.tooltips[index] = true;
       let self = this;
       /* istanbul ignore next */
-      setTimeout(function() {
+      setTimeout(function () {
         self.tooltips[index] = false;
       }, 3000);
     },
@@ -197,7 +197,7 @@ export default {
       if (!result) {
         result = [];
       }
-      const ids = this.customTemplates.map(elt => elt.id);
+      const ids = this.customTemplates.map((elt) => elt.id);
       if (this.action === "update") {
         let index = ids.indexOf(this.IdEditedTemplate);
         if (index >= 0) {
@@ -218,14 +218,14 @@ export default {
       this.$buefy.notification.open({
         message: this.$t(i18nPrefix + (this.action === "update" ? "template_updated" : "template_saved")),
         type: "is-success",
-        duration: 5000
+        duration: 5000,
       });
     },
     deleteTemplate() {
       if (!this.startFromTemplate || !this.startFromTemplate.length) {
         return;
       }
-      const index = this.customTemplates.map(elt => elt.id).indexOf(this.startFromTemplate);
+      const index = this.customTemplates.map((elt) => elt.id).indexOf(this.startFromTemplate);
       this.customTemplates.splice(index, 1);
 
       this.$store.set(`global/customPromotionMessagesTemplates`, this.$clone(this.customTemplates));
@@ -233,7 +233,7 @@ export default {
       this.$buefy.notification.open({
         message: this.$t(i18nPrefix + "template_deleted"),
         type: "is-success",
-        duration: 5000
+        duration: 5000,
       });
     },
     addCustomField() {
@@ -255,7 +255,7 @@ export default {
         key: this.$data.addFieldName,
         value: "",
         placeholder: this.$data.addFieldValue,
-        show: true
+        show: true,
       };
       this.$data.result.customFields = obj;
       this.$data.addFieldName = "";
@@ -275,10 +275,10 @@ export default {
     },
     getErrorMessage(input) {
       return this.$data.errors[input].found ? this.$data.errors[input].message : "";
-    }
+    },
   },
   components: {
     yesNo,
-    numberinput
-  }
+    numberinput,
+  },
 };

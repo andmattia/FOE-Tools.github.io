@@ -4,18 +4,19 @@ module.exports = {
     "js",
     "json",
     // tell Jest to handle `*.vue` files
-    "vue"
+    "vue",
   ],
   transform: {
     // process `*.vue` files with `vue-jest`
-    ".*\\.(vue)$": "vue-jest",
+    ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest",
     // process js with `babel-jest`
-    "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
   },
   // support the same @ -> src alias mapping in source code
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1",
-    "^~/(.*)$": "<rootDir>/$1"
+    "^~/(.*)$": "<rootDir>/$1",
+    "^~~/(.*)$": "<rootDir>/$1",
   },
   setupFiles: ["<rootDir>/test/unit/setup", "jest-localstorage-mock"],
   snapshotSerializers: ["<rootDir>/node_modules/jest-serializer-vue"],
@@ -43,7 +44,7 @@ module.exports = {
     "!**/layouts/**/script.js",
     "!**/scripts/tutorial.js",
     "!**/store/global.js",
-    "!**/store/profile.js"
+    "!**/store/profile.js",
   ],
-  coverageReporters: ["html", "text", "text-summary"]
+  coverageReporters: ["html", "text", "text-summary"],
 };

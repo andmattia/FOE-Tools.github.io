@@ -1,23 +1,6 @@
 const { join } = require("path");
 const { existsSync, readFileSync, writeFileSync, mkdirSync } = require("fs");
-
-const supportedLocales = [
-  "en",
-  "fr",
-  "de",
-  "ru",
-  "nl",
-  "hu",
-  "pl",
-  "sv",
-  "pt",
-  "es",
-  "sk",
-  "tr",
-  "it",
-  "cs",
-  "da"
-];
+const { supportedLocales } = require("../../scripts/locales");
 
 module.exports = async function () {
   const { rootDir, generate: { dir: generateDir } } = this.options;

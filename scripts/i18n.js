@@ -36,7 +36,7 @@ export function initializeI18next() {
     fallbackNS: ["common"],
     resources,
     interpolation: {
-      format: function(value, format, lng) {
+      format: function (value, format, lng) {
         if (format === "number") {
           if (numeralSpecialLocales[lng]) {
             numeral.locale(numeralSpecialLocales[lng]);
@@ -46,8 +46,8 @@ export function initializeI18next() {
           return numeral(value).format("0,0");
         }
         return value;
-      }
-    }
+      },
+    },
   });
 }
 

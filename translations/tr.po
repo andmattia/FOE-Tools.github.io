@@ -1,0 +1,3261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"POT-Creation-Date: 2020-08-21T21:00:52.270Z\n"
+"PO-Revision-Date: 2020-08-21T21:00:52.270Z\n"
+"Language: tr\n"
+
+msgid "main_menu.home"
+msgstr "Ana Sayfa"
+
+msgid "main_menu.gb_investment"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "main_menu.secure_position"
+msgstr "@:(routes.secure_position.hero.title)"
+
+msgid "main_menu.cf_calculator"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "main_menu.gb_statistics"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "main_menu.gb_forecast_cost"
+msgstr "@:(routes.gb_forecast_cost.hero.title)"
+
+msgid "main_menu.trade"
+msgstr "@:(routes.trade.hero.title)"
+
+msgid "main_menu.help_to_translate_the_site"
+msgstr "@:(routes.help_to_translate_the_site.hero.title)"
+
+msgid "main_menu.campaign_cost"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "footer_menu.about"
+msgstr "Hakkımızda"
+
+msgid "footer_menu.contributors"
+msgstr "Katkıda Bulunanlar"
+
+msgid "footer_menu.changelog"
+msgstr "Değişiklikler"
+
+msgid "footer_menu.contact"
+msgstr "İletişim"
+
+msgid "components.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title)"
+
+msgid "components.campaign_cost.choose_province"
+msgstr "Bölge seçin"
+
+msgid "components.campaign_cost.message.haveUnknownCosts"
+msgstr "Bu bölgede değerleri eksik olan bir veya daha fazla sektör var."
+
+msgid "components.cf_calculator.block_cfc.title"
+msgstr "@:(routes.cf_calculator.hero.title)"
+
+msgid "components.cf_calculator.block_cfc.your_age"
+msgstr "Çağınız"
+
+msgid "components.cf_calculator.block_cfc.your_cf_boost"
+msgstr "@:(foe_data.gb.Chateau_Frontenac) Bonusunuz"
+
+msgid "components.cf_calculator.block_cfc.coins_to_use"
+msgstr "Sıradan Gün Partisi'nin istediği para"
+
+msgid "components.cf_calculator.block_cfc.coins_supplies_info"
+msgstr ""
+"Bu değer {min} değerinden büyük veya ona eşit olmalıdır, çünkü bunun "
+"altındaki değer kazançı (istatistiksel olarak) garanti etmez"
+
+msgid "components.cf_calculator.block_cfc.supplies_to_use"
+msgstr "Sıradan Gün Partisi'nin istediği erzak"
+
+msgid "components.cf_calculator.block_cfc.gb_plunder_goods"
+msgstr "DB ve Yağma Malları"
+
+msgid "components.cf_calculator.block_cfc.fp_by_24h"
+msgstr "24 Saat FP üretimi"
+
+msgid "components.cf_calculator.block_cfc.other_rq"
+msgstr "Diğer Günlük Yinelenen Görevler"
+
+msgid "components.cf_calculator.block_cfc.second_rq"
+msgstr "2. Yinelenen Görev ?"
+
+msgid "components.cf_calculator.block_cfc.supplies_gathered"
+msgstr "Toplanan Malzemeler"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th1"
+msgstr "Ozalitler"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th2"
+msgstr "Madalyalar"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th3"
+msgstr "Ürünler"
+
+msgid "components.cf_calculator.block_cfc.table_reward.thead.th4"
+msgstr "FP'ler"
+
+msgid "components.cf_calculator.block_cfc.reward_message.daily_ubq"
+msgstr "Günlük Sıradan Gün Partisi Sayısı: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.bonus_ubq"
+msgstr "Sıradan Günü Partisi Bonusu: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.second_rq_"
+"completed"
+msgstr "Tamamlanan 2. Yinelenen Görev: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_goods"
+msgstr "Toplam Ürünler: {count}"
+
+msgid "components.cf_calculator.block_cfc.reward_message.total_fp"
+msgstr "Toplam FP: {count}"
+
+msgid ""
+"components.cf_calculator.block_cfc.reward_message.total_rq_"
+"completed"
+msgstr "Toplam Tamamlanan Yinelenen Görev Sayısı: {count}"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_level"
+msgstr "Seviye"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_coin"
+msgstr "Gelen Para"
+
+msgid "components.cf_calculator.block_cfc.table_return.thead.th_supply"
+msgstr "Gelen Erzak"
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.message"
+msgstr ""
+"Şu anki görevleri tamamlamak için @:(foe_data.gb.Chateau_Frontenac) bonusu "
+"ile,  kullanacağından daha fazla para ve malzeme kazanacaksın. Lütfen "
+"yapmak istediğiniz "
+"\"@:(components.cf_calculator.block_cfc.infinity_generator.label)\" "
+"sayısını seçin."
+
+msgid "components.cf_calculator.block_cfc.infinity_generator.label"
+msgstr "Birikimli görev"
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Devasa Binayı Değiştir"
+
+msgid "components.gb_investment.gb_list_select.info"
+msgstr ""
+"Genel ayarlarda seçicinin stilini (eski seçici veya otomatik tamamlama) "
+"değiştirebilirsiniz"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Seviye ve Ark bonus yüzdesi girin (80 Seviye Ark için %90 oran). Tablodaki "
+"değerler otomatik olarak güncellenir."
+
+msgid "components.gb_investment.gb_investment.description.p2_html"
+msgstr ""
+"<strong>Not </strong>: Güncelleme otomatik olarak yapılmazsa, önce GB "
+"seviyesini ve genel yatırım değerini ayarlayın ve "
+"\"@:(components.gb_investment.gb_investment.form.submit_global)\" üzerine "
+"tıklayın. Her bir yerin değerlerini ayarlamak istiyorsanız, uygunluğunuzu "
+"ayarlayın ve "
+"\"@:(components.gb_investment.gb_investment.form.submit_custom)\" üzerine "
+"tıklayın."
+
+msgid "components.gb_investment.gb_investment.form.level"
+msgstr ""
+"Seviye {fromLevel} → {level} ($t(utils.between_range, { 'min': '{min}', "
+"'max': '{max}' }))"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "FP atacak kişilerin Ark bonusu"
+
+msgid "components.gb_investment.gb_investment.form.submit_global"
+msgstr "Global hesaplama"
+
+msgid "components.gb_investment.gb_investment.form.submit_custom"
+msgstr "Özel hesaplama"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "Bina sahibinin atmış olduğu FP miktarı (Maksimum {max})"
+
+msgid "components.gb_investment.gb_investment.form.add_investors"
+msgstr ""
+"Yatırımcı ekle (\n"
+"$t(utils.between_range, { 'min': '{min}', 'max': '{max}' }) FP değeri "
+"girin, )"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr "FP atan kişi girmek için @:(utils.Add)'e basın veya Enter tuşuna basın"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "FP atanların olduğu liste"
+
+msgid "components.gb_investment.gb_investment.form.show_snipe"
+msgstr "Bina kilitlemeyi göster"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Yalnızca garantili yerleri göster"
+
+msgid "components.gb_investment.gb_investment.form.display_card"
+msgstr "Kart görünümde gösterilsin mi?(küçük ekranda)"
+
+msgid "components.gb_investment.gb_investment.table.title"
+msgstr "{gb_key} seviye {fromLevel}→ {level}"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Sıralar"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Varsayılan ödüller"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "Sırayı garantilemek için bina sahibinin atması gereken FP"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Bonusla birlikte ödül"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "FP atacak kişilerin Ark bonusu"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Tanıtım mesajına dahil et"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Şu an atılmış FP sayısı"
+
+msgid "components.gb_investment.gb_investment.table.thead.spot_snipe"
+msgstr "Bina kilitleme"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr "FP sahibinin % bonus ile kazancı"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "Ark'ınızın % bonus'uyla elde edilen FP"
+
+msgid "components.gb_investment.gb_investment.table.thead.is_sniper"
+msgstr "Potansiyel bir keskin nişancı mı?"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Ekstra yatırımcı göster"
+msgstr[1] "Ekstra yatırımcıları göster"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Ekstra yatırımcıyı gizle"
+msgstr[1] "Ekstra yatırımcıları gizle"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Bu oyuncu FP kaybedece"
+msgstr[1] "Bu oyuncu FP kaybedecek"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "Sıranın garantilenmesi için bina sahibinin atması gereken kalan FP miktarı"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Beklenen yatırım"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Bu oyuncu kar edecek"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Bu oyuncu ne kar eder ne de zarar"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Bina sahibinin atması gereken toplam FP"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "Seviyeyi tamamlamak için sahibinin atması gereken FP'ler"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Seviyenin maliyeti"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "DB'nın ismi gösterilsin mi?"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Kısa isim kullan?"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Seviyeyi göster?"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Tanıtım mesajı"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "Tanıtım mesajından önceki metin"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "Tanıtım mesajından sonraki metin"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"P1 ({investment})\n"
+"P2 ({investment})\n"
+"P3 ({investment})\n"
+"P4 ({investment})\n"
+"P5 ({investment})"
+
+msgid "components.gb_investment_investors.description.p1"
+msgstr ""
+"Bu görüş, başka yerlerdeki yatırımları hesaba katarak veya hesaba katmadan "
+"bir yer alarak elde edilebilecek kazancı görmeyi sağlar.Diğer yerler için  "
+"{count}türleri var:"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"label"
+msgstr "Diğer yerler içinde dikkate alınsın mı?"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Sırayı göster"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.normal"
+msgstr "Normal"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Uygun"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "diğer yerleri dikkate almayın"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.normal"
+msgstr ""
+"diğer sıraları, yatırımcılardan minimum yatırımla ve bina sahibi tarafından "
+"garantileme olmadan hesaba kat"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.optimal"
+msgstr ""
+"diğer sıraları, kâr olmadan yatırımlar ve bina sahibi tarafından "
+"garantileme ile hesaba kat"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Sıra {count}"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Kazanç / Kayıp"
+
+msgid "components.gb_forecast_cost.title"
+msgstr "Tahmin"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Ark bonusuyla veya Ark bonusu olmadan, bir seviyeden diğer bir seviyeye "
+"geçiş için gereken FP sayısını hesapla"
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Farklı bir Ark bonus oranı (her sıra için)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Seviyeye ulaşmak için tahmini zaman"
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] "Atılan bonuslu FP'lerle, {count} FP kazanç sağlayacaksınız."
+msgstr[1] "Bonuslarla birlikte, {count} FP tasarruf edeceksiniz"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"{gb} binasının {level} seviyesini tamamlamak için bina sahibi {preparation} "
+"FP atmalıdır. Bu seviyenin toplam maliyeti: {cost} FP."
+
+msgid "components.gb_forecast_cost.message.multi"
+msgstr ""
+"{gb} Devasal Binasının, Seviye {from}'den {to}'e geçmesi için; bina "
+"sahibinin {preparation} FP yatırması gerekiyor. Tüm seviyeler için gereken "
+"toplam FP: {cost}"
+
+msgid "components.gb_forecast_cost.message.estimated_time"
+msgstr "Bu seviyeye ulaşmak için gereken zaman: {time}"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "Bina sahibinin şu anki seviyede atmış olduğu FP"
+
+msgid "components.gb_forecast_cost.graph.title"
+msgstr "{gb} Devasal Binası için bina sahibinin tahmini FP miktarı"
+
+msgid "components.gb_forecast_cost.graph.x_axes_label"
+msgstr "@:(utils.graph.gb_level)"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Bu seviyenin brüt maliyeti"
+
+msgid "components.gb_forecast_cost.graph.label.default_preparation"
+msgstr "Bonussuz olarak gereken FP miktarı"
+
+msgid "components.gb_forecast_cost.graph.label.custom_preparation"
+msgstr "Bonuslu olarak gereken FP miktarı"
+
+msgid "components.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title)"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"Grafikler çağlara göre ayarlanır; aynı çağın devasal binalarının seviye "
+"yükseltme bedeli / ödülleri aynıdır. (@:(foe_data.gb.Oracle_of_Delphi) "
+"İstisnadır)"
+
+msgid "components.gb_statistics.represent"
+msgstr "Kılavuz:"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Seviye maliyetinin seviyelere göre değişimi"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Birinci sıra ödülünün seviyelere göre değişimi"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr "Seviye maliyetlerinin ilk sıra ödülüne göre değişimi"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr "İlk sıra ödülünün seviye maliyetlerine göre değişimi"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] "Bu seviyeyi tamamlamak için gereken FP sayısı:"
+msgstr[1] "Bu seviyeyi tamamlamak için gereken FP sayısı:"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] "{place} ({count} FP)"
+msgstr[1] "{place} ({count} FP)"
+
+msgid "components.secure_position.block_place.title"
+msgstr "Birinin sırasını kilitle"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Seviyenin toplam maliyeti"
+
+msgid "components.secure_position.block_place.current_deposits"
+msgstr "Yatırımların toplamı"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Güncel yatırımınız"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "Geçilecek oyuncunun yatırımı"
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Ark bonusunuz"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "Hedeflenen sıra için gereken FP"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Hedeflenen sıra"
+
+msgid "components.secure_position.block_place.various_rate"
+msgstr "Değişik oranlar"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Oran"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "Orana göre atılacak FP"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "Sıranızı kilitlemek için atılacak FP"
+
+msgid "components.secure_position.block_place.result.default"
+msgid_plural "components.secure_position.block_place.result.default"
+msgstr[0] "Sırayı kilitlemek için {count} FP'ye sahip olmalısınız."
+msgstr[1] "Sırayı kilitlemek için {count} FP'ye sahip olmalısınız."
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] "Sırayı kilitlemek için için sahip olmanız gereken FP:"
+msgstr[1] "Yerinizi garantilemeniz için yatırmanız gereken FP sayısı"
+
+msgid "components.secure_position.block_place.result.fp_to_secure_html"
+msgid_plural "components.secure_position.block_place.result.fp_to_secure_html"
+msgstr[0] "Hala {count} FP atmanız gerekli."
+msgstr[1] "Hala  {count} FP atmanız gerekli."
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Bir veya daha fazla değer geçersiz."
+
+msgid "components.secure_position.block_place.result.roi.profit"
+msgid_plural "components.secure_position.block_place.result.roi.profit"
+msgstr[0] "{count} FP kazanacaksınız"
+msgstr[1] "{count} FP kazancaksınız"
+
+msgid "components.secure_position.block_place.result.roi.loss"
+msgid_plural "components.secure_position.block_place.result.roi.loss"
+msgstr[0] "{count} FP kaybedeceksiniz"
+msgstr[1] "{count} FP kaybedeceksiniz"
+
+msgid "components.secure_position.block_place.result.roi.neutral"
+msgstr "Bu yatırımdan kazancınız olmayacak"
+
+msgid "components.secure_position.block_place.result.already_blocked"
+msgstr "Sıranız kilitlendi"
+
+msgid "components.secure_position.block_place.result.still_to_put"
+msgstr "Hala yatırmanız gereken FP sayısı"
+
+msgid "components.secure_position.block_place.result.cant_block"
+msgstr "Bu sırayı kilitleyemezsin."
+
+msgid "components.secure_position.block_place.unknown"
+msgstr "bilinmeyen"
+
+msgid "components.simple_trade.title"
+msgstr "Tablo versiyonu"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Çağ"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Ürünler"
+
+msgid "components.simple_trade.table.thead.th3"
+msgstr "@:(components.trade.label.i_want)"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Sonuç"
+
+msgid "components.simple_trade.table.thead.split"
+msgstr "Ayrılmış şekli:"
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Oran"
+
+msgid "components.simple_trade.slpit"
+msgstr "Teklifleri ayır ?"
+
+msgid "components.simple_trade.show_ratio"
+msgstr "Oranı göster"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] "Son ziyaretinizden bu yana bir güncelleme var."
+msgstr[1] "Son ziyaretinizden bu yana {count} güncelleme var."
+
+msgid "components.site_layout.hero.title"
+msgstr "@:(common.site_title)"
+
+msgid "components.site_layout.hero.slogan_html"
+msgstr "@:(common.links.foe) tecrübenizi kolaylaştırmaya yaran birkaç araç."
+
+msgid "components.site_layout.cookie.message"
+msgstr ""
+"@:(common.site_title) sitesini kullanmaya devam ederek, kullanımınızı "
+"kolaylaştırmak için çerezlerin kullanılmasını kabul etmiş olursunuz."
+
+msgid "components.site_layout.cookie.link"
+msgstr "Daha fazla bilgi"
+
+msgid "components.site_layout.new_year.message"
+msgid_plural "components.site_layout.new_year.message"
+msgstr[0] "@:(common.site_title), {count}. yılını kutluyor"
+msgstr[1] "@:(common.site_title), {count}. yılını kutluyor"
+
+msgid "components.site_layout.survey.message"
+msgstr ""
+"Bu anketi tamamlayarak @:(common.site_title) sitemizi geliştirmemize yardım "
+"edin"
+
+msgid "components.site_layout.whats_new"
+msgstr "Yeni ne var ?"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"Kalıcı bir bağlantı ziyaret ediyorsunuz. Yapılan değişiklikler çerezlere "
+"kaydedilmeyecektir."
+
+msgid "components.site_layout.footer.license_html"
+msgstr "Kaynak kodu @:(common.links.mit) lisansı altındadır"
+
+msgid "components.site_layout.footer.version"
+msgstr "Sürüm {version}"
+
+msgid "components.site_layout.day_night.Day"
+msgstr "Gün"
+
+msgid "components.site_layout.day_night.start_day"
+msgstr "Gündüz versiyonunu başlat"
+
+msgid "components.site_layout.day_night.Night"
+msgstr "Gece"
+
+msgid "components.site_layout.day_night.start_night"
+msgstr "Gece versiyonunu başlat"
+
+msgid "components.site_layout.day_night.Auto"
+msgstr ""
+"Otomatik "
+"@:(components.site_layout.day_night.Day)/@:(components.site_layout.day_"
+"night.Night)"
+
+msgid "components.site_layout.global_config"
+msgstr "Genel ayarlar"
+
+msgid "components.site_layout.global_config_dialog.fixed_main_menu"
+msgstr "Ana menü her zaman görünür"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "Devasa Bina Seçim Stili"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Otomatik Tamamla"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Çağa göre seç"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Tema"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Gün"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Gece"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Otomatik"
+
+msgid "components.site_layout.switch_locale"
+msgstr "Sizin diliniz artık @:(common.site_title)'da mevcut"
+
+msgid "components.trade.title"
+msgstr "Form versiyonu"
+
+msgid "components.trade.label.i_have"
+msgstr "Sahip olduğum ürünün çağı"
+
+msgid "components.trade.label.i_want"
+msgstr "İstediğim ürünün çağı"
+
+msgid "components.trade.label.amount"
+msgstr "Miktar"
+
+msgid "components.trade.split_value"
+msgstr "Teklifin boyutu (max {count})"
+
+msgid "components.trade.split_message.msg"
+msgstr "{valueTo}{ageTo} için {valueFrom}{ageFrom}"
+
+msgid "components.trade.split_message.common"
+msgstr "{count} x (@:(components.trade.split_message.msg))"
+
+msgid "components.trade.split_message.multi"
+msgstr "@:(components.trade.split_message.common) ve {secondPart}"
+
+msgid "components.trade.message.result"
+msgstr ""
+"{to} {ageTo} ürünü için, {count} ürüne kadar {from} {ageFrom} ürününe "
+"ihtiyacınız olacak."
+
+msgid "components.trade.message.total"
+msgstr "(toplamda: {amount}{key})"
+
+msgid "components.promotion_message_builder.title"
+msgstr "Tanıtım mesajı yaratıcı"
+
+msgid "components.promotion_message_builder.info"
+msgstr "Bu metin paylaşılmak üzere kopyalanabilir; örneğin lonca arkadaşlarınız ile."
+
+msgid "components.promotion_message_builder.note"
+msgstr ""
+"Mesaj yaratıcı, önizleme için @:(foe_data.gb.Observatory) binasının seviye "
+"9 → 10 arasını, 1.9 oranla gösterir."
+
+msgid "components.promotion_message_builder.action"
+msgstr "Eylem"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Yeni bir şablon oluştur"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Mevcut şablonu güncelle"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Mevcut şablonu sil"
+
+msgid "components.promotion_message_builder.start_from_template"
+msgstr "Şablon kullan ?"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Düzenlenecek şablonu seçin"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Silinecek şablonu seçin"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Varsayılan şablonlar"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Özel şablonlar"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Yapılandırma"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Özel alanlar ekle"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Alan adı"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Alan değeri"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Özel alanlarınız"
+
+msgid "components.promotion_message_builder.use_short_name"
+msgstr "@:(components.gb_investment.gb_investment.use_short_name)"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Ters sıra ile göster?"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Ayırıcı yerleştirin"
+
+msgid "components.promotion_message_builder.place_builder"
+msgstr "Sıra yaratıcı"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Yer önizlemesi (1. Sıra)"
+
+msgid "components.promotion_message_builder.message_builder"
+msgstr "Mesaj yaratıcı"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Mesaj önizlemesi"
+
+msgid "components.promotion_message_builder.place_builder_title"
+msgstr "Sıra yaratıcı"
+
+msgid "components.promotion_message_builder.message_builder_title"
+msgstr "Mesaj yaratıcı"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Mevcut değişkenler:"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Sıra dizini"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Sıra değeri (FP cinsinden)"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Şu seviyeden"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Şu seviyeye"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "Devasal Bina ismi"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Sıralar"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr "Sahibin \"x\" sırası için atacağı FP sayısı (\"x\" ile 1'den 5'e kadar)"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Satır akışı, yeni satır ekle"
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Şablon adı"
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr "Şablon bu isimde olamaz. Lütfen başka bir isim kullanın."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "Alanın adı boş olamaz."
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Bu alan adı zaten var."
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Şablon kaydedildi"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Şablon güncellendi"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Şablon silindi"
+
+msgid "components.import_promotion_message.title"
+msgstr "Tanıtım mesajını dışarıdan al"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Yapılandırmanızı buraya yapıştırın"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Geçersiz veri"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Şablon dışarıdan alındı"
+
+msgid "routes.home.title"
+msgstr "@:(common.site_title)"
+
+msgid "routes.about.title"
+msgstr " @:(common.site_title) Hakkında"
+
+msgid "routes.about.general_info.title"
+msgstr "Genel bilgi"
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Forge of Empires, FOE ve tüm ilişkili markalar ve içerik InnoGames GmbH'ye "
+"aittir. <br/> @:(common.site_title) ise resmi olmayan, üçüncü kişilere ait "
+"ve InnoGame ile bağlantılı değildir."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"@:(common.site_title) Fransız oyuncu <strong "
+"class=\"has-text-weight-semibold\">Yoratheon</strong> tarafından yaratıldı."
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"Bu site açık kaynak kodlu bir site olmakla birlikte @:(common.links.github) "
+"üzerinden bedava olarak kullanılabilir.<br/> Bu sayede gerekli becerilere "
+"sahip herkes bu sitenin geliştirilmesinde katkıda bulunabilir."
+
+msgid "routes.about.cookie.title"
+msgstr "Çerezler"
+
+msgid "routes.about.cookie.p1"
+msgstr "Bu site kullanımınızı rahatlatmak için çerezleri kullanır."
+
+msgid "routes.about.cookie.table_message"
+msgstr "Aşağıdaki tabloda bu sitede kullanılan tüm çerezler gösterilmektedir."
+
+msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
+msgstr ""
+"Çerezlerin kullanılması ile ilgili bilgilendirme mesajını okuduğunuzu "
+"gösterir"
+
+msgid "routes.about.cookie.info.gbi_tab"
+msgstr ""
+"Varsayılan olarak hangi sekmenin yükleneceğini belirten "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\" için genel parametre "
+"(@:(routes.gb_investment.tab.owner_view.title), vb.)"
+
+msgid "routes.about.cookie.info.gbPrefix"
+msgstr ""
+"Tanıtım mesajı ön ekini içeren "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\" için genel parametre"
+
+msgid "routes.about.cookie.info.gbSuffix"
+msgstr ""
+"Tanıtım mesajı son ekini içeren "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\" için genel parametre"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Görüntüleme dili"
+
+msgid "routes.about.cookie.info.shortName"
+msgstr ""
+"Tanıtım mesajında devasa bina isminin kısaltılmasını isteyip istemediğinizi "
+"gösteren genel parametre: \"@:(routes.gb_investment_gb_chooser.hero.title)\""
+
+msgid "routes.about.cookie.info.showLevel"
+msgstr ""
+"Tanıtım mesajında devasa binanın seviyesini gösteren genel parametre: "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\""
+
+msgid "routes.about.cookie.info.yourArcBonus"
+msgstr "Global ayarlar Arc bonusunu kapsar"
+
+msgid "routes.about.cookie.info.yourCfBoost"
+msgstr "Frontenac Şatosu bonusunu içeren global ayar"
+
+msgid "routes.about.cookie.info.haveReadTipAboutAddInvestor"
+msgstr ""
+"Katkıda bulunan kullanıcı eklemek için ipucunu okuyup okumadığınızı "
+"gösterir."
+
+msgid "routes.about.cookie.info.dayNightMode"
+msgstr "Gündüz/Gece modlarından hangisini kullandığınızı gösterir"
+
+msgid "routes.about.cookie.info.dayStart"
+msgstr ""
+"Günün başlangıç saati (Gündüz modu "
+"\"@:(components.site_layout.day_night.Auto)\" için)"
+
+msgid "routes.about.cookie.info.nightStart"
+msgstr ""
+"Gecenin başlangıç saati (Gece modu "
+"\"@:(components.site_layout.day_night.Auto)\" için)"
+
+msgid "routes.about.cookie.info.showSnipe"
+msgstr ""
+"Sıra kilitlemeyi göster/gizle "
+"(@:(routes.gb_investment_gb_chooser.hero.title) için)"
+
+msgid "routes.about.cookie.info.coins"
+msgstr "@:(components.cf_calculator.block_cfc.coins_to_use)"
+
+msgid "routes.about.cookie.info.fpBy24h"
+msgstr "@:(components.cf_calculator.block_cfc.fp_by_24h)"
+
+msgid "routes.about.cookie.info.goods"
+msgstr "@:(components.cf_calculator.block_cfc.gb_plunder_goods)"
+
+msgid "routes.about.cookie.info.otherRq"
+msgstr "@:(components.cf_calculator.block_cfc.other_rq)"
+
+msgid "routes.about.cookie.info.cumulativeQuest"
+msgstr "Biriken görev sayısı"
+
+msgid "routes.about.cookie.info.secondRq"
+msgstr "@:(components.cf_calculator.block_cfc.second_rq)"
+
+msgid "routes.about.cookie.info.supplies"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_to_use)"
+
+msgid "routes.about.cookie.info.suppliesGathered"
+msgstr "@:(components.cf_calculator.block_cfc.supplies_gathered)"
+
+msgid "routes.about.cookie.info.yourAge"
+msgstr "@:(components.cf_calculator.block_cfc.your_age)"
+
+msgid "routes.about.cookie.info.investorPercentageCustom_x"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th5)"
+
+msgid "routes.about.cookie.info.investorPercentageGlobal"
+msgstr "@:(components.gb_investment.gb_investment.form.investor_percentage)"
+
+msgid "routes.about.cookie.info.investorParticipation_x"
+msgstr "Sıra FP vermediğinde katılımcıların atması beklenen miktar"
+
+msgid "routes.about.cookie.info.level"
+msgstr "DB seviyesi"
+
+msgid "routes.about.cookie.info.ownerInvestment"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "routes.about.cookie.info.showPx"
+msgstr "Tanıtım mesajında sıranın gösterilip göstermeyeceğini belirtir"
+
+msgid "routes.about.cookie.info.takingPlaceInConsideration"
+msgstr ""
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\"ın "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" sekmesi, hesaplamada "
+"diğer yerlerin dikkate alınması gerekip gerekmediğini belirtir"
+
+msgid "routes.about.cookie.info.targetLevel"
+msgstr ""
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\"ın "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" sekmesi, tabloda "
+"hangi seviyeden görüntüleneceğini belirtir."
+
+msgid "routes.about.cookie.info.displayGbName"
+msgstr "Devasal bina ismi tanıtım mesajında gösterilsin mi ?"
+
+msgid "routes.about.cookie.info.investorParticipation"
+msgstr "Tüm eklenen yatırımcıların bir listesini içerir"
+
+msgid "routes.about.cookie.info.displayTableCard"
+msgstr ""
+"Basit görünümde \"@:(routes.gb_investment_gb_chooser.hero.title)\"daki "
+"tablonun küçük ekranda veya kart görünümünde görüntüleneceğini belirtir."
+
+msgid "routes.about.cookie.info.from"
+msgstr ""
+"Dizinin başlayacağı seviye "
+"(\"@:(routes.gb_investment_gb_chooser.hero.title)\"ın "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" sekmesinde kullanılır)"
+
+msgid "routes.about.cookie.info.to"
+msgstr ""
+"Dizinin biteceği seviye "
+"\"@:(routes.gb_investment_gb_chooser.hero.title)\"ın "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" sekmesinde kullanılır)"
+
+msgid "routes.about.cookie.info.showPlace"
+msgstr ""
+"Bir sıranın gösterilip gösterilmeyeceğini belirten dizi "
+"(\"@:(routes.gb_investment_gb_chooser.hero.title)\"ın "
+"\"@:(routes.gb_investment.tab.investors_view.title)\" sekmesinde kullanılır)"
+
+msgid "routes.about.cookie.info.survey"
+msgstr "Tamamladığınız tüm anketleri içeren bir sıra"
+
+msgid "routes.about.cookie.info.fixedMainMenu"
+msgstr "Ana menünün her zaman görünür olsun mu ?"
+
+msgid "routes.about.cookie.info.gbSelectMode"
+msgstr "Hangi DB Seçme modunu kullandığınızı gösterir."
+
+msgid "routes.about.cookie.info.haveReadLocaleInfoAvailable"
+msgstr ""
+"Sitenin kendi dilinizde mevcut olduğu bilgisini okuyup okumadığınızı "
+"gösterir."
+
+msgid "routes.about.cookie.info.promotionMessageList"
+msgstr "Görüntülenmesini istediğiniz tanıtım mesajları listesini içerir."
+
+msgid "routes.about.cookie.info.customPromotionMessagesTemplates"
+msgstr "Tüm özel tanıtım mesajlarınızı içerir"
+
+msgid "routes.about.cookie.info.gbShowPrefix"
+msgstr "Tanıtım mesajlarında ön ek göstermek isteyip istemediğinizi belirtir"
+
+msgid "routes.about.cookie.info.gbShowSuffix"
+msgstr "Tanıtım mesajlarında son ek göstermek isteyip istemediğinizi belirtir"
+
+msgid "routes.about.cookie.info.lastVisitVersion"
+msgstr "Sitenin son ziyaretinizdeki sürümünü içerir."
+
+msgid "routes.about.dev_info.title"
+msgstr "Geliştirme bilgisi"
+
+msgid "routes.about.dev_info.p1"
+msgstr "Bu site, sunucusu GitHub olan basit, statik bir sitedir."
+
+msgid "routes.about.dev_info.p2_html"
+msgstr ""
+"Geliştirme, @:(common.links.framework) kullanılarak Node.js ile "
+"yapılmıştır. Stiller @:(common.links.style) kullanılarak yapılmıştır."
+
+msgid "routes.about.dev_info.p3_html"
+msgstr ""
+"İşlevsellik ile ilgili bir fikriniz mi var ? Veya bir sorun ? "
+"@:(common.links.github)'da bir başlık açın veya bana "
+"@:(common.links.contact_foe_tools) üzerinden email gönderin (İngilizce veya "
+"Fransızca)"
+
+msgid "routes.about.dev_info.message_info_github_issue"
+msgstr ""
+"<b>Not:</b> GitHub ile ilgili sorunlarda anlamayı en üst düzeye "
+"çıkarabilmek için lütfen İngilizce yazınız."
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.campaign_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.hero.title"
+msgstr "Fetih Maliyeti"
+
+msgid "routes.campaign_cost.hero.subtitle"
+msgstr ""
+"Bu araç, kıta haritasında bir sektörü veya bölgeyi müzakere ederek "
+"fethetmenin maliyetini hesaplar. "
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.cf_calculator.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.hero.title"
+msgstr "Frontenac Şatosu Hesaplama Aracı"
+
+msgid "routes.cf_calculator.hero.subtitle"
+msgstr ""
+"Hikaye görevleri ve günlük görevlerini tamamlayarak kazanılacak FP ve "
+"ürünleri hesaplayan bir araç"
+
+msgid "routes.changelog.title"
+msgstr "Değişiklikler | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contributors.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.hero.title"
+msgstr "Katkıda bulunanlar"
+
+msgid "routes.contributors.hero.subtitle"
+msgstr "Bu sayfa tüm katılımcıları listelemeye çalışıyor"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.gb_investment.hero.title)  | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) - {gb_key}"
+
+msgid "routes.gb_investment.tab.owner_view.title"
+msgstr "Bina sahibinin gözünden"
+
+msgid "routes.gb_investment.tab.investors_view.title"
+msgstr "Yatırımcının gözünden"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.hero.title"
+msgstr "Devasa Binalara FP Yatırımı"
+
+msgid "routes.gb_investment_gb_chooser.hero.subtitle"
+msgstr ""
+"Bu araç, bir oyuncunun Devasa Binasının ilk 5 sırasını garantilemek için "
+"atması gereken FP oranını (Ark bonusuyla birlikte) hesaplar."
+
+msgid "routes.gb_investment_gb_chooser.choose_gb.title"
+msgstr "Bir Devasa Bina Seç"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.hero.title"
+msgstr "DB maliyet tahmini"
+
+msgid "routes.gb_forecast_cost.hero.subtitle"
+msgstr ""
+"Bu araç Ark bonusuyla veya Ark bonusu olmadan, herhangi bir Devasa Bina'nın "
+"belirleyeceğiniz iki seviye arasındaki maliyetini hesaplar."
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.hero.title"
+msgstr "Devasa Bina İstatistikleri"
+
+msgid "routes.gb_statistics.hero.subtitle"
+msgstr ""
+"Bu araç, çağlara göre Devasa Binaların her seviyedeki maliyetini grafikler "
+"yardımıyla göstermeye yarar."
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.hero.title"
+msgstr "Sıra garantileme"
+
+msgid "routes.secure_position.hero.subtitle"
+msgstr ""
+"Bu araç, bir oyuncunun herhangi bir Devasa Binada kilitleyeceği sıra için "
+"atması gereken FP sayısını hesaplar."
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.trade.hero.title"
+msgstr "Ticaret"
+
+msgid "routes.trade.hero.subtitle"
+msgstr ""
+"Bu araç, takas tarzınıza göre en iyi oranları hesaplayarak işinizi "
+"kolaylaştırır."
+
+msgid "routes.trade.tab.trade_2_1.title"
+msgstr "2:1"
+
+msgid "routes.trade.tab.trade_2_1.message"
+msgstr ""
+"Basit ticaret, aynı çağdaki ürünlerde 1'de 1, bir çağ farklı olan ürünlerde "
+"1'e 2."
+
+msgid "routes.trade.tab.fair_trade.title"
+msgstr "Adil Ticaret"
+
+msgid "routes.trade.tab.fair_trade.message"
+msgstr ""
+"Bu tür bir ticaret, ürünler arasındaki oranları belirlemek için bir ürünün "
+"(para ve erzak bakımından) üretim maliyetini hesaba katar."
+
+msgid "routes.help_to_translate_the_site.title"
+msgstr "@:(routes.help_to_translate_the_site.hero.title) | @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.hero.title"
+msgstr "Bu sitenin tercümesine yardımcı ol"
+
+msgid "routes.help_to_translate_the_site.hero.subtitle"
+msgstr "Çeviri ekibine katıl"
+
+msgid "routes.help_to_translate_the_site.p1"
+msgstr ""
+"Kullandığınız dil henüz listemizde yok. Çeviri hatalı veya eksik mi? Çeviri "
+"ekibine aktarmaktan çekinmeyin."
+
+msgid "routes.help_to_translate_the_site.how_to_join_the_team"
+msgstr "Çeviri ekibine nasıl katılırım?"
+
+msgid "routes.help_to_translate_the_site.p2_html"
+msgstr ""
+"@:(common.site_title), kullanıcılar tarafından tercüme edilmektedir. "
+"Tercüme sürecini @:(common.links.translation_platform) üzerinden "
+"yürütmekteyiz. Ekibe katılmak için @:(common.links.contact_foe_tools) "
+"adresine, hangi dillerde tercüme yapabileceğinizi belirten bir email "
+"atabilirsiniz (email İngilizce olmalı); böylece size davet gönderebiliriz."
+
+msgid "routes.survey.title"
+msgstr "@:(routes.survey.hero.title) | @:(common.site_title)"
+
+msgid "routes.survey.hero.title"
+msgstr "Anket"
+
+msgid "routes.survey.hero.subtitle"
+msgstr ""
+"@:(common.site_title) sitemizi geliştirmek için bu anketi tamamlayarak bize "
+"yardımcı olabilirsiniz"
+
+msgid "routes.survey.required_field"
+msgstr "Bu alan gereklidir"
+
+msgid "routes.survey.survey_complete"
+msgstr "Geri bildiriminiz için teşekkür ederiz!"
+
+msgid "routes.survey.error"
+msgstr "Bir hata oluştu, formu kontrol edip tekrar deneyin"
+
+msgid "routes.survey.unknown_error"
+msgstr "Bilinmeyen bir hata oluştu, lütfen site yöneticisiyle iletişime geçin"
+
+msgid "routes.contact.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.contact.hero.title"
+msgstr "İletişim"
+
+msgid "routes.contact.hero.subtitle"
+msgstr "@:(common.site_title) yöneticisine başvurun"
+
+msgid "routes.contact.message_contact_html"
+msgstr ""
+"İşlevselliği geliştirmek için bir fikriniz mi var ? Veya bir sorununuz ? "
+"@:(common.links.contact_foe_tools) adresinden bana bir e-posta "
+"gönderebilirsiniz (İngilizce veya Fransızca)."
+
+msgid "routes.contact.message_translate"
+msgstr ""
+"Siteyi tercüme etmeye yardımcı olabileceğinizi biliyor muydunuz? Daha fazla "
+"bilgi için aşağıdaki bağlantıyı takip edin:"
+
+msgid "routes.contact.message_other_info_html"
+msgstr ""
+"Eğer geliştirici iseniz, @:(common.links.github) üzerinden sorun "
+"bildirebilirsiniz (ve sitenin gelişimine katkıda bulunabilirsiniz)."
+
+msgid "routes.error.404.title"
+msgstr "Sayfa bulunamadı | @:(common.site_title)"
+
+msgid "routes.error.404.message"
+msgstr "Üzgünüz, aradığınız sayfa bulunamıyor."
+
+msgid "foe_data.age.Oracle"
+msgstr "@:(foe_data.age.NoAge) (@:(foe_data.gb.Oracle_of_Delphi))"
+
+msgid "foe_data.age.NoAge"
+msgstr "Çağ Yok"
+
+msgid "foe_data.age.BronzeAge"
+msgstr "Tunç Devri"
+
+msgid "foe_data.age.IronAge"
+msgstr "Demir Devri"
+
+msgid "foe_data.age.EarlyMiddleAges"
+msgstr "Erken Dönem Orta Çağ"
+
+msgid "foe_data.age.HighMiddleAges"
+msgstr "Zirve Dönem Orta Çağ"
+
+msgid "foe_data.age.LateMiddleAges"
+msgstr "Geç Dönem Orta Çağ"
+
+msgid "foe_data.age.ColonialAge"
+msgstr "Sömürge Çağı"
+
+msgid "foe_data.age.IndustrialAge"
+msgstr "Sanayi Çağı"
+
+msgid "foe_data.age.ProgressiveEra"
+msgstr "İlerleme Çağı"
+
+msgid "foe_data.age.ModernEra"
+msgstr "Modern Çağ"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Postmodern Çağ"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Yakın Çağ"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Yakın Gelecek"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Gelecek"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Buzul Gelecek"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Okyanus Geleceği"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Sanal Gelecek"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Uzay Çağı: Mars"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "Çağ Yok"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "Bronz Devri"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "Demir Devri"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "Erken Dönem Orta Çağ"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "Zirve Dönem Orta Çağ"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "Geç Dönem Orta Çağ"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "Sömürge Çağı"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "Sanayi Çağı"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "İlerleme Çağı"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "Modern Çağ"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "Postmodern Çağ"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "Yakın Çağ"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "Yakın Gelecek"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "Gelecek"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "Buzul Gelecek"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "Okyanus Geleceği"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "Sanal Gelecek"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "Uzay Çağı Mars"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Gözlemevi"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Eserler Tapınağı"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Delphi Kahini"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Babil Kulesi "
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Zeus Heykeli"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Kolezyum"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "İskenderiye Feneri"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "AyaSofya"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Aachen Katedrali"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "St. Marks Bazilikası"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Notre Dame"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "St. Basil Katedrali"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel de Monte"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Deal Kalesi"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Dresden Frauenkirche"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Kongre Binası"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Frontenac Şatosu"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Alcatraz"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Space Needle"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Cape Canaveral"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "Habitat"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Lotus Tapınağı"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Yenilik Kulesi"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Dinamik Kule"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "Ark"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Yağmur Ormanı Projesi"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Gaea Heykeli"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Buzul Serası"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Tohum Mahzeni"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Atlantis Müzesi"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "Mavi Galaksi"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Terrakota Ordusu"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Himeji Kalesi"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "TakımYıldızı Projesi"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Yıldız Gözetleyen"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Gözlemevi"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "Eserler"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "Delphi"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Babil"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Zeus"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Kollezyum"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "İskenderiye"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "Ayasofya"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "Aachen"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "St. Marks"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "Notre"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "Basil"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "Castel"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "Deal"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "Dresden"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Kongre"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "Royal"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "Şato"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Traz"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "SN"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Atomium"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Cape"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Hab"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "Lotus"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Yenilik"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "Dinamik"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Voyager V1"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Ark"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "YOP"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Gaea"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "Buzul"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "Tohum"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "Atlantis"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Kraken"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "MG"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "Tera"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "Himeji"
+
+msgid "foe_data.gb_short.The_Virgo_Project"
+msgstr "TYP"
+
+msgid "foe_data.gb_short.Star_Gazer"
+msgstr "Yıldız"
+
+msgid "foe_data.goods.dye"
+msgstr "Boya"
+
+msgid "foe_data.goods.lumber"
+msgstr "Kereste"
+
+msgid "foe_data.goods.marble"
+msgstr "Mermer"
+
+msgid "foe_data.goods.stone"
+msgstr "Taş"
+
+msgid "foe_data.goods.wine"
+msgstr "Şarap"
+
+msgid "foe_data.goods.cloth"
+msgstr "Giysi"
+
+msgid "foe_data.goods.ebony"
+msgstr "Abanoz"
+
+msgid "foe_data.goods.iron"
+msgstr "Demir"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Mücevher"
+
+msgid "foe_data.goods.limestone"
+msgstr "Kireç Taşı"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Kaymaktaşı"
+
+msgid "foe_data.goods.copper"
+msgstr "Bakır"
+
+msgid "foe_data.goods.gold"
+msgstr "Altın"
+
+msgid "foe_data.goods.granite"
+msgstr "Granit"
+
+msgid "foe_data.goods.honey"
+msgstr "Bal"
+
+msgid "foe_data.goods.brick"
+msgstr "Tuğla"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Kurutulmuş Bitki"
+
+msgid "foe_data.goods.glass"
+msgstr "Cam"
+
+msgid "foe_data.goods.rope"
+msgstr "İp"
+
+msgid "foe_data.goods.salt"
+msgstr "Tuz"
+
+msgid "foe_data.goods.basalt"
+msgstr "Bazalt"
+
+msgid "foe_data.goods.brass"
+msgstr "Pirinç"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Barut"
+
+msgid "foe_data.goods.silk"
+msgstr "İpek"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Talk Pudrası"
+
+msgid "foe_data.goods.coffee"
+msgstr "Kahve"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Porselen"
+
+msgid "foe_data.goods.paper"
+msgstr "Kağıt"
+
+msgid "foe_data.goods.tar"
+msgstr "Katran"
+
+msgid "foe_data.goods.wire"
+msgstr "Tel"
+
+msgid "foe_data.goods.coke"
+msgstr "Kok"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Gübre"
+
+msgid "foe_data.goods.rubber"
+msgstr "Kauçuk"
+
+msgid "foe_data.goods.textiles"
+msgstr "Dokuma"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Balina Yağı"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Asbest"
+
+msgid "foe_data.goods.explosives"
+msgstr "Patlayıcı"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Benzin"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Makine Parçası"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Kalay Plaka"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Hazır Yemek"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Betonarme"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Çeşnilendirici"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Lüks Malzeme"
+
+msgid "foe_data.goods.packaging"
+msgstr "Paketleme"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Genom Verileri"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Endüstriyel Filtre"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Yenilenebilir Kaynak"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Yarı İletken"
+
+msgid "foe_data.goods.steel"
+msgstr "Çelik"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Biyonik Verisi"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Elektromıknatıs"
+
+msgid "foe_data.goods.gas"
+msgstr "Gaz"
+
+msgid "foe_data.goods.plastics"
+msgstr "Plastik"
+
+msgid "foe_data.goods.robots"
+msgstr "Robot"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Beslenme Araştırması"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Kağıt Beton"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Koruyucu Madde"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Akıllı Malzeme"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Şeffaf Beton"
+
+msgid "foe_data.goods.algae"
+msgstr "Alg"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Biyojeokimyasal Veri"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Nano Parça"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Arıtılmış Su"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Süper İletken"
+
+msgid "foe_data.goods.ai_data"
+msgstr "YZ verileri"
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Biyoplastik"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Nanotel"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Kağıt pil"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Transesterifiye gazı"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Yapay Pul"
+
+msgid "foe_data.goods.biolight"
+msgstr "Yaşayan Işık"
+
+msgid "foe_data.goods.corals"
+msgstr "Mercan"
+
+msgid "foe_data.goods.pearls"
+msgstr "İnci"
+
+msgid "foe_data.goods.plankton"
+msgstr "Plankton"
+
+msgid "foe_data.goods.promethium"
+msgstr "Prometyum"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Orichalcum"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Gizemli"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Veri Kristalleri"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Altın Tepsi"
+
+msgid "foe_data.goods.nanites"
+msgstr "Nanit"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Çay İpeği"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymir"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "Doğu-Nagach"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "Batı-Nagach"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todepass"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mons Suiry"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims"
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria"
+
+msgid "foe_data.province.Cragshire"
+msgstr "Cragshire"
+
+msgid "foe_data.province.Eldenborough"
+msgstr "Eldenborough"
+
+msgid "foe_data.province.Cuttingham"
+msgstr "Cuttingham"
+
+msgid "foe_data.province.Spearth"
+msgstr "Spearth"
+
+msgid "foe_data.province.Wolvhampton"
+msgstr "Wolvhampton"
+
+msgid "foe_data.province.FourGallows"
+msgstr "Four Gallows"
+
+msgid "foe_data.province.Mount_Killmore"
+msgstr "Mount Killmore"
+
+msgid "foe_data.province.RavensCreek"
+msgstr "Raven's Creek"
+
+msgid "foe_data.province.Houndsmoor"
+msgstr "Houndsmoor"
+
+msgid "foe_data.province.Zaldon_on_Sea"
+msgstr "Zaldon-on-Sea"
+
+msgid "foe_data.province.Grand_Cap"
+msgstr "Grand Cap"
+
+msgid "foe_data.province.Northcastle"
+msgstr "Northcastle"
+
+msgid "foe_data.province.Queenshope"
+msgstr "Queenshope"
+
+msgid "foe_data.province.Ashcrook"
+msgstr "Ashcrook"
+
+msgid "foe_data.province.Narcien"
+msgstr "Narcien"
+
+msgid "foe_data.province.Lavignon"
+msgstr "Lavignon"
+
+msgid "foe_data.province.Troulope"
+msgstr "Troulope"
+
+msgid "foe_data.province.Deuxerres"
+msgstr "Deuxerres"
+
+msgid "foe_data.province.Lombardeaux"
+msgstr "Lombardeaux"
+
+msgid "foe_data.province.Pisterrac"
+msgstr "Pisterrac"
+
+msgid "foe_data.province.Varseille"
+msgstr "Varseille"
+
+msgid "foe_data.province.Haulenois"
+msgstr "Haulenois"
+
+msgid "foe_data.province.NewCragshire"
+msgstr "New Cragshire"
+
+msgid "foe_data.province.Okahe"
+msgstr "Okahe"
+
+msgid "foe_data.province.Rantford"
+msgstr "Rantford"
+
+msgid "foe_data.province.Desperation"
+msgstr "Desperation"
+
+msgid "foe_data.province.St_Marque"
+msgstr "St. Marque"
+
+msgid "foe_data.province.Las_Penas"
+msgstr "Las Penas"
+
+msgid "foe_data.province.DragonCity"
+msgstr "Dragon City"
+
+msgid "foe_data.province.Garrincton"
+msgstr "Garrincton"
+
+msgid "foe_data.province.ElFuego"
+msgstr "El Fuego"
+
+msgid "foe_data.province.SantaCatalina"
+msgstr "Santa Catalina"
+
+msgid "foe_data.province.Dorango"
+msgstr "Dorango"
+
+msgid "foe_data.province.Nevarrone"
+msgstr "Nevarrone"
+
+msgid "foe_data.province.Embruniez"
+msgstr "Embruniez"
+
+msgid "foe_data.province.Gabordeaux"
+msgstr "Gabordeaux"
+
+msgid "foe_data.province.Ydine"
+msgstr "Ydine"
+
+msgid "foe_data.province.Wenoevre"
+msgstr "Wenoevre"
+
+msgid "foe_data.province.Havre"
+msgstr "Havre"
+
+msgid "foe_data.province.Omoien"
+msgstr "Omoien"
+
+msgid "foe_data.province.Uxrow"
+msgstr "Uxrow"
+
+msgid "foe_data.province.Gaelford"
+msgstr "Gaelford"
+
+msgid "foe_data.province.Sud"
+msgstr "Sud"
+
+msgid "foe_data.province.Kriegreich"
+msgstr "Kriegreich"
+
+msgid "foe_data.province.Ostrand"
+msgstr "Ostrand"
+
+msgid "foe_data.province.Langenreich"
+msgstr "Langenreich"
+
+msgid "foe_data.province.Uceria"
+msgstr "Uceria"
+
+msgid "foe_data.province.Gorski"
+msgstr "Gorski"
+
+msgid "foe_data.province.Inashu"
+msgstr "Inashu"
+
+msgid "foe_data.province.Natsuishu"
+msgstr "Natsuishu"
+
+msgid "foe_data.province.Chigikawa"
+msgstr "Chigikawa"
+
+msgid "foe_data.province.Igujima"
+msgstr "Igujima"
+
+msgid "foe_data.province.Kyushima"
+msgstr "Kyushima"
+
+msgid "foe_data.province.Igioka"
+msgstr "Igioka"
+
+msgid "foe_data.province.Igamoto"
+msgstr "Igamoto"
+
+msgid "foe_data.province.Higematsu"
+msgstr "Higematsu"
+
+msgid "foe_data.province.Kibakuguchi"
+msgstr "Kibakuguchi"
+
+msgid "foe_data.province.Hiromaguchi"
+msgstr "Hiromaguchi"
+
+msgid "foe_data.province.Toimuro"
+msgstr "Toimuro"
+
+msgid "foe_data.province.CaiChetNui"
+msgstr "CaiChetNui"
+
+msgid "foe_data.province.SotDamLay"
+msgstr "SotDamLay"
+
+msgid "foe_data.province.DayDuAo"
+msgstr "DayDuAo"
+
+msgid "foe_data.province.TrungDoi"
+msgstr "TrungDoi"
+
+msgid "foe_data.province.KhayHuyenBayGio"
+msgstr "KhayHuyenBayGio"
+
+msgid "foe_data.province.RungTrai"
+msgstr "RungTrai"
+
+msgid "foe_data.province.RungChienDau"
+msgstr "RungChienDau"
+
+msgid "foe_data.province.GiaiCuuBinhMinh"
+msgstr "GiaiCuuBinhMinh"
+
+msgid "foe_data.province.PhucKich"
+msgstr "PhucKich"
+
+msgid "foe_data.province.MauMatDat"
+msgstr "MauMatDat"
+
+msgid "foe_data.province.DongBangSong"
+msgstr "DongBangSong"
+
+msgid "foe_data.province.OngChuCuoiCung"
+msgstr "OngChuCuoiCung"
+
+msgid "foe_data.province.Amaryah_City"
+msgstr "Amaryah City"
+
+msgid "foe_data.province.Khail"
+msgstr "Khail"
+
+msgid "foe_data.province.Batif"
+msgstr "Batif"
+
+msgid "foe_data.province.Hafar_Al_Karak"
+msgstr "Hafar Al Karak"
+
+msgid "foe_data.province.Al_Shadyra"
+msgstr "Al-Shadyra"
+
+msgid "foe_data.province.Salfah"
+msgstr "Salfah"
+
+msgid "foe_data.province.Ain_Al_Khansa"
+msgstr "Ain Al-Khansa"
+
+msgid "foe_data.province.Suqqah"
+msgstr "Suqqah"
+
+msgid "foe_data.province.Shayhour"
+msgstr "Shayhour"
+
+msgid "foe_data.province.Kardad"
+msgstr "Kardad"
+
+msgid "foe_data.province.Qumeira"
+msgstr "Qumeira"
+
+msgid "foe_data.province.Jandahar"
+msgstr "Jandahar"
+
+msgid "foe_data.province.Torrinhos"
+msgstr "Torrinhos"
+
+msgid "foe_data.province.Villabaja"
+msgstr "Villabaja"
+
+msgid "foe_data.province.Itabarai"
+msgstr "Itabarai"
+
+msgid "foe_data.province.Bajatai"
+msgstr "Bajatai"
+
+msgid "foe_data.province.Villariba"
+msgstr "Villariba"
+
+msgid "foe_data.province.Rio_Roxo"
+msgstr "Rio Roxo"
+
+msgid "foe_data.province.Sierra_Torrido"
+msgstr "Sierra Torrido"
+
+msgid "foe_data.province.Santa_Nerea"
+msgstr "Santa Nerea"
+
+msgid "foe_data.province.La_Huega"
+msgstr "La Huega"
+
+msgid "foe_data.province.Jamenez"
+msgstr "Jamenez"
+
+msgid "foe_data.province.Falsa_Cruz"
+msgstr "Falsa Cruz"
+
+msgid "foe_data.province.Desierto_de_la_Muerte"
+msgstr "Desierto de la Muerte"
+
+msgid "foe_data.province.Sao_Malvado"
+msgstr "Sao Malvado"
+
+msgid "foe_data.province.Agadar"
+msgstr "Agadar"
+
+msgid "foe_data.province.Esan_Ewu"
+msgstr "Esan-Ewu"
+
+msgid "foe_data.province.Omogba"
+msgstr "Omogba"
+
+msgid "foe_data.province.Owopele"
+msgstr "Owopele"
+
+msgid "foe_data.province.Jak"
+msgstr "Jak"
+
+msgid "foe_data.province.Pala"
+msgstr "Pala"
+
+msgid "foe_data.province.Kolabourg"
+msgstr "Kolabourg"
+
+msgid "foe_data.province.Bontaville"
+msgstr "Bontaville"
+
+msgid "foe_data.province.Botuku"
+msgstr "Botuku"
+
+msgid "foe_data.province.Kalabuye"
+msgstr "Kalabuye"
+
+msgid "foe_data.province.Bisoraba"
+msgstr "Bisoraba"
+
+msgid "foe_data.province.Fort_Buntu"
+msgstr "Fort Buntu"
+
+msgid "foe_data.province.Nutarniq"
+msgstr "Nutarniq"
+
+msgid "foe_data.province.Iluliaq"
+msgstr "Iluliaq"
+
+msgid "foe_data.province.Aurora_s_Dale"
+msgstr "Aurora's Dale"
+
+msgid "foe_data.province.Cold_Bay"
+msgstr "Cold Bay"
+
+msgid "foe_data.province.Arctic_Horizon"
+msgstr "Arctic Horizon"
+
+msgid "foe_data.province.Tuklavik"
+msgstr "Tuklavik"
+
+msgid "foe_data.province.Ananevut"
+msgstr "Ananevut"
+
+msgid "foe_data.province.Qaniit"
+msgstr "Qaniit"
+
+msgid "foe_data.province.White_Gate"
+msgstr "White Gate"
+
+msgid "foe_data.province.Snowdrifts"
+msgstr "Snowdrifts"
+
+msgid "foe_data.province.Median_Waters"
+msgstr "Median Waters"
+
+msgid "foe_data.province.Frosty_Mountain"
+msgstr "Frosty Mountain"
+
+msgid "foe_data.province.Southern_Valley"
+msgstr "Southern Valley"
+
+msgid "foe_data.province.Ilug"
+msgstr "Ilug"
+
+msgid "foe_data.province.Chugiak"
+msgstr "Chugiak"
+
+msgid "foe_data.province.Kesukavut"
+msgstr "Kesukavut"
+
+msgid "foe_data.province.Adlartok"
+msgstr "Adlartok"
+
+msgid "foe_data.province.Northern_Passage"
+msgstr "Northern Passage"
+
+msgid "foe_data.province.Avalanche"
+msgstr "Avalanche"
+
+msgid "foe_data.province.Manirak"
+msgstr "Manirak"
+
+msgid "foe_data.province.Tundra_Rock"
+msgstr "Tundra Rock"
+
+msgid "foe_data.province.Patuktuq"
+msgstr "Patuktuq"
+
+msgid "foe_data.province.Summit_Ice"
+msgstr "Summit Ice"
+
+msgid "foe_data.province.Kilalurak"
+msgstr "Kilalurak"
+
+msgid "foe_data.province.Nilak"
+msgstr "Nilak"
+
+msgid "foe_data.province.Chulyin"
+msgstr "Chulyin"
+
+msgid "foe_data.province.Tattilgat"
+msgstr "Tattilgat"
+
+msgid "foe_data.province.Atka"
+msgstr "Atka"
+
+msgid "foe_data.province.Pimniq"
+msgstr "Pimniq"
+
+msgid "foe_data.province.Anyu"
+msgstr "Anyu"
+
+msgid "foe_data.province.Glacial_Peak"
+msgstr "Glacial Peak"
+
+msgid "foe_data.province.Nunataq"
+msgstr "Nunataq"
+
+msgid "foe_data.province.Nanuq"
+msgstr "Nanuq"
+
+msgid "foe_data.province.Precipice"
+msgstr "Precipice"
+
+msgid "foe_data.province.Unalaq"
+msgstr "Unalaq"
+
+msgid "foe_data.province.Neural_Rites"
+msgstr "Neural Rites"
+
+msgid "foe_data.province.Frozen_Steppe"
+msgstr "Frozen Steppe"
+
+msgid "foe_data.province.The_Grotto"
+msgstr "The Grotto"
+
+msgid "foe_data.province.Temple_Floe"
+msgstr "Temple Floe"
+
+msgid "foe_data.province.Spirit_Plane"
+msgstr "Spirit Plane"
+
+msgid "foe_data.province.Murky_Waters"
+msgstr "Murky Waters"
+
+msgid "foe_data.province.Cursed_Current"
+msgstr "Cursed Current"
+
+msgid "foe_data.province.Coral_Depths"
+msgstr "Coral Depths"
+
+msgid "foe_data.province.Rough_Expanse"
+msgstr "Rough Expanse"
+
+msgid "foe_data.province.Strong_Tide"
+msgstr "Strong Tide"
+
+msgid "foe_data.province.Dark_Abyss"
+msgstr "Dark Abyss"
+
+msgid "foe_data.province.Fresh_Flow"
+msgstr "Fresh Flow"
+
+msgid "foe_data.province.Tideless_Deep"
+msgstr "Tideless Deep"
+
+msgid "foe_data.province.Glimmering_Surf"
+msgstr "Glimmering Surf"
+
+msgid "foe_data.province.Serene_Waves"
+msgstr "Serene Waves"
+
+msgid "foe_data.province.Red_Sea"
+msgstr "Red Sea"
+
+msgid "foe_data.province.Wondering_Ocean"
+msgstr "Wondering Ocean"
+
+msgid "foe_data.province.Foam_Ceiling"
+msgstr "Foam Ceiling"
+
+msgid "foe_data.province.Walled_Gulf"
+msgstr "Walled Gulf"
+
+msgid "foe_data.province.Lower_Grotto"
+msgstr "Lower Grotto"
+
+msgid "foe_data.province.Silver_Swarms"
+msgstr "Silver Swarms"
+
+msgid "foe_data.province.Upper_Grotto"
+msgstr "Upper Grotto"
+
+msgid "foe_data.province.Rocky_Domain"
+msgstr "Rocky Domain"
+
+msgid "foe_data.province.Nautical_Parlay"
+msgstr "Nautical Parlay"
+
+msgid "foe_data.province.Restless_Buoy"
+msgstr "Restless Buoy"
+
+msgid "foe_data.province.Ripped_Sails"
+msgstr "Ripped Sails"
+
+msgid "foe_data.province.Nautilus_Mirage"
+msgstr "Nautilus Mirage"
+
+msgid "foe_data.province.Ravenous_Tides"
+msgstr "Ravenous Tides"
+
+msgid "foe_data.province.Deep_Dive"
+msgstr "Deep Dive"
+
+msgid "foe_data.province.Furious_Storm"
+msgstr "Furious Storm"
+
+msgid "foe_data.province.Silver_Crest"
+msgstr "Silver Crest"
+
+msgid "foe_data.province.Grey_Clouds"
+msgstr "Grey Clouds"
+
+msgid "foe_data.province.Translucent_Algae"
+msgstr "Translucent Algae"
+
+msgid "foe_data.province.Treacherous_Surf"
+msgstr "Treacherous Surf"
+
+msgid "foe_data.province.Single_Wave"
+msgstr "Single Wave"
+
+msgid "foe_data.province.Cursed_Lip"
+msgstr "Cursed Lip"
+
+msgid "foe_data.province.Coral_Kingdom"
+msgstr "Coral Kingdom"
+
+msgid "foe_data.province.Telescopic_Barrel"
+msgstr "Telescopic Barrel"
+
+msgid "foe_data.province.Sponge_Sands"
+msgstr "Sponge Sands"
+
+msgid "foe_data.province.Seagull_Domain"
+msgstr "Seagull Domain"
+
+msgid "foe_data.province.Tangled_Fins"
+msgstr "Tangled Fins"
+
+msgid "foe_data.province.Scuba_Bay"
+msgstr "Scuba Bay"
+
+msgid "foe_data.province.Tide_Ascent"
+msgstr "Tide Ascent"
+
+msgid "foe_data.province.Breakwater_Wharf"
+msgstr "Breakwater Wharf"
+
+msgid "foe_data.province.Adrift_Liner"
+msgstr "Adrift Liner"
+
+msgid "foe_data.province.Bermuda_Quay"
+msgstr "Bermuda Quay"
+
+msgid "foe_data.province.Sextant_Mast"
+msgstr "Sextant Mast"
+
+msgid "foe_data.province.Grog_Wash"
+msgstr "Grog Wash"
+
+msgid "foe_data.province.R_lyeh_Reef"
+msgstr "R'lyeh Reef"
+
+msgid "foe_data.province.Capricorn_Waterway"
+msgstr "Capricorn Waterway"
+
+msgid "foe_data.province.Barnacle_Deck"
+msgstr "Barnacle Deck"
+
+msgid "foe_data.province.Ahab_s_Tomb"
+msgstr "Ahab's Tomb"
+
+msgid "foe_data.province.Galley_Commodore"
+msgstr "Galley Commodore"
+
+msgid "foe_data.province.Adamastor"
+msgstr "Adamastor"
+
+msgid "foe_data.province.Deadeye_Admiral"
+msgstr "Deadeye Admiral"
+
+msgid "foe_data.province.Monkey_s_Fist"
+msgstr "Monkey's Fist"
+
+msgid "foe_data.province.Dagon_s_Dagger"
+msgstr "Dagon's Dagger"
+
+msgid "foe_data.province.Sunken_Leviathan"
+msgstr "Sunken Leviathan"
+
+msgid "foe_data.province.Raging_Tides"
+msgstr "Raging Tides"
+
+msgid "foe_data.province.Buccaneer_Plateau"
+msgstr "Buccaneer Plateau"
+
+msgid "foe_data.province.Craggy_Cay"
+msgstr "Craggy Cay"
+
+msgid "foe_data.province.Behemoth"
+msgstr "Behemoth"
+
+msgid "foe_data.province.Privateer_Helm"
+msgstr "Privateer Helm"
+
+msgid "foe_data.province.Medusa_Cove"
+msgstr "Medusa Cove"
+
+msgid "foe_data.province.Man_O_War"
+msgstr "Man-O-War"
+
+msgid "foe_data.province.Nemo_s_Dock"
+msgstr "Nemo's Dock"
+
+msgid "foe_data.province.Anchorage_Ruin"
+msgstr "Anchorage Ruin"
+
+msgid "foe_data.province.Ahoy_Alee"
+msgstr "Ahoy Alee"
+
+msgid "foe_data.province.Ursula_s_Valley"
+msgstr "Ursula's Valley"
+
+msgid "foe_data.province.Dungbie_Trough"
+msgstr "Dungbie Trough"
+
+msgid "foe_data.province.Idlers_Range"
+msgstr "Idlers Range"
+
+msgid "foe_data.province.Wherry_Gap"
+msgstr "Wherry Gap"
+
+msgid "foe_data.province.Nock_s_Turn"
+msgstr "Nock's Turn"
+
+msgid "foe_data.province.Scuttle_Ridge"
+msgstr "Scuttle Ridge"
+
+msgid "foe_data.province.Ghost_Trench"
+msgstr "Ghost Trench"
+
+msgid "foe_data.province.Scurvy_Atoll"
+msgstr "Scurvy Atoll"
+
+msgid "foe_data.province.Capsize_Lagoon"
+msgstr "Capsize Lagoon"
+
+msgid "foe_data.province.Undertow_Bank"
+msgstr "Undertow Bank"
+
+msgid "foe_data.province.Neptune_s_Galleon"
+msgstr "Neptune's Galleon"
+
+msgid "foe_data.province.Seafarer_s_Current"
+msgstr "Seafarer's Current"
+
+msgid "foe_data.province.Blackwater_Cape"
+msgstr "Blackwater Cape"
+
+msgid "foe_data.province.Leviathan_Wreck"
+msgstr "Leviathan Wreck"
+
+msgid "foe_data.province.Typhoon_Peninsula"
+msgstr "Typhoon Peninsula"
+
+msgid "foe_data.province.Corsair_s_Skerry"
+msgstr "Corsair's Skerry"
+
+msgid "foe_data.province.Mutiny_Canyon"
+msgstr "Mutiny Canyon"
+
+msgid "foe_data.province.Bytedirt_Planes"
+msgstr "Bytedirt Planes"
+
+msgid "foe_data.province.End_of_the_Void"
+msgstr "End of the Void"
+
+msgid "foe_data.province.Banker_s_Heaven"
+msgstr "Banker's Heaven"
+
+msgid "foe_data.province.Shift_Land"
+msgstr "Shift/Land"
+
+msgid "foe_data.province.Black_Net_Market"
+msgstr "Black Net Market"
+
+msgid "foe_data.province.Pulse_City"
+msgstr "Pulse City"
+
+msgid "foe_data.province.Max_s_Shelter"
+msgstr "Max's Shelter"
+
+msgid "foe_data.province.The_Open_Zone"
+msgstr "The Open Zone"
+
+msgid "foe_data.province.The_Warring_Towers"
+msgstr "The Warring Towers"
+
+msgid "foe_data.province.Forgotten_Fragments"
+msgstr "Forgotten Fragments"
+
+msgid "foe_data.province.Backup_NET"
+msgstr "Backup:NET"
+
+msgid "foe_data.province.Spoiled_Resort"
+msgstr "Spoiled Resort"
+
+msgid "foe_data.province.Fort_Duplex"
+msgstr "Fort Duplex"
+
+msgid "foe_data.province.LoneHub"
+msgstr "LoneHub"
+
+msgid "foe_data.province.Alpha_1_Omega_2"
+msgstr "Alpha 1 Omega 2"
+
+msgid "foe_data.province.Ray_s_Ray_s"
+msgstr "Ray's Ray's"
+
+msgid "foe_data.province.Purple_Palace"
+msgstr "Mor Saray"
+
+msgid "foe_data.province.Three_Oc3ans"
+msgstr "Üç Okyanuslar"
+
+msgid "foe_data.province.Vortex"
+msgstr "Girdap"
+
+msgid "foe_data.province.Twisted_Alps"
+msgstr "Çarpık Alpler"
+
+msgid "foe_data.province.Archives_of_Junkman"
+msgstr "Hurdacının Arşivi"
+
+msgid "foe_data.province.Frozen_RAM"
+msgstr "Donmuş RAM"
+
+msgid "foe_data.province.Cas_Cade"
+msgstr "Cas.Cade"
+
+msgid "foe_data.province.The_Historical_Museum"
+msgstr "Tarih Müzesi"
+
+msgid "foe_data.province.Aerial_Boulevard"
+msgstr "Hava Bulvarı"
+
+msgid "foe_data.province.Slate_13"
+msgstr "Slate 13"
+
+msgid "foe_data.province.New_final_final_exe"
+msgstr "New_final_final.exe"
+
+msgid "foe_data.province.Bizarre_Plains"
+msgstr "Garip Ova"
+
+msgid "foe_data.province.Argus__Watch"
+msgstr "Argus'un Nöbeti"
+
+msgid "foe_data.province.Berta_s_Byte_Sauce"
+msgstr "Berta'nın Bit-Sosu"
+
+msgid "foe_data.province.Veil_of_Bits"
+msgstr "Veil of Bits"
+
+msgid "foe_data.province.Harvey_s_Low_Core"
+msgstr "Harvey's Low Core"
+
+msgid "foe_data.province.The_Byte_Parade"
+msgstr "The Byte Parade"
+
+msgid "foe_data.province.Reboot_Bay"
+msgstr "Yeniden Başlatma Körfezi"
+
+msgid "foe_data.province.Streaming_Forest"
+msgstr "Akan Orman"
+
+msgid "foe_data.province.CMYK_Citadel"
+msgstr "CMYK Kalesi"
+
+msgid "foe_data.province.Forgify"
+msgstr "Forgify"
+
+msgid "foe_data.province.Digital_Town_of_Hope"
+msgstr "Dijital Umut Şehri"
+
+msgid "foe_data.province.Cloud_One"
+msgstr "Küçük Mutluluk"
+
+msgid "foe_data.province.Re_Birth"
+msgstr "Yeniden:Doğuş"
+
+msgid "foe_data.province.Castle_You_Es_Bee"
+msgstr "Yu-Es-Bi Kalesi"
+
+msgid "foe_data.province.NET_MASKerade"
+msgstr "NET MASKEradı"
+
+msgid "foe_data.province.If_Then_Whatever"
+msgstr "Eğer, O zaman, Her neyse"
+
+msgid "foe_data.province.The_Virtual_Cliffs_of_G0r3"
+msgstr "Sanal D3HŞ37 Tepeleri"
+
+msgid "foe_data.province.The_Church_of_Games"
+msgstr "Oyun Kilisesi"
+
+msgid "foe_data.province.The_Sacred_Database"
+msgstr "Kutsal Veritabanı"
+
+msgid "foe_data.province.Game_Over"
+msgstr "Oyun bitti"
+
+msgid "foe_data.bonus.coin.name"
+msgstr "Para"
+
+msgid "foe_data.bonus.supply.name"
+msgstr "Üretim"
+
+msgid "foe_data.bonus.good.name"
+msgstr "Ürün"
+
+msgid "foe_data.bonus.special_good.name"
+msgstr "Bonuslu ürünler"
+
+msgid "foe_data.bonus.good_bonus.name"
+msgstr "Üretim bonusu"
+
+msgid "foe_data.bonus.expansion.name"
+msgstr "Genişleme"
+
+msgid "foe_data.bonus.medal.name"
+msgstr "Madalya"
+
+msgid "foe_data.bonus.diamond.name"
+msgstr "Elmas"
+
+msgid "foe_data.bonus.pvp_tower.name"
+msgstr "PvP Kulesi"
+
+msgid "foe_data.bonus.blueprint.name"
+msgstr "Ozalit"
+
+msgid "foe_data.bonus.military_boost.name"
+msgstr "Savaş bonusu"
+
+msgid "foe_data.bonus.military_boost.gb_description"
+msgstr ""
+"Saldırı ordusunun saldırı ve savunma bonusunu arttırır, her bina ile "
+"katlanarak artar."
+
+msgid "foe_data.bonus.fierce_resistance.name"
+msgstr "Yoğun direniş"
+
+msgid "foe_data.bonus.fierce_resistance.gb_description"
+msgstr ""
+"Orduyu savunan birimler için saldırı ve savunma bonusunu yükseltir ve her "
+"binaya ek olarak destek havuzu bonusunu arttırır."
+
+msgid "foe_data.bonus.coin_boost.name"
+msgstr "Para artışı"
+
+msgid "foe_data.bonus.coin_boost.gb_description"
+msgstr ""
+"Her topladığınızda binanızın sonucunu 90 kata kadar yükseltir, verimlilik "
+"ve motivasyon katar."
+
+msgid "foe_data.bonus.supply_boost.name"
+msgstr "Erzak artışı"
+
+msgid "foe_data.bonus.supply_boost.gb_description"
+msgstr ""
+"Üretim binalarının üretimlerini arttırır; motivasyon, üretim artışı ve "
+"diğer erzak artışları ile katlanarak artar."
+
+msgid "foe_data.bonus.good_production.name"
+msgstr "Ürün üretimi"
+
+msgid "foe_data.bonus.good_production.gb_description"
+msgstr ""
+"Her 24 saatte bir, mevcut çağınızdan belli miktarda ürün üretir. Modern "
+"Çağ'dan itibaren işlenmemiş ürünlerdeki miktarı iki katına çıkarır."
+
+msgid "foe_data.bonus.medal_production.name"
+msgstr "Madalya üretimi"
+
+msgid "foe_data.bonus.medal_production.gb_description"
+msgstr "Her 24 saatte az miktarda madalya üretir."
+
+msgid "foe_data.bonus.research.name"
+msgstr "Araştırma"
+
+msgid "foe_data.bonus.research.gb_description"
+msgstr "Her 24 saatte az miktarda FP üretir."
+
+msgid "foe_data.bonus.coin_production.name"
+msgstr "Para üretimi"
+
+msgid "foe_data.bonus.coin_production.gb_description"
+msgstr "Her 24 saatte bir miktar para üretir."
+
+msgid "foe_data.bonus.supply_production.name"
+msgstr "Erzak üretimi"
+
+msgid "foe_data.bonus.supply_production.gb_description"
+msgstr "Her 24 saatte bir miktar erzak üretir."
+
+msgid "foe_data.bonus.population.name"
+msgstr "Nüfus"
+
+msgid "foe_data.bonus.population.gb_description"
+msgstr "Kalıcı nüfus bonusu."
+
+msgid "foe_data.bonus.happiness.name"
+msgstr "Mutluluk"
+
+msgid "foe_data.bonus.happiness.gb_description"
+msgstr "Kalıcı mutluluk bonusu."
+
+msgid "foe_data.bonus.quest_reward_boost.name"
+msgstr "Görev ödülü artışı"
+
+msgid "foe_data.bonus.quest_reward_boost.gb_description"
+msgstr ""
+"Sadece paralarınızı, erzaklarınızı, ürünlerinizi, madalyalarınızı veya "
+"görev ödüllerindeki elmaslarınızı yükseltir."
+
+msgid "foe_data.bonus.penal_unit.name"
+msgstr "Asker"
+
+msgid "foe_data.bonus.penal_unit.gb_description"
+msgstr ""
+"Her 24 saatte bir bağımsız asker üretir, şehrinizde üretilen askerlerden "
+"rastgele seçilir."
+
+msgid "foe_data.bonus.guild_goods.name"
+msgstr "Lonca Ürünleri"
+
+msgid "foe_data.bonus.guild_goods.gb_description"
+msgstr "Doğrudan Lonca Hazinesine eklemek üzere kendi çağınızdan ürün üretir."
+
+msgid "foe_data.bonus.support_pool_bonus.name"
+msgstr "Katkı Havuzu Bonusu"
+
+msgid "foe_data.bonus.support_pool_bonus.gb_description"
+msgstr "Lonca destek havuzu bonusunu yükseltir, her binaya eklenir."
+
+msgid "foe_data.bonus.aid_goods.name"
+msgstr "Yardım Ürünleri"
+
+msgid "foe_data.bonus.aid_goods.gb_description"
+msgstr ""
+"Diğer oyunculara yardım ettiğinizde 1 rastgele ürün üretir (elle "
+"motive/cila da yardım sayılır). Rastgele ürünün çağı, yardım ettiğiniz "
+"binanın çağıyla aynıdır."
+
+msgid "foe_data.bonus.plunder_goods.name"
+msgstr "Yağma Ürünleri"
+
+msgid "foe_data.bonus.plunder_goods.gb_description"
+msgstr ""
+"Her toplama ile, birini yağmaladığınızda 3 komşuya kadar rastgele ürün "
+"üretir. Rastgele ürünün çağı, yağmaladığınız binanın çağıyla aynıdır."
+
+msgid "foe_data.bonus.contribution_boost.name"
+msgstr "Katkı Artışı"
+
+msgid "foe_data.bonus.contribution_boost.gb_description"
+msgstr "Destek ödüllerinden aldığın Forge puanı, Madalya ve Ozalitleri arttırır."
+
+msgid "foe_data.bonus.aid_blueprints.name"
+msgstr "Yardım Ozalitleri"
+
+msgid "foe_data.bonus.aid_blueprints.gb_description"
+msgstr ""
+"Başka bir oyuncuya yardım ettiğinde bir ozalit elde etme şansını arttırır "
+"(Elle motive/cilalama da yardım sayılır). Örn. %100 bonusunuz varsa, bir "
+"ozalit bulma şansınız ikiye katlanır."
+
+msgid "foe_data.bonus.relic_hunt.name"
+msgstr "Eser Avı"
+
+msgid "foe_data.bonus.relic_hunt.gb_description"
+msgstr ""
+"Bu yetenek, Lonca sefer haritasında bir çatışmayı başarıyla "
+"tamamladığınızda bir Eser elde etme şansı verir. Eserler 3 farklı "
+"nadirlikte bulunabilir. Her seviye, Eser elde etme şansınızı arttırdığı "
+"gibi; sıradan eserlerdense nadir veya seyrek eser bulma şansınızı da "
+"arttırır."
+
+msgid "foe_data.bonus.critical_hit.name"
+msgstr "Kritik Vuruş"
+
+msgid "foe_data.bonus.critical_hit.gb_description"
+msgstr ""
+"Tüm birimlere, aynı çağa ait birimlere saldırırken beklenen hasarın 1.5 "
+"katı hasar verme şansı verir. Kritik vuruş, Reaktif Zırh'a karşı da çalışır "
+"(beklenen hasar 4-4 ise, Kritik Vuruş 6-6 hasar verecektir). Haydut (ve "
+"diğer tüm çağlar birimleri) bu yeteneği kullanamaz/farklı bir birime "
+"dönüşene kadar bu yeteneği kullanamaz. En az 11 hasar veren bir Kritik "
+"vuruş, karşısındaki birimi tek vuruşla öldürür, morale bonusu olsa dahi. Bu "
+"bonus saldıran tüm ordulara etki ettiği gibi, PvP'de savunma ordunuza da "
+"etki eder. Bir birim misilleme yaparken Kritik Vuruş çalışmaz."
+
+msgid "foe_data.bonus.helping_hands.name"
+msgstr "Yardım Eli"
+
+msgid "foe_data.bonus.helping_hands.gb_description"
+msgstr ""
+"Başka bir oyuncunun şehrine yardım ederken rastgele bir kaynak bulma şansı "
+"verir (elle motive/cilalama da yardım sayılır). Kendi çağınızdan ürün, "
+"erzak, para, madalya ve hatta elmas kazanabilirsiniz."
+
+msgid "foe_data.bonus.plunder_and_pillage.name"
+msgstr "Yağma ve Yağmalama"
+
+msgid "foe_data.bonus.plunder_and_pillage.gb_description"
+msgstr ""
+"Bir komşunuzun ordusunu yendikten sonra yağmalarken kazanacağınız ürünleri "
+"ikiye katlama şansı verir. Yağmalanabilen tüm ürünleri ikiye katlar; buna "
+"Forge Puanları ve Lonca Gücü dahildir."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "İlk atak"
+
+msgid "foe_data.bonus.first_strike.gb_description"
+msgstr ""
+"Gelecek savaşların başlangcında, bir birimi anında öldürme şansı verir. Bu "
+"etki, iki dalgadan oluşan savaşların sadece ilk dalgasında geçerlidir."
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Çift Toplama"
+
+msgid "foe_data.bonus.double_collection.gb_description"
+msgstr ""
+"Toplanan ilk binalardan iki kat ürün elde etme şansı verir. Devasa binalar "
+"ve ordu binaları dahil değildir. Binayı her toplamada bu etki yenilenir."
+
+msgid "utils.content.tools"
+msgstr "Araçlar"
+
+msgid "utils.content.statistics"
+msgstr "İstatistikler"
+
+msgid "utils.btn_calculate"
+msgstr "Hesapla"
+
+msgid "utils.description.p1"
+msgstr "Değerleri girin. Değiştirdiğinizde sonuç otomatik olarak güncellenecektir."
+
+msgid "utils.description.p2_html"
+msgstr ""
+"<strong>Not:</strong> Güncelleme otomatik olarak yapılmaz ise, buraya "
+"tıklayın: \"@:(utils.btn_calculate)\""
+
+msgid "utils.choose_age"
+msgstr "Bir çağ seçin"
+
+msgid "utils.permalink"
+msgstr "Kalıcı link"
+
+msgid "utils.Add"
+msgstr "Ekle"
+
+msgid "utils.Remove"
+msgstr "Sil"
+
+msgid "utils.Yes"
+msgstr "Evet"
+
+msgid "utils.No"
+msgstr "Hayır"
+
+msgid "utils.Ok"
+msgstr "Tamam"
+
+msgid "utils.Copy"
+msgstr "Kopyala"
+
+msgid "utils.Copyed"
+msgstr "Kopyalandı"
+
+msgid "utils.Information"
+msgstr "Bilgi"
+
+msgid "utils.From"
+msgstr "Şu seviyeden:"
+
+msgid "utils.To"
+msgstr "Şu seviyeye: (Maksimum {max})"
+
+msgid "utils.Prefix"
+msgstr "Ön ek"
+
+msgid "utils.Suffix"
+msgstr "Son ek"
+
+msgid "utils.Path"
+msgstr "Yol"
+
+msgid "utils.Name"
+msgstr "İsim"
+
+msgid "utils.Description"
+msgstr "Açıklama"
+
+msgid "utils.Rewards"
+msgstr "Ödüller"
+
+msgid "utils.Cost"
+msgstr "Maliyet"
+
+msgid "utils.Conquered"
+msgstr "Fethedildi mi ?"
+
+msgid "utils.Total"
+msgstr "Toplam"
+
+msgid "utils.Secured"
+msgstr "Güvenli"
+
+msgid "utils.Reset"
+msgstr "Sıfırla"
+
+msgid "utils.Confirm"
+msgstr "Onayla"
+
+msgid "utils.Close"
+msgstr "Kapat"
+
+msgid "utils.Result"
+msgstr "Sonuç"
+
+msgid "utils.between_range"
+msgstr "{min} ve {max} arasında"
+
+msgid "utils.Submit"
+msgstr "Gönder"
+
+msgid "utils.Reset_values"
+msgstr "Değerleri sıfırla"
+
+msgid "utils.Switch"
+msgstr "Değiştir"
+
+msgid "utils.Save"
+msgstr "Kaydet"
+
+msgid "utils.Show"
+msgstr "Göster"
+
+msgid "utils.Hide"
+msgstr "Gizle"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Bu alan boş olamaz"
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] "{count} yıl"
+msgstr[1] "{count} years"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] "{count} ay"
+msgstr[1] "{count} ay"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] "{count} gün"
+msgstr[1] "{count} gün"
+
+msgid "utils.graph.gb_level"
+msgstr "Seviye "
+
+msgid "utils.graph.gb_level_cost"
+msgstr "Seviye maliyeti"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "1. Sıra için seviye ödülü"
+
+msgid "contributions.blog"
+msgstr "Blog gönderileri"
+
+msgid "contributions.bug"
+msgstr "Hata raporları"
+
+msgid "contributions.code"
+msgstr "Kod"
+
+msgid "contributions.design"
+msgstr "Tasarım"
+
+msgid "contributions.doc"
+msgstr "Dökümantasyon"
+
+msgid "contributions.eventOrganizing"
+msgstr "Etkinlik Organizasyonu"
+
+msgid "contributions.example"
+msgstr "Örnekler"
+
+msgid "contributions.financial"
+msgstr "Ekonomik"
+
+msgid "contributions.fundingFinding"
+msgstr "Fon Bulma"
+
+msgid "contributions.ideas"
+msgstr "Fikirler, Planlama ve Geri Bildirim"
+
+msgid "contributions.infra"
+msgstr "Altyapı (Sunucu, Yapım Araçları, vb.)"
+
+msgid "contributions.platform"
+msgstr "Yeni platforma paketleme/taşıma"
+
+msgid "contributions.plugin"
+msgstr "Eklenti / yardımcı program kütüphaneleri"
+
+msgid "contributions.question"
+msgstr "Soruları Cevaplama"
+
+msgid "contributions.review"
+msgstr "Gözden Geçirilen İstekler"
+
+msgid "contributions.talk"
+msgstr "Konuşmalar"
+
+msgid "contributions.test"
+msgstr "Testler"
+
+msgid "contributions.tool"
+msgstr "Araçlar"
+
+msgid "contributions.translation"
+msgstr "Çeviri"
+
+msgid "contributions.tutorial"
+msgstr "Öğretici"
+
+msgid "contributions.video"
+msgstr "Videolar"
+
+msgid "contributions.data"
+msgstr "Veri ekleme veya güncelleme"
+
+msgid "contributions.inspired_tool"
+msgstr "Bu araç, çalışmalarından ilham almıştır"
+
+msgid "contributions.creator"
+msgstr "Bu projenin yaratıcısı"
+
+msgid "seo.keywords.gb"
+msgstr "db"
+
+msgid "seo.keywords.great_building"
+msgstr "devasa bina"
+
+msgid "seo.keywords.fp"
+msgstr "fp"
+
+msgid "seo.keywords.forge_point"
+msgstr "İlerleme puanı"
+
+msgid "seo.keywords.medals"
+msgstr "madalyalar"
+
+msgid "seo.keywords.military_units"
+msgstr "askeri birlikler"

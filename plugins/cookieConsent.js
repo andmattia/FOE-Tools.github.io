@@ -15,9 +15,14 @@ export default async ({ app, store }) => {
           title: "foo",
           description: app.i18n.t("cookieConsent.matomo.description"),
         },
+        sentry: {
+          title: "sentry",
+          description: app.i18n.t("cookieConsent.sentry.description"),
+        },
         purposes: {
           analytics: app.i18n.t("cookieConsent.purposes.analytics"),
-          necessary: app.i18n.t("cookieConsent.purposes.necessary")
+          necessary: app.i18n.t("cookieConsent.purposes.necessary"),
+          quality: app.i18n.t("cookieConsent.purposes.quality")
         }
       };
       let result = cookieConsent.init({
@@ -85,6 +90,12 @@ export default async ({ app, store }) => {
             name: "always-on",
             title: "FOE-Tools",
             purposes: ["necessary"],
+            required: true
+          },
+          {
+            name: "sentry",
+            title: "Sentry",
+            purposes: ["necessary", "quality"],
             required: true
           }
         ]

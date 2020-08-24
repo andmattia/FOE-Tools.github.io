@@ -3780,8 +3780,14 @@ msgstr "Paramétrer"
 msgid "cookieConsent.matomo.description"
 msgstr "Collecte de statistiques sur les visiteurs (solution auto-hébergée)"
 
+msgid "cookieConsent.sentry.description"
+msgstr "Collecter les erreurs pour identifier les bugs potentiels (solution auto-hébergée)"
+
 msgid "cookieConsent.purposes.analytics"
 msgstr "Analytique"
 
 msgid "cookieConsent.purposes.necessary"
 msgstr "Nécessaire"
+
+msgid "cookieConsent.purposes.quality"
+msgstr "Qualité"

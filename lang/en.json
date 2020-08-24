@@ -1104,6 +1104,8 @@
   "cookieConsent.title": "Hey there ! It's us… the Cookies !",
   "cookieConsent.consentNotice.learnMore": "Customize",
   "cookieConsent.matomo.description": "Collecting of visitor statistics (self-hosted solution)",
+  "cookieConsent.sentry.description": "Collecting errors to identify potential bugs (self-hosted solution)",
   "cookieConsent.purposes.analytics": "Analytics",
-  "cookieConsent.purposes.necessary": "Necessary"
+  "cookieConsent.purposes.necessary": "Necessary",
+  "cookieConsent.purposes.quality": "Quality"
 }

@@ -2,14 +2,13 @@ import Vue from "vue";
 import cookieConsent from "orejime/dist/orejime";
 import CookieConsentImage from "~/assets/cookie-consent.svg?data";
 
-
 export default async ({ app, store }) => {
   Vue.mixin({
     created() {
       const translations = {};
       translations[app.$clone(store.get("i18n/locale")) || "en"] = {
         consentNotice: {
-          learnMore: app.i18n.t("cookieConsent.consentNotice.learnMore")
+          learnMore: app.i18n.t("cookieConsent.consentNotice.learnMore"),
         },
         matomo: {
           title: "foo",
@@ -22,8 +21,8 @@ export default async ({ app, store }) => {
         purposes: {
           analytics: app.i18n.t("cookieConsent.purposes.analytics"),
           necessary: app.i18n.t("cookieConsent.purposes.necessary"),
-          quality: app.i18n.t("cookieConsent.purposes.quality")
-        }
+          quality: app.i18n.t("cookieConsent.purposes.quality"),
+        },
       };
       let result = cookieConsent.init({
         logo: CookieConsentImage,
@@ -35,7 +34,7 @@ export default async ({ app, store }) => {
         apps: [
           {
             // Each app should have a unique (and short) name.
-            name: 'matomo',
+            name: "matomo",
 
             // If "default" is set to true, the app will be enabled by default
             // Overwrites global "default" setting.
@@ -44,11 +43,11 @@ export default async ({ app, store }) => {
             default: true,
 
             // The title of you app as listed in the consent modal.
-            title: 'Matomo',
+            title: "Matomo",
 
             // The purpose(s) of this app. Will be listed on the consent notice.
             // Do not forget to add translations for all purposes you list here.
-            purposes: ['analytics'],
+            purposes: ["analytics"],
 
             // A list of regex expressions or strings giving the names of
             // cookies set by this app. If the user withdraws consent for a
@@ -61,15 +60,15 @@ export default async ({ app, store }) => {
               // is not the current domain. If you do not set these values
               // properly, the cookie can't be deleted by Klaro
               // (there is no way to access the path or domain of a cookie in JS)
-              [/^_pk_.*$/, '/', location.hostname], //for the production version
-              [/^_pk_.*$/, '/', 'localhost'], //for the local version
-              'piwik_ignore',
+              [/^_pk_.*$/, "/", location.hostname], //for the production version
+              [/^_pk_.*$/, "/", "localhost"], //for the local version
+              "piwik_ignore",
             ],
 
             // An optional callback function that will be called each time
             // the consent state for the app changes (true=consented). Passes
             // the `app` config as the second parameter as well.
-            callback: function(consent, app) {
+            callback: function (consent, app) {
               // This is an example callback function.
             },
 
@@ -90,24 +89,26 @@ export default async ({ app, store }) => {
             name: "always-on",
             title: "FOE-Tools",
             purposes: ["necessary"],
-            required: true
+            required: true,
           },
           {
             name: "sentry",
             title: "Sentry",
             purposes: ["necessary", "quality"],
-            required: true
-          }
-        ]
+            required: true,
+          },
+        ],
       });
 
       Vue.prototype.$cookieConsent = result;
 
       try {
-        document.querySelector("#cookieConsent > div.orejime-AppContainer > div > div > div").setAttribute("data-title", app.i18n.t("cookieConsent.title"));
+        document
+          .querySelector("#cookieConsent > div.orejime-AppContainer > div > div > div")
+          .setAttribute("data-title", app.i18n.t("cookieConsent.title"));
       } catch (e) {
         // Nothing to do, this case occur most probably because the user has already set his preferences.
       }
-    }
-  })
+    },
+  });
 };

@@ -515,7 +515,7 @@ module.exports = {
     { src: "~/modules/foe-data/module.js" },
     { src: "~/modules/cname/module.js" },
     "@nuxtjs/pwa",
-    "@nuxtjs/sentry"
+    "@nuxtjs/sentry",
   ],
   robots: generateRobotTxt(`${hostname}/sitemap.xml`),
   buefy: { defaultIconPack: "fas", materialDesignIcons: false },
@@ -614,7 +614,7 @@ module.exports = {
   sentry: {
     dsn: "https://4088bc858d3d4dd3859d9b214d21720a@sentry.foe.tools/2",
     config: {
-      lazy: true
+      lazy: true,
     },
   },
 

@@ -12,6 +12,8 @@
   "footer_menu.contributors": "Contributeurs",
   "footer_menu.changelog": "Changelog",
   "footer_menu.contact": "Contact",
+  "footer_menu.cookie_policy": "Politique relative aux cookies",
+  "footer_menu.privacy_policy": "Politique de confidentialité",
   "components.campaign_cost.title": "@:(routes.campaign_cost.hero.title)",
   "components.campaign_cost.choose_province": "Choissisez une province",
   "components.campaign_cost.message.haveUnknownCosts": "Cette province contient un ou plusieurs secteurs dont il manque des valeurs.",

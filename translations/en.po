@@ -48,6 +48,12 @@ msgstr "Changelog"
 msgid "footer_menu.contact"
 msgstr "Contact"
 
+msgid "footer_menu.cookie_policy"
+msgstr "Cookie Policy"
+
+msgid "footer_menu.privacy_policy"
+msgstr "Privacy Policy"
+
 msgid "components.campaign_cost.title"
 msgstr "@:(routes.campaign_cost.hero.title)"
 

@@ -48,6 +48,12 @@ msgstr "Changelog"
 msgid "footer_menu.contact"
 msgstr "Contact"
 
+msgid "footer_menu.cookie_policy"
+msgstr "Cookie Policy"
+
+msgid "footer_menu.privacy_policy"
+msgstr "Privacy Policy"
+
 msgid "components.campaign_cost.title"
 msgstr "@:(routes.campaign_cost.hero.title)"
 
@@ -3724,3 +3730,24 @@ msgstr "medals"
 
 msgid "seo.keywords.military_units"
 msgstr "military units"
+
+msgid "cookieConsent.title"
+msgstr "Hey there ! It's us… the Cookies !"
+
+msgid "cookieConsent.consentNotice.learnMore"
+msgstr "Customize"
+
+msgid "cookieConsent.matomo.description"
+msgstr "Collecting of visitor statistics (self-hosted solution)"
+
+msgid "cookieConsent.sentry.description"
+msgstr "Collecting errors to identify potential bugs (self-hosted solution)"
+
+msgid "cookieConsent.purposes.analytics"
+msgstr "Analytics"
+
+msgid "cookieConsent.purposes.necessary"
+msgstr "Necessary"
+
+msgid "cookieConsent.purposes.quality"
+msgstr "Quality"

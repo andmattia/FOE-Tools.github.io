@@ -12,6 +12,8 @@
   "footer_menu.contributors": "Contributors",
   "footer_menu.changelog": "Changelog",
   "footer_menu.contact": "Contact",
+  "footer_menu.cookie_policy": "Cookie Policy",
+  "footer_menu.privacy_policy": "Privacy Policy",
   "components.campaign_cost.title": "@:(routes.campaign_cost.hero.title)",
   "components.campaign_cost.choose_province": "Choose a province",
   "components.campaign_cost.message.haveUnknownCosts": "This province contains one or more sectors that are missing values.",
@@ -1100,5 +1102,12 @@
   "seo.keywords.fp": "fp",
   "seo.keywords.forge_point": "forge point",
   "seo.keywords.medals": "medals",
-  "seo.keywords.military_units": "military units"
+  "seo.keywords.military_units": "military units",
+  "cookieConsent.title": "Hey there ! It's us… the Cookies !",
+  "cookieConsent.consentNotice.learnMore": "Customize",
+  "cookieConsent.matomo.description": "Collecting of visitor statistics (self-hosted solution)",
+  "cookieConsent.sentry.description": "Collecting errors to identify potential bugs (self-hosted solution)",
+  "cookieConsent.purposes.analytics": "Analytics",
+  "cookieConsent.purposes.necessary": "Necessary",
+  "cookieConsent.purposes.quality": "Quality"
 }

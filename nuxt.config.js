@@ -476,6 +476,7 @@ module.exports = {
     { src: "~/plugins/i18n.js" },
     { src: "~/plugins/clipboard.js" },
     { src: "~/plugins/moment.js" },
+    { src: "~/plugins/cookieConsent.js" },
     { src: "~/plugins/fontawesome.js" },
   ],
   generate: {
@@ -514,6 +515,7 @@ module.exports = {
     { src: "~/modules/foe-data/module.js" },
     { src: "~/modules/cname/module.js" },
     "@nuxtjs/pwa",
+    "@nuxtjs/sentry",
   ],
   robots: generateRobotTxt(`${hostname}/sitemap.xml`),
   buefy: { defaultIconPack: "fas", materialDesignIcons: false },
@@ -606,6 +608,13 @@ module.exports = {
       alwaysRedirect: true,
       // If no locale for the browsers locale is a match, use this one as a fallback
       fallbackLocale: null,
+    },
+  },
+
+  sentry: {
+    dsn: "https://4088bc858d3d4dd3859d9b214d21720a@sentry.foe.tools/2",
+    config: {
+      lazy: true,
     },
   },
 

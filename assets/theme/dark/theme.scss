@@ -98,6 +98,8 @@ body.dark-theme {
   .radio {
     color: $grey-light;
   }
+
+  @import "../../cookie-consent";
 }
 
 // Shepherd

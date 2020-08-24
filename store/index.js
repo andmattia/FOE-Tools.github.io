@@ -33,6 +33,8 @@ export const state = () => ({
     help_to_translate_the_site: { key: "help_to_translate_the_site", link: "HelpToTranslateTheSite" },
     survey: { key: "survey", link: "Survey" },
     contact: { key: "contact", link: "Contact" },
+    cookie_policy: { key: "cookie_policy", link: "CookiePolicy" },
+    privacy_policy: { key: "privacy_policy", link: "PrivacyPolicy" },
   },
 
   /**

@@ -126,3 +126,6 @@
           p
             small(v-html="$t('components.site_layout.footer.license_html')")
           p {{$t('components.site_layout.footer.version', {version: siteVersion})}}
+
+  a.cookie-consent-setting(@click.prevent="$cookieConsent.show")
+    img(src="~assets/cookie.png" width="36" height="36")

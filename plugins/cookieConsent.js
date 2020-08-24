@@ -68,9 +68,9 @@ export default async ({ app, store }) => {
             // An optional callback function that will be called each time
             // the consent state for the app changes (true=consented). Passes
             // the `app` config as the second parameter as well.
-            callback: function (consent, app) {
-              // This is an example callback function.
-            },
+            // callback: function (consent, app) {
+            //   // This is an example callback function.
+            // },
 
             // If "required" is set to true, Klaro will not allow this app to
             // be disabled by the user.

@@ -53,6 +53,12 @@ msgstr "Changelog"
 msgid "footer_menu.contact"
 msgstr "Contact"
 
+msgid "footer_menu.cookie_policy"
+msgstr "Politique relative aux cookies"
+
+msgid "footer_menu.privacy_policy"
+msgstr "Politique de confidentialité"
+
 msgid "components.campaign_cost.title"
 msgstr "@:(routes.campaign_cost.hero.title)"
 

@@ -3770,3 +3770,18 @@ msgstr "médailles"
 
 msgid "seo.keywords.military_units"
 msgstr "unités militaires"
+
+msgid "cookieConsent.title"
+msgstr "Coucou c'est nous… les Cookies !"
+
+msgid "cookieConsent.consentNotice.learnMore"
+msgstr "Paramétrer"
+
+msgid "cookieConsent.matomo.description"
+msgstr "Collecte de statistiques sur les visiteurs (solution auto-hébergée)"
+
+msgid "cookieConsent.purposes.analytics"
+msgstr "Analytique"
+
+msgid "cookieConsent.purposes.necessary"
+msgstr "Nécessaire"

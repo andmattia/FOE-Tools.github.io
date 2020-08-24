@@ -476,6 +476,7 @@ module.exports = {
     { src: "~/plugins/i18n.js" },
     { src: "~/plugins/clipboard.js" },
     { src: "~/plugins/moment.js" },
+    { src: "~/plugins/cookieConsent.js" },
     { src: "~/plugins/fontawesome.js" },
   ],
   generate: {

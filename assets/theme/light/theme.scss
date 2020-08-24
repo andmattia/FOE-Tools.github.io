@@ -62,6 +62,8 @@ body.light-theme {
       color: $grey;
     }
   }
+
+  @import "../../cookie-consent";
 }
 
 // Shepherd

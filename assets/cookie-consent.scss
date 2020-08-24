@@ -116,6 +116,10 @@
   .orejime-Notice-logo {
     max-height: 25vh
   }
+  div.orejime-Modal-body > div {
+    overflow: auto;
+    max-height: 200px;
+  }
 }
 
 @media (min-width: 990px) {
@@ -150,4 +154,5 @@
 
 .orejime-AppList-item {
   padding-left: 60px !important;
+  padding-top: 20px;
 }

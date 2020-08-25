@@ -1,13 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"mime-version: 1.0\n"
+"Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
+"POT-Creation-Date: 2020-08-21T21:00:50.998Z\n"
+"PO-Revision-Date: 2020-08-26 11:23+0000\n"
+"Last-Translator: Weblate Admin <admin@foe.tools>\n"
+"Language-Team: Greek <https://translate.foe.tools/projects/foe-tools-website/"
+"website/el/>\n"
+"Language: el\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"POT-Creation-Date: 2020-08-21T21:00:50.998Z\n"
-"PO-Revision-Date: 2020-08-21T21:00:50.998Z\n"
-"Language: el\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
+"mime-version: 1.0\n"
 
 msgid "components.campaign_cost.all_provinces"
 msgstr "Όλες οι επαρχίες"
@@ -106,3 +111,325 @@ msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
 
 msgid "main_menu.home"
 msgstr "Αρχική"
+
+msgid "components.gb_investment_investors.table.thead.th_place"
+msgstr "Θέση {count}"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"description.no"
+msgstr "Αγνόηση των υπόλοιπων θέσεων"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.show_place"
+msgstr "Αναγραφή θέσης"
+
+msgid "components.gb_investment.tutorial.promotion_message.show_level"
+msgstr ""
+"Αναγραφή τού επιπέδου τού ΜΚ, (εάν περιέχεται στο πρότυπο τού μηνύματος "
+"αναγγελίας)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.display_gb_"
+"name"
+msgstr ""
+"Αναγραφή τής ονομασίας τού ΜΚ, (εάν περιέχεται στο πρότυπο τού μηνύματος "
+"αναγγελίας)."
+
+msgid "components.promotion_message_builder.title"
+msgstr "Δημιουργία/Διαχείριση μηνυμάτων αναγγελίας"
+
+msgid "components.site_layout.switch_locale"
+msgstr "@:(common.site_title) είναι διαθέσιμο στη γλώσσα σας"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Auto"
+msgstr "Αυτόματο"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Night"
+msgstr "Νύκτα"
+
+msgid "components.site_layout.global_config_dialog.day_night_mode.Day"
+msgstr "Ημέρα"
+
+msgid "components.site_layout.global_config_dialog.day_night"
+msgstr "Εμφάνιση"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.select"
+msgstr "Επιλογή με κύλιση, (παλαιού τύπου)"
+
+msgid ""
+"components.site_layout.global_config_dialog.select_gb_style_"
+"mode.datalist"
+msgstr "Αυτόματη συμπλήρωση"
+
+msgid "components.site_layout.global_config_dialog.select_gb_style"
+msgstr "Τύπος επιλογέα ΜΚ"
+
+msgid "components.site_layout.global_config"
+msgstr "Καθολικές ρυθμίσεις"
+
+msgid "components.site_layout.footer.version"
+msgstr "Έκδοση {version}"
+
+msgid "components.simple_trade.table.thead.th4"
+msgstr "Αποτέλεσμα"
+
+msgid "components.simple_trade.table.thead.th2"
+msgstr "Αγαθά"
+
+msgid "components.simple_trade.table.thead.th1"
+msgstr "Εποχή"
+
+msgid "components.secure_position.block_place.result.error"
+msgstr "Μία ή περισσότερες τιμές δεν είναι έγκυρες."
+
+msgid "components.secure_position.block_place.your_arc_bonus"
+msgstr "Προσαύξηση τού Θόλου σας"
+
+msgid "components.secure_position.block_place.place"
+msgid_plural "components.secure_position.block_place.place"
+msgstr[0] "{place} ({count} ΦΠ)"
+msgstr[1] "{place} ({count} ΦΠ)"
+
+msgid "components.secure_position.block_place.fp_to_complete_level"
+msgid_plural "components.secure_position.block_place.fp_to_complete_level"
+msgstr[0] "Υπολειπόμενη ποσότητα ΦΠ για να ολοκληρωθεί τοεπίπεδο:"
+msgstr[1] "Υπολειπόμενη ποσότητα ΦΠ για να ολοκληρωθεί τοεπίπεδο:"
+
+msgid "components.gb_statistics.graph.title_4"
+msgstr ""
+"Διαφοροποίηση της ανταμοιβής τής 1ης θέσης σε σχέση με το κόστος των επιπέδων"
+
+msgid "components.gb_statistics.graph.title_3"
+msgstr ""
+"Διαφοροποίηση του κόστους των επιπέδων σε σχέση με την ανταμοιβή τής 1ης "
+"θέσης"
+
+msgid "components.gb_statistics.graph.title_2"
+msgstr "Διαφοροποίηση της ανταμοιβής τής 1ης θέσης αναλόγως τού επιπέδου"
+
+msgid "components.gb_forecast_cost.prop_already_invested"
+msgstr "ΦΠ που ο κάτοχος έχει ήδη εισφέρει στο υπ' ολοκλήρωση επίπεδο"
+
+msgid "components.gb_forecast_cost.message.single"
+msgstr ""
+"Για να ολοκληρωθεί το επίπεδο {level} του \"{gb}\", ο κάτοχος οφείλει να "
+"εισφέρει {preparation} ΦΠ. Συνολικό κόστος επιπέδου: {cost} ΦΠ."
+
+msgid "components.gb_forecast_cost.message.diff"
+msgid_plural "components.gb_forecast_cost.message.diff"
+msgstr[0] "Με τις προσαυξημένες συνεισφορές θα εξοικονομήσετε {count} ΦΠ"
+msgstr[1] "Με τις προσαυξημένες συνεισφορές θα εξοικονομήσετε {count} ΦΠ"
+
+msgid "components.gb_forecast_cost.custom_percentage"
+msgstr "Προσαρμοσμένη προσαύξηση Θόλου, (για επιμέρους θέση-εις)"
+
+msgid "components.gb_investment_investors.table.thead.th_profit_loss"
+msgstr "Όφελος / Ζημία"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.optimal"
+msgstr "Βέλτιστο"
+
+msgid ""
+"components.gb_investment_investors.takingPlaceInConsideration."
+"form.no"
+msgstr "@:(utils.No)"
+
+msgid "components.gb_investment.tutorial.promotion_message.suffix"
+msgstr "Κείμενο που θα προστεθεί μετά το μήνυμα αναγγελίας."
+
+msgid "components.gb_investment.tutorial.promotion_message.prefix"
+msgstr "Κείμενο που θα προστεθεί πρό τού μηνύματος αναγγελίας."
+
+msgid "components.gb_investment.tutorial.table.rewards_with_rate"
+msgstr ""
+"Αυτή είναι η ποσότητα των ΦΠ που επιθυμεί ο κάτοχος από τον συνεισφέροντα "
+"που θα καταλάβει τη θέση."
+
+msgid "components.gb_investment.tutorial.table.fp_to_put_by_the_owner"
+msgstr ""
+"Όπως φανερώνει η ονομασία του, αντιστοιχεί στο ποσό των ΦΠ που ο κάτοχος του "
+"ΜΚ οφείλει να εισφέρει για ν' ασφαλίσει τη θέση."
+
+msgid "components.gb_investment.tutorial.table.default_rewards"
+msgstr ""
+"Αυτή είναι η αρχική ανταμοιβή, (δίχως την προσαύξηση του Θόλου), τής θέσης."
+
+msgid "components.gb_investment.tutorial.table.message"
+msgstr ""
+"Σ' αυτόν τον πίνακα περιέχονταιι όλες οι πληροφορίες που θέλετε να γνωρίζετε."
+
+msgid "components.gb_investment.tutorial.owner_investment"
+msgstr ""
+"Υπάρχουν ήδη ΦΠ στο επίπεδο του ΜΚ ;\n"
+"Εάν ναι, αναγράψτε εδώ την ποσότητά τους"
+
+msgid "components.gb_investment.tutorial.investor_percentage"
+msgstr ""
+"Ορίστε την προσαύξηση που επιθυμείτε από τους συνεισφέροντες\n"
+"Παράδειγμα: για συνεισφορά στο 1,9, βάλτε 90"
+
+msgid "components.gb_investment.tutorial.rush_1_9.title"
+msgstr "Για συντομία 1.9, 1.8, κοκ"
+
+msgid "components.gb_investment.promotion.promo"
+msgstr ""
+"Θ1({investment})\n"
+"Θ2({investment})\n"
+"Θ3({investment})\n"
+"Θ4({investment})\n"
+"Θ5({investment})"
+
+msgid "components.gb_investment.promotion.suffix_placeholder"
+msgstr "Κείμενο μετά το μήνυμα αναγγελίας"
+
+msgid "components.gb_investment.promotion.prefix_placeholder"
+msgstr "Κείμενο προ του μηνύματος αναγγελίας"
+
+msgid "components.gb_investment.promotion.title"
+msgstr "Μήνυμα αναγγελίας"
+
+msgid "components.gb_investment.gb_investment.show_level"
+msgstr "Αναγραφή επιπέδου τού ΜΚ ;"
+
+msgid "components.gb_investment.gb_investment.use_short_name"
+msgstr "Χρήση συντομογραφίας τού ΜΚ ;"
+
+msgid "components.gb_investment.gb_investment.display_gb_name"
+msgstr "Αναγραφή ονομασίας τού ΜΚ ;"
+
+msgid "components.gb_investment.gb_investment.table.tfoot.level_cost"
+msgstr "Σύνολο ΦΠ ολοκλήρωσης του επιπέδου"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.tooltip_"
+"owner_investment"
+msgstr "Υπολειπόμενοι ΦΠ εισφοράς κατόχου για ολοκλήρωση του επιπέδου"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tfoot.total_"
+"preparation"
+msgstr "Σύνολο ΦΠ εισφοράς κατόχου"
+
+msgid "components.gb_investment.gb_investment.table.tbody.neutral"
+msgstr "Ο συνεισφέρων στη θέση δεν θα κερδίσει ούτε θα χάσει ΦΠ"
+
+msgid "components.gb_investment.gb_investment.table.tbody.profit"
+msgstr "Ο συνεισφέρων στη θέση θα κερδίσει ΦΠ"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"expected_investment"
+msgstr "Αναμενόμενη συνεισφορά"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.tooltip_"
+"owner_investment"
+msgstr "Υπολειπόμενοι ΦΠ εισφοράς κατόχου γι' ασφάλιση της θέσης"
+
+msgid "components.gb_investment.gb_investment.table.thead.th6"
+msgstr "Αναγραφή στο μήνυμα αναγγελίας"
+
+msgid "components.gb_investment.gb_investment.table.thead.th5"
+msgstr "% προσαύξηση ΦΠ συνεισφερόντων (προσαύξηση Θόλου)"
+
+msgid "components.gb_investment.gb_investment.table.thead.th4"
+msgstr "Προσαυξημένες ανταμοιβές"
+
+msgid "components.gb_investment.gb_investment.table.thead.th3"
+msgstr "ΦΠ εισφοράς τού κατόχου γι' ασφάλιση των θέσεων"
+
+msgid "components.gb_investment.gb_investment.table.thead.th2"
+msgstr "Βασική ανταμοιβή"
+
+msgid "components.gb_investment.gb_investment.table.thead.th1"
+msgstr "Θέσεις"
+
+msgid "components.gb_investment.gb_investment.form.owner_investment"
+msgstr "ΦΠ ήδη τοποθετημένοι από τον κάτοχο (μέγιστη {max})"
+
+msgid "components.gb_investment.gb_investment.form.investor_percentage"
+msgstr "% προσαύξηση για όλους τούς συνεισφέροντες (προσαύξηση Θόλου)"
+
+msgid "components.gb_investment.gb_investment.description.p1"
+msgstr ""
+"Ορίστε το επίπεδο (προς αναβάθμιση) του Θόλου και την % επιθυμητή προσαύξηση "
+"(90% για Θόλους επ. 80). Οι τιμές στα πεδία τού πίνακα ενημερώνονται "
+"αυτόματα."
+
+msgid "components.gb_investment.gb_list_select.label"
+msgstr "Επιλογή Μεγάλου Κτιρίου"
+
+msgid "components.cf_calculator.tutorial.coinSupplyReturn"
+msgstr ""
+"Σ' αυτόν τον πίνακα εμφανίζεται η ποσότητα των νομισμάτων και των προμηθειών "
+"που, στατιστικά,  θα κερδίσετε, βάσει τής αρχικής σας δαπάνης (σύμφωνα μ "
+"αυτά που προτίθεστε να δαπανήσετε σε νομίσματα και προμήθειες)."
+
+msgid "components.cf_calculator.tutorial.secondRqCompleted"
+msgstr ""
+"Συνολικός αριθμός δεύτερων επαναλαμβανόμενων αποστολών που μπορείτε να "
+"ολοκληρώσετε."
+
+msgid "components.cf_calculator.tutorial.totalRqCompleted"
+msgstr ""
+"Σύνολο επαναλαμβανόμενων αποστολών που μπορείτε, (στατιστικά), να "
+"ολοκληρώσετε."
+
+msgid "components.cf_calculator.tutorial.tableReward"
+msgstr ""
+"Σ' αυτόν τον πίνακα εμφανίζονται οι ανταμοιβές που θα κερδίσετε. Έχετε κατά "
+"νου ότι οι τιμές βασίζονται σε μια εμπειρική πιθανότητα."
+
+msgid "components.cf_calculator.tutorial.cumulativeQuest"
+msgstr ""
+"Στην περίπτωση αυτή, απαιτείται να ορίσετε τον αριθμό των αποστολών που "
+"επιθυμείτε να κάνετε."
+
+msgid "components.cf_calculator.tutorial.infiniteGenerator"
+msgstr ""
+"Αυτή η ενότητα εμφανίζεται μόνο όταν η προσαύξηση του @:( foe_data.gb."
+"Chateau_Frontenac) (σύμφωνα με την εποχή σας) παρέχει, στατιστικά, "
+"περισσότερα νομίσματα και προμήθειες απ' όσα θα δαπανήσετε."
+
+msgid "components.cf_calculator.tutorial.checkSecondQuest"
+msgstr ""
+"Από την @:(foe_data.age.LateMiddleAges), μπορείτε να κάνετε μια δεύτερη "
+"επαναλαμβανόμενη αποστολή. Ορίστε το \"@:(utils.Yes)\" εάν θα κάνετε τη "
+"δεύτερη επαναλαμβανόμενη αποστολή.\n"
+"\n"
+"<i><b>Σημείωση</b> : Υποθέτουμε ότι το ζητούμενο της δεύτερης "
+"επαναλαμβανόμενης αποστολής είναι: συλλέξτε Χ ποσότητα προμηθειών.</i>"
+
+msgid "components.cf_calculator.tutorial.fpBy24h"
+msgstr "Γράψτε την ποσότητα των ΦΠ που συλλέγετε ανά 24ωρο."
+
+msgid "components.cf_calculator.tutorial.supplies"
+msgstr ""
+"Γράψτε την ποσότητα των προμηθειών που θέλετε να χρησιμοποιήσετε για όλες "
+"τις αποστολές."
+
+msgid "components.cf_calculator.tutorial.coins"
+msgstr ""
+"Γράψτε την ποσότητα των νομισμάτων που θέλετε να χρησιμοποιήσετε για όλες "
+"τις αποστολές."
+
+msgid "components.cf_calculator.tutorial.yourCfBoost"
+msgstr ""
+"Συμπληρώστε την προσαύξηση του δικού σας\n"
+"\n"
+"Παράδειγμα: για 450%, γράψτε 450."
+
+msgid "components.cf_calculator.tutorial.welcome"
+msgstr ""
+"Αυτό το εργαλείο είναι απολύτως ανεπίσημο. Σας παρέχει στατιστικές "
+"πληροφορίες για το τι μπορείτε ν' αποκτήσετε από το δικό σας @:(foe_data.gb."
+"Chateau_Frontenac)."
+
+msgid "footer_menu.contributors"
+msgstr "Συνεισφέροντες"

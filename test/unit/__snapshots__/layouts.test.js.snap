@@ -2,7 +2,6 @@
 
 exports[`Layouts Default Moving cookies to localStorage 1`] = `
 Object {
-  "cookieDisclaimerDisplayed": true,
   "currentProfile": "testID",
   "customPromotionMessagesTemplates": Array [],
   "dayNightMode": "auto",

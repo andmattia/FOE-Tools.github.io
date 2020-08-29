@@ -937,11 +937,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Um conjunto de ferramentas para ajudar @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Ao continuar a usar @:(common.site_title), você concorda com o uso de "
-"cookies para melhorar sua experiência no site."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Mais informações"
 
@@ -1248,9 +1243,6 @@ msgstr "Para melhorar sua experiência, o site usa cookies."
 
 msgid "routes.about.cookie.table_message"
 msgstr "A tabela abaixo mostra todos os cookies usados neste site."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr "Indica se você leu a mensagem informativa sobre o uso de cookies"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

@@ -61,14 +61,6 @@
       .action.is-info(@click="switchLocale()")
         button.button {{$t('utils.Switch', { lng: detectedLocale })}}
 
-  section.fixed(v-show="cookieDisclaimerUndisplayed")
-    b-notification.is-radiusless.is-marginless.has-text-centered(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" closable @close="confirmInfoCookie" :active="cookieDisclaimerUndisplayed")
-      div.has-text-centered  {{$t(i18nPrefix + 'cookie.message')}}
-        |
-        |
-        nuxt-link(:to="localePath({ name: 'About' })" exact) {{$t(i18nPrefix + 'cookie.link')}}
-        | .
-
   section.hero.is-dark-blue
     div.hero-body
       div.container

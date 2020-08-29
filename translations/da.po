@@ -669,11 +669,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Et sæt værktøjer til at forenkle @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Ved at fortsætte med at bruge @:(common.site_title), accepterer du brugen "
-"af cookies for at forbedre brugeroplevelsen."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Mere information"
 
@@ -968,9 +963,6 @@ msgstr "For at forbedre din brugeroplevelse bruger webstedet cookies."
 
 msgid "routes.about.cookie.table_message"
 msgstr "Tabellen herunder viser alle cookies, der bruges på dette websted."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr "Angiver, om du har læst informationsmeddelelsen om brugen af cookies"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

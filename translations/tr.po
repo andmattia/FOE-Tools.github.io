@@ -603,11 +603,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "@:(common.links.foe) tecrübenizi kolaylaştırmaya yaran birkaç araç."
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"@:(common.site_title) sitesini kullanmaya devam ederek, kullanımınızı "
-"kolaylaştırmak için çerezlerin kullanılmasını kabul etmiş olursunuz."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Daha fazla bilgi"
 
@@ -903,11 +898,6 @@ msgstr "Bu site kullanımınızı rahatlatmak için çerezleri kullanır."
 
 msgid "routes.about.cookie.table_message"
 msgstr "Aşağıdaki tabloda bu sitede kullanılan tüm çerezler gösterilmektedir."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr ""
-"Çerezlerin kullanılması ile ilgili bilgilendirme mesajını okuduğunuzu "
-"gösterir"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

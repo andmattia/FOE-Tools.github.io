@@ -216,7 +216,6 @@ export function getView(storeConf) {
 const getAllCookies = () => {
   return {
     locale: "en",
-    cookieDisclaimerDisplayed: false,
     survey: [],
     gbSelectMode: "select",
     fixedMainMenu: true,

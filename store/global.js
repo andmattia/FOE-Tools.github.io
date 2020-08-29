@@ -2,7 +2,6 @@ import { defaultLocale } from "~/scripts/locales";
 import { make } from "vuex-pathify";
 
 export const state = () => ({
-  cookieDisclaimerDisplayed: false,
   survey: [],
   gbSelectMode: "select",
   fixedMainMenu: true,

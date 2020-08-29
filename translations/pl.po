@@ -625,11 +625,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Zestaw narzędzi ułatwiających życie w @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Kontynuując używanie @:(common.site_title), zgadzasz się na używanie plików "
-"cookie, aby poprawić komfort użytkowania."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Więcej informacji"
 
@@ -921,11 +916,6 @@ msgstr "By zwiększyć komfort korzystania z serwisu, zaakceptuj Cookies."
 
 msgid "routes.about.cookie.table_message"
 msgstr "Poniższa tabela pokazuje wszystkie ciasteczka używane na tej stronie."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr ""
-"Wskazuje, czy przeczytałeś wiadomość informacyjną dotyczącą korzystania z "
-"ciasteczek"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

@@ -5,7 +5,6 @@ import { getDefaultStore } from "./utils";
 
 const factory = (mocks = {}) => {
   const { localVue, store } = getView(getDefaultStore());
-  console.log("localVue created");
   return shallowMount(Component, {
     localVue: localVue,
     store: store,

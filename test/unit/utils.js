@@ -17,7 +17,6 @@ export function getDefaultStore(profileID = "testID", customConf = {}) {
   const defaultInvestorPercentageGlobal = 90;
   const result = {
     globalStore: {
-      cookieDisclaimerDisplayed: false,
       survey: [],
       gbSelectMode: false,
       fixedMainMenu: true,

@@ -518,11 +518,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Néhány eszköz, mely egyszerűbbé teszi az életed a @:(common.links.foe)-ban"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"A @:(common.site_title) használatának folytatásával elfogadod, hogy a "
-"felhasználói kényelem javítása érdekében a webhely cookie-kat használ."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Több információ"
 
@@ -674,11 +669,6 @@ msgstr "A használat kényelmének javítása érdekében a webhely cookie-kat h
 
 msgid "routes.about.cookie.table_message"
 msgstr "Az alábbi táblázat az ezen az oldalon használt összes cookie-t mutatja."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr ""
-"Jelzi, hogy elolvastad-e a cookie-k használatával kapcsolatos tájékoztató "
-"üzenetet"
 
 msgid "routes.about.cookie.info.locale"
 msgstr "Megjelenítési nyelv"

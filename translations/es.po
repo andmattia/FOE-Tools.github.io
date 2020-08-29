@@ -876,11 +876,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Un juego de herramientas para simplificar la vida en @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Al continuar usando @:(common.site_title) aceptas el uso de cookies para "
-"mejorar tu confort al usarlo."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Más información"
 
@@ -1170,11 +1165,6 @@ msgstr ""
 
 msgid "routes.about.cookie.table_message"
 msgstr "La siguiente tabla muestra todas las cookies utilizadas en este sitio."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr ""
-"Indica si ha leído el mensaje de información sobre la sugerencia para usar "
-"la entrada de agregar contribuyentes"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

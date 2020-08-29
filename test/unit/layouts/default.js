@@ -33,8 +33,6 @@ describe("Default", () => {
         ...config.mocks["$cookies"],
         get: jest.fn().mockImplementation((key) => {
           switch (key) {
-            case "cookieDisclaimerDisplayed":
-              return true;
             case "dayNightMode":
               return "auto";
           }
@@ -42,7 +40,6 @@ describe("Default", () => {
         }),
       },
     });
-    expect(wrapper.vm.cookieDisclaimerUndisplayed).toBe(false);
     expect(wrapper.vm.dayNightMode).toBe("auto");
   });
 
@@ -55,13 +52,6 @@ describe("Default", () => {
       expect(wrapper.vm.burgerMenuVisible).toBe(false);
       done();
     });
-  });
-
-  test('Call "confirmInfoCookie"', () => {
-    const wrapper = factory();
-    expect(wrapper.vm.cookieDisclaimerUndisplayed).toBe(true);
-    wrapper.vm.confirmInfoCookie();
-    expect(wrapper.vm.cookieDisclaimerUndisplayed).toBe(false);
   });
 
   test('Call "toggleMenu"', () => {
@@ -82,7 +72,6 @@ describe("Default", () => {
     const getAllCookies = () => {
       return {
         locale: "fr",
-        cookieDisclaimerDisplayed: true,
         survey: [],
         gbSelectMode: "datalist",
         fixedMainMenu: false,

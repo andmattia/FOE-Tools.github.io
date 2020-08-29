@@ -22,6 +22,13 @@ div.content
           td {{cookie.name}}
           td {{$t(i18nPrefix + 'cookie.info.' + cookie.name)}}
 
+  p {{$t($data.i18nPrefix + 'cookie.p2')}}
+  ul
+    li
+      nuxt-link(:to="localePath({ name: 'PrivacyPolicy' })") {{$t('footer_menu.privacy_policy')}}
+    li
+      nuxt-link(:to="localePath({ name: 'CookiePolicy' })") {{$t('footer_menu.cookie_policy')}}
+
   h4.title.is-4 {{$t($data.i18nPrefix + 'dev_info.title')}}
 
   p {{$t($data.i18nPrefix + 'dev_info.p1')}}

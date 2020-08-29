@@ -963,11 +963,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Un ensemble d'outils pour se simplifier la vie sur @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"En continuant à utiliser @:(common.site_title), vous acceptez l'utilisation "
-"de cookies pour améliorer votre confort d'utilisation."
-
 msgid "components.site_layout.cookie.link"
 msgstr "En savoir plus"
 
@@ -1273,13 +1268,14 @@ msgstr "Pour améliorer votre confort d'utilisation, le site utilise des cookies
 msgid "routes.about.cookie.table_message"
 msgstr "Le tableau ci-dessous présent tous les cookies utilisés sur ce site."
 
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr ""
-"Indique si vous avez lu le message d'information concernant l'utilisation "
-"de cookies"
-
 msgid "routes.about.cookie.info.locale"
 msgstr "Langue d'affichage"
+
+msgid "routes.about.cookie.info.cookieConsent"
+msgstr "Vos préférences en matière de cookies"
+
+msgid "routes.about.cookie.p2"
+msgstr "Pour plus d’informations, veuillez vous référer aux liens suivants :"
 
 msgid "routes.about.dev_info.title"
 msgstr "Informations développement"

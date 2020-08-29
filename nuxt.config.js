@@ -544,7 +544,7 @@ module.exports = {
     script: [],
   },
 
-  css: ["~assets/theme/light/theme.scss", "~assets/theme/dark/theme.scss", "~assets/style.scss"],
+  css: ["~assets/theme/light/theme.scss", "~assets/theme/dark/theme.scss", "~assets/style.scss", "@fortawesome/fontawesome-svg-core/styles.css"],
 
   axios: {
     host: process.env.DEPLOY_ENV === "GH_PAGES" ? prodUrl : "localhost",

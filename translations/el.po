@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: i18next-conv\n"
 "Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
 "POT-Creation-Date: 2020-08-21T21:00:50.998Z\n"
-"PO-Revision-Date: 2020-08-28 10:08+0000\n"
+"PO-Revision-Date: 2020-08-30 18:37+0000\n"
 "Last-Translator: Weblate Admin <admin@foe.tools>\n"
 "Language-Team: Greek <https://translate.foe.tools/projects/foe-tools-website/"
 "website/el/>\n"
@@ -404,7 +404,7 @@ msgstr ""
 "δεύτερη επαναλαμβανόμενη αποστολή.\n"
 "\n"
 "<i><b>Σημείωση</b> : Υποθέτουμε ότι το ζητούμενο της δεύτερης "
-"επαναλαμβανόμενης αποστολής είναι: συλλέξτε Χ ποσότητα προμηθειών.</i>"
+"επαναλαμβανόμενης αποστολής είναι: συλλέξτε Χ ποσότητα προμηθειών</i>."
 
 msgid "components.cf_calculator.tutorial.fpBy24h"
 msgstr "Γράψτε την ποσότητα των ΦΠ που συλλέγετε ανά 24ωρο."
@@ -448,7 +448,7 @@ msgstr ""
 msgid "foe_data.bonus.plunder_goods.gb_description"
 msgstr ""
 "Παράγει τυχαία αγαθά για έως και 3 λεηλασίες άλλων πόλεων ανά 24ωρη συλλογή. "
-"Η εποχή των τυχαίων αγαθών αντιστοιχεί στην εποχή τού κτίσματος που "
+"Η εποχή  των τυχαίων αγαθών αντιστοιχεί στην ηλικία του κτίσματος που "
 "λεηλατείτε."
 
 msgid "foe_data.bonus.plunder_goods.name"
@@ -459,3 +459,187 @@ msgstr ""
 "Παράγει 1 τυχαίο αγαθό όταν βοηθάτε την πόλη ενός άλλου παίκτη, (η "
 "χειροκίνητη κιτνητοποίηση ή τελειοποίηση θεωρείται επίσης βοήθεια). Το "
 "τυχαίο αγαθό ανήκει στην εποχή τού κτίσματος που βοηθάτε."
+
+msgid "seo.keywords.military_units"
+msgstr "στρατιωτικές μονάδες"
+
+msgid "seo.keywords.medals"
+msgstr "μετάλλια"
+
+msgid "seo.keywords.forge_point"
+msgstr "φορτζ πόντοι"
+
+msgid "seo.keywords.fp"
+msgstr "ΦΠ"
+
+msgid "seo.keywords.great_building"
+msgstr "Μεγάλο Κτίριο"
+
+msgid "seo.keywords.gb"
+msgstr "ΜΚ"
+
+msgid "contributions.creator"
+msgstr "Δημιουργός αυτού του προγράμματος"
+
+msgid "contributions.tutorial"
+msgstr "Σεμινάρια εκμάθησης"
+
+msgid "contributions.translation"
+msgstr "Μετάφραση"
+
+msgid "contributions.tool"
+msgstr "Εργαλεία"
+
+msgid "contributions.talk"
+msgstr "Συνομιλίες"
+
+msgid "contributions.question"
+msgstr "Απάντηση σ' Ερωτήσεις"
+
+msgid "contributions.example"
+msgstr "Παραδείγματα"
+
+msgid "contributions.doc"
+msgstr "Τεκμηρίωση"
+
+msgid "contributions.bug"
+msgstr "Αναφορές σφαλμάτων"
+
+msgid "utils.graph.gb_reward_1st_place"
+msgstr "Ανταμοιβή επιπέδου, (1η θέση)"
+
+msgid "utils.graph.gb_level"
+msgstr "Επίπεδο"
+
+msgid "utils.moment.day"
+msgid_plural "utils.moment.day"
+msgstr[0] "{count} ημέρα"
+msgstr[1] "{count} ημέρες"
+
+msgid "utils.moment.month"
+msgid_plural "utils.moment.month"
+msgstr[0] "{count} μήνας"
+msgstr[1] "{count} μήνες"
+
+msgid "utils.moment.year"
+msgid_plural "utils.moment.year"
+msgstr[0] "{count} έτος"
+msgstr[1] "{count} έτη"
+
+msgid "utils.errors.field_cannot_be_empty"
+msgstr "Το πεδίο αυτό δεν μπορεί να 'ναι κενό"
+
+msgid "utils.Donate"
+msgstr "Δωρεά"
+
+msgid "utils.Tutorial"
+msgstr "Φροντιστήριο"
+
+msgid "utils.FP"
+msgid_plural "utils.FP"
+msgstr[0] "{count} ΦΠ"
+msgstr[1] "{count} ΦΠ"
+
+msgid "utils.Exit"
+msgstr "Έξοδος"
+
+msgid "utils.Hide"
+msgstr "Απόκρυψη"
+
+msgid "utils.Show"
+msgstr "προβολή"
+
+msgid "utils.Save"
+msgstr "Αποθήκευση"
+
+msgid "utils.Submit"
+msgstr "υποβάλλουν"
+
+msgid "utils.Close"
+msgstr "Κλείσιμο"
+
+msgid "utils.Confirm"
+msgstr "Επιβεβαίωση"
+
+msgid "utils.Reset"
+msgstr "Επαναφορά"
+
+msgid "utils.Cost"
+msgstr "Κόστος"
+
+msgid "utils.Rewards"
+msgstr "Ανταμοιβές"
+
+msgid "utils.Description"
+msgstr "Περιγραφή"
+
+msgid "utils.Name"
+msgstr "Ονομασία"
+
+msgid "utils.Path"
+msgstr "Διαδρομή"
+
+msgid "utils.From"
+msgstr "Από"
+
+msgid "utils.Information"
+msgstr "Πληροφορία"
+
+msgid "utils.Copyed"
+msgstr "Αντιγράφηκε !"
+
+msgid "utils.Copy"
+msgstr "Αντιγραφή"
+
+msgid "utils.Ok"
+msgstr "Εντάξει"
+
+msgid "utils.No"
+msgstr "Όχι"
+
+msgid "utils.Yes"
+msgstr "Ναι"
+
+msgid "utils.Remove"
+msgstr "Διαγραφή"
+
+msgid "utils.Add"
+msgstr "Προσθήκη"
+
+msgid "utils.choose_age"
+msgstr "Επίλεξε μία Εποχή"
+
+msgid "utils.description.p1"
+msgstr "Εισαγωγή άλλων τιμών. Το αποτέλεσμα θα διαμορφωθεί αυτόματα."
+
+msgid "utils.btn_calculate"
+msgstr "Υπολογισμός"
+
+msgid "utils.content.statistics"
+msgstr "Στατιστικά"
+
+msgid "utils.content.tools"
+msgstr "Εργαλεία"
+
+msgid "foe_data.bonus.exploration_site.gb_description"
+msgstr "---"
+
+msgid "foe_data.bonus.exploration_site.name"
+msgstr "Περιήγηση στον Ιστότοπο"
+
+msgid "foe_data.bonus.double_collection.name"
+msgstr "Διπλασιασμός συλλεγόμενων"
+
+msgid "foe_data.bonus.first_strike.gb_description"
+msgstr ""
+"Παρέχει την πιθανότητα εξόντωσης μίας αντίπαλης μονάδας στην αρχή τής μάχης. "
+"Στις συμπλοκές δύο κυμάτων, ισχύει μόνο για το πρώτο κύμα."
+
+msgid "foe_data.bonus.first_strike.name"
+msgstr "Πρώτο Χτύπημα"
+
+msgid "foe_data.bonus.helping_hands.name"
+msgstr "Χείρες βοήθειας"
+
+msgid "components.cf_calculator.block_cfc.table_reward.title"
+msgstr "@:(utils.Rewards)"

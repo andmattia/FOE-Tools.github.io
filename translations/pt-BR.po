@@ -1,13 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"mime-version: 1.0\n"
+"Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
+"POT-Creation-Date: 2020-08-21T21:00:51.752Z\n"
+"PO-Revision-Date: 2020-08-29 15:21+0000\n"
+"Last-Translator: João Neto <jhonneto1221@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.foe.tools/projects/"
+"foe-tools-website/website/pt_BR/>\n"
+"Language: pt-BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"POT-Creation-Date: 2020-08-21T21:00:51.752Z\n"
-"PO-Revision-Date: 2020-08-21T21:00:51.752Z\n"
-"Language: pt-BR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.1.1\n"
+"mime-version: 1.0\n"
 
 msgid "main_menu.home"
 msgstr "Início"
@@ -1631,7 +1636,7 @@ msgid "routes.donate.donation_options"
 msgstr "Doa com @:(common.links.donorbox) or @:(common.links.paypal)."
 
 msgid "routes.donate.conversion"
-msgstr "Se aprecias o meu trabalho, por favor considera uma doação."
+msgstr "Se gosta do meu trabalho, por favor considere uma doação."
 
 msgid "routes.donate.donation_message"
 msgstr ""
@@ -3751,3 +3756,129 @@ msgstr "Medalhas"
 
 msgid "seo.keywords.military_units"
 msgstr "unidades militares"
+
+#, fuzzy
+msgid "foe_data.province.Euphrosyne_A_12"
+msgstr "Euphrosyne A-12"
+
+#, fuzzy
+msgid "foe_data.province.Eunike"
+msgstr "Eunike"
+
+#, fuzzy
+msgid "foe_data.province.Gyptis"
+msgstr "Gyptis"
+
+#, fuzzy
+msgid "foe_data.province.Loreley"
+msgstr "Loreley"
+
+#, fuzzy
+msgid "foe_data.province.Pales"
+msgstr "Pales"
+
+#, fuzzy
+msgid "foe_data.province.Ceres_G_7"
+msgstr "Ceres G-7"
+
+#, fuzzy
+msgid "foe_data.province.Ceres_E_6"
+msgstr "Ceres E-6"
+
+#, fuzzy
+msgid "foe_data.province.Aurora"
+msgstr "Aurora"
+
+#, fuzzy
+msgid "foe_data.province.Cybele_V_4"
+msgstr "Cybele V-4"
+
+#, fuzzy
+msgid "foe_data.province.Cybele_F_3"
+msgstr "Cybele F-3"
+
+#, fuzzy
+msgid "foe_data.province.Juno"
+msgstr "Juno"
+
+#, fuzzy
+msgid "foe_data.province.Vesta_S_1"
+msgstr "Vesta S-1"
+
+#, fuzzy
+msgid "foe_data.province.Egeria"
+msgstr "Egeria"
+
+#, fuzzy
+msgid "foe_data.province.Diotima"
+msgstr "Diotima"
+
+#, fuzzy
+msgid "foe_data.province.Aletheia"
+msgstr "Aletheia"
+
+#, fuzzy
+msgid "foe_data.province.Metis"
+msgstr "Metis"
+
+#, fuzzy
+msgid "foe_data.province.Hektor"
+msgstr "Hektor"
+
+#, fuzzy
+msgid "foe_data.province.Ino"
+msgstr "Ino"
+
+#, fuzzy
+msgid "foe_data.province.Thisbe"
+msgstr "Thisbe"
+
+#, fuzzy
+msgid "foe_data.province.Amphitrite"
+msgstr "Amphitrite"
+
+#, fuzzy
+msgid "foe_data.province.Interamnia"
+msgstr "Interamnia"
+
+#, fuzzy
+msgid "foe_data.province.TB_15_X_7"
+msgstr "TB-15 X-7"
+
+#, fuzzy
+msgid "foe_data.province.Eunomia"
+msgstr "Eunomia"
+
+#, fuzzy
+msgid "foe_data.province.Pallas_D_5"
+msgstr "Pallas D-5"
+
+#, fuzzy
+msgid "foe_data.province.Pallas_C_4"
+msgstr "Pallas C-4"
+
+#, fuzzy
+msgid "foe_data.province.Eros"
+msgstr "Eros"
+
+#, fuzzy
+msgid "foe_data.province.Medea"
+msgstr "Medea"
+
+msgid "foe_data.province.Psyche"
+msgstr "Psyche"
+
+msgid "foe_data.goods.platinum_crystals"
+msgstr "Cristais de Platina"
+
+msgid "foe_data.goods.bromine"
+msgstr "Bromo"
+
+msgid "foe_data.goods.compound_fluid"
+msgstr "Fluidos Compostos"
+
+msgid "foe_data.goods.processed_materials"
+msgstr "Materiais Processados"
+
+msgid "foe_data.goods.nickel"
+msgstr "Níquel"

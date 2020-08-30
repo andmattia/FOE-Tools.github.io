@@ -1,5 +1,3 @@
-import Utils from "~/scripts/utils";
-
 const i18nPrefix = "components.site_layout.day_night";
 const dayStartHour = 7;
 const dayStartMinutes = 0;

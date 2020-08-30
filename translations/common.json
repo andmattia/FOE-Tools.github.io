@@ -13,6 +13,7 @@
       "nl": { "en": "Dutch", "original": "Nederlands", "flag": "🇳🇱" },
       "pl": { "en": "Polish", "original": "Polski", "flag": "🇵🇱" },
       "pt": { "en": "Portuguese", "original": "Português", "flag": "🇵🇹" },
+      "pt-BR": { "en": "Portuguese (Brasil)", "original": "Português", "flag": "🇧🇷" },
       "ru": { "en": "Russian", "original": "Русский", "flag": "🇷🇺" },
       "sk": { "en": "Slovak", "original": "Slovensko", "flag": "🇸🇰" },
       "sv": { "en": "Swedish", "original": "Svenska", "flag": "🇸🇪" },

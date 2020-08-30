@@ -10,6 +10,7 @@ export const supportedLocales = [
   "pl",
   "sv",
   "pt",
+  "pt-BR",
   "es",
   "sk",
   "tr",

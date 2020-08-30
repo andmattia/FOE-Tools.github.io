@@ -573,6 +573,7 @@ module.exports = {
       { code: "nl", file: "nl.json", iso: "nl-NL" },
       { code: "pl", file: "pl.json", iso: "pl-PL" },
       { code: "pt", file: "pt.json", iso: "pt-PT" },
+      { code: "pt-BR", file: "pt-BR.json", iso: "pt-BR" },
       { code: "ru", file: "ru.json", iso: "ru-RU" },
       { code: "sk", file: "sk.json", iso: "sk-SK" },
       { code: "sv", file: "sv.json", iso: "sv-SE" },

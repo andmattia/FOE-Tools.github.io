@@ -49,10 +49,9 @@ import {
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCopy, faQuestionCircle } from "@fortawesome/free-regular-svg-icons";
 
-import moment from "moment";
-import momentDurationFormatSetup from "moment-duration-format";
-import { state } from "../../store/global";
-momentDurationFormatSetup(moment);
+import moment from "dayjs";
+import duration from "dayjs/plugin/duration";
+moment.extend(duration);
 
 const url = "https://test.foe-tools.github.io";
 

@@ -1,4 +1,4 @@
-import moment from "moment";
+import moment from "dayjs";
 import { Enum } from "enumify";
 import * as Errors from "./errors";
 
@@ -20,14 +20,6 @@ export default {
   MenuRecordType,
 
   /**
-   * Regex used to get duration. Groups:
-   * - 2: years
-   * - 4: months
-   * - 6: days
-   */
-  regex_duration: /((\d+) years?)?\s*((\d+) months?)?\s*((\d+) days?)?/,
-
-  /**
    * Convert a moment duration in string
    * @param duration {Duration} Duration to convert
    * @param i18n {i18n} Reference of i18n instance to translate in good locale
@@ -41,35 +33,19 @@ export default {
       throw new Errors.InvalidTypeError({ expected: "Duration", actual: duration.constructor.name });
     }
 
-    let match = this.regex_duration.exec(
-      duration.format("y [years] M [months] d [days]", 0, {
-        useToLocaleString: false,
-      })
-    );
-
     let result = "";
-    let value;
-    if (match[2] !== undefined) {
-      value = parseInt(match[2]);
-      if (value > 0) {
-        result += i18n.tc("utils.moment.year", value, { count: i18n.n(value) });
-      }
+    if (duration.$d.years) {
+      result += i18n.tc("utils.moment.year", duration.$d.years, { count: i18n.n(duration.$d.years) });
     }
 
-    if (match[4] !== undefined) {
-      value = parseInt(match[4]);
-      if (value > 0) {
-        result += result.length > 0 ? " " : "";
-        result += i18n.tc("utils.moment.month", value, { count: i18n.n(value) });
-      }
+    if (duration.$d.months) {
+      result += result.length > 0 ? ", " : "";
+      result += i18n.tc("utils.moment.month", duration.$d.months, { count: i18n.n(duration.$d.months) });
     }
 
-    if (match[6] !== undefined) {
-      value = parseInt(match[6]);
-      if (value > 0) {
-        result += result.length > 0 ? " " : "";
-        result += i18n.tc("utils.moment.day", value, { count: i18n.n(value) });
-      }
+    if (duration.$d.days) {
+      result += result.length > 0 ? ", " : "";
+      result += i18n.tc("utils.moment.day", duration.$d.days, { count: i18n.n(duration.$d.days) });
     }
 
     return result;

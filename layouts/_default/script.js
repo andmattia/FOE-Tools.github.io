@@ -243,8 +243,8 @@ export default {
         this.dayNightWatchdog.start.call(this);
       }
       const current = this.$moment().format("HH:mm");
-      const dayStart = this.$moment(this.$clone(this.$store.get("global/dayStart")), "HH:mm").format("HH:mm");
-      const nightStart = this.$moment(this.$clone(this.$store.get("global/nightStart")), "HH:mm").format("HH:mm");
+      const dayStart = this.$clone(this.$store.get("global/dayStart"));
+      const nightStart = this.$clone(this.$store.get("global/nightStart"));
       const isDay = current >= dayStart && current < nightStart;
       this.$store.set("isDarkTheme", !isDay);
     },

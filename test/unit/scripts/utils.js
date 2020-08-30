@@ -1,64 +1,60 @@
 import Utils from "../../../scripts/utils";
 import * as Errors from "../../../scripts/errors";
-import * as moment from "moment";
-import momentDurationFormatSetup from "moment-duration-format";
+import moment from "dayjs";
+import duration from "dayjs/plugin/duration";
+moment.extend(duration);
 import { shallowMount } from "@vue/test-utils";
 import { getView } from "../localVue";
 import { getDefaultStore } from "../utils";
 import Component from "../../../layouts/_default/Default";
 
-momentDurationFormatSetup(moment);
-
 const { i18n } = getView(getDefaultStore());
 
 describe("Utils", () => {
   describe("getFormatedDuration", () => {
-    test("1 year 2 months 25 days", () => {
+    test("1 year, 2 months, 4 days", () => {
       const duration = moment.duration({
         seconds: 7,
         minutes: 6,
         hours: 5,
         days: 4,
-        weeks: 3,
         months: 2,
         years: 1,
       });
 
       const result = Utils.getFormatedDuration(duration, i18n);
 
-      expect(result).toBe("1 year 2 months 25 days");
+      expect(result).toBe("1 year, 2 months, 4 days");
     });
 
-    test("2 years 1 month 1 day", () => {
+    test("2 years, 1 month, 1 day", () => {
       const duration = moment.duration({
         seconds: 0,
         minutes: 0,
         hours: 0,
         days: 1,
-        weeks: 0,
         months: 1,
         years: 2,
       });
 
       const result = Utils.getFormatedDuration(duration, i18n);
 
-      expect(result).toBe("2 years 1 month 1 day");
+      expect(result).toBe("2 years, 1 month, 1 day");
     });
 
-    test("3 years 2 days", () => {
+    test("3 years, 2 days", () => {
       const duration = moment.duration({
         seconds: 0,
         minutes: 0,
         hours: 0,
         days: 2,
-        weeks: 0,
         months: 0,
         years: 3,
       });
 
       const result = Utils.getFormatedDuration(duration, i18n);
 
-      expect(result).toBe("3 years 2 days");
+      expect(result).toBe("3 years, 2 days");
     });
 
     test("1 month", () => {
@@ -67,7 +63,6 @@ describe("Utils", () => {
         minutes: 0,
         hours: 0,
         days: 0,
-        weeks: 0,
         months: 1,
         years: 0,
       });
@@ -83,7 +78,6 @@ describe("Utils", () => {
         minutes: 0,
         hours: 0,
         days: 21,
-        weeks: 0,
         months: 0,
         years: 0,
       });
@@ -113,7 +107,6 @@ describe("Utils", () => {
             minutes: 6,
             hours: 5,
             days: 4,
-            weeks: 3,
             months: 2,
             years: 1,
           },

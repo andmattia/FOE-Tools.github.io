@@ -1,5 +1,3 @@
-import Utils from "~/scripts/utils";
-
 const i18nPrefix = "components.site_layout.day_night";
 const dayStartHour = 7;
 const dayStartMinutes = 0;
@@ -10,8 +8,8 @@ export default {
   data() {
     let dS, nS;
     const regexTime = /([0-9]{2}):([0-9]{2})/;
-    const cookieDayStart = this.$cookies.get("dayStart");
-    const cookieNightStart = this.$cookies.get("nightStart");
+    const cookieDayStart = this.$store.get("global/dayStart");
+    const cookieNightStart = this.$store.get("global/dayStart");
     dS = new Date();
     if (cookieDayStart && regexTime.test(cookieDayStart)) {
       const match = regexTime.exec(cookieDayStart);
@@ -20,10 +18,8 @@ export default {
     } else {
       dS.setUTCHours(dayStartHour);
       dS.setUTCMinutes(dayStartMinutes);
-      this.$cookies.set("dayStart", this.$moment(dS).format("HH:mm"), {
-        path: "/",
-        expires: Utils.getDefaultCookieExpireTime(),
-      });
+
+      this.$store.set("global/dayStart", this.$moment(dS).format("HH:mm"));
     }
 
     nS = new Date();
@@ -34,10 +30,7 @@ export default {
     } else {
       nS.setUTCHours(nightStartHour);
       nS.setUTCMinutes(nightStartMinutes);
-      this.$cookies.set("nightStart", this.$moment(nS).format("HH:mm"), {
-        path: "/",
-        expires: Utils.getDefaultCookieExpireTime(),
-      });
+      this.$store.set("global/nightStart", this.$moment(nS).format("HH:mm"));
     }
 
     return {
@@ -56,17 +49,11 @@ export default {
   },
   watch: {
     dayStart(val) {
-      this.$cookies.set("dayStart", this.$moment(val || this.defaultDayStart).format("HH:mm"), {
-        path: "/",
-        expires: Utils.getDefaultCookieExpireTime(),
-      });
+      this.$store.set("global/dayStart", this.$moment(val || this.defaultDayStart).format("HH:mm"));
       this.$emit("dayStartChange");
     },
     nightStart(val) {
-      this.$cookies.set("nightStart", this.$moment(val || this.defaultNightStart).format("HH:mm"), {
-        path: "/",
-        expires: Utils.getDefaultCookieExpireTime(),
-      });
+      this.$store.set("global/nightStart", this.$moment(val || this.defaultNightStart).format("HH:mm"));
       this.$emit("nightStartChange");
     },
   },

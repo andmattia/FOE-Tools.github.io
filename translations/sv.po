@@ -924,11 +924,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Ett uppsättning verktyg att underlätta livet på @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Genom att fortsätta använda @:(common.site_title), accepterar du användande "
-"av kakor (avsedda att underlätta handhavandet)."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Mer information"
 
@@ -1228,9 +1223,6 @@ msgstr "För att förbättra handhavandet används kakor på denna plats."
 
 msgid "routes.about.cookie.table_message"
 msgstr "Tabellen nedan visar alla kakor som används på denna plats."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr "Indikerar att du har läst informationen angående kakor"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

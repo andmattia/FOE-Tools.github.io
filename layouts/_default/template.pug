@@ -61,14 +61,6 @@
       .action.is-info(@click="switchLocale()")
         button.button {{$t('utils.Switch', { lng: detectedLocale })}}
 
-  section.fixed(v-show="cookieDisclaimerUndisplayed")
-    b-notification.is-radiusless.is-marginless.has-text-centered(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" closable @close="confirmInfoCookie" :active="cookieDisclaimerUndisplayed")
-      div.has-text-centered  {{$t(i18nPrefix + 'cookie.message')}}
-        |
-        |
-        nuxt-link(:to="localePath({ name: 'About' })" exact) {{$t(i18nPrefix + 'cookie.link')}}
-        | .
-
   section.hero.is-dark-blue
     div.hero-body
       div.container
@@ -78,38 +70,39 @@
             h2.subtitle.is-4(v-html="$t($store.get('hero@subtitle'))")
 
   main.container.is-fullheight
-    section.section
-      div.container
-        div.columns.is-centered.is-margin-top-one-em-touch(v-show="isNewYear")
-          div.column.is-three-quarters
-            b-notification.newYearNotification(:class="dayNightMode === 'day' ? 'is-dark' : 'is-light'") 🎉&nbsp;&nbsp;{{$t(i18nPrefix + 'new_year.message', { count: $n(nbYears) })}}&nbsp;&nbsp;🍰
-        div.columns.is-centered.is-margin-top-one-em-touch(v-show="hasSurvey")
-          div.column.is-three-quarters
-            b-notification(type="is-info" :closable="false")
-              nuxt-link(:to="localePath({ name: 'Survey' })") {{$t(i18nPrefix + 'survey.message')}}
-        div.columns.is-centered.is-margin-top-one-em-touch(v-show="nbUpdateSinceLastVisit")
-          div.column.is-three-quarters
-            b-notification(type="is-info" :closable="true")
-              p {{$t(i18nPrefix + 'update', { count: $n(nbUpdateSinceLastVisit) })}}
-              nuxt-link(:to="localePath({ name: 'Changelog' })") {{$t(i18nPrefix + 'whats_new')}}
-        div.columns.is-centered
-          div.column.is-11-desktop.is-three-quarters-fullhd.is-three-quarters-widescreen.is-full-tablet
-            div(v-if="(['Home', 'GbInvestmentChooser', 'GbInvestment', 'Contributors'].indexOf(/^([^_]+)(?:___\\w+)?$/.exec($route.name)[1]) >= 0) && !$route.params.gb")
-              nuxt
-            div.card.article(v-else)
-              div.card-content
-                div.content.article-body
-                  div.columns(v-show="isConversionDate")
-                    div.column
-                      b-message(:title="$t('utils.Information')" type="is-info" has-icon @close="onCloseDonationMessage") {{this.$t("routes.donate.conversion")}}
-                        p
-                        p
-                          nuxt-link.button.is-warning(:to="localePath({ name: 'Donate' })" exact)
-                            span {{$t('utils.Donate')}}
-                  div.columns(v-show="isPermalink")
-                    div.column
-                      b-message(:title="$t('utils.Information')" type="is-warning" has-icon) {{$t(i18nPrefix + 'permalink_info')}}
-                  nuxt
+    .hero
+      .hero-body
+        div.container
+          div.columns.is-centered.is-margin-top-one-em-touch(v-show="isNewYear")
+            div.column.is-three-quarters
+              b-notification.newYearNotification(:class="dayNightMode === 'day' ? 'is-dark' : 'is-light'") 🎉&nbsp;&nbsp;{{$t(i18nPrefix + 'new_year.message', { count: $n(nbYears) })}}&nbsp;&nbsp;🍰
+          div.columns.is-centered.is-margin-top-one-em-touch(v-show="hasSurvey")
+            div.column.is-three-quarters
+              b-notification(type="is-info" :closable="false")
+                nuxt-link(:to="localePath({ name: 'Survey' })") {{$t(i18nPrefix + 'survey.message')}}
+          div.columns.is-centered.is-margin-top-one-em-touch(v-show="nbUpdateSinceLastVisit")
+            div.column.is-three-quarters
+              b-notification(type="is-info" :closable="true")
+                p {{$t(i18nPrefix + 'update', { count: $n(nbUpdateSinceLastVisit) })}}
+                nuxt-link(:to="localePath({ name: 'Changelog' })") {{$t(i18nPrefix + 'whats_new')}}
+          div.columns.is-centered
+            div.column.is-11-desktop.is-three-quarters-fullhd.is-three-quarters-widescreen.is-full-tablet
+              div(v-if="(['Home', 'GbInvestmentChooser', 'GbInvestment', 'Contributors'].indexOf(/^([^_]+)(?:___.+)?$/.exec($route.name)[1]) >= 0) && !$route.params.gb")
+                nuxt
+              div.card.article(v-else)
+                div.card-content
+                  div.content.article-body
+                    div.columns(v-show="isConversionDate")
+                      div.column
+                        b-message(:title="$t('utils.Information')" type="is-info" has-icon @close="onCloseDonationMessage") {{this.$t("routes.donate.conversion")}}
+                          p
+                          p
+                            nuxt-link.button.is-warning(:to="localePath({ name: 'Donate' })" exact)
+                              span {{$t('utils.Donate')}}
+                    div.columns(v-show="isPermalink")
+                      div.column
+                        b-message(:title="$t('utils.Information')" type="is-warning" has-icon) {{$t(i18nPrefix + 'permalink_info')}}
+                    nuxt
 
     span.button.scroll-to-top.is-rounded(:class="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" @click="backToTop")
       span.icon

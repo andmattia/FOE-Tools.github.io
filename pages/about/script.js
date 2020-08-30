@@ -10,7 +10,7 @@ export default {
 
     return {
       i18nPrefix,
-      cookiesData: [{ name: "cookieDisclaimerDisplayed" }, { name: "locale" }],
+      cookiesData: [{ name: "cookieConsent" }, { name: "locale" }],
     };
   },
 };

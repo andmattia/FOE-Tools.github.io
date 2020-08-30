@@ -978,11 +978,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Zostava náradia pre zjednodušenie života v @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Ak budete naďalej používať @:(common.site_title), súhlasíte s využitím "
-"cookies, ktoré Vám zjednoduší jej používanie."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Viac informácií"
 
@@ -1279,9 +1274,6 @@ msgstr "Pre zjednodušenie používania, stránka používa cookies."
 
 msgid "routes.about.cookie.table_message"
 msgstr "V nasledujúcej tabuľke sú uvedené všetky cookies použité na tejto stránke."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr "Oznamuje, že ste si prečítali informačnú správu o používaní cookies"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

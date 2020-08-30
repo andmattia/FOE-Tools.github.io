@@ -1,6 +1,5 @@
 import { JSDOM } from "jsdom";
 import { defaultLocale, supportedLocales } from "./scripts/locales";
-// import { i18next } from "./scripts/i18n";
 import Vue from "vue";
 import VueI18n from "vue-i18n";
 import { gbs } from "./lib/foe-data/gbs";
@@ -8,7 +7,7 @@ import { bestFacebookLocaleFor } from "facebook-locales";
 
 Vue.use(VueI18n);
 
-let i18next = new VueI18n({
+let i18n = new VueI18n({
   locale: "en",
   fallbackLocale: "en",
   messages: {
@@ -83,14 +82,14 @@ const modifyHtml = (page, locale) => {
 
   // Set the title
   if (pageKey[0] === "gb_investment") {
-    text = i18next.t(`routes.${pageKey[0]}.title`, {
+    text = i18n.t(`routes.${pageKey[0]}.title`, {
       lng: locale,
       gb_key: "foe_data.gb." + pageKey[1],
     });
     image = `${hostname}/img/foe/gb/${pageKey[1]}.png`;
     node.content = image;
   } else {
-    text = i18next.t(`routes.${pageKey[0]}.title`, { lng: locale });
+    text = i18n.t(`routes.${pageKey[0]}.title`, { lng: locale });
     node.content = `${hostname}/icon.png`;
   }
   title = text;
@@ -139,7 +138,7 @@ const modifyHtml = (page, locale) => {
   window.document.querySelector("head").appendChild(node);
 
   // Set meta description
-  text = i18next.t(
+  text = i18n.t(
     [
       `routes.${pageKey[0] === "gb_investment" ? "gb_investment_gb_chooser" : pageKey[0]}.hero.subtitle`,
       "components.site_layout.hero.slogan_html",
@@ -195,28 +194,28 @@ const modifyHtml = (page, locale) => {
     "Uceria",
     "Beta",
     "upgrade",
-    i18next.t("seo.keywords.gb", { lng: locale }),
-    i18next.t("seo.keywords.great_building", { lng: locale }),
-    i18next.t("seo.keywords.fp", { lng: locale }),
-    i18next.t("seo.keywords.forge_point", { lng: locale }),
-    i18next.t("seo.keywords.medals", { lng: locale }),
-    i18next.t("seo.keywords.military_units", { lng: locale }),
-    i18next.t("foe_data.age.NoAge", { lng: locale }),
-    i18next.t("foe_data.age.BronzeAge", { lng: locale }),
-    i18next.t("foe_data.age.IronAge", { lng: locale }),
-    i18next.t("foe_data.age.EarlyMiddleAges", { lng: locale }),
-    i18next.t("foe_data.age.HighMiddleAges", { lng: locale }),
-    i18next.t("foe_data.age.LateMiddleAges", { lng: locale }),
-    i18next.t("foe_data.age.ColonialAge", { lng: locale }),
-    i18next.t("foe_data.age.IndustrialAge", { lng: locale }),
-    i18next.t("foe_data.age.ProgressiveEra", { lng: locale }),
-    i18next.t("foe_data.age.ModernEra", { lng: locale }),
-    i18next.t("foe_data.age.PostmodernEra", { lng: locale }),
-    i18next.t("foe_data.age.ContemporaryEra", { lng: locale }),
-    i18next.t("foe_data.age.Tomorrow", { lng: locale }),
-    i18next.t("foe_data.age.TheFuture", { lng: locale }),
-    i18next.t("foe_data.age.ArcticFuture", { lng: locale }),
-    i18next.t("foe_data.age.OceanicFuture", { lng: locale }),
+    i18n.t("seo.keywords.gb", { lng: locale }),
+    i18n.t("seo.keywords.great_building", { lng: locale }),
+    i18n.t("seo.keywords.fp", { lng: locale }),
+    i18n.t("seo.keywords.forge_point", { lng: locale }),
+    i18n.t("seo.keywords.medals", { lng: locale }),
+    i18n.t("seo.keywords.military_units", { lng: locale }),
+    i18n.t("foe_data.age.NoAge", { lng: locale }),
+    i18n.t("foe_data.age.BronzeAge", { lng: locale }),
+    i18n.t("foe_data.age.IronAge", { lng: locale }),
+    i18n.t("foe_data.age.EarlyMiddleAges", { lng: locale }),
+    i18n.t("foe_data.age.HighMiddleAges", { lng: locale }),
+    i18n.t("foe_data.age.LateMiddleAges", { lng: locale }),
+    i18n.t("foe_data.age.ColonialAge", { lng: locale }),
+    i18n.t("foe_data.age.IndustrialAge", { lng: locale }),
+    i18n.t("foe_data.age.ProgressiveEra", { lng: locale }),
+    i18n.t("foe_data.age.ModernEra", { lng: locale }),
+    i18n.t("foe_data.age.PostmodernEra", { lng: locale }),
+    i18n.t("foe_data.age.ContemporaryEra", { lng: locale }),
+    i18n.t("foe_data.age.Tomorrow", { lng: locale }),
+    i18n.t("foe_data.age.TheFuture", { lng: locale }),
+    i18n.t("foe_data.age.ArcticFuture", { lng: locale }),
+    i18n.t("foe_data.age.OceanicFuture", { lng: locale }),
   ].join(", ");
   text +=
     customKeyWords in extraSeoByPages && locale in extraSeoByPages[customKeyWords]
@@ -300,7 +299,7 @@ const modifyHtml = (page, locale) => {
           position: index,
           item: {
             "@type": "WebApplication",
-            name: i18next.t("routes.gb_investment.title", {
+            name: i18n.t("routes.gb_investment.title", {
               lng: locale,
               gb_key: "foe_data.gb." + gbKey,
             }),
@@ -510,7 +509,6 @@ module.exports = {
     "cookie-universal-nuxt",
     "nuxt-i18n",
     "@nuxtjs/axios",
-    // { src: "~/modules/i18next/module.js" }, //FIXME: to be deleted
     { src: "~/modules/buefy/module.js" },
     { src: "~/modules/foe-data/module.js" },
     { src: "~/modules/cname/module.js" },
@@ -546,7 +544,12 @@ module.exports = {
     script: [],
   },
 
-  css: ["~assets/theme/light/theme.scss", "~assets/theme/dark/theme.scss", "~assets/style.scss"],
+  css: [
+    "~assets/theme/light/theme.scss",
+    "~assets/theme/dark/theme.scss",
+    "~assets/style.scss",
+    "@fortawesome/fontawesome-svg-core/styles.css",
+  ],
 
   axios: {
     host: process.env.DEPLOY_ENV === "GH_PAGES" ? prodUrl : "localhost",
@@ -575,6 +578,7 @@ module.exports = {
       { code: "nl", file: "nl.json", iso: "nl-NL" },
       { code: "pl", file: "pl.json", iso: "pl-PL" },
       { code: "pt", file: "pt.json", iso: "pt-PT" },
+      { code: "pt-BR", file: "pt-BR.json", iso: "pt-BR" },
       { code: "ru", file: "ru.json", iso: "ru-RU" },
       { code: "sk", file: "sk.json", iso: "sk-SK" },
       { code: "sv", file: "sv.json", iso: "sv-SE" },

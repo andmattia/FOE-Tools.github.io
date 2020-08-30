@@ -711,6 +711,42 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "VPetr (CZ)",
+      "name": "VPetr (CZ)",
+      "avatar_url": "https://forum.cz.forgeofempires.com/data/avatars/l/16/16739.jpg?1587495458",
+      "profile": "http://forum.cz.forgeofempires.com/index.php?members/vpetr.16739/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "MacGiver (PT)",
+      "name": "MacGiver (PT)",
+      "avatar_url": "https://forum.en.forgeofempires.com/styles/foe_mx/xenforo/avatars/avatar_l.png",
+      "profile": "",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "ax1z (HU)",
+      "name": "ax1z (HU)",
+      "avatar_url": "https://forum.en.forgeofempires.com/styles/foe_mx/xenforo/avatars/avatar_l.png",
+      "profile": "",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "JhonnyBn",
+      "name": "JhonnyBn",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29382833?v=4",
+      "profile": "https://github.com/JhonnyBn",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "commitConvention": "none"

@@ -658,11 +658,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Una serie di strumenti per semplificare la vita su @:(common.links.foe)"
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"COntinuando con l'uso di @:(common.site_title), accetti l'uso dei cookies "
-"per migliorare la comodità d'uso."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Ulteriori informazioni"
 
@@ -946,9 +941,6 @@ msgstr "Per migliorare il comfort di utilizzo, il sito utilizza i cookie."
 
 msgid "routes.about.cookie.table_message"
 msgstr "La tabella seguente mostra tutti i cookie utilizzati su questo sito."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr "Indica se avete letto il messaggio informativo sull'uso dei cookie"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

@@ -644,11 +644,6 @@ msgstr "@:(common.site_title)"
 msgid "components.site_layout.hero.slogan_html"
 msgstr "Een set tools om het leven op @:(common.links.foe) te versimpelen."
 
-msgid "components.site_layout.cookie.message"
-msgstr ""
-"Als je doorgaat met het gebruik van @:(common.site_title), stem je in met "
-"het gebruik van cookies."
-
 msgid "components.site_layout.cookie.link"
 msgstr "Meer informatie"
 
@@ -948,11 +943,6 @@ msgstr "Om het gebruiksgemak te verhogen, gebruikt deze site cookies."
 
 msgid "routes.about.cookie.table_message"
 msgstr "De onderstaande tabel toont alle cookies die op deze site worden gebruikt."
-
-msgid "routes.about.cookie.info.cookieDisclaimerDisplayed"
-msgstr ""
-"Geeft aan of u het informatiebericht over het gebruik van cookies hebt "
-"gelezen"
 
 msgid "routes.about.cookie.info.gbi_tab"
 msgstr ""

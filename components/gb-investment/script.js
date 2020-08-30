@@ -1199,8 +1199,6 @@ export default {
         },
       });
 
-      console.log("this.$n(32820): ", this.$n(32820));
-
       // Add extra steps
       for (const elt of tutoLinks) {
         let text;

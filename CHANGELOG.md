@@ -2,6 +2,74 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.68.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.67.0...v2.68.0) (2020-08-30)
+
+
+### Features
+
+* **foe-data:** add levels of several ages ([ea23c90](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/ea23c90494967b0c8ea000b08ab7546fa819effd))
+* **l10:** add Portuguese from Brasil (pt-BR) ([ce545cd](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/ce545cde46edaca37da42c72d8054364211ff4af)), closes [#327](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/327)
+* add a privacy and cookie policies ([a73f8d3](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/a73f8d33cc4bd8577603a90c540d5b8e1242e25d)), closes [#331](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/331)
+* add a privacy and cookie policies ([876943a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/876943a1dd187ab33427631a08ea9cbbd597df3e)), closes [#331](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/331)
+* add an auto-reporting bug system ([8eb3fe7](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/8eb3fe795faa8646eae2d65e72ba5d680ba08701)), closes [#149](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/149)
+* update cookie consent system to be GDPR compliant ([aa35e71](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/aa35e71420277c404536cb873fb0d2e6e19d5acf)), closes [#331](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/331)
+* **foe-data:** add levels of several ages ([1d44a5d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/1d44a5d7b04f14fb4b09cc56a5e1169efd5c6c65))
+* **l10:** add Portuguese from Brasil (pt-BR) ([962341a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/962341a070b041e9f08379254369de7cefadad6a)), closes [#327](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/327)
+* add an auto-reporting bug system ([91611a2](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/91611a209872d700fb42e97f31c5fbfc2d042a55)), closes [#149](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/149)
+* update cookie consent system to be GDPR compliant ([73e1c37](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/73e1c37614d6f783b5c2ab9d5399288b71a47972)), closes [#331](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/331)
+* **campaign-cost:** add Space Age Asteroid Belt ([0a00441](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/0a00441e32ed1980fdbd29e070020e14c202729d))
+* **i18n:** moving from i18next to vue-i18n ([ee11295](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/ee1129591db9b56b0c7ccbe99d517d26ca83f5f0)), closes [#328](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/328)
+* update Iron age and EMA provinces ([b7eb6ee](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/b7eb6ee7da0ee688cdeeeb8ed65c07e78b2e5138))
+
+
+### Bug Fixes
+
+* **style:** fix width overflow on smartphone ([5dc638c](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5dc638c2858941c590daa1e2f82a75f625589384))
+* **style:** fix width overflow on smartphone ([070ed59](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/070ed59ebe913d5d32532fdcc52d98fb022c9d82))
+
+
+### Translation
+
+* Translated using Weblate (Arabic) ([9ea3fd3](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/9ea3fd379baf28f47a73ba1199818191b7a2060f))
+* Translated using Weblate (Czech) ([eca0266](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/eca0266c4a21c1c7b677fb062c76bee17dfa1a01))
+* Translated using Weblate (Czech) ([4d54e29](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/4d54e2970c0685f93154a61ce72cb911535127fd))
+* Translated using Weblate (Danish) ([7426b1d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/7426b1dab774a1d7d124a7dcf769a8c5d63cd393))
+* Translated using Weblate (Danish) ([b6b7ce5](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/b6b7ce5e46e653155e6e0ba40e887ece3d1999d8))
+* Translated using Weblate (Dutch) ([962f964](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/962f964a6d19fc25df81a3ed269a10bc9db71bd6))
+* Translated using Weblate (Dutch) ([11b052e](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/11b052e14d37cb39fd2e4579b373dedf56b548b8))
+* Translated using Weblate (English) ([834d6d6](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/834d6d69ea9c9e11b15ea8e8624bff8755ae7b0b))
+* Translated using Weblate (English) ([4811591](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/481159108719e8e0666d91e5b7f7fc90c96b7129))
+* Translated using Weblate (English) ([0c4d702](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/0c4d70217296927f5052aff435da0af99e64d104))
+* Translated using Weblate (English) ([e93e364](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/e93e3647c14943669ef08fef8c979e3307c8de78))
+* Translated using Weblate (English) ([4692726](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/4692726a247743175b94b178475f8026e2a05f65))
+* Translated using Weblate (French) ([d014c0b](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/d014c0ba12c8e4b7839c66174b26dd409b51bae5))
+* Translated using Weblate (French) ([42b1ea4](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/42b1ea4380a2f8c9eb825c0c60b515b725e128ac))
+* Translated using Weblate (German) ([6f3ce57](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/6f3ce57ab45c88f10f77828d9dc498e416a67aa8))
+* Translated using Weblate (German) ([c3743e4](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/c3743e4a6201908de53802d16b1a364e37d204ab))
+* Translated using Weblate (Greek) ([5791d48](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5791d48bf68b59af063d7faf9f3e6e19829a2bca))
+* Translated using Weblate (Greek) ([e6cf966](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/e6cf966f4563f4c1ad3e81edab73d9f85991cddb))
+* Translated using Weblate (Greek) ([28c9b58](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/28c9b581c7da6e98907a42d441b9a4ffd249683c))
+* Translated using Weblate (Greek) ([29df6a4](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/29df6a4ef8c0d54c4e56b14306e6e56b3a3f7392))
+* Translated using Weblate (Hungarian) ([5f2ad39](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5f2ad39d3a34d94caf27130549e786835f75e2bc))
+* Translated using Weblate (Hungarian) ([0f7e881](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/0f7e8810d6d9e5b0d57cf63cce63592b0fab9c33))
+* Translated using Weblate (Italian) ([67e6943](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/67e6943afe36a430ac8b1fa0c648f1baffc2136d))
+* Translated using Weblate (Italian) ([935490a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/935490a31f13de907fc47ed7c28b10c648d036c2))
+* Translated using Weblate (Italian) ([5c1f4cd](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5c1f4cd74888e904e315fa9bb0fbb489b4a210b0))
+* Translated using Weblate (Polish) ([ef47097](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/ef470972c37e9f85d90404c9635730717b8a4ae3))
+* Translated using Weblate (Polish) ([48d5556](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/48d5556ef83a44d40dae5c6dc0d08648eeca94b4))
+* Translated using Weblate (Portuguese (Brazil)) ([a9ad9de](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/a9ad9deb4a8ab82486ea87c17c394cce0ff0d146))
+* Translated using Weblate (Portuguese (Brazil)) ([f16e54d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/f16e54ddc65db46108a0d67937a188996c918bc6))
+* Translated using Weblate (Portuguese (Brazil)) ([e80cb1f](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/e80cb1fb7dea9eb5c4c5722f8f8b06b3ecc4e67b))
+* Translated using Weblate (Portuguese) ([7e6144a](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/7e6144aec0fa9523cead0b569e206c9d4c258a9c))
+* Translated using Weblate (Portuguese) ([9dd273f](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/9dd273f5013cdf54f0759c511e9dfec9550bfc10))
+* Translated using Weblate (Russian) ([5025df3](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/5025df3de016bad743b5f24196dd1ff13faec87b))
+* Translated using Weblate (Slovak) ([1fcccae](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/1fcccae4be5dc23967a72c29f2cefb2435d29253))
+* Translated using Weblate (Spanish) ([b00053d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/b00053daa9bb905a1253bf4a78a77650d09cafac))
+* Translated using Weblate (Swedish) ([379b86e](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/379b86ec11b6f42f9bafa7449831346651c80077))
+* Translated using Weblate (Swedish) ([47f1ba5](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/47f1ba5eafcd70eabb79a2cc29eb4764905d9f91))
+* Translated using Weblate (Swedish) ([ce28d4b](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/ce28d4b1555ef295c2466e89088efa5884801931))
+* Translated using Weblate (Turkish) ([010e33d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/010e33dc4968a8d9143434fb6583e5b9daac32ff))
+
 ## [2.67.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.66.1...v2.67.0) (2020-06-28)
 
 

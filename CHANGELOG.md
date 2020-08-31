@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.68.1](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.68.0...v2.68.1) (2020-08-31)
+
+
+### Bug Fixes
+
+* fix bad background color of card pages (home, etc.) ([a061d4c](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/a061d4ca9d5d73ac8d043128d10eb211ad6771cf)), closes [#343](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/343)
+* fix issue related to language switch in GB Investment ([621b1e9](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/621b1e9d78f22b29c716e2cdec43ab412e4bf1b5)), closes [#345](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/345)
+* fix missing pluralization call ([2b556bc](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/2b556bc17f321197894ee96d413940d65cfbe9d1)), closes [#344](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/344)
+* Route names doesn't update while changing language ([1f3bbea](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/1f3bbeaa28c2718186a413f7b5b73fa0beffa0c9)), closes [#342](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/342)
+
 ## [2.68.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.67.0...v2.68.0) (2020-08-30)
 
 

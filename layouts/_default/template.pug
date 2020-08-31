@@ -13,13 +13,13 @@
         div.navbar-start
           template(v-for="value in mainMenu")
             template(v-if="value.children.length === 0")
-              nuxt-link.navbar-item(:class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{value.name}}
+              nuxt-link.navbar-item(:class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{$t(value.name)}}
             div.navbar-item.has-dropdown.is-hoverable(v-else :key="value.slug")
-              nuxt-link.navbar-link(v-if="value.type.name === 'PAGE'" :class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{value.name}}
-              a.navbar-link(v-else-if="value.type.name === 'MENU_ENTRY'" href="#") {{value.name}}
+              nuxt-link.navbar-link(v-if="value.type.name === 'PAGE'" :class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{$t(value.name)}}
+              a.navbar-link(v-else-if="value.type.name === 'MENU_ENTRY'" href="#") {{$t(value.name)}}
               div.navbar-dropdown.is-boxed
                 template(v-for="child in value.children")
-                  nuxt-link.navbar-item(v-if="child.type.name === 'PAGE'" :class="{'is-active': isActive(child.link)}" :to="localePath({ name: child.link })" exact) {{child.name}}
+                  nuxt-link.navbar-item(v-if="child.type.name === 'PAGE'" :class="{'is-active': isActive(child.link)}" :to="localePath({ name: child.link })" exact) {{$t(child.name)}}
                   hr.navbar-divider(v-else-if="child.type.name === 'SEPARATOR'")
 
         div.navbar-end

@@ -13,13 +13,13 @@
         div.navbar-start
           template(v-for="value in mainMenu")
             template(v-if="value.children.length === 0")
-              nuxt-link.navbar-item(:class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{value.name}}
+              nuxt-link.navbar-item(:class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{$t(value.name)}}
             div.navbar-item.has-dropdown.is-hoverable(v-else :key="value.slug")
-              nuxt-link.navbar-link(v-if="value.type.name === 'PAGE'" :class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{value.name}}
-              a.navbar-link(v-else-if="value.type.name === 'MENU_ENTRY'" href="#") {{value.name}}
+              nuxt-link.navbar-link(v-if="value.type.name === 'PAGE'" :class="{'is-active': isActive(value.link)}" :to="localePath({ name: value.link })" exact) {{$t(value.name)}}
+              a.navbar-link(v-else-if="value.type.name === 'MENU_ENTRY'" href="#") {{$t(value.name)}}
               div.navbar-dropdown.is-boxed
                 template(v-for="child in value.children")
-                  nuxt-link.navbar-item(v-if="child.type.name === 'PAGE'" :class="{'is-active': isActive(child.link)}" :to="localePath({ name: child.link })" exact) {{child.name}}
+                  nuxt-link.navbar-item(v-if="child.type.name === 'PAGE'" :class="{'is-active': isActive(child.link)}" :to="localePath({ name: child.link })" exact) {{$t(child.name)}}
                   hr.navbar-divider(v-else-if="child.type.name === 'SEPARATOR'")
 
         div.navbar-end
@@ -70,12 +70,12 @@
             h2.subtitle.is-4(v-html="$t($store.get('hero@subtitle'))")
 
   main.container.is-fullheight
-    .hero
+    .hero.main-hero
       .hero-body
         div.container
           div.columns.is-centered.is-margin-top-one-em-touch(v-show="isNewYear")
             div.column.is-three-quarters
-              b-notification.newYearNotification(:class="dayNightMode === 'day' ? 'is-dark' : 'is-light'") 🎉&nbsp;&nbsp;{{$t(i18nPrefix + 'new_year.message', { count: $n(nbYears) })}}&nbsp;&nbsp;🍰
+              b-notification.newYearNotification(:class="dayNightMode === 'day' ? 'is-dark' : 'is-light'") 🎉&nbsp;&nbsp;{{$tc(i18nPrefix + 'new_year.message', nbYears, { count: $n(nbYears) })}}&nbsp;&nbsp;🍰
           div.columns.is-centered.is-margin-top-one-em-touch(v-show="hasSurvey")
             div.column.is-three-quarters
               b-notification(type="is-info" :closable="false")
@@ -83,7 +83,7 @@
           div.columns.is-centered.is-margin-top-one-em-touch(v-show="nbUpdateSinceLastVisit")
             div.column.is-three-quarters
               b-notification(type="is-info" :closable="true")
-                p {{$t(i18nPrefix + 'update', { count: $n(nbUpdateSinceLastVisit) })}}
+                p {{$tc(i18nPrefix + 'update', nbUpdateSinceLastVisit, { count: $n(nbUpdateSinceLastVisit) })}}
                 nuxt-link(:to="localePath({ name: 'Changelog' })") {{$t(i18nPrefix + 'whats_new')}}
           div.columns.is-centered
             div.column.is-11-desktop.is-three-quarters-fullhd.is-three-quarters-widescreen.is-full-tablet

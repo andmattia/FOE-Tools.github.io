@@ -122,7 +122,7 @@ div.content#gbiContent
                     span.icon.is-small.has-text-danger(style="vertical-align: middle;")
                       i.fas.fa-arrow-down
                       | &nbsp;
-                    b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t(i18nPrefix + 'gb_investment.table.tbody.loss', { count: $n(Math.abs(place.roi)) })" dashed) {{$n(Math.abs(place.roi))}}
+                    b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$tc(i18nPrefix + 'gb_investment.table.tbody.loss', Math.abs(place.roi), { count: $n(Math.abs(place.roi)) })" dashed) {{$n(Math.abs(place.roi))}}
 
                   b-tooltip(v-else :type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t(i18nPrefix + 'gb_investment.table.tbody.neutral')" dashed)
                     span.icon.is-small(style="vertical-align: middle;")
@@ -150,7 +150,7 @@ div.content#gbiContent
                   span.icon.is-small.has-text-danger(style="vertical-align: middle;")
                     i.fas.fa-arrow-down
                     | &nbsp;
-                  b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t(i18nPrefix + 'gb_investment.table.tbody.loss', { count: $n(Math.abs(place.roi)) })" dashed) {{$n(Math.abs(place.snipe.roi))}}
+                  b-tooltip(:type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$tc(i18nPrefix + 'gb_investment.table.tbody.loss', Math.abs(place.snipe.roi), { count: $n(Math.abs(place.snipe.roi)) })" dashed) {{$n(Math.abs(place.snipe.roi))}}
 
                 b-tooltip(v-else :type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t(i18nPrefix + 'gb_investment.table.tbody.neutral')" dashed)
                   span.icon.is-small(style="vertical-align: middle;")
@@ -196,12 +196,12 @@ div.content#gbiContent
                 button.button.is-info(v-if="!showExtraInvestors" @click="showExtraInvestors = true")
                   span.icon
                     i.fas.fa-eye
-                  | &nbsp;&nbsp; {{$t(i18nPrefix + 'gb_investment.table.tbody.button_show_extra_investor', { count: $n(result.otherInvestment.length) })}}
+                  | &nbsp;&nbsp; {{$tc(i18nPrefix + 'gb_investment.table.tbody.button_show_extra_investor', result.otherInvestment.length, { count: $n(result.otherInvestment.length) })}}
 
                 button.button.is-info(v-else @click="showExtraInvestors = false")
                   span.icon
                     i.fas.fa-eye-slash
-                  | &nbsp;&nbsp; {{$t(i18nPrefix + 'gb_investment.table.tbody.button_hide_extra_investor', { count: $n(result.otherInvestment.length) })}}
+                  | &nbsp;&nbsp; {{$tc(i18nPrefix + 'gb_investment.table.tbody.button_hide_extra_investor', result.otherInvestment.length, { count: $n(result.otherInvestment.length) })}}
           tr
             th(:colspan="tutoMode ? maxColumns -1 : nbColumns - 1") {{$t($data.i18nPrefix + 'gb_investment.table.tfoot.total_preparation')}}
             td
@@ -290,7 +290,7 @@ div.content#gbiContent
                       span.icon.is-small.has-text-danger(style="vertical-align: middle;")
                         i.fas.fa-arrow-down
                         | &nbsp;
-                      b-tooltip(position="is-left" :type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t(i18nPrefix + 'gb_investment.table.tbody.loss', { count: $n(Math.abs(props.roi)) })" dashed) {{$n(Math.abs(props.snipe.roi))}}
+                      b-tooltip(position="is-left" :type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$tc(i18nPrefix + 'gb_investment.table.tbody.loss', Math.abs(props.roi), { count: $n(Math.abs(props.roi)) })" dashed) {{$n(Math.abs(props.snipe.roi))}}
 
                     b-tooltip(v-else position="is-left" :type="$store.get('isDarkTheme') ? 'is-light' : 'is-dark'" :label="$t(i18nPrefix + 'gb_investment.table.tbody.neutral')" dashed)
                       span.icon.is-small(style="vertical-align: middle;")
@@ -321,12 +321,12 @@ div.content#gbiContent
                   button.button.is-info(v-if="!showExtraInvestors" @click="showExtraInvestors = true")
                     span.icon
                       i.fas.fa-eye
-                    | &nbsp;&nbsp; {{$t(i18nPrefix + 'gb_investment.table.tbody.button_show_extra_investor', { count: $n(result.otherInvestment.length) })}}
+                    | &nbsp;&nbsp; {{$tc(i18nPrefix + 'gb_investment.table.tbody.button_show_extra_investor', result.otherInvestment.length, { count: $n(result.otherInvestment.length) })}}
 
                   button.button.is-info(v-else @click="showExtraInvestors = false")
                     span.icon
                       i.fas.fa-eye-slash
-                    | &nbsp;&nbsp; {{$t(i18nPrefix + 'gb_investment.table.tbody.button_hide_extra_investor', { count: $n(result.otherInvestment.length) })}}
+                    | &nbsp;&nbsp; {{$tc(i18nPrefix + 'gb_investment.table.tbody.button_hide_extra_investor', result.otherInvestment.length, { count: $n(result.otherInvestment.length) })}}
             tr
               th {{$t($data.i18nPrefix + 'gb_investment.table.tfoot.total_preparation')}}
               td

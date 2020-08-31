@@ -50,7 +50,7 @@ div.content
         b-field(:label="$t(i18nPrefix + 'block_place.target_reward')" label-for="fpTargetReward" :type="haveError('fpTargetReward')")
       div.column.is-half
         b-select#fpTargetReward(v-model="fpTargetReward" name="fp-target-reward" expanded)
-          option(v-for="(place, i) in levelData.investment" :value="place.reward" :key="i" :id="'option_' + i" autocomplete="off") {{$t(i18nPrefix + 'block_place.place', { place: i + 1, count: $n(place.reward) })}}
+          option(v-for="(place, i) in levelData.investment" :value="place.reward" :key="i" :id="'option_' + i" autocomplete="off") {{$tc(i18nPrefix + 'block_place.place', place.reward, { place: i + 1, count: $n(place.reward) })}}
     template(v-else)
       div.column.is-half
         b-field(:label="$t(i18nPrefix + 'block_place.fp_target_reward')" label-for="spFpTargetReward" :type="haveError('fpTargetReward')")
@@ -62,13 +62,13 @@ div.content
 
     div.columns
       div.column.is-half
-        p {{$tc(i18nPrefix + 'block_place.fp_to_complete_level', { count: $n(getNumberOfRemainingPoints()) })}}
+        p {{$tc(i18nPrefix + 'block_place.fp_to_complete_level', getNumberOfRemainingPoints(), { count: $n(getNumberOfRemainingPoints()) })}}
       div.column.is-half
         p
           b {{$n(getNumberOfRemainingPoints())}}
     div.columns
       div.column.is-half
-        p {{$tc(i18nPrefix + 'block_place.result.fp_need_to_lock', { count: $n(42) })}}
+        p {{$tc(i18nPrefix + 'block_place.result.fp_need_to_lock', 42, { count: $n(42) })}}
       div.column.is-half
         template(v-if="fp > 0")
           p(v-if="fp <= yourParticipation")

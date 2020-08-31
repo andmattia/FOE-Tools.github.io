@@ -18,7 +18,7 @@ export default {
   beforeRouteEnter(to, from, next) {
     next((vm) => {
       if (!vm.$store.get("survey") || vm.$store.get("survey").length === 0) {
-        vm.$router.push({ name: "index" });
+        vm.$router.push(this.localePath({ name: "Home" }));
       }
     });
   },
@@ -192,7 +192,7 @@ export default {
         expires: Utils.getDefaultCookieExpireTime(),
       });
       this.$buefy.notification.open(notifParams);
-      this.$router.push("/");
+      this.$router.push(this.localePath({ name: "Home" }));
       this.$store.dispatch("nuxtServerInit");
     },
   },

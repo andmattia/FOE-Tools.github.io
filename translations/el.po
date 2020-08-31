@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: i18next-conv\n"
 "Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
 "POT-Creation-Date: 2020-08-21T21:00:50.998Z\n"
-"PO-Revision-Date: 2020-08-30 18:37+0000\n"
+"PO-Revision-Date: 2020-09-01 05:13+0000\n"
 "Last-Translator: Weblate Admin <admin@foe.tools>\n"
 "Language-Team: Greek <https://translate.foe.tools/projects/foe-tools-website/"
 "website/el/>\n"
@@ -196,8 +196,8 @@ msgstr[1] "{place} ({count} ΦΠ)"
 
 msgid "components.secure_position.block_place.fp_to_complete_level"
 msgid_plural "components.secure_position.block_place.fp_to_complete_level"
-msgstr[0] "Υπολειπόμενη ποσότητα ΦΠ για να ολοκληρωθεί τοεπίπεδο:"
-msgstr[1] "Υπολειπόμενη ποσότητα ΦΠ για να ολοκληρωθεί τοεπίπεδο:"
+msgstr[0] "Υπολειπόμενη ποσότητα ΦΠ για να ολοκληρωθεί το επίπεδο:"
+msgstr[1] "Υπολειπόμενη ποσότητα ΦΠ για να ολοκληρωθεί το επίπεδο:"
 
 msgid "components.gb_statistics.graph.title_4"
 msgstr ""
@@ -643,3 +643,374 @@ msgstr "Χείρες βοήθειας"
 
 msgid "components.cf_calculator.block_cfc.table_reward.title"
 msgstr "@:(utils.Rewards)"
+
+msgid "components.gb_investment.tutorial.snipe.title"
+msgstr "Κερδοσκόπος"
+
+msgid "routes.about.cookie.info.locale"
+msgstr "Γλώσσα εμφάνισης"
+
+msgid "routes.about.cookie.table_message"
+msgstr ""
+"Στον κάτωθι πίνακα περιέχονται όλα τα cookies που χρησιμοποιούνται σ' αυτόν "
+"τον ιστότοπο."
+
+msgid "routes.about.cookie.p1"
+msgstr ""
+"Για τη βελτίωση της εμπειρίας σας στη χρήση, ο ιστότοπος χρησιμοποιεί cookie."
+
+msgid "routes.about.cookie.title"
+msgstr "Cookies"
+
+msgid "routes.about.general_info.p3_html"
+msgstr ""
+"Ο ιστότοπος είναι ανοικτού κώδικα, ο δε κώδικας είναι ελεύθερα διαθέσιμος "
+"στο @:( common.links.github). <br /> Έτσι, όσοι διαθέτουν τις απαραίτητες "
+"δεξιότητες μπορούν να συμμετάσχουν στη βελτίωση αυτού του ιστότοπου."
+
+msgid "routes.about.general_info.p2_html"
+msgstr ""
+"Το @:( common.site_title) δημιουργήθηκε από τον Γάλλο παίκτη <strong class"
+"=\"has-text-weight-semibold\">Yoratheon</strong>."
+
+msgid "routes.about.general_info.p1_html"
+msgstr ""
+"Τα Forge of Empires, FOE και όλα τα σχετικά εμπορικά σήματα και περιεχόμενο "
+"ανήκουν στην InnoGames GmbH. Το <br /> @:(common.site_title) είναι ένας "
+"ανεπίσημος ιστότοπος τρίτου μέρους και δεν σχετίζεται με την InnoGames."
+
+msgid "routes.about.general_info.title"
+msgstr "Γενικές πληροφορίες"
+
+msgid "components.import_promotion_message.template_imported"
+msgstr "Το πρότυπο εισήχθει"
+
+msgid "components.import_promotion_message.errors.invalid_data"
+msgstr "Τα δεδομένα δεν είναι έγκυρα"
+
+msgid "components.import_promotion_message.config_placeholder"
+msgstr "Επικολλήστε εδώ τη διαμόρφωση"
+
+msgid "components.import_promotion_message.title"
+msgstr "Εισαγωγή μηνύματος αναγγελίας"
+
+msgid "components.promotion_message_builder.template_deleted"
+msgstr "Το πρότυπο διαγράφηκε"
+
+msgid "components.promotion_message_builder.template_updated"
+msgstr "Το πρότυπο ενημερώθηκε"
+
+msgid "components.promotion_message_builder.template_saved"
+msgstr "Το πρότυπο αποθηκεύτηκε"
+
+msgid ""
+"components.promotion_message_builder.errors.custom_name_already_"
+"exists"
+msgstr "Αυτή η ονομασία πεδίου ήδη υπάρχει."
+
+msgid "components.promotion_message_builder.errors.custom_name_empty"
+msgstr "Η ονομασία του πεδίου δεν μπορεί να λείπει."
+
+msgid ""
+"components.promotion_message_builder.errors.template_cannot_"
+"have_this_name"
+msgstr ""
+"Αυτή η ονομασία δεν μπορεί να δοθεί στο πρότυπο. Παρακαλώ χρησιμοποιείστε "
+"μία άλλη ονομασία."
+
+msgid "components.promotion_message_builder.template_name"
+msgstr "Ονομασία προτύπου"
+
+msgid "components.promotion_message_builder.variables.message.LC"
+msgstr "Κόστος επιπέδου"
+
+msgid "components.promotion_message_builder.variables.message.LF"
+msgstr "Παροχή γραμμής, προσθέστε μία νέα γραμμή"
+
+msgid "components.promotion_message_builder.variables.message.PVx"
+msgstr ""
+"Ποσότητα ΦΠ που θα βάλει ένας συνεισφέροντας για τη θέση \"x\" (όπου \"x\" = "
+"1 έως 5)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr ""
+"Ποσότητα ΦΠ που θα βάλει ο κάτοχος για τη θέση \"x\", (όπου \"x\" = 1 έως 5)"
+
+msgid "components.promotion_message_builder.variables.message.P"
+msgstr "Θέσεις"
+
+msgid "components.promotion_message_builder.variables.message.GBN"
+msgstr "Ονομασία ΜΚ"
+
+msgid "components.promotion_message_builder.variables.message.TLVL"
+msgstr "Στο επίπεδο"
+
+msgid "components.promotion_message_builder.variables.message.FLVL"
+msgstr "Από το επίπεδο"
+
+msgid "components.promotion_message_builder.variables.place.PV"
+msgstr "Τιμή θέσης, (σε ΦΠ)"
+
+msgid "components.promotion_message_builder.variables.place.PI"
+msgstr "Ευρετήριο θέσεων"
+
+msgid "components.promotion_message_builder.available_variables"
+msgstr "Διαθέσιμες μεταβλητές:"
+
+msgid "components.promotion_message_builder.message_builder_title"
+msgstr "Εργαλείο δημιουργίας μηνυμάτων"
+
+msgid "components.promotion_message_builder.message_preview"
+msgstr "Προεπισκόπηση μηνύματος"
+
+msgid "components.promotion_message_builder.message_builder"
+msgstr "Εργαλείο δημιουργίας μηνυμάτων"
+
+msgid "components.promotion_message_builder.place_preview"
+msgstr "Προεπισκόπηση θέσης, (1η θέση)"
+
+msgid "components.promotion_message_builder.place_separator"
+msgstr "Διαχωριστικό θέσεων"
+
+msgid "components.promotion_message_builder.reverse_place_order"
+msgstr "Αντιστροφή σειράς θέσεων;"
+
+msgid "components.promotion_message_builder.custom_field_title"
+msgstr "Τα προσαρμοσμένα από εσάς πεδία"
+
+msgid "components.promotion_message_builder.add_field.value"
+msgstr "Τιμή πεδίου"
+
+msgid "components.promotion_message_builder.add_field.name"
+msgstr "Ονομασία πεδίου"
+
+msgid "components.promotion_message_builder.add_field_title"
+msgstr "Προσθήκη προσαρμοσμένων πεδίων"
+
+msgid "components.promotion_message_builder.config"
+msgstr "Διαμόρφωση (Παραμετροποίηση)"
+
+msgid "components.promotion_message_builder.templates.custom"
+msgstr "Προσαρμοσμένα πρότυπα"
+
+msgid "components.promotion_message_builder.templates.default"
+msgstr "Προκατασκευασμένα πρότυπα"
+
+msgid "components.promotion_message_builder.delete_template"
+msgstr "Επιλέξτε το προς διαγραφή πρότυπο"
+
+msgid "components.promotion_message_builder.edit_template"
+msgstr "Επιλέξτε το προς επεξεργασία πρότυπο"
+
+msgid "components.promotion_message_builder.actions.delete"
+msgstr "Διαγραφή υπάρχοντος προτύπου"
+
+msgid "components.promotion_message_builder.actions.update"
+msgstr "Ενημέρωση υπάρχοντος προτύπου"
+
+msgid "components.promotion_message_builder.actions.create"
+msgstr "Δημιουργία νέου προτύπου"
+
+msgid "components.promotion_message_builder.info"
+msgstr ""
+"Αυτό μπορεί να αντιγραφεί για να κοινοποιηθεί, για παράδειγμα, στα μέλη τής "
+"συντεχνίας σας"
+
+msgid "components.trade.label.amount"
+msgstr "Ποσότητα"
+
+msgid "components.trade.label.i_want"
+msgstr "Επιθυμώ"
+
+msgid "components.trade.label.i_have"
+msgstr "Διαθέτω"
+
+msgid "components.site_layout.permalink_info"
+msgstr ""
+"Επισκέπτεστε έναν μόνιμο σύνδεσμο. Συνεπώς, τυχόν αλλαγές που γίνονται, δεν "
+"θα ενημερώνουν/αποθηκεύονται στα cookie."
+
+msgid "components.site_layout.whats_new"
+msgstr "Τι νέο υπάρχει;"
+
+msgid "components.site_layout.cookie.link"
+msgstr "Επιπλέον πληροφορίες"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] "Μία αναβάθμιση από την τελευταία σας επίσκεψη."
+msgstr[1] "{count} αναβαθμίσεις από την τελευταία σας επίσκεψη."
+
+msgid "components.simple_trade.table.thead.ratio"
+msgstr "Αναλογία"
+
+msgid "components.secure_position.block_place.result.fp_need_to_lock"
+msgid_plural "components.secure_position.block_place.result.fp_need_to_lock"
+msgstr[0] "Απαιτούμενος ΦΠ συνεισφοράς για να κλειδώσετε τη θέση σας:"
+msgstr[1] "Απαιτούμενοι ΦΠ συνεισφοράς για να κλειδώσετε τη θέση σας:"
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "ΦΠ για να εξασφαλίσετε τη θέση σας"
+
+msgid "components.secure_position.block_place.target_reward"
+msgstr "Θέση προς κατάληψη"
+
+msgid "components.secure_position.block_place.fp_target_reward"
+msgstr "ΦΠ της προς κατάληψη θέσης"
+
+msgid "components.secure_position.block_place.other_participation"
+msgstr "Συνεισφορά του παίκτη προς υποσκέλιση"
+
+msgid "components.secure_position.block_place.your_participation"
+msgstr "Η τρέχουσα συνεισφορά σας"
+
+msgid "components.secure_position.block_place.level_cost"
+msgstr "Κόστος επιπέδου"
+
+msgid "components.gb_statistics.graph.title_1"
+msgstr "Διαμόρφωση του κόστους των επιπέδων αναλόγως του επιπέδου"
+
+msgid "components.gb_statistics.p1"
+msgstr ""
+"Τα γραφήματα δημιουργούνται βάσει τής εποχής των ΜΚ, επειδή το κόστος / "
+"ανταμοιβή αυτών είναι ταυτόσημο για τα ΜΚ τής ίδιας εποχής, με μοναδική "
+"εξαίρεση το (@:(foe_data.gb.Oracle_of_Delphi))."
+
+msgid "components.gb_forecast_cost.graph.label.default"
+msgstr "Μικτό κόστος επιπέδου"
+
+msgid "components.gb_forecast_cost.graph.y_axes_label"
+msgstr "@:(utils.graph.gb_level_cost)"
+
+msgid "components.gb_forecast_cost.estimated_time"
+msgstr "Υπολογισμός, (εκτίμηση), του χρόνου για να φτάσει στο επίπεδο"
+
+msgid "components.gb_forecast_cost.p1"
+msgstr ""
+"Προσδιορισμός των απαιτούμενων ΦΠ για μετάβαση από κάποιο επίπεδο σε άλλο, "
+"με ή δίχως την προσαύξηση του Θόλου."
+
+msgid "components.gb_investment.tutorial.table.fp_already_putin"
+msgstr ""
+"Η στήλη αυτή εμφανίζεται όταν έχετε εισάγει τουλάχιστον έναν συνεισφέροντα. "
+"Σ' αυτήν εμφανίζεται η θέση του συνεισφέροντα, βάσει της συνεισφοράς που "
+"'χει ορίσει ο κάτοχος."
+
+msgid "components.gb_investment.tutorial.level"
+msgstr "Επιλέξτε το επίπεδο τ' οποίο σας ενδιαφέρει."
+
+msgid "components.gb_investment.tutorial.display_modes.title"
+msgstr "Επιλογές προβολής"
+
+msgid "components.gb_investment.tutorial.snipe.content"
+msgstr ""
+"Ως κερδοσκοπία ορίζεται η κατάληψη θέσης σε ΜΚ από παίκτη με σκοπό το "
+"κέρδος, μη συνεισφέροντας, συνήθως, τους αναμενόμενους από τον κάτοχό του ΦΠ."
+"\n"
+"\n"
+"Για παράδειγμα, το επίπεδο 49 → 50 του ΜΚ\"@:(foe_data.gb.The_Virgo_Project)"
+"\" δεν απαιτεί τοποθέτηση ΦΠ από τον κάτοχο για ν' ασφαλιστούν οι δύο πρώτες "
+"θέσεις. Η συνεισφορά που αντιστοιχεί στο 1,9 ανέρχεται σε {fp1739}. Ένας "
+"κεδροσκόπος, (με Θόλο στο 80στό επίπεδο,) θα μπορούσε να περιμένει έως ότου "
+"ανοίξει το επίπεδο για να πάρει την 1η θέση σ' αυτό, συνεισφέροντας {fp1679}"
+", οι οποίοι του εξασφαλίζουν τη θέση αποφέροντάς του κέρδος {fp60}."
+
+msgid "components.gb_investment.tutorial.rush_1_9.content"
+msgstr ""
+"@:(foe_data.gb.The_Arc) είναι ένα ΜΚ που προσαυξάνει τις προκαθορισμένες "
+"ανταμοιβές που παίρνετε συνεισφέροντας ΦΠ σε ΜΚ άλλου παίκτη. Όσο υψηλότερο "
+"είναι το επίπεδο του Θόλου, τόσο μεγαλύτερη είναι η προσαύξηση.\n"
+"\n"
+"Γι' αυτό αναφερόμαστε σε 1.8, 1.9, κ.λπ. Στην ουσία, αυτή είναι η προσαύξηση "
+"από τον Θόλο.\n"
+"Δηλαδή, το 1.0 αντιπροσωπεύει την προκαθορισμένη ανταμοιβή τής θέσης, το 1.8 "
+"αντιπροσωπεύει την προσαυξημένη ανταμοιβή της θέσης από Θόλο 70στού "
+"επιπέδου, (προσαυξάνει κατά 80% την προκαθορισμένο ανταμοιβή σε αυτό το "
+"επίπεδο) και το 1,9 αντιπροσωπεύει την προσαυξημένη ανταμοιβή από Θόλο "
+"80στού επιπέδου, (προσαυξάνει κατά 90% την προκαθορισμένη ανταμοιβή).\n"
+"\n"
+"Στο κέντρο μηνυμάτων δημιουργήθηκαν χώροι συζήτησης αποκλειστικά για αυτόν "
+"τον τρόπο συνεισφοράς από συντεχνίες κι ομάδες φίλων. Αυτός βασίζεται στην "
+"αρχή «Δίνω ό,τι Παίρνω», περιορίζοντας έτσι τις αντιδικίες μεταξύ μελών της "
+"συντεχνίας ή φίλων, μη αποκομμίζοντας κέρδη από τη συνεισφορά τους στα ΜΚ. Σ "
+"αντίθεση με τους ατέρμονους χώρους συζήτησης, (10, 50, 100, κ.λπ.), τ' άλλο "
+"πλεονέκτημα των χώρων συζήτησης 1.8, 1.9, κ.λπ. είναι ότι εξοικονομείται "
+"σημαντικός χρόνος για τον κάτοχο του ΜΚ. Αυτό συμβαίνει επειδή απαιτείται "
+"από τον κάτοχο να τοποθετήσει μόνο την ποσότητα ΦΠ που 'ναι απαραίτητη για "
+"να ασφαλιστούν οι θέσεις που πρόκειται να καταληφθούν από Θόλους 80στού "
+"επιπέδου, (στην περίπτωση χώρου συζήτησης για προσαύξηση 1.9).\n"
+"\n"
+"Ας αναφέρουμε ένα παράδειγμα:\n"
+"\n"
+"Υποθέτουμε ότι θέλετε ν' ανεβάσετε το @:(foe_data.gb.Observatory) από το "
+"επίπεδο 10 στο 60, κι ότι διαθέτετε {fp50} ανά ημέρα.\n"
+"Το συνολικό κόστος των επιπέδων ανέρχεται σε {fp64975}.\n"
+"\n"
+"Εάν χρησιμοποιείτε χώρους συζήτησης ανταλλαγής ΦΠ, η απολαβή σας θα είναι 1:"
+"1, δηλαδή οι {fp50} που συνεισφέρετε σε ΜΚ = {fp50} που ένας άλλος παίκτης "
+"θα συνεισφέρει σε ΜΚ σας. Επομένως, απαιτείται να <strong> συνεισφέρετε "
+"{fp37320} </strong> για να φτάσετε στο επίπεδο 60. Με χρήση {fp50} ανά "
+"ημέρα, θα χρειαστείτε <strong> 2 χρόνια και 17 ημέρες </strong>.\n"
+"\n"
+"Τώρα, εάν χρησιμοποιείτε χώρο συζήτησης συνεισφοράς προσαυξημένης κατά 1,9, "
+"απαιτείται να <strong> συνεισφέρετε μόνο {fp12363} </strong> για να φτάσετε "
+"στο επίπεδο 60, οπότε <strong> εξοικονομείτε {fp24957}! </strong>.\n"
+"Επίσης, με {fp50} ανά ημέρα, από 2 χρόνια και 17 ημέρες, φτάνετε στο επίπεδο "
+"60  σε <strong> 8 μήνες και 5 ημέρες </strong>!"
+
+msgid "components.gb_investment.gb_investment.table.tbody.loss"
+msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
+msgstr[0] "Αυτός ο παίκτης θα χάσει ΦΠ"
+msgstr[1] "Αυτός ο παίκτης θα χάσει ΦΠ"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_hide_"
+"extra_investor"
+msgstr[0] "Απόκρυψη επιπλέον συνεισφέροντα"
+msgstr[1] "Απόκρυψη επιπλέον συνεισφερόντων"
+
+msgid ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgid_plural ""
+"components.gb_investment.gb_investment.table.tbody.button_show_"
+"extra_investor"
+msgstr[0] "Εμφάνιση επιπλέον συνεισφέροντα"
+msgstr[1] "Εμφάνιση επιπλέον συνεισφερόντων"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.real_"
+"participation"
+msgstr "ΦΠ που λαμβάνονται βάσει της % προσαύξησης του Θόλου σας"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.expected_"
+"participation"
+msgstr ""
+"ΦΠ που συνεισφέρθηκαν σύμφωνα με την ορισμένη % προσαύξηση από τον κάτοχο"
+
+msgid ""
+"components.gb_investment.gb_investment.table.thead.fp_already_"
+"putin"
+msgstr "Ποσότητα ήδη τοποθετημένων ΦΠ"
+
+msgid ""
+"components.gb_investment.gb_investment.form.show_only_secured_"
+"places"
+msgstr "Εμφάνιση μόνο ασφαλών θέσεων"
+
+msgid "components.gb_investment.gb_investment.form.investors_list"
+msgstr "Κατάλογος συνεισφερόντων που προστέθηκαν"
+
+msgid ""
+"components.gb_investment.gb_investment.form.tooltip_add_"
+"investors"
+msgstr ""
+"Επιλέξτε το κουμπί \"@:(utils.Add)\" ή πατήστε το πλήκτρο \"Enter\" για να "
+"προσθέσετε συνεισφέροντα"
+
+msgid "components.cf_calculator.tutorial.totalFp"
+msgstr "Ποσότητα ΦΠ που θα κερδηθούν από αποστολές, ΜΚ, κ.λπ."

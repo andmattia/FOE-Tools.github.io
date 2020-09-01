@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: i18next-conv\n"
 "Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
 "POT-Creation-Date: 2020-08-21T21:00:51.833Z\n"
-"PO-Revision-Date: 2020-08-30 18:38+0000\n"
-"Last-Translator: Weblate Admin <admin@foe.tools>\n"
+"PO-Revision-Date: 2020-09-02 04:04+0000\n"
+"Last-Translator: Mario Carapinha <omega.2delta@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.foe.tools/projects/"
 "foe-tools-website/website/pt/>\n"
 "Language: pt\n"
@@ -1126,7 +1126,8 @@ msgid "components.promotion_message_builder.variables.message.OP"
 msgstr "@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
 
 msgid "components.promotion_message_builder.variables.message.PPx"
-msgstr "Numero de PF's colocados pelo dono para o lugar \"x\"(sendo \"x\" de 1 a 5)"
+msgstr ""
+"Numero de PFs colocados pelo dono para o lugar \"x\"(sendo \"x\" de 1 a 5)"
 
 msgid "components.promotion_message_builder.variables.message.LF"
 msgstr "Adicionar Linha, adicione uma nova linha"
@@ -1590,9 +1591,9 @@ msgstr "Entre em contacto com o administrador @:(common.site_title)"
 
 msgid "routes.contact.message_contact_html"
 msgstr ""
-"Tem uma ideia para uma nova funcionalidade? Um problema ? Sinta-se à "
-"vontade para  enviar um e-mail (em inglês ou francês) em "
-"@:(common.links.contact_foe_tools)."
+"Tem uma ideia para uma nova funcionalidade? Um problema ? Sinta-se à vontade "
+"para enviar um e-mail (em inglês ou francês) em @:(common.links."
+"contact_foe_tools)."
 
 msgid "routes.contact.message_translate"
 msgstr ""
@@ -3740,3 +3741,120 @@ msgstr "Medalhas"
 
 msgid "seo.keywords.military_units"
 msgstr "unidades militares"
+
+msgid "foe_data.province.Nemesis"
+msgstr "Nemesis"
+
+msgid "foe_data.province.Ceres_K_18"
+msgstr "Ceres K-18"
+
+msgid "foe_data.province.Fides"
+msgstr "Fides"
+
+msgid "foe_data.province.Vesta_M_16"
+msgstr "Vesta M-16"
+
+msgid "foe_data.province.Vesta_L_15"
+msgstr "Vesta L-15"
+
+msgid "foe_data.province.Hygiea_O_14"
+msgstr "Hygiea O-14"
+
+msgid "foe_data.province.Hygiea_N_13"
+msgstr "Hygiea N-13"
+
+msgid "foe_data.province.Euphrosyne_A_12"
+msgstr "Euphrosyne A-12"
+
+msgid "foe_data.province.Eunike"
+msgstr "Eunike"
+
+msgid "foe_data.province.Gyptis"
+msgstr "Gyptis"
+
+msgid "foe_data.province.Loreley"
+msgstr "Loreley"
+
+msgid "foe_data.province.Pales"
+msgstr "Pales"
+
+msgid "foe_data.province.Ceres_G_7"
+msgstr "Ceres G-7"
+
+msgid "foe_data.province.Aurora"
+msgstr "Aurora"
+
+msgid "foe_data.province.Cybele_V_4"
+msgstr "Cybele V-4"
+
+msgid "foe_data.province.Cybele_F_3"
+msgstr "Cybele F-3"
+
+msgid "foe_data.province.Juno"
+msgstr "Juno"
+
+msgid "foe_data.province.Vesta_S_1"
+msgstr "Vesta S-1"
+
+msgid "foe_data.province.Egeria"
+msgstr "Egeria"
+
+msgid "foe_data.province.Diotima"
+msgstr "Diotima"
+
+msgid "foe_data.province.Aletheia"
+msgstr "Aletheia"
+
+msgid "foe_data.province.Metis"
+msgstr "Metis"
+
+msgid "foe_data.province.Hektor"
+msgstr "Hektor"
+
+msgid "foe_data.province.Ino"
+msgstr "Ino"
+
+msgid "foe_data.province.Thisbe"
+msgstr "Thisbe"
+
+msgid "foe_data.province.Amphitrite"
+msgstr "Amphitrite"
+
+msgid "foe_data.province.Interamnia"
+msgstr "Interamnia"
+
+msgid "foe_data.province.TB_15_X_7"
+msgstr "TB-15 X-7"
+
+msgid "foe_data.province.Eunomia"
+msgstr "Eunomia"
+
+msgid "foe_data.province.Pallas_D_5"
+msgstr "Pallas D-5"
+
+msgid "foe_data.province.Pallas_C_4"
+msgstr "Pallas C-4"
+
+msgid "foe_data.province.Eros"
+msgstr "Eros"
+
+msgid "foe_data.province.Medea"
+msgstr "Medea"
+
+msgid "foe_data.province.Psyche"
+msgstr "Psyche"
+
+msgid "foe_data.goods.platinum_crystals"
+msgstr "Cristais de Platina"
+
+msgid "foe_data.goods.bromine"
+msgstr "Bromo"
+
+msgid "foe_data.goods.compound_fluid"
+msgstr "Fluidos Compostos"
+
+msgid "foe_data.goods.processed_materials"
+msgstr "Materiais Processados"
+
+msgid "foe_data.goods.nickel"
+msgstr "Níquel"

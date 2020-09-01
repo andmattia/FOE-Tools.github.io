@@ -191,9 +191,14 @@ export const actions = {
     ) {
       urlParam = "?_id_nin=" + this.$cookies.get("survey").join("&_id_nin=");
     }
-    const { data } = await this.$axios.get(`${process.env.surveyURL}${urlParam}`);
-    if (data && data instanceof Array) {
-      context.dispatch("setSurvey", data);
+    try {
+      const { data } = await this.$axios.get(`${process.env.surveyURL}${urlParam}`);
+      if (data && data instanceof Array) {
+        context.dispatch("setSurvey", data);
+      }
+    } catch (e) {
+      // Probably Network Error
+      // Survey is not critical, so this error can be ignored
     }
   },
 };

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: i18next-conv\n"
 "Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
 "POT-Creation-Date: 2020-08-21T21:00:51.147Z\n"
-"PO-Revision-Date: 2020-08-30 18:37+0000\n"
-"Last-Translator: Weblate Admin <admin@foe.tools>\n"
+"PO-Revision-Date: 2020-09-06 01:25+0000\n"
+"Last-Translator: Gregorio Caceres <gacaceresperez@gmail.com>\n"
 "Language-Team: Spanish <https://translate.foe.tools/projects/"
 "foe-tools-website/website/es/>\n"
 "Language: es\n"
@@ -971,21 +971,18 @@ msgid "components.trade.split_value"
 msgstr "Tamaño máximo de una oferta (máx. {count})"
 
 msgid "components.trade.split_message.msg"
-msgstr "{valueFrom}{ageFrom} para {valueTo}{ageTo}"
+msgstr "{valueFrom} {ageFrom} por {valueTo} {ageTo}"
 
 msgid "components.trade.split_message.common"
-msgstr ""
-"{count}× ($t(components.trade.split_message.msg, {'valueFrom': "
-"'{valueFrom}', 'ageFrom': '{ageFrom}', 'valueTo': '{valueTo}', 'ageTo' : "
-"'{ageTo}'}))"
+msgstr "{count} × (@:(components.trade.split_message.msg))"
 
 msgid "components.trade.split_message.multi"
 msgstr "@:(components.trade.split_message.common) y {secondPart}"
 
 msgid "components.trade.message.result"
 msgstr ""
-"Para {to} {ageTo}, necesitas {from} {ageFrom} con ofertas superiores a "
-"{count}:"
+"Para {to} bienes de {ageTo}, necesitas {from} bienes {ageFrom} con ofertas "
+"superiores a {count}:"
 
 msgid "components.trade.message.total"
 msgstr "(total: {amount}{key})"
@@ -3514,3 +3511,129 @@ msgstr "medallas"
 
 msgid "seo.keywords.military_units"
 msgstr "unidades militares"
+
+msgid "routes.donate.title"
+msgstr "@:(routes.donate.hero.title) | @:(common.site_title)"
+
+msgid "routes.help_to_translate_the_site.state_of_translation"
+msgstr "Estado de la traducción :"
+
+msgid "routes.trade.title"
+msgstr "@:(routes.trade.hero.title) | @:(common.site_title)"
+
+msgid "routes.secure_position.title"
+msgstr "@:(routes.secure_position.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_statistics.title"
+msgstr "@:(routes.gb_statistics.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_forecast_cost.title"
+msgstr "@:(routes.gb_forecast_cost.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment_gb_chooser.title"
+msgstr "@:(routes.gb_investment.hero.title) | @:(common.site_title)"
+
+msgid "routes.gb_investment.hero.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"
+
+msgid "routes.gb_investment.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.contributors.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.cf_calculator.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+msgid "routes.campaign_cost.title"
+msgstr "@:(routes.contact.hero.title) | @:(common.site_title)"
+
+#, fuzzy
+msgid "components.promotion_message_builder.variables.message.LC"
+msgstr "Costo del nivel"
+
+msgid "components.promotion_message_builder.variables.message.PVx"
+msgstr ""
+"Número de FPs que colocará un inversionista para el lugar \"x\" (con \"x\" "
+"de 1 a 5)"
+
+msgid "components.promotion_message_builder.variables.message.PPx"
+msgstr ""
+"Número de FPs que colocar el propietario para el lugar \"x\" (con \"x\" de 1 "
+"a 5)"
+
+msgid "components.promotion_message_builder.variables.message.OP"
+msgstr ""
+"@:(components.gb_investment.gb_investment.table.tfoot.total_preparation)"
+
+msgid "components.promotion_message_builder.variables.place.PP"
+msgstr "@:(components.gb_investment.gb_investment.table.thead.th3)"
+
+msgid "components.site_layout.whats_new"
+msgstr "¿Qué hay de nuevo?"
+
+msgid "components.site_layout.update"
+msgid_plural "components.site_layout.update"
+msgstr[0] "Una actualización desde su última visita."
+msgstr[1] "{count} actualizaciones desde su última visita."
+
+msgid "components.secure_position.block_place.fp_to_lock"
+msgstr "FP a poner para bloquear su lugar"
+
+msgid "components.secure_position.block_place.fp_according_rate"
+msgstr "FP para poner de acuerdo a la tasa"
+
+msgid "components.secure_position.block_place.rate"
+msgstr "Tasa"
+
+msgid "components.gb_investment.tutorial.promotion_message.add_message"
+msgstr "Este campo le permite agregar mensajes."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.custom_"
+"fields"
+msgstr ""
+"Tenga en cuenta que algunas plantillas tienen sus propios campos con sus "
+"propios nombres."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.show_only_"
+"secured_places"
+msgstr ""
+"Esta opción le permite agregar automáticamente lugares en el mensaje de "
+"promoción si estos lugares están protegidos y aún no se han tomado. Para "
+"utilizar esta función, debe introducir el número de FPs puestos actualmente "
+"por el propietario, así como los inversores actualmente presentes en el "
+"nivel."
+
+msgid "components.gb_investment.tutorial.promotion_message.show_level"
+msgstr "Muestra el nivel del GE (si se incluye en la plantilla de mensaje)."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.use_short_"
+"name"
+msgstr ""
+"Permite definir si desea mostrar un nombre corto para el nombre del GE "
+"(Ejemplo: \"@:(foe_data.gb.Observatory)\" se mostrará el nombre:\"@:(foe_data"
+".gb_short.Observatory)\")."
+
+msgid ""
+"components.gb_investment.tutorial.promotion_message.display_gb_"
+"name"
+msgstr "Muestra el nombre del GE (si se incluye en la plantilla de mensaje)."
+
+msgid "components.gb_investment.tutorial.table.percentage_investors"
+msgstr ""
+"Al igual que \"@:(components.gb_investment.gb_investment.form."
+"investor_percentage)\", esta columna permite al propietario definir la "
+"inversión esperada de los inversores, pero permite introducir el valor para "
+"cada lugar."
+
+msgid "components.gb_investment.tutorial.table.spot_snipe"
+msgstr ""
+"Esta columna sólo se muestra si se ha establecido el valor de \"@:(components"
+".gb_investment.gb_investment.form.show_snipe)\" en \"@:(utils.Yes)\" y es "
+"para inversores. Esta columna le indica (basado en el valor establecido en \""
+"@:(components.secure_position.block_place.your_arc_bonus)\") cuántos PF "
+"necesita poner en el GE para asegurar su lugar.\n"
+"También indica el beneficio o la pérdida que va a hacer."

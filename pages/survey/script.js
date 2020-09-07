@@ -1,4 +1,4 @@
-import InvisibleRecaptcha from "vue-invisible-recaptcha";
+import VueHcaptcha from '@hcaptcha/vue-hcaptcha';
 import Utils from "~/scripts/utils";
 
 const i18nPrefix = "routes.survey.";
@@ -195,8 +195,16 @@ export default {
       this.$router.push(this.localePath({ name: "Home" }));
       this.$store.dispatch("nuxtServerInit");
     },
+    onExpire() {
+      this.$refs.invisibleHcaptcha.reset();
+    },
+    onSubmit() {
+      if (this.prepare()) {
+        this.$refs.invisibleHcaptcha.execute();
+      }
+    }
   },
   components: {
-    InvisibleRecaptcha,
-  },
+    VueHcaptcha
+  }
 };

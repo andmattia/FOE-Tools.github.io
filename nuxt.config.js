@@ -462,6 +462,7 @@ module.exports = {
       process.env.DEPLOY_ENV === "GH_PAGES"
         ? "6Le0qqAUAAAAADcXlFuBa9hfCXfdUi53i85sWzSp"
         : "6LdzDKAUAAAAAKVUJf-Po_iaYTdnOzjkvusHF6ie",
+    HCAPTCHA_SITEKEY: "9e710cfa-bf17-47fb-a2b1-af30a5196b1d"
   },
 
   loading: {

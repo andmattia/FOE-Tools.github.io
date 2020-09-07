@@ -783,5 +783,6 @@
   "seo.keywords.fp": "pf",
   "seo.keywords.forge_point": "punto forge",
   "seo.keywords.medals": "medaglie",
-  "seo.keywords.military_units": "unità militari"
+  "seo.keywords.military_units": "unità militari",
+  "foe_data.age.SpaceAgeAsteroidBelt": "Fascia degli Asteroidi dell'Era Spaziale"
 }

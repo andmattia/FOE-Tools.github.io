@@ -796,6 +796,9 @@ msgstr ""
 msgid "components.gb_forecast_cost.message.estimated_time"
 msgstr "Temps estimé pour atteindre le niveau : {time}"
 
+msgid "components.gb_forecast_cost.message.estimated_time_swap_threads"
+msgstr "Temps estimé pour atteindre le niveau en utilisant un fil d'échange (5/10/20/50/100 PFs, etc.) : {time}"
+
 msgid "components.gb_forecast_cost.prop_already_invested"
 msgstr "PFs déjà investi par le propriétaire sur le niveau actuel"
 

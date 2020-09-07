@@ -102,6 +102,7 @@ export default {
       fpBy24h: 0,
       alreadyInvested: 0,
       estimatedTime: "",
+      estimatedTimeSwapThreads: "",
       errors: {
         from: false,
         to: false,
@@ -202,6 +203,10 @@ export default {
       if (this.$data.fpBy24h > 0) {
         let duration = Math.ceil(this.$data.previsionResult.global.totalPreparations / this.$data.fpBy24h);
         this.$data.estimatedTime = Utils.getFormatedDuration(this.$moment.duration(duration, "days"), this.$i18n);
+        this.$data.estimatedTimeSwapThreads = Utils.getFormatedDuration(
+          this.$moment.duration(Math.ceil(this.$data.previsionResult.global.cost / this.$data.fpBy24h), "days"),
+          this.$i18n
+        );
       }
 
       this.updatePrevisionGraph();
@@ -351,12 +356,20 @@ export default {
           this.$moment.duration(this.$data.duration, "days"),
           this.$i18n
         );
+        this.$data.estimatedTimeSwapThreads = Utils.getFormatedDuration(
+          this.$moment.duration(
+            Math.ceil((this.$data.previsionResult.global.cost - this.$data.alreadyInvested) / val),
+            "days"
+          ),
+          this.$i18n
+        );
       } else {
         this.$store.commit("UPDATE_URL_QUERY", {
           key: queryKey.fpBy24h,
           value: 0,
         });
         this.$data.estimatedTime = "";
+        this.$data.estimatedTimeSwapThreads = "";
       }
     },
     alreadyInvested(val, oldVal) {
@@ -373,6 +386,13 @@ export default {
         );
         this.$data.estimatedTime = Utils.getFormatedDuration(
           this.$moment.duration(this.$data.duration, "days"),
+          this.$i18n
+        );
+        this.$data.estimatedTimeSwapThreads = Utils.getFormatedDuration(
+          this.$moment.duration(
+            Math.ceil((this.$data.previsionResult.global.cost - this.$data.alreadyInvested) / val),
+            "days"
+          ),
           this.$i18n
         );
       }
@@ -511,6 +531,10 @@ export default {
       if (this.$data.fpBy24h > 0) {
         let duration = Math.ceil(this.$data.previsionResult.global.totalPreparations / this.$data.fpBy24h);
         this.$data.estimatedTime = Utils.getFormatedDuration(this.$moment.duration(duration, "days"), this.$i18n);
+        this.$data.estimatedTimeSwapThreads = Utils.getFormatedDuration(
+          this.$moment.duration(Math.ceil(this.$data.previsionResult.global.cost / this.$data.fpBy24h), "days"),
+          this.$i18n
+        );
       }
       this.updatePrevisionGraph();
     },

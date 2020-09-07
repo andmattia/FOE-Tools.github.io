@@ -167,6 +167,7 @@
   "components.gb_forecast_cost.message.single": "Pour compléter le niveau {level} de « {gb} », il faut que le propriétaire investisse {preparation} PFs. Coût total du niveau : {cost} PFs.",
   "components.gb_forecast_cost.message.multi": "Pour aller du niveau {from} à {to} de « {gb} », il faut que le propriétaire investisse {preparation} PFs. Coût total des niveaux : {cost} PFs.",
   "components.gb_forecast_cost.message.estimated_time": "Temps estimé pour atteindre le niveau : {time}",
+  "components.gb_forecast_cost.message.estimated_time_swap_threads": "Temps estimé pour atteindre le niveau en utilisant un fil d'échange (5/10/20/50/100 PFs, etc.) : {time}",
   "components.gb_forecast_cost.prop_already_invested": "PFs déjà investi par le propriétaire sur le niveau actuel",
   "components.gb_forecast_cost.graph.title": "Prévision du montant de préparation du propriétaire pour « {gb} »",
   "components.gb_forecast_cost.graph.x_axes_label": "@:(utils.graph.gb_level)",

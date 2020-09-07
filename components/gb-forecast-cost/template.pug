@@ -71,6 +71,7 @@ div.content
 
   div(v-show="(previsionResult !== null) && (fpBy24h > 0)")
     p {{$t(i18nPrefix + 'message.estimated_time', { time: estimatedTime })}}
+    p {{$t(i18nPrefix + 'message.estimated_time_swap_threads', { time: estimatedTimeSwapThreads })}}
 
   div(v-show="from !== to")
     graph-canvas.margin-top-one-em(v-show="from < to" gtype="line" id="graph" :goptions="options" :labels="labels" :datasets="datasets")

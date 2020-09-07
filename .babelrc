@@ -3,12 +3,26 @@
     ["@babel/preset-env", {
       "modules": false,
       "targets": "> 0.5%, last 2 versions, Firefox ESR, not dead, ie >=11"
-    }]
+    }],
+    [
+      "@nuxt/babel-preset-app",
+      {
+        "useBuiltIns": "entry",
+        "corejs": { "version": 3 }
+      }
+    ]
   ],
   "env": {
     "test": {
       "presets": [
-        ["@babel/preset-env", { "targets": { "node": "current" }}]
+        ["@babel/preset-env", { "targets": { "node": "current" }}],
+        [
+          "@nuxt/babel-preset-app",
+          {
+            "useBuiltIns": "entry",
+            "corejs": { "version": 3 }
+          }
+        ]
       ]
     }
   }

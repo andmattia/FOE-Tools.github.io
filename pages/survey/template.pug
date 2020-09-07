@@ -1,6 +1,6 @@
 div#surveyContainer
   b-loading(:is-full-page="false" :active.sync="loading")
-  form(ref="formSurvey")
+  form(ref="formSurvey" @submit.prevent="onSubmit")
     section.margin-top-two-em(v-for="(question, index) of survey")
       div(v-if="question.type === 'html'" v-html="getSurveyLocal(question.html)")
 
@@ -45,4 +45,5 @@ div#surveyContainer
     hr
 
     div.has-text-centered
-      invisible-recaptcha(:sitekey="sitekey" :validate="prepare" :callback="callback" class="button is-info" type="button" id="submitSurvey" :disabled="loading") {{$t("utils.Submit")}}
+      vue-hcaptcha(ref="invisibleHcaptcha" :sitekey="process.env.HCAPTCHA_SITEKEY" size="invisible" @verify="callback" @expired="onExpire")
+      button.button.is-info(type="submit") {{$t("utils.Submit")}}

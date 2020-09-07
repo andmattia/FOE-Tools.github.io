@@ -762,6 +762,9 @@ msgstr ""
 msgid "components.gb_forecast_cost.message.estimated_time"
 msgstr "Estimated time to reach the level: {time}"
 
+msgid "components.gb_forecast_cost.message.estimated_time_swap_threads"
+msgstr "Estimated time to reach the level using a swap threads (5/10/20/50/100 FPs, etc.): {time}"
+
 msgid "components.gb_forecast_cost.prop_already_invested"
 msgstr "FPs already invested by the owner on the current level"
 

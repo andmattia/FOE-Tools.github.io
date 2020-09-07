@@ -16,3 +16,4 @@ dump.rdb
 static/sitemap.xml
 sw.*
 tmp
+.DS_Store

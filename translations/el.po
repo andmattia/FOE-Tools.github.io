@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: i18next-conv\n"
 "Report-Msgid-Bugs-To: foe-tools@protonmail.com\n"
 "POT-Creation-Date: 2020-08-21T21:00:50.998Z\n"
-"PO-Revision-Date: 2020-09-02 04:04+0000\n"
+"PO-Revision-Date: 2020-09-07 09:00+0000\n"
 "Last-Translator: Weblate Admin <admin@foe.tools>\n"
 "Language-Team: Greek <https://translate.foe.tools/projects/foe-tools-website/"
 "website/el/>\n"
@@ -266,7 +266,7 @@ msgstr ""
 
 msgid "components.gb_investment.tutorial.owner_investment"
 msgstr ""
-"Υπάρχουν ήδη ΦΠ στο επίπεδο του ΜΚ ;\n"
+"Υπάρχουν ήδη ΦΠ στο επίπεδο του ΜΚ σας;\n"
 "Εάν ναι, αναγράψτε εδώ την ποσότητά τους"
 
 msgid "components.gb_investment.tutorial.investor_percentage"
@@ -345,7 +345,7 @@ msgid "components.gb_investment.gb_investment.table.thead.th3"
 msgstr "ΦΠ εισφοράς τού κατόχου γι' ασφάλιση των θέσεων"
 
 msgid "components.gb_investment.gb_investment.table.thead.th2"
-msgstr "Βασική ανταμοιβή"
+msgstr "Αρχικές ανταμοιβές"
 
 msgid "components.gb_investment.gb_investment.table.thead.th1"
 msgstr "Θέσεις"
@@ -421,7 +421,8 @@ msgstr ""
 
 msgid "components.cf_calculator.tutorial.yourCfBoost"
 msgstr ""
-"Συμπληρώστε την προσαύξηση του δικού σας\n"
+"Συμπληρώστε την προσαύξηση του δικού σας @:(foe_data.gb.Chateau_Frontenac) "
+"boost.\n"
 "\n"
 "Παράδειγμα: για 450%, γράψτε 450."
 
@@ -448,7 +449,7 @@ msgstr ""
 msgid "foe_data.bonus.plunder_goods.gb_description"
 msgstr ""
 "Παράγει τυχαία αγαθά για έως και 3 λεηλασίες άλλων πόλεων ανά 24ωρη συλλογή. "
-"Η εποχή  των τυχαίων αγαθών αντιστοιχεί στην ηλικία του κτίσματος που "
+"Η εποχή των τυχαίων αγαθών αντιστοιχεί στην εποχή τού κτίσματος που "
 "λεηλατείτε."
 
 msgid "foe_data.bonus.plunder_goods.name"
@@ -533,7 +534,7 @@ msgid "utils.Donate"
 msgstr "Δωρεά"
 
 msgid "utils.Tutorial"
-msgstr "Φροντιστήριο"
+msgstr "Εκμάθηση"
 
 msgid "utils.FP"
 msgid_plural "utils.FP"
@@ -547,13 +548,13 @@ msgid "utils.Hide"
 msgstr "Απόκρυψη"
 
 msgid "utils.Show"
-msgstr "προβολή"
+msgstr "Προβολή"
 
 msgid "utils.Save"
 msgstr "Αποθήκευση"
 
 msgid "utils.Submit"
-msgstr "υποβάλλουν"
+msgstr "Υποβολή"
 
 msgid "utils.Close"
 msgstr "Κλείσιμο"
@@ -645,7 +646,7 @@ msgid "components.cf_calculator.block_cfc.table_reward.title"
 msgstr "@:(utils.Rewards)"
 
 msgid "components.gb_investment.tutorial.snipe.title"
-msgstr "Κερδοσκόπος"
+msgstr "Κερδοσκοπία"
 
 msgid "routes.about.cookie.info.locale"
 msgstr "Γλώσσα εμφάνισης"
@@ -924,39 +925,40 @@ msgstr ""
 "Γι' αυτό αναφερόμαστε σε 1.8, 1.9, κ.λπ. Στην ουσία, αυτή είναι η προσαύξηση "
 "από τον Θόλο.\n"
 "Δηλαδή, το 1.0 αντιπροσωπεύει την προκαθορισμένη ανταμοιβή τής θέσης, το 1.8 "
-"αντιπροσωπεύει την προσαυξημένη ανταμοιβή της θέσης από Θόλο 70στού "
+"αντιπροσωπεύει την προσαυξημένη ανταμοιβή τής θέσης από Θόλο 70στού "
 "επιπέδου, (προσαυξάνει κατά 80% την προκαθορισμένο ανταμοιβή σε αυτό το "
-"επίπεδο) και το 1,9 αντιπροσωπεύει την προσαυξημένη ανταμοιβή από Θόλο "
+"επίπεδο) και το 1.9 αντιπροσωπεύει την προσαυξημένη ανταμοιβή από Θόλο "
 "80στού επιπέδου, (προσαυξάνει κατά 90% την προκαθορισμένη ανταμοιβή).\n"
 "\n"
-"Στο κέντρο μηνυμάτων δημιουργήθηκαν χώροι συζήτησης αποκλειστικά για αυτόν "
+"Στα κέντρα μηνυμάτων δημιουργήθηκαν χώροι συζήτησης αποκλειστικά γι' αυτόν "
 "τον τρόπο συνεισφοράς από συντεχνίες κι ομάδες φίλων. Αυτός βασίζεται στην "
-"αρχή «Δίνω ό,τι Παίρνω», περιορίζοντας έτσι τις αντιδικίες μεταξύ μελών της "
-"συντεχνίας ή φίλων, μη αποκομμίζοντας κέρδη από τη συνεισφορά τους στα ΜΚ. Σ "
-"αντίθεση με τους ατέρμονους χώρους συζήτησης, (10, 50, 100, κ.λπ.), τ' άλλο "
-"πλεονέκτημα των χώρων συζήτησης 1.8, 1.9, κ.λπ. είναι ότι εξοικονομείται "
-"σημαντικός χρόνος για τον κάτοχο του ΜΚ. Αυτό συμβαίνει επειδή απαιτείται "
-"από τον κάτοχο να τοποθετήσει μόνο την ποσότητα ΦΠ που 'ναι απαραίτητη για "
-"να ασφαλιστούν οι θέσεις που πρόκειται να καταληφθούν από Θόλους 80στού "
-"επιπέδου, (στην περίπτωση χώρου συζήτησης για προσαύξηση 1.9).\n"
+"αρχή «Δίνω ό,τι Παίρνω», περιορίζοντας έτσι τις αντιδικίες μεταξύ μελών τής "
+"συντεχνίας ή φίλων, μη αποκομμίζοντας κέρδη από τη συνεισφορά τους στα ΜΚ. "
+"Σ' αντίθεση με τους ατέρμονους χώρους συζήτησης ανταλλαγής φορτζ πόντων, ("
+"10, 50, 100, κ.λπ.), τ' άλλο πλεονέκτημα των χώρων συζήτησης 1.8, 1.9, κ.λπ. "
+"είναι ότι εξοικονομείται σημαντικός χρόνος για τον κάτοχο του ΜΚ. Αυτό "
+"συμβαίνει επειδή απαιτείται από τον κάτοχο να τοποθετήσει μόνο την ποσότητα "
+"ΦΠ που 'ναι απαραίτητη για ν' ασφαλιστούν οι θέσεις που πρόκειται να "
+"καταληφθούν από Θόλους 80στού επιπέδου, (στην περίπτωση χώρου συζήτησης για "
+"προσαύξηση 1.9).\n"
 "\n"
 "Ας αναφέρουμε ένα παράδειγμα:\n"
 "\n"
-"Υποθέτουμε ότι θέλετε ν' ανεβάσετε το @:(foe_data.gb.Observatory) από το "
-"επίπεδο 10 στο 60, κι ότι διαθέτετε {fp50} ανά ημέρα.\n"
+"Υποθέτουμε ότι θέλετε ν' ανεβάσετε το @:(foe_data.gb.Observatory) από το 10ο "
+"επίπεδο στο 60στό, κι ότι διαθέτετε {fp50} ανά ημέρα.\n"
 "Το συνολικό κόστος των επιπέδων ανέρχεται σε {fp64975}.\n"
 "\n"
 "Εάν χρησιμοποιείτε χώρους συζήτησης ανταλλαγής ΦΠ, η απολαβή σας θα είναι 1:"
 "1, δηλαδή οι {fp50} που συνεισφέρετε σε ΜΚ = {fp50} που ένας άλλος παίκτης "
-"θα συνεισφέρει σε ΜΚ σας. Επομένως, απαιτείται να <strong> συνεισφέρετε "
-"{fp37320} </strong> για να φτάσετε στο επίπεδο 60. Με χρήση {fp50} ανά "
-"ημέρα, θα χρειαστείτε <strong> 2 χρόνια και 17 ημέρες </strong>.\n"
+"θα συνεισφέρει σε ΜΚ σας. Επομένως, απαιτείται να <strong>συνεισφέρετε "
+"{fp37320}</strong> για να φτάσετε στο 60στό επίπεδο. Με χρήση {fp50} ανά "
+"ημέρα, θα χρειαστείτε <strong>2 χρόνια και 17 ημέρες.</strong>.\n"
 "\n"
 "Τώρα, εάν χρησιμοποιείτε χώρο συζήτησης συνεισφοράς προσαυξημένης κατά 1,9, "
-"απαιτείται να <strong> συνεισφέρετε μόνο {fp12363} </strong> για να φτάσετε "
-"στο επίπεδο 60, οπότε <strong> εξοικονομείτε {fp24957}! </strong>.\n"
+"απαιτείται να <strong>συνεισφέρετε μόνο {fp12363}</strong> για να φτάσετε "
+"στο επίπεδο 60, οπότε <strong>εξοικονομείτε {fp24957}!</strong>.\n"
 "Επίσης, με {fp50} ανά ημέρα, από 2 χρόνια και 17 ημέρες, φτάνετε στο επίπεδο "
-"60  σε <strong> 8 μήνες και 5 ημέρες </strong>!"
+"60  σε <strong>8 μήνες και 5 ημέρες</strong>!"
 
 msgid "components.gb_investment.gb_investment.table.tbody.loss"
 msgid_plural "components.gb_investment.gb_investment.table.tbody.loss"
@@ -1014,3 +1016,684 @@ msgstr ""
 
 msgid "components.cf_calculator.tutorial.totalFp"
 msgstr "Ποσότητα ΦΠ που θα κερδηθούν από αποστολές, ΜΚ, κ.λπ."
+
+msgid "foe_data.province.Moravaria"
+msgstr "Moravaria, (Μοραβαρία)"
+
+msgid "foe_data.province.Jaims"
+msgstr "Jaims, (Τζεμς)"
+
+msgid "foe_data.province.Mons_Suiry"
+msgstr "Mons Suiry, (Μονς Σουίρι)"
+
+msgid "foe_data.province.Frathia"
+msgstr "Frathia, (Φράτϊα)"
+
+msgid "foe_data.province.Veletrites"
+msgstr "Veletrites, (Βέλετριτς)"
+
+msgid "foe_data.province.Canturia"
+msgstr "Canturia, (Κάντουρϊα)"
+
+msgid "foe_data.province.Breturia"
+msgstr "Breturia, (Μπρετούρια)"
+
+msgid "foe_data.province.Tarmelmann"
+msgstr "Tarmelmann, (Τάρμελμαν)"
+
+msgid "foe_data.province.Steilsturz"
+msgstr "Steilsturz, (Στάελστορτζ)"
+
+msgid "foe_data.province.Todepass"
+msgstr "Todespass, (Τόντεσπας)"
+
+msgid "foe_data.province.Galgenschlucht"
+msgstr "Galgenschlucht, (Γκάγκενσλοχτ)"
+
+msgid "foe_data.province.Felssenke"
+msgstr "Felssenke, (Φελσένκε)"
+
+msgid "foe_data.province.Teufelsfurt"
+msgstr "Teufelsfurt, (Τάιφελσφορτ)"
+
+msgid "foe_data.province.Kaltenweiher"
+msgstr "Kaltenweiher, (Κάλτενβάια)"
+
+msgid "foe_data.province.Sturmhohen"
+msgstr "Sturmhohen, (Στόρμχουν)"
+
+msgid "foe_data.province.Greifental"
+msgstr "Griefental, (Γκριφένταλ)"
+
+msgid "foe_data.province.Dunkelwald"
+msgstr "Dunkelwald, (Ντόνκελβάετ)"
+
+msgid "foe_data.province.Pfefferberg"
+msgstr "Pfefferberg, (Φάφερμπεργκ)"
+
+msgid "foe_data.province.Maktaba"
+msgstr "Maktaba, (Μακτάβα)"
+
+msgid "foe_data.province.West_Nagach"
+msgstr "Δυτική Nagach, (Δυτική Νάγκαχ)"
+
+msgid "foe_data.province.East_Nagach"
+msgstr "Ανατολική Nagach, (Ανατολική Νάγκαχ)"
+
+msgid "foe_data.province.Karchagu"
+msgstr "Karchagu, (Κάρχαγκου)"
+
+msgid "foe_data.province.Ruug"
+msgstr "Ruug, (Ρουάγκ)"
+
+msgid "foe_data.province.Paruuch"
+msgstr "Paruuch, (Πάρουτς)"
+
+msgid "foe_data.province.Badakus"
+msgstr "Badakus, (Μπάντακους)"
+
+msgid "foe_data.province.Hymir"
+msgstr "Hymir, (Χιμίρ)"
+
+msgid "foe_data.province.Tyr"
+msgstr "Tyr, (Τιρ)"
+
+msgid "foe_data.province.Fel_Dranghyr"
+msgstr "Fel Dranghyr, (Φελ Ντράνγκιρ)"
+
+msgid "foe_data.province.Dunarsund"
+msgstr "Dunarsund, (Ντάναρσουντ)"
+
+msgid "foe_data.goods.platinum_crystals"
+msgstr "Κρύσταλλοι Πλατίνας"
+
+msgid "foe_data.goods.bromine"
+msgstr "Βρώμιο"
+
+msgid "foe_data.goods.compound_fluid"
+msgstr "Σύνθετα Υγρά"
+
+msgid "foe_data.goods.processed_materials"
+msgstr "Επεξεργασμένα Υλικά"
+
+msgid "foe_data.goods.nickel"
+msgstr "Νικέλιο"
+
+msgid "foe_data.goods.superalloys"
+msgstr "Υπερκράματα"
+
+msgid "foe_data.goods.fusion_reactors"
+msgstr "Ενέργειες Σύντηξης"
+
+msgid "foe_data.goods.mars_microbes"
+msgstr "Αρειανά Μικρόβια"
+
+msgid "foe_data.goods.biotech_crops"
+msgstr "Καλλιέργιες Βιοτεχνολογίας"
+
+msgid "foe_data.goods.lubricants"
+msgstr "Λιπαντικά"
+
+msgid "foe_data.goods.tea_silk"
+msgstr "Μετάξια Τσαγιού"
+
+msgid "foe_data.goods.nanites"
+msgstr "Νανομηχανές"
+
+msgid "foe_data.goods.golden_rice"
+msgstr "Χρυσά Ρύζια"
+
+msgid "foe_data.goods.data_crystals"
+msgstr "Κρύσταλλοι Δεδομένων"
+
+msgid "foe_data.goods.cryptocash"
+msgstr "Κρυπτομετρητές"
+
+msgid "foe_data.goods.orichalcum"
+msgstr "Ορείχαλκος"
+
+msgid "foe_data.goods.promethium"
+msgstr "Προμήθειο"
+
+msgid "foe_data.goods.plankton"
+msgstr "Πλαγκτόν"
+
+msgid "foe_data.goods.pearls"
+msgstr "Μαργαριτάρια"
+
+msgid "foe_data.goods.corals"
+msgstr "Κοράλλια"
+
+msgid "foe_data.goods.biolight"
+msgstr "Βιοφώς"
+
+msgid "foe_data.goods.artificial_scales"
+msgstr "Τεχνητά Λέπια"
+
+msgid "foe_data.goods.transester_gas"
+msgstr "Μετεστερεοποιημένο Αέριο"
+
+msgid "foe_data.goods.paper_batteries"
+msgstr "Χάρτινες Μπαταρίες"
+
+msgid "foe_data.goods.nanowire"
+msgstr "Νανοσύρμα"
+
+msgid "foe_data.goods.bioplastics"
+msgstr "Βιοπλαστικά"
+
+msgid "foe_data.goods.ai_data"
+msgstr "Στοιχεία Τεχνητής Νοημοσύνης"
+
+msgid "foe_data.goods.superconductors"
+msgstr "Υπεραγωγοί"
+
+msgid "foe_data.goods.purified_water"
+msgstr "Απιονισμένο Νερό"
+
+msgid "foe_data.goods.nanoparticles"
+msgstr "Νανοσωματίδια"
+
+msgid "foe_data.goods.biogeochemical_data"
+msgstr "Βιογεωχημικά Στοιχεία"
+
+msgid "foe_data.goods.algae"
+msgstr "Φύκη"
+
+msgid "foe_data.goods.translucent_concrete"
+msgstr "Διάφανο Σκυρόδεμα"
+
+msgid "foe_data.goods.smart_materials"
+msgstr "Έξυπνα Υλικά"
+
+msgid "foe_data.goods.preservatives"
+msgstr "Συντηρητικά"
+
+msgid "foe_data.goods.papercrete"
+msgstr "Χαρτοκονίαμα"
+
+msgid "foe_data.goods.nutrition_research"
+msgstr "Διατροφική Έρευνα"
+
+msgid "foe_data.goods.robots"
+msgstr "Ρομπότ"
+
+msgid "foe_data.goods.plastics"
+msgstr "Πλαστικά"
+
+msgid "foe_data.goods.gas"
+msgstr "Αέριο"
+
+msgid "foe_data.goods.electromagnets"
+msgstr "Ηλεκτρομαγνήτες"
+
+msgid "foe_data.goods.bionics_data"
+msgstr "Βιονικά Στοιχεία"
+
+msgid "foe_data.goods.steel"
+msgstr "Ατσάλι"
+
+msgid "foe_data.goods.semiconductors"
+msgstr "Ημιαγωγοί"
+
+msgid "foe_data.goods.renewable_resources"
+msgstr "Ανανεώσιμες Πηγές"
+
+msgid "foe_data.goods.industrial_filters"
+msgstr "Βιομηχανικά Φίλτρα"
+
+msgid "foe_data.goods.genome_data"
+msgstr "Γονιδιωματικά Στοιχεία"
+
+msgid "foe_data.goods.packaging"
+msgstr "Συσκευασία"
+
+msgid "foe_data.goods.luxury_materials"
+msgstr "Υλικά Πολυτελείας"
+
+msgid "foe_data.goods.flavorants"
+msgstr "Αρωματικά"
+
+msgid "foe_data.goods.ferroconcrete"
+msgstr "Σκυρόδεμα"
+
+msgid "foe_data.goods.convenience_food"
+msgstr "Συσκευασμένα Τρόφιμα"
+
+msgid "foe_data.goods.tinplate"
+msgstr "Λευκοσίδηρος"
+
+msgid "foe_data.goods.machine_parts"
+msgstr "Μέρη Μηχανών"
+
+msgid "foe_data.goods.gasoline"
+msgstr "Βενζίνη"
+
+msgid "foe_data.goods.explosives"
+msgstr "Εκρηκτικά"
+
+msgid "foe_data.goods.asbestos"
+msgstr "Αμίαντος"
+
+msgid "foe_data.goods.whale_oil"
+msgstr "Λίπος Φάλαινας"
+
+msgid "foe_data.goods.textiles"
+msgstr "Υφάσματα"
+
+msgid "foe_data.goods.rubber"
+msgstr "Καουτσούκ"
+
+msgid "foe_data.goods.fertilizer"
+msgstr "Λίπασμα"
+
+msgid "foe_data.goods.coke"
+msgstr "Οπτάνθρακας"
+
+msgid "foe_data.goods.wire"
+msgstr "Σύρμα"
+
+msgid "foe_data.goods.tar"
+msgstr "Πίσσα"
+
+msgid "foe_data.goods.paper"
+msgstr "Χαρτί"
+
+msgid "foe_data.goods.porcelain"
+msgstr "Πορσελάνη"
+
+msgid "foe_data.goods.coffee"
+msgstr "Καφές"
+
+msgid "foe_data.goods.talc_powder"
+msgstr "Πούδρα Ταλκ"
+
+msgid "foe_data.goods.silk"
+msgstr "Μετάξι"
+
+msgid "foe_data.goods.gunpowder"
+msgstr "Μπαρούτι"
+
+msgid "foe_data.goods.brass"
+msgstr "Μπρούντζος"
+
+msgid "foe_data.goods.basalt"
+msgstr "Βασάλτης"
+
+msgid "foe_data.goods.salt"
+msgstr "Αλάτι"
+
+msgid "foe_data.goods.rope"
+msgstr "Σκοινί"
+
+msgid "foe_data.goods.glass"
+msgstr "Γυαλί"
+
+msgid "foe_data.goods.dried_herbs"
+msgstr "Αποξηραμένα Βότανα"
+
+msgid "foe_data.goods.brick"
+msgstr "Τούβλα"
+
+msgid "foe_data.goods.honey"
+msgstr "Μέλι"
+
+msgid "foe_data.goods.granite"
+msgstr "Γρανίτης"
+
+msgid "foe_data.goods.gold"
+msgstr "Χρυσός"
+
+msgid "foe_data.goods.copper"
+msgstr "Χαλκός"
+
+msgid "foe_data.goods.alabaster"
+msgstr "Αλάβαστρος"
+
+msgid "foe_data.goods.limestone"
+msgstr "Ασβεστόλιθος"
+
+msgid "foe_data.goods.jewelry"
+msgstr "Κόσμημα"
+
+msgid "foe_data.goods.iron"
+msgstr "Σίδηρος"
+
+msgid "foe_data.goods.ebony"
+msgstr "Έβενος"
+
+msgid "foe_data.goods.cloth"
+msgstr "Πανί"
+
+msgid "foe_data.goods.wine"
+msgstr "Κρασί"
+
+msgid "foe_data.goods.stone"
+msgstr "Πέτρα"
+
+msgid "foe_data.goods.marble"
+msgstr "Μάρμαρο"
+
+msgid "foe_data.goods.lumber"
+msgstr "Ξυλεία"
+
+msgid "foe_data.goods.dye"
+msgstr "Βαφή"
+
+msgid "foe_data.gb_short.Space_Carrier"
+msgstr "Μεταφορέας"
+
+msgid "foe_data.gb_short.Himeji_Castle"
+msgstr "Χιμέτζι"
+
+msgid "foe_data.gb_short.Terracotta_Army"
+msgstr "Πήλινος"
+
+msgid "foe_data.gb_short.The_Blue_Galaxy"
+msgstr "Γαλαξίας"
+
+msgid "foe_data.gb_short.The_Kraken"
+msgstr "Κράκεν"
+
+msgid "foe_data.gb_short.Atlantis_Museum"
+msgstr "Ατλαντίδα"
+
+msgid "foe_data.gb_short.Seed_Vault"
+msgstr "Τράπεζα Σπόρων"
+
+msgid "foe_data.gb_short.Arctic_Orangery"
+msgstr "Πορτοκαλεώνας"
+
+msgid "foe_data.gb_short.Gaea_Statue"
+msgstr "Γαία"
+
+msgid "foe_data.gb_short.Rain_Forest_Project"
+msgstr "Τροπικό"
+
+msgid "foe_data.gb_short.The_Arc"
+msgstr "Θόλος"
+
+msgid "foe_data.gb_short.Voyager_V1"
+msgstr "Βόγιατζερ"
+
+msgid "foe_data.gb_short.Dynamic_Tower"
+msgstr "Δυναμικός"
+
+msgid "foe_data.gb_short.Innovation_Tower"
+msgstr "Ανακωχή"
+
+msgid "foe_data.gb_short.Lotus_Temple"
+msgstr "Λωτός"
+
+msgid "foe_data.gb_short.The_Habitat"
+msgstr "Χάμπιτατ"
+
+msgid "foe_data.gb_short.Cape_Canaveral"
+msgstr "Κανάβεραλ"
+
+msgid "foe_data.gb_short.Atomium"
+msgstr "Ατόμιο"
+
+msgid "foe_data.gb_short.Space_Needle"
+msgstr "Νιντλ"
+
+msgid "foe_data.gb_short.Alcatraz"
+msgstr "Αλκατράζ"
+
+msgid "foe_data.gb_short.Chateau_Frontenac"
+msgstr "Φροντενάκ"
+
+msgid "foe_data.gb_short.Royal_Albert_Hall"
+msgstr "Αλβέρτος"
+
+msgid "foe_data.gb_short.Capitol"
+msgstr "Καπιτώλιο"
+
+msgid "foe_data.gb_short.Frauenkirche_of_Dresden"
+msgstr "Δρέσδη"
+
+msgid "foe_data.gb_short.Deal_Castle"
+msgstr "Ντιλ"
+
+msgid "foe_data.gb_short.Castel_del_Monte"
+msgstr "Μόντε"
+
+msgid "foe_data.gb_short.Saint_Basil_s_Cathedral"
+msgstr "Άι Βασίλειος"
+
+msgid "foe_data.gb_short.Notre_Dame"
+msgstr "Παναγιά"
+
+msgid "foe_data.gb_short.St_Mark_s_Basilica"
+msgstr "Μάρκος"
+
+msgid "foe_data.gb_short.Cathedral_of_Aachen"
+msgstr "Άαχεν"
+
+msgid "foe_data.gb_short.Hagia_Sophia"
+msgstr "Αγιά Σοφιά"
+
+msgid "foe_data.gb_short.Lighthouse_of_Alexandria"
+msgstr "Φάρος"
+
+msgid "foe_data.gb_short.Colosseum"
+msgstr "Κολοσαίο"
+
+msgid "foe_data.gb_short.Statue_of_Zeus"
+msgstr "Δίας"
+
+msgid "foe_data.gb_short.Tower_of_Babel"
+msgstr "Βαβέλ"
+
+msgid "foe_data.gb_short.Oracle_of_Delphi"
+msgstr "Δελφοί"
+
+msgid "foe_data.gb_short.Temple_of_Relics"
+msgstr "Κειμηλίων"
+
+msgid "foe_data.gb_short.Observatory"
+msgstr "Παρατηρητήριο"
+
+msgid "foe_data.gb.Space_Carrier"
+msgstr "Διαστημικός Μεταφορέας"
+
+msgid "foe_data.gb.Star_Gazer"
+msgstr "Αστροπαρατηρητής"
+
+msgid "foe_data.gb.The_Virgo_Project"
+msgstr "Πρότζεκτ Αστερισμός τής Παρθένου"
+
+msgid "foe_data.gb.Himeji_Castle"
+msgstr "Κάστρο Himeji (Χιμέτζι)"
+
+msgid "foe_data.gb.Terracotta_Army"
+msgstr "Πήλινος Στρατός"
+
+msgid "foe_data.gb.The_Blue_Galaxy"
+msgstr "Ο Μπλε Γαλαξίας"
+
+msgid "foe_data.gb.The_Kraken"
+msgstr "Το Κράκεν"
+
+msgid "foe_data.gb.Atlantis_Museum"
+msgstr "Μουσείο Ατλαντίδας"
+
+msgid "foe_data.gb.Seed_Vault"
+msgstr "Τράπεζα Σπόρων"
+
+msgid "foe_data.gb.Arctic_Orangery"
+msgstr "Αρκτικός Πορτοκαλεώνας"
+
+msgid "foe_data.gb.Gaea_Statue"
+msgstr "Άγαλμα Γαίας"
+
+msgid "foe_data.gb.Rain_Forest_Project"
+msgstr "Το Εγχείρημα του Τροπικού Δάσους"
+
+msgid "foe_data.gb.The_Arc"
+msgstr "Ο Θόλος"
+
+msgid "foe_data.gb.Voyager_V1"
+msgstr "Voyager V1 (Βόγιατζερ Β1)"
+
+msgid "foe_data.gb.Dynamic_Tower"
+msgstr "Πύργος Ανακωχής"
+
+msgid "foe_data.gb.Innovation_Tower"
+msgstr "Πύργος Καινοτομίας"
+
+msgid "foe_data.gb.Lotus_Temple"
+msgstr "Ναός τού Λωτού"
+
+msgid "foe_data.gb.The_Habitat"
+msgstr "Το Habitat (Χάμπιτατ)"
+
+msgid "foe_data.gb.Cape_Canaveral"
+msgstr "Ακρωτήριο Κανάβεραλ"
+
+msgid "foe_data.gb.Atomium"
+msgstr "Ατόμιο"
+
+msgid "foe_data.gb.Space_Needle"
+msgstr "Πύργος Space Needle (Σπέις Νιντλ)"
+
+msgid "foe_data.gb.Alcatraz"
+msgstr "Αλκατράζ"
+
+msgid "foe_data.gb.Chateau_Frontenac"
+msgstr "Κάστρο Frontenac (Φροντενάκ)"
+
+msgid "foe_data.gb.Royal_Albert_Hall"
+msgstr "Royal Albert Hall (Ρόαγιαλ Άλμπερτ Χαλ)"
+
+msgid "foe_data.gb.Capitol"
+msgstr "Καπιτώλιο"
+
+msgid "foe_data.gb.Frauenkirche_of_Dresden"
+msgstr "Frauenkirche της Δρέσδης"
+
+msgid "foe_data.gb.Deal_Castle"
+msgstr "Deal Castle (Ντιλ Καστλ)"
+
+msgid "foe_data.gb.Castel_del_Monte"
+msgstr "Castel del Monte (Κάστελ ντελ Μόντε)"
+
+msgid "foe_data.gb.Saint_Basil_s_Cathedral"
+msgstr "Καθεδρικός Ναός τού Μ. Βασιλείου"
+
+msgid "foe_data.gb.Notre_Dame"
+msgstr "Η Παναγία των Παρισίων"
+
+msgid "foe_data.gb.St_Mark_s_Basilica"
+msgstr "Η Βασιλική τού Αγίου Μάρκου"
+
+msgid "foe_data.gb.Cathedral_of_Aachen"
+msgstr "Ο Καθεδρικός τού Άαχεν"
+
+msgid "foe_data.gb.Hagia_Sophia"
+msgstr "Αγιά Σοφιά"
+
+msgid "foe_data.gb.Lighthouse_of_Alexandria"
+msgstr "Ο Φάρος τής Αλεξάνδρειας"
+
+msgid "foe_data.gb.Colosseum"
+msgstr "Κολοσαίο"
+
+msgid "foe_data.gb.Statue_of_Zeus"
+msgstr "Το Άγαλμα του Δία"
+
+msgid "foe_data.gb.Tower_of_Babel"
+msgstr "Ο Πύργος τής Βαβέλ"
+
+msgid "foe_data.gb.Oracle_of_Delphi"
+msgstr "Μαντείο των Δελφών"
+
+msgid "foe_data.gb.Temple_of_Relics"
+msgstr "Ναός των Κειμηλίων"
+
+msgid "foe_data.gb.Observatory"
+msgstr "Παρατηρητήριο"
+
+msgid "foe_data.age_short.SpaceAgeMars"
+msgstr "ΔΕΑ"
+
+msgid "foe_data.age_short.VirtualFuture"
+msgstr "ΕΜ"
+
+msgid "foe_data.age_short.OceanicFuture"
+msgstr "ΩΜ"
+
+msgid "foe_data.age_short.ArcticFuture"
+msgstr "ΑΜ"
+
+msgid "foe_data.age_short.TheFuture"
+msgstr "ΤΜ"
+
+msgid "foe_data.age_short.Tomorrow"
+msgstr "ΕτΑ"
+
+msgid "foe_data.age_short.ContemporaryEra"
+msgstr "ΣημΕ"
+
+msgid "foe_data.age_short.PostmodernEra"
+msgstr "ΜΜΕ"
+
+msgid "foe_data.age_short.ModernEra"
+msgstr "ΣΕ"
+
+msgid "foe_data.age_short.ProgressiveEra"
+msgstr "ΠΕ"
+
+msgid "foe_data.age_short.IndustrialAge"
+msgstr "ΒΕ"
+
+msgid "foe_data.age_short.ColonialAge"
+msgstr "ΑΕ"
+
+msgid "foe_data.age_short.LateMiddleAges"
+msgstr "ΕτΥΜ"
+
+msgid "foe_data.age_short.HighMiddleAges"
+msgstr "ΕτΜΜ"
+
+msgid "foe_data.age_short.EarlyMiddleAges"
+msgstr "ΕτΠΜ"
+
+msgid "foe_data.age_short.IronAge"
+msgstr "ΕτΣ"
+
+msgid "foe_data.age_short.BronzeAge"
+msgstr "ΕτΧ"
+
+msgid "foe_data.age_short.NoAge"
+msgstr "ΧΕ"
+
+msgid "foe_data.age.SpaceAgeAsteroidBelt"
+msgstr "Διαστημική Εποχή: Ζώνη Αστεροειδών"
+
+msgid "foe_data.age.SpaceAgeMars"
+msgstr "Διαστημική Εποχή: Άρης"
+
+msgid "foe_data.age.VirtualFuture"
+msgstr "Εικονικό Μέλλον"
+
+msgid "foe_data.age.OceanicFuture"
+msgstr "Ωκεάνιο Μέλλον"
+
+msgid "foe_data.age.ArcticFuture"
+msgstr "Αρκτικό Μέλλον"
+
+msgid "foe_data.age.TheFuture"
+msgstr "Το Μέλλον"
+
+msgid "foe_data.age.Tomorrow"
+msgstr "Αύριο"
+
+msgid "foe_data.age.ContemporaryEra"
+msgstr "Σημερινή εποχή"
+
+msgid "foe_data.age.PostmodernEra"
+msgstr "Μεταμοντέρνα Εποχή"
+
+msgid "components.gb_investment.gb_investment.title"
+msgstr "@:(routes.gb_investment_gb_chooser.hero.title)"

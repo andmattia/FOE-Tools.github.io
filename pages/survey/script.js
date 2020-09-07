@@ -1,4 +1,4 @@
-import VueHcaptcha from '@hcaptcha/vue-hcaptcha';
+import VueHcaptcha from "@hcaptcha/vue-hcaptcha";
 import Utils from "~/scripts/utils";
 
 const i18nPrefix = "routes.survey.";
@@ -202,9 +202,9 @@ export default {
       if (this.prepare()) {
         this.$refs.invisibleHcaptcha.execute();
       }
-    }
+    },
   },
   components: {
-    VueHcaptcha
-  }
+    VueHcaptcha,
+  },
 };

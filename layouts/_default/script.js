@@ -545,36 +545,28 @@ export default {
     // Check updates
     if (this.$store.get("global/lastVisitVersion") !== this.$data.siteVersion) {
       const lastVisitVersion = this.$clone(this.$store.get("global/lastVisitVersion"));
-      let xhr = new XMLHttpRequest();
       let self = this;
-      xhr.open("GET", tagURL, true);
-      xhr.onload = function () {
-        if (xhr.readyState === 4) {
-          if (xhr.status === 200) {
-            const tags = JSON.parse(xhr.responseText);
-            let found = false;
-            let nb = 0;
-            tags.forEach((elt) => {
-              if (!found && elt.ref.match(/v(\d+\.\d+\.\d+)$/)[1] === lastVisitVersion) {
-                found = true;
-              } else if (found) {
-                nb += 1;
-              }
-              return false;
-            });
+      this.$axios
+        .$get(tagURL)
+        .then((tags) => {
+          let found = false;
+          let nb = 0;
+          tags.forEach((elt) => {
+            if (!found && elt.ref.match(/v(\d+\.\d+\.\d+)$/)[1] === lastVisitVersion) {
+              found = true;
+            } else if (found) {
+              nb += 1;
+            }
+            return false;
+          });
 
-            self.$data.nbUpdateSinceLastVisit = nb;
+          self.$data.nbUpdateSinceLastVisit = nb;
 
-            self.$store.set("global/lastVisitVersion", self.$clone(self.$data.siteVersion));
-          } else {
-            console.error(xhr.statusText);
-          }
-        }
-      };
-      xhr.onerror = function () {
-        console.error(xhr.statusText);
-      };
-      xhr.send(null);
+          self.$store.set("global/lastVisitVersion", self.$clone(self.$data.siteVersion));
+        })
+        .catch((e) => {
+          console.error("Error when getting GitHub tags: ", e);
+        });
     }
   },
   components: {

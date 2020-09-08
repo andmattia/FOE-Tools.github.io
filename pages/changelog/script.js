@@ -16,22 +16,15 @@ export default {
     };
   },
   mounted() {
-    let xhr = new XMLHttpRequest();
     let self = this;
-    xhr.open("GET", this.$data.url, true);
-    xhr.onload = function () {
-      if (xhr.readyState === 4) {
-        if (xhr.status === 200) {
-          self.$data.markdown = xhr.responseText;
-        } else {
-          console.error(xhr.statusText);
-        }
-      }
-    };
-    xhr.onerror = function () {
-      console.error(xhr.statusText);
-    };
-    xhr.send(null);
+    this.$axios
+      .$get(this.$data.url)
+      .then((markdown) => {
+        self.$data.markdown = markdown;
+      })
+      .catch((e) => {
+        console.error("Error when getting changelog: ", e);
+      });
   },
   components: {
     Remark,

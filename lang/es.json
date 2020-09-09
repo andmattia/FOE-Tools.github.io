@@ -59,7 +59,7 @@
   "components.cf_calculator.tutorial.totalGoods": "Número de bienes que ganarás con misiones, GEs, etc.",
   "components.cf_calculator.tutorial.tableReward": "Esta tabla le muestra las recompensas que ganará. Tenga en cuenta que los valores se basan en una probabilidad empírica.",
   "components.cf_calculator.tutorial.cumulativeQuest": "En ese caso, debe establecer el número de misiones que desea hacer.",
-  "components.cf_calculator.tutorial.yourCfBoost": "Indique su bono de @:(foe_data.gb.Chateau_Frontenac).",
+  "components.cf_calculator.tutorial.yourCfBoost": "Indique su bono de @:(foe_data.gb.Chateau_Frontenac).\n\nEjemplo: para 450%, ponga 450.",
   "components.cf_calculator.tutorial.fpBy24h": "Ponga la cantidad de FP que obtiene en 24 horas.",
   "components.cf_calculator.tutorial.goods": "Ponga la cantidad de bienes que recolecta de su GE y saqueos.",
   "components.cf_calculator.tutorial.supplies": "Ponga la cantidad de suministros que desea usar para todas las misiones.",

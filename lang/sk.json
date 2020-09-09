@@ -59,7 +59,7 @@
   "components.cf_calculator.tutorial.goods": "Vložte množstvo materiálu ktoré získavate z VB a rabovania.",
   "components.cf_calculator.tutorial.supplies": "Vložte množstvo zásob, ktoré chcete použiť pre všetky úlohy.",
   "components.cf_calculator.tutorial.coins": "Vložte množstvo mincí, ktoré chcete použiť pre všetky úlohy.",
-  "components.cf_calculator.tutorial.yourCfBoost": "Vložte svoj@:(foe_data.gb.Chateau_Frontenac) bonus.\nPríklad: pre 450%, vložte 450.",
+  "components.cf_calculator.tutorial.yourCfBoost": "Vložte svoj@:(foe_data.gb.Chateau_Frontenac) bonus.\n\nPríklad: pre 450%, vložte 450.",
   "components.cf_calculator.tutorial.yourAge": "Vyberte si svoj vek.",
   "components.cf_calculator.tutorial.welcome": "Tento nástroj je čisto informatívny. Poskytuje informácie ktoré sa dajú získať štatisticky s Vaším @:(foe_data.gb.Chateau_Frontenac).",
   "components.gb_investment.gb_list_select.label": "Zmeňte Veľkolepú budovu",

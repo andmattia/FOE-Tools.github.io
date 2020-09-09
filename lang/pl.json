@@ -57,7 +57,7 @@
   "components.gb_investment.gb_investment.form.submit_custom": "Własne obliczenia",
   "components.gb_investment.gb_investment.form.owner_investment": "Liczba PR aktualnie umieszczonych przez właściciela (max {max})",
   "components.gb_investment.gb_investment.form.add_investors": "Dodaj inwestorów (wpisz ilość PR, $t(utils.between_range, { 'min': '{min}', 'max': '{max}' }))",
-  "components.gb_investment.gb_investment.form.tooltip_add_investors": "Naciśnij na \"@:(utils.Add)\" przycisk lub wciśnij  \"Enter\" by dodać wpłacającego",
+  "components.gb_investment.gb_investment.form.tooltip_add_investors": "Naciśnij na \"@:(utils.Add)\" przycisk lub wciśnij \"Enter\" by dodać wpłacającego",
   "components.gb_investment.gb_investment.form.investors_list": "Lista dodanych wpłacających",
   "components.gb_investment.gb_investment.form.show_snipe": "Pokaż wymagane PR'y do zajęcia miejsca",
   "components.gb_investment.gb_investment.form.show_only_secured_places": "Pokaż tylko zabezpieczone miejsca",

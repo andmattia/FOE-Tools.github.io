@@ -127,5 +127,6 @@
   "footer_menu.contact": "Yhteystiedot",
   "footer_menu.changelog": "Muutosloki",
   "footer_menu.contributors": "Kirjoittajat",
-  "footer_menu.about": "Tietoja"
+  "footer_menu.about": "Tietoja",
+  "footer_menu.privacy_policy": "Yksityisyydensuoja"
 }

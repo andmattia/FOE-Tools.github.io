@@ -48,7 +48,7 @@
   "components.cf_calculator.tutorial.welcome": "Dit programma Is enkel informatief. Het geeft je informatie wat je kan statistisch bereiken met je @:(foe_data.gb.Chateau_Frontenac).",
   "components.cf_calculator.tutorial.checkSecondQuest": "From @:(foe_data.age.LateMiddleAges), you can do a second recurring quest. Set \"@:(utils.Yes)\" if you want to do the second recurring quest.\n\n<i><b>Note</b>: It suppose that the second reccuring quest are: gather X supplies.</i>.",
   "components.cf_calculator.tutorial.fpBy24h": "Vul aantal FP's in die je per 24 uur verzamelt.",
-  "components.cf_calculator.tutorial.goods": "Hoeveelheid Goederen welke je krijgt bij Plunderen & Incasseren van GG's",
+  "components.cf_calculator.tutorial.goods": "Hoeveelheid Goederen welke je krijgt bij Plunderen & Incasseren van GG's.",
   "components.cf_calculator.tutorial.supplies": "Vul het aantal voorraden in dat je voor alle missies wenst te gebruiken.",
   "components.cf_calculator.tutorial.coins": "Vul het aantal munten in dat je voor alle missies wenst te gebruiken.",
   "components.cf_calculator.tutorial.yourCfBoost": "Voer je @:(foe_data.gb.Chateau_Frontenac) boost in.\n\nBijv: bij 450%, voer in: 450.",

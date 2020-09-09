@@ -66,7 +66,7 @@
       div.container
         div.columns
           div.column.is-8-desktop.is-offset-2-desktop
-            h1.title.is-2.is-spaced {{$t($store.get('hero@title'))}}
+            h1.title.is-2.is-spaced {{$t($store.get('hero@title'), $store.get('hero@titleConfig'))}}
             h2.subtitle.is-4(v-html="$t($store.get('hero@subtitle'))")
 
   main.container.is-fullheight

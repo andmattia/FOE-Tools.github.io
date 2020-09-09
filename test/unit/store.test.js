@@ -27,14 +27,17 @@ describe("Store", () => {
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "components.site_layout.hero.title",
       subtitle: "components.site_layout.hero.slogan_html",
+      titleConfig: {},
     });
     wrapper.vm.$store.set("hero", {
       title: i18nPrefix + "hero.title",
       subtitle: i18nPrefix + "hero.subtitle",
+      titleConfig: {},
     });
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "routes.secure_position.hero.title",
       subtitle: "routes.secure_position.hero.subtitle",
+      titleConfig: {},
     });
   });
 
@@ -43,19 +46,23 @@ describe("Store", () => {
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "components.site_layout.hero.title",
       subtitle: "components.site_layout.hero.slogan_html",
+      titleConfig: {},
     });
     wrapper.vm.$store.set("hero", {
       title: i18nPrefix + "hero.title",
       subtitle: i18nPrefix + "hero.subtitle",
+      titleConfig: {},
     });
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "routes.secure_position.hero.title",
       subtitle: "routes.secure_position.hero.subtitle",
+      titleConfig: {},
     });
     wrapper.vm.$store.commit("RESTORE_HERO");
     expect(wrapper.vm.$store.get("hero")).toEqual({
       title: "components.site_layout.hero.title",
       subtitle: "components.site_layout.hero.slogan_html",
+      titleConfig: {},
     });
   });
 

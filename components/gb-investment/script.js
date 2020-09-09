@@ -643,7 +643,7 @@ export default {
   },
   methods: {
     goTo(val) {
-      this.$router.push(this.localePath(`/gb-investment/${val}/`));
+      this.$router.push(this.localePath({ name: "GbInvestment", params: { gb: val } }));
     },
     calculate() {
       if (this.maxInvestment < 0) {

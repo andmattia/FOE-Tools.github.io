@@ -3,6 +3,7 @@
     "babel-jest",
     "eslint",
     "jest",
-    "enumify"
+    "enumify",
+    "shepherd.js"
   ]
 }

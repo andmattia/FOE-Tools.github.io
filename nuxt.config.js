@@ -625,6 +625,10 @@ module.exports = {
 
   build: {
     extractCSS: true,
+    babel: {
+      babelrc: true,
+      configFile: "./.babelrc",
+    },
   },
 
   buildModules: ["@nuxtjs/router-extras"],

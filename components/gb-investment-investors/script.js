@@ -397,7 +397,7 @@ export default {
       return Utils.normalizeNumberValue(this.$data.to, 1);
     },
     goTo(val) {
-      this.$router.push(this.localePath(`/gb-investment/${val}/`));
+      this.$router.push(this.localePath({ name: "GbInvestment", params: { gb: val } }));
     },
     haveError(key) {
       return this.$data.errors[key] ? "is-danger" : "";

@@ -390,7 +390,7 @@ export default {
         );
         this.$data.estimatedTimeSwapThreads = Utils.getFormatedDuration(
           this.$moment.duration(
-            Math.ceil((this.$data.previsionResult.global.cost - this.$data.alreadyInvested) / val),
+            Math.ceil((this.$data.previsionResult.global.cost - this.$data.alreadyInvested) / this.$data.fpBy24h),
             "days"
           ),
           this.$i18n

@@ -9,6 +9,7 @@ import Vue from "vue";
 
 const hero = {
   title: "components.site_layout.hero.title",
+  titleConfig: {},
   subtitle: "components.site_layout.hero.slogan_html",
 };
 

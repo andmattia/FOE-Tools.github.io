@@ -24,9 +24,10 @@ export default {
   },
   head() {
     this.$store.set("hero", {
-      title: this.$t(i18nPrefix + "hero.title", {
+      title: `${i18nPrefix}hero.title`,
+      titleConfig: {
         gb_key: this.$t("foe_data.gb." + this.$data.gb.key),
-      }),
+      },
       subtitle: "routes.gb_investment_gb_chooser.hero.subtitle",
     });
 

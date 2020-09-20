@@ -1471,7 +1471,7 @@ msgstr "Tempio del Loto"
 msgid "foe_data.gb.Innovation_Tower"
 msgstr "Innovation Tower"
 
-msgid "foe_data.gb.Dynamic_Tower"
+msgid "foe_data.gb.Truce_Tower"
 msgstr "Dynamic Tower"
 
 msgid "foe_data.gb.Voyager_V1"

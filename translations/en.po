@@ -1690,7 +1690,7 @@ msgstr "Lotus Temple"
 msgid "foe_data.gb.Innovation_Tower"
 msgstr "Innovation Tower"
 
-msgid "foe_data.gb.Dynamic_Tower"
+msgid "foe_data.gb.Truce_Tower"
 msgstr "Truce Tower"
 
 msgid "foe_data.gb.Voyager_V1"
@@ -1810,7 +1810,7 @@ msgstr "LT"
 msgid "foe_data.gb_short.Innovation_Tower"
 msgstr "Inno"
 
-msgid "foe_data.gb_short.Dynamic_Tower"
+msgid "foe_data.gb_short.Truce_Tower"
 msgstr "Truce"
 
 msgid "foe_data.gb_short.Voyager_V1"

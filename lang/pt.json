@@ -69,7 +69,7 @@
   "components.gb_investment.gb_list_select.info": "Podes mudar o estilo do seleccionador (seleccionador manual ou de preenchimento automático) nas definições globais",
   "components.gb_investment.gb_investment.title": "@:(routes.gb_investment_gb_chooser.hero.title)",
   "components.gb_investment.gb_investment.description.p1": "Insira o nível de % de bónus da Arca (90% para o nível 80 da Arca). Os valores na tabela são actualizados automaticamente.",
-  "components.gb_investment.gb_investment.description.p2_html": "</strong>Nota<strong>:Se não for actualizado automaticamente,defina primeiro o nível do GE e o valor total do investimento e clica em @:(components.gb_investment.gb_investment.form.submit_global) \"Se quiseres ajustar os valores de cada lugar,clica em\"@:(components.gb_investment.gb_investment.form.submit_custom)\".",
+  "components.gb_investment.gb_investment.description.p2_html": "<strong>Nota</strong>:Se não for actualizado automaticamente,defina primeiro o nível do GE e o valor total do investimento e clica em @:(components.gb_investment.gb_investment.form.submit_global) \"Se quiseres ajustar os valores de cada lugar,clica em\"@:(components.gb_investment.gb_investment.form.submit_custom)\".",
   "components.gb_investment.gb_investment.form.level": "Level {fromLevel} → {level} (@:(utils.between_range))",
   "components.gb_investment.gb_investment.form.investor_percentage": "% do bónus dos investidores (bónus da arca)",
   "components.gb_investment.gb_investment.form.submit_global": "Calculo Global",

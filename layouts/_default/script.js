@@ -575,6 +575,6 @@ export default {
   },
   components: {
     languageSelector,
-    gbListSelect
+    gbListSelect,
   },
 };

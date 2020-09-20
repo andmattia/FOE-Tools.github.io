@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[78],{594:function(t,e,o){"use strict";o.r(e);var n=o(285),r="routes.secure_position.";e.default={name:"SecurePosition",head:function(){return this.$store.set("hero",{title:r+"hero.title",subtitle:r+"hero.subtitle"}),{title:this.$t(r+"title")}},data:function(){return{}},components:{securePosition:n.a}}}}]);

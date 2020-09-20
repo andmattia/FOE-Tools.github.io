@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{586:function(t,e,o){"use strict";o.r(e);e.default={name:"Contact",head:function(){return this.$store.set("hero",{title:"routes.contact.hero.title",subtitle:"routes.contact.hero.subtitle"}),{title:this.$t("routes.contact.title")}},data:function(){return{i18nPrefix:"routes.contact."}}}}}]);

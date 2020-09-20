@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{83:function(e){e.exports=JSON.parse('{"main_menu.gb_investment":"@:(routes.gb_investment_gb_chooser.hero.title)","main_menu.home":"Acasă"}')}}]);

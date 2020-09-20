@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[54],{588:function(o,t,e){"use strict";e.r(t);t.default={name:"CookiePolicy",head:function(){return{title:this.$t("routes.cookie_policy.title")}},data:function(){return{i18nPrefix:"routes.cookie_policy."}}}}}]);

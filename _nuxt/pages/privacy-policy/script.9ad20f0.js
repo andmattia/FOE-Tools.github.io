@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[75],{593:function(t,n,e){"use strict";e.r(n);n.default={name:"PrivacyPolicy",head:function(){return{title:this.$t("routes.privacy_policy.title")}},data:function(){return{i18nPrefix:"routes.privacy_policy."}}}}}]);

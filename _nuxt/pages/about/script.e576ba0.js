@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{582:function(t,e,o){"use strict";o.r(e);e.default={name:"About",head:function(){return{title:this.$t("routes.about.title")}},data:function(){return this.$store.commit("RESTORE_HERO"),{i18nPrefix:"routes.about.",cookiesData:[{name:"cookieConsent"},{name:"locale"}]}}}}}]);

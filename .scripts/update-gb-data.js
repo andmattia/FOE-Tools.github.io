@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 let config = require("./config.json");
 const urlConfig = require("./url.json");
-const locale = require("../locales/en");
+const locale = require("../lang/en");
 
 const ages = [
   "BronzeAge",
@@ -117,10 +117,10 @@ Add GB levels (cost and reward) of:\n`;
     }
     config[age] = value[age].to ? value[age].to : value[age].from;
     if (age === "HighMiddleAges") {
-      commitMessage += `- ${locale.translation.foe_data.age.HighMiddleAges} / ${locale.translation.foe_data.age.NoAge}: ${value.HighMiddleAges.to ?
+      commitMessage += `- ${locale["foe_data.age.HighMiddleAges"]} / ${locale["foe_data.age.NoAge"]}: ${value.HighMiddleAges.to ?
         value.HighMiddleAges.from + ' to ' + value.HighMiddleAges.to : value.HighMiddleAges.from}\n`;
     } else {
-      commitMessage += `- ${locale.translation.foe_data.age[age]}: ${value[age].to ?
+      commitMessage += `- ${locale[`foe_data.age.${age}`]}: ${value[age].to ?
         value[age].from + ' to ' + value[age].to : value[age].from}\n`;
     }
   }

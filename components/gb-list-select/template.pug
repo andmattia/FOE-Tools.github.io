@@ -1,5 +1,5 @@
 b-field(:label-for="id")
-  template(slot="label")
+  template(v-if="!onlySelector" slot="label")
     .media
       span.media-content {{$t(i18nPrefix + 'label')}}
       div.media-right

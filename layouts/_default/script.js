@@ -1,5 +1,6 @@
 import Vue from "vue";
 import languageSelector from "~/components/language-selector/LanguageSelector";
+import gbListSelect from "~/components/gb-list-select/GbListSelect";
 import packageConfig from "~/package.json";
 import Utils from "~/scripts/utils";
 import GlobalSettings from "./components/dialogGlobalSettings/DialogGlobalSettings";
@@ -514,6 +515,9 @@ export default {
       });
       this.$store.set(`global/customPromotionMessagesTemplates`, customPromotionMessagesTemplates);
     },
+    goTo(val) {
+      this.$router.push(this.localePath({ name: "GbInvestment", params: { gb: val } }));
+    },
   },
   mounted: /* istanbul ignore next */ function () {
     let addToAnyScript1 = document.createElement("script");
@@ -571,5 +575,6 @@ export default {
   },
   components: {
     languageSelector,
+    gbListSelect,
   },
 };

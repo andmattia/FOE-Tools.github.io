@@ -4,6 +4,9 @@
       div.navbar-brand
         nuxt-link.navbar-item(:to="localePath({ name: 'Home' })")
           img(src="/img/icons/logo.png" alt="FOE-Tools logo" width="28" height="28")
+        div.is-hidden-desktop(v-if="['GbInvestment'].indexOf(/^([^_]+)(?:___.+)?$/.exec($route.name)[1]) >= 0")
+          gb-list-select(:current="$route.params.gb" @change="goTo($event)" :only-selector="true")
+
         div.navbar-burger.burger(:class="{'is-active': burgerMenuVisible}" data-target="mainNavbar" @click="toggleMenu")
           span
           span
@@ -73,20 +76,20 @@
     .hero.main-hero
       .hero-body
         div.container
-          div.columns.is-centered.is-margin-top-one-em-touch(v-show="isNewYear")
+          div.columns.is-centered.is-margin-top-one-em-touch.no-lr-margin(v-show="isNewYear")
             div.column.is-three-quarters
               b-notification.newYearNotification(:class="dayNightMode === 'day' ? 'is-dark' : 'is-light'") 🎉&nbsp;&nbsp;{{$tc(i18nPrefix + 'new_year.message', nbYears, { count: $n(nbYears) })}}&nbsp;&nbsp;🍰
-          div.columns.is-centered.is-margin-top-one-em-touch(v-show="hasSurvey")
+          div.columns.is-centered.is-margin-top-one-em-touch.no-lr-margin(v-show="hasSurvey")
             div.column.is-three-quarters
               b-notification(type="is-info" :closable="false")
                 nuxt-link(:to="localePath({ name: 'Survey' })") {{$t(i18nPrefix + 'survey.message')}}
-          div.columns.is-centered.is-margin-top-one-em-touch(v-show="nbUpdateSinceLastVisit")
+          div.columns.is-centered.is-margin-top-one-em-touch.no-lr-margin(v-show="nbUpdateSinceLastVisit")
             div.column.is-three-quarters
               b-notification(type="is-info" :closable="true")
                 p {{$tc(i18nPrefix + 'update', nbUpdateSinceLastVisit, { count: $n(nbUpdateSinceLastVisit) })}}
                 nuxt-link(:to="localePath({ name: 'Changelog' })") {{$t(i18nPrefix + 'whats_new')}}
-          div.columns.is-centered
-            div.column.is-11-desktop.is-three-quarters-fullhd.is-three-quarters-widescreen.is-full-tablet
+          div.columns.is-centered.no-lr-margin
+            div.column.is-11-desktop.is-three-quarters-fullhd.is-three-quarters-widescreen.is-full-tablet.no-lr-padding
               div(v-if="(['Home', 'GbInvestmentChooser', 'GbInvestment', 'Contributors'].indexOf(/^([^_]+)(?:___.+)?$/.exec($route.name)[1]) >= 0) && !$route.params.gb")
                 nuxt
               div.card.article(v-else)

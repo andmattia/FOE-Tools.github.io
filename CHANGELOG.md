@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.70.0](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.69.1...v2.70.0) (2020-09-20)
+
+
+### Features
+
+* add GB selector in the top menu on smartphone ([a1a162d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/a1a162d6309de794ccc5c040add93f8f2f885001))
+* improve ergonomie on smartphone ([bb9d9fe](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/bb9d9fe8a4d35f4b07a188c1d4740934e892b64f))
+* **foe-data:** add levels of several ages ([6460965](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/64609650040f34a327d6c37da40019dbcc7f37c0))
+* **gb:** add Galata Tower ([67bc80b](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/67bc80bf7247a5eddc0889d8a6560afa6659540f))
+
+
+### Bug Fixes
+
+* **gb-forecast-cost:** fix bad calculation for swap threads ([e51117d](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/e51117dcfe412c12fd25819aa5b1479b95e27d72)), closes [#350](https://github.com/FOE-Tools/FOE-Tools.github.io/issues/350)
+
+
+### Translation
+
+* Translated using Weblate (English) ([ff30395](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/ff30395fff947a45031d9bc58286c15d3287074d))
+* Translated using Weblate (French) ([c6060b6](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/c6060b666df091b0337dbd7e015ffdd924a327b4))
+* Translated using Weblate (Portuguese) ([acc856e](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/acc856e00e51d467c603b013b7f810b258153a5a))
+* Translated using Weblate (Russian) ([64ac4fd](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/64ac4fd16480a5d7e054beb30348771ba4c73896))
+* Translated using Weblate (Swedish) ([16a8b25](https://github.com/FOE-Tools/FOE-Tools.github.io/commit/16a8b2530a14796e18c28e1812cba808ad696bd5))
+
 ### [2.69.1](https://github.com/FOE-Tools/FOE-Tools.github.io/compare/v2.69.0...v2.69.1) (2020-09-09)
 
 

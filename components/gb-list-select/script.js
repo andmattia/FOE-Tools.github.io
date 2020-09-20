@@ -12,6 +12,10 @@ export default {
       type: String,
       required: true,
     },
+    onlySelector: {
+      type: Boolean,
+      default: false,
+    },
   },
   data() {
     gbs = this.$store.get("foe/gbs@gbs");

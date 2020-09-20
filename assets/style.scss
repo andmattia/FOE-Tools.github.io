@@ -266,3 +266,9 @@ table.table.has-table-cards {
 .donation:hover {
   background-position: right center;
 }
+
+// Style of the GB selector inside the menu bar
+div.navbar-brand .field {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}

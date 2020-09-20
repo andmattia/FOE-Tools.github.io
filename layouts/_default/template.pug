@@ -4,6 +4,9 @@
       div.navbar-brand
         nuxt-link.navbar-item(:to="localePath({ name: 'Home' })")
           img(src="/img/icons/logo.png" alt="FOE-Tools logo" width="28" height="28")
+        div.is-hidden-desktop(v-if="['GbInvestment'].indexOf(/^([^_]+)(?:___.+)?$/.exec($route.name)[1]) >= 0")
+          gb-list-select(:current="$route.params.gb" @change="goTo($event)" :only-selector="true")
+
         div.navbar-burger.burger(:class="{'is-active': burgerMenuVisible}" data-target="mainNavbar" @click="toggleMenu")
           span
           span

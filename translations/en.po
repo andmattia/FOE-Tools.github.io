@@ -1621,6 +1621,9 @@ msgstr "Temple of Relics"
 msgid "foe_data.gb.Oracle_of_Delphi"
 msgstr "Oracle of Delphi"
 
+msgid "foe_data.gb.Galata_Tower"
+msgstr "Galata Tower"
+
 msgid "foe_data.gb.Tower_of_Babel"
 msgstr "Tower of Babel"
 

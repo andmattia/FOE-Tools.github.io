@@ -272,3 +272,20 @@ div.navbar-brand .field {
   margin-bottom: .5em;
   margin-top: .5em;
 }
+
+// Remove padding of the main content on small screens
+@media screen and (max-width: $tablet - 1) {
+  .main-hero .hero-body {
+    padding: 0 !important;
+  }
+}
+
+.no-lr-margin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.no-lr-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
